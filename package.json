@@ -1,7 +1,6 @@
 {
-  "name": "tailwindui-syntax",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nostr-how",
+  "packageManager": "yarn@3.3.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,20 +18,20 @@
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
     "focus-visible": "^5.2.0",
+    "js-yaml": "^4.1.0",
     "next": "13.0.2",
+    "postcss": "^8.4.21",
     "postcss-focus-visible": "^6.0.4",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^14.1.0",
     "prism-react-renderer": "^1.3.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "^3.2.1"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.59",
-    "@swc/core": "^1.3.26",
-    "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.2.1"
+    "prettier-plugin-tailwindcss": "^0.1.13"
   }
 }
