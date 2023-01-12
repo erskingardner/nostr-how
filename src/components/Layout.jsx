@@ -45,9 +45,6 @@ const navigation = [
     title: 'Contributing',
     links: [
       { title: 'How to contribute', href: '/contribute' },
-      { title: 'Help us translate', href: '/contribute/translate' },
-      { title: 'Write guides', href: '/contribute/write' },
-      { title: 'Improve the site', href: '/contribute/code' },
     ],
   },
 ]
