@@ -29,10 +29,17 @@ const navigation = [
     ],
   },
   {
-    title: 'The Clients',
+    title: 'Clients',
     links: [
       { title: 'How do clients work?', href: '/clients' },
       { title: 'Client comparison list', href: '/clients/comparison' },
+    ],
+  },
+  {
+    title: 'Relays',
+    links: [
+      { title: 'What are relays?', href: '/relays' },
+      { title: 'List of known relays', href: '/relays/list' },
     ],
   },
   {
