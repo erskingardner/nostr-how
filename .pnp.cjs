@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.2"],\
             ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.7"],\
-            ["@markdoc/markdoc", "npm:0.1.7"],\
+            ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
             ["@sindresorhus/slugify", "npm:2.1.1"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
@@ -383,10 +383,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@markdoc/markdoc", [\
-        ["npm:0.1.7", {\
-          "packageLocation": "./.yarn/cache/@markdoc-markdoc-npm-0.1.7-3f5e7496df-802a76a617.zip/node_modules/@markdoc/markdoc/",\
+        ["npm:0.2.1", {\
+          "packageLocation": "./.yarn/cache/@markdoc-markdoc-npm-0.2.1-07c0da4be1-2a5db32f6e.zip/node_modules/@markdoc/markdoc/",\
           "packageDependencies": [\
-            ["@markdoc/markdoc", "npm:0.1.7"]\
+            ["@markdoc/markdoc", "npm:0.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@markdoc-markdoc-virtual-03e7c4bd79/0/cache/@markdoc-markdoc-npm-0.2.1-07c0da4be1-2a5db32f6e.zip/node_modules/@markdoc/markdoc/",\
+          "packageDependencies": [\
+            ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
+            ["@types/markdown-it", "npm:12.2.3"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -403,7 +417,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@markdoc-next.js-virtual-3235038d9d/0/cache/@markdoc-next.js-npm-0.1.6-6d89e19174-dd37285c80.zip/node_modules/@markdoc/next.js/",\
           "packageDependencies": [\
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
-            ["@markdoc/markdoc", "npm:0.1.7"],\
+            ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@types/markdoc__markdoc", null],\
             ["@types/next", null],\
             ["@types/react", null],\
@@ -691,6 +705,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/linkify-it", [\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/@types-linkify-it-npm-3.0.2-ccb33717e7-dff8f10faf.zip/node_modules/@types/linkify-it/",\
+          "packageDependencies": [\
+            ["@types/linkify-it", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/markdown-it", [\
+        ["npm:12.2.3", {\
+          "packageLocation": "./.yarn/cache/@types-markdown-it-npm-12.2.3-ef47108ac6-868824a3e4.zip/node_modules/@types/markdown-it/",\
+          "packageDependencies": [\
+            ["@types/markdown-it", "npm:12.2.3"],\
+            ["@types/linkify-it", "npm:3.0.2"],\
+            ["@types/mdurl", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/mdurl", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/@types-mdurl-npm-1.0.2-5b57c94d95-79c7e523b3.zip/node_modules/@types/mdurl/",\
+          "packageDependencies": [\
+            ["@types/mdurl", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3482,7 +3525,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nostr-how", "workspace:."],\
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.2"],\
             ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.7"],\
-            ["@markdoc/markdoc", "npm:0.1.7"],\
+            ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
             ["@sindresorhus/slugify", "npm:2.1.1"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
