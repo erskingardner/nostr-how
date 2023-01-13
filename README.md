@@ -1,7 +1,7 @@
 ## Getting started
 
-1. Install dependencies with `npm install`
-2. Run the development server with `npm run dev`
+1. We're using Yarn's zero installs set up so you don't need to install dependencies as they are included in the repo.
+2. Run the development server with `yarn run dev`
 3. Access the site in development at [http://localhost:3000](http://localhost:3000)
 
 ## Contributing
