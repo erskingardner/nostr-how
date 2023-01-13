@@ -3,8 +3,12 @@ title: Relays
 description: What are Relays and how do they work
 ---
 
-Relays are Nostrs servers, they power the network and allow users to broadcast and read notes.
+What are Relays and how do they work?
 
 ---
 
 ## What are Relays?
+
+Relays are like the backend servers for Nostr. They allow Nostr clients to send them messages, and they may (or may not) store those messages and broadcast those messages to all other connected clients.
+
+[//]: # (TODO: IMAGE OF CLIENTS AND RELAYS)
