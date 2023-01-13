@@ -265,10 +265,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markdoc/markdoc@npm:0.1.7":
-  version: 0.1.7
-  resolution: "@markdoc/markdoc@npm:0.1.7"
-  checksum: 802a76a6171791e58b72fb92f4f869348ced18a45f159174d9bc0db1cd1041e077ed34b7328c266d2ea94834e27e540b69534e0267396390e2e1cd8f10769322
+"@markdoc/markdoc@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@markdoc/markdoc@npm:0.2.1"
+  dependencies:
+    "@types/markdown-it": 12.2.3
+  peerDependencies:
+    "@types/react": "*"
+    react: "*"
+  dependenciesMeta:
+    "@types/markdown-it":
+      optional: true
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+  checksum: 2a5db32f6e03fbee12bf2f15450e7b4e11b1f49d80abe455f0c54d72f9d4239dc398a8ed84f799c409e0d01bcb35e1f9db0b7b86084ad50efb3547573520a9d3
   languageName: node
   linkType: hard
 
@@ -499,6 +512,30 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
+  languageName: node
+  linkType: hard
+
+"@types/linkify-it@npm:*":
+  version: 3.0.2
+  resolution: "@types/linkify-it@npm:3.0.2"
+  checksum: dff8f10fafb885422474e456596f12d518ec4cdd6c33cca7a08e7c86b912d301ed91cf5a7613e148c45a12600dc9ab3d85ad16d5b48dc1aaeda151a68f16b536
+  languageName: node
+  linkType: hard
+
+"@types/markdown-it@npm:12.2.3":
+  version: 12.2.3
+  resolution: "@types/markdown-it@npm:12.2.3"
+  dependencies:
+    "@types/linkify-it": "*"
+    "@types/mdurl": "*"
+  checksum: 868824a3e4d00718ba9cd4762cf16694762a670860f4b402e6e9f952b6841a2027488bdc55d05c2b960bf5078df21a9d041270af7e8949514645fe88fdb722ac
+  languageName: node
+  linkType: hard
+
+"@types/mdurl@npm:*":
+  version: 1.0.2
+  resolution: "@types/mdurl@npm:1.0.2"
+  checksum: 79c7e523b377f53cf1f5a240fe23d0c6cae856667692bd21bf1d064eafe5ccc40ae39a2aa0a9a51e8c94d1307228c8f6b121e847124591a9a828c3baf65e86e2
   languageName: node
   linkType: hard
 
@@ -2862,7 +2899,7 @@ __metadata:
   dependencies:
     "@docsearch/react": ^3.2.1
     "@headlessui/react": ^1.7.2
-    "@markdoc/markdoc": 0.1.7
+    "@markdoc/markdoc": 0.2.1
     "@markdoc/next.js": 0.1.6
     "@sindresorhus/slugify": ^2.1.0
     "@tailwindcss/typography": ^0.5.7
