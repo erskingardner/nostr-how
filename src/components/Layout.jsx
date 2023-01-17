@@ -44,15 +44,11 @@ const navigation = [
   },
   {
     title: 'Resources',
-    links: [
-      { title: 'Other resources', href: '/resources' },
-    ],
+    links: [{ title: 'Other resources', href: '/resources' }],
   },
   {
     title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/contribute' },
-    ],
+    links: [{ title: 'How to contribute', href: '/contribute' }],
   },
 ]
 
@@ -100,7 +96,11 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/nostr-protocol/nostr" className="group" aria-label="GitHub">
+        <Link
+          href="https://github.com/nostr-protocol/nostr"
+          className="group"
+          aria-label="GitHub"
+        >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
