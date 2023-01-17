@@ -22,9 +22,7 @@ const code = `{
   "sig": "908a15e46fb4d8675bab026fc230a0e3542bfade63da02d542fb78b2a8513fcd0092619a2c8c1221e581946e0191f2af505dfdf8657a414dbca329186f009262"
 }`
 
-const tabs = [
-  { name: 'event.json', isActive: true },
-]
+const tabs = [{ name: 'event.json', isActive: true }]
 
 function TrafficLightsIcon(props) {
   return (
@@ -56,11 +54,15 @@ export function Hero() {
                 A social network for the decentralized era
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-              Learn about Nostr: A simple, open protocol that enables a truly censorship-resistant & global social network.
+                Learn about Nostr: A simple, open protocol that enables a truly
+                censorship-resistant & global social network.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
-                <Button href="https://github.com/nostr-protocol/nostr" variant="secondary">
+                <Button
+                  href="https://github.com/nostr-protocol/nostr"
+                  variant="secondary"
+                >
                   View on GitHub
                 </Button>
               </div>
