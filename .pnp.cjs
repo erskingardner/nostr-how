@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.2"],\
             ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.7"],\
             ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
-            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
+            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@sindresorhus/slugify", "npm:2.1.1"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
             ["autoprefixer", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:10.4.13"],\
@@ -406,17 +406,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@markdoc/next.js", [\
-        ["npm:0.1.6", {\
-          "packageLocation": "./.yarn/cache/@markdoc-next.js-npm-0.1.6-6d89e19174-dd37285c80.zip/node_modules/@markdoc/next.js/",\
+        ["npm:0.2.1", {\
+          "packageLocation": "./.yarn/cache/@markdoc-next.js-npm-0.2.1-a294c14843-84dd7b66e5.zip/node_modules/@markdoc/next.js/",\
           "packageDependencies": [\
-            ["@markdoc/next.js", "npm:0.1.6"]\
+            ["@markdoc/next.js", "npm:0.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6", {\
-          "packageLocation": "./.yarn/__virtual__/@markdoc-next.js-virtual-3235038d9d/0/cache/@markdoc-next.js-npm-0.1.6-6d89e19174-dd37285c80.zip/node_modules/@markdoc/next.js/",\
+        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@markdoc-next.js-virtual-b1010bcb0f/0/cache/@markdoc-next.js-npm-0.2.1-a294c14843-84dd7b66e5.zip/node_modules/@markdoc/next.js/",\
           "packageDependencies": [\
-            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
+            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@types/markdoc__markdoc", null],\
             ["@types/next", null],\
@@ -3621,7 +3621,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.2"],\
             ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.7"],\
             ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
-            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.6"],\
+            ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.1"],\
             ["@sindresorhus/slugify", "npm:2.1.1"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
             ["autoprefixer", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:10.4.13"],\
