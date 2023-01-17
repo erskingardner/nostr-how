@@ -12,7 +12,7 @@
     "@docsearch/react": "^3.2.1",
     "@headlessui/react": "^1.7.2",
     "@markdoc/markdoc": "0.2.1",
-    "@markdoc/next.js": "0.1.6",
+    "@markdoc/next.js": "0.2.1",
     "@sindresorhus/slugify": "^2.1.0",
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.12",
