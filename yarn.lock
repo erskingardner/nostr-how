@@ -228,15 +228,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:^1.7.2":
-  version: 1.7.7
-  resolution: "@headlessui/react@npm:1.7.7"
+"@headlessui/react@npm:^1.7.8":
+  version: 1.7.8
+  resolution: "@headlessui/react@npm:1.7.8"
   dependencies:
     client-only: ^0.0.1
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: 049d7ee46056fe96067f7b2f4f962672dfc824e68044ae38561a457278c8e38c0fd17592ab648ba5648e7e82bef9890eddbf329c9a00d11acf85700c7072a0bf
+  checksum: 2baf0686b846a9adf38828c95dab370353149234b81a24a2f4f399c8a635027fe3cd04624e52597a7d9b4a1ceebef0508450d625f62ae05433647d403cecd608
   languageName: node
   linkType: hard
 
@@ -3005,7 +3005,7 @@ __metadata:
   resolution: "nostr-how@workspace:."
   dependencies:
     "@docsearch/react": ^3.2.1
-    "@headlessui/react": ^1.7.2
+    "@headlessui/react": ^1.7.8
     "@markdoc/markdoc": 0.2.1
     "@markdoc/next.js": 0.2.1
     "@sindresorhus/slugify": ^2.1.0
