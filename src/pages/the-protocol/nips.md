@@ -3,15 +3,18 @@ title: Nostr Implementation Possibilities (NIPs)
 description: Documentation on what must, should, and may be implemented by Nostr.
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+What are NIPs and why should you care about them?
 
 ---
 
-## How does Nostr work?
+## What is a NIP?
 
-* There are two components: clients and relays. Each user runs a client. Anyone can run a relay.
-* Every user is identified by a public key. Every post is signed. Every client validates these signatures.
-* Clients fetch data from relays of their choice and publish data to other relays of their choice. A relay doesn't talk to another relay, only directly to users.
-* For example, to "follow" someone a user just instructs their client to query the relays it knows for posts from that public key.
-* On startup, a client queries data from all relays it knows for all users it follows (for example, all updates from the last day), then displays that data to the user chronologically.
-* A "post" can contain any kind of structured data, but the most used ones are going to find their way into the standard so all clients and relays can handle them seamlessly.
+A Nostr Implementation Possibilty, or NIP for short, exist to document what MUST, what SHOULD and what MAY be implemented by Nostr-compatible relay and client software. It is a document outlining how the Nostr protocol works.
+
+## Why should I care?
+
+Nostr is decentralized and not owned by a centralized service (like Twitter). This means that the direction of the protocol is up to all of us! We can suggest and advocate for changes and offer feedback on ideas suggested by others. Being an active part of the community gives you a say in the direction of the network. NIPs published in the main repository are already approved. Adding new ideas is done via Pull Request on that repo.
+
+## Where can I find NIPs?
+
+You can see all current NIPs in the [Nostr NIP repo](https://github.com/nostr-protocol/nips).

@@ -32,14 +32,23 @@ const navigation = [
     title: 'Clients',
     links: [
       { title: 'How do clients work?', href: '/clients' },
-      { title: 'Client comparison list', href: '/clients/comparison' },
+      { title: 'Guide: Astral (Web)', href: '/clients/astral' },
+      { title: 'Guide: Damus (iOS)', href: '/clients/damus' },
     ],
   },
   {
     title: 'Relays',
     links: [
       { title: 'What are relays?', href: '/relays' },
-      { title: 'List of known relays', href: '/relays/list' },
+      {
+        title: 'List of relay implementations',
+        href: '/relays/implementations',
+      },
+      {
+        title: 'Nostr Watch ↗️',
+        href: 'https://nostr.watch/relays/find',
+        target: '_blank',
+      },
     ],
   },
   {
