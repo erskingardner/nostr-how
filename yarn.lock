@@ -3019,7 +3019,7 @@ __metadata:
     js-yaml: ^4.1.0
     next: 13.1.6
     postcss: ^8.4.21
-    postcss-focus-visible: ^7.1.0
+    postcss-focus-visible: ^8.0.1
     postcss-import: ^15.1.0
     prettier: ^2.8.3
     prettier-plugin-tailwindcss: ^0.2.1
@@ -3261,14 +3261,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-focus-visible@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "postcss-focus-visible@npm:7.1.0"
+"postcss-focus-visible@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "postcss-focus-visible@npm:8.0.1"
   dependencies:
     postcss-selector-parser: ^6.0.10
   peerDependencies:
-    postcss: ^8.2
-  checksum: 73cb8e9f8f8f6e9e959eb6abfe34882a6880dc986e100bc7e29349fdeb93729b6b19bb8a79442eccb9671595ddf677426f4a3dfe886263c423c976f08563b19b
+    postcss: ^8.4
+  checksum: 6d6734ba0a6f29e7abea016bb136d9e34718d77196551b47acf62ea425920aff1acea3ac4013ae5f038f4506caaea3cd40b1addc4544f7016a923341ca6840b6
   languageName: node
   linkType: hard
 
