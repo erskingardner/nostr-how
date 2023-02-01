@@ -18,6 +18,7 @@ export function Logomark(props) {
 export function Logo(props) {
   return (
     <span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">
+      <img src="/images/nostrich-sq.png" class="mr-2 w-10 opacity-90" />
       Nostr.how
     </span>
   )

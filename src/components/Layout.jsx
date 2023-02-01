@@ -106,7 +106,7 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
-          href="https://github.com/nostr-protocol/nostr"
+          href="https://github.com/erskingardner/nostr-how"
           className="group"
           aria-label="GitHub"
         >
