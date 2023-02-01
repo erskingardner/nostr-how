@@ -1,9 +1,9 @@
 ---
-title: Relays
+title: Relay Implementations
 description: A list of Nostr relay implementations
 ---
 
-This is a list of all known implementations of the Nostr relay spec
+This is a list of all known implementations of the Nostr relay spec. You only need this if you're planning on running a relay yourself.
 
 ---
 
@@ -18,6 +18,7 @@ of the public instances.
 - [Expensive Relay](https://github.com/fiatjaf/relayer/tree/master/expensive): A reference relay that requires payment for registration
 
 ### C#
+
 - [NNostr](https://github.com/Kukks/NNostr): A C# relay
 
 ### Rust
@@ -48,11 +49,3 @@ of the public instances.
 
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): A Kotlin Relay supporting both SQLite and Postgresql
 - [knostr](https://github.com/lpicanco/knostr): A nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer)
-
-
-
-
-
-
-
-

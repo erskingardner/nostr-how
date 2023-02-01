@@ -15,9 +15,11 @@ The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the 
 
 The [NIPs repository](https://github.com/nostr-protocol/nips) is the home of all Nostr NIPs.
 
+## Nostr Relays
+
+- [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
+
 ## Others
 
-* [Awesome Nostr](https://github.com/aljazceru/awesome-nostr) is a repository of links for Nostr clients, relay implementations, and more.
-* [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
-
-
+- [Awesome Nostr](https://github.com/aljazceru/awesome-nostr) is a repository of links for Nostr clients, relay implementations, and more.
+- [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
