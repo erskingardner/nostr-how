@@ -32,6 +32,7 @@ const navigation = [
     title: 'Clients',
     links: [
       { title: 'How do clients work?', href: '/clients' },
+      { title: 'Guide: Iris (Web)', href: '/clients/iris' },
       { title: 'Guide: Astral (Web)', href: '/clients/astral' },
       { title: 'Guide: Damus (iOS)', href: '/clients/damus' },
     ],
