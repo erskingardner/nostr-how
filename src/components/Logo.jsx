@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 function LogomarkPaths() {
   return (
     <g fill="none" stroke="#38BDF8" strokeLinejoin="round" strokeWidth={3}>
@@ -18,7 +20,13 @@ export function Logomark(props) {
 export function Logo(props) {
   return (
     <span className="flex font-display text-2xl font-bold text-slate-900 dark:text-sky-100 md:text-3xl">
-      <img src="/images/webp/nostrich-sq.webp" class="mr-2 w-10 opacity-90" />
+      <Image
+        src="/images/webp/nostrich-sq.webp"
+        className="mr-2 w-10 opacity-90"
+        width="40"
+        height="40"
+        alt="Nostr.how"
+      />
       Nostr.how
     </span>
   )
