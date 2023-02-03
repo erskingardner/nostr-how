@@ -27,7 +27,7 @@ You will access Nostr (the protocol) via a client. Clients can be web, desktop, 
 
 Here are guides to a few different clients we recommend.
 
-- [Astral](/clients/astral) (Web)
+- [Iris](/clients/iris) (Web)
 - [Damus](/clients/damus) (iOS)
 - Amethyst (Android) _coming soon_
 
