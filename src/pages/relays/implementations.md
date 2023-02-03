@@ -14,8 +14,7 @@ of the public instances.
 
 ### Go
 
-- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic): A simple reference relay backed by Postgres
-- [Expensive Relay](https://github.com/fiatjaf/relayer/tree/master/expensive): A reference relay that requires payment for registration
+- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic): A simple reference relay backed by Postgres, written as a demo on top of the [Relayer](https://github.com/fiatjaf/relayer) framework for building custom relays
 
 ### C#
 
@@ -26,11 +25,7 @@ of the public instances.
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/): A minimalistic relay written in Rust that saves data on SQLite
 - [søstr](https://github.com/metasikander/s0str): A private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
 
-### Node.js
-
-- [nodestr](https://github.com/Dolu89/nodestr-relay): A Node.js implementation
-
-### Typescript
+### Node.js / Typescript
 
 - [nostream](https://github.com/Cameri/nostream): A nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): A relay for [Minds](https://www.minds.com), an open-source social network
