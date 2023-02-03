@@ -8,9 +8,10 @@ How to verify your identity on Nostr and get a verification checkmark and an eas
 ---
 
 ## NIP-05 Verification
+
 You might have noticed on Astral (and other clients) that some users have checks, just like on Twitter.
 
-![Astral Verified](/images/astral-verified.png)
+![Astral Verified](/images/webp/astral-verified.webp)
 
 The verification process on Nostr is docuemented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
 
@@ -31,7 +32,6 @@ While it sounds technical, it's suprisingly easy to get verified. Let's see how 
 
 If you don't have your own domain or don't want to set it up yourself, you can take advantage of a NIP-05 service, such as [nostrplebs.com](https://nostrplebs.com). In exchange for a handful of [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats), you can add your public key to thier `nostr.json`.
 
-
 ### Option 2: Self hosted verification
 
 If you already own a domain, this is a free option. You just need to add a `.well-known/nostr.json` file to your domain. The contents of the file should be the following:
@@ -45,6 +45,3 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 ```
 
 Make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.
-
-
-
