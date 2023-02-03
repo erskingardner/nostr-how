@@ -18,8 +18,6 @@ Nostr is a simple, open protocol that enables global, decentralized, and censors
 
 {% /quick-links %}
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste.
-
 ---
 
 ## What is Nostr?
