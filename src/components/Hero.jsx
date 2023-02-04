@@ -5,8 +5,8 @@ import Highlight, { defaultProps } from 'prism-react-renderer'
 
 import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
-import blurCyanImage from '@/images/blur-cyan.png'
-import blurIndigoImage from '@/images/blur-indigo.png'
+import blurCyanImage from '@/images/blur-cyan.webp'
+import blurIndigoImage from '@/images/blur-indigo.webp'
 
 const codeLanguage = 'json'
 const code = `{
