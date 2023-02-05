@@ -35,6 +35,7 @@ const navigation = [
       { title: 'Guide: Iris (Web)', href: '/clients/iris' },
       { title: 'Guide: Astral (Web)', href: '/clients/astral' },
       { title: 'Guide: Damus (iOS)', href: '/clients/damus' },
+      { title: 'Guide: Amethyst (Android)', href: '/clients/amethyst' },
     ],
   },
   {

@@ -36,4 +36,4 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 
 ### Android
 
-- [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst&hl=en&pli=1)
+- [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)
