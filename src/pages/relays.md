@@ -19,7 +19,7 @@ The best resource we've found for browsing and assessing the speed of known rela
 
 ## What happens if all the relays I use stop working?
 
-If _all_ the relays that you have used in the past go offline, all your posts will be unretrievable. This is one reason that Nostr allows users to connect to many relays – this ensures some degree of backup. That said, if you're really interested in being uncensorable, you can run your own personal relay.
+If _all_ the relays that you have used in the past go offline, all your posts will be unretrievable. This is one reason that Nostr allows users to connect to many relays – this ensures some degree of backup. That said, if you're really interested in being uncensorable, you can run your own personal relay.
 
 ## Should I run my own relay?
 
