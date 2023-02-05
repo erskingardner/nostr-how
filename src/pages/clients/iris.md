@@ -29,7 +29,7 @@ Once you have the extension installed create a new account. Unless you're a pro 
 1. Scroll to the Nostr section and paste your new private key (this starts with `nsec`) in the field.
 1. You're now ready to use Alby to log in and use Nostr through any web client.
 
-## Step 4 – Sign back into Iris
+## Step 4 – Sign back into Iris
 
 1. Back on the Iris login page, click "Nostr extension login". ![Iris sign up screen](/images/webp/iris-signup.webp)
 1. Authorize key usage in the Alby extension popup that will appear.
