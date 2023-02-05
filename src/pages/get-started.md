@@ -29,7 +29,7 @@ Here are guides to a few different clients we recommend.
 
 - [Iris](/clients/iris) (Web)
 - [Damus](/clients/damus) (iOS)
-- Amethyst (Android) _coming soon_
+- [Amethyst](/clients/amethyst) (Android)
 
 ## Find friends to follow
 
