@@ -13,7 +13,7 @@ You might have noticed on Astral (and other clients) that some users have checks
 
 ![Astral Verified](/images/webp/astral-verified.webp)
 
-The verification process on Nostr is docuemented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
+The verification process on Nostr is documented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
 
 NIP-05 enables a Nostr user to map their public key to a DNS-based internet identifier. The verification mechanism is similar to how Google requires you to verify your ownership of a domain using a DNS record.
 

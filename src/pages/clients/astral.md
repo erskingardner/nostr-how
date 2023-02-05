@@ -19,7 +19,7 @@ Once you have the extension installed create a new account. Unless you're a pro 
 1. Scroll to the Nostr section and click the "generate" button in the private key field. This will generate a private key and save it to your alby wallet. You can now use this private key to log into Nostr.
 1. Once you've generated your private key, click the small eyeball icon to show your key. Copy the private key (which will start with `nsec`) and save it to a password manager or somewhere **very** safe. Remember, if you lose this key, it's gone forever, along with all your account data.
 
-## Step 3 – Sign into Astral
+## Step 3 – Sign into Astral
 
 1. Navigate to [Astral](https://astral.ninja).
 1. In the login popup that appears, click the "USE PUBLIC KEY FROM EXTENSION" button. ![Astral Login Step 1](/images/webp/astral-login.webp)

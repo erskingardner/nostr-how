@@ -27,12 +27,12 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 
 ### Web
 
-- [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/clients/iris).
+- [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/clients/iris).
 - [Astral](https://astral.ninja)
 
 ### iOS
 
-- [Damus](https://apps.apple.com/app/damus/id1628663131) – This is the first & best iOS client for Nostr. [Check out our guide here](/clients/damus).
+- [Damus](https://apps.apple.com/app/damus/id1628663131) – This is the first & best iOS client for Nostr. [Check out our guide here](/clients/damus).
 
 ### Android
 
