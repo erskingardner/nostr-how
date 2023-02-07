@@ -265,9 +265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markdoc/markdoc@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@markdoc/markdoc@npm:0.2.1"
+"@markdoc/markdoc@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@markdoc/markdoc@npm:0.2.2"
   dependencies:
     "@types/markdown-it": 12.2.3
   peerDependencies:
@@ -281,7 +281,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 2a5db32f6e03fbee12bf2f15450e7b4e11b1f49d80abe455f0c54d72f9d4239dc398a8ed84f799c409e0d01bcb35e1f9db0b7b86084ad50efb3547573520a9d3
+  checksum: 03d5585567b5f82882580c130a90a0210c032ce8b02beb0368576782442414a22eeeb3a98edde32c2981be470d5d733929344e1357762b3c2c44a245700cb180
   languageName: node
   linkType: hard
 
@@ -3015,7 +3015,7 @@ __metadata:
   dependencies:
     "@docsearch/react": ^3.2.1
     "@headlessui/react": ^1.7.9
-    "@markdoc/markdoc": 0.2.1
+    "@markdoc/markdoc": 0.2.2
     "@markdoc/next.js": 0.2.1
     "@sindresorhus/slugify": ^2.2.0
     "@tailwindcss/typography": ^0.5.7
