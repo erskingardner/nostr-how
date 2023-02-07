@@ -12,7 +12,7 @@ Nostr is a simple, open protocol that enables global, decentralized, and censors
 
 {% quick-link title="The protocol" icon="presets" href="/the-protocol" description="Learn more about how the Nostr protocol works and what makes it special." /%}
 
-{% quick-link title="Find a client" icon="plugins" href="/clients" description="Find a client (app) for the web, iOS, Andriod, or Desktop." /%}
+{% quick-link title="Find a client" icon="plugins" href="/clients" description="Find a client (app) for the web, iOS, Android, or Desktop." /%}
 
 {% quick-link title="Contribute" icon="theming" href="/contribute" description="Find out how you can help the Nostr protocol or Nostr.how" /%}
 
