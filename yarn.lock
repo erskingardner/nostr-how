@@ -473,13 +473,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/slugify@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "@sindresorhus/slugify@npm:2.1.1"
+"@sindresorhus/slugify@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@sindresorhus/slugify@npm:2.2.0"
   dependencies:
     "@sindresorhus/transliterate": ^1.0.0
     escape-string-regexp: ^5.0.0
-  checksum: 0c60c8ce0ec2e1ca0b7aaa0babe36bb537b13ffdaac938ac5c0cbeb39a23a6c76cb50cfa65e9e172e4e5058ae5b0bf35c9aeae52fd09dc60033d59ffdd91507c
+  checksum: 13c5cff81b94ec9130b74692b12acefa406be6ab20bc842cb2a751d850719f709ca2acfeb8b66dde7fd96d989360d97e620d783292ad963bab9df999cd1d3102
   languageName: node
   linkType: hard
 
@@ -3017,7 +3017,7 @@ __metadata:
     "@headlessui/react": ^1.7.9
     "@markdoc/markdoc": 0.2.1
     "@markdoc/next.js": 0.2.1
-    "@sindresorhus/slugify": ^2.1.0
+    "@sindresorhus/slugify": ^2.2.0
     "@tailwindcss/typography": ^0.5.7
     "@vercel/analytics": ^0.1.8
     autoprefixer: ^10.4.12
