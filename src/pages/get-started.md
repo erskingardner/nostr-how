@@ -19,7 +19,7 @@ Make sure you store you private key somewhere safe, like a password manager (we 
 
 Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recomment using a web-based crypto wallet, which is a piece of software specifically designed to manage private keys.
+You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a web-based crypto wallet, which is a piece of software specifically designed to manage private keys.
 
 [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) is a bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
 
