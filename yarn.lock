@@ -285,16 +285,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markdoc/next.js@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@markdoc/next.js@npm:0.2.1"
+"@markdoc/next.js@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@markdoc/next.js@npm:0.2.2"
   dependencies:
     js-yaml: ^4.1.0
   peerDependencies:
     "@markdoc/markdoc": "*"
     next: "*"
     react: "*"
-  checksum: 84dd7b66e531d95a08ab42ef48549d84ef7bc2f9ade2b97682dc9fd2e9c2c721eaba77d64792cdb6165def9b49e019eac2e42e13568772243477d7182f6f462d
+  checksum: c579c66e5489ac4b4b70dcccc70c07870e9e388dc7ed6b4ffa9fd1ef0cc24b860403f3f6c574009cc71d6af3587e57845485fa55ed2ba4269b3a1b9a3b6a600d
   languageName: node
   linkType: hard
 
@@ -3016,7 +3016,7 @@ __metadata:
     "@docsearch/react": ^3.2.1
     "@headlessui/react": ^1.7.10
     "@markdoc/markdoc": 0.2.2
-    "@markdoc/next.js": 0.2.1
+    "@markdoc/next.js": 0.2.2
     "@sindresorhus/slugify": ^2.2.0
     "@tailwindcss/typography": ^0.5.7
     "@vercel/analytics": ^0.1.8
