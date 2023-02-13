@@ -174,20 +174,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docsearch/css@npm:3.3.2":
-  version: 3.3.2
-  resolution: "@docsearch/css@npm:3.3.2"
-  checksum: 867a32c01d581cccc422a57eb9a37917f68ef8cdd5091132d348f41f5aa560db03fa61d86b04a6c0c865a3992b5ce33499813d692c8058ebe0077de3dfb1595c
+"@docsearch/css@npm:3.3.3":
+  version: 3.3.3
+  resolution: "@docsearch/css@npm:3.3.3"
+  checksum: c3e678dd5e05a962d3e29b4c953632a013af3a352ad99d0e630546409e665684e122265034bca1619d9bd659e42d35c7cc90ee373836fcfb2614aae2057c5dc1
   languageName: node
   linkType: hard
 
-"@docsearch/react@npm:^3.2.1":
-  version: 3.3.2
-  resolution: "@docsearch/react@npm:3.3.2"
+"@docsearch/react@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "@docsearch/react@npm:3.3.3"
   dependencies:
     "@algolia/autocomplete-core": 1.7.4
     "@algolia/autocomplete-preset-algolia": 1.7.4
-    "@docsearch/css": 3.3.2
+    "@docsearch/css": 3.3.3
     algoliasearch: ^4.0.0
   peerDependencies:
     "@types/react": ">= 16.8.0 < 19.0.0"
@@ -200,7 +200,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 8bf420c35a8d80f2b08faa9c68ec13c40308aee461c968bcb5674c4b9224ed57b69919d681eb9a03d204eb42e3d751fe53f66fcd9239cc40a059f5d0786605ad
+  checksum: 8a31c175853b61ee80748abc0cebdc33d247483643c4151a430e05d37f159bf59ea08cb69f878cff7787d3ca122b664701575543914d3c3692b448b63d3ad716
   languageName: node
   linkType: hard
 
@@ -3013,7 +3013,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nostr-how@workspace:."
   dependencies:
-    "@docsearch/react": ^3.2.1
+    "@docsearch/react": ^3.3.3
     "@headlessui/react": ^1.7.10
     "@markdoc/markdoc": 0.2.2
     "@markdoc/next.js": 0.2.1
