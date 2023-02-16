@@ -25,11 +25,16 @@ You will access Nostr (the protocol) via a client. Clients can be web, desktop, 
 
 ## Let's do this!
 
-Here are guides to a few different clients we recommend.
+Here are guides to a few different clients we recommend:
 
 - [Iris](/clients/iris) (Web)
 - [Damus](/clients/damus) (iOS)
 - [Amethyst](/clients/amethyst) (Android)
+
+A few other clients that we love but don't have guides for:
+
+- [Snort](https://snort.social/) (Web) Super clean and fast web client.
+- [Nostrgram](https://nostrgram.co) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
 
 ## Find friends to follow
 
@@ -48,5 +53,3 @@ By only providing our public key above, we'll be prompted to sign anytime we wan
 ## Can I use other clients?
 
 Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
-
-Since it's so early in Nostr's development, not all clients support all protocol features in the same way. It's worth checking out our [client comparison](/clients/comparison) to find the best client for you.
