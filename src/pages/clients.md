@@ -28,6 +28,8 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 ### Web
 
 - [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/clients/iris).
+- [Snort](https://snort.social/)
+- [Nostrgram](https://nostrgram.co/)
 - [Astral](https://astral.ninja)
 
 ### iOS
