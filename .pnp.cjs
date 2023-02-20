@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.3"],\
-            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.10"],\
+            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.11"],\
             ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@sindresorhus/slugify", "npm:2.2.0"],\
@@ -328,17 +328,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@headlessui/react", [\
-        ["npm:1.7.10", {\
-          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.10-583213c79a-39b50fb07b.zip/node_modules/@headlessui/react/",\
+        ["npm:1.7.11", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.11-201583c8ab-3c9abbc5ea.zip/node_modules/@headlessui/react/",\
           "packageDependencies": [\
-            ["@headlessui/react", "npm:1.7.10"]\
+            ["@headlessui/react", "npm:1.7.11"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.10", {\
-          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-c4fd08b38b/0/cache/@headlessui-react-npm-1.7.10-583213c79a-39b50fb07b.zip/node_modules/@headlessui/react/",\
+        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.11", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-3fd153c80d/0/cache/@headlessui-react-npm-1.7.11-201583c8ab-3c9abbc5ea.zip/node_modules/@headlessui/react/",\
           "packageDependencies": [\
-            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.10"],\
+            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.11"],\
             ["@types/react", null],\
             ["@types/react-dom", null],\
             ["client-only", "npm:0.0.1"],\
@@ -3683,7 +3683,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["nostr-how", "workspace:."],\
             ["@docsearch/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:3.3.3"],\
-            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.10"],\
+            ["@headlessui/react", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:1.7.11"],\
             ["@markdoc/markdoc", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@sindresorhus/slugify", "npm:2.2.0"],\
