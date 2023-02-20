@@ -38,6 +38,6 @@
     "eslint-config-next": "13.1.6",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4",
-    "prettier-plugin-tailwindcss": "^0.2.2"
+    "prettier-plugin-tailwindcss": "^0.2.3"
   }
 }
