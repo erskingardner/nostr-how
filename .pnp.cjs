@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@sindresorhus/slugify", "npm:2.2.0"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
-            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.8"],\
+            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.10"],\
             ["autoprefixer", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:10.4.13"],\
             ["clsx", "npm:1.2.1"],\
             ["eslint", "npm:8.34.0"],\
@@ -846,17 +846,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vercel/analytics", [\
-        ["npm:0.1.8", {\
-          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-0.1.8-76bdbee610-e837f66494.zip/node_modules/@vercel/analytics/",\
+        ["npm:0.1.10", {\
+          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-0.1.10-7c113a70c1-e6f6741f47.zip/node_modules/@vercel/analytics/",\
           "packageDependencies": [\
-            ["@vercel/analytics", "npm:0.1.8"]\
+            ["@vercel/analytics", "npm:0.1.10"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.8", {\
-          "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-93d224bbf8/0/cache/@vercel-analytics-npm-0.1.8-76bdbee610-e837f66494.zip/node_modules/@vercel/analytics/",\
+        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.10", {\
+          "packageLocation": "./.yarn/__virtual__/@vercel-analytics-virtual-9918959374/0/cache/@vercel-analytics-npm-0.1.10-7c113a70c1-e6f6741f47.zip/node_modules/@vercel/analytics/",\
           "packageDependencies": [\
-            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.8"],\
+            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.10"],\
             ["@types/react", null],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -3688,7 +3688,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@markdoc/next.js", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.2"],\
             ["@sindresorhus/slugify", "npm:2.2.0"],\
             ["@tailwindcss/typography", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.5.9"],\
-            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.8"],\
+            ["@vercel/analytics", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.1.10"],\
             ["autoprefixer", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:10.4.13"],\
             ["clsx", "npm:1.2.1"],\
             ["eslint", "npm:8.34.0"],\
