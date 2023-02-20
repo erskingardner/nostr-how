@@ -14,7 +14,7 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@docsearch/react": "^3.3.3",
-    "@headlessui/react": "^1.7.10",
+    "@headlessui/react": "^1.7.11",
     "@markdoc/markdoc": "0.2.2",
     "@markdoc/next.js": "0.2.2",
     "@sindresorhus/slugify": "^2.2.0",
