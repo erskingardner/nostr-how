@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:4.1.0"],\
             ["next", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:13.1.6"],\
             ["postcss", "npm:8.4.21"],\
-            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.1"],\
+            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.2"],\
             ["postcss-import", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:15.1.0"],\
             ["prettier", "npm:2.8.4"],\
             ["prettier-plugin-tailwindcss", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.3"],\
@@ -3698,7 +3698,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:4.1.0"],\
             ["next", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:13.1.6"],\
             ["postcss", "npm:8.4.21"],\
-            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.1"],\
+            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.2"],\
             ["postcss-import", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:15.1.0"],\
             ["prettier", "npm:2.8.4"],\
             ["prettier-plugin-tailwindcss", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:0.2.3"],\
@@ -4002,17 +4002,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss-focus-visible", [\
-        ["npm:8.0.1", {\
-          "packageLocation": "./.yarn/cache/postcss-focus-visible-npm-8.0.1-7126799e89-6d6734ba0a.zip/node_modules/postcss-focus-visible/",\
+        ["npm:8.0.2", {\
+          "packageLocation": "./.yarn/cache/postcss-focus-visible-npm-8.0.2-6f3f8bff15-4ed4d60b58.zip/node_modules/postcss-focus-visible/",\
           "packageDependencies": [\
-            ["postcss-focus-visible", "npm:8.0.1"]\
+            ["postcss-focus-visible", "npm:8.0.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/postcss-focus-visible-virtual-c565632e95/0/cache/postcss-focus-visible-npm-8.0.1-7126799e89-6d6734ba0a.zip/node_modules/postcss-focus-visible/",\
+        ["virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/postcss-focus-visible-virtual-3e7845dc15/0/cache/postcss-focus-visible-npm-8.0.2-6f3f8bff15-4ed4d60b58.zip/node_modules/postcss-focus-visible/",\
           "packageDependencies": [\
-            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.1"],\
+            ["postcss-focus-visible", "virtual:9492abf24ceb07d5c58f6cedce6f1592f65561c9c8d200962961fb79b77142dd0dddc46b50d02192c5d385c05cd9e4f068f9bc3f723a3b94ff3fe777d22b30b0#npm:8.0.2"],\
             ["@types/postcss", null],\
             ["postcss", "npm:8.4.21"],\
             ["postcss-selector-parser", "npm:6.0.10"]\
