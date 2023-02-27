@@ -200,7 +200,6 @@ export const navigation = [
   {
     title: 'Guides',
     links: [
-      { title: 'Installing Alby (⚡ Lightning wallet)', href: '/contacts' },
       { title: 'Clients: Iris (web)', href: '/guides/iris' },
       { title: 'Clients: Damus (iOS)', href: '/guides/damus' },
       { title: 'Clients: Amethyst (Android)', href: '/guides/amethyst' },
