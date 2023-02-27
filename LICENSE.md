@@ -1,25 +1,21 @@
-## Getting started
+MIT License
 
-1. Clone this repo.
-1. Install the dependencies `npm install` (NB: if you're a previous contributor we have changed to using npm instead of yarn as of 27 Feb 2023)
-1. Run the development server with `npm run dev`
-1. Access the site in development at [http://localhost:3000](http://localhost:3000)
+Copyright (c) 2023 Nostr.how
 
-## Contributing
-We're always looking for writers, coders, and translators to help us make Nostr.how more useful. You can see all the ways you can contribute or donate to the project in more details on our [Contribute page](https://nostr.how/contribute).
-## License
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The Nostr How project is open source software under the [MIT License](https://opensource.org/licenses/MIT).
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Protocol + Next.js
-
-This site is based on the Protocol theme from [Tailwind UI](https://tailwindui.com). It's built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com/) - the official MDX documentation
-- [DocSearch](https://docsearch.algolia.com) - the official DocSearch documentation
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

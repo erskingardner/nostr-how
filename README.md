@@ -1,50 +1,35 @@
-# Protocol
 
-Protocol is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+  _   _           _        _
+ | \ | | ___  ___| |_ _ __| |__   _____      __
+ |  \| |/ _ \/ __| __| '__| '_ \ / _ \ \ /\ / /
+ | |\  | (_) \__ \ |_| |_ | | | | (_) \ V  V /
+ |_| \_|\___/|___/\__|_(_)|_| |_|\___/ \_/\_/
 
+# Nostr.how
+
+A comprehensive guide to all things Nostr. Including step-by-step setup guides and details on clients, relays, and NIPs.
 ## Getting started
 
-To get started with this template, first install the npm dependencies:
+1. Clone this repo.
+1. Install the dependencies `npm install` (NB: if you're a previous contributor we have changed to using npm instead of yarn as of 27 Feb 2023)
+1. Run the development server with `npm run dev`
+1. Access the site in development at [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm install
-cp .env.example .env.local
-```
-
-Next, run the development server:
-
-```bash
-npm run dev
-```
-
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
-
-## Customizing
-
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
-
-## Global search
-
-By default this template uses [Algolia DocSearch](https://docsearch.algolia.com) for the global search. DocSearch is free for open-source projects, and you can sign up for an account on their website. Once your DocSearch account is ready, update the following [environment variables](https://nextjs.org/docs/basic-features/environment-variables) in your project with the values provided by Algolia:
-
-```
-NEXT_PUBLIC_DOCSEARCH_APP_ID=
-NEXT_PUBLIC_DOCSEARCH_API_KEY=
-NEXT_PUBLIC_DOCSEARCH_INDEX_NAME=
-```
-
+## Contributing
+We're always looking for writers, coders, and translators to help us make Nostr.how more useful. You can see all the ways you can contribute or donate to the project in more details on our [Contribute page](https://nostr.how/contribute).
 ## License
 
+The Nostr How project is open source software under the [MIT License](https://opensource.org/licenses/MIT).
 This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
 
-## Learn more
+## Protocol + Next.js
+
+This site is based on the Protocol theme from [Tailwind UI](https://tailwindui.com). It's built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 To learn more about the technologies used in this site template, see the following resources:
 
 - [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
 - [Next.js](https://nextjs.org/docs) - the official Next.js documentation
 - [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Framer Motion](https://www.framer.com/docs/) - the official Framer Motion documentation
 - [MDX](https://mdxjs.com/) - the official MDX documentation
-- [Algolia Autocomplete](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/) - the official Algolia Autocomplete documentation
-- [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) - the official Zustand documentation
+- [DocSearch](https://docsearch.algolia.com) - the official DocSearch documentation
