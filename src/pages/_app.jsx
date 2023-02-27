@@ -5,6 +5,7 @@ import { MDXProvider } from '@mdx-js/react'
 import { Layout } from '@/components/Layout'
 import * as mdxComponents from '@/components/mdx'
 import { useMobileNavigationStore } from '@/components/MobileNavigation'
+import { Analytics } from '@vercel/analytics/react';
 
 import '@/styles/tailwind.css'
 import 'focus-visible'
@@ -51,6 +52,7 @@ export default function App({ Component, pageProps }) {
       <MDXProvider components={mdxComponents}>
         <Layout {...pageProps}>
           <Component {...pageProps} />
+          <Analytics/>
         </Layout>
       </MDXProvider>
     </>
