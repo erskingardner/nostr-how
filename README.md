@@ -1,10 +1,3 @@
-
-  _   _           _        _
- | \ | | ___  ___| |_ _ __| |__   _____      __
- |  \| |/ _ \/ __| __| '__| '_ \ / _ \ \ /\ / /
- | |\  | (_) \__ \ |_| |_ | | | | (_) \ V  V /
- |_| \_|\___/|___/\__|_(_)|_| |_|\___/ \_/\_/
-
 # Nostr.how
 
 A comprehensive guide to all things Nostr. Including step-by-step setup guides and details on clients, relays, and NIPs.
