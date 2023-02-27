@@ -2,15 +2,8 @@
 
 # dependencies
 /node_modules
-# https://next.yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-# We're using Zero Installs
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+/.pnp
+.pnp.js
 
 # testing
 /coverage
