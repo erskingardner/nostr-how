@@ -190,6 +190,7 @@ export const navigation = [
       { title: 'Introduction', href: '/' },
       { title: 'Why we need Nostr', href: '/why-nostr' },
       { title: 'Get Started', href: '/get-started' },
+      { title: 'What are Zaps?', href: '/zaps' },
       { title: 'The Nostr Protocol', href: '/the-protocol' },
       { title: 'Clients', href: '/clients' },
       { title: 'Relays', href: '/relays' },
