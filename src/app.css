@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply hover:text-zinc-600 dark:hover:text-zinc-400;
+}
+
+.markdownContent > h2 > a {
+    @apply no-underline;
+}
+
+.nav > li > a {
+    @apply block mb-1 hover:bg-zinc-200 dark:hover:bg-zinc-800 px-2 py-1 rounded-md no-underline text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 hover:dark:text-zinc-100 transition-all;
+}
+
+.nav > li > a.active {
+    @apply bg-zinc-200 dark:bg-zinc-800;
+}

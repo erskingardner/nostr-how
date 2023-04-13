@@ -1,0 +1,69 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/en/what-is-nostr",
+            "permanent": true
+        },
+        {
+            "source": "/get-started",
+            "destination": "/en/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/why-nostr",
+            "destination": "/en/why-nostr",
+            "permanent": true
+        },
+        {
+            "source": "/zaps",
+            "destination": "/en/zaps",
+            "permanent": true
+        },
+        {
+            "source": "/the-protocol",
+            "destination": "/en/the-protocol",
+            "permanent": true
+        },
+        {
+            "source": "/clients",
+            "destination": "/en/clients",
+            "permanent": true
+        },
+        {
+            "source": "/relays",
+            "destination": "/en/relays",
+            "permanent": true
+        },
+        {
+            "source": "/relays/implementations",
+            "destination": "/en/replay-implementations",
+            "permanent": true
+        },
+        {
+            "source": "/contribute",
+            "destination": "/en/contribute",
+            "permanent": true
+        },
+        {
+            "source": "/guides/iris",
+            "destination": "/en/guides/iris",
+            "permanent": true
+        },
+        {
+            "source": "/guides/damus",
+            "destination": "/en/guides/damus",
+            "permanent": true
+        },
+        {
+            "source": "/guides/amethyst",
+            "destination": "/en/guides/amethyst",
+            "permanent": true
+        },
+        {
+            "source": "/verify-your-identity",
+            "destination": "/en/guides/get-verified",
+            "permanent": true
+        }
+    ]
+}
