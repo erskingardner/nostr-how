@@ -21,8 +21,8 @@ Una volta installata l'estensione, crea un nuovo account. A meno che tu non sia 
 ## Passaggio 3 - Aggiungi la tua nuova chiave privata ad Alby
 
 1. Una volta creato un account e aver salvato la tua chiave privata in un luogo sicuro, dobbiamo aggiungere quella chiave all'estensione di Alby.
-1. Apri l'estensione di Alby e vai alla pagina delle impostazioni di Alby. ![Alby settings](/images/alby-settings.webp)
-1. Scorri fino alla sezione Nostr e incolla la tua nuova chiave privata (che inizia con `nsec`) nel campo.
+1. Apri l'estensione di Alby e vai alla pagina delle impostazioni Accounts di Alby. ![Alby accounts](/images/alby-accounts.webp)
+1. Scegli il tuo conto e poi, nella sezione di Nostr, incolla la tua nuova chiave privata (che inizia con `nsec`) nel campo.
 1. Ora sei pronto per utilizzare Alby per accedere e utilizzare Nostr attraverso qualsiasi client web.
 
 ## Passaggio 4 - Effettua nuovamente l'accesso a Iris

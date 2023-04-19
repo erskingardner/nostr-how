@@ -11,8 +11,8 @@ Once you have the extension installed create a new account. Unless you're a pro 
 
 ## Step 2 – Generate your Private Key
 
-1. Once Alby is installed and you've created or connected to a lightning wallet, navigate to the Alby settings page. ![Alby settings](/images/alby-settings.webp)
-1. Scroll to the Nostr section and click the "generate" button in the private key field. This will generate a private key and save it to your alby wallet. You can now use this private key to log into Nostr.
+1. Once Alby is installed and you've created or connected to a lightning wallet, navigate to the Alby accounts page. ![Alby settings](/images/alby-accounts.webp)
+1. Scroll to the Nostr section and click the "Generate a new key" button under "Manage your key". This will generate a private key and save it to your alby wallet. You can now use this private key to log into Nostr.
 1. Once you've generated your private key, click the small eyeball icon to show your key. Copy the private key (which will start with `nsec`) and save it to a password manager or somewhere **very** safe. Remember, if you lose this key, it's gone forever, along with all your account data.
 
 ## Step 3 – Sign into Astral

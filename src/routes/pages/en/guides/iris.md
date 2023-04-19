@@ -21,8 +21,8 @@ Once you have the extension installed create a new account. Unless you're a pro 
 ## Step 3 – Add your new Private Key to Alby
 
 1. Once you've created an account and have saved your private key somewhere safe we need to add that key to the Alby extension.
-1. Open the Alby extension and then navigate to the Alby settings page. ![Alby settings](/images/alby-settings.webp)
-1. Scroll to the Nostr section and paste your new private key (this starts with `nsec`) in the field.
+1. Open the Alby extension and then navigate to the Alby accounts page. ![Alby accounts](/images/alby-accounts.webp)
+1. Click on your account and then, in the Nostr section, paste your new private key (this starts with `nsec`) in the field.
 1. You're now ready to use Alby to log in and use Nostr through any web client.
 
 ## Step 4 – Sign back into Iris

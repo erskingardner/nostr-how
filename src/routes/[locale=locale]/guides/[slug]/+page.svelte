@@ -24,7 +24,7 @@
 
 <PageHeader text={data.title} />
 
-<p class="text-lg md:text-xl break-words max-w-xl text-zinc-50/50 font-light">
+<p class="text-lg md:text-xl break-words max-w-xl prose-md dark:prose-invert font-light">
     {data.description}
 </p>
 
