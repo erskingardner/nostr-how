@@ -41,7 +41,7 @@
     {#if $sidebarVisible}
         <aside
             transition:slide={{ axis: 'x', duration: 200 }}
-            class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
+            class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
         top-0 px-6 pt-4 border-r border-zinc-400/20"
         >
             <button
@@ -50,7 +50,7 @@
             >
                 <CloseIcon />
             </button>
-            <Sidebar />
+            <Sidebar on:navLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
         </aside>
     {/if}
 

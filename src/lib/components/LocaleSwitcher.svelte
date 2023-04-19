@@ -18,8 +18,8 @@
     <div class="select">
         <select
             {value}
-            class="transition-all rounded-md shadow-sm py-1 text-white text-sm
-            bg-purple-600/80 hover:bg-purple-700 dark:bg-purple-400/10 dark:hover:bg-purple-400/20
+            class="transition-all rounded-md shadow-sm py-1 text-purple-950 text-sm
+            bg-purple-600/30 hover:bg-purple-600/50 dark:bg-purple-400/10 dark:hover:bg-purple-400/20
             dark:text-purple-400 dark:hover:text-purple-300 dark:border-purple-400/20
             first-letter:ring-1 ring-inset ring-purple-400/20 hover:ring-purple-300"
             on:change={changeLocale}

@@ -1,7 +1,27 @@
 <script lang="ts">
-    import { _, isLoading, locale } from 'svelte-i18n';
+    import { _, isLoading } from 'svelte-i18n';
     import DonateButton from '$lib/components/DonateButton.svelte';
     import NavLink from '$lib/components/NavLink.svelte';
+
+    const navLinks = {
+        guides: [
+            { href: '/get-started', localeString: 'nav.getStarted' },
+            { href: '/guides/iris', localeString: 'nav.guideIris' },
+            { href: '/guides/damus', localeString: 'nav.guideDamus' },
+            { href: '/guides/amethyst', localeString: 'nav.guideAmethyst' },
+            { href: '/guides/get-verified', localeString: 'nav.getNip05' }
+        ],
+        pages: [
+            { href: '/what-is-nostr', localeString: 'nav.whatIs' },
+            { href: '/why-nostr', localeString: 'nav.whyWeNeed' },
+            { href: '/zaps', localeString: 'nav.whatZaps' },
+            { href: '/the-protocol', localeString: 'nav.nostrProtocol' },
+            { href: '/clients', localeString: 'nav.clients' },
+            { href: '/relays', localeString: 'nav.relays' },
+            { href: '/relay-implementations', localeString: 'nav.replayImplementations' },
+            { href: '/contribute', localeString: 'nav.contribute' }
+        ]
+    };
 </script>
 
 {#if !$isLoading}
@@ -13,28 +33,22 @@
     <div class="navWrapper guides md:mt-10 ml-4">
         <h2 class="mb-2 font-semibold">{$_('nav.guides')}</h2>
         <ul class="nav text-base">
-            <li><NavLink href="/get-started" localeString="nav.getStarted" /></li>
-            <li><NavLink href="/guides/iris" localeString="nav.guideIris" /></li>
-            <li><NavLink href="/guides/damus" localeString="nav.guideDamus" /></li>
-            <li><NavLink href="/guides/amethyst" localeString="nav.guideAmethyst" /></li>
-            <li><NavLink href="/guides/get-verified" localeString="nav.getNip05" /></li>
+            {#each navLinks.guides as link}
+                <li>
+                    <NavLink on:navLinkClicked href={link.href} localeString={link.localeString} />
+                </li>
+            {/each}
         </ul>
     </div>
 
     <div class="navWrapper resources mt-10 mb-10 ml-4">
         <h2 class="mb-2 font-semibold">{$_('nav.resources')}</h2>
         <ul class="nav text-base">
-            <li><NavLink href="/what-is-nostr" localeString="nav.whatIs" /></li>
-            <li><NavLink href="/why-nostr" localeString="nav.whyWeNeed" /></li>
-            <li><NavLink href="/zaps" localeString="nav.whatZaps" /></li>
-            <li><NavLink href="/the-protocol" localeString="nav.nostrProtocol" /></li>
-            <li><NavLink href="/clients" localeString="nav.clients" /></li>
-            <li><NavLink href="/relays" localeString="nav.relays" /></li>
-            <li>
-                <NavLink href="/relay-implementations" localeString="nav.relayImplementations" />
-            </li>
-            <li><NavLink href="/nostr-projects" localeString="nav.nostrProjects" /></li>
-            <li><NavLink href="/contribute" localeString="nav.contribute" /></li>
+            {#each navLinks.pages as link}
+                <li>
+                    <NavLink on:navLinkClicked href={link.href} localeString={link.localeString} />
+                </li>
+            {/each}
         </ul>
     </div>
 
