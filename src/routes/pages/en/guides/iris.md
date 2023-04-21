@@ -14,9 +14,9 @@ Once you have the extension installed create a new account. Unless you're a pro 
 1. Navigate to [Iris.to](https://iris.to).
 1. Enter a name and hit "Go" ![Iris sign up screen](/images/iris-signup.webp)
 1. Iris will generate a new public/private key pair for you and sign you in. You can start following people and posting notes at this point. ![Iris new user experience](/images/iris-nux.webp)
-1. However, we're going to make sure we're using the app in the safest way possible. Head to "Settings" on the left and then click "Nostr" in the secondary menu. ![Iris settings](/images/iris-settings-annotated.webp)
+1. However, we're going to make sure we're using the app in the safest way possible. Head to "Settings" on the left and then click "Accounts" in the secondary menu. ![Iris settings](/images/iris-accounts-settings.webp)
 1. Copy your public key and your "nsec" private key. These should be stored somewhere VERY safe. Like a password manager (we like 1Password).
-1. Once you're sure you've saved your private key somewhere safe, click "Account" in the secondary menu and log out of Iris. We'll log back in safely in a second.
+1. Once you're sure you've saved your private key somewhere safe, click "log out" at the top of the accounts page to log out of Iris. We'll log back in safely in a second.
 
 ## Step 3 – Add your new Private Key to Alby
 

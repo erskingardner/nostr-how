@@ -14,9 +14,9 @@ Una volta installata l'estensione, crea un nuovo account. A meno che tu non sia 
 1. Vai su [Iris.to](https://iris.to).
 1. Inserisci un nome e premi "Go" ![Iris sign up screen](/images/iris-signup.webp)
 1. Iris genererà una nuova coppia di chiavi pubblica/privata per te e ti autenticherà. A questo punto puoi iniziare a seguire persone e pubblicare note. ![Iris new user experience](/images/iris-nux.webp)
-1. Tuttavia, faremo in modo di utilizzare l'applicazione nel modo più sicuro possibile. Vai su "Impostazioni" sulla sinistra e poi clicca su "Nostr" nel menu secondario. ![Iris settings](/images/iris-settings-annotated.webp)
+1. Tuttavia, faremo in modo di utilizzare l'applicazione nel modo più sicuro possibile. Vai su "Impostazioni" sulla sinistra e poi clicca su "Accounts" nel menu secondario. ![Iris settings](/images/iris-accounts-settings.webp)
 1. Copia la tua chiave pubblica e la tua chiave privata "nsec". Queste devono essere conservate in un luogo MOLTO sicuro, come un gestore di password (a noi piace 1Password).
-1. Una volta che sei sicuro di aver salvato la tua chiave privata in un luogo sicuro, clicca su "Account" nel menu secondario e disconnettiti da Iris. Ci ricollegheremo in sicurezza tra poco.
+1. Una volta che sei sicuro di aver salvato la tua chiave privata in un luogo sicuro, clicca su "Log out" al inizio della pagine per disconnettiti da Iris. Ci ricollegheremo in sicurezza tra poco.
 
 ## Passaggio 3 - Aggiungi la tua nuova chiave privata ad Alby
 
