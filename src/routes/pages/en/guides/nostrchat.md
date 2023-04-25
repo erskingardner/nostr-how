@@ -5,7 +5,11 @@ description: A step-by-step guide to getting started with the NostrChat.io clien
 
 NostrChat is a chat app built on Nostr. With NostrChat, you can start a channel with one or more friends, and be confident that your communications will stay online even in the face of a dramatic effort to censor you. 
 
+![NostrChat.io screenshot](/static/images/nostrchat-signup.webp)
+
 ## Step 1 - Go to NostrChat.io 
+
+![NostrChat.io screenshot](/static/images/nostrchat-login.webp)
 
 ## Step 2 — Login 
 
