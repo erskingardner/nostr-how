@@ -10,7 +10,8 @@
             { href: '/guides/iris', localeString: 'nav.guideIris' },
             { href: '/guides/damus', localeString: 'nav.guideDamus' },
             { href: '/guides/amethyst', localeString: 'nav.guideAmethyst' },
-            { href: '/guides/nostrchat', localeString: 'nav.guideNostrchat' }
+            { href: '/guides/nostrchat', localeString: 'nav.guideNostrchat' },
+            { href: '/guides/sweep-to-self-custody', localeString: 'nav.guideSweepSats' }
         ],
         pages: [
             { href: '/what-is-nostr', localeString: 'nav.whatIs' },
