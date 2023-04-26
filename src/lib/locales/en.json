@@ -17,7 +17,8 @@
         "guideDamus": "Damus (iOS Client)",
         "guideAmethyst": "Amethyst (Android Client)",
         "getNip05": "Get NIP-05 Verified",
-        "guideNostrchat": "NostrChat (Chat Client)"
+        "guideNostrchat": "NostrChat (Chat Client)",
+        "guideSweepSats": "Sweep to self-custody"
     },
     "donateButton": "Donate to Nostr.how",
     "colophon": "Made with 💜 & ⚡ by",

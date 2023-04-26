@@ -17,7 +17,8 @@
         "guideDamus": "Damus (Cliente iOS)",
         "guideAmethyst": "Amethyst (Cliente Android)",
         "getNip05": "Ottenere la verifica NIP-05",
-        "guideNostrchat": "NostrChat (Cliente Chat)"
+        "guideNostrchat": "NostrChat (Cliente Chat)",
+        "guideSweepSats": "Spazzare per auto-custodia"
     },
     "donateButton": "Dona a Nostr.how",
     "colophon": "Fatto con 💜 & ⚡ da",
