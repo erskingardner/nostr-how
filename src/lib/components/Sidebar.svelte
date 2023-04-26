@@ -20,7 +20,7 @@
             { href: '/the-protocol', localeString: 'nav.nostrProtocol' },
             { href: '/clients', localeString: 'nav.clients' },
             { href: '/relays', localeString: 'nav.relays' },
-            { href: '/relay-implementations', localeString: 'nav.replayImplementations' },
+            { href: '/relay-implementations', localeString: 'nav.relayImplementations' },
             { href: '/contribute', localeString: 'nav.contribute' }
         ]
     };
