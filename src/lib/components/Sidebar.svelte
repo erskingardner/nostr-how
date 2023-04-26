@@ -6,10 +6,11 @@
     const navLinks = {
         guides: [
             { href: '/get-started', localeString: 'nav.getStarted' },
+            { href: '/guides/get-verified', localeString: 'nav.getNip05' },
             { href: '/guides/iris', localeString: 'nav.guideIris' },
             { href: '/guides/damus', localeString: 'nav.guideDamus' },
             { href: '/guides/amethyst', localeString: 'nav.guideAmethyst' },
-            { href: '/guides/get-verified', localeString: 'nav.getNip05' }
+            { href: '/guides/nostrchat', localeString: 'nav.guideNostrchat' }
         ],
         pages: [
             { href: '/what-is-nostr', localeString: 'nav.whatIs' },
