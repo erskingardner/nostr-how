@@ -16,7 +16,8 @@
         "guideIris": "Iris (Web Client)",
         "guideDamus": "Damus (iOS Client)",
         "guideAmethyst": "Amethyst (Android Client)",
-        "getNip05": "Get NIP-05 Verified"
+        "getNip05": "Get NIP-05 Verified",
+        "guideNostrchat": "NostrChat (Chat Client)"
     },
     "donateButton": "Donate to Nostr.how",
     "colophon": "Made with 💜 & ⚡ by",
