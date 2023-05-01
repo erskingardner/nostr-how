@@ -3,7 +3,7 @@ title: El protocolo Nostr
 description: Este es un resumen de alto nivel del protocolo Nostr con detalles sobre los tipos de eventos y cómo funcionan las Posibilidades de Implementación de Nostr (NIPs).
 ---
 
-## [§](#Nostr-alto-nivel) Nostr en alto nivel
+## [§](#Nostr-alto-nivel) Nostr de alto nivel
 
 -   La red Nostr tiene dos componentes principales: [clientes](/es/clientes) y [repetidores](/es/repetidores).
     - Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
@@ -17,7 +17,7 @@ description: Este es un resumen de alto nivel del protocolo Nostr con detalles s
 
 ### Diagrama de red
 
-![Diagrama de red en Nostr](/images/nostr-network.webp)
+[Diagrama de red en Nostr](/images/nostr-network.webp)
 
 Puedes ver en el diagrama de arriba que tenemos 3 relés y 3 usuarios. Cada uno de los usuarios se conecta a Nostr con un cliente diferente (y en una plataforma diferente).
 
@@ -97,7 +97,7 @@ Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada 
 | 20000-29999 | Eventos efímeros                 | [16](16.md) |
 | 30000-39999 | Eventos sustituibles parametrizados | [33](33.md) |
 
-### Tags standarizados
+### Tags estandarizados
 
 | nombre     | valor                   | otros parmetros   | NIP                      |
 | ---------- | ----------------------- | ----------------- | ------------------------ |
@@ -124,4 +124,4 @@ Ser parte activa de la comunidad te da voz y voto en la dirección de la red. Lo
 
 ### ¿Dónde puedo encontrar los NIPs?
 
-Puedes ver todos los PINs actuales en [Nostr NIP repo](https://github.com/nostr-protocol/nips).
+Puedes ver todos los NIPs actuales en [Nostr NIP repo](https://github.com/nostr-protocol/nips).
