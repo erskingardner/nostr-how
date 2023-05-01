@@ -6,8 +6,8 @@ description: Este es un resumen de alto nivel del protocolo Nostr con detalles s
 ## [§](#Nostr-alto-nivel) Nostr en alto nivel
 
 -   La red Nostr tiene dos componentes principales: [clientes](/es/clientes) y [repetidores](/es/repetidores).
-    - Los clientes son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
-    - Las retransmisiones son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
+    - Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
+    - Las **relés** son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
 - Cada usuario se identifica mediante una llave pública. Cada objeto de evento (por ejemplo, mensaje que publica, actualización de su lista de seguidores, etc.) está firmado. Los clientes validan estas firmas para asegurarse de que son correctas.
 - Los clientes obtienen datos de los repetidores y los publican en ellos. Casi siempre es el usuario quien elige los enlaces. Los enlaces no tienen por qué comunicarse entre sí, pero podrían hacerlo en el futuro.
 - Por ejemplo, para actualizar tu perfil, sólo tienes que dar instrucciones a tu cliente para que envíe un evento del tipo 0 a los relés que quieras utilizar. Los repetidores almacenarán ese evento.
