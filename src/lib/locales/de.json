@@ -7,6 +7,7 @@
     "getStarted": "Loslegen",
     "whatZaps": "Was sind Zaps?",
     "nostrProtocol": "Das Nostr-Protokoll",
-    "clients": "Clients"
+    "clients": "Clients",
+    "relays": "Relais"
   }
 }
