@@ -26,6 +26,7 @@
   "mitLicense": "MIT-Lizenz",
   "contactMe": "In Kontakt kommen",
   "errors": {
-    "noTranslationTitle": "Übersetzung nicht gefunden"
+    "noTranslationTitle": "Übersetzung nicht gefunden",
+    "noTranslationMessage": "Entschuldigung, es existiert keine Übersetzung für diese Seite. Wenn Sie daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wenden Sie sich bitte an uns."
   }
 }
