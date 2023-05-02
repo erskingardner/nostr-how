@@ -24,5 +24,8 @@
   "colophon": "Hergestellt mit 💜 & ⚡ von",
   "foss": "Stolz auf Free & Open Source Software unter",
   "mitLicense": "MIT-Lizenz",
-  "contactMe": "In Kontakt kommen"
+  "contactMe": "In Kontakt kommen",
+  "errors": {
+    "noTranslationTitle": "Übersetzung nicht gefunden"
+  }
 }
