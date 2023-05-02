@@ -20,5 +20,6 @@
     "guideNostrchat": "NostrChat (Chat-Client)",
     "guideSweepSats": "Sweep zur Selbstverwahrung"
   },
-  "donateButton": "Spende an Nostr.how"
+  "donateButton": "Spende an Nostr.how",
+  "colophon": "Hergestellt mit 💜 & ⚡ von"
 }
