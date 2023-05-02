@@ -1,3 +1,6 @@
 {
-  "title": "Nostr"
+  "title": "Nostr",
+  "nav": {
+    "resources": "Ressourcen"
+  }
 }
