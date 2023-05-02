@@ -19,5 +19,6 @@
     "getNip05": "Lassen Sie sich NIP-05 verifizieren",
     "guideNostrchat": "NostrChat (Chat-Client)",
     "guideSweepSats": "Sweep zur Selbstverwahrung"
-  }
+  },
+  "donateButton": "Spende an Nostr.how"
 }
