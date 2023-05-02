@@ -9,6 +9,7 @@
     "nostrProtocol": "Das Nostr-Protokoll",
     "clients": "Clients",
     "relays": "Relais",
-    "relayImplementations": "Relay-Implementierungen"
+    "relayImplementations": "Relay-Implementierungen",
+    "nostrProjects": "Weitere Projekte"
   }
 }
