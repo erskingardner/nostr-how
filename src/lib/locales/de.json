@@ -15,6 +15,7 @@
     "guides": "Führer",
     "guideIris": "Iris (Webclient)",
     "guideDamus": "Damus (iOS-Client)",
-    "guideAmethyst": "Amethyst (Android-Client)"
+    "guideAmethyst": "Amethyst (Android-Client)",
+    "getNip05": "Lassen Sie sich NIP-05 verifizieren"
   }
 }
