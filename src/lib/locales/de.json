@@ -2,6 +2,7 @@
   "title": "Nostr",
   "nav": {
     "resources": "Ressourcen",
-    "whatIs": "Was ist Nostr?"
+    "whatIs": "Was ist Nostr?",
+    "whyWeNeed": "Warum brauchen wir Nostr?"
   }
 }
