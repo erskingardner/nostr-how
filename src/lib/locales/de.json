@@ -3,6 +3,7 @@
   "nav": {
     "resources": "Ressourcen",
     "whatIs": "Was ist Nostr?",
-    "whyWeNeed": "Warum brauchen wir Nostr?"
+    "whyWeNeed": "Warum brauchen wir Nostr?",
+    "getStarted": "Loslegen"
   }
 }
