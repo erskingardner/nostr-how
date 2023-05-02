@@ -8,6 +8,7 @@
     "whatZaps": "Was sind Zaps?",
     "nostrProtocol": "Das Nostr-Protokoll",
     "clients": "Clients",
-    "relays": "Relais"
+    "relays": "Relais",
+    "relayImplementations": "Relay-Implementierungen"
   }
 }
