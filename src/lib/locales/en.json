@@ -1,32 +1,32 @@
 {
-    "title": "Nostr",
-    "nav": {
-        "resources": "Resources",
-        "whatIs": "What is Nostr?",
-        "whyWeNeed": "Why do we need Nostr?",
-        "getStarted": "Get Started",
-        "whatZaps": "What are Zaps?",
-        "nostrProtocol": "The Nostr Protocol",
-        "clients": "Clients",
-        "relays": "Relays",
-        "relayImplementations": "Relay Implementations",
-        "nostrProjects": "Other Projects",
-        "contribute": "Contribute",
-        "guides": "Guides",
-        "guideIris": "Iris (Web Client)",
-        "guideDamus": "Damus (iOS Client)",
-        "guideAmethyst": "Amethyst (Android Client)",
-        "getNip05": "Get NIP-05 Verified",
-        "guideNostrchat": "NostrChat (Chat Client)",
-        "guideSweepSats": "Sweep to self-custody"
-    },
-    "donateButton": "Donate to Nostr.how",
-    "colophon": "Made with 💜 & ⚡ by",
-    "foss": "Proudly Free & Open Source Software under ",
-    "mitLicense": "MIT License",
-    "contactMe": "Get in touch",
-    "errors": {
-        "noTranslationTitle": "Translation not found",
-        "noTranslationMessage": "Sorry, no translation for this page exists. If you're interested in helping create this page, please reach out."
-    }
+  "title": "Nostr",
+  "nav": {
+    "resources": "Resources",
+    "whatIs": "What is Nostr?",
+    "whyWeNeed": "Why do we need Nostr?",
+    "getStarted": "Get Started",
+    "whatZaps": "What are Zaps?",
+    "nostrProtocol": "The Nostr Protocol",
+    "clients": "Clients",
+    "relays": "Relays",
+    "relayImplementations": "Relay Implementations",
+    "nostrProjects": "Other Projects",
+    "contribute": "Contribute",
+    "guides": "Guides",
+    "guideIris": "Iris (Web Client)",
+    "guideDamus": "Damus (iOS Client)",
+    "guideAmethyst": "Amethyst (Android Client)",
+    "getNip05": "Get NIP-05 Verified",
+    "guideNostrchat": "NostrChat (Chat Client)",
+    "guideSweepSats": "Sweep to self-custody"
+  },
+  "donateButton": "Donate to Nostr.how",
+  "colophon": "Made with 💜 & ⚡ by",
+  "foss": "Proudly Free & Open Source Software under ",
+  "mitLicense": "MIT License",
+  "contactMe": "Get in touch",
+  "errors": {
+    "noTranslationTitle": "Translation not found",
+    "noTranslationMessage": "Sorry, no translation for this page exists. If you're interested in helping create this page, please reach out."
+  }
 }
