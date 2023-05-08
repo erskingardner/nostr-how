@@ -6,10 +6,12 @@
     const navLinks = {
         guides: [
             { href: '/get-started', localeString: 'nav.getStarted' },
+            { href: '/guides/get-verified', localeString: 'nav.getNip05' },
             { href: '/guides/iris', localeString: 'nav.guideIris' },
             { href: '/guides/damus', localeString: 'nav.guideDamus' },
             { href: '/guides/amethyst', localeString: 'nav.guideAmethyst' },
-            { href: '/guides/get-verified', localeString: 'nav.getNip05' }
+            { href: '/guides/nostrchat', localeString: 'nav.guideNostrchat' },
+            { href: '/guides/sweep-to-self-custody', localeString: 'nav.guideSweepSats' }
         ],
         pages: [
             { href: '/what-is-nostr', localeString: 'nav.whatIs' },
@@ -18,7 +20,7 @@
             { href: '/the-protocol', localeString: 'nav.nostrProtocol' },
             { href: '/clients', localeString: 'nav.clients' },
             { href: '/relays', localeString: 'nav.relays' },
-            { href: '/relay-implementations', localeString: 'nav.replayImplementations' },
+            { href: '/relay-implementations', localeString: 'nav.relayImplementations' },
             { href: '/contribute', localeString: 'nav.contribute' }
         ]
     };
