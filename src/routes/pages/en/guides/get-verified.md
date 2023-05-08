@@ -33,6 +33,7 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
 -   [Nostr.industries](https://nostr.industries/)
+-   [NIP05.social](https://nip05.social)
 
 ## [§](#paid-verification) Pay a provider for verification
 
