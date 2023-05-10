@@ -1,34 +1,36 @@
 <script lang="ts">
     import { createEventDispatcher } from 'svelte';
     import { locales } from '$lib/config/l10n';
-    import { locale } from 'svelte-i18n';
-
-    export let value: string | null | undefined;
+    import Language from '$lib/elements/icons/Language.svelte';
+    import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
 
     const dispatch = createEventDispatcher();
 
     function changeLocale(event: Event) {
         event.preventDefault();
         // @ts-ignore
-        dispatch('locale-changed', event.target.value);
+        dispatch('locale-changed', event?.target?.dataset.localecode);
     }
 </script>
 
-<div class="locale-selector ml-auto mr-0 md:ml-0">
-    <div class="select">
-        <select
-            {value}
-            class="transition-all rounded-md shadow-sm py-1 text-purple-950 text-sm
-            bg-purple-600/30 hover:bg-purple-600/50 dark:bg-purple-400/10 dark:hover:bg-purple-400/20
-            dark:text-purple-400 dark:hover:text-purple-300 dark:border-purple-400/20
-            first-letter:ring-1 ring-inset ring-purple-400/20 hover:ring-purple-300"
-            on:change={changeLocale}
-        >
-            {#each locales as localeItem}
-                <option value={localeItem.alpha2Code} selected={localeItem.alpha2Code === $locale}>
-                    {localeItem.name}
-                </option>
-            {/each}
-        </select>
-    </div>
-</div>
+<Menu class="relative flex flex-row items-center">
+    <MenuButton class="text-purple-950 dark:text-purple-400 dark:hover:text-purple-300"
+        ><Language />
+    </MenuButton>
+    <MenuItems
+        class="absolute top-10 right-0 transition-all rounded-md shadow-md
+    bg-zinc-100 dark:bg-zinc-800 py-1"
+    >
+        {#each locales as localeItem}
+            <MenuItem>
+                <a
+                    href="/"
+                    data-localecode={localeItem.alpha2Code}
+                    on:click={changeLocale}
+                    class="rounded-md py-1 pl-4 pr-8 block dark:text-purple-400 dark:hover:text-purple-300 text-purple-950 hover:text-purple-800 hover:bg-purple-300 dark:hover:bg-zinc-700/30"
+                    >{localeItem.name}</a
+                >
+            </MenuItem>
+        {/each}
+    </MenuItems>
+</Menu>
