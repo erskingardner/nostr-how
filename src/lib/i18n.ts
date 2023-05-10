@@ -2,8 +2,8 @@ import { register, init, getLocaleFromNavigator, locale } from 'svelte-i18n';
 import { fallbackLocale, supportedLocales } from '$lib/config/l10n';
 
 register('en', () => import('$lib/locales/en.json'));
-register('it', () => import('$lib/locales/it.json'));
 register('es', () => import('$lib/locales/es.json'));
+register('it', () => import('$lib/locales/it.json'));
 
 interface i18nOpts {
     locale: string;
