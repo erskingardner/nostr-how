@@ -1,5 +1,5 @@
 ---
-title: Empezar con Astral
+title: Empieza con Astral
 description: Una guía paso a paso para empezar con Nostr con el cliente web de Astral.
 ---
 

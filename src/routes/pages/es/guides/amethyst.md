@@ -1,6 +1,6 @@
 ---
 title: Empieza con Amethyst
-description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amethyst para Android
+description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amethyst para Android.
 ---
 
 ## Step 1 - Instala la app
@@ -12,7 +12,7 @@ description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amet
 ## Paso 2 - Crear una nueva cuenta
 
 1. Haga clic en "Crear cuenta".
-1. 2. Lea y acepte el EULA (terminos).
+1.  2. Lea y acepte el EULA (terminos).
 1. A continuación, elegirás un nombre de usuario (que podrás cambiar más adelante) y, opcionalmente, añadirás otros datos de perfil. Amethyst genera automáticamente llaves para ti en este paso. Tu clave pública se muestra como el valor "ID de cuenta".
 1. Una vez que hayas terminado, haz clic en "Crear" y ¡ya estás listo para usar Nostr! 🤙
 1. Sólo un último paso **extremadamente importante**. Necesitas guardar tu clave privada en algún lugar seguro.
@@ -23,5 +23,5 @@ description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amet
 ## Iniciar sesión con una clave existente
 
 1. Haga clic en "Iniciar sesión".
-1. 2. Lea y acepte el EULA (terminos).
+1.  2. Lea y acepte el EULA (terminos).
 1. A continuación se te pedirá tu llave privada. Introducela y listo. 🤙 **Importante**: Tu llave privada se almacena localmente y no es recogida ni almacenada por los servidores de Amethyst de ninguna manera.

@@ -1,3 +1,8 @@
+---
+title: Barrer a la auto-custodia
+description: Una guía paso a paso para barrer sats a una billetera de autocustodia.
+---
+
 ## [§](#¿Para-quién-es-esta-guía?) ¿Para quién es esta guía?
 
 La mayoría de los usuarios en este momento están usando Nostr con una billetera lightning custodial, como Wallet of Satoshi o Alby.

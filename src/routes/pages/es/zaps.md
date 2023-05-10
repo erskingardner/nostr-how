@@ -1,3 +1,8 @@
+---
+title: ¿Qué son los Zaps?
+description: Qué son los Zaps, cómo funcionan, y qué necesita para usarlos en su cliente Nostr.
+---
+
 ## [§](#los-conceptos-básicos) Los conceptos básicos
 
 La forma más sencilla de pensar en los Zaps es que son simplemente propinas. Propinas que se transmiten a través de la [red Lightning](https://www.investopedia.com/terms/l/lightning-network.asp) a la velocidad de la luz, con prácticamente ninguna tarifa de transacción.

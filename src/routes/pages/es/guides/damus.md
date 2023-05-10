@@ -1,3 +1,8 @@
+---
+title: Empieza con Damus
+description: Guía paso a paso para empezar a utilizar Nostr con el cliente Damus para iOS.
+---
+
 ## Paso 1 - Descargar Damus
 
 Esta es una guía específica para comenzar a usar Nostr con [Damus](https://damus.io/), una hermosa y fácil de usar aplicación para iOS creada por [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).

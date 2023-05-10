@@ -6,7 +6,7 @@
         "whyWeNeed": "¿Por qué necesitamos Nostr?",
         "getStarted": "Empezar",
         "whatZaps": "¿Qué son los Zaps?",
-        "nostrProtocol": "TEl protocolo Nostr",
+        "nostrProtocol": "El protocolo Nostr",
         "clients": "Clientes",
         "relays": "Relés",
         "relayImplementations": "Implementaciones de Relés",
@@ -16,7 +16,9 @@
         "guideIris": "Iris (Cliente Web)",
         "guideDamus": "Damus (Cliente iOS)",
         "guideAmethyst": "Amethyst (Client Android)",
-        "getNip05": "Obetener un NIP-05 Verificado"
+        "getNip05": "Obetener un NIP-05 Verificado",
+        "guideNostrchat": "NostrChat (Cliente Chat)",
+        "guideSweepSats": "Barrer a la auto-custodia"
     },
     "donateButton": "Donar a Nostr.how",
     "colophon": "hecho con 💜 & ⚡ por",
@@ -27,3 +29,4 @@
         "noTranslationTitle": "Traducción no encontrada",
         "noTranslationMessage": "Lo sentimos, no existe traducción para esta página. Si está interesado en ayudar a crear esta página, póngase en contacto con nosotros."
     }
+}
