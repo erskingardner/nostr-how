@@ -51,4 +51,19 @@ Si desea obtener más información, aquí hay algunos excelentes recursos inicia
 
 ### Lightning
 
-Lightning es una capa de pagos que se ejecuta sobre Bitcoin. Fundamentalmente, todavía está realizando pagos utilizando Bitcoin como dinero, pero Lightning permite transacciones casi instantáneas y con tarifas extremadamente bajas. Debido a esto, la red Lightning ha abierto muchos casos de uso nuevos que involucran micropagos. Los detalles de cómo funciona Lightning están más allá del alcance de esta guía de introducción, pero aquí hay algunos recursos si está interesado en leerlos.
+Lightning es una capa de pagos que se ejecuta sobre Bitcoin. Fundamentalmente, todavía está realizando pagos utilizando Bitcoin como dinero, pero Lightning permite transacciones casi instantáneas y con tarifas extremadamente bajas. Debido a esto, la red Lightning ha abierto muchos casos de uso nuevos que involucran micropagos. Los detalles de cómo funciona Lightning están más allá del alcance de esta guía de introducción, pero aquí hay algunos recursos si está interesado en leerlos:
+
+1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
+1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
+
+### En cadena vs fuera de cadena
+
+A menudo escuchará a la gente referirse a Bitcoin dentro de la cadena frente a fuera de la cadena. Cuando las personas hablan de transacciones en cadena, simplemente se refieren a realizar transacciones utilizando la cadena de bloques básica de Bitcoin (recuerde, esto es más lento, pero 100% definitivo y seguro). Cuando las personas se refieren a transacciones fuera de la cadena, con mayor frecuencia se refieren a Lightning.
+
+### Custodia vs Autocustodia
+
+Para aquellos nuevos en Bitcoin, este concepto puede parecer extraño. Después de todo, la mayoría de nosotros (al menos en el mundo desarrollado) solo hemos utilizado servicios de custodia, como bancos, para almacenar nuestro dinero. Pero como hemos visto recientemente (y regularmente en los mercados financieros menos desarrollados de todo el mundo), mantener su dinero con un custodio conlleva riesgos. Los bancos quiebran (Silicon Valley Bank, etc.) y los custodios pueden tomar malas decisiones y perder su dinero (FTX, Voyager, etc.).
+
+Cuando toma la custodia de su Bitcoin, solo tiene que confiar en usted mismo para almacenar su bitcoin de forma segura. Tienes el control total.
+
+Pero un gran poder conlleva una gran responsabilidad. Si bien la autocustodia es el estándar de oro para almacenar grandes cantidades de dinero de forma segura, puede limitar la forma en que puede usar su dinero día a día. La mayoría de las personas utilizan una combinación de soluciones de custodia y autocustodia; mantener grandes cantidades en forma de autocustodia y mantener una pequeña cantidad de fondos en una billetera de custodia para uso diario.
