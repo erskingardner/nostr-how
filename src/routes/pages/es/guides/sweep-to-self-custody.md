@@ -23,7 +23,32 @@ Esta es una guía para principiantes que no requiere configurar tu propio nodo l
 
 Si te sientes abrumado por la terminología aquí, consulta [la sección al final de la página](#¿Lightning?-¿Bitcoin?-¿On-chain?-¿Qué?) para obtener más detalles.
 
-1. Primero sigue esta guía para configurar una nueva billetera Bitcoin en [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). También puedes usar cualquier otra billetera auto-custodial.
-1. Una vez que hayas guardado muy cuidadosamente tus palabras semilla (que es lo que usarás para restaurar tu billetera si es necesario), estás listo para encontrar a alguien con quien hacer un intercambio.
-1. La forma más fácil de hacer esto es publicar una nota mencionando las etiquetas #plebchain y #bitcoin mencionando que te gustaría intercambiar algunos sats en la red Lightning por sats en la cadena base. No seas tímido en enviar mensajes directamente a personas que hablen regularmente de Bitcoin. También puedes enviarme un mensaje directamente si es necesario. `npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc`
-1. A partir de ahí, harás un plan directamente con la persona con la que intercambiarás. Antes de hacer cualquier intercambio, tómate tiempo para conocer un poco a la persona, porque no hay garantía en Bitcoin, debes sentirte cómodo de que estás tratando con alguien en quien puedes confiar
+1. Primero siga esta guía para configurar una nueva billetera Bitcoin en [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). También puede usar cualquier otra billetera con custodia propia.
+1. Una vez que haya guardado cuidadosamente sus palabras clave (que es lo que usará para restaurar su billetera si es necesario), estará listo para encontrar a alguien con quien hacer un intercambio.
+1. La forma más fácil de hacer esto es publicar una nota que mencione las etiquetas #plebchain y #bitcoin mencionando que le gustaría intercambiar algunos satélites relámpago por satélites en cadena. No se avergüence de enviar mensajes directos a personas que hablan sobre bitcoin regularmente. También puede [hacerme ping directamente] (https://primal.net/jeffg) si es necesario.
+1. A partir de ahí, harás un plan directamente con la persona con la que vas a realizar el intercambio. Antes de realizar cualquier intercambio, tómese un tiempo para conocer un poco a la persona, ya que no hay depósito en garantía en Bitcoin, debe estar seguro de que está tratando con alguien en quien puede confiar para completar la transacción. En general, el proceso se parece a esto:
+    1. Acordar una cantidad a canjear.
+    1. Proporcione su dirección de billetera recién creada (en Blue Wallet) a la persona a través de DM.
+    1. Le envías sats a la persona a través de tu cliente Nostr.
+    1. Iniciarán una transacción en cadena para pagarle la misma cantidad de sats (potencialmente menos cualquier tarifa de transacción).
+    1. Recuerde, esta transacción en cadena llevará algún tiempo. Su socio comercial puede (y debe) enviarle el ID de la transacción tan pronto como lo tenga para que pueda seguirlo en [mempool.space](https://mempool.space).
+1. ¡Eso es todo! Estás listo. Una vez que lleguen los fondos, habrá tomado con éxito la autocustodia de su primer Bitcoin. Trátalo con respeto y cuídalo bien.
+
+## [§](#relámpago-bitcoin-en-cadena-qué) ¿Relámpago? ¿Bitcoin? ¿En cadena? ¿Qué?
+
+Si todo esto te suena a griego, no te preocupes. Antes de entrar en la guía, cubramos rápidamente algo de terminología.
+
+### Bitcoin
+
+Esta madriguera de conejo no tiene fondo conocido. Dicho esto, si eres nuevo en Bitcoin, lo único que realmente necesitas saber es que Bitcoin es una forma de dinero electrónico completamente descentralizada. No está controlado por ninguna persona o entidad y se ejecuta según reglas codificadas en el software, en lugar de depender de la política y los gobiernos. Bitcoin es el único dinero electrónico verdaderamente descentralizado y basado en reglas.
+
+Bitcoin prioriza la certeza sobre la velocidad. Esto significa que las transacciones cuestan un poco de comisión y tardan un tiempo en confirmarse, pero una vez que se confirman, son completamente irreversibles y nadie puede tomar sus monedas ni censurar su transacción.
+
+Si desea obtener más información, aquí hay algunos excelentes recursos iniciales para profundizar en Bitcoin.
+
+1. [Guía de Bitcoin.org](https://bitcoin.org/en/how-it-works)
+1. [Guía para principiantes de Bitcoin](https://bitcoiner.guide/beginner/)
+
+### Lightning
+
+Lightning es una capa de pagos que se ejecuta sobre Bitcoin. Fundamentalmente, todavía está realizando pagos utilizando Bitcoin como dinero, pero Lightning permite transacciones casi instantáneas y con tarifas extremadamente bajas. Debido a esto, la red Lightning ha abierto muchos casos de uso nuevos que involucran micropagos. Los detalles de cómo funciona Lightning están más allá del alcance de esta guía de introducción, pero aquí hay algunos recursos si está interesado en leerlos.

@@ -25,7 +25,7 @@ Se ti senti sopraffatto dalla terminologia qui, dai un'occhiata alla sezione in 
 
 1. Segui questa guida per configurare un nuovo portafoglio Bitcoin in Blue Wallet. Puoi anche utilizzare qualsiasi altro portafoglio di auto-custodia.
 1. Una volta che hai salvato molto attentamente le tue parole seed (che è ciò che userai per ripristinare il tuo portafoglio se necessario), sei pronto per trovare qualcuno con cui fare uno swap.
-1. Il modo più semplice per farlo è pubblicare una nota menzionando i tag #plebchain e #bitcoin menzionando che vorresti scambiare alcuni lightning sats per on-chain sats. Non essere timido nel messaggiare direttamente le persone che parlano spesso di bitcoin. Puoi anche mandarmi un messaggio `npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc`.
+1. Il modo più semplice per farlo è pubblicare una nota menzionando i tag #plebchain e #bitcoin menzionando che vorresti scambiare alcuni lightning sats per on-chain sats. Non essere timido nel messaggiare direttamente le persone che parlano spesso di bitcoin. Puoi anche [mandarmi un messaggio](https://primal.net/jeffg).
 1. Da lì, pianificherai direttamente con la persona con cui effettuerai lo scambio. Prima di procedere con lo scambio, prenditi del tempo per conoscere un po' la persona, poiché non esiste un escrow in Bitcoin, devi essere sicuro di aver a che fare con qualcuno di fidato per completare la transazione. In generale, il processo assomiglia a questo:
     1. Mettetevi d'accordo sull'importo da scambiare.
     1. Condividi il tuo nuovo indirizzo del portafoglio (in Blue Wallet) con la persona tramite messaggio diretto.
