@@ -15,7 +15,7 @@ a {
 }
 
 .markdownContent pre {
-    @apply max-w-[324px];
+    @apply max-w-[324px] md:max-w-fit;
 }
 
 .nav > li > a {
