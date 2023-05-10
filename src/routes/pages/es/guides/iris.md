@@ -1,5 +1,5 @@
 ---
-title: Empezar con Iris
+title: Empieza con Iris
 description: Una guía paso a paso para comenzar con Nostr usando el cliente web Iris.
 ---
 

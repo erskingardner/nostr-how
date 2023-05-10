@@ -1,3 +1,8 @@
+---
+title: Empieza con NostrChat
+description: Guía paso a paso para empezar a utilizar Nostr con el cliente NostrChat.
+---
+
 ## Comenzar con NostrChat.io
 
 NostrChat es una aplicación de chat construida en Nostr. Con NostrChat, puedes iniciar un canal con uno o más amigos y estar seguro de que tus comunicaciones permanecerán en línea incluso frente a un esfuerzo dramático para censurarte.
