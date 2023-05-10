@@ -1,6 +1,7 @@
 ---
 title: Implementaciones de Relés
 description: Esta es una lista de todas las implementaciones conocidas de la especificación de relé Nostr. Solo necesitas esto si planeas ejecutar un relé tú mismo. Los relés son (hasta ahora) agnósticos a la aplicación. Puedes ejecutar el tuyo propio o utilizar cualquiera o todas las instancias públicas.
+---
 
 ## Go
 
