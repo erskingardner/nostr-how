@@ -1,7 +1,7 @@
 {
   "title" : "Nostr",
   "nav" : {
-    "resources" : "Resources",
+    "resources" : "Ressources",
     "whatIs" : "Qu'est-ce que Nostr ?",
     "whyWeNeed" : "Pourquoi avons-nous besoin de Nostr ?",
     "getStarted" : "Démarrer",
