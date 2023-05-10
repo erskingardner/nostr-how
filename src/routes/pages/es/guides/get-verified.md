@@ -2,6 +2,7 @@
 title: Obtén la verificación NIP-05
 description: Cómo verificar tu identidad en Nostr para obtener una marca de verificación y una manera más fácil de compartir tu cuenta..
 ---
+
 ## [§](#lo-que-aprenderás) Lo que aprenderás en esta guía
 
 Es posible que hayas notado que en muchos clientes diferentes algunos usuarios tienen marcas de verificación, como en Twitter.
@@ -29,10 +30,57 @@ Aunque suena técnico, es sorprendentemente fácil de verificar. Veamos cómo ha
 
 En este momento, hay varios proveedores que están ayudando a la gente a obtener verificación de forma gratuita. Esta es una gran opción si aún no tienes sats en tu billetera lightning. Si es posible, apoya estos proyectos a través de donaciones. ⚡🤙
 
-- [Bitcoin Nostr](https://bitcoinnostr.com/)
-- [Nostrcheck.me](https://nostrcheck.me)
-- [Nostr.industries](https://nostr.industries/)
+-   [Bitcoin Nostr](https://bitcoinnostr.com/)
+-   [Nostrcheck.me](https://nostrcheck.me)
+-   [Nostr.industries](https://nostr.industries/)
+-   [NIP05.social](https://nip05.social)
 
 ## [§](#verificación-pagada) Paga a un proveedor por la verificación
 
-Si no tienes tu propio dominio o no quieres configurarlo tú mismo, puedes aprovechar un servicio NIP-05 gratuito o de pago (por lo general, solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi
+Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovechar una versión gratuita o paga (generalmente solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) Servicio NIP-05. Aquí hay algunos:
+
+-   [Nostrplebs](https://nostrplebs.com)
+-   [Nostr Verified](nostrverified.com)
+-   [Alby](getalby.com)
+-   [Nostr Directory](https://nostr.directory)
+-   [Nostr.band](https://nip05.nostr.band)
+-   [Nostr.com.au](https://nostr.com.au)
+-   [Vida](https://Vida.page)
+-   [Stacker News](https://stacker.news)
+
+## [§](#verificacion-autohospedada) Verificación autohospedada
+
+Si ya posee un dominio, esta es una opción gratuita. Solo necesita agregar un archivo `.well-known/nostr.json` a su dominio. El contenido del archivo debe ser el siguiente:
+
+```json
+{
+    "nombres": {
+        "YOUR_NOSTR_NAME": "TU_NOSTR_PUBLIC_KEY"
+    }
+}
+```
+
+Opcionalmente, también puede agregar una sección para que los clientes sepan en qué relés es probable que lo encuentren:
+
+```json
+{
+   "nombres": {
+     "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT"
+   },
+   "relés": {
+     "TU_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT": [
+       "wss://relé.uno",
+       "wss://relé.dos",
+       ...
+     ]
+   }
+}
+```
+
+Asegúrese de usar la versión hexadecimal de su clave pública en su archivo `nostr.json`. Esta es la versión de la clave que **no** comienza con `npub`.
+
+Puede convertir su clave en [Nostr.band](https://nostr.band)
+
+![Obtenga su clave hexadecimal](/images/get-hex-key.webp)
+
+Finalmente, asegúrese de que este archivo se sirva con el encabezado `Access-Control-Allow-Origin` establecido en `*`, ya que los clientes deben poder acceder a él.

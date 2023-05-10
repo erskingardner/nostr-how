@@ -28,6 +28,6 @@
     {data.description}
 </p>
 
-<div class="markdownContent prose-md dark:prose-invert">
+<div class="markdownContent prose md:prose-md dark:prose-invert break-words">
     <svelte:component this={data.content} />
 </div>
