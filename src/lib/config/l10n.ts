@@ -7,6 +7,7 @@ interface localesType {
 export const locales: localesType[] = [
     { alpha2Code: 'en', name: 'English' },
     { alpha2Code: 'es', name: 'Español' },
+    { alpha2Code: 'fr', name: 'Français' },
     { alpha2Code: 'it', name: 'Italiano' }
 ];
 

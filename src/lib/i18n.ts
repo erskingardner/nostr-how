@@ -3,6 +3,7 @@ import { fallbackLocale, supportedLocales } from '$lib/config/l10n';
 
 register('en', () => import('$lib/locales/en.json'));
 register('es', () => import('$lib/locales/es.json'));
+register('fr', () => import('$lib/locales/fr.json'));
 register('it', () => import('$lib/locales/it.json'));
 
 interface i18nOpts {
