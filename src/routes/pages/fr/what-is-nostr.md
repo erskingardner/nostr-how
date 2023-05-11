@@ -1,5 +1,5 @@
 ---
-title: Publication sur le web à résistant à la censure
+title: Publication sur le web résistant à la censure
 description: Nostr est un protocole simple et ouvert qui permet de publier sur le web des informations à valeur ajoutée à l'échelle mondiale et réellement résistantes à la censure.
 ---
 
@@ -11,7 +11,7 @@ Nostr est conçu pour être simple et permet une publication sur le web résista
 
 ### Simple
 
-Le protocole est basé sur des objets `Event` très simples et flexibles (qui sont transmis sous forme de JSON) et utilise la cryptographie asymétrique à clé publique pour les clés et la signature. Cela facilite l'exécution des relais et la construction des clients et garantit que le protocole peut être étendu au fil du temps.
+Le protocole est basé sur des objets `Event` très simples et flexibles (qui sont transmis sous forme de JSON) et utilise la cryptographie asymétrique (clé publique/privée) pour les clés et la signature. Cela facilite l'exécution des relais et la construction des clients et garantit que le protocole peut être étendu au fil du temps.
 
 ### Résilient
 
