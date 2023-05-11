@@ -13,7 +13,7 @@ Nous aborderons la mise en place d'un portefeuille sous votre responsabilité qu
 
 ## [§](#why-is-self-custody-important) Pourquoi avoir la responsabilité de ses sats est-elle importante ?
 
-En clair, ni vos clés, ni vos pièces de monnaie. Lorsque vous laissez vos Sats dans un portefeuille de garde, vous acceptez un certain degré de risque de contrepartie. Imaginez que Wallet of Satoshi soit piraté. Parce qu'il détient tous les fonds des clients, une telle situation signifierait que vos fonds seraient perdus.
+En clair, ni vos clés, ni vos pièces de monnaie. Lorsque vous laissez vos sats dans un portefeuille de garde, vous acceptez un certain degré de risque de contrepartie. Imaginez que Wallet of Satoshi soit piraté. Parce qu'il détient tous les fonds des clients, une telle situation signifierait que vos fonds seraient perdus.
 
 C'est pourquoi il est fortement conseillé de ne conserver qu'une petite quantité de fonds dans _tout_ portefeuille de garde et de garder soi-même le reste de ses bitcoins.
 
@@ -51,7 +51,7 @@ Si vous souhaitez en savoir plus, voici d'excellentes ressources pour approfondi
 
 ### Lightning
 
-Lightning est une couche de paiement qui fonctionne au-dessus de Bitcoin. Fondamentalement, vous effectuez toujours des paiements en utilisant Bitcoin comme monnaie, mais Lightning permet des transactions quasi-instantanées et à des frais extrêmement bas. C'est pourquoi le réseau Lightning a ouvert la voie à de nombreux nouveaux cas d'utilisation impliquant des micropaiements. Les détails du fonctionnement de Lightning dépassent le cadre de ce guide d'introduction, mais voici quelques ressources si vous souhaitez en savoir plus :
+Lightning est une couche de paiement qui fonctionne au-dessus de Bitcoin. Fondamentalement, vous effectuez toujours des paiements en utilisant bitcoin comme monnaie, mais Lightning permet des transactions quasi-instantanées et à des frais extrêmement bas. C'est pourquoi le réseau Lightning a ouvert la voie à de nombreux nouveaux cas d'utilisation impliquant des micropaiements. Les détails du fonctionnement de Lightning dépassent le cadre de ce guide d'introduction, mais voici quelques ressources si vous souhaitez en savoir plus :
 
 1. [Guide Bitcoiner Lightning] (https://bitcoiner.guide/lightning/)
 1. [Vue d'ensemble de Lightning Labs] (https://docs.lightning.engineering/the-lightning-network/overview)
@@ -64,6 +64,6 @@ Vous entendrez souvent parler de Bitcoin on-chain ou off-chain. Lorsque l'on par
 
 Pour ceux qui découvrent Bitcoin, ce concept peut sembler étranger. Après tout, la plupart d'entre nous (du moins dans les pays développés) n'ont jamais utilisé que des services de garde, comme les banques, pour stocker leur argent. Mais comme nous l'avons vu récemment (et régulièrement sur les marchés financiers moins développés du monde entier), conserver son argent auprès d'un dépositaire comporte des risques. Les banques font faillite (Silicon Valley Bank, etc.) et les dépositaires peuvent prendre de mauvaises décisions et perdre votre argent (FTX, Voyager, etc.).
 
-Lorsque vous prenez la garde de vos bitcoins, vous n'avez qu'à vous faire confiance pour les conserver en toute sécurité. Vous avez le contrôle total.
+Lorsque vous prenez la responsabilités de vos bitcoins, vous n'avez qu'à vous faire confiance pour les conserver en toute sécurité. Vous avez le contrôle total.
 
-Mais un grand pouvoir s'accompagne d'une grande responsabilité. Si l'autodétention est la norme pour stocker en toute sécurité de grandes quantités d'argent, elle peut limiter l'usage que vous pouvez faire de votre argent au quotidien. La plupart des gens utilisent une combinaison de solutions de conservation et d'autodétention : ils conservent les gros montants dans un système d'autodétention et gardent une petite quantité de fonds dans un portefeuille de conservation pour l'usage quotidien.
+Mais un grand pouvoir s'accompagne d'une grande responsabilité. Si la propre détention est la norme pour stocker en toute sécurité de grandes quantités d'argent, elle peut limiter l'usage que vous pouvez faire de votre argent au quotidien. La plupart des gens utilisent une combinaison de solutions de conservation et d'autodétention : ils conservent les gros montants dans un système d'autodétention et gardent une petite quantité de fonds dans un portefeuille de conservation pour l'usage quotidien.
