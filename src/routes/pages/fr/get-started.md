@@ -1,6 +1,6 @@
 ---
 title: Démarrer avec Nostr
-description : Ce guide vous aidera à comprendre les bases de Nostr et vous permettra d'être prêt à utiliser Nostr avec un nouveau compte. Nous verrons comment créer un nouveau portefeuille lightning, créer un compte et se connecter à un client en toute sécurité.---
+description : Ce guide vous aidera à comprendre les bases de Nostr et vous permettra d'être prêt à utiliser Nostr avec un nouveau compte. Nous verrons comment créer un nouveau portefeuille lightning, créer un compte et se connecter à un client en toute sécurité.
 ---
 
 ## [§](#understanding-keys) Comprendre le fonctionnement
