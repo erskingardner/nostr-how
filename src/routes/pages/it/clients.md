@@ -33,6 +33,7 @@ Ricorda, la tua chiave privata è la tua identità in Nostr, quindi se viene com
 
 -   [Iris](https://iris.to) - Questo è un cliente consigliato per i nuovi utenti. [Guarda la nostra guida qui](/it/guides/iris).
 -   [Snort](https://snort.social/)
+-   [Coracle](https://coracle.social/)
 -   [Nostrgram](https://nostrgram.co/)
 
 ### Desktop
