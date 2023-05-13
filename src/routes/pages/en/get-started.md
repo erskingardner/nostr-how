@@ -30,6 +30,7 @@ Here are step-by-step guides to a few different clients we recommend:
 A few other clients that we love but don't have guides for:
 
 -   [Snort](https://snort.social/) (Web) Super clean and fast web client.
+-   [Coracle](https://coracle.social/) (Web) A client focused on relay navigation.
 -   [Nostrgram](https://nostrgram.co) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
 
 ## [§](#find-friends) Find friends to follow

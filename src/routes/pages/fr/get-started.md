@@ -29,9 +29,10 @@ Voici des guides étape par étape pour différents clients que nous recommandon
 
 Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
 
-- Snort](https://snort.social/) (Web) Client Web super propre et rapide.
+- [Snort](https://snort.social/) (Web) Client Web super propre et rapide.
+- [Coracle](https://coracle.social/) (Web) Un client axé sur la navigation relais.
 - [Nostrgram](https://nostrgram.co) (Web) Client amusant inspiré d'Instagram et axé sur les images, la vidéo et l'audio. Ramenez vos mèmes !
-- 
+
 ## [§](#find-friends) Trouvez vos ami-e-s pour les suivre
 
 - Si vous savez que quelqu'un est sur Nostr, trouvez son profil en recherchant sa clé publique.

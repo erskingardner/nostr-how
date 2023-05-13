@@ -28,6 +28,7 @@ Ecco alcune guide passo-passo per alcuni clienti che raccomandiamo:
 Alcuni altri clienti che amiamo ma per i quali non abbiamo guide:
 
 -   [Snort](https://snort.social/) (Web) Cliente web pulito e veloce.
+-   [Coracle](https://coracle.social/) (Web) Un cliente focalizzato sulla navigazione inoltro.
 -   [Nostrgram](https://nostrgram.co) (Web) Client ispirato a Instagram che si concentra su immagini, video e audio. Portate i meme!
 
 ## [§](#trovare-amici) Trovare amici da seguire

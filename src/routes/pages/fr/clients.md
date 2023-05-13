@@ -33,6 +33,7 @@ N'oubliez pas que votre clé privée est votre identité dans Nostr, donc si ell
 
 - [Iris](https://iris.to) - C'est le client que nous recommandons aux nouveaux utilisateurs. [Consultez notre guide ici](/fr/guides/iris).
 - [Snort](https://snort.social/)
+- [Coracle](https://coracle.social/)
 - [Nostrgram](https://nostrgram.co/)
 
 ### Application PC

@@ -33,6 +33,7 @@ Recuerda, tu clave privada es tu identidad en Nostr, así que si se ve compromet
 
 -   [Iris](https://iris.to) – Recomendamos este para nuevos usuarios. [Revisa nuestra guía acá](/es/guias/iris).
 -   [Snort](https://snort.social/)
+-   [Coracle](https://coracle.social/)
 -   [Nostrgram](https://nostrgram.co/)
 
 ### PC
