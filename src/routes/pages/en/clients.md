@@ -33,6 +33,7 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 
 -   [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
 -   [Snort](https://snort.social/)
+-   [Coracle](https://coracle.social/)
 -   [Nostrgram](https://nostrgram.co/)
 
 ### Desktop

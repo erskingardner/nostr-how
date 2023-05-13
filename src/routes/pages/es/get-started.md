@@ -30,6 +30,7 @@ Acá está una guía paso a paso de los clientes que recomendamos:
 Algunos otros clientes que amamos pero no tenemos guías:
 
 -   [Snort](https://snort.social/) (Web) Cliente súper rapido y veloz.
+-   [Coracle](https://coracle.social/) (Web) Un cliente centrado en la navegación por relevos.
 -   [Nostrgram](https://nostrgram.co) (Web) Divertido cliente inspirado en Instagram centrado en imágenes, vídeo y audio. ¡Que empiecen los memes!
 
 ## [§](#encontrar-amigos) Encontrar amigos en Nostr
