@@ -6,7 +6,9 @@ The purpose of this doc is to explore the broad space of ideas around how to inc
 
 A vibrant ecosystem gives potential users many ways to come into contact with Nostr and novel, beautiful, and useful products and services will give users something to "run towards" as [@jack](https://primal.net/jack) put it.
 
-Contributions are very welcome, don't be shy. Ideally, lots of independent projects spin out of this doc.
+A potentially more controversial assertion is that builders are the only users that we should care about for the time being. Scale at this point would be a bad thing, as it would likely lead to centralization. And other builders (again, in the broad sense) have better taste, give better feedback, and are forgiving on the shit that doesn't matter. #BuildForBuilders
+
+Contributions are very welcome. Ideally, lots of independent projects spin out of this doc.
 
 ## So how do we get builders excited?
 
@@ -19,13 +21,15 @@ On the other hand; education, developer tools, and a vibrant & supportive commun
 -   **Awareness**: Potential builders are more likely to find Nostr via other builders rather than using a product. This is especially true in the early days.
 -   **Adoption**: A platform which is easy to understand and has great tooling which makes it easy to build will gather more momentum. Another way of looking at this is from the oppostite side, e.g. churn. The faster builders are able to make something real (get value from their efforts), the less likely they are to leave the ecosystem.
 
-# Incentives
+We need both strong financial incentives and education, tools and community. But I think the second is more important for now. There are ways to patch the finanical incentives in the short-term.
+
+# Low time preference incentives
 
 Why would someone come to build on Nostr? Right now, we depend almost entirely on ideological and social incentives, rather than financial ones (other than those with high conviction and very low time preference).
 
 Over time, we need to build better and more obvious financial incentives. Right now, however, we should be focused on finding the missionaries and true believers who want to build and believe in freedom tech like Nostr. We need space and time to harden Nostr's core and to experiement with business models and revenue sources as quickly as possible and share our learnings with each other.
 
-Sharing, especially sharing what might feel like a competitive edge, is important because the faster we find a path to profitability, the sooner we can start growing the size of the overall pie. This is how we all win, because most growth in technology adoption actually comes from market size expansion instead of winning market share from competitors.
+Sharing, especially sharing what might feel like a competitive edge, is critical because the faster we find a path that many can use to find profitability, the sooner we can start growing the size of the overall pie. This is how we all win. Most growth in technology adoption actually comes from market size expansion instead of winning market share from competitors.
 
 # Potential growth projects
 
