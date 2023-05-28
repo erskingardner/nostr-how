@@ -106,3 +106,4 @@ Let's take a closer look at the types of funding available and what they're usef
 ## Real businesses
 
 Real businesses provide value to their customers in exchange for money. As much as possible, Nostr should optimize for creating as many real businesses as possible that don't depend on outside sources of capital. VC capital is a great tool but it's not fit for every use case and carries very real trade-offs.
+ 
