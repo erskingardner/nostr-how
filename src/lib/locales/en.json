@@ -1,32 +1,32 @@
 {
-  "title": "ناستر",
-  "nav": {
-    "resources": "منابع",
-    "whatIs": "ناستر چیست؟",
-    "whyWeNeed": "چرا به ناستر نیاز داریم؟",
-    "getStarted": "شروع کن",
-    "whatZaps": "زَپ چیست؟",
-    "nostrProtocol": "پروتکل ناستر",
-    "clients": "کلاینت ها",
-    "relays": "رله ها",
-    "relayImplementations": "اجرای رله",
-    "nostrProjects": "پروژه های دیگر",
-    "contribute": "مشارکت کنید",
-    "guides": "راهنمایی",
-    "guideIris": "آیریس (کلاینت وب)",
-    "guideDamus": "(iOS کلاینت) داموس",
-    "guideAmethyst": "(کلاینت اندروید) آماتیست",
-    "getNip05": "بگیرید NIP-05 تایید",
-    "guideNostrchat": "(کلاینت چت) ناسترچت",
-    "guideSweepSats": "به سوی خود-متولی شدن بروید"
+  "title" : "Nostr",
+  "nav" : {
+    "resources" : "Ressources",
+    "whatIs" : "Qu'est-ce que Nostr ?",
+    "whyWeNeed" : "Pourquoi avons-nous besoin de Nostr ?",
+    "getStarted" : "Démarrer",
+    "whatZaps" : "Que sont les Zaps ?",
+    "nostrProtocol" : "Le protocole Nostr",
+    "clients" : "Clients",
+    "relais" : "Relais",
+    "relayImplementations" : "Implementation de relai",
+    "nostrProjects" : "Autres projets Nostr",
+    "contribute" : "Contribuer",
+    "guides" : "Guides",
+    "guideIris" : "Iris (client Web)",
+    "guideDamus" : "Damus (Client iOS)",
+    "guideAmethyst" : "Amethyst (Client Android)",
+    "getNip05" : "Obtenir un NIP-05",
+    "guideNostrchat" : "NostrChat (Client de messagerie instantanée)",
+    "guideSweepSats" : "Détenir ses sats"
   },
-  "donateButton": "Nostr.how کمک مالی به",
-  "colophon": " و ⚡ ساخته شده با 💜",
-  "foss": "با افتخار نرم افزار رایگان و متن باز تحت",
-  "mitLicense": "MIT لیسانس",
-  "contactMe": "در تماس باشید",
-  "errors": {
-    "noTranslationTitle": "ترجمه یافت نشد",
-    "noTranslationMessage": "متاسفانه ترجمه ای برای این صفحه موجود نیست. اگر به ساخت این صفحه علاقه مندید لطفا با ما تماس بگیرید."
+  "donateButton" : "Don à Nostr.how",
+  "colophon" : "Fait avec 💜 et ⚡ par",
+  "foss" : "Logiciel fièrement libre et open source sous ",
+  "mitLicense" : "Licence MIT",
+  "contactMe" : "Rester en contact",
+  "errors" : {
+    "noTranslationTitle" : "Traduction introuvable",
+    "noTranslationMessage" : "Désolé, il n'existe pas de traduction pour cette page. Si vous souhaitez participer à la création de cette page, n'hésitez pas à nous contacter."
   }
 }
