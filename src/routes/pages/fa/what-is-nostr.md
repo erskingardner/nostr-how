@@ -1,28 +1,35 @@
 ---
-title: Censorship-resistant publishing for the web
-description: Nostr is a simple, open protocol that enables truly censorship-resistant and global value-for-value publishing on the web.
+title:  انتشار سانسورناپذیر در اینترنت
+description: ناستر یک پروتکل باز ساده است که امکان انتشار حقیقتا سانسورناپذیر و ارزش-برای-ارزش جهانی را در اینترنت فراهم می کند. 
 ---
 
-## What is Nostr?
+<div lang="fa" dir="rtl">
 
-Nostr stands for "Notes and Other Stuff Transmitted by Relays". Like HTTP or TCP-IP, Nostr is a protocol; an open standard upon which anyone can build. Nostr itself is not an app or service that you sign up for.
+## ناستر چیست؟
 
-Nostr is designed for simplicity and enables censorship-resistant and globally decentralized publishing on the web. Let's unpack that a little:
+  ناستر مخفف انگلیسی عبارت "یادداشت ها و چیزهای دیگر که توسط رله ها عبور داده می شود" است. مانند HTTP یا TCP-IP ناستر ، یک پروتکل است؛ استانداردی باز که هرکس می تواند روی آن محصول جدید بسازد. خود ناستر یک اپلیکیشن یا خدماتی که بتوانید در آن نام نویسی کنید نیست.
+  
+ناستر برای سادگی طراحی شده و انتشار نامتمرکز جهانی و سانسور ناپذیر را در اینترنت ممکن می کند. بیایید کمی این را باز کنیم:
 
-### Simple
+### ساده
 
-The protocol is based on very simple & flexible `Event` objects (which are passed around as plain JSON) and uses standard public-key cryptography for keys & signing. This makes it easy to run relays and build clients and ensures that the protocol can be extended over time.
+  این پروتکل بر اساس اشیاء خیلی ساده و انعطاف پذیر "رویداد" است (که مانند JSON ساده دست به دست می شوند) و از رمزنگاری استاندارد کلیدعمومی برای کلید و امضا استفاده می کند. این اجرای رله و ساختن کلاینت را آسان می کند و اطمینان می دهد که پروتکل در طول زمان قابل گسترش است.
 
-### Resilient
 
-Because Nostr doesn't rely on a small number of trusted servers for moving or storing data, it's very resilient. The protocol assumes that relays will disappear and allows users to connect & publish to an arbitrary number of relays that they can change over time.
+### مقاوم
 
-### Verifiable
+  از آنجا که ناستر تنها به چند سرور معتمد برای انتقال و انبار داده اتکا نمی کند، بسیار مقاوم است. این پروتکل فرض را بر آن می گیرد که رله ها ناپدید خواهند شد و به کاربران اجازه می دهد به تعداد دلخواهی رله که می توانند در طی زمان تغییر دهند، وصل شده و چیزها را منتشر کنند.  
+  
 
-Because Nostr accounts are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) it's easy to verify messages were really sent by the user in question.
+### قابل بررسی و تایید
 
-### Don't take my word for it
+  به این دلیل که حساب های کاربری در ناستر براساس [رمزنگاری کلید عمومی](https://fa.wikipedia.org/wiki/رمزنگاری_کلید_عمومی) است بررسی و تایید اینکه پیام ها واقعا توسط کاربر مورد نظر ارسال شده اند آسان است. 
 
-Here's [Uncle Bob](https://primal.net/profile/npub19mun7qwdyjf7qs3456u8kyxncjn5u2n7klpu4utgy68k4aenzj6synjnft) giving a great overview of how Nostr works and why it matters.
+
+### به حرف من بسنده نکن
+
+  اینجا [Uncle Bob](https://primal.net/profile/npub19mun7qwdyjf7qs3456u8kyxncjn5u2n7klpu4utgy68k4aenzj6synjnft) گزارشی عالی از طرز کار ناستر و اینکه چرا اهمیت دارد ارائه می دهد. 
+
+</div> 
 
 <iframe width="650" height="366" src="https://www.youtube-nocookie.com/embed/ssNkOMx2E5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
