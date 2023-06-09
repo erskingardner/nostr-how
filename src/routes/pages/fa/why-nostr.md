@@ -2,23 +2,26 @@
 title: Why we need Nostr
 description: Why Nostr and the broader idea of decentralizing the internet is an important concept.
 ---
+<div lang="fa" dir="rtl">
+## آیا واقعا به پروتکل انتشار دیگری نیاز داریم؟
+  
+  انتشار در اینترنت اساسا معیوب است. آنچه به عنوان شبکه ای باز از صفحات ساخته افراد آغاز شد، به انحصار و کنترل معدودی از قویترین شرکت های جهان منجر شده است. 
+این شرکت ها، اغلب به روش هایی که حتی خودشان نمی فهمند، هر آنچه می خوانیم، هرکسی با او حرف می زنیم، و هر ایده ای که در فرهنگمان مورد استقبال قرار می گیرد کنترل می کنند. هدف گیری " درگیر کردن" عوارض منفی زیادی برای جامعه داشته است.
 
-## Do we really need another publishing protocol?
+وقت آن است که اینترنت به ریشه های باز و نامتمرکز خود برگردد. وقت آن است که کنترل اطلاعاتی که هضم می کنیم، و چگونگی آن را پس بگیریم. وقت آن است که جوامعی سازنده تر و با فکربازتر در اینترنت بسازیم. 
 
-Publishing on the web is fundamentally broken. What started as an open web of pages created by individuals has collapsed into a centralized oligopoly controlled by a handful of the world's most powerful companies.
+ناستر این را ممکن می کند.
 
-These companies control, often in ways they themselves don't even understand, what we read, who we talk to, and what ideas gain traction in our culture. Their pursuit of "engagement" has had tremendous negative consequences for society.
 
-It's time for the web to return to it's open and decentralized roots. It's time for us to take back control of what information we consume, and how we consume it. It's time for us to build more open-minded and constructive communities on internet.
+## آنچه ناستر ممکن می سازد
 
-Nostr enables this.
-
-## What Nostr enables
-
--   Simple, flexible `Event` format enables publishing of all types: Social media posts, long-form content, rich media, ecommerce, etc.
--   Verifiability that notes come from a specific user. This helps to combat spam and bots.
--   Users can connect to many relays, and run their own relays. This makes it hard to censor ideas and people.
--   Integrated with lightning, Nostr enables new [value-for-value](https://value4value.info/) business models that have the potential to be more fair.
+-  فرمت ساده و انعطاف پذیر `رویداد` انتشار هر نوع محتوایی را ممکن می کند: یادداشت های شبکه های اجتماعی، محتوای طولانی، رسانه غنی، بازرگانی اینترنتی و غیره.  
+-   
+  Verifiability that notes come from a specific user. This helps to combat spam and bots.
+-   
+  Users can connect to many relays, and run their own relays. This makes it hard to censor ideas and people.
+-   
+  Integrated with lightning, Nostr enables new [value-for-value](https://value4value.info/) business models that have the potential to be more fair.
 
 ## The status quo
 
@@ -45,3 +48,5 @@ Nostr enables this.
 1. There are no clear incentives to run servers, therefore they tend to be run by enthusiasts and people who want to have their name attached to a cool domain. Because of this, users are subject to the despotism of a single person, which is often worse than that of a big company like Twitter, and they can't migrate out.
 1. Since servers tend to be run by amateurs, they are often abandoned. This effectively bans everybody that signed up via that server.
 1. There are huge issues with data duplication across servers.
+
+</div> 
