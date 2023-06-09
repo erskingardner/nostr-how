@@ -1,6 +1,6 @@
 ---
-title: Why we need Nostr
-description: Why Nostr and the broader idea of decentralizing the internet is an important concept.
+title: چرا به ناستر نیاز داریم
+description: چرا ناستر و ایده اصلی تمرکز زدایی از اینترنت مفهوم مهمی است. 
 ---
 <div lang="fa" dir="rtl">
   
@@ -47,8 +47,8 @@ description: Why Nostr and the broader idea of decentralizing the internet is an
 1. هویت کاربران به نام دامنه متصل است که توسط شخص ثالث کنترل می شود. 
 1. این اشخاص ثالث می توانند شما را ممنوع کنند، درست مانند پلتفرم های رسانه اجتماعی متمرکز. مالکان سرورها هم می توانند سرورهای دیگر را مسدود کنند.
 1. جابجایی بین سرورها مشکل است و فقط درصورت همکاری سرور انجام پذیر است.
-1.  There are no clear incentives to run servers, therefore they tend to be run by enthusiasts and people who want to have their name attached to a cool domain. Because of this, users are subject to the despotism of a single person, which is often worse than that of a big company like Twitter, and they can't migrate out.
-1. Since servers tend to be run by amateurs, they are often abandoned. This effectively bans everybody that signed up via that server.
-1. There are huge issues with data duplication across servers.
+1. انگیزه شفافی برای راه اندازی سرور وجود ندارد، بنابراین اغلب توسط افراد علاقه مند که می خواهند نامشان به دامنه ای جالب ضمیمه باشد راه اندازی می گردند. به همین دلیل، کاربران تحت استبداد یک فرد هستند که غالبا از استبداد شرکتی بزرگ مانند توییتر بدتر است.  
+1. از آنجا که معمولا سرورها توسط مبتدیان اداره می شوند، اغلب رها می گردند. این بطور موثری تمام کسانی که از طریق آن سرور ثبت نام کرده اند را مردود می کند. 
+1. مشکلات بزرگی از داده های تکراری در سراسر سرورها وجود دارد. 
 
 </div> 
