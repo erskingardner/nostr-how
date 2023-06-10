@@ -1,49 +1,48 @@
 ---
-title: What are Zaps?
-description: Learn about what Zaps are, how they work, and what you need to use them on your Nostr client.
+title: زَپ چیست؟
+description: بیاموزید زَپ چیست، چطور کار می کند، و برای استفاده از آن در کلاینت ناستر خود به چه چیز نیاز دارید؟
 ---
 
-## [§](#the-basics) The basics
+## [§](#مفاهیم-پایه) مفاهیم پایه
+ساده ترین راه برای فکر کردن درباره زَپ مانند یک انعام است. انعام از طریق [شبکه لایتنینگ](https://www.investopedia.com/terms/l/lightning-network.asp) با سرعت نور و عملا بدون کارمزد تراکنش گذر داده می شوند. 
 
-The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) at the speed of light with basically no transaction fees.
+از ابتدای پروتکل ناستر، دیدن صورت حساب لایتنینگ در یادداشت ها معمول بود. از وقتی [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) به اجرا درآمد، زپ تبدیل به روش اصلی انتقال ارزش در یادداشت های ناستر شده است. بیایید نگاه دقیق تری به آنچه NIP-57 اجرا کرده و طرز کار زپ بیندازیم.     
 
-From the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+## [§](#nip-57) سند NIP-57
 
-## [§](#nip-57) NIP-57
+[نیپ-57 NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) سندی است که نحوه اجرای زپ را توضیح می دهد. این روش دو نوع یادداشت جدید ایجاد می کند، نوع 9735 (یک زپ) و نوع 9734 (یک درخواست زپ). این دو نوع با هم کلاینت ناستر را قادر می کنند تا از سرور  درخواست صدور صورت حساب لایتنینگ کرده و آن را پرداخت کند. NIP-57 همچنین توضیح می دهد که کیف پول لایتنینگی که پرداخت زپ دریافت می کند چگونه باید یادداشتی برای ارسال به رله ها ایجاد کند.   
 
-[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) is the document that describes how Zaps should be implemented. It creates two new kinds of notes, kind 9735 (A Zap) and kind 9734 (A Zap request). In concert these two kinds make it possible for Nostr clients to request Zap invoices from LNURL servers and pay them. The NIP-57 spec also describes how Lightning wallets that receive Zap payments should create notes to be sent to relays.
+💡 نکته جالب، نوع یادداشتی که برای زپ انتخاب شده همان درگاه شبکه (9735) است که لایتنینگ استفاده می کند. 
 
-💡 Fun fact, the note kind chosen for Zaps is the same as the networking port (9735) that Lightning uses.
+## [§](#زپ-چگونه-کار-میکند) زپ چگونه کار میکند  
 
-## [§](#how-zaps-work) How Zaps work
+[نمودار جریان زپ](/images/zap-flow.webp)!
 
-![Zap flowchart](/images/zap-flow.webp)
+در اینجا وارد عمق مطالب فنی نمی شویم ولی به خاطر بعضی اذهان کنجکاو در میان شما، بیایید نگاهی داشته باشیم به مکانیک پایه طرز کار زپ.
 
-We won't get into the deep technical weeds here but for the curious among you, let's look at the basic mechanics of how Zaps work.
 
-1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
-1. The LNURL server responds and, if Alice's wallet supports Zaps, it will tell the client so and send/confirm Alice's public key.
-1. At this point, the client does a little work to put together a Zap request (a kind 9734 note) with data about the profile or note that it would like to Zap, the amount, the relays it should broadcast the note to, and a few other things. This is effectively a request for an invoice from the LNURL server.
-1. The LNURL server responds with the requested invoice.
-1. At this point the client will hand that invoice off to the user's lightning wallet to be paid. If you are using a wallet like Alby in the browser (and have set a budget) this process can happen very quickly.
-1. Once the user has paid the invoice directly to the wallet of the person they're zapping, the receiver's wallet will create a kind 9735 note and then broadcast that to the relays specified earlier in the Zap request.
-1. Relays receiving this note will then be able to tell connected clients about the zap and clients and show the zap to users in their UI.
+1.  وقتی در کلاینت خود (داموس، آیریس، اماتیست و غیره) روی علامت ⚡ کوچولو می زنید یا کلیک می کنید، اولین اتفاقی که می افتد این است که کلاینت به [سرور LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) که جلوی کیف پول لایتنینگی که می خواهید به آن زپ بزنید قرار دارد، پینگ می فرستد. اولین درخواست چیزی مثل این است: "سلام، من می خواهم به آلیس مقداری ساتوشی بدهم". 
+2.  سرور LNURL پاسخ می دهد و اگر کیف پول آلیس از زپ پشتیبانی کند، به کلاینت می گوید و کلید عمومی آلیس را تایید کرده و می فرستد. 
+3.  در این هنگام، کلاینت کمی کار می کند تا یک درخواست زپ (یک یادداشت نوع 9734) را با داده هایی درباره نمایه یا یادداشتی که می خواهد زپ بزند، مبلغ زپ، رله هایی که باید یادداشت را عبور دهند، و چند چیز دیگر سر هم کند. این عملا یک صورت حساب لایتنینگ از سرور LNURL است. 
+4. سرور LNURL در جواب صورت حساب لایتنینگی خواسته شده را می فرستد.
+6. در این زمان، کلاینت صورت حساب را به کیف پول لایتنینگی می دهد تا بپردازد. اگر از کیف پولی مانند البی در مرورگر استفاده می کنید (و بودجه ای تعیین کرده اید) این فرایند می تواند خیلی سریع اتفاق بیفتد. 
+7. به محض آنکه کاربر صورت حساب را مستقیما به کیف پول گیرنده زپ پرداخت کند، کیف پول دریافت کننده یادداشت نوع 9735 می سازد و سپس به رله هایی که از قبل در درخواست زپ مشخص شده اند می فرستد.
+8. سپس رله هایی که این یادداشت را می گیرند می توانند به کلاینت های متصل خود درباره زپ اطلاع دهند و کلاینت ها زپ را به کاربران خود در رابط کاربری نشان می دهند. 
 
-And this all happens in just a few seconds and costs a tiny fraction of a penny.
+و تمام اینها در چند لحظه اتفاق می افتد و فقط ذره ناچیزی هزینه دارد.
 
-## [§](#how-to-send-and-receive) How do I send and receive Zaps?
+## [§](#چطور-بفرستیم-و-دریافت-کنیم) چطور زپ بفرستیم و دریافت کنیم؟
 
-To Zap other people in Nostr, you need just two things:
+برای زپ کردن دیگران در ناستر فقط به دو چیز لازم دارید:
 
-1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. A client that has implemented Zaps (like [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), or [Snort](https://snort.social))
+1. یک کیف پول لایتنینگی سازگار با زپ (مثل [البی](https://getalby.com/) یا [کیف ساتوشی](https://www.walletofsatoshi.com/))
+2. کلاینتی که زپ را به اجرا درآورده است (مثل [داموس](/en/guides/damus)، [اماتیست](/en/guides/amethyst)، [آیریس](/en/guides/iris) یا [اسنورت](https://snort.social))
 
-The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
+تنها چیز دیگری که نیاز دارید این است که آدرس لایتنینگی خود را در نمایه تان تنظیم کرده باشید. این آدرسی است که با آن دریافت می کنید.
+در نظر داشته باشید ارسال زپ از آدرس و کیف پولی غیر از آنکه برای دریافت زپ در نمایه خود تعیین کرده اید ممکن است.
 
-Keep in mind, it's possible to pay for Zaps from a wallet/address other than the address you have set in your profile to receive Zaps.
+برای مثال این شرایط را در نظر بگیرید:
 
-For example, imagine the following:
-
-1. You have a [Stacker News](https://stacker.news/) lightning address set in your Nostr profile, this is where you'll receive any zapped sats.
-1. In your web browser, you use Iris as your client and pay for Zaps using your Alby wallet via their chrome extension
-1. On mobile, you use Damus as your client and pay for Zaps using the Wallet of Statoshi app.
+1. شما آدرس لایتنینگی [استکرنیوز](https://stacker.news/) در نمایه ناستر خود دارید، اینجا جایی است که ساتوشی هایی که برای شما زپ شده دریافت می کنید. 
+2. در مرورگر خود، از آیریس به عنوان کلاینتتان استفاده می کنید و با استفاده از کیف پول البی از طریق افزونه کروم آن، زپ ها را پرداخت می کنید. 
+3. در موبایل، از داموس به عنوان کلاینت خود استفاده می کنید و زپ ها را با استفاده از اپلیکیشن کیف پول ساتوشی پرداخت می کنید.
