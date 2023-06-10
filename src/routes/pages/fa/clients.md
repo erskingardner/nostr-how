@@ -1,49 +1,50 @@
 ---
-title: What are Nostr Clients?
-description: An overview of what Clients are in Nostr and a comparison of a few of our favorites.
+title: کلاینت های ناستر چه هستند؟
+description: مروری بر چیستی کلاینت ها در ناستر و مقایسه چند تا کلاینت محبوب.
 ---
 
-## What's a client?
+## کلاینت چیست؟
 
-A client in Nostr is just the app that you use to access and interact with the protocol. It's like the Twitter iOS app or web app that you use to interact with Twitter's feed of tweets.
+کلاینت در ناستر همان اپلیکیشنی است که برای دسترسی و تعامل با پروتکل استفاده می کنید. مانند اپ iOS یا وب اپ توییتر که برای تعامل با خبرنامه توییت های توییتر استفاده می کنید.
 
-Because the Nostr protocol is very simple and flexible, different clients have focused on implementing different aspects of the protocol in slightly different ways. For example, some clients focus on beautiful and usable UI, others focus more on enabling lighting payments, still others focus on Nostr for creative use cases like playing chess (Yes, you can [play chess](https://jesterui.github.io/) via the Nostr protocol).
+چون پروتکل ناستر خیلی ساده و انعطاف پذیر است، کلاینت های مختف بر اجرای جنبه های گوناگون پروتکل به روش های کمی متفاوت تمرکز کرده اند. برای مثال، برخی کلاینت ها بر رابط کاربری زیبا و قابل استفاده تمرکز می کنند، بعضی بر امکان پرداخت لایتنینگی تمرکز می کنند، و بقیه نیز بر ناستر برای کاربرد های خلاقانه مثل بازی شطرنج (بله می توانید ازطریق ناستر [شطرنج بازی کنید](https://jesterui.github.io/))  تمرکز می کنند.
 
-Most of the clients that have been built so far are centered around the social media use-case. But we're starting to see more interesting use cases.
+اغلب کلاینت هایی که تاکنون ساخته شده اند حول کاربرد رسانه های اجتماعی بوده اند. ولی داریم موارد کاربرد جالب تری از آن می بینیم. 
+چند نمونه
 
-A few examples:
+-   در ناستر شطرنج بازی کنید: [Jester](https://jesterui.github.io/)
+-   محتوای بلند - شبیه مدیوم: [Habla](https://habla.news/)
+-   کلاینت اجتماعی متمرکز بر فیلم و عکس: [Nostrgram](https://nostrgram.co/) 
 
--   [Jester](https://jesterui.github.io/): Play chess on Nostr
--   [Habla](https://habla.news/): Long-form content – like Medium
--   [Nostrgram](https://nostrgram.co/): Media focused social client
+## می توانم کلاینتم را عوض کنم؟
 
-## Can I switch clients?
+بله. زیرا کلاینت فقط راهی برای دسترسی به داده های زیربنایی است که توسط رله ها نگهداری می شود، می توانید کلاینت را عوض کرده یا به هر تعداد کلاینت که می خواهید وارد شوید. تا زمانی که هر کلاینت به مجموعه یکسانی از رله ها برای تبادل داده نگاه کند، پیام های یکسانی را در تمام کلاینت ها می بینید. 
 
-Yes. Because a client is just a way to access the underlying data held by relays, you can switch clients or sign into as many clients as you'd like. As long as each client is looking at the same set of relays for their data, you'll see the same messages in each client.
 
-## Should I enter my private key in the client?
+## آیا باید کلید خصوصی خود را کلاینت وارد کنم؟
 
-Generally, it's better not to enter your private key into any client. Most clients that ask for private keys do their absolute best to keep your key secure but given the nature of software, there are always breaches, exploits, and bugs that could potentially expose your private key.
+در کل بهتر است کلید خصوصی خود را در هیچ کلاینتی وارد نکنید. اکثر کلاینت ها که کلید خصوصی شما را می خواهند تمام تلاششان را می کنند تا آن را امن نگه دارند اما با توجه به ماهیت نرم افزار، همیشه تخطی هایی، سواستفاده هایی، و باگ هایی وجود دارد که بطور بالقوه می تواند کلید خصوصی شما را در معرض خطر قرار دهد.  
 
-Remember, your private key is your identity in Nostr, so if it is compromised, you'll have to start from scratch rebuilding your identity, and you'll lose your list of followers and all your private messages.
+به یاد داشته باشید، کلید خصوصی شما هویت شما در ناستر است، بنابراین اگر لو برود مجبور خواهید بود از اول هویت خود را بازسازی کنید، و لیست دنبال کنندگان و تمام پیام های خصوصی خود را از دست می دهید.
 
-## A few of our favorite clients
+## چند کلاینت محبوب
 
-### Web
+### وب
 
--   [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
--   [Snort](https://snort.social/)
--   [Coracle](https://coracle.social/)
--   [Nostrgram](https://nostrgram.co/)
+-   [آیریس](https://iris.to) این کلاینت برای کاربران جدید توصیه می شود. [به راهنما مراجعه کنید](/fa/guides/iris).
+-   [اسنورت](https://snort.social/)
+-   [کوراکل](https://coracle.social/)
+-   [ناسترگرام](https://nostrgram.co/)
 
-### Desktop
+### دسکتاپ
 
--   [Gossip](https://www.github.com/mikedilger/gossip) – Gossip is a very opinionated desktop client that requires a bit more technical knowledge to use. The payoff is that it gives users more control over how they interact with Nostr.
+-   [گاسیپ](https://www.github.com/mikedilger/gossip) – گاسیپ یک کلاینت دستکاب بسیار خودرای است که به کمی دانش فنی بیشتر برای استفاده نیاز دارد. در عوض به کاربر کنترل بیشتری برای نحوه تعامل با ناستر می دهد.
 
-### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – This is the first & best iOS client for Nostr. [Check out our guide here](/en/guides/damus).
+### اپل iOS
 
-### Android
+-   [داموس](https://apps.apple.com/app/damus/id1628663131) – این اولین و بهترین کلاینت iOS برای ناستر است. [به راهنما مراجعه کنید](/fa/guides/damus).
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – A beautiful client for Android. [Check out our guide here](/en/guides/amethyst).
+### اندروید
+
+-   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – کلاینتی زیبا برای اندروید. [به راهنما مراجعه کنید](/fa/guides/amethyst).
