@@ -1,34 +1,36 @@
 ---
-title: How you can contribute
-description: It takes a village. We started Nostr.how because we are excited about the Nostr protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+title:  چطور می توانید مشارکت کنید 
+description: همسایه ها یاری کنید. ما Nostr.how را شروع کردیم زیرا درباره پروتکل ناستر و آنچه می تواند برای رهایی رسانه های اجتماعی از شرکت های بزرگ تکنولوژی انجام دهد ذوق زده هستیم. ما به کمک شما برای ادامه آن نیاز داریم. 
 ---
 
-## [§](#in-general) In general
+## [§](#در-کل) در کل
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/nostr-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+این پروژه ای منبع-باز است که توسط داوطلبین اداره می شود. [کد آن](https://github.com/erskingardner/nostr-how) در گیتهاب برای عموم منتشر شده است، ما همه را تشویق می کنیم که ریپازیتوری آن را تکثیر کنند، تغییر دهند، و پول ریکوئست بفرستند. 
 
-If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
+اگر فنی نیستید نگران نباشید. راه های دیگری برای مشارکت وجود دارد، مانند ترجمه، گزارش غلط های املایی، یا زپ کردن مقداری ساتوشی برای ما تا هزینه های میزبانی سرور را پوشش دهیم.
 
-## [§](#send-feedback) Send us feedback
+## [§](#بازخورد-دهید) بازخورد دهید
 
-If you find typos or information that is incorrect on Nostr.how, please let us know by creating an [issue on our GitHub repo](https://github.com/nostr-how/nostr-how/issues).
+اگر غلط املایی یا اطلاعات نادرست در یافتید، لطفا با طرح [مسئله در ریپوی گیتهاب](https://github.com/nostr-how/nostr-how/issues) اطلاع دهید.
 
-Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
+بعلاوه، اگر ایده ای درباره محتوایی که باید نوشته شود دارید، لطفا برای پیشنهاد خود در گیتهاب طرح مسئله کنید.🙌 
 
-## [§](#write-content) Write content
+## [§](#محتوا-بنویسید) محتوا بنویسید
 
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
+اگر نویسنده هستید و می خواهید مشارکت داشته باشید، لطفا برای تماس با ما (باز هم از راه [طرح مسئله در ریپوی گیتهاب](https://github.com/nostr-how/nostr-how/issues)) درنگ نکنید. می توانیم به روشی که مناسب سطح دانش فنی تان باشد ما را در پروژه مستقر کنیم.
 
-## [§](#translate-content) Translate content into other languages
 
-We're looking for translators to help us translate this site. [Please reach out via DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) if you're interested.
+## [§](#ترجمه-محتوا) محتوا را به زبان خود ترجمه کنید
 
-## [§](#hack-with-us) Hack with us
 
-This site is built using Svelte, Tailwind CSS, and Markdown. If you'd like to contribute to the codebase, feel free to submit Pull Requests.
+مادنبال مترجمانی می گردیم که این سایت را ترجمه کنند. اگر علاقه مند هستید [پیام خصوصی](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) دهید.  
 
-## [§](#donate) Donate
+## [§](#کد-بزنید) با ما کد بزنید
 
-This is a volunteer project. Any sats we receive through donations will be used to spend time creating new content or paying for our hosting.
+این سایت با استفاده از Svelte، Tailwind CSS، و مارک داون ساخته شده. اگر می خواهید در مبنای کد مشارکت کنید بفرمایید، پول ریکوئست دهید.
 
-We accept sats through the Lightning network only. Please donate via the button in the header, footer, or nav bar.
+## [§](#کمک-مالی) کمک مالی
+
+این پروژه ای داوطلبانه است. هر ساتوشی ای که از راه کمک مالی به دست ما برسد برای صرف وقت جهت تولید محتوای جدید و میزبانی سرور خرج می شود.
+ما تنها از طریق شبکه لایتنینگ ساتوشی می پذیریم. لطفا از دکمه ای که در سربرگ، پاورقی یا نوارناوبری هست کمک مالی کنید.
+
