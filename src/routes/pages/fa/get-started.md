@@ -1,60 +1,61 @@
 ---
-title: Get started with Nostr
-description: This guide will help you understand the basics of Nostr and get you all set up and ready to use Nostr with a new account. We’ll cover how to create a new lightning wallet, create an account, and sign into a client safely.
+title: ناستر را شروع کنید
+description:  این راهنما کمک می کند مفاهیم پایه ناستر بفهمید و شما آماده استقرار و استفاده از ناستر با یک حساب کاربری جدید می کند. ما ساختن کیف پول لایتنینگی جدید، ساخت حساب کاربری، و ورود امن به کلاینت را توضیح می دهیم. 
 ---
 
-## [§](#understanding-keys) Understanding keys
+## [§](#درک-کلیدها) درک کلیدها
 
-Each Nostr account is based on a public/private key pair. A simple way to think about this is that your public key is your username and your private key is your password, with one major caveat. Unlike a password, your private key cannot be reset if lost.
+هر حساب کاربری ناستر براساس یک جفت کلید عمومی/خصوصی است. راه ساده برای اندیشیدن به آن این است که کلید عمومی همان نام کاربری و  با یک هشدار بزرگ، کلید خصوصی گذرواژه شماست. برخلاف گذرواژه، کلید خصوصی درصورت گم شدن قابل بازیابی نیست. 
 
-Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
+بگذارید دوباره تکرار کنیم تا واضح باشد: **اگر کلید خصوصی خود را گم کنید حساب کاربری ناستر شما از دست رفته است. اگر کس دیگری به کلید خصوصی شما دست یابد، می تواند کنترل حساب کاربری شما را بدست گیرد.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)).
+مطمئن شوید که کلید خصوصی تان را جای امنی مثل یک مدیرگذرواژه ذخیره کنید، (ما [1Password](https://1password.com/) را دوست داریم). 
 
-## [§](#protocol-vs-client) Protocol vs Client
+## [§](#مقایسه-پروتکل-و-کلاینت) مقایسه پروتکل و کلاینت
 
-Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
+خود ناستر فقط پروتکل است؛ یک دستورالعمل مورد توافق برای انتقال پیام در اینترنت. 
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a web-based crypto wallet, which is a piece of software specifically designed to manage private keys.
+شما از طریق یک کلاینت به پروتکل ناستر دسترسی خواهید داشت. کلاینت ها می توانند از نوع وب، دسکتاپ، یا اپ موبایل باشند. بعضی کلاینت های ناستر اجازه می دهند با چسباندن یا نوشتن کلید خصوصی خود وارد شوید. در وب، این معمولا توصیه نمی شود چون سخت و ناامن است. درعوض توصیه می کنیم از یک کیف پول کریپتوی وب استفاده کنید، که نرم افزاری است که بطور مشخص برای مدیریت کلید خصوصی طراحی شده است. 
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) is a bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
 
-## [§](#create-your-account) Create your account
+[البی](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) یک کیف پول لایتنینگ بیتکوین است که پشتیبانی درونی برای ناستر دارد. این یک انتخاب عالی باری کاربران جدید است. ما نصب البی را هر جا که نیاز است در راهنمای مخصوص کلاینت ها که در زیر آمده توضیح می دهیم.
 
-Here are step-by-step guides to a few different clients we recommend:
+## [§](#حساب-کاربری-بسازید) حساب کاربری بسازید
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+ راهنمای قدم به قدم برای چند کلاینت که توصیه می کنیم:
 
-A few other clients that we love but don't have guides for:
+-   [آیریس](/fa/guides/iris) (Web)
+-   [داموس](/fa/guides/damus) (iOS)
+-   [اماتیست](/fa/guides/amethyst) (Android)
 
--   [Snort](https://snort.social/) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social/) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
+چند کلاینت دیگر که دوست داریم ولی فعلا برایشان راهنما نداریم:
 
-## [§](#find-friends) Find friends to follow
+-   [اسنورت](https://snort.social/) (Web) کلاینت وب بسیار تمیز و سریع. 
+-   [کوارکل](https://coracle.social/) (Web) کلاینتی متمرکز بر ناوبری رله. 
+-   [ناسترگرام](https://nostrgram.co) (Web) کلاینت جالب الهام گرفته از اینستاگرام برای عکس، فیلم، و صوت. میم ها را رو کنید!
 
--   If you know someone is on Nostr, find their profile by searching for their public key.
--   Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
--   [nostr.directory](https://nostr.directory) is a database mapping twitter users to their Nostr pubkeys.
+## [§](#دوست-پیدا-کنید) دوستان را پیدا کرده و دنبال کنید
 
-## [§](#whats-signing) What does "Signing" mean?
+-   اگر می دانید کسی در ناستر است، نمایه آنها را با جستجوی کلید عمومی شان پیدا کنید.
+-   بسیاری از کاربران توییتر کلید عمومی خود را با هشتگ #nostr #ناستر توییت می کنند، بنابراین جستجوی این هشتگ می تواند شروع خوبی باشد.  
+-   [nostr.directory](https://nostr.directory) پایگاه داده ای است که کاربران توییتر را با کلید عمومی ناسترشان ترسیم می کند.
+ 
+## [§](#امضا_چیست) معنی "امضا کردن" چیست؟
 
-In order to interact with the Nostr protocol you must create a cryptographic signature each time you perform an action. Think of this signature as an authentication step where you confirm that you are, indeed, who you say you are.
+به منظور تعامل با پروتکل ناستر باید هر باری که کاری می کنید یک امضای رمزنگاری بسازید. به این امضا به عنوان مرحله احراز هویت فکر کنید که اثبات می کنید شما واقعا همان کسی هستید که ادعا می کنید.
+اکثر کلاینت های ناستر سعی می کنند این مرحله را آسان و سریع کنند (یا اجازه دهند کلید عمومی خود را در کلاینت ذخیره کنید تا آنها بتوانند هر باری کاری انجام می دهید بجای شما امضا کنند.) 
 
-Most Nostr clients try to make this easy and quick (or allow you to save your private key in the client so that they can sign on your behalf anytime you do anything).
+اما اگر فقط کلید عمومی را وارد کرده باشید هر بار که بخواهید با هر یادداشتی تعامل کنید یا نمایه خود را بروز کنید از شما خواسته می شود که امضا بزنید. وقتی این اتفاق افتاد، البی به طور خودکار سر بر می آورد (همان طور که در مرحله ثبت نام آمد) و می توانید تایید کنید که حقیقتا می خواهید امضا کنید.
 
-By only providing our public key above, we'll be prompted to sign anytime we want to interact with any posts or perform any updates to our profile. When that happens, Alby will automatically pop up (like it did during the sign up step) and you can confirm that you actually want to sign.
+## [§](#میتوانم-کلاینت-دیگری-استفاده-کنم) می توانم کلاینت دیگری استفاده کنم؟
 
-## [§](#can-i-use-other-clients) Can I use other clients?
+بله! حالا که جفت کلید خصوصی/عمومی خود را ساختید، از این کلیدها می توانید در هر کلاینت ناستری برای دسترسی به حساب کاربری خود استفاده کنید. به یاد داشته باشید، کلاینت فقط یک رابط کاربری است تا پیام های منتشر شده در پروتکل ناستر را ببینید.
 
-Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
+## [§](#گام-های-بعدی) گام های بعدی
 
-## [§](#next-steps) Next steps
+عالی، حالا یک کیف پول لایتنینگی دارید، و یک هویت (جفت کلیدتان)، و یک کلاینت را امتحان کرده اید. اینجا چند لینک هست که ممکن برای کاوش بیشتر در ناستر به کارتان بیاید: 
 
-Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
 
--   [Verify your identity](/en/verify-your-identity)
--   [What are Relays and how do they work?](/en/relays)
--   [Learn more about NIPs and the development of the protocol](/en/the-protocol)
+-   [هویت خود را تایید کنید](/fa/verify-your-identity)
+-   [رله چیست و چگونه کار می کند؟](/fa/relays)
+-   [درباره NIPها و توسعه پروتکل بیشتر بدانید](/fa/the-protocol)
