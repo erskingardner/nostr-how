@@ -1,32 +1,34 @@
 ---
-title: What are Nostr Relays?
-description: A quick overview of what Nostr relays are, why are they important, and how they work.
+title: رله های ناستر چه هستند؟
+description: مروری سریع بر چیستی رله های ناستر، چرا اهمیت دارند، و چطور کار می کننند؟
 ---
 
-## What are relays?
+## رله چیست؟
+رله در ناستر مانند سرور بک اند است. رله به کلاینت اجازه می دهد به آن پیام بفرستد، و ممکن است آن پیام ها را ذخیره کند یا نکند. و رله پیام ها را بقیه کلاینت های متصل ارسال می کند.
 
-Relays are like the backend servers for Nostr. They allow Nostr clients to send them messages, and they may (or may not) store those messages and broadcast those messages to all other connected clients.
+دنیای رله ها خیلی سریع تغییر می کند پس انتظار تغییرات زیادی در این بخش در آینده داشته باشید. نکته ای که باید توجه کنید، به دلیل اینکه ناستر غیرمتمرکز است و برای ذخیره و بازیابی داده ها به رله ها متکی است، اگر احساس می کنید کلاینت ناستر شما کند است احتمالا به خاطر رله هایی است که استفاده می کنید. اضافه کردن (یا کم کردن) چند رله به کلاینت تان ممکن است ارزشش را داشته باشد.  
 
-The world of relays is changing fast so expect many changes here in the future. One thing to note, because Nostr is decentralized and depends on relays to store and retreive data, if you notice that your Nostr client feels slow, it's most likely due to the relays that you're using. It might be worth adding a few more relays (or removing a few) to your client.
+## رله های پولی دربرابر رله های رایگان
 
-## Paid vs Free relays
+فعلا رله های زیادی رایگان هستند. اما با درنظر گرفتن هزینه رله (هزینه محاسبات، انبار حافظه، و پهنای باند)، بیشتر افراد انتظار دارند که رله های پولی در آینده مرسوم شود.
 
-Many relays are currently free to use. Given the costs of running a relay (paying for compute, storage, and bandwidth), most people expect that paid relays will be the norm in the future.
+یک فایده اصلی استفاده از رله های پولی کیفیت بالاتر کابران و یادداشت ها روی آنهاست. "اثبات کار" پرداختن برای دسترسی به رله همان چیزی است که کمک می کند از آلودگی شبکه به حساب های اسپم جلوگیری شود.
 
-One major benefit of using paid relays now is the higher signal of users and notes on paid relays. The "proof of work" of paying for relay access is something that helps keep spam accounts from infesting the network.
+### رله های پولی محبوب
 
-### Popular paid relays
+یک لیست بروز از رله های پولی با جزئیات هزینه و قیمت و شخص اداره کننده آنها را میتوانید اینجا بیابید [صرافی رله](https://relay.exchange/)
+  
 
-An up-to-date list of paid relays with details on how much they cost and who operates them can be found on [Relay Exchange](https://relay.exchange/)
+### کجا می توانم لیستی از همه رله ها پیدا کنم؟
 
-### Where can I find a list of all relays?
+بهترین منبعی که برای مرور و کاوش و ارزیابی سرعت رله های شناخته شده پیدا کرده ایم [Nostr.watch سایت](https://nostr.watch/relays/find) است. 
 
-The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://nostr.watch/relays/find).
 
-## What happens if all the relays I use stop working?
+## اگر همه رله هایی که استفاده می کنم دیگر کار نکنند چه اتفاقی می افتد؟
 
-If _all_ the relays that you have used in the past go offline, all your posts will be unretrievable. This is one reason that Nostr allows users to connect to many relays – this ensures some degree of backup. That said, if you're really interested in being uncensorable, you can and should run your own personal relay.
+اگر _همه_ رله هایی که قبلا استفاده کرده اید آفلاین شوند، همه یادداشت های شما غیرقابل بازیابی می شوند. این یکی از دلایلی است که ناستر اجازه می دهد کاربران به تعداد زیادی رله وصل شوند، این تا حدودی خیال شما را از بکاپ راحت می کند. با این وجود، اگر واقعا علاقه دارید غیرقابل سانسور باشید، می توانید و باید رله شخصی خود را راه بیندازید.  
 
-## Should I run my own relay?
 
-For most people, no, it's not worth the hassle. That said, if you're technical and want to ensure that your speech is absolutely uncensorable or want to run a private relay for a small group, then you can and should run your own relay. This ensures that you always have a copy of all your Nostr posts and interactions for all time. We're working on a guide to this but in the meantime, [here is a guide](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) from Andre Neves on how to set up a Nostr relay.
+## باید رله خودم را راه بیندازم؟
+
+برای بیشتر مردم، نه، ارزش زحمتش را ندارد. با این حال، اگر فنی هستید و می خواهید مطمئن باشید که سخن شما مطلقا قابل سانسور نیست و یا می خواهید یک رله خصوصی برای گروهی کوچک داشته باشید، آنگاه می توانید و باید رله خود را راه بیندازید. این اطمینان می دهد که همیشه یک کپی از تمام یادداشت ها و تعاملات ناستر خود دارید. ما داریم روی یک راهنما برای راه اندازی رله کار می کنیم ولی تا آن زمان [این راهنما](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) از Andre Neve درباره چگونگی استقرار رله هست.  
