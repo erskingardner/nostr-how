@@ -1,30 +1,34 @@
 ---
-title: Manage your sats safely
-description: This is an introductory primer on how to safely manage sats that you accumulate via Zaps in Nostr.
+title: ساتوشی های خود را امن اداره کنید
+description: این شروع مقدماتی چگونگی مدیریت امن ساتوشی هایی است که از راه زپ در ناستر بدست می آورید.
 ---
 
-## Bitcoin Basics
+## مفاهیم پایه بیتکوین
 
-This guide is meant to be a very basic introductory guide so we will only barely scratch the surface of Bitcoin here but there are a few very imprtant things to know about the zaps your send and receive in Nostr.
+این راهنما بنا است که راهنمایی معرفی کاملا ابتدایی باشد بنابر این ما اینجا فقط به طور سطحی به بیتکوین می پردازیم ولی چند نکته مهم وجود دارد که باید درباره زپ هایی که در ناستر می فرسید و می گیرید بدانید.  
 
-1. The sats that you're zapping back and forth in Notsr are Bitcoin.
-1. Satoshis (sats) are the subdividing units of Bitcoin. There are 100,000,000 satsoshis in a whole Bitcoin.
-1. Bitcoin is a bearer instrument, which means that whoever holds it, owns it. There is no recourse or insurance if your bitcoin ends up in someone else's hands.
+1. ساتوشی های که در ناستر زپ می کنید و می گیرید بیتکوین هستند.
+2. ساتوشی یا ست (sat) واحد خرد بیتکوین است. در یک بیتکوین کامل 100,000,000 ساتوشی وجود دارد.
+3. بیتکوین در وجه حامل است یعنی هرکس آن را در دست دارد مالک آن است. اگر بیتکوین شما به دست دیگری افتاد هیچ استرداد یا بیمه ای برای آن وجود ندارد.
 
-If you want to go deeper and learn more about Bitcoin...
+اگر می خواهید عمیق تر شوید و بیشتر درباره بیتکوین بدانید...
 
-<!-- TODO: ADD LINK TO BITCOIN 101 SITE -->
+[بیتکوین 101](https://arzdigital.com/category/beginners/bitcoin-101/)
 
-## Wallet Basics
+[منابع فارسی بیت‌کوین](https://bitcoind.me/)
 
-There are many different bitcoin wallets out there but you can divide them into two categories; custodial and self-custodial.
 
-**Custodial wallets:** With custodial wallets you're trading convenience for certainty. They are called custodial wallets because the company or developer that is running the wallet is the ultimate owner (or custodian) of all the Bitcoin of all the users using that wallet.
+## مفاهیم پایه کیف پول
 
-When you use a custodial wallet, you're trusting the wallet developer not to rug you and steal your funds. This happens rarely, but as we've seen recently with many custodial exchanges (Blockfi, Celcius, FTX, etc), counterparty risk is a real danger and something you should be aware of.
+کیف پول های بیتکوینی گوناگونی وجود دارند اما می توان آنها را به دو دسته کلی تقسیم کرد: حضانتی و خودحضانتی. 
 
-**Self-custodial wallets:** Self-custodial wallets are wallets that you, personally, hold the keys to. This means that you have full control, ownership of, and responsibility for the bitcoin in them. If you lose the keys, your coins are lost.
 
-Like all things in life, the question of custodial vs self-custodial is about tradeoffs. Only you can decide whether you feel comfortable trading the convenience of not managing keys (it's really not that hard) for the certainty of holding your own bitcoin.
+**کیف پول های حضانتی:** با کیف پول های حضانتی شما راحتی را بر اطمینان ترجیح می دهید. به آنها حضانتی گفته می شود چون شرکت یا برنامه نویسی که کیف پول را می گرداند مالک نهایی (یا سرپرست) تمام بیتکوین های همه کاربران آن کیف پول است. 
+وقتی از کیف پول حضانتی استفاده می کنید، به توسعه دهنده کیف پول اعتماد می کنید که کلاهبرداری نکرده و سرمایه شما را ندزدد! این به ندرت اتفاق می افتد اما همان طور که این اواخر دیده ایم در بسیاری از صرافی های حضانتی (Blockfi, Celcius, FTX, etc) ریسک بدعهدی طرف مقابل یک خطر واقعی است که باید در مورد آن آگاه باشید.   
 
-That said, as a good rule of thumb, think about losing everything you have in Wallet of Satoshi right now. If that idea scares you or makes you feel uncomfortable you should set yourself a goal to switch to self-custody soon. A good place to start is our guide on how to set up a [self-custody](/en/guides/sweep-to-self-custody) wallet for sweeping sats.
+
+**کیف پول های خودحضانتی:** کیف پول های خود حضانتی آنهایی هستند که خود شما شخصا کلید های آن را در اختیار دارید. این بدان معناست که کنترل کامل، مالکیت و مسئولیت کامل بیتکوین های داخل آن با شماست. اگر کلیدها را گم کنید، بیتکوین هایتان از دست رفته است.
+
+مثل همه چیز در زندگی، فرق تصمیم گیری درباره حضانتی و غیر حضانتی به ارزیابی معایب و محاسن آن برمی گردد. فقط شما می توانید تصمیم بگیرید آیا می خواهید راحتی مسئولیت نداشتن برای نگهداری از کلیدها را (آنقدرها هم سخت نیست) با اطمینان از مالکیت بیتکوین خود معاوضه کنید یا نه. 
+
+با تمام این حرف ها، به از دست دادن تمام دارایی خود در کیف پول ساتوشی فکر کنید. اگر این فکر شما را می ترساند یا معذب می کند لازم وظیفه جابجایی به کیف پول خودحضانتی در لیست کارهای خود قرار دهید. یک راه خوب برای شروع، راهنمای ما درباره راه اندازی یک [کیف پول خود حضانتی](/fa/guides/sweep-to-self-custody) برای انتقال ساتوشی ها است. 
