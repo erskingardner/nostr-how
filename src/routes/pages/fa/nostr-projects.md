@@ -1,38 +1,40 @@
 ---
-title: Nostr Resources & Links
-description: This is a collection of other Nostr resources and projects that we've come across.
+title: منابع ناستر و لینک ها
+description: این مجموعه ای از دیگر پروژه ها و منابع ناستر است که تاکنون به آنها برخورده ایم
 ---
 
-If you are working on project and would like it included here, [send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) or [add an issue](https://github.com/erskingardner/nostr-how/issues) or [submit a PR](https://github.com/erskingardner/nostr-how/pulls) to our Github repo.
+اگر دارید روی پروژه ای کار می کنید و دوست دارید در این لیست قرار گیرد [به من پیام دهید](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) یا [طرح مسئله کنید](https://github.com/erskingardner/nostr-how/issues) یا در ریپازیتوری گیتهاب [PR ثبت کنید](https://github.com/erskingardner/nostr-how/pulls).  
 
-## [§](#nostr-repo) The Nostr repository
+## [§](#ریپوی-ناستر) ریپازیتوری ناستر
 
-The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the canonical home of Nostr. It's a very sparse repository but houses [@fiatjaf's](https://github.com/fiatjaf) original reasoning on why Nostr needs to exist.
+ریپازیتوری [پروتکل ناستر](https://github.com/nostr-protocol/nostr) خانه ناستر است. این ریپازیتوری خیلی شلوغ نیست اما دلایل اصلی [@fiatjaf's](https://github.com/fiatjaf) را درباره لزوم وجود ناستر در خود جای داده است. 
 
-## [§](#nostr-relays) Nostr Relays
+## [§](#رله-های-ناستر) رله های ناستر
 
--   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
--   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
--   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
--   See our page on [relay implementations](/en/relay-implementations) for more.
+-   [Purplepag.es](https://purplepag.es/what) یک نوع رله مخصوص است.
+-   [Nostr.watch](https://nostr.watch/relays/find) تمام اطلاعات همه رله های شناخته شده ناستر. 
+-   [Relay Exchange](https://relay.exchange/) لیست رله های پولی فعلی. 
+-   [Nostr.wine رله فیلتر](https://nostr-wine.github.io/filter-relay/) وسیله ای جالب که خواندن و نوشتن از/به چندین رله اصلی دیگر را در خد جمع کرده است. هدف آن پر کردن فاصله بین رله های خصوصی و عمومی است. 
+-   برای اطلاات بیشتر صفحه ما درباره [اجرای رله](/fa/relay-implementations) را ببینید.
 
-## [§](#search-data) Search & data
+## [§](#جستجوی-داده) جستجوی داده
 
--   [Nostr.band](https://nostr.band) is a search engine for Nostr that can help you find new users to follow or find that note you saw a while back.
--   [Network stats](https://stats.nostr.band) is also run by Nostr.band. This is a high level set of data about the growth of the Nostr network.
--   [Zaplife](https://zaplife.lol) is an aggregation of all(?) Zaps across Nostr in the last several hours. Think of it as the Zap leaderboard. ⚡
+-   [Nostr.band](https://nostr.band) موتور جستجوی ناستر برای یافتن کاربران جدید جهت دنبال کردن یا یافتن یادداشتی که قبلا دیده اید.
+-   [Network stats](https://stats.nostr.band)  هم توسط اداره می شود. مجموعه سطح بالایی از داده درباره رشد شبکه ناستر است.
+-   [Zaplife](https://zaplife.lol) تجمیع تمام زپ ها در سراسر ناستر طی ساعات اخیر. مثل تابلوی امتیازات زپ به آن فکر کنید. ⚡
 
-## [§](#long-form-content) Long-form content
+
+## [§](#محتوای-طولانی) Long-form content
+
 
 -   [Habla](https://habla.news)
 -   [Blogstack](https://blogstack.io/)
 
-## [§](#badges) Badges
+## [§](#مدال) مدال
 
 -   [Badges.page](https://badges.page/)
 
-## [§](#others) Others
+## [§](#دیگران) دیگران
 
--   [Awesome Nostr](https://www.nostr.net) is a repository of links for Nostr clients, relay implementations, and more.
--   [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
+-   [Awesome Nostr](https://www.nostr.net) مخزنی از کلاینت های ناستر، اجراهای ناستر و بیشتر.
+-   [Nostr Resources](https://nostr-resources.com) مفاهیم پایه ناستر و لینک به بسیاری منابع بیشتر.
