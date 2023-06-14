@@ -1,35 +1,37 @@
 ---
-title: The Nostr Protocol
-description: This is a high-level overview of the Nostr protocol with details on Event types and how Nostr Implementation Possibilities (NIPs) work.
+title: پروتکل ناستر
+description: این مروری سطح بالا بر پروتکل ناستر شامل انواع رویداد و نحوه کار احتمالات اجرای ناستر (NIP) است.
 ---
 
-## [§](#nostr-high-level) Nostr at the highest level
+## [§](#سطح-بالای-ناستر) ناستر در سطح بالا
 
--   There are two main components to the Nostr network: [clients](/en/clients) & [relays](/en/relays).
-    -   **Clients** are the interface that users use to read and write data to relays. In a social media context, think of this as the Twitter web app or mobile app. It's a client that is allowing you to read data from and write data to Twitter's centralized database.
-    -   **Relays** are like databases (though they do a lot more than just store data). They allow clients to send them data and store that data in a database. Clients can then read data out of relays to be shown to users.
--   Every user is identified by a public key. Every event object (e.g. message you're posting, update to your following list, etc.) is signed. Clients validate these signatures to ensure they're correct.
--   Clients fetch data from relays and publish data to relays. The relays are almost always chosen by the user. Relays don't have to talk to one another, but might potentially in the future.
--   For example, to update your profile, you just instructs your client to send an event of kind 0 to the relays you want to use. The relays will then store that event.
--   On startup, your client queries data from the relays that you tell it to. This can be filtered to only show events for users you follow or you can ask for everything from everyone, then the client displays that data to you.
--   There are many different kinds of events. Events can contain all sorts of structured data, and the most used structures are finding their way into [Nostr Implementation Possibilities](#nips) (NIPs – protocol standards that everyone adheres to) so all clients and relays can handle them seamlessly.
--   The data that you can see on Nostr is completely dependent on the relays that you decide to connect to. See the network diagram below for more on this.
+-   دو جز اصلی در شبکه ناستر وجود دارند: [کلاینت ها](/fa/clients) و [رله ها](/fa/relays).
+    -   **کلاینت ها** رابط کاربری هستند کابران استفاده می کنند تا داده ها در رله ها بخوانند و بنویسند. در دنیای رسانه های اجتماعی، مثل اپ موبایل یا اپ وب توییتر می مانند. این کلاینت است که به شما اجازه می دهد در پایگاه داده متمرکز توییتر داده ها را بخوانید یا بنویسید.   
+    -   **رله ها** مانند پایگاه داده هستند (هرچند که کارهایی خیلی بیشتر از صرفا ذخیره داده انجام می دهند). رله ها به کلاینت ها اجازه می دهند که داده ها را به آنها بفرستند و سپس آن داده را در پایگاه داده ذخیره می کنند. آنگاه کلاینت ها می توانند داده را از رله ها بخوانند و به کاربران نشان دهند.
 
-### Network diagram
+-   هر کاربر با یک کلید عمومی شناخته می شود. هر شئ رویداد (مثلا پیامی که می فرستید، بروز رسانی لیست دنبال شوندگان شما، و غیره) امضا می شود. کلاینت ها این امضاها را اعتبارسنجی می کنند تا مطمئن شوند صحت دارند.
+-   کلاینت ها داده را رله ها می گیرند و به رله ها متنشر می کنند. رله ها تقریبا همیشه توسط کاربر انتخاب می شوند. رله ها مجبور به برقراری ارتباط با یکدیگر نیستند اما بطور بالقوه ممکن است در آینده این اتفاق بیافتد.
+-   برای مثال، برای بروزرسانی نمایه خود، فقط به کلاینت خود دستور می دهید که یک رویداد نوع صفر به رله هایی که می خواهید استفاده کنید بفرستد. سپس رله ها این رویداد را ذخیره می کنند. 
+-   در آغاز، کلاینت شما داده ای را که خواسته اید از رله ها می پرسد. ممکن آن را طوری فیلتر کنید که فقط رویداد های کاربرانی را که آنها دنبال می کنید نشان دهد یا می توانید همه چیز را از همه کس بخواهید، سپس کلاینت این داده را به شما نشان می دهد.
+-   انواع مختلف رویداد وجود دارد. رویدادها می توانند همه جور ساختار داده را در بر بگیرند، و بیشترین ساختار های مورد استفاده به [احتمالات اجرای ناستر](#nips) راه می یابند (NIPها - استانداردهای پروتکل که همه به آن مقید هستند) پس همه کلاینت ها می توانند بی هیچ مشکلی از پس آنها بربیایند. 
+-   داده ای که می توانید در ناستر ببینید کاملا به رله هایی بستگی دارد که به تصمیم می گیرید به آن ها متصل شوید. برای درک بیشتر نمودار شبکه را در زیر ببینید.
 
-![Nostr network diagram](/images/nostr-network.webp)
+### نمودار شبکه
 
-You can see the diagram above that we have 3 relays and 3 users. Each of the users is connecting to Nostr with a different client (and on a different Platform).
+![نمودار شبکه ناستر](/images/nostr-network.webp)
 
-Given the reads and writes in the diagram:
+در نمودار بالا می بینید که ما 3 رله و 3 کاربر داریم. هر کاربر با کلاینتی متفاوت به ناستر وصل شده است (و در پلتفرمی متفاوت).
 
--   Bob can see all of Alice's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Alice can see all of Bob's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Mary can see all of Bob's and Alice's posts. This is because while she only writes to Relay 3, she is reading from Relay 2, where Bob and Alice are writing their posts.
+با در نظر گرفتن خوانده ها و نوشته ها در نمودار:
 
-This is a very simplified situation but you can already see that the choice of which relays you want to connect to can have a large impact on who and what you'll see when using Nostr.
 
-## [§](#events) Events
+-   باب می تواند تمام یادداشت های آلیس را ببیند، ولی هیچ چیز از ماری نمی بیند (و حتی نمی داند او وجود دارد)
+-   آلیس می تواند تمام یادداشت های باب را ببیند، ولی هیچ چیز از ماری نمی بیند (و حتی نمی داند او وجود دارد)
+-   ماری می تواند تمام یادداشت های باب و آلیس را ببیند. این بدان دلیل است که در حالی که او فقط به رله 3 می نویسد، ولی از رله 2، جایی که باب و آلیس در آن می نویسند می خواند.
+
+این یک وضعیت بسیار ساده شده است ولی می توانید ببینید که انتخاب رله هایی که به آنها وصل می شوید می تواند تاثیر زیادی در چیزها و کسانی که در استفاده از ناستر می بینید داشته باشد.
+
+## [§](#رویدادها) رویدادها
 
 Events are the only object type on the Nostr network. Each event object has a `kind`, which denotes what sort of event it is (what sort of action a user might take or messages that might be received).
 
