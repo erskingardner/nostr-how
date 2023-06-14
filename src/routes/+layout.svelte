@@ -17,7 +17,7 @@
     }
 </script>
 
-<div class="relative flex">
+<div class="relative flex" dir={$locale === 'fa' ? 'rtl' : 'ltr'}>
     <div
         class="
             absolute h-96 z-0 inset-0 bg-gradient-to-r from-[#5e08c1] to-[#e250f9]
@@ -28,7 +28,7 @@
     <aside
         transition:slide={{ axis: 'x', duration: 200 }}
         class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent hidden md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 border-r border-zinc-400/20"
+        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
     >
         <button
             class="ml-auto block md:hidden"
@@ -42,7 +42,7 @@
         <aside
             transition:slide={{ axis: 'x', duration: 200 }}
             class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 border-r border-zinc-400/20"
+        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
         >
             <button
                 class="ml-auto block md:hidden"

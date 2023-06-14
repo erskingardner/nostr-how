@@ -32,7 +32,7 @@
         <span class="font-extrabold leading-tight">{$_('title')}</span>
     </a>
 
-    <div class="navWrapper guides md:mt-10 ml-4">
+    <div class="navWrapper guides md:mt-10 rtl:mr-4 ltr:ml-4">
         <h2 class="mb-2 font-semibold">{$_('nav.guides')}</h2>
         <ul class="nav text-base">
             {#each navLinks.guides as link}
@@ -43,7 +43,7 @@
         </ul>
     </div>
 
-    <div class="navWrapper resources mt-10 mb-10 ml-4">
+    <div class="navWrapper resources mt-10 mb-10 rtl:mr-4 ltr:ml-4">
         <h2 class="mb-2 font-semibold">{$_('nav.resources')}</h2>
         <ul class="nav text-base">
             {#each navLinks.pages as link}
