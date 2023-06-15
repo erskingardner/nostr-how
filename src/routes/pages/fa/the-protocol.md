@@ -33,9 +33,9 @@ description: این مروری سطح بالا بر پروتکل ناستر شا
 
 ## [§](#رویدادها) رویدادها
 
-Events are the only object type on the Nostr network. Each event object has a `kind`, which denotes what sort of event it is (what sort of action a user might take or messages that might be received).
+رویداد تنها گونه شئ در شبکه ناستر است. هر شئ رویداد یک `نوع` دارد، که مشخص می کند این رویداد از چه قسمی است (کاربر احتمالا چه عملی انجام داده است یا چه پیام هایی دریافت کرده است). 
+یک ویداد نوع 1 به این شکل است (نوع 1 برای یادداشت های متنی کوتاه است. مثلا چیزی شبیه توییت)
 
-Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. something like a Twitter tweet)
 
 ```json
 {
@@ -52,78 +52,81 @@ Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. s
 }
 ```
 
--   The `id` field tells us the ID of the event
--   The `pubkey` field tells us the public key of the user who sent the event
--   The `created_at` field tells us when the event was published
--   The `kind` field tells us what sort of event it is
--   The `tags` field tells us about tags on the event. These are used for creating links, adding media, and mentioning other users or events.
--   The `content` field gives us the content of the event. In this case, the short text post.
--   The `sig` field is the signature that clients use to verify that the user with this pubkey did in fact send this event on the date specified.
+-   بخش `id` شماره شناسایی رویداد را به ما می گوید.
+-   بخش `pubkey` کلید عمومی کاربری که رویداد را فرستاده می گوید.
+-   بخش `created_at` می گوید رویداد چه زمانی منتشر شده است. 
+-   بخش `kind` می گوید این چه نوع رویدادی است.
+-   بخش `tags`  درباره تگ های روی رویداد به ما می گوید. این ها برای ایجاد لینک، افزودن رسانه، نام بردن از سایر کاربران یا رویداد ها استفاده می شود.
+-   بخش `content` محتوای رویداد را می دهد. در این مورد، همان یادداشت متنی کوتاه.
+-   بخش `sig` امضایی است که کلاینت ها استفاده می کنند تا تایید کنند کاربری با این کلید عمومی واقعا این رویداد را در تاریخ مشخص شده فرستاده است.  
 
-### Event Kinds
 
-This is a list of current `Event` kinds. The most up-to-date list can always be found on the [Nostr NIPs repository](https://github.com/nostr-protocol/nips).
+### انواع رویداد
 
-| kind        | description                      | NIP         |
+این لیستی از انواع فعلی `رویداد` است. بروز ترین لیست همیشه در [ریپازیتوری NIPهای ناستر](https://github.com/nostr-protocol/nips) یافت می شود. 
+
+
+| نوع        | توصیف                      | NIP         |
 | ----------- | -------------------------------- | ----------- |
-| 0           | Metadata                         | [1](01.md)  |
-| 1           | Short Text Note                  | [1](01.md)  |
-| 2           | Recommend Relay                  | [1](01.md)  |
-| 3           | Contacts                         | [2](02.md)  |
-| 4           | Encrypted Direct Messages        | [4](04.md)  |
-| 5           | Event Deletion                   | [9](09.md)  |
-| 6           | Reposts                          | [18](18.md) |
-| 7           | Reaction                         | [25](25.md) |
-| 8           | Badge Award                      | [58](58.md) |
-| 40          | Channel Creation                 | [28](28.md) |
-| 41          | Channel Metadata                 | [28](28.md) |
-| 42          | Channel Message                  | [28](28.md) |
-| 43          | Channel Hide Message             | [28](28.md) |
-| 44          | Channel Mute User                | [28](28.md) |
-| 1984        | Reporting                        | [56](56.md) |
-| 9734        | Zap Request                      | [57](57.md) |
-| 9735        | Zap                              | [57](57.md) |
-| 10000       | Mute List                        | [51](51.md) |
-| 10001       | Pin List                         | [51](51.md) |
-| 10002       | Relay List Metadata              | [65](65.md) |
-| 22242       | Client Authentication            | [42](42.md) |
-| 24133       | Nostr Connect                    | [46](46.md) |
-| 30000       | Categorized People List          | [51](51.md) |
-| 30001       | Categorized Bookmark List        | [51](51.md) |
-| 30008       | Profile Badges                   | [58](58.md) |
-| 30009       | Badge Definition                 | [58](58.md) |
-| 30023       | Long-form Content                | [23](23.md) |
-| 30078       | Application-specific Data        | [78](78.md) |
-| 1000-9999   | Regular Events                   | [16](16.md) |
-| 10000-19999 | Replaceable Events               | [16](16.md) |
-| 20000-29999 | Ephemeral Events                 | [16](16.md) |
-| 30000-39999 | Parameterized Replaceable Events | [33](33.md) |
+| 0           | فراداده                         | [1](01.md)  |
+| 1           | یادداشت متنی کوتاه                   | [1](01.md)  |
+| 2           | توصیه رله                 | [1](01.md)  |
+| 3           | مخاطبان                         | [2](02.md)  |
+| 4           | پیام های مستقیم رمزنگاری شده        | [4](04.md)  |
+| 5           | حذف رویداد                   | [9](09.md)  |
+| 6           | بازنشر                          | [18](18.md) |
+| 7           | واکنش                         | [25](25.md) |
+| 8           | مدال پاداش                      | [58](58.md) |
+| 40          | ایجاد کانال                 | [28](28.md) |
+| 41          | فراداده کانال                 | [28](28.md) |
+| 42          | پیام کانال                  | [28](28.md) |
+| 43          | پیام مخفی کانال             | [28](28.md) |
+| 44          | کاربر بیصدای کانال                | [28](28.md) |
+| 1984        | گذارش کردن                        | [56](56.md) |
+| 9734        | درخواست زپ                      | [57](57.md) |
+| 9735        | زپ                              | [57](57.md) |
+| 10000       | لیست بی صدا                        | [51](51.md) |
+| 10001       | لیست سنجاق                         | [51](51.md) |
+| 10002       | فراداده لیست رله              | [65](65.md) |
+| 22242       | احراز هویت کلاینت            | [42](42.md) |
+| 24133       | اتصال ناستر                    | [46](46.md) |
+| 30000       | لیست دسته بندی افراد          | [51](51.md) |
+| 30001       | لیست دسته بندی نشانک        | [51](51.md) |
+| 30008       | مدال نمایه                   | [58](58.md) |
+| 30009       | تعریف مدال                 | [58](58.md) |
+| 30023       | محتوای طولانی                | [23](23.md) |
+| 30078       | داده مخصوص اپلیکیشن        | [78](78.md) |
+| 1000-9999   | رویدادهای عادی                   | [16](16.md) |
+| 10000-19999 | رویدادهای قابل جایگزینی               | [16](16.md) |
+| 20000-29999 | رویدادهای زودگذر                 | [16](16.md) |
+| 30000-39999 | رویدادهای قابل جایگزینی پارامتری | [33](33.md) |
 
-### Standardized Tags
+### تگ های استاندارد
 
-| name       | value                   | other parameters  | NIP                      |
+| نام       | مقدار                   | سایر پارامترها  | NIP                      |
 | ---------- | ----------------------- | ----------------- | ------------------------ |
-| e          | event id (hex)          | relay URL, marker | [1](01.md), [10](10.md)  |
-| p          | pubkey (hex)            | relay URL         | [1](01.md)               |
-| a          | coordinates to an event | relay URL         | [33](33.md), [23](23.md) |
-| r          | a reference (URL, etc)  |                   | [12](12.md)              |
-| t          | hashtag                 |                   | [12](12.md)              |
-| g          | geohash                 |                   | [12](12.md)              |
-| nonce      | random                  |                   | [13](13.md)              |
-| subject    | subject                 |                   | [14](14.md)              |
-| d          | identifier              |                   | [33](33.md)              |
-| expiration | unix timestamp (string) |                   | [40](40.md)              |
+| e          | شناسه رویداد (hex)          | رله URL, علامت | [1](01.md), [10](10.md)  |
+| p          | کلید عمومی (hex)            | relay URL         | [1](01.md)               |
+| a          | با یک رویداد هماهنگ می کند | relay URL         | [33](33.md), [23](23.md) |
+| r          | ارجاع (URL, etc)  |                   | [12](12.md)              |
+| t          | هشتگ                 |                   | [12](12.md)              |
+| g          | جئوهش                 |                   | [12](12.md)              |
+| nonce      | تصادفی                  |                   | [13](13.md)              |
+| subject    | موضوع                 |                   | [14](14.md)              |
+| d          | شناسه              |                   | [33](33.md)              |
+| expiration | unix مهرزمانی (رشته) |                   | [40](40.md)              |
 
 ## [§](#nips) NIPs
 
-A Nostr Implementation Possibilty, or NIP for short, exist to document what MUST, what SHOULD and what MAY be implemented by Nostr-compatible relay and client software. NIPs are the documents that outline how the Nostr protocol works.
+یک احتمال اجرای ناستر، یا بطور خلاصه NIP، به وجود می آید تا مستند کند که چه چیز الزاما، باید یا شاید بتواند توسط نرم افزار کلاینت و رله ناستر به اجرا درآید. NIPها اسنادی هستند که شیوه کار پروتکل ناستر را ترسیم می کنند. 
 
-### Why should I care about NIPs?
+### چرا باید به NIPها اهمیت دهم؟
 
-Nostr is decentralized and not owned by a centralized service (like Twitter). This means that the direction of the protocol is up to all of us! We can suggest and advocate for changes and offer feedback on ideas suggested by others.
+ناستر غیرمتمرکز است و (مثل توییتر) در تملک یک شرکت مرکزی نیست. این بدان معناست که جهت و مسیر پروتکل به همه ما بستگی دارد! ما می توانیم تغییرات را پیشنهاد دهیم یا از تغییراتی دفاع کنیم و درباره ایده های پیشنهادی دیگران بازخورد دهیم.
 
+عضو فعال جامعه ناستر بودن به شما حق تعیین مسیر شبکه را می دهد. NIPهایی که در ریپازیتوری اصلی منتشر شده اند تاکنون به تایید رسیده اند. افزودن ایده جدید از راه پول ریکوئست به ریپوی اصلی انجام می شود.
 Being an active part of the community gives you a say in the direction of the network. NIPs published in the main repository are already approved. Adding new ideas is done via Pull Request on that repo.
 
-### Where can I find NIPs?
+### کجا می توانم  NIPها را پیدا کنم؟
 
-You can see all current NIPs in the [Nostr NIP repo](https://github.com/nostr-protocol/nips).
+تمام NIPهای فعلی را می توانید در [مخزن NIP ناستر](https://github.com/nostr-protocol/nips) ببینید.
