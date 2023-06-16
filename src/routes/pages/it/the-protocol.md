@@ -62,40 +62,44 @@ Ecco come appare un evento di tipo 1 (il tipo 1 è per brevi note di testo - com
 
 Questa è una lista dei tipi di evento attuali. La lista più aggiornata può essere sempre trovata nel [repository Nostr NIPs](https://github.com/nostr-protocol/nips).
 
-| kind        | description                      | NIP         |
-| ----------- | -------------------------------- | ----------- |
-| 0           | Metadata                         | [1](01.md)  |
-| 1           | Short Text Note                  | [1](01.md)  |
-| 2           | Recommend Relay                  | [1](01.md)  |
-| 3           | Contacts                         | [2](02.md)  |
-| 4           | Encrypted Direct Messages        | [4](04.md)  |
-| 5           | Event Deletion                   | [9](09.md)  |
-| 6           | Reposts                          | [18](18.md) |
-| 7           | Reaction                         | [25](25.md) |
-| 8           | Badge Award                      | [58](58.md) |
-| 40          | Channel Creation                 | [28](28.md) |
-| 41          | Channel Metadata                 | [28](28.md) |
-| 42          | Channel Message                  | [28](28.md) |
-| 43          | Channel Hide Message             | [28](28.md) |
-| 44          | Channel Mute User                | [28](28.md) |
-| 1984        | Reporting                        | [56](56.md) |
-| 9734        | Zap Request                      | [57](57.md) |
-| 9735        | Zap                              | [57](57.md) |
-| 10000       | Mute List                        | [51](51.md) |
-| 10001       | Pin List                         | [51](51.md) |
-| 10002       | Relay List Metadata              | [65](65.md) |
-| 22242       | Client Authentication            | [42](42.md) |
-| 24133       | Nostr Connect                    | [46](46.md) |
-| 30000       | Categorized People List          | [51](51.md) |
-| 30001       | Categorized Bookmark List        | [51](51.md) |
-| 30008       | Profile Badges                   | [58](58.md) |
-| 30009       | Badge Definition                 | [58](58.md) |
-| 30023       | Long-form Content                | [23](23.md) |
-| 30078       | Application-specific Data        | [78](78.md) |
-| 1000-9999   | Regular Events                   | [16](16.md) |
-| 10000-19999 | Replaceable Events               | [16](16.md) |
-| 20000-29999 | Ephemeral Events                 | [16](16.md) |
-| 30000-39999 | Parameterized Replaceable Events | [33](33.md) |
+| kind    | description                | NIP                      |
+| ------- | -------------------------- | ------------------------ |
+| `0`     | Metadata                   | [1](https://nips.be/1)   |
+| `1`     | Short Text Note            | [1](https://nips.be/1)   |
+| `2`     | Recommend Relay            | [1](https://nips.be/1)   |
+| `3`     | Contacts                   | [2](https://nips.be/2)   |
+| `4`     | Encrypted Direct Messages  | [4](https://nips.be/4)   |
+| `5`     | Event Deletion             | [9](https://nips.be/9)   |
+| `6`     | Reposts                    | [18](https://nips.be/18) |
+| `7`     | Reaction                   | [25](https://nips.be/25) |
+| `8`     | Badge Award                | [58](https://nips.be/58) |
+| `40`    | Channel Creation           | [28](https://nips.be/28) |
+| `41`    | Channel Metadata           | [28](https://nips.be/28) |
+| `42`    | Channel Message            | [28](https://nips.be/28) |
+| `43`    | Channel Hide Message       | [28](https://nips.be/28) |
+| `44`    | Channel Mute User          | [28](https://nips.be/28) |
+| `1063`  | File Metadata              | [94](https://nips.be/94) |
+| `1984`  | Reporting                  | [56](https://nips.be/56) |
+| `9734`  | Zap Request                | [57](https://nips.be/57) |
+| `9735`  | Zap                        | [57](https://nips.be/57) |
+| `10000` | Mute List                  | [51](https://nips.be/51) |
+| `10001` | Pin List                   | [51](https://nips.be/51) |
+| `10002` | Relay List Metadata        | [65](https://nips.be/65) |
+| `13194` | Wallet Info                | [47](https://nips.be/47) |
+| `22242` | Client Authentication      | [42](https://nips.be/42) |
+| `23194` | Wallet Request             | [47](https://nips.be/47) |
+| `23195` | Wallet Response            | [47](https://nips.be/47) |
+| `24133` | Nostr Connect              | [46](https://nips.be/46) |
+| `30000` | Categorized People List    | [51](https://nips.be/51) |
+| `30001` | Categorized Bookmark List  | [51](https://nips.be/51) |
+| `30008` | Profile Badges             | [58](https://nips.be/58) |
+| `30009` | Badge Definition           | [58](https://nips.be/58) |
+| `30017` | Create or update a stall   | [15](https://nips.be/15) |
+| `30018` | Create or update a product | [15](https://nips.be/15) |
+| `30023` | Long-form Content          | [23](https://nips.be/23) |
+| `30078` | Application-specific Data  | [78](https://nips.be/78) |
+| `31989` | Handler recommendation     | [89](https://nips.be/89) |
+| `31990` | Handler information        | [89](https://nips.be/89) |
 
 ### i Tags standardizzate
 
