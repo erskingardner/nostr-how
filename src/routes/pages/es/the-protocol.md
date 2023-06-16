@@ -6,14 +6,14 @@ description: Este es un resumen de alto nivel del protocolo Nostr con detalles s
 ## [§](#Nostr-alto-nivel) Nostr de alto nivel
 
 -   La red Nostr tiene dos componentes principales: [clientes](/es/clientes) y [repetidores](/es/repetidores).
-    - Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
-    - Las **relés** son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
-- Cada usuario se identifica mediante una llave pública. Cada objeto de evento (por ejemplo, mensaje que publica, actualización de su lista de seguidores, etc.) está firmado. Los clientes validan estas firmas para asegurarse de que son correctas.
-- Los clientes obtienen datos de los repetidores y los publican en ellos. Casi siempre es el usuario quien elige los enlaces. Los enlaces no tienen por qué comunicarse entre sí, pero podrían hacerlo en el futuro.
-- Por ejemplo, para actualizar tu perfil, sólo tienes que dar instrucciones a tu cliente para que envíe un evento del tipo 0 a los relés que quieras utilizar. Los repetidores almacenarán ese evento.
-- Al iniciarse, tu cliente consulta los datos de los relés que le indiques. Esto puede ser filtrado para mostrar sólo los eventos de los usuarios que sigues o puedes pedir todo de todos, entonces el cliente te muestra esos datos.
-- Hay muchos tipos diferentes de eventos. Los eventos pueden contener todo tipo de datos estructurados, y las estructuras más utilizadas están encontrando su camino en [Nostr Implementation Possibilities](#nips) (NIPs - estándares de protocolo a los que todo el mundo se adhiere) para que todos los clientes y relés puedan manejarlos sin problemas.
-- Los datos que puedes ver en Nostr dependen completamente de los relés a los que decidas conectarte. Para más información, consulta el diagrama de red que aparece a continuación.
+    -   Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
+    -   Las **relés** son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
+-   Cada usuario se identifica mediante una llave pública. Cada objeto de evento (por ejemplo, mensaje que publica, actualización de su lista de seguidores, etc.) está firmado. Los clientes validan estas firmas para asegurarse de que son correctas.
+-   Los clientes obtienen datos de los repetidores y los publican en ellos. Casi siempre es el usuario quien elige los enlaces. Los enlaces no tienen por qué comunicarse entre sí, pero podrían hacerlo en el futuro.
+-   Por ejemplo, para actualizar tu perfil, sólo tienes que dar instrucciones a tu cliente para que envíe un evento del tipo 0 a los relés que quieras utilizar. Los repetidores almacenarán ese evento.
+-   Al iniciarse, tu cliente consulta los datos de los relés que le indiques. Esto puede ser filtrado para mostrar sólo los eventos de los usuarios que sigues o puedes pedir todo de todos, entonces el cliente te muestra esos datos.
+-   Hay muchos tipos diferentes de eventos. Los eventos pueden contener todo tipo de datos estructurados, y las estructuras más utilizadas están encontrando su camino en [Nostr Implementation Possibilities](#nips) (NIPs - estándares de protocolo a los que todo el mundo se adhiere) para que todos los clientes y relés puedan manejarlos sin problemas.
+-   Los datos que puedes ver en Nostr dependen completamente de los relés a los que decidas conectarte. Para más información, consulta el diagrama de red que aparece a continuación.
 
 ### Diagrama de red
 
@@ -23,9 +23,9 @@ Puedes ver en el diagrama de arriba que tenemos 3 relés y 3 usuarios. Cada uno 
 
 Dadas las lecturas y escrituras en el diagrama:
 
-- Bob puede ver todos los mensajes de Alice, pero no puede ver nada de Mary (y ni siquiera sabe que existe)
-- Alice puede ver todos los mensajes de Bob, pero no puede ver nada de Mary (y ni siquiera sabe que existe).
-- Mary puede ver todos los mensajes de Bob y Alice. Esto se debe a que mientras ella sólo escribe al Relé 3, está leyendo desde el Relé 2, donde Bob y Alice están escribiendo sus mensajes.
+-   Bob puede ver todos los mensajes de Alice, pero no puede ver nada de Mary (y ni siquiera sabe que existe)
+-   Alice puede ver todos los mensajes de Bob, pero no puede ver nada de Mary (y ni siquiera sabe que existe).
+-   Mary puede ver todos los mensajes de Bob y Alice. Esto se debe a que mientras ella sólo escribe al Relé 3, está leyendo desde el Relé 2, donde Bob y Alice están escribiendo sus mensajes.
 
 Esta es una situación muy simple, pero ya puedes ver que la elección de los relés a los que quieres conectarte puede tener un gran impacto en quién y qué verás cuando utilices Nostr.
 
@@ -50,52 +50,56 @@ Este es el aspecto de un evento de tipo 1 (el tipo 1 es para notas de texto cort
 }
 ```
 
-- El campo `id` nos indica el ID del evento
-- El campo `pubkey` nos indica la clave pública del usuario que envió el evento
-- El campo `created_at` nos dice cuándo se publicó el evento
-- El campo "kind" indica de qué tipo de evento se trata.
-- El campo `tags` nos informa sobre las etiquetas del evento. Éstas se utilizan para crear enlaces, añadir contenido multimedia y mencionar a otros usuarios o eventos.
-- El campo `content` nos da el contenido del evento. En este caso, el mensaje de texto corto.
-- El campo `sig` es la firma que los clientes utilizan para verificar que el usuario con esta pubkey envió de hecho este evento en la fecha especificada.
+-   El campo `id` nos indica el ID del evento
+-   El campo `pubkey` nos indica la clave pública del usuario que envió el evento
+-   El campo `created_at` nos dice cuándo se publicó el evento
+-   El campo "kind" indica de qué tipo de evento se trata.
+-   El campo `tags` nos informa sobre las etiquetas del evento. Éstas se utilizan para crear enlaces, añadir contenido multimedia y mencionar a otros usuarios o eventos.
+-   El campo `content` nos da el contenido del evento. En este caso, el mensaje de texto corto.
+-   El campo `sig` es la firma que los clientes utilizan para verificar que el usuario con esta pubkey envió de hecho este evento en la fecha especificada.
 
 ### Tipos de eventos
 
 Esta es una lista de los tipos de `Eventos` actuales. La lista más actualizada se puede encontrar siempre en [Repositorio Nostr NIPs](https://github.com/nostr-protocol/nips).
 
-| Tipo        | descripción                      | NIP         |
-| ----------- | -------------------------------- | ----------- |
-| 0           | Metadata                         | [1](01.md)  |
-| 1           | Nota de texto corto              | [1](01.md)  |
-| 2           | Relé recomendado                 | [1](01.md)  |
-| 3           | Contactos                        | [2](02.md)  |
-| 4           | Mensajes directos encriptados    | [4](04.md)  |
-| 5           | Eliminación de eventos           | [9](09.md)  |
-| 6           | Reposts                          | [18](18.md) |
-| 7           | Reacción                         | [25](25.md) |
-| 8           | Insignia                         | [58](58.md) |
-| 40          | Creación del canal               | [28](28.md) |
-| 41          | Canal de Metadata                | [28](28.md) |
-| 42          | Canal de mensaje                 | [28](28.md) |
-| 43          | Canal de mensaje oculto          | [28](28.md) |
-| 44          | Canal de usuario muteado         | [28](28.md) |
-| 1984        | Reportería                       | [56](56.md) |
-| 9734        | Solicitud de Zap                 | [57](57.md) |
-| 9735        | Zap                              | [57](57.md) |
-| 10000       | Lista de Mute                    | [51](51.md) |
-| 10001       | Lista de pineado                 | [51](51.md) |
-| 10002       | Lista de metadata de relés       | [65](65.md) |
-| 22242       | Autenticación de cliente         | [42](42.md) |
-| 24133       | Conecte de Nostr                 | [46](46.md) |
-| 30000       | Lista de personas categorizadas  | [51](51.md) |
-| 30001       | Lista de marcadores              | [51](51.md) |
-| 30008       | Insignia de perfil               | [58](58.md) |
-| 30009       | Definición de la insignia        | [58](58.md) |
-| 30023       | Contenido de largo formato       | [23](23.md) |
-| 30078       | Data de apliación específica     | [78](78.md) |
-| 1000-9999   | Eventos regulares                | [16](16.md) |
-| 10000-19999 | Eventos reemplazables            | [16](16.md) |
-| 20000-29999 | Eventos efímeros                 | [16](16.md) |
-| 30000-39999 | Eventos sustituibles parametrizados | [33](33.md) |
+| kind    | description                | NIP                      |
+| ------- | -------------------------- | ------------------------ |
+| `0`     | Metadata                   | [1](https://nips.be/1)   |
+| `1`     | Short Text Note            | [1](https://nips.be/1)   |
+| `2`     | Recommend Relay            | [1](https://nips.be/1)   |
+| `3`     | Contacts                   | [2](https://nips.be/2)   |
+| `4`     | Encrypted Direct Messages  | [4](https://nips.be/4)   |
+| `5`     | Event Deletion             | [9](https://nips.be/9)   |
+| `6`     | Reposts                    | [18](https://nips.be/18) |
+| `7`     | Reaction                   | [25](https://nips.be/25) |
+| `8`     | Badge Award                | [58](https://nips.be/58) |
+| `40`    | Channel Creation           | [28](https://nips.be/28) |
+| `41`    | Channel Metadata           | [28](https://nips.be/28) |
+| `42`    | Channel Message            | [28](https://nips.be/28) |
+| `43`    | Channel Hide Message       | [28](https://nips.be/28) |
+| `44`    | Channel Mute User          | [28](https://nips.be/28) |
+| `1063`  | File Metadata              | [94](https://nips.be/94) |
+| `1984`  | Reporting                  | [56](https://nips.be/56) |
+| `9734`  | Zap Request                | [57](https://nips.be/57) |
+| `9735`  | Zap                        | [57](https://nips.be/57) |
+| `10000` | Mute List                  | [51](https://nips.be/51) |
+| `10001` | Pin List                   | [51](https://nips.be/51) |
+| `10002` | Relay List Metadata        | [65](https://nips.be/65) |
+| `13194` | Wallet Info                | [47](https://nips.be/47) |
+| `22242` | Client Authentication      | [42](https://nips.be/42) |
+| `23194` | Wallet Request             | [47](https://nips.be/47) |
+| `23195` | Wallet Response            | [47](https://nips.be/47) |
+| `24133` | Nostr Connect              | [46](https://nips.be/46) |
+| `30000` | Categorized People List    | [51](https://nips.be/51) |
+| `30001` | Categorized Bookmark List  | [51](https://nips.be/51) |
+| `30008` | Profile Badges             | [58](https://nips.be/58) |
+| `30009` | Badge Definition           | [58](https://nips.be/58) |
+| `30017` | Create or update a stall   | [15](https://nips.be/15) |
+| `30018` | Create or update a product | [15](https://nips.be/15) |
+| `30023` | Long-form Content          | [23](https://nips.be/23) |
+| `30078` | Application-specific Data  | [78](https://nips.be/78) |
+| `31989` | Handler recommendation     | [89](https://nips.be/89) |
+| `31990` | Handler information        | [89](https://nips.be/89) |
 
 ### Tags estandarizados
 
