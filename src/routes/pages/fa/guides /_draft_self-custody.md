@@ -1,9 +1,9 @@
 ---
-title: یک کیف پول خودحضانتی برای زپ نصب کنید
-description: نصب یک کیف پول خودحضانتی را بیاموزید و کنترل کلیدها و زپ های تان را در دست بگیرید.ps.
+title: Set up a self-custodial wallet for Zaps
+description: Learn how set up a self-custody wallet and take control of your keys and your zaps.
 ---
 
-## گام 1 - یک کیف پول بگیرید
+## Step 1 - Get a wallet
 
 We'll be using a BlueWallet for this guide, but the process will be very similar for any self-custodial wallet.
 
