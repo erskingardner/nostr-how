@@ -18,12 +18,13 @@
         ><Language />
     </MenuButton>
     <MenuItems
-        class="absolute top-10 right-0 transition-all rounded-md shadow-md
+        class="absolute top-10 rtl:left-0 ltr:right-0 transition-all rounded-md shadow-md
     bg-zinc-100 dark:bg-zinc-800 py-1"
     >
         {#each locales as localeItem}
             <MenuItem>
                 <a
+                    dir={localeItem.alpha2Code === 'fa' ? 'rtl' : 'ltr'}
                     href="/"
                     data-localecode={localeItem.alpha2Code}
                     on:click={changeLocale}
