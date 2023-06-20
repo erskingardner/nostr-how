@@ -20,9 +20,3 @@ Poiché Nostr non si basa su un numero limitato di server affidabili per spostar
 ### Verificabile
 
 Poiché gli account Nostr si basano sulla [crittografia asimmetrica](https://it.wikipedia.org/wiki/Crittografia_asimmetrica), è facile verificare che i messaggi siano stati effettivamente inviati dall'utente in questione.
-
-### Non fidarti della mia parola
-
-Ecco [Zio Bob](https://primal.net/profile/npub19mun7qwdyjf7qs3456u8kyxncjn5u2n7klpu4utgy68k4aenzj6synjnft) che offre un'ottima panoramica di come funziona Nostr e perché è importante.
-
-<iframe width="650" height="366" src="https://www.youtube-nocookie.com/embed/ssNkOMx2E5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -20,9 +20,3 @@ Como Nostr no depende de un pequeño número de servidores de confianza para mov
 ### Verificable
 
 Dado que las cuentas de Nostr se basan en [criptografía de llave pública](https://en.wikipedia.org/wiki/Public-key_cryptography) es fácil verificar que los mensajes han sido realmente enviados por el usuario en cuestión.
-
-### No confíes en mi palabra
-
-Aquí está [Tío Bob](https://primal.net/profile/npub19mun7qwdyjf7qs3456u8kyxncjn5u2n7klpu4utgy68k4aenzj6synjnft) brindando una excelente descripción general de cómo funciona Nostr y por qué es importante.
-
-<iframe width="650" height="366" src="https://www.youtube-nocookie.com/embed/ssNkOMx2E5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
