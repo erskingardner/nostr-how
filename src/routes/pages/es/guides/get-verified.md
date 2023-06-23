@@ -40,8 +40,8 @@ En este momento, hay varios proveedores que están ayudando a la gente a obtener
 Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovechar una versión gratuita o paga (generalmente solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) Servicio NIP-05. Aquí hay algunos:
 
 -   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](nostrverified.com)
--   [Alby](getalby.com)
+-   [Nostr Verified](https://nostrverified.com)
+-   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
 -   [Nostr.band](https://nip05.nostr.band)
 -   [Nostr.com.au](https://nostr.com.au)
