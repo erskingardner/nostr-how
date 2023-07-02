@@ -21,7 +21,7 @@ Esta es una guía específica para comenzar a usar Nostr con [Damus](https://dam
 5. Sólo un último paso **extremadamente importante**. Necesitas guardar tu clave privada en algún lugar seguro.
 6. Navega a Configuración haciendo clic en tu imagen de perfil en la parte superior izquierda de la pantalla, y luego haz clic en "Configuración" en el menú. ![Configuración de Damus](/images/damus-settings.webp)
 7. Verás tu "ID de cuenta pública" (esta es tu clave pública) y tu "Clave de inicio de sesión de cuenta secreta" (esta es tu clave privada).
-8. Copia ambos valores y guárdalos en un lugar **MUY** seguro. 1Password u otro gestor de contraseñas es una buena opción. Recuerda, si no guardas este valor, nunca podrás recuperar tu cuenta. Puedes encontrar [más información sobre las claves aquí](/en/get-started#understanding-keys).
+8. Copia ambos valores y guárdalos en un lugar **MUY** seguro. 1Password u otro gestor de contraseñas es una buena opción. Recuerda, si no guardas este valor, nunca podrás recuperar tu cuenta. Puedes encontrar [más información sobre las claves aquí](/es/get-started#entendiendo-llaves).
 
 ## Inicio de sesión con una clave existente
 
