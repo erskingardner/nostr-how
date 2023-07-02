@@ -5,7 +5,7 @@ description: Este es un resumen de alto nivel del protocolo Nostr con detalles s
 
 ## [§](#Nostr-alto-nivel) Nostr de alto nivel
 
--   La red Nostr tiene dos componentes principales: [clientes](/es/clientes) y [repetidores](/es/repetidores).
+-   La red Nostr tiene dos componentes principales: [clientes](/es/clients) y [relés](/es/relays).
     -   Los **clientes** son la interfaz que utilizan los usuarios para leer y escribir datos en los repetidores. En el contexto de las redes sociales, piensa en esto como la aplicación web o la aplicación móvil de Twitter. Es un cliente que te permite leer y escribir datos en la base de datos centralizada de Twitter.
     -   Las **relés** son como bases de datos (aunque hacen mucho más que almacenar datos). Permiten a los clientes enviarles datos y almacenarlos en una base de datos. Los clientes pueden leer los datos de los repetidores para mostrárselos a los usuarios.
 -   Cada usuario se identifica mediante una llave pública. Cada objeto de evento (por ejemplo, mensaje que publica, actualización de su lista de seguidores, etc.) está firmado. Los clientes validan estas firmas para asegurarse de que son correctas.
@@ -17,7 +17,7 @@ description: Este es un resumen de alto nivel del protocolo Nostr con detalles s
 
 ### Diagrama de red
 
-[Diagrama de red en Nostr](/images/nostr-network.webp)
+![Diagrama de red en Nostr](/images/nostr-network.webp)
 
 Puedes ver en el diagrama de arriba que tenemos 3 relés y 3 usuarios. Cada uno de los usuarios se conecta a Nostr con un cliente diferente (y en una plataforma diferente).
 
