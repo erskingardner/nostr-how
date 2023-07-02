@@ -55,6 +55,6 @@ Sí. Ahora que has creado tu par de llaves pública/privada, puedes usar este pa
 
 Genial, ya tienes una cartera lightning, una identidad (tu par de llaves) y has probado un cliente. Aquí tienes algunos enlaces que pueden resultarte útiles para adentrarte en Nostr:
 
--   [Verificar tu identidad](/es/verificar-tu-identidad)
+-   [Verificar tu identidad](/es/guides/get-verified)
 -   [¿Qué son Relés y cómo funcionan?](/es/relays)
 -   [Más información sobre los NIPs y el desarrollo del protocolo](/es/the-protocol)
