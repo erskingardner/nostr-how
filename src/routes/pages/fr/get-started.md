@@ -55,6 +55,6 @@ Oui ! Maintenant que vous avez créé votre paire de clés publiques/privées, v
 
 Vous avez maintenant un portefeuille lightning, une identité (votre paire de clés) et vous avez essayé un client. Voici quelques liens qui pourraient vous être utiles lorsque vous vous aventurerez plus loin dans Nostr :
 
--   [Vérifier son identité](/fr/verify-your-identity)
+-   [Vérifier son identité](/fr/guides/get-verified)
 -   [Que sont les relais et comment ils fonctionnent?](/fr/relays)
 -   [En savoir plus sur les NIPs et l'élaboration du protocole](/fr/the-protocol)
