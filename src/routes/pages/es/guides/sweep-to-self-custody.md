@@ -19,13 +19,13 @@ Por esto, se recomienda encarecidamente que solo mantengas una pequeña cantidad
 
 ## [§](#¿Listo?-¡Vamos!) ¿Listo? ¡Vamos!
 
-Esta es una guía para principiantes que no requiere configurar tu propio nodo lightning ni hacer nada técnico. Nuestro hack aquí es usar la comunidad de Bitcoiners de Nostr para ayudarte a realizar el intercambio de sats en la red Lightning por sats auto-custodiados en la cadena base de Bitcoin. Asegura tu stack y haz amigos realizando transacciones peer-to-peer. Doble victoria!
+Esta es una guía para principiantes que no requiere configurar tu propio nodo lightning ni hacer nada técnico. Nuestro hack aquí es usar la comunidad de Bitcoiners de Nostr para ayudarte a realizar el intercambio de sats en la red Lightning por sats auto-custodiados en la cadena base de Bitcoin. Asegura tu stack y haz amigos realizando transacciones peer-to-peer. ¡Doble victoria!
 
-Si te sientes abrumado por la terminología aquí, consulta [la sección al final de la página](#¿Lightning?-¿Bitcoin?-¿On-chain?-¿Qué?) para obtener más detalles.
+Si te sientes abrumado por la terminología aquí, consulta [la sección al final de la página](#lightning-bitcoin-en-cadena-qué) para obtener más detalles.
 
 1. Primero siga esta guía para configurar una nueva billetera Bitcoin en [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). También puede usar cualquier otra billetera con custodia propia.
 1. Una vez que haya guardado cuidadosamente sus palabras clave (que es lo que usará para restaurar su billetera si es necesario), estará listo para encontrar a alguien con quien hacer un intercambio.
-1. La forma más fácil de hacer esto es publicar una nota que mencione las etiquetas #plebchain y #bitcoin mencionando que le gustaría intercambiar algunos satélites relámpago por satélites en cadena. No se avergüence de enviar mensajes directos a personas que hablan sobre bitcoin regularmente. También puede [hacerme ping directamente] (https://primal.net/jeffg) si es necesario.
+1. La forma más fácil de hacer esto es publicar una nota que mencione las etiquetas #plebchain y #bitcoin mencionando que le gustaría intercambiar algunos satélites relámpago por satélites en cadena. No se avergüence de enviar mensajes directos a personas que hablan sobre bitcoin regularmente. También puede [hacerme ping directamente](https://primal.net/jeffg) si es necesario.
 1. A partir de ahí, harás un plan directamente con la persona con la que vas a realizar el intercambio. Antes de realizar cualquier intercambio, tómese un tiempo para conocer un poco a la persona, ya que no hay depósito en garantía en Bitcoin, debe estar seguro de que está tratando con alguien en quien puede confiar para completar la transacción. En general, el proceso se parece a esto:
     1. Acordar una cantidad a canjear.
     1. Proporcione su dirección de billetera recién creada (en Blue Wallet) a la persona a través de DM.
@@ -34,7 +34,7 @@ Si te sientes abrumado por la terminología aquí, consulta [la sección al fina
     1. Recuerde, esta transacción en cadena llevará algún tiempo. Su socio comercial puede (y debe) enviarle el ID de la transacción tan pronto como lo tenga para que pueda seguirlo en [mempool.space](https://mempool.space).
 1. ¡Eso es todo! Estás listo. Una vez que lleguen los fondos, habrá tomado con éxito la autocustodia de su primer Bitcoin. Trátalo con respeto y cuídalo bien.
 
-## [§](#relámpago-bitcoin-en-cadena-qué) ¿Relámpago? ¿Bitcoin? ¿En cadena? ¿Qué?
+## [§](#lightning-bitcoin-en-cadena-qué) ¿Lightning? ¿Bitcoin? ¿En cadena? ¿Qué?
 
 Si todo esto te suena a griego, no te preocupes. Antes de entrar en la guía, cubramos rápidamente algo de terminología.
 
@@ -46,7 +46,7 @@ Bitcoin prioriza la certeza sobre la velocidad. Esto significa que las transacci
 
 Si desea obtener más información, aquí hay algunos excelentes recursos iniciales para profundizar en Bitcoin.
 
-1. [Guía de Bitcoin.org](https://bitcoin.org/en/how-it-works)
+1. [Guía de Bitcoin.org](https://bitcoin.org/es/como-funciona)
 1. [Guía para principiantes de Bitcoin](https://bitcoiner.guide/beginner/)
 
 ### Lightning

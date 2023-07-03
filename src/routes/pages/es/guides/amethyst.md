@@ -18,10 +18,10 @@ description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amet
 1. Sólo un último paso **extremadamente importante**. Necesitas guardar tu clave privada en algún lugar seguro.
 1. Navega a Configuración haciendo clic en la imagen de tu perfil en la parte superior izquierda de la pantalla, luego haz clic en "Configuración" en el menú.
 1. Verás tu "ID de cuenta pública" (esta es tu llave pública) y tu "llave secreta de acceso a la cuenta" (esta es tu llave privada).
-1. Copia ambos valores y guárdalos en un lugar **MUY** seguro. 1Password u otro gestor de contraseñas es una buena opción. Recuerda, si no guardas este valor, nunca podrás recuperar tu cuenta. Puedes encontrar [más información sobre claves aquí](/es/comenzar#entendiendo-llaves).
+1. Copia ambos valores y guárdalos en un lugar **MUY** seguro. 1Password u otro gestor de contraseñas es una buena opción. Recuerda, si no guardas este valor, nunca podrás recuperar tu cuenta. Puedes encontrar [más información sobre claves aquí](/es/get-started#entendiendo-llaves).
 
 ## Iniciar sesión con una clave existente
 
 1. Haga clic en "Iniciar sesión".
-1.  2. Lea y acepte el EULA (terminos).
+1. Lea y acepte el EULA (terminos).
 1. A continuación se te pedirá tu llave privada. Introducela y listo. 🤙 **Importante**: Tu llave privada se almacena localmente y no es recogida ni almacenada por los servidores de Amethyst de ninguna manera.

@@ -55,6 +55,6 @@ Yes! Now that you have created your public/private key pair, you can use this pa
 
 Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
 
--   [Verify your identity](/en/verify-your-identity)
+-   [Verify your identity](/en/guides/get-verified)
 -   [What are Relays and how do they work?](/en/relays)
 -   [Learn more about NIPs and the development of the protocol](/en/the-protocol)

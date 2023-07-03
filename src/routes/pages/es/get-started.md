@@ -7,7 +7,7 @@ description: Esta guía te ayudará a entender los conceptos básicos de Nostr y
 
 Cada cuenta de Nostr se basa en un par de llaves pública/privada. Una forma sencilla de entenderlo es que tu clave pública es tu nombre de usuario y tu llave privada es tu contraseña, con una salvedad importante. A diferencia de una contraseña, tu cllave privada no se puede restablecer si se pierde.
 
-Te lo repito para que quede claro: **Si pierdes tu llave privada, pierdes tu cuenta de Nostr. Si otra persona tiene acceso a tu llave privada, puede tomar el control de tu cuenta.
+Te lo repito para que quede claro: **Si pierdes tu llave privada, pierdes tu cuenta de Nostr. Si otra persona tiene acceso a tu llave privada, puede tomar el control de tu cuenta.**
 
 Asegúrate de guardar tu llave privada en un lugar seguro, como un gestor de contraseñas. (Nos gusta [1Password](https://1password.com/)).
 
@@ -55,6 +55,6 @@ Sí. Ahora que has creado tu par de llaves pública/privada, puedes usar este pa
 
 Genial, ya tienes una cartera lightning, una identidad (tu par de llaves) y has probado un cliente. Aquí tienes algunos enlaces que pueden resultarte útiles para adentrarte en Nostr:
 
--   [Verificar tu identidad](/es/verificar-tu-identidad)
--   [¿Qué son Relés y cómo funcionan?](/es/relés)
--   [Más información sobre los NIPs y el desarrollo del protocolo](/es/el-protocolo)
+-   [Verificar tu identidad](/es/guides/get-verified)
+-   [¿Qué son Relés y cómo funcionan?](/es/relays)
+-   [Más información sobre los NIPs y el desarrollo del protocolo](/es/the-protocol)
