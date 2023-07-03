@@ -20,7 +20,7 @@ Nostr permite esto.
 - Los usuarios pueden conectarse a muchos relés y ejecutar sus propios relés. Esto dificulta la censura de ideas y personas.
 - Integrado con Lightning, Nostr permite nuevos modelos de negocio de [valor por valor](https://value4value.info/) que tienen el potencial de ser más justos.
 
-## El statu quo
+## El status quo
 
 ### Medios de comunicación convencionales
 
