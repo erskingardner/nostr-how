@@ -33,6 +33,7 @@ Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratu
 -   [Nostrcheck.me](https://nostrcheck.me)
 -   [Nostr.industries](https://nostr.industries/)
 -   [NIP05.social](https://nip05.social)
+-   [Nostr-Check.com](https://nostr-check.com/)
 
 ## [§](#paid-verification) Payer un fournisseur pour la vérification
 
