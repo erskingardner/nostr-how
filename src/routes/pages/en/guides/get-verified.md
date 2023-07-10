@@ -34,7 +34,8 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [Nostrcheck.me](https://nostrcheck.me)
 -   [Nostr.industries](https://nostr.industries/)
 -   [NIP05.social](https://nip05.social)
-
+-   [Nostr-Check.com](https://nostr-check.com/)
+  
 ## [§](#paid-verification) Pay a provider for verification
 
 If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
