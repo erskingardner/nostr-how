@@ -1,23 +1,24 @@
 ---
-title: Sweep sats to a self custody wallet
-description: In this guide, we'll cover a simple solution to reduce your counter-party risk by sweeping funds to a self-custody wallet.
+title: به خودحضانتی بروید
+description: در این راهنما، یک راه حل ساده آموزش می دهیم برای کاهش ریسک طرف مقابل با انتقال سرمایه به کیف پول خودحضانتی.
 ---
 
-## [§](#who-is-this-guide-for) Who is this guide for?
+## [§](#این-راهنما-برای-کیست) این راهنما برای کیست?
 
-Most users right now are using Nostr with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+اکثر کاربران اکنون با یک کیف پول حضانتی مثل والت ساتوشی یا البی از ناستر استفاده می کنند.
 
-If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
+اگر شما هم جزو آنها هستید، می خواهم اکنون به ساتوشی های توی کیف پول خود فکر کنید. حال به از دست دادن همه آن ساتوشی ها فکر کنید. اگر این فکر باعث ناراحتی یا نگرانی شما می شود، این راهنما برای شماست.
+ما اینجا راه اندازی یک کیف پول خودحضانتی را آموزش می دهیم که متوانید به طور دوره ای سرمایه هایتان را برای امن نگه داشتن به آن منتقل کنید.
 
-We'll cover setting up a self-custodial wallet which will allow you to periodically sweep funds from your custodial wallet for safekeeping.
 
-## [§](#why-is-self-custody-important) Why is self-custody important?
+## [§](#چرا-خودحضانتی-مهم-است) چرا خود حضانتی مهم است?
 
-Simply put; not your keys, not your coins. When you leave your sats in a custodial wallet you're accepting some degree of counter-party risk. Imagine if Wallet of Satoshi was somehow hacked. Because they hold all customer funds, a situation like this would mean that your funds would be lost.
+به زبان ساده، "اگر کلیدها مال شما نیست، پس بیتکوین ها هم مال شما نیست". وقتی ساتوشی هایتان را در یک کیف پول حضانتی می گذارید تا حدودی در معرض ریسک طرف قرار می گیرید. تصور کنید اگر ولت ساتوشی به نحوی هک شود. چون آنها تمام سرمایه های مشتریان را نگه می دارند، چنین موقعیتی موجب از دست رفتن سرمایه شما می شود.
+به این دلیل، به شدت توصیه می شود فقط مقدار اندکی سرمایه در _هر_ کیف پول حضانتی نگه دارید و بقیه بیتکوین هایتان را خودتان حضانت کنید.
 
-Because of this, it's strongly advised that you only keep a small amount of funds in _any_ custodial wallet and self-custody the rest of your bitcoin.
 
-## [§](#ready-lets-go) Ready? Let's go!
+## [§](#آماده-اید-برویم) اماده اید؟ برویم.
+
 
 This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
 
