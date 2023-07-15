@@ -66,12 +66,12 @@ If you'd like to learn more, here are some great starter resources for going dee
 
 ### برزنجیر درمقابل بیرون زنجیر
 
-You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
+زیاد می شنوید که مردم درباره بیتکوین برزنجیر یا بیرون زنجیر صحبت کنند. وقتی مردم درباره تراکنش برزنجیر حرف می زنند، بطور ساده به انجام تراکنش بر بلاکچین زیربنای بیتکوین اشاره می کنند (به یاد بیاورید این کندتر اما صددرصد مطمئن تر و قطعی تر است). وقتی مردم به تراکنش بیرون زنجیره اشاره می کنند، اغلب اوقات منظورشان لایتنینگ است.
+
 
 ### حضانتی درمقابل خودحضانتی
 
-For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
+برای تازه واردان بیتکوین، این مفهوم ممکن است غریب باشد. بالاخره، اکثر ما (حداقل در دنیای پیشرفته) فقط از خدمات حضانتی، مانند بانک ها، برای ذخیره پولمان استفاده کرده ایم. همان طور که اخیرا دیده ایم (و معمولا در بازارهای مالی کمتر توسعه یافته جهان)، نگهداری پول پیش قیم ریسک هایی دارد. بانک ها ورشکست می شوند (بانک سیلیکون ولی و غیره) و قیم ها ممکن است تصمیمات اشتباه بگیرند و پول شما را از دست بدهند (و غیرهFTX, Voyager,)
+وقتی حضانت بیتکوین خود را به عهده می گیرید فقط باید برای امن نگه داشتن بیتکوین تان به خودتان اتکا کنید. کنترل کامل دست شماست. 
 
-When you take custody of your Bitcoin you only have to put trust in yourself to store you bitcoin safely. You have total control.
-
-But with great power comes great responsiblity. While self-custody is the gold-standard for storing larger amounts of money securely, it can limit how you can use your money day-to-day. Most people use a combination of custodial and self-custody solutions; keeping large amounts in a self-custody way and keeping a small amount of funds in a custodial wallet for daily use.
+اما قدرت زیاد مسئولیت زیاد به همراه دارد. در عین حال که خودحضانتی استاندارد طلای ذخیره امن مبالغ زیاد پول است، اما می تواند نحوه استفاده روزمره از پولتان را محدود کنید. اکثر مردم ترکیبی از راه حل های حضانتی و خودحضانتی را استفاده می کنند؛ نگه داری مبالغ بزرگ به روش خودحضانتی و نگهداری مبالغ اندک سرمایه در کیف پول های حضانتی برای استفاده های روزمره.
