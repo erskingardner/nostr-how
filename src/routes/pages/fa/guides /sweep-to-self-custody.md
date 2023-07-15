@@ -3,7 +3,7 @@ title: به خودحضانتی بروید
 description: در این راهنما، یک راه حل ساده آموزش می دهیم برای کاهش ریسک طرف مقابل با انتقال سرمایه به کیف پول خودحضانتی.
 ---
 
-## [§](#این-راهنما-برای-کیست) این راهنما برای کیست?
+## [§](#این-راهنما-برای-کیست) این راهنما برای کیست؟
 
 اکثر کاربران اکنون با یک کیف پول حضانتی مثل والت ساتوشی یا البی از ناستر استفاده می کنند.
 
@@ -11,7 +11,7 @@ description: در این راهنما، یک راه حل ساده آموزش م�
 ما اینجا راه اندازی یک کیف پول خودحضانتی را آموزش می دهیم که متوانید به طور دوره ای سرمایه هایتان را برای امن نگه داشتن به آن منتقل کنید.
 
 
-## [§](#چرا-خودحضانتی-مهم-است) چرا خود حضانتی مهم است?
+## [§](#چرا-خودحضانتی-مهم-است) چرا خود حضانتی مهم است؟
 
 به زبان ساده، "اگر کلیدها مال شما نیست، پس بیتکوین ها هم مال شما نیست". وقتی ساتوشی هایتان را در یک کیف پول حضانتی می گذارید تا حدودی در معرض ریسک طرف قرار می گیرید. تصور کنید اگر ولت ساتوشی به نحوی هک شود. چون آنها تمام سرمایه های مشتریان را نگه می دارند، چنین موقعیتی موجب از دست رفتن سرمایه شما می شود.
 به این دلیل، به شدت توصیه می شود فقط مقدار اندکی سرمایه در _هر_ کیف پول حضانتی نگه دارید و بقیه بیتکوین هایتان را خودتان حضانت کنید.
@@ -19,49 +19,56 @@ description: در این راهنما، یک راه حل ساده آموزش م�
 
 ## [§](#آماده-اید-برویم) اماده اید؟ برویم.
 
+این راهنمای مبتدیان است که نیازی به برپایی گره لایتنینگی خود یا انجام هیچ کار فنی ندارد. کلک ما اینجا این است که از جامعه بیتکوینرهای ناستر استفاده کنیم تا برای تعویض ساتوشی های روی شبکه لایتنینگ با ساتوشی های روی زنجیره اصلی بیتکوین کمکتان کنیم.هم ذخیره خود را امن کنید هم در حین انجام تراکنش همتا به همتا دوستان جدید پیدا کنید. برد دوگانه!
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+اگر احساس می کنید تعاریف و اصطلاحات این بخش را نمی دانید، این [بخش انتهای صفحه](#lightning-bitcoin-on-chain-what) را برای جزییات بیشتر بخوانید.
 
-If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
 
-1. First follow this guide to set up a new Bitcoin wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). You can also use any other self-custodial wallet.
-1. Once you have very carefully saved your seed words (which is what you'll use to restore your wallet if needed), you are ready to find someone to do a swap with.
-1. The easiest way to do this is to post a note mentioning the tags #plebchain and #bitcoin mentioning that you'd like to swap some lightning sats for on-chain sats. Don't be shy about directly messaging folks that talk about bitcoin regularly. You can also [ping me directly](https://primal.net/jeffg) if needed.
-1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
-    1. Agree on an amount to swap.
-    1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Nostr client.
-    1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
-    1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
-1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.
+1. ابتدا با پیروی از این راهنما یک کیف پول بیتکوینی جدید در [بلو ولت](https://bluewallet.io/docs/create-bitcoin-wallet/) راه اندازی کنید. می توانید از هر کیف پول خود حضانتی دیگری هم استفاده کنید.
+2. پس از آنکه با دقت زیاد کلمات بازیابی خود را (که در صورت لزوم برای بازیابی کیف پولتان به آن نیاز دارید) ذخیره کردید، آماده اید تا کسی را برای تعویض پیدا کنید.
+1. راحت ترین راه ارسال یک یادداشت با هشتگ های  و  است که در آن بگویید مایل به تعویض ساتوشی های لایتنینگ با شاتوشی های برزنجیر هستید. تعارف نکنید و به افرادی که معمولا درباره بیتکوین حرف میزنند مستقیم پیام دهید. اگر لازم است [به من هم](https://primal.net/jeffg) می توانید مستقیم پیام دهید. 
+1.از اینجا به بعد با کسی که می خواهید با او تعویض کنید برنامه می ریزید. پیش از آنکه اقدام به انجام تعویض کنید، مقداری وقت بگذارید تا آن شخص را کمی بشناسید، زیرا در بیتکوین سپرده مشروط معتمد وجود ندارد، باید خیالتان راحت باشد که دارید با شخصی دارید معامله می کنید که برای تکمیل تراکنش قابل اعتماد است. به طور کلی این فرایند اینگونه است:
 
-## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-chain? What?
+    1. روی مبلغ تعویض توافق می کنید.
+    2. ادرس کیف پولی که (در بلو ولت) تازه ساخته اید با پیام خصوصی به طرف بدهید.
+    1. ساتوشی هایتان را از کلاینت ناستر خود به آن شخص زپ می زنید.
+    1. او یک تراکنش برزنجیر انجام می دهد تا مبلغ ساتوشی های شما را (احتمالا پس از کسر کارمزد تراکنش) به شما بپردازد.
+    1. به یاد داشته باشید، این تراکنش بر زنجیر کمی زمان می برد. شریک معامله شما می تواند (و باید) شناسه تراکنش را به محض آنکه به دستش رسید برای شما بفرستد تا شما بتوانید آن را در [mempool.space](https://mempool.space) رهگیری کنید.
+1. همین! تمام! هنگامی که سرمایه به کیف پولتان برسد شما با موفقیت حضانت اولین بیتکوین خود را بدست آورده اید. با احترام با آن رفتار کنید و خوب از آن مراقبت کنید.
 
-If this all sounds like greek to you don't worry. Before we get into the guide, let's quickly cover some terminology.
 
-### Bitcoin
+## [§](#لایتنینگ-بیتکوین-برزنجیر-چی) لایتنینگ؟ بیتکوین؟ برزنجیر؟ چی؟
 
-This rabbit hole has no known bottom. That said, if you're new to Bitcoin the only thing that you really need to know is that Bitcoin is a completely decentralized form of electronic money. It isn't controlled by any one person or entity and runs based on rules coded into the software, instead of being dependent on politics and governements. Bitcoin is the only truly decentralized and rules-based electronic money.
+اگر این ها به گوش شما خارجکی میاید نگران نباشید. پیش از ورود به راهنما بیایید خیلی سریع این کلمات و اصطلاحات را مرور کنیم.
 
-Bitcoin prioritizes certainty over speed. This means that transactions cost a little in fees and take some time to confirm but once they're confirmed, they are completely irreversible and no one can take your coins or censor your transaction.
+### بیتکوین
 
+این سوارخ خرگوش هیچ انتهایی ندارد. با این حال، اگر تازه با بیتکوین آشنا می شوید تنها چیزی که واقعا باید بدانید این است که بیتکوین یک شکل کاملا نامترکز از پول الکترونیکی است. توسط هیچ شخص یا نهادی کنترل نمی شود و بجای وابستگی به سیاست و دولت ها، براساس قوانینی که در کد نرم افزار برنامه ریزی شده است کار می کند. بیتکوین تنها پول حقیقتا تمرکززدایی شده و قانون مدار دنیا است.
+
+بیتکوین قطعیت را به سرعت ترجیح می دهد. این بدان معناست که تراکنش ها کمی هزینه کارمزد دارند و اندکی زمان می برند تا تایید شوند، آنها کاملا غیر قابل بازگشت هستند و هیچ کس نمی تواند سکه های شما را بگیرد یا تراکنش شما را سانسور کند.
+
+اگر می خواهید بیشتر بیاموزید، این منابع برای شروع مطالعه عمیق تر روی بیتکوین مناسب هستند.
 If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
 
-1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
+1. [بیتکوین 101](https://arzdigital.com/category/beginners/bitcoin-101/)
+2. [منابع فارسی بیت‌کوین](https://bitcoind.me/)
+3. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
 1. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
 
-### Lightning
+### لایتنینگ
 
-Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
+لایتنینگ یک لایه پرداخت است که روی بیتکوین کار می کند. اساسا، شما هنوز با بیتکوین پرداخت می کنید اما لایتنینگ تراکنش های تقریبا آنی و بسیار کم کارمزد را ممکن می کند. به این دلیل، شبکه لایتنینگ امکانات جدیدی را فراهم کرده است از جمله پرداخت های خرد یا میکروپیمنت. جزییات طرز کار لایتنینگ فراتر از حد این راهنما است اما اینجا چند راهنما برای مطالعه علاقه مندان وجود دارد:
 
+1. [راهنمای مقدماتی لایتنینگ](https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf)
+1. [شبکه لایتنینگ بیتکوین چیست](https://arzdigital.com/lightning-network-explained)
 1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
 1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
 
-### On-chain vs Off-chain
+### برزنجیر درمقابل بیرون زنجیر
 
 You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
 
-### Custodial vs Self-custodial
+### حضانتی درمقابل خودحضانتی
 
 For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
 
