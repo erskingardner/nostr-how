@@ -1,30 +1,31 @@
 ---
-title: Get started with Damus
-description: A step-by-step guide to getting started with Nostr with the Damus iOS client.
+title: داموس را شروع کنید
+description: یک راهنمای گام به گام برای شروع کار با ناستر از راه کلاینت iOS داموس
 ---
 
-## Step 1 - Get Damus
+## گام اول - نصب داموس
 
-This is a specific guide to get started using Nostr with [Damus](https://damus.io/), a beautiful, easy-to-use iOS client built by [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
+این راهنما مخصوص شروع استفاده از [داموس](https://damus.io/) است، یک کلاینت iOS زیبا و آسان ساخته شده توسط [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
 
-1. Install [the Damus app on the iOS App Store](https://apps.apple.com/app/damus/id1628663131).
-1. When you open the app you'll have the option to create a new account or to log in with a private key you've already generated.
-1. If you have already created a private key via the Alby extension or another client, you can click "Login". Otherwise, click "Create account".
+1.  [اپ داموس را از اپ استور iOS](https://apps.apple.com/app/damus/id1628663131) نصب کنید.
+1. وقتی اپ را باز می کنید گزینه های ساخت حساب کاربری جدید یا ورود با کلید خصوصی ای که پیش از تولید کرده اید را دارید.
+2. اگر در حال حاضر از طریق افزونه البی یا یک کلاینت دیگر کلید خصوصی ای ساخته اید، میتوانید "وارد شوید". در غیر این صورت، روی "ساخت حساب جدید" کلیک کنید.
    ![Damus login/signup page](/images/damus-login.webp)
 
-## Step 2 - Creating a new account
+## گام دوم - ساخت حساب جدید
 
-1. Click "Create Account".
-1. Read through and accept the EULA.
-1. You'll then pick a username (this can be changed later) and, optionally, add some other profile details. Damus auto generates keys for you at this step. Your public key is shown as the "Account ID" value. ![Damus login/signup page](/images/damus-signup.webp)
-1. Once you've finished, click "Create" and you're ready to use Nostr! 🤙
-1. Just one last **extremely important** step. You need save your private key somewhere safe.
-1. Naviate to Settings by clicking your profile image at the top left of the screen, then click "Settings" in the menu. ![Damus Settings](/images/damus-settings.webp)
-1. You'll see your "Public Account ID" (this is your public key) and your "Secret Account Login Key" (this is your private key).
-1. Copy both of these values and store them somewhere **VERY** safe. 1Password or another password manager is a good option. Remember, if you don't save this value, you'll never be able to recover your account. You can find [more info on keys here](/en/get-started#understanding-keys).
+1. روی "ساخت حساب کاربری" کلیک کنید.
+2. شرایط را بخوانید و بپذیرید.
+1. سپس یک نام کاربری (که می توانید بعدا تغییر دهید) انتخاب می کنید، و در صورت تمایل جزییات اختیاری دیگری به حسابتان اضافه می کنید. داموس در این مرحله به طور خودکار کلیدها را برای شما تولید می کند. کلید عمومی شما به عنوان مقدار "شناسه حساب کاربری" نمایش داده می شود. ![Damus login/signup page](/images/damus-signup.webp)
+1. وقتی کارتان تمام شد "ساختن" را کلیک کنید و حالا آماده استفاده از ناستر هستید!🤙
+1. فقط یه مرحله **خیلی مهم** دیگر. لازم است کلید خصوصی خود را جای امنی ذخیره کنید.
+1. با کلیک روی تصویر نمایه خود در گوشه بالای صفحه به تنظیمات بروید، سپس در منو روی "تنظیمات" کلیک کنید.  ![Damus Settings](/images/damus-settings.webp)
+1. "شناسه عمومی حساب" خود (که همان کلید عمومی شماست) و "کلید مخفی ورود به حساب" خود (که همان کلید خصوصی شماست) را می بینید.
+1. هر دو این مقدارها را کپی کنید و درجای **خیلی** امنی ذخیره کنید. 1Password یا یک مدیریت پسورد امن دیگر گزینه خوبی است. به یاد داشته باشید، اگر این مقدار را ذخیره نکنید، هرگز قادر به بازیابی حساب کاربری خود نخواهید بود. می توانید [اطلاعات بیشتری](/fa/get-started#understanding-keys) پیدا کنید.
 
-## Logging in with an existing key
+## ورود با یک کلید موجود
 
-1. Click "Login".
-1. Read through and accept the EULA.
-1. You'll then be asked for your private key. Enter your key and you're done. 🤙 **Important**: Your private key is stored locally and isn't collected or stored by Damus servers in any way.
+1. روی "ورود" کلیک کنید.
+1. شرایط را بخوانید و بپذیرید.
+1. سپس کلید خصوصی از شما خواسته می شود. کلید خود را وارد کنید و تمام.🤙 **مهم** : کلید خصوصی شما بطور محلی ذخیره می شود و به هیچ وجه در سرور داموس نیست. 
+

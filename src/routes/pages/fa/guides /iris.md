@@ -1,32 +1,32 @@
 ---
-title: Get started with Iris
-description: A step-by-step guide to getting started with Nostr with the Iris web client.
+title: آیریس را آغاز کنید
+description: راهنمای گام به گام شروع کار را ناستر بوسیله کلاینت آیریس.
 ---
 
-## Step 1 – Install Alby
+## گام اول – نصب Alby
 
-Get [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) from the Chrome Webstore or directly from the [Alby website](https://getalby.com/).
+ [البی](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) را از فروشگاه کروم یا مستقیما از [وبسایت البی](https://getalby.com/) بگیرید.
 
-Once you have the extension installed create a new account. Unless you're a pro already, we recommend just creating an account on Alby and setting up a new Lightning wallet.
+وقتی افزونه را نصب کردید یک حساب کاربری جدید بسازید. ما توصیه می کنیم یک حساب کاربری جدید در البی بسازید و یک کیف پول لایتنینگی جدید راه بیندازید، مگر آنکه یک کاربری حرفه ای باشید.
 
-## Step 2 – Generate a new Private Key with Iris
+## گام دوم – بوسیله آیریس یک کلید خصوصی جدید ایجاد کنید
 
-1. Navigate to [Iris.to](https://iris.to).
-1. Enter a name and hit "Go" ![Iris sign up screen](/images/iris-signup.webp)
-1. Iris will generate a new public/private key pair for you and sign you in. You can start following people and posting notes at this point. ![Iris new user experience](/images/iris-nux.webp)
-1. However, we're going to make sure we're using the app in the safest way possible. Head to "Settings" on the left and then click "Accounts" in the secondary menu. ![Iris settings](/images/iris-accounts-settings.webp)
-1. Copy your public key and your "nsec" private key. These should be stored somewhere VERY safe. Like a password manager (we like 1Password).
-1. Once you're sure you've saved your private key somewhere safe, click "log out" at the top of the accounts page to log out of Iris. We'll log back in safely in a second.
+1. به [Iris.to](https://iris.to) بروید.
+1. یک نام وارد کرده و "برو" را بزنید ![Iris sign up screen](/images/iris-signup.webp)
+1. آیریس یک جفت کلید عمومی/خصوصی جدید برای شما می سازد و شما را وارد می کند. در این مرحله می توانید شروع به ارسال یادداشت کرده و دیگران را دنبال کنید. ![Iris new user experience](/images/iris-nux.webp)
+1. اگرچه می خواهیم مطمئن شویم که این اپ را امن ترین حالت ممکن استفاده می کنیم. برای این کار به "تنظیمات" بروید و روی "حساب های کاربری" در منوی دوم کلیک کنید. ![Iris settings](/images/iris-accounts-settings.webp)
+1. کلید عمومی و کلید خصوصی "nsec" خود را کپی کنید. این ها باید در جایی بسیار امن ذخیره شوند. مثل اپ مدیریت پسورد (ما 1Password را دوست داریم)
+1. وقتی مطمئن شدید که کلید خصوصی خود را جای امنی ذخیره کرده اید، روی "خروج" در بالای صفحه حساب کاربری آیریس کلیک کنید. لحظاتی دیگر دوباره بطور امن وارد می شویم.
 
-## Step 3 – Add your new Private Key to Alby
+## گام سوم – کلید خصوصی جدید خود را به البی اضافه کنید
 
-1. Once you've created an account and have saved your private key somewhere safe we need to add that key to the Alby extension.
-1. Open the Alby extension and then navigate to the Alby accounts page. ![Alby accounts](/images/alby-accounts.webp)
-1. Click on your account and then, in the Nostr section, paste your new private key (this starts with `nsec`) in the field.
-1. You're now ready to use Alby to log in and use Nostr through any web client.
+1. هنگامی که کلید خصوصیتان را ساختید و جای امنی ذخیره کردید لازم است آن کلید را افزونه البی اضافه کنید.
+2. افزونه البی را باز کرده و به صفحه حساب کاربری البی بروید. ![Alby accounts](/images/alby-accounts.webp)
+1. روی حساب کاربری خود کلیک کنید و سپس در بخش ناستر، کلید خصوصی خود را بچسبانید (با `nsec` شروع می شود)
+1. اکنون آماده اید که با استفاده از البی به هر کلاینتی وارد شوید و از ناستر استفاده کنید.
+   
+## گام چهارم – دوباره وارد آیریس شوید
 
-## Step 4 – Sign back into Iris
-
-1. Back on the Iris login page, click "Nostr extension login". ![Iris sign up screen](/images/iris-signup.webp)
-1. Authorize key usage in the Alby extension popup that will appear.
-1. You are logged in! It may take a few moments for content to start loading. 🤙 You'll need to sign using the Alby extension any time you perform an action in Iris. You can check the box to have Alby remember your choice if this bugs you.
+1. در برگشت به صفحه ورود آیریس، روی "ورود با افزونه ناستر" کلیک کنید.  ![Iris sign up screen](/images/iris-signup.webp)
+1. به پیام افزونه البی که ظاهر می شود برای استفاده از کلید اجازه دهید.
+1. حالا وارد شدید! ممکن است چند لحظه طول بکشد تا محتوا بارگیری شود.🤙 هر بار که کاری در آیریس انجام می دهید لازم است با افزونه البی امضا کنید. اگر این کار شما را اذیت می کنید می توانید تیک بخاطر سپاری البی را بزنید.
