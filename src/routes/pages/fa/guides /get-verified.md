@@ -1,34 +1,34 @@
 ---
-title: Get NIP-05 verified
-description: How to verify your identity on Nostr to get a verification checkmark and an easier way to share your account.
+title: با NIP-05 تایید شوید
+description: چگونه هویت خود را در ناستر تایید کنید تا تیک تاییدیه بگیرید و حساب کاربری خود را راحت تر به اشتراک بگذارید.
 ---
 
-## [§](#what-youll-learn) What you'll learn in this guide
+## [§](#آنچه-یاد-میگیرید) آنچه در این راهنما می آموزید
 
-You might have noticed on many different clients that some users have checks, just like on Twitter.
+ممکن است در کلاینت های گوناگون دیده باشید که برخی کابران تیک تایید دارند، درست مثل توییتر.
+در NIP-05 مشخص می شود که کابران ناستر چگونه می توانند هویت خود را تایید نمایند. کلاینت های مختلف تاییدیه را با اندکی تفاوت نشان می دهند ولی این روش مهمی است تا به جامعه ناستر نشان دهید که یک کاربری واقعی هستید.
 
-NIP-05 specifies how Nostr users can verify their identities. Different clients show verification in slightly different ways but it's an important way of showing the Nostr community that you're a real user.
 
 ![Snort Verified](/images/snort-verified.webp)
 
-The verification process on Nostr is documented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
+فرایند تایید در ناستر در یک امکان اجرای ناستر Nostr Implementation Possibilities (NIP) به نام [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) مستند شده است.
 
-NIP-05 enables a Nostr user to map their public key to a DNS-based internet identifier. The verification mechanism is similar to how Google requires you to verify your ownership of a domain using a DNS record.
+کابر ناستر را قادر می سازد تا کلید عمومی خود را به یک آدرس شناسه اینترنتی برمبنای DNS پیوند بدهد. مکانیزم تایید مشابه وقتی است که گوگل از شما می خواهد تا مالکیت یک دامنه اینترنتی را با ثبت DNS تایید کنید.
 
-The major benefit of verification is that it allows a Nostr user to be identified by a human-readable name, instead of a long, hard-to-remember public key. This enables verified Nostr users to easily share their identity with others.
+فایده اصلی تایید آن است که به کاربر ناستر اجازه می دهد تا به جای کلید عمومی بند و سخت خوان، توسط نامی که برای انسان ها خوانا باشد شناسایی شود. این به کاربران تایید شده امکان می دهد تا هویت خود را به راحتی با دیگران به اشتراک بگذارند. 
 
-To utilize NIP-05, Nostr users add a nip05 url to their profile (most clients have support for this). NIP-05 urls look like emails – bob@example.com. Let's break down the parts:
+برای استفاده از NIP-05 کاربران ناستر یک nip05 url به نمایه خود می افزایند (اکثر کلاینت ها از این پشتیبانی می کنند). NIP-05 url مانند آدرس ایمیل است. bob@example.com بگذارید اجزا آن را جدا کنیم:
 
-1. Everything before the `@` symbol ("bob", in our example). This must match the value of the name field in your Nostr profile.
-1. Everything after the `@` symbol ("example.com", in our example). This is the domain where the client can look to find a `/.well-known/nostr.json` file that contains the user's name & public key.
+1. هر چیزی قبل از علامت `@` ("bob" در این مثال). این باید با نام شما در نمایه ناسترتان منطبق باشد.
+2. هر چیزی پس از علامت `@` ("example.com" در این مثال). این دامنه ای است که کلاینت در آن به دنبال یک فایل `/.well-known/nostr.json` که حاوی نام کاربر و کلید عمومی اوست می گردد.
 
-When clients see a nip05 url, they will look for a `/.well-known/nostr.json` file at the specified domain. This file must contain the nostr public key for the specified user. Read more specifics in the NIP-05 spec.
+وقتی کلاینت ها یک nip05 url می بینند به دنبال فایل `/.well-known/nostr.json` در دامنه مشخص شده می گردند. این فایل باید حاوی کلید عمومی ناستر کاربر مشخص شده باشد. جزییات بیشتر را در شرح NIP-05 بخوانید.
+تاییدیه گرفتن اگرچه فنی به نظر می رسد، به طور غافلگیرانه ای آسان است. بیایید ببینیم چطور انجام می شود.
 
-While it sounds technical, it's suprisingly easy to get verified. Let's see how to do it.
+## [§](#تایید-رایگان) با استفاده از خدمات رایگان تایید شوید
 
-## [§](#free-verification) Get verified through a free service
 
-At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
+در حال حاضر، چندین تامین کننده به افراد کمک می کنند تا به طور رایگان تایید شوند. اگر هنوز در کیف پول لایتنینگی خود ساتوشی ندارید این گزینه عالی است. اگر برایتان مقدور است با اهدای ساتوشی از این پروژه ها حمایت کنید. ⚡🤙
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
@@ -36,9 +36,9 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 
-## [§](#paid-verification) Pay a provider for verification
+## [§](#تایید-پولی) برای تایید به یک تامین کننده پول بپردازید 
 
-If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
+اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیاندازید، می توانید از یک تامین کننده خدمات NIP-05 پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) یا رایگان استفاده کنید. در اینجا چند خدمات پولی را ببینید:
 
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
@@ -49,9 +49,9 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 
-## [§](#self-hosted) Self hosted verification
+## [§](#خویش-میزبان) تایید با هاست خود 
 
-If you already own a domain, this is a free option. You just need to add a `.well-known/nostr.json` file to your domain. The contents of the file should be the following:
+اگر مالک یک دامنه هستید، این یک گزینه رایگان است. فقط کافی است یک فایل `.well-known/nostr.json` به دامنه خود اضافه کنید. محتوای فایل باید این باشد:
 
 ```json
 {
@@ -61,7 +61,7 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 }
 ```
 
-Optionally you can also add a section to let clients know which relays they are likely to find you on:
+اگر بخواهید می توانید بخشی اضافه کنید تا به کلاینت ها بگوید که احتمالا شما را در کدام رله ها پیدا می کنند:
 
 ```json
 {
@@ -78,10 +78,9 @@ Optionally you can also add a section to let clients know which relays they are 
 }
 ```
 
-Make sure you use the hex version of your public key in your `nostr.json` file. This is the version of the key that **doesn't** start with `npub`.
-
-You can convert your key on [Nostr.band](https://nostr.band)
+حتما از ورژن هگزای hex کلید عمومی تان در فایل `nostr.json` استفاده کنید. این ورژنی از کلید است که با `npub` شروع **نمی شود**.
+می توانید کلید خود را در [Nostr.band](https://nostr.band) تبدیل کنید.
 
 ![Get your hex key](/images/get-hex-key.webp)
 
-Finally, make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.
+در آخر، حتما مطمئن شوید که در این فایل هدر `Access-Control-Allow-Origin` به `*` تنظیم شده است زیرا لازم است که  قابل دسترسی توسط کلاینت ها باشد.

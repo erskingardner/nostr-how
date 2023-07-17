@@ -1,36 +1,40 @@
 ---
-title: Get started with NostrChat.io
-description: A step-by-step guide to getting started with the NostrChat.io client
+title: ناسترچت را شروع کنید
+description: راهنمای گام به گام شروع کار با کلاینت ناسترچت
 ---
 
-NostrChat is a chat app built on Nostr. With NostrChat, you can start a channel with one or more friends, and be confident that your communications will stay online even in the face of a dramatic effort to censor you.
+ناسترچت
+یک اپلیکیشن گفتگو است که روی ناستر ساخته شده است، می توانید با یک یا چند دوست کانالی باز کنید، و خیالتان راحت باشد که گفتگوی شما آنلاین باقی خواهد ماند، حتی اگر بشدت برای سانسور شما تلاش کنند.
 
 ![NostrChat.io screenshot](/images/nostrchat-signup.webp)
 
-## Step 1 - Go to NostrChat.io
+##  گام اول- به NostrChat.io بروید
 
 ![NostrChat.io screenshot](/images/nostrchat-login.webp)
 
-## Step 2 — Login
+## گام دوم — ورود
 
-### Creating a new account (Easiest)
+### ساخت حساب کاربری جدید (راحت ترین)
 
-1. Click "Create Nostr Account"
-2. Put in your name, and then click skip
-3. Instantly you'll enter a global chat
-4. Important: Save your private keys somewhere safe — you'll need these if you want to come back to the app in the future.
+1. روی "ساخت حساب ناستر" کلیک کنید
+2. نام خود را وارد کرده روی رد شدن کلیک کنید
+3. بلافاصله وارد یک گفتگوی همگانی می شوید
+4. مهم: کلید خصوصی خود را جای امنی ذخیره کنید - اگر بعدا بخواهید به اپ برگردید به آن نیاز دارید.
 
-### Use a NIP-07 Extension to Login (Recommended)
+### توصیه می شود از افزونه NIP-07 برای ورود استفاده کنید 
 
-Alby is a Bitcoin browser extension that manages your public/private keys locally. With a wallet extension like Alby, your private key never leaves your computer, but you can grant access to apps using Alby.
+البی یک افزونه بیتکوینی مرورگر است که کلیدهای خصوصی/عمومی شما را به طور محلی نگهداری می کند. با افزونه ای مانند البی  کلید خصوصی شما هرگز از کامپیوترتان بیرون نمی رود، اما با استفاده از البی می توانید برای دسترسی به اپ ها به آن اجازه بدهید.
 
-1. Download the [Alby web wallet](https://getalby.com/)
-2. Once you're inside Alby, set an unlock password
-3. Inside Alby, go to Accounts and generate or add your Nostr public & private keys. Make sure to save these in your password manager.
-4. Once you have Alby setup, return to NostrChat.io and login with "NIP-07"
+1.[کیف پول وب البی ](https://getalby.com/) را دانلود کنید.
+2. وقتی داخل البی شدید یک گذرواژه برای باز کردن قفل آن تعیین کنید.
+3. درون البی، به حساب کاربری بروید و کلیدهای عمومی و خصوصی را بسازید یا اضافه کنید. مطمئن شوید که این ها در اپ مدیرگذرواژه تان ذخیره می کنید.
+4. هنگامی که البی را راه انداختید، به ناسترچت برگردید و با "NIP-07" وارد شوید.
 
-### Step 3 — Create a new chat channel and share with Nostr friends
+### گام سوم — یک کانال گفتگوی جدید بسازید و با دوستان تان به اشتراک بگذارید 
 
-Once you join NostrChat.io you can chat in the global channel or create a new channel for your project or friends. Just share the URL of the channel with your friends. **IMPORTANT: These channels are all public.** At this time, there isn't a way to make private group chats.
+به محض آنکه به ناسترچت بپیوندید می توانید در کانال همگانی گفتگو کنید یا کانال جدیدی برای دوستان یا پروژه تان بسازید. فقط آدرس URL کانال تان را با دوستان خود به اشتراک بگذارید. 
 
-Active development of NostrChat.io is happening on [Github](https://github.com/NostrChat/NostrChat)
+**مهم: این کانال ها عمومی هستند** تا این زمان، هنوز راهی برای ساخت کانال خصوصی نیست.
+
+توسعه فعال NostrChat.io در [Github](https://github.com/NostrChat/NostrChat) در حال انجام است. 
+
