@@ -1,26 +1,28 @@
 ---
-title: Get started with Astral
-description: A step-by-step guide to getting started with Nostr with the Astral web client.
+title: استرال را روش کنید
+description: یک راهنمای گام به گام برای شروع کار با ناستر از طریق وب کلاینت استرال. 
 ---
 
-## Step 1 – Install Alby
+## گام اول – نصب البی
 
-Get [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) from the Chrome Webstore or directly from the [Alby website](https://getalby.com/).
+ [افزونه البی](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) را  از وب استور کروم یا مستقیما از [سایت البی](https://getalby.com/) دانلود کنید.
 
-Once you have the extension installed create a new account. Unless you're a pro already, we recommend just creating an account on Alby and setting up a new Lightning wallet.
+هنگامی که افزونه را نصب کردید یک حساب کاربری جدید بسازید. اگر اکنون کاربر با سابقه ناستر نیستید، توصیه می کنیم یک حساب کاربری جدید روی البی بسازید و یک کیف پول لایتنینگ جدید راه اندازی کنید.
 
-## Step 2 – Generate your Private Key
 
-1. Once Alby is installed and you've created or connected to a lightning wallet, navigate to the Alby accounts page. ![Alby settings](/images/alby-accounts.webp)
-1. Scroll to the Nostr section and click the "Generate a new key" button under "Manage your key". This will generate a private key and save it to your alby wallet. You can now use this private key to log into Nostr.
-1. Once you've generated your private key, click the small eyeball icon to show your key. Copy the private key (which will start with `nsec`) and save it to a password manager or somewhere **very** safe. Remember, if you lose this key, it's gone forever, along with all your account data.
+## گام دوم – کلید خصوصی جدید تولید کنید
 
-## Step 3 – Sign into Astral
+1. وقتی البی را نصب کردید و به یک کیف پول لایتنینگی وصل شدید یا یکی جدید ساختید، به صفحه حساب کاربری البی بروید. ![Alby settings](/images/alby-accounts.webp)
+2. به بخش ناستر بروید و روی "تولید یک کلید جدید" کلیک کنید. این برای ما یک کلید خصوصی می سازد و آن را در کیف پول البی شما ذخیره می کند. اکنون می توانید از این کلید خصوصی برای ورود به ناستر استفاده کنید.
+1. هنگامی که کلید خصوصی تان را ساختید، روی آیکون چشم کوچک کلیک کنید تا کلید نشان داده شود. کلید خصوصی را (که با `nsec` آغاز می شود) را کپی کنید و در یک برنامه مدیریت پسورد یا جای خیلی امنی ذخیره کنید. اگر این کلید را گم کنید برای همیشه آن را به همراه تمام اطلاعات حساب کاربری خود از دست می دهید.
 
-1. Navigate to [Astral](https://astral.ninja).
-1. In the login popup that appears, click the "USE PUBLIC KEY FROM EXTENSION" button. ![Astral Login Step 1](/images/astral-login.webp)
-1. Authorize key usage in the alby extension popup. ![Astral Login Step 2](/images/astral-login2.webp)
-1. Once you confirm you'll be presented with another popup in Astral. We can see here that Alby has passed our public key to Astral. Since we don't want to store our private key on Astral should just press "Proceed" here. ![Astral Login Step 3](/images/astral-login3.webp)
-1. Astral will then show you yet another popup telling you that your private key isn't present. Again, this is what we want so you can just hit "Close". ![Astral Login Step 4](/images/astral-login4.webp)
-1. You are logged in! It may take a few moments for content to start loading. 🤙
-1. At this point, you can copy your public key from the top left of the page. You should store this alongside your private key so you have it. ![Astral Login Step 5](/images/astral-login5.webp)
+## گام سوم – به استرال وارد شوید
+
+1. به [استرال](https://astral.ninja) بروید.
+2. در صفحه ورود که پدیدار می شود، روی دکمه "استفاده از کلیک عمومی افزونه" کلیک کنید. ![Astral Login Step 1](/images/astral-login.webp)
+1. در صفه پدیدار شونده البی برای استفاده از کلید اجازه بدهید. ![Astral Login Step 2](/images/astral-login2.webp)
+1. پی از تایید صفحه پدیدار شونده دیگری در استرال خواهید دید. اینجا می بینیم که البی کلید عمومی ما را به استرال داده است. چون نمی خواهیم کلید خصوصی خود را در استرال ذخیره کنیم، اینجاباید فقط روی "ادامه" کلیک کنیم. ![Astral Login Step 3](/images/astral-login3.webp)
+1. سپس استرال صفحه پدیدارشونده دیگری به شما نشان می دهد که اعلام می کند کلید خصوصی شما را ندارد. باز این همان چیزی است که می خواهیم، پس فقط روی "بستن" کلیک کنید. ![Astral Login Step 4](/images/astral-login4.webp)
+1.  شما وارد شده اید! ممکن است لحظاتی طول بکشد تا محتوا بارگیری شود.🤙
+1. در این مرحله، می توانید کلید عمومی خود را از گوشه بالای صفحه کپی کنید. باید این را به همراه کلید خصوصی تان ذخیره کنید تا داشته باشید. ![Astral Login Step 5](/images/astral-login5.webp)
+   
