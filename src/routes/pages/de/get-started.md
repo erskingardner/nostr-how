@@ -17,7 +17,7 @@ Nostr selbst ist lediglich ein Protokoll; ein vereinbartes Verfahren für die We
 
 Du wirst Nostr (das Protokoll) mit einem Client nutzen. Clients können Web-, Desktop- oder Mobile-Apps sein. Manche Clients erlauben es dir, dich mit deinem privaten Schlüssel einzuloggen. Im Web wird das allgemein nicht empfohlen - es ist schwierig und vor allem sehr unsicher. Stattdessen empfehlen wir die Nutzung einer Browser-Erweiterung zum Signieren, die speziell für die Verwaltung privater Schlüssel entwickelt wurde.
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) ist genau so eine Browser-Erweiterung, die ein Bitcoin-Lightning-Wallet, aber dir auch die sichere Verwaltung deiner Nostr-Schlüssel ermöglicht, gerade für neue Nutzer. Wir behandeln die Installation von Alby in den clientspezifischen Anleitungen weiter unten.
+[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) ist genau so eine Browser-Erweiterung, die ein Bitcoin-Lightning-Wallet enthält, aber dir auch die sichere Verwaltung deiner Nostr-Schlüssel ermöglicht, gerade für neue Nutzer. Wir behandeln die Installation von Alby in den clientspezifischen Anleitungen weiter unten.
 
 ## [§](#create-your-account) Erstelle deinen Account
 
