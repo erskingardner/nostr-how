@@ -1,6 +1,6 @@
 ---
 title: Was sind Nostr-Clients?
-description: Eine Übersicht was Nostr-Clients sind und ein Vergleich von unseren Favouriten.
+description: Eine Übersicht darüber, was Nostr-Clients sind und ein Liste unserer Favouriten.
 ---
 
 ## Was ist ein Client?
