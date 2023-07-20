@@ -1,32 +1,32 @@
 {
   "title": "Nostr",
   "nav": {
-    "resources": "Ressourcen",
+    "resources": "Informationen",
     "whatIs": "Was ist Nostr?",
     "whyWeNeed": "Warum brauchen wir Nostr?",
-    "getStarted": "Loslegen",
+    "getStarted": "Erste Schritte",
     "whatZaps": "Was sind Zaps?",
     "nostrProtocol": "Das Nostr-Protokoll",
     "clients": "Clients",
     "relays": "Relays",
     "relayImplementations": "Relay-Implementierungen",
     "nostrProjects": "Weitere Projekte",
-    "contribute": "Beitragen",
+    "contribute": "Mitwirken",
     "guides": "Guides",
-    "guideIris": "Iris (Webclient)",
+    "guideIris": "Iris (Web-Client)",
     "guideDamus": "Damus (iOS-Client)",
     "guideAmethyst": "Amethyst (Android-Client)",
-    "getNip05": "Werde NIP-05 verifiziert",
+    "getNip05": "Bekomme eine Nostr-Adresse (NIP-05)",
     "guideNostrchat": "NostrChat (Chat-Client)",
     "guideSweepSats": "Selbstverwahrung deiner Sats"
   },
   "donateButton": "Spende an Nostr.how",
   "colophon": "Made with 💜 & ⚡ by",
-  "foss": "Mit Stolz Free & Open Source Software unter",
+  "foss": "Free & Open Source Software unter",
   "mitLicense": "MIT-Lizenz",
   "contactMe": "Kontaktiere uns",
   "errors": {
     "noTranslationTitle": "Übersetzung nicht gefunden",
-    "noTranslationMessage": "Entschuldigung, es existiert keine Übersetzung für diese Seite. Wenn Sie daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wenden Sie sich bitte an uns."
+    "noTranslationMessage": "Entschuldige, es existiert keine Übersetzung für diese Seite. Wenn du daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wende dich bitte an uns."
   }
 }
