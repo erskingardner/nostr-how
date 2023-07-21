@@ -1,0 +1,32 @@
+{
+    "title": "Nostr",
+    "nav": {
+        "resources": "リソース",
+        "whatIs": "Nostrとは？",
+        "whyWeNeed": "なぜNostrが必要か？",
+        "getStarted": "はじめる",
+        "whatZaps": "Zapsとは？",
+        "nostrProtocol": "Nostrプロトコル",
+        "clients": "クライアント",
+        "relays": "リレー",
+        "relayImplementations": "リレーの実装",
+        "nostrProjects": "その他のプロジェクト",
+        "contribute": "貢献する",
+        "guides": "ガイド",
+        "guideIris": "Iris（Web クライアント）",
+        "guideDamus": "Damus（iOS クライアント）",
+        "guideAmethyst": "Amethyst（Android クライアント）",
+        "getNip05": "NIP-05を取得して検証",
+        "guideNostrchat": "NostrChat（チャットクライアント）",
+        "guideSweepSats": "自己管理ウォレットへの送金"
+    },
+    "donateButton": "Nostr.howに寄付する",
+    "colophon": "💜 & ⚡ で作成されました",
+    "foss": "誇り高きフリー&オープンソースソフトウェア",
+    "mitLicense": "MIT ライセンス",
+    "contactMe": "お問い合わせ",
+    "errors": {
+        "noTranslationTitle": "翻訳が見つかりません",
+        "noTranslationMessage": "申し訳ありませんが、このページの翻訳は存在しません。このページを作成するのに興味がある場合は、お問い合わせください。"
+    }
+}
