@@ -5,7 +5,7 @@ description: Dieser Leitfaden wird dir helfen, die Grundlagen von Nostr zu verst
 
 ## [§](#understanding-keys) Grundlagen zu Schlüsseln
 
-Jeder Nostr-Account basiert auf einem öffentlichen/privaten Schlüsselpaar (engl. public/private key pair). Eine sehr vereinfachte Darstellung ist, wenn du dir den öffentlichen Schlüssel als Benutzernamen und den privaten Schlüssel als Passwort vorstellst, mit einer großen Einschränkung. Im Gegensatz zu einem Passwort kann der private Schlüssel nicht zurückgesetzt werden, wenn er verloren geht oder kompromitiert ist.
+Jeder Nostr-Account basiert auf einem öffentlichen/privaten Schlüsselpaar (engl. public/private key pair). In Nostr werden diese Schlüsselpaare nsec (privater Schlüssel) und npub (öffentlicher Schlüssel) genannt. Eine sehr vereinfachte Darstellung ist, wenn du dir den öffentlichen Schlüssel als Benutzernamen und den privaten Schlüssel als Passwort vorstellst, mit einer großen Einschränkung. Im Gegensatz zu einem Passwort kann der private Schlüssel nicht zurückgesetzt werden, wenn er verloren geht oder kompromitiert ist.
 
 Um das nochmal zu verdeutlichen: **Wenn du deinen privaten Schlüssel verlierst, ist der Nostr-Account verloren. Wenn jemand anderes in den Besitz deines privaten Schlüssels kommt, kann dieser die Kontrolle über deinen Account übernehmen.**
 
@@ -25,7 +25,7 @@ Schritt-für-Schritt Anleitungen für verschiedene Clients, die wir empfehlen:
 
 -   [Iris](/en/guides/iris) (Web)
 -   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+-   [Amethyst](/de/guides/amethyst) (Android)
 
 Weitere Clients, die wir mögen, aber keine Anleitungen haben:
 

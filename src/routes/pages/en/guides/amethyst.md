@@ -16,7 +16,7 @@ description: A step-by-step guide to getting started with Nostr with the Amethys
 1. You'll then pick a username (this can be changed later) and, optionally, add some other profile details. Amethyst auto generates keys for you at this step. Your public key is shown as the "Account ID" value.
 1. Once you've finished, click "Create" and you're ready to use Nostr! 🤙
 1. Just one last **extremely important** step. You need save your private key somewhere safe.
-1. Naviate to Settings by clicking your profile image at the top left of the screen, then click "Settings" in the menu.
+1. Navigate to Settings by clicking your profile image at the top left of the screen, then click "Settings" in the menu.
 1. You'll see your "Public Account ID" (this is your public key) and your "Secret Account Login Key" (this is your private key).
 1. Copy both of these values and store them somewhere **VERY** safe. 1Password or another password manager is a good option. Remember, if you don't save this value, you'll never be able to recover your account. You can find [more info on keys here](/en/get-started#understanding-keys).
 
