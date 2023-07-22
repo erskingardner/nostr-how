@@ -1,19 +1,19 @@
 ---
 title: Was sind Zaps?
-description: Lerne, was Zaps sind, wie sie funktionieren und was du brauchst, um sie in deinem Nostr-Client zu nutzen.
-----------------------------------------------------------------------------------------------------------------------
+description: Lerne hier, was Zaps sind, wie sie funktionieren und was du brauchst, um sie in deinem Nostr-Client zu nutzen.
+---------------------------------------------------------------------------------------------------------------------------
 
 ## [§](#the-basics) Die Grundlagen
 
-Am einfachsten kann man sich Zaps als kleinde Spenden oder Trinkgeld (engl. tips) vorstellen, die über das [Lightning-Netzwerk](https://www.investopedia.com/terms/l/lightning-Netzwerk.asp) mit Lichtgeschwindigkeit gesendet werden und im Grunde ohne Transaktionsgebühren auskommen.
+Am einfachsten kann man sich Zaps als kleinde Spenden oder Trinkgeld (engl. "tips") vorstellen, die über das [Lightning-Netzwerk](https://www.investopedia.com/terms/l/lightning-network.asp) mit Lichtgeschwindigkeit gesendet werden und im Grunde ohne Transaktionsgebühren auskommen.
 
-Seit Beginn des Nostr-Protokolls war es üblich, Lightning-Rechnungen in Notizen zu sehen. Aber seit der Implementierung von [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) werden Zaps hauptsächlich für die Übertragung von Wert (engl. value) in Nostr-Notes verwendet. Lass uns einen genaueren Blick auf die NIP-57-Implementiert werfen und wie Zaps funktionieren.
+Seit Beginn des Nostr-Protokolls war es üblich, Lightning-Rechnungen in Notes zu senden. Aber seit der Implementierung von [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) werden Zaps hauptsächlich für die Übertragung von Wert (engl. value) in Nostr-Notes verwendet. Lass uns einen genaueren Blick auf die NIP-57-Spezifizierung werfen und wie genau Zaps funktionieren.
 
 ## [§](#nip-57) NIP-57
 
 [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)  ist das Dokument, das beschreibt, wie Zaps implementiert werden sollen. Es werden zwei neue Arten von Notes erstellt, die Art 9735 (ein Zap) und die Art 9734 (eine Zap-Anforderung). Zusammen ermöglichen diese beiden Arten es Nostr-Clients, Zap-Invoices von LNURL-Servern anzufordern und zu bezahlen. Die NIP-57-Spezifikation beschreibt auch, wie Lightning-Wallets, die Zaps empfangen, Notes erstellen und an Relays senden sollten.
 
-💡 Fun Fact: Die für Zaps gewählte Art von Note ist die gleiche wie der Netzwerkport (9735), den Lightning verwendet.
+💡 Fun Fact: Die für Zaps gewählte Art der Notes (kind 9735) ist die gleiche wie der Netzwerkport (9735), den das Lightning-Protokoll verwendet.
 
 ## [§](#how-zaps-work) Wie Zaps funktionieren
 
@@ -36,7 +36,7 @@ Und das alles passiert in nur wenigen Sekunden und kostet einen Bruchteil eines 
 Um andere Leute in Nostr zu zappen, brauchst du nur zwei Dinge:
 
 1. Eine Zap-kompatible Lightning-Wallet (wie [Alby](https://getalby.com/) oder [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Ein Client Zaps implementiert hat (wie [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), oder [Snort](https://snort.social))
+2. Ein Client Zaps implementiert hat (wie [Damus](/de/guides/damus), [Amethyst](/de/guides/amethyst), [Iris](/de/guides/iris), oder [Snort](https://snort.social))
 
 Jetzt musst du nur noch deine Lightning-Adresse in deinem Nostr-Profil eintragen. An diese Adresse wirst du dann Zaps erhalten.
 

@@ -31,7 +31,7 @@ Denke daran, dass dein privater Schlüssel deine Identität in Nostr ist. Falls 
 
 ### Web
 
-- [Iris](https://iris.to) – Empfohlen für neue User. [Siehe dir unseren Guide hier an](/en/guides/iris).
+- [Iris](https://iris.to) – Empfohlen für neue User. [Siehe dir unseren Guide hier an](/de/guides/iris).
 - [Snort](https://snort.social/)
 - [Coracle](https://coracle.social/)
 - [Primal](https://primal.net/)
@@ -43,10 +43,10 @@ Denke daran, dass dein privater Schlüssel deine Identität in Nostr ist. Falls 
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – Der erste & beste iOS-Client für Nostr. [Siehe dir unseren Guide hier an](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – Der erste & beste iOS-Client für Nostr. [Siehe dir unseren Guide hier an](/de/guides/damus).
 -   [Plebstr](https://apps.apple.com/app/plebstr-nostr-client/id1666230916)
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Der beliebteste Client für Android. [Siehe dir unseren Guide hier an](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Der beliebteste Client für Android. [Siehe dir unseren Guide hier an](/de/guides/amethyst).
 -   [Plebstr](https://play.google.com/store/apps/details?id=com.plebstr.client)
