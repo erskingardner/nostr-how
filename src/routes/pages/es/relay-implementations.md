@@ -5,7 +5,7 @@ description: Esta es una lista de todas las implementaciones conocidas de la esp
 
 ## Go
 
--   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic): Un sencillo relé de referencia respaldado por Postgres, escrito como una demostración sobre el marco de trabajo [Relayer](https://github.com/fiatjaf/relayer) para construir relés personalizados.
+-   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): Un sencillo relé de referencia respaldado por Postgres, escrito como una demostración sobre el marco de trabajo [Relayer](https://github.com/fiatjaf/relayer) para construir relés personalizados.
 
 ## C++
 
