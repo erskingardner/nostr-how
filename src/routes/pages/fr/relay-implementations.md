@@ -5,7 +5,7 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 
 ## Go
 
-- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic) : Un relais de référence simple qui utilise Postgres comme base de données, écrit comme une démo au dessus du framework [Relayer](https://github.com/fiatjaf/relayer) pour construire des relais personnalisés.
+- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic) : Un relais de référence simple qui utilise Postgres comme base de données, écrit comme une démo au dessus du framework [Relayer](https://github.com/fiatjaf/relayer) pour construire des relais personnalisés.
 
 ## C++
 

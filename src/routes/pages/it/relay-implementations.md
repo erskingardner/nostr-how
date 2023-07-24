@@ -5,7 +5,7 @@ description: Questo è un elenco di tutte le implementazioni note della specific
 
 ## Go
 
--   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic): A simple reference relay backed by Postgres, written as a demo on top of the [Relayer](https://github.com/fiatjaf/relayer) framework for building custom relays
+-   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): A simple reference relay backed by Postgres, written as a demo on top of the [Relayer](https://github.com/fiatjaf/relayer) framework for building custom relays
 
 ## C++
 
