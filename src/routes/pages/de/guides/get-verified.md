@@ -1,7 +1,7 @@
 ---
 title: Bekomme deine Nostr-Adresse (NIP-05)
 description: Wie du deine Nostr-Adresse (NIP-05) bekommst und welche Vorteile es dir bringt.
---------------------------------------------------------------------------------------------
+---
 
 ## [§](#what-youll-learn) Was du in diesem Guide lernst
 

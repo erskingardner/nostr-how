@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Amethyst
 description: Eine Schritt-für-Schritt-Anleitung für den Nostr-Android-Client Amethyst.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Schritt 1 - Installation der App
 
@@ -25,4 +25,4 @@ description: Eine Schritt-für-Schritt-Anleitung für den Nostr-Android-Client A
 
 1. Lese dir die "terms of use" (Nutzungsbedingungen) durch und setze dort das Häkchen.
 2. Trage deinen npub oder nsec hier ein und klicke auf "Login".
-3. **Wichtig**: Dein privater Schlüssel wird nur lokal auf dem Smartphone gespeichert und wird NICHT an Amethyst-Server gesendet oder dort gespeichert.
+3. **Wichtig**: Dein privater Schlüssel wird lokal auf dem Smartphone gespeichert und wird NICHT an Amethyst-Server gesendet oder dort gespeichert.

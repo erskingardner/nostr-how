@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Iris
 description: Eine Schritt-für-Schritt-Anleitung für den Nostr-Web-Client Iris.
-------------------------------------------------------------------------------
+---
 
 ## Schritt 1 – Installiere Alby
 

@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Damus
 description: Eine Schritt-für-Schritt-Anleitung für den Nostr-iOS-Client Damus.
--------------------------------------------------------------------------------
+---
 
 ## Step 1 - Installiere Damus
 

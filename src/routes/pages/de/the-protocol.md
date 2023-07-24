@@ -1,7 +1,7 @@
 ---
 title: Das Nostr-Protokoll
 description: Dies ist ein fortgeschrittener Überblick über das Nostr-Protokoll mit Details zu Event-Typen und wie die Nostr-Implementierungsmöglichkeiten (NIPs, engl. Nostr Implementation Possibilities) funktionieren.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## [§](#nostr-high-level) Nostr auf höchster Ebene
 

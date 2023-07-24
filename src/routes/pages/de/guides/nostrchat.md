@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit NostrChat.io
 description: Eine Schritt-für-Schritt-Anleitung für den NostrChat.io Client
----------------------------------------------------------------------------
+---
 
 NostrChat ist eine auf dem Nostr-Protokoll basierende Chat-App. Mit NostrChat kannst du einen Kanal mit einem oder mehreren Freunden starten und zensurresistent untereinander kommunizieren.
 

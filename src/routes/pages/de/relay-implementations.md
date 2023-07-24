@@ -1,7 +1,7 @@
 ---
 title: Relay Implementierungen
 description: Dies ist eine Liste aller bekannten Implementierungen für Nostr-Relays. Wenn du selbst ein Relay betreiben willst, können die folgenden Infos hilfreich sein. Relays sind (bisher) anwendungsunabhängig. Du kannst dein eigenes Relay betreiben oder öffentliche Relays verwenden.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Go
 

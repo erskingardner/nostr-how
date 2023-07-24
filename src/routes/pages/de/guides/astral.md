@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Astral
 description: Eine Schritt-für-Schritt-Anleitung für den Nostr-Web-Client Astral.
--------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Schritt 1 – Installiere Alby
 

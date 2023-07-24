@@ -1,7 +1,7 @@
 ---
 title: Sende Sats zu deiner selbstverwalteten Wallet
 description: In diesem Guide werden wir eine einfache Lösung vorstellen, wie du das Gegenparteirisiko reduzieren und deine Sats auf ein Self-Custody-Wallet ziehen kannst.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## [§](#who-is-this-guide-for) Für wen ist dieser Guide?
 

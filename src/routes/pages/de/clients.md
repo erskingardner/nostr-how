@@ -1,6 +1,6 @@
 ---
 title: Was sind Nostr-Clients?
-description: Eine Übersicht darüber, was Nostr-Clients sind und ein Liste unserer Favouriten.
+description: Eine Übersicht darüber, was Nostr-Clients sind und ein Auswahl unserer Favouriten.
 ---
 
 ## Was ist ein Client?
@@ -23,7 +23,7 @@ Ja. Ein Client wird lediglich dazu benutzt, um die auf Relays hinterlegten Daten
 
 ## Sollte ich meinen privaten Schlüssel (Private Key) in den Client eingeben?
 
-Es wird empfohlen, den privaten Schlüssel nicht in Clients einzugeben. Die meisten Clients, die nach dem privaten Schlüssel fragen, versuchen ihr Bestes, diesen sicher aufzubewahren. Jedoch gibt es keine absolute Sicherheit, da Software potentiell immer Lücken und Fehler aufweisen kann, die möglicherweise den privaten Schlüssel preisgeben.
+Wir empfehlen dir, deinen privaten Schlüssel nicht in Clients einzugeben. Die meisten Clients, die nach dem privaten Schlüssel fragen, versuchen ihr Bestes, diesen sicher aufzubewahren. Jedoch gibt es keine absolute Sicherheit, da Software potentiell immer Lücken und Fehler aufweisen kann, die möglicherweise den privaten Schlüssel preisgeben.
 
 Denke daran, dass dein privater Schlüssel deine Identität in Nostr ist. Falls dieser kompromittiert ist, musst du von neu beginnen, dir eine Identität aufzubauen, du verlierst alle Follower und alle deine privaten Nachrichten.
 
@@ -39,7 +39,7 @@ Denke daran, dass dein privater Schlüssel deine Identität in Nostr ist. Falls 
 
 ### Desktop
 
--   [Gossip](https://www.github.com/mikedilger/gossip) – Gossip ist ein spezieller Desktop-Client, der etwas mehr technisches Verständnis benötigt. Der Vorteil ist, dass es den Benutzern mehr Kontrolle darüber gibt, wie sie mit Nostr interagieren.
+-   [Gossip](https://www.github.com/mikedilger/gossip) – Gossip ist ein spezieller Desktop-Client, der etwas mehr technisches Verständnis benötigt. Der Vorteil ist, dass es den Benutzern mehr Kontrolle darüber gibt, wie sie mit Nostr interagieren.
 
 ### iOS
 

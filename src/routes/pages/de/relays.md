@@ -1,7 +1,7 @@
 ---
 title: Was sind Nostr-Relays?
 description: Ein kurzer Überblick darüber, was Nostr-Relays sind, warum sie wichtig sind und wie sie funktionieren.
--------------------------------------------------------------------------------------------------------------------
+---
 
 ## Was sind Relays?
 

@@ -1,7 +1,7 @@
 ---
 title: Was sind Zaps?
 description: Lerne hier, was Zaps sind, wie sie funktionieren und was du brauchst, um sie in deinem Nostr-Client zu nutzen.
----------------------------------------------------------------------------------------------------------------------------
+---
 
 ## [§](#the-basics) Die Grundlagen
 

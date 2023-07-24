@@ -1,7 +1,7 @@
 ---
 title: Zensurresistentes Publishing für das Web
 description: Nostr ist ein einfaches, offenes Protokoll, das eine wirklich zensurresistente und globale Wert-für-Wert-Veröffentlichung (engl. value-for-value) im Web ermöglicht.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Was ist Nostr?
 
