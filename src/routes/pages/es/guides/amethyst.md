@@ -5,23 +5,24 @@ description: Guía paso a paso para empezar a utilizar Nostr con el cliente Amet
 
 ## Step 1 - Instala la app
 
-1. Instalar [Amethyst app para Android](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst).
-1. Cuando abras la aplicación, tendrás la opción de crear una cuenta nueva o de iniciar sesión con una llave privada que ya hayas generado en otro cliente.
-1. Si ya has creado una llave privada a través de la extensión Alby u otro cliente, puedes hacer clic en "Iniciar sesión" y la pegas. De lo contrario, haz clic en "Crear cuenta".
+1. Instale [la aplicación Amethyst en la tienda de aplicaciones de Android] (https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst).
+1. Cuando abra la aplicación, tendrá la opción de crear una nueva cuenta o iniciar sesión con una clave privada que ya haya generado.
+1. Si ya ha creado una clave privada a través de la extensión Alby u otro cliente, puede leer y aceptar los términos de uso, ingrese su (npub/nsec) y haga clic en "Iniciar sesión". De lo contrario, haga clic en "Generar una nueva clave". Puede encontrar [más información sobre las claves aquí](/es/get-started#understanding-keys).
 
 ## Paso 2 - Crear una nueva cuenta
 
-1. Haga clic en "Crear cuenta".
-1.  2. Lea y acepte el EULA (terminos).
-1. A continuación, elegirás un nombre de usuario (que podrás cambiar más adelante) y, opcionalmente, añadirás otros datos de perfil. Amethyst genera automáticamente llaves para ti en este paso. Tu clave pública se muestra como el valor "ID de cuenta".
-1. Una vez que hayas terminado, haz clic en "Crear" y ¡ya estás listo para usar Nostr! 🤙
-1. Sólo un último paso **extremadamente importante**. Necesitas guardar tu clave privada en algún lugar seguro.
-1. Navega a Configuración haciendo clic en la imagen de tu perfil en la parte superior izquierda de la pantalla, luego haz clic en "Configuración" en el menú.
-1. Verás tu "ID de cuenta pública" (esta es tu llave pública) y tu "llave secreta de acceso a la cuenta" (esta es tu llave privada).
-1. Copia ambos valores y guárdalos en un lugar **MUY** seguro. 1Password u otro gestor de contraseñas es una buena opción. Recuerda, si no guardas este valor, nunca podrás recuperar tu cuenta. Puedes encontrar [más información sobre claves aquí](/es/get-started#entendiendo-llaves).
+1. Lea los "términos de uso" y marque la casilla.
+1. Haga clic en "Generar una nueva clave".
+1. ¡Felicitaciones, acaba de crear una nueva identidad de Nostr! 🤙
+1. Se le redirige a la pantalla de inicio y muestra "El feed está vacío. Actualizar", porque aún no está siguiendo ninguna otra cuenta. Nos ocuparemos de eso más tarde.
+1. Solo un último paso **extremadamente importante**. Debe guardar su clave privada en un lugar seguro. Para hacer esto, haga clic en el ícono con el robot de aspecto extraño en la esquina superior izquierda, que actualmente es su foto de perfil. Aparecerá una barra lateral.
+1. Navegue hasta "Claves de respaldo" y haga clic en "Copiar mi clave secreta" en la parte inferior.
+1. Su clave privada ahora está en el portapapeles de su teléfono inteligente, es mejor guardarla en un lugar **MUY** seguro. '1Password' o cualquier otro administrador de contraseñas es una buena opción. Recuerda, no podrás recuperar tu cuenta si olvidas la clave privada. Puede encontrar [más información sobre las claves aquí](/es/get-started#understanding-keys).
+1. Ahora puede continuar configurando su cuenta. Vuelve a tu foto de perfil en la esquina superior izquierda de la pantalla de inicio y navega hasta "Perfiles". A partir de ahí, haz clic en el icono con las tres líneas y el bolígrafo junto a "Seguir". Puede ajustar la configuración de su perfil allí. Si ha terminado, haga clic en "Publicar" en la esquina superior derecha para confirmar sus cambios.
+1. Ok, su cuenta está configurada ahora, completemos su feed y sigamos a otras personas. Haga clic en el icono de búsqueda en la esquina superior derecha y busque las cuentas que conoce, o simplemente haga clic en "Todos los seguidores" en la pantalla de inicio (icono de la casa en la parte inferior izquierda) y seleccione "Global". Verá ahora todas las notas que se envían a sus relés conectados. Si te sientes abrumado, no te preocupes, con el tiempo encontrarás nuevas cuentas interesantes aquí. Solo pruébalo.
 
 ## Iniciar sesión con una clave existente
 
-1. Haga clic en "Iniciar sesión".
-1. Lea y acepte el EULA (terminos).
-1. A continuación se te pedirá tu llave privada. Introducela y listo. 🤙 **Importante**: Tu llave privada se almacena localmente y no es recogida ni almacenada por los servidores de Amethyst de ninguna manera.
+1. Lea los "términos de uso" y marque la casilla.
+1. Ingrese su npub (solo lectura) o nsec (acceso completo) y haga clic en "Iniciar sesión".
+1. **Importante**: Su clave privada se almacena localmente y los servidores de Amethyst no la recopilan ni almacenan de ninguna manera.
