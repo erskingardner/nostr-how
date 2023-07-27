@@ -9,7 +9,7 @@ Each Nostr account is based on a public/private key pair. A simple way to think 
 
 Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)).
+Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)) or a browser extension like [Alby](https://getalby.com/#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
