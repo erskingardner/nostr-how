@@ -33,4 +33,4 @@ Once you have the extension installed create a new account. Unless you're a pro 
 
 ## Video guide
 
-If you prefer a video guides, there is a pretty good YouTube tutorial how to create your own Nostr account by [Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz).
+If you prefer a video guides, there is a pretty good [YouTube beginner tutorial](https://www.youtube.com/watch?v=kifwECtwjJQ) how to create your own Nostr account by [Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz).
