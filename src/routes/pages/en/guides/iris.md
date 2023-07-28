@@ -30,3 +30,7 @@ Once you have the extension installed create a new account. Unless you're a pro 
 1. Back on the Iris login page, click "Nostr extension login". ![Iris sign up screen](/images/iris-signup.webp)
 1. Authorize key usage in the Alby extension popup that will appear.
 1. You are logged in! It may take a few moments for content to start loading. 🤙 You'll need to sign using the Alby extension any time you perform an action in Iris. You can check the box to have Alby remember your choice if this bugs you.
+
+## Video guide
+
+If you prefer a video guides, there is a pretty good YouTube tutorial how to create your own Nostr account by [Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz).
