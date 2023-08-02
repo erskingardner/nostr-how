@@ -7,15 +7,15 @@ description: Una panoramica su cosa sono i clienti in Nostr e un confronto tra a
 
 Un cliente in Nostr è semplicemente l'applicazione che si utilizza per accedere ed interagire con il protocollo. È come l'app di Twitter per iOS o quella web che si utilizza per interagire con il feed dei tweet di Twitter.
 
-Poiché il protocollo di Nostr è molto semplice e flessibile, diversi clienti si sono concentrati nell'implementare differenti aspetti del protocollo in modi leggermente diversi. Ad esempio, alcuni clienti si concentrano sull'interfaccia utente, altri si concentrano di più sui pagamenti istantanei, altri ancora si concentrano su Nostr per usi creativi come giocare a scacchi (Sì, puoi [giocare a scacchi](https://jesterui.github.io/) tramite il protocollo di Nostr).
+Poiché il protocollo di Nostr è molto semplice e flessibile, diversi clienti si sono concentrati nell'implementare differenti aspetti del protocollo in modi leggermente diversi. Ad esempio, alcuni clienti si concentrano sull'interfaccia utente, altri si concentrano di più sui pagamenti istantanei, altri ancora si concentrano su Nostr per usi creativi come giocare a scacchi (Sì, puoi [giocare a scacchi](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) tramite il protocollo di Nostr).
 
 La maggior parte dei clienti costruiti finora si concentrano sul caso d'uso dei social media. Ma stiamo iniziando a vedere casi d'uso più interessanti.
 
 Alcuni esempi:
 
-[Jester](https://jesterui.github.io/): Gioca a scacchi su Nostr
-[Habla](https://habla.news/): Contenuti a lunga forma - come Medium
-[Nostrgram](https://nostrgram.co/): Cliente social focalizzato sui media
+[Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Gioca a scacchi su Nostr
+[Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Contenuti a lunga forma - come Medium
+[Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Cliente social focalizzato sui media
 
 ## [§](#posso-cambiare-cliente) Posso cambiare cliente?
 
@@ -31,10 +31,10 @@ Ricorda, la tua chiave privata è la tua identità in Nostr, quindi se viene com
 
 ### Web
 
--   [Iris](https://iris.to) - Questo è un cliente consigliato per i nuovi utenti. [Guarda la nostra guida qui](/it/guides/iris).
--   [Snort](https://snort.social/)
--   [Coracle](https://coracle.social/)
--   [Nostrgram](https://nostrgram.co/)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - Questo è un cliente consigliato per i nuovi utenti. [Guarda la nostra guida qui](/it/guides/iris).
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
 ### Desktop
 

@@ -15,9 +15,9 @@ Make sure you store you private key somewhere safe, like a password manager (we 
 
 Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a web-based crypto wallet, which is a piece of software specifically designed to manage private keys.
+You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a signing extension in your browser, which is a piece of software specifically designed to safely manage private keys and cryptographically sign events.
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) is a bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
 
 ## [§](#create-your-account) Create your account
 
@@ -29,15 +29,15 @@ Here are step-by-step guides to a few different clients we recommend:
 
 A few other clients that we love but don't have guides for:
 
--   [Snort](https://snort.social/) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social/) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
 
 ## [§](#find-friends) Find friends to follow
 
 -   If you know someone is on Nostr, find their profile by searching for their public key.
 -   Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
--   [nostr.directory](https://nostr.directory) is a database mapping twitter users to their Nostr pubkeys.
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is a database mapping twitter users to their Nostr pubkeys.
 
 ## [§](#whats-signing) What does "Signing" mean?
 

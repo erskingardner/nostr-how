@@ -7,15 +7,15 @@ description: Questa guida ti aiuterà a comprendere le basi di Nostr e a prepara
 
 Ogni account Nostr si basa su una coppia di chiavi pubbliche/privata. Un modo semplice per pensarci è che la tua chiave pubblica è il tuo nome utente e la tua chiave privata è la tua password, con una grande eccezione. A differenza di una password, se perdi la tua chiave privata, perdi il tuo account Nostr. Se qualcun altro ottiene l'accesso alla tua chiave privata, può prendere il controllo del tuo account.
 
-Assicurati di conservare la tua chiave privata in un luogo sicuro, come un gestore di password (noi preferiamo [1Password](https://1password.com)).
+Assicurati di conservare la tua chiave privata in un luogo sicuro, come un gestore di password (noi preferiamo [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)).
 
 ## [§](#protocollo-cliente) Protocollo vs. Cliente
 
 Nostr in sé è solo un protocollo, una procedura concordata per scambiarsi messaggi su Internet.
 
-Accederai a Nostr (il protocollo) tramite un cliente. I clienti possono essere applicazioni web, desktop o mobile. Alcuni clienti Nostr ti consentono di accedere incollando la tua chiave privata. Sul web, in generale, ciò non è raccomandato, è noioso e insicuro. Invece, consigliamo di utilizzare un portafoglio crittografico basato sul web, che è un software appositamente progettato per gestire le chiavi private.
+Accederai a Nostr (il protocollo) tramite un cliente. I clienti possono essere applicazioni web, desktop o mobile. Alcuni clienti Nostr ti consentono di accedere incollando la tua chiave privata. Sul web, in generale, ciò non è raccomandato, è noioso e insicuro. Invece, ti consigliamo di utilizzare un'estensione di firma nel tuo browser, che è un software appositamente progettato per gestire in modo sicuro le chiavi private e firmare crittograficamente gli eventi.
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) è un portafoglio Lightning di Bitcoin che ha un supporto integrato per Nostr. È una grande opzione per i nuovi utenti. Vedremo come installare Alby nelle guide specifiche del cliente dove è necessario.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) è un estensione di firma e un portafoglio Lightning di Bitcoin che ha un supporto integrato per Nostr. È una grande opzione per i nuovi utenti. Vedremo come installare Alby nelle guide specifiche del cliente dove è necessario.
 
 ## [§](#creare-conto) Creare il tuo conto
 
@@ -27,15 +27,15 @@ Ecco alcune guide passo-passo per alcuni clienti che raccomandiamo:
 
 Alcuni altri clienti che amiamo ma per i quali non abbiamo guide:
 
--   [Snort](https://snort.social/) (Web) Cliente web pulito e veloce.
--   [Coracle](https://coracle.social/) (Web) Un cliente focalizzato sulla navigazione inoltro.
--   [Nostrgram](https://nostrgram.co) (Web) Client ispirato a Instagram che si concentra su immagini, video e audio. Portate i meme!
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente web pulito e veloce.
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un cliente focalizzato sulla navigazione inoltro.
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Client ispirato a Instagram che si concentra su immagini, video e audio. Portate i meme!
 
 ## [§](#trovare-amici) Trovare amici da seguire
 
 -   Se conosci qualcuno che è su Nostr, trova il loro profilo cercando la loro chiave pubblica.
 -   Molti utenti di Twitter stanno tweettando le loro chiavi pubbliche Nostr con l'hashtag #nostr, quindi cercare questo hashtag può darti un buon punto di partenza.
--   [nostr.directory](https://nostr.directory) è un database che mappa gli utenti di Twitter alle loro chiavi pubbliche Nostr.
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) è un database che mappa gli utenti di Twitter alle loro chiavi pubbliche Nostr.
 
 ## [§](#firma) Cosa significa "Firma"?
 
