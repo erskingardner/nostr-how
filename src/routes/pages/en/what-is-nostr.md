@@ -1,5 +1,5 @@
 ---
-title: Censorship-resistant publishing for the web
+title: Decentralized publishing for the web
 description: Nostr is a simple, open protocol that enables truly censorship-resistant and global value-for-value publishing on the web.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Publication sur le web résistant à la censure
+title: Publication décentralisée pour le Web
 description: Nostr est un protocole simple et ouvert qui permet de publier sur le web des informations à valeur ajoutée à l'échelle mondiale et réellement résistantes à la censure.
 ---
 

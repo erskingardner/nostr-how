@@ -1,4 +1,10 @@
 export const redirects = [
+    { old: '/en', new: '/en/get-started' },
+    { old: '/de', new: '/de/get-started' },
+    { old: '/fa', new: '/fa/get-started' },
+    { old: '/es', new: '/es/get-started' },
+    { old: '/fr', new: '/fr/get-started' },
+    { old: '/it', new: '/it/get-started' },
     { old: '/relays/implementations', new: '/en/relay-implementations' },
     { old: '/clients/iris', new: '/en/guides/iris' },
     { old: '/es/guias/iris', new: '/es/guides/iris' },
