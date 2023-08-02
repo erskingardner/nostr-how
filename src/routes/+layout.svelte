@@ -7,10 +7,6 @@
     import { sidebarVisible } from '$lib/store';
     import CloseIcon from '$lib/elements/icons/Close.svelte';
     import { slide } from 'svelte/transition';
-    import { dev } from '$app/environment';
-    import { inject } from '@vercel/analytics';
-
-    inject({ mode: dev ? 'development' : 'production' });
 
     export async function preload() {
         return waitLocale($locale as string);
