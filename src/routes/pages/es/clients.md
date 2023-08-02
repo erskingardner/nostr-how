@@ -7,15 +7,15 @@ description: Una visión general de los Clientes en Nostr y una comparación de 
 
 Un cliente en Nostr es simplemente la aplicación que utilizas para acceder e interactuar con el protocolo. Es como la aplicación de Twitter para iOS o la aplicación web que se utiliza para interactuar con los tweets de Twitter.
 
-Dado que el protocolo Nostr es muy sencillo y flexible, los distintos clientes se han centrado en implementar diferentes aspectos del protocolo de formas ligeramente distintas. Por ejemplo, algunos clientes se centran en una interfaz de usuario atractiva y fácil de usar, otros se centran más en permitir pagos con iluminación, y otros se centran en Nostr para casos de uso creativo como jugar al ajedrez (Sí, puedes [jugar al ajedrez](https://jesterui.github.io/) a través del protocolo Nostr).
+Dado que el protocolo Nostr es muy sencillo y flexible, los distintos clientes se han centrado en implementar diferentes aspectos del protocolo de formas ligeramente distintas. Por ejemplo, algunos clientes se centran en una interfaz de usuario atractiva y fácil de usar, otros se centran más en permitir pagos con iluminación, y otros se centran en Nostr para casos de uso creativo como jugar al ajedrez (Sí, puedes [jugar al ajedrez](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) a través del protocolo Nostr).
 
 La mayoría de los clientes que se han construido hasta ahora se centran en el caso de uso de las redes sociales. Pero estamos empezando a ver casos de uso más interesantes.
 
 Algunos ejemplos:
 
--   [Jester](https://jesterui.github.io/): Jugar ajedrez en Nostr
--   [Habla](https://habla.news/): Contenido de formato en Nostr – Como Medium
--   [Nostrgram](https://nostrgram.co/): Cliente enfocado en multimedia
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Jugar ajedrez en Nostr
+-   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Contenido de formato en Nostr – Como Medium
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Cliente enfocado en multimedia
 
 ## ¿Puedo cambiar de cliente?
 
@@ -31,10 +31,10 @@ Recuerda, tu clave privada es tu identidad en Nostr, así que si se ve compromet
 
 ### Web
 
--   [Iris](https://iris.to) – Recomendamos este para nuevos usuarios. [Revisa nuestra guía acá](/es/guides/iris).
--   [Snort](https://snort.social/)
--   [Coracle](https://coracle.social/)
--   [Nostrgram](https://nostrgram.co/)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Recomendamos este para nuevos usuarios. [Revisa nuestra guía acá](/es/guides/iris).
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
 ### PC
 

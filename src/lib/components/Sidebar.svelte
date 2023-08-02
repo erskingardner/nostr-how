@@ -21,6 +21,7 @@
             { href: '/clients', localeString: 'nav.clients' },
             { href: '/relays', localeString: 'nav.relays' },
             { href: '/relay-implementations', localeString: 'nav.relayImplementations' },
+            { href: '/nostr-projects', localeString: 'nav.nostrProjects' },
             { href: '/contribute', localeString: 'nav.contribute' }
         ]
     };

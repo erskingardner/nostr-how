@@ -7,15 +7,15 @@ description: Eine Übersicht darüber, was Nostr-Clients sind und ein Auswahl un
 
 Ein Client ist eine App um mit dem Nostr-Protokoll zu kommunizieren. Wie die Twitter Android- oder Web-App, die du benutzt, um mit dem Twitter-Feed zu interagieren.
 
-Nostr ist ein sehr einfaches und anpassungsfähiges Protokoll, deshalb fokussieren sich verschiedeste Clients auf unterschiedliche Weise auf verschiedenen Aspekte des Protokolls. Zum Beispiel fokussieren sich manche Clients auf eine schöne Benutzeroberfläche, andere fokussieren sich mehr auf Lightning-Bezahlungen, und wieder andere fokussieren sich auf kreative Anwendungen, wie zum Beispiel ein Schachspiel (Ja, du kannst [Schach](https://jesterui.github.io/) über das Nostr-Protokoll spielen). 
+Nostr ist ein sehr einfaches und anpassungsfähiges Protokoll, deshalb fokussieren sich verschiedeste Clients auf unterschiedliche Weise auf verschiedenen Aspekte des Protokolls. Zum Beispiel fokussieren sich manche Clients auf eine schöne Benutzeroberfläche, andere fokussieren sich mehr auf Lightning-Bezahlungen, und wieder andere fokussieren sich auf kreative Anwendungen, wie zum Beispiel ein Schachspiel (Ja, du kannst [Schach](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) über das Nostr-Protokoll spielen).
 
 Die meisten Clients, die bis jetzt entwickelt wurden, fokussieren sich auf Social-Media Anwendungen. Aber wir fangen an, interessantere Anwendungsfälle zu sehen.
 
 Ein paar Beispiele:
 
--   [Jester](https://jesterui.github.io/): Spiele Schach über Nostr
--   [Habla](https://habla.news/): Artikel in Blog-Form
--   [Nostrgram](https://nostrgram.co/): Client mit dem Fokus auf Medieninhalte
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Spiele Schach über Nostr
+-   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Artikel in Blog-Form
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Client mit dem Fokus auf Medieninhalte
 
 ## Kann ich Clients wechseln?
 
@@ -31,11 +31,11 @@ Denke daran, dass dein privater Schlüssel deine Identität in Nostr ist. Falls 
 
 ### Web
 
-- [Iris](https://iris.to) – Empfohlen für neue User. [Siehe dir unseren Guide hier an](/de/guides/iris).
-- [Snort](https://snort.social/)
-- [Coracle](https://coracle.social/)
-- [Primal](https://primal.net/)
-- [Nostrgram](https://nostrgram.co/)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Empfohlen für neue User. [Siehe dir unseren Guide hier an](/de/guides/iris).
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
 ### Desktop
 
