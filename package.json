@@ -38,7 +38,6 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^3.0.3",
-		"@vercel/analytics": "^1.0.1",
 		"svelte-i18n": "^3.7.0"
 	}
 }
