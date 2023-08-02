@@ -7,15 +7,15 @@ description: An overview of what Clients are in Nostr and a comparison of a few 
 
 A client in Nostr is just the app that you use to access and interact with the protocol. It's like the Twitter iOS app or web app that you use to interact with Twitter's feed of tweets.
 
-Because the Nostr protocol is very simple and flexible, different clients have focused on implementing different aspects of the protocol in slightly different ways. For example, some clients focus on beautiful and usable UI, others focus more on enabling lighting payments, still others focus on Nostr for creative use cases like playing chess (Yes, you can [play chess](https://jesterui.github.io/) via the Nostr protocol).
+Because the Nostr protocol is very simple and flexible, different clients have focused on implementing different aspects of the protocol in slightly different ways. For example, some clients focus on beautiful and usable UI, others focus more on enabling lighting payments, still others focus on Nostr for creative use cases like playing chess (Yes, you can [play chess](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) via the Nostr protocol).
 
 Most of the clients that have been built so far are centered around the social media use-case. But we're starting to see more interesting use cases.
 
 A few examples:
 
--   [Jester](https://jesterui.github.io/): Play chess on Nostr
--   [Habla](https://habla.news/): Long-form content – like Medium
--   [Nostrgram](https://nostrgram.co/): Media focused social client
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Play chess on Nostr
+-   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Long-form content – like Medium
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Media focused social client
 
 ## Can I switch clients?
 
@@ -31,10 +31,10 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 
 ### Web
 
--   [Iris](https://iris.to) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
--   [Snort](https://snort.social/)
--   [Coracle](https://coracle.social/)
--   [Nostrgram](https://nostrgram.co/)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
 ### Desktop
 

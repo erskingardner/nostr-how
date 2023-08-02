@@ -1,6 +1,6 @@
 ---
 title: Démarrer avec Nostr
-description : Ce guide vous aidera à comprendre les bases de Nostr et vous permettra d'être prêt à utiliser Nostr avec un nouveau compte. Nous verrons comment créer un nouveau portefeuille lightning, créer un compte et se connecter à un client en toute sécurité.
+description: Ce guide vous aidera à comprendre les bases de Nostr et vous permettra d'être prêt à utiliser Nostr avec un nouveau compte. Nous verrons comment créer un nouveau portefeuille lightning, créer un compte et se connecter à un client en toute sécurité.
 ---
 
 ## [§](#understanding-keys) Comprendre le fonctionnement
@@ -15,9 +15,9 @@ Veillez à conserver votre clé privée dans un endroit sûr, comme un gestionna
 
 Nostr lui-même n'est qu'un protocole, une procédure convenue pour faire circuler des messages sur Internet.
 
-Vous accéderez à Nostr (le protocole) via un client. Les clients peuvent être des applications web, de bureau ou mobiles. Certains clients Nostr vous permettent de vous connecter en collant votre clé privée. Sur le web, cette méthode n'est généralement pas recommandée, car elle est fastidieuse et peu sûre. Nous vous recommandons plutôt d'utiliser un portefeuille cryptographique basé sur le web, qui est un logiciel spécialement conçu pour gérer les clés privées.
+Vous accéderez à Nostr (le protocole) via un client. Les clients peuvent être des applications web, de bureau ou mobiles. Certains clients Nostr vous permettent de vous connecter en collant votre clé privée. Sur le web, cette méthode n'est généralement pas recommandée, car elle est fastidieuse et peu sûre. Au lieu de cela, nous vous recommandons d'utiliser une extension de signature dans votre navigateur, qui est un logiciel spécialement conçu pour gérer en toute sécurité les clés privées et signer les événements de manière cryptographique.
 
-[Alby - Chrome](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe), [Alby - Firefox](https://addons.mozilla.org/en-US/firefox/addon/alby/) est un portefeuille bitcoin lightning qui intègre le support de Nostr. C'est une excellente option pour les nouveaux utilisateur-trice-s. Nous couvrirons l'installation d'Alby dans les guides spécifiques aux clients qui en ont besoin ci-dessous.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) est une extension de signature et portefeuille bitcoin lightning qui intègre le support de Nostr. C'est une excellente option pour les nouveaux utilisateur-trice-s. Nous couvrirons l'installation d'Alby dans les guides spécifiques aux clients qui en ont besoin ci-dessous.
 
 ## [§](#create-your-account) Créer votre compte
 
@@ -29,15 +29,15 @@ Voici des guides étape par étape pour différents clients que nous recommandon
 
 Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
 
-- [Snort](https://snort.social/) (Web) Client Web super propre et rapide.
-- [Coracle](https://coracle.social/) (Web) Un client axé sur la navigation relais.
-- [Nostrgram](https://nostrgram.co) (Web) Client amusant inspiré d'Instagram et axé sur les images, la vidéo et l'audio. Ramenez vos mèmes !
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Client Web super propre et rapide.
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un client axé sur la navigation relais.
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Client amusant inspiré d'Instagram et axé sur les images, la vidéo et l'audio. Ramenez vos mèmes !
 
 ## [§](#find-friends) Trouvez vos ami-e-s pour les suivre
 
-- Si vous savez que quelqu'un est sur Nostr, trouvez son profil en recherchant sa clé publique.
-- De nombreux utilisateurs de Twitter tweetent leurs clés publiques Nostr avec le hashtag #nostr, la recherche de ce hashtag peut donc vous donner un bon point de départ.
-- [nostr.directory](https://nostr.directory) est une base de données qui associe les utilisateur-trice-s de Twitter à leurs clés publiques Nostr.
+-   Si vous savez que quelqu'un est sur Nostr, trouvez son profil en recherchant sa clé publique.
+-   De nombreux utilisateurs de Twitter tweetent leurs clés publiques Nostr avec le hashtag #nostr, la recherche de ce hashtag peut donc vous donner un bon point de départ.
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) est une base de données qui associe les utilisateur-trice-s de Twitter à leurs clés publiques Nostr.
 
 ## [§](#whats-signing) Que veut dire "Signer"
 

@@ -37,6 +37,40 @@ If you're less of a writer but have a sharp eye for typos and grammar, feel free
 
 Translations in Nostr.how are done in two parts. For UI elements and navigation items we use in i18n library and simple JSON files to store the translated strings. The main content of each page is written in Markdown and each page must be translated separately and put into the correct directory in the codebase.
 
+#### Getting started
+
+The best workflow for working on a translation is to first fork this repository and create a branch on your own forked copy. This makes it easy to open a PR for feedback while you continue working on translating all the pages. Let's see how it's done:
+
+##### CLONING THE REPO
+
+1. First, you'll need to have a github account, so set that up first.
+1. Then, on the Nostr.how repo page, you want to click the "Fork" button at the top of the page. ![fork-me](https://github-production-user-asset-6210df.s3.amazonaws.com/202880/257783964-487d525c-beec-46ae-b48f-0458cf3656b2.png)
+1. This will create a new copy of the repo under your account on Github.
+1. Next you'll want to clone that new forked copy to your local computer. On the terminal, run the following command. (don't copy the `$` at the beginning of the command)
+
+```sh
+$ git clone https://github.com/<YOUR_GITHUB_USERNAME>/nostr-how.git
+```
+
+##### CREATE A NEW BRANCH
+
+Congrats 🎉 you now have a local copy of the repository set up and ready to use. Let's get a new branch set up for your translation.
+
+1. On the terminal again, run `$ git checkout -b <LANGUAGE>_translation`, if you have trouble running this command you might not have `git` installed.
+1. Creating a new branch to work from means that you keep all your work separate and organized.
+1. Now, go ahead and open up a text editor and start hacking you code cowboy!
+
+##### CREATING A PULL REQUEST (PR)
+
+1. Once you've made a few changes you can commit those changes by running `git commit -am 'A short commit message about what you've changed'` – you should replace the message part with a short note about what you've changed.
+1. Each commit that you make is like saving your game. You can always easily restore the state of your code to those commit points whenever you'd like.
+1. After you've made a few commits, you can push your changes to github with `git push -u origin <BRANCH_NAME>` (remember to change that to the real name of your branch).
+1. Once you've done this you can navigate to the "Pull requests" tab at the top of your repo in Github.
+1. Press the big green "New Pull Request" button at the top right of the page and then double check that you have the right branches selected. Below is an example of how it should look if want to create a pull request for the branch on my fork of a repo back to the main branch of the source repo.
+   ![compare](https://cdn.nostr.build/p/3vyX.png)
+1. That's it. Once you've created a pull request you can continue working and pushing changes to your own branch and your pull request will continue to update with each new commit.
+1. Once the PR is completely ready, I'll merge it and we'll celebrate! 🎉
+
 #### i18n JSON files
 
 These files are found in the `/src/lib/locales/` directory [here](https://github.com/erskingardner/nostr-how/tree/main/src/lib/locales). Each new language needs to have it's own file named with the ISO 3166 Alpha-2 code. E.g. `en.json` for English and `it.json` for Italian.

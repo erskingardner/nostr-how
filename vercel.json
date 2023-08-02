@@ -1,4 +1,14 @@
 {
+    "rewrites": [
+        {
+            "source": "/stats/js/script.js",
+            "destination": "https://plausible.io/js/script.js"
+        },
+        {
+            "source": "/stats/api/event",
+            "destination": "https://plausible.io/api/event"
+        }
+    ],
     "redirects": [
         {
             "source": "/",
@@ -63,6 +73,131 @@
         {
             "source": "/verify-your-identity",
             "destination": "/en/guides/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/en",
+            "destination": "/en/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/de",
+            "destination": "/de/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/fa",
+            "destination": "/fa/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/es",
+            "destination": "/es/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/fr",
+            "destination": "/fr/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/it",
+            "destination": "/it/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/relays/implementations",
+            "destination": "/en/relay-implementations",
+            "permanent": true
+        },
+        {
+            "source": "/clients/iris",
+            "destination": "/en/guides/iris",
+            "permanent": true
+        },
+        {
+            "source": "/es/guias/iris",
+            "destination": "/es/guides/iris",
+            "permanent": true
+        },
+        {
+            "source": "/clients/damus",
+            "destination": "/en/guides/damus",
+            "permanent": true
+        },
+        {
+            "source": "/clients/amethyst",
+            "destination": "/en/guides/amethyst",
+            "permanent": true
+        },
+        {
+            "source": "/es/guias/amethyst",
+            "destination": "/es/guides/amethyst",
+            "permanent": true
+        },
+        {
+            "source": "/clients/comparison",
+            "destination": "/en/clients",
+            "permanent": true
+        },
+        {
+            "source": "/the-protocol/events",
+            "destination": "/en/the-protocol",
+            "permanent": true
+        },
+        {
+            "source": "/the-protocol/nips",
+            "destination": "/en/the-protocol",
+            "permanent": true
+        },
+        {
+            "source": "/es/comenzar",
+            "destination": "/es/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/fr/relais",
+            "destination": "/fr/relays",
+            "permanent": true
+        },
+        {
+            "source": "/guides/nip05",
+            "destination": "/en/guides/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/get-verified",
+            "destination": "/en/guides/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/fr/verify-your-identity",
+            "destination": "/fr/guides/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/contribute.md",
+            "destination": "/en/contribute",
+            "permanent": true
+        },
+        {
+            "source": "/relays/implementations.md",
+            "destination": "/en/relay-implementations",
+            "permanent": true
+        },
+        {
+            "source": "/the-protocol.md",
+            "destination": "/en/the-protocol",
+            "permanent": true
+        },
+        {
+            "source": "/get-started.md",
+            "destination": "/en/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/relays.md",
+            "destination": "/en/relays",
             "permanent": true
         }
     ]

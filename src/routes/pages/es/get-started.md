@@ -9,15 +9,15 @@ Cada cuenta de Nostr se basa en un par de llaves pública/privada. Una forma sen
 
 Te lo repito para que quede claro: **Si pierdes tu llave privada, pierdes tu cuenta de Nostr. Si otra persona tiene acceso a tu llave privada, puede tomar el control de tu cuenta.**
 
-Asegúrate de guardar tu llave privada en un lugar seguro, como un gestor de contraseñas. (Nos gusta [1Password](https://1password.com/)).
+Asegúrate de guardar tu llave privada en un lugar seguro, como un gestor de contraseñas. (Nos gusta [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)).
 
 ## [§](#protocolo-vs-cliente) Protocolo vs Cliente
 
 Nostr por sí mismo es ya un protocolo, es un procedimiento acordado para transmitir mensajes en Internet.
 
-Accederás a Nostr (el protocolo) a través de un cliente. Los clientes pueden ser aplicaciones web, de escritorio o móviles. Algunos clientes de Nostr te permiten iniciar sesión pegando tu llave privada. En la web, esto no se recomienda, ya que es tedioso e inseguro. En su lugar, recomendamos utilizar un monedero criptográfico basado en web, que es una pieza de software diseñada específicamente para gestionar claves privadas.
+Accederás a Nostr (el protocolo) a través de un cliente. Los clientes pueden ser aplicaciones web, de escritorio o móviles. Algunos clientes de Nostr te permiten iniciar sesión pegando tu llave privada. En la web, esto no se recomienda, ya que es tedioso e inseguro. En su lugar, recomendamos usar una extensión de firma en su navegador, que es un software diseñado específicamente para administrar claves privadas de manera segura y firmar eventos criptográficamente.
 
-[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) es un monedero bitcoin lightning que tiene soporte incorporado para Nostr. Es una gran opción para los nuevos usuarios. Cubriremos la instalación de Alby en las guías específicas del cliente donde se necesita a continuación.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) es una estensión de firma y monedero bitcoin lightning que tiene soporte incorporado para Nostr. Es una gran opción para los nuevos usuarios. Cubriremos la instalación de Alby en las guías específicas del cliente donde se necesita a continuación.
 
 ## [§](#crear-tu-cuenta) Crear tu cuenta
 
@@ -29,15 +29,15 @@ Acá está una guía paso a paso de los clientes que recomendamos:
 
 Algunos otros clientes que amamos pero no tenemos guías:
 
--   [Snort](https://snort.social/) (Web) Cliente súper rapido y veloz.
--   [Coracle](https://coracle.social/) (Web) Un cliente centrado en la navegación por relevos.
--   [Nostrgram](https://nostrgram.co) (Web) Divertido cliente inspirado en Instagram centrado en imágenes, vídeo y audio. ¡Que empiecen los memes!
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente súper rapido y veloz.
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un cliente centrado en la navegación por relevos.
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Divertido cliente inspirado en Instagram centrado en imágenes, vídeo y audio. ¡Que empiecen los memes!
 
 ## [§](#encontrar-amigos) Encontrar amigos en Nostr
 
-- Si sabes que alguien está en Nostr, encuentra su perfil buscando su clave pública.
-- Muchos usuarios de Twitter tuitean sus claves públicas de Nostr con el hashtag #Nostr, por lo que una búsqueda con este hashtag puede ser un buen comienzo.
-- [nostr.directory](https://nostr.directory) es una base de datos que relaciona a los usuarios de Twitter con sus claves públicas de Nostr.
+-   Si sabes que alguien está en Nostr, encuentra su perfil buscando su clave pública.
+-   Muchos usuarios de Twitter tuitean sus claves públicas de Nostr con el hashtag #Nostr, por lo que una búsqueda con este hashtag puede ser un buen comienzo.
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) es una base de datos que relaciona a los usuarios de Twitter con sus claves públicas de Nostr.
 
 ## [§](#Que-es-firmar) ¿Qué quiere decir "firmar"?
 
