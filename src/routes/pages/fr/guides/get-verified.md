@@ -20,8 +20,7 @@ Pour utiliser le NIP-05, les utilisateurs de Nostr ajoutent une url nip05 à leu
 
 1. Tout ce qui précède le symbole `@` ("bob", dans notre exemple). Cela doit correspondre à la valeur du champ nom dans votre profil Nostr.
 1. Tout ce qui suit le symbole `@` ("exemple.com", dans notre exemple). C'est le domaine dans lequel le client peut chercher un fichier `/.well-known/nostr.json` qui contient le nom et la clé publique de l'utilisateur.
-2. 
-Lorsque les clients voient une url nip05, ils vont chercher un fichier `/.well-known/nostr.json` dans le domaine spécifié. Ce fichier doit contenir la clé publique de nostr pour l'utilisateur spécifié. Pour plus de détails, voir la spécification NIP-05.
+1. Lorsque les clients voient une url nip05, ils vont chercher un fichier `/.well-known/nostr.json` dans le domaine spécifié. Ce fichier doit contenir la clé publique de nostr pour l'utilisateur spécifié. Pour plus de détails, voir la spécification NIP-05.
 
 Bien que cela semble technique, il est étonnamment facile de se faire vérifier. Voyons comment procéder.
 
@@ -34,6 +33,7 @@ Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratu
 -   [Nostr.industries](https://nostr.industries/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
+-   [Verified Nostr](https://verified-nostr.com/)
 
 ## [§](#paid-verification) Payer un fournisseur pour la vérification
 
