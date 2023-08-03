@@ -35,7 +35,8 @@ Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren las
 -   [Nostr.industries](https://nostr.industries/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
-  
+-   [Verified Nostr](https://verified-nostr.com/)
+
 ## [§](#paid-verification) Verifiziere dich bei einem Bezahl-Service
 
 Wenn du keine eigene Domain hast oder selbst nicht einrichten willst, kannst du auch einen kostenpflichtigen NIP-05-Service in Anspruch nehmen. In der Regel jostet das nur ein paar [Sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats). Hier sind ein paar Beispiele:
