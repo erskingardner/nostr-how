@@ -35,6 +35,7 @@ Al momento, ci sono diversi fornitori che stanno aiutando le persone a ottenere 
 -   [Nostr.industries](https://nostr.industries/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
+-   [Verified Nostr](https://verified-nostr.com/)
 
 ## [§](#verifica-a-pagamento) Pagare un fornitore
 
