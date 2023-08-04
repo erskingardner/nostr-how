@@ -7,7 +7,7 @@ description: Eine Schritt-für-Schritt-Anleitung für den Nostr-Web-Client Iris.
 
 Hole dir [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) vom Chrome Web-Store oder direkt von der [Alby Web-Seite](https://getalby.com/).
 
-Sobald du die Browser-Erweiterung installiert hast, erstelle dir ein neues Konto. Außer du bist schon ein Profi im Umgang mit Lightning, empfehlen wir dir einfach ein Konto bei Alby zu erstellen und eine neue Lightning-Wallet einzurichten.
+Sobald du die Browser-Erweiterung installiert hast, erstelle dir ein neues Konto. Außer du bist schon ein Profi, empfehlen wir dir einfach ein Konto bei Alby zu erstellen und eine neue Lightning-Wallet einzurichten.
 
 ## Schritt 2 – Erstelle einen neuen privaten Schlüssel mit Iris
 
@@ -30,3 +30,7 @@ Sobald du die Browser-Erweiterung installiert hast, erstelle dir ein neues Konto
 1. Zurück auf der Iris-Seite kannst du dich jetzt "Mit Browser-Erweiterung einloggen". ![Iris sign up screen](/images/iris-signup.webp)
 2. Bestätige das Alby-Popup, indem du "Connect" klickst und danach, dass Iris deinen öffentlichen Schlüssel lesen darf mit "Confirm".
 3. Du bist jetzt eingeloggt! Es kann einige Augenblicke dauern, bis der Inhalt geladen wird. 🤙 Jede Aktion in Iris musst du mit der Alby-Erweiterung signieren. Du kannst aber das Kontrollkästchen aktivieren und in Alby hinterlegen, dass du diese Popups nicht mehr bekommst und automatisch Signiert wird, je nachdem wie viel Kontrolle du abgeben willst.
+
+## Video-Tutorial
+
+[Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz) hat ein super [Beginner-Tutorial auf YouTube in Englisch](https://www.youtube.com/watch?v=kifwECtwjJQ) hochgeladen, falls du dir lieber ein Video anschauen willst.

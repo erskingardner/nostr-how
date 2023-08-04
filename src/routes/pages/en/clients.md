@@ -16,6 +16,7 @@ A few examples:
 -   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Play chess on Nostr
 -   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Long-form content – like Medium
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Media focused social client
+-   [zap.stream](https://zap.stream/): Twitch-like streaming site with zaps
 
 ## Can I switch clients?
 

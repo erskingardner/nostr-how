@@ -1,12 +1,12 @@
 ---
 title: Das Nostr-Protokoll
-description: Dies ist ein fortgeschrittener Überblick über das Nostr-Protokoll mit Details zu Event-Typen und wie die Nostr-Implementierungsmöglichkeiten (NIPs, engl. Nostr Implementation Possibilities) funktionieren.
+description: Ein grober Überblick über das Nostr-Protokoll mit Details zu Event-Typen und wie die Nostr-Implementierungsmöglichkeiten (NIPs) funktionieren.
 ---
 
-## [§](#nostr-high-level) Nostr auf höchster Ebene
+## [§](#nostr-high-level) Grundlagen des Nostr-Protokolls
 
 -   Das Nostr-Netzwerk besteht aus zwei Hauptkomponenten: [Clients](/de/clients) & [Relays](/de/relays).
-    -   **Clients** sind die Schnittstelle zwischen Benutzer und Relays. Clients werden zum Lesen und Schreiben von Daten auf Relays verwendet. Du kannst dir das in einem Social-Media-Kontext als die Twitter-Web-App oder die Mobile-App vorstellen. Es ist ein Client, mit dem du Daten aus der zentralen Datenbank von Twitter lesen und schreiben kannst.
+    -   **Clients** sind die Schnittstelle zwischen Benutzer und Relays. Clients werden zum Lesen und Schreiben von Daten auf Relays verwendet. Du kannst dir das in einem Social-Media-Kontext als die Twitter-Web-App oder die Mobile-App vorstellen. Das ist ein Client, mit dem du Daten aus der zentralen Datenbank von Twitter lesen und schreiben kannst.
     -   **Relays** sind wie Datenbanken (obwohl sie viel mehr tun, als nur Daten zu speichern). Relays ermöglichen es, von Clients gesendete Daten in einer Datenbank zu speichern und diese gespeicherten Daten dann wieder auszulesen und den Benutzern anzuzeigen.
 -   Jeder Benutzer wird durch einen öffentlichen Schlüssel identifiziert. Jedes Event-Objekt (z. B. eine gepostete Nachricht, die Aktualisierung der Follower-Liste usw.) wird signiert. Clients validieren diese Signaturen, um sicherzustellen, dass sie korrekt sind.
 -   Clients rufen Daten von Relays ab und veröffentlichen Daten auf Relays. Relays werden fast immer vom Benutzer ausgewählt. Relays müssen nicht miteinander kommunizieren, könnten dies aber in Zukunft tun.
@@ -31,9 +31,9 @@ Das ist eine sehr vereinfachte Situation, aber du kannst bereits jetzt sehen, da
 
 ## [§](#events) Events
 
-Events sind der einzige Objekttyp im Nostr-Netzwerk. Jedes Event hat eine `Art`, die angibt, um welche Art von Event es sich handelt (welche Art von Aktion ein Benutzer ausführt oder Nachrichten empfängt).
+Events sind der einzige Objekttyp im Nostr-Netzwerk. Jedes Event hat eine `Art` (engl. "kind"), die angibt, um welche Art von Event es sich handelt (welche Art von Aktion ein Benutzer ausführt oder Nachrichten empfängt).
 
-So sieht ein Ereignis der Art 1 aus (Art 1 ist für kurze Textnotizen – d. h. so etwas wie ein Twitter-Tweet)
+So sieht ein Event der Art 1 aus (Art 1 ist für kurze Textnotizen – d. h. so etwas wie ein Tweet)
 
 ```json
 {
@@ -119,7 +119,7 @@ Dies ist eine Liste der aktuellen `Event`-Arten. Die aktuellste Liste findest du
 
 ## [§](#nips) NIPs
 
-Eine Nostr Implementation Possibilty, kurz NIP, existiert, um zu dokumentieren, was von Nostr-kompatiblen Relays- und Client-Software implementiert werden MUSS, SOLL und DARF. NIPs sind die Dokumente, die beschreiben, wie das Nostr-Protokoll funktioniert.
+Eine Nostr Implementationsmöglichkeit (engl. "Nostr Implementation Possibilty"), kurz NIP, existiert, um zu dokumentieren, was von Nostr-kompatiblen Relays- und Client-Software implementiert werden MUSS, SOLL und DARF. NIPs sind die Dokumente, die beschreiben, wie das Nostr-Protokoll funktioniert.
 
 ### Warum sollte ich mich für NIPs interessieren?
 
@@ -129,4 +129,4 @@ Als aktiver Teil der Community hast du ein Mitspracherecht bei der Ausrichtung d
 
 ### Wo finde ich die NIPs?
 
-Du findest alle aktuellen NIPs im [Nostr-NIP-Repository](https://github.com/nostr-protocol/nips).
+Du findest alle aktuellen NIPs im [Nostr-NIP-Repository](https://github.com/nostr-protocol/nips) auf GitHub.
