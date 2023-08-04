@@ -17,7 +17,7 @@ Zusätzlich kannst du deine Ideen über den Inhalt auf Nostr.how mit uns teilen,
 
 ## [§](#write-content) Schreibe Inhalte
 
-Wenn du ein Autor bist und beitragen willst, zögere nicht und öffne ein [Issue in GitHub](https://github.com/nostr-how/nostr-how/issues). Wir helfen dir gerne etwas entsprechend deiner technischen Fähigkeiten zu finden und sei es ein Tutorial für den neuseten Nostr-Client.
+Wenn du ein Autor bist und beitragen willst, zögere nicht und öffne ein [Issue in GitHub](https://github.com/nostr-how/nostr-how/issues). Wir helfen dir gerne etwas entsprechend deiner technischen Fähigkeiten zu finden, wie zum Beispiel ein Tutorial für den neuesten Nostr-Client.
 
 ## [§](#translate-content) Übersetze Inhalte in andere Sprachen
 

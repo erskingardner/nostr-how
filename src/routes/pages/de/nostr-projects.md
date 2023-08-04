@@ -3,18 +3,18 @@ title: Nostr-Quellen & Links
 description: Dies ist eine Sammlung anderer Nostr-Quellen und -Projekte, auf die wir gestoßen sind.
 ---
 
-Wenn du an einem Projekt arbeitest und möchtest, dass es hier aufgenommen wird, [sende mir eine Nachricht](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) oder [erstelle ein Issue](https://github.com/erskingardner/nostr-how/issues) oder [sende einen Pull Request](https://github.com/erskingardner/nostr-how/pulls) in unserem GitHub-Repository.
+Wenn du an einem Projekt arbeitest und möchtest, dass es hier aufgenommen wird, kannst du mir eine [Nachricht senden](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc), ein [Issue](https://github.com/erskingardner/nostr-how/issues) oder einen [Pull Request](https://github.com/erskingardner/nostr-how/pulls) in unserem GitHub-Repository erstellen.
 
 ## [§](#nostr-repo) Das Nostr-Repository
 
 Das [Nostr-Protocol-Repository](https://github.com/nostr-protocol/nostr) ist die kanonische Form, das Regelwerk von Nostr. Es ist ein sehr spärliches Repository, aber beinhaltet [@fiatjaf's](https://github.com/fiatjaf) ursprüngliche Argumentation, warum Nostr existieren muss.
 
-## [§](#nostr-relays) Nostr Relays
+## [§](#nostr-relays) Nostr-Relays
 
--   [Purplepag.es](https://purplepag.es/what) ist eine spezielle Art von Relay.
+-   [Purplepag.es](https://purplepag.es/what) ist ein Relay speziell für die Event-Arten 0 und 10002.
 -   [Nostr.watch](https://nostr.watch/relays/find) enthält Infos über alle bekannten Relays.
--   [Relay Exchange](https://relay.exchange/) ist eine List von derzeit in Betrieb befindlichen und kostenpflichtigen Relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) ist ein interessantes Projekt, welches das Lesen und Schreiben von und zu mehreren anderen wichtigen Relais aggregiert. Ziel ist es, die Lücke zwischen öffentlichen und privaten Relais zu schließen.
+-   [Relay Exchange](https://relay.exchange/) ist eine Liste von derzeit in Betrieb befindlichen und kostenpflichtigen Relays.
+-   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) ist ein interessantes Projekt, welches das Lesen und Schreiben von und zu mehreren anderen wichtigen Relays aggregiert. Ziel ist es, die Lücke zwischen öffentlichen und privaten Relays zu schließen.
 -   Weitere Informationen findest du auf unserer Seite [Relay-Implementierungen](/de/relay-implementations).
 
 ## [§](#search-data) Suche & Daten
@@ -28,7 +28,7 @@ Das [Nostr-Protocol-Repository](https://github.com/nostr-protocol/nostr) ist die
 -   [Habla](https://habla.news)
 -   [Blogstack](https://blogstack.io/)
 
-## [§](#badges) Badges
+## [§](#badges) Profil-Badges
 
 -   [Badges.page](https://badges.page/)
 
