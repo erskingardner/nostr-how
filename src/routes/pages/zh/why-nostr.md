@@ -1,47 +1,47 @@
 ---
-title: Why we need Nostr
-description: Why Nostr and the broader idea of decentralizing the internet is an important concept.
+title: 为什么我们需要 Nostr
+description: 为什么 Nostr 和更广泛的去中心化网络是一个重要的概念。
 ---
 
-## Do we really need another publishing protocol?
+## 我们真的需要另一种发布协议吗？
 
-Publishing on the web is fundamentally broken. What started as an open web of pages created by individuals has collapsed into a centralized oligopoly controlled by a handful of the world's most powerful companies.
+在网络上发布内容已经从根本上被破坏了。最初由个人创建网页的开放网络已经崩溃成为由少数世界上最强大的公司控制的集中寡头垄断。
 
-These companies control, often in ways they themselves don't even understand, what we read, who we talk to, and what ideas gain traction in our culture. Their pursuit of "engagement" has had tremendous negative consequences for society.
+这些公司以他们自己都不理解的方式控制着我们阅读的内容、我们交谈的对象，以及要在我们的文化中推广什么样的思想。他们对流量的追求对社会产生了巨大的负面影响。
 
-It's time for the web to return to it's open and decentralized roots. It's time for us to take back control of what information we consume, and how we consume it. It's time for us to build more open-minded and constructive communities on internet.
+是时候让网络回归其开放和去中心化了。是时候由我们自己决定消费什么内容以及如何消费它们。是时候让我们在互联网上建立更开放、更有建设性的社区了。
 
-Nostr enables this.
+Nostr 可以实现这一点。
 
-## What Nostr enables
+## Nostr 能做什么
 
--   Simple, flexible `Event` format enables publishing of all types: Social media posts, long-form content, rich media, ecommerce, etc.
--   Verifiability that notes come from a specific user. This helps to combat spam and bots.
--   Users can connect to many relays, and run their own relays. This makes it hard to censor ideas and people.
--   Integrated with lightning, Nostr enables new [value-for-value](https://value4value.info/) business models that have the potential to be more fair.
+-  简单、灵活的 `Event` 格式可以发布各种类型的内容：社交媒体帖子、长篇内容、富媒体、电子商务等。
+-  可验证的笔记来自特定用户。这有助于打击垃圾邮件和机器人。
+-  用户可以连接到许多中继，并运行自己的中继。这使得很难审查思想和人。
+-  与闪电网络集成使得 Nostr 可以实现新的商业模式——[价值交换](https://value4value.info/)，这个模式有可能更加公平。
 
-## The status quo
+## 现状
 
-### Mainstream media
+### 主流媒体
 
-1. Uses your attention to sell ads
-1. Uses outragous headlines to create click-bait
-1. Focuses on negativity and outrage (refer to point 1)
-1. Struggling old-school business model creates desperation trying to keep up with big tech social media
+1. 将您的注意力卖给广告商
+2. 使用令人震惊的标题来诱导您点击
+3. 专注于制造负面和愤怒的内容（参考第一点）
+4. 陈旧的商业模式使得他们不得不拼命追赶大型科技社交媒体
 
-### Big tech social media
+### 大型科技社交媒体
 
-1. Uses your attention to sell ads
-1. Uses bizarre techniques to keep you addicted (refer to point 1)
-1. Decides what content to show you based on secret algorithms that you can't inspect or change
-1. Has complete control over who can participate and who is censored
-1. Is overrun with spam and bots
+1. 将您的注意力卖给广告商
+2. 使用奇怪的技术让您上瘾（参考第一点）
+3. 根据您无法检查或更改的秘密算法来决定向您展示什么内容
+4. 完全控制谁可以参与、谁被审查
+5. 被垃圾邮件和机器人淹没
 
-### Mastodon (and other federated social media platforms)
+### Mastodon（和其他联邦社交媒体平台）
 
-1. User identities are attached to domain names which are controlled by third-parties.
-1. These third-parties can ban you, just like centralized social media platforms. Server owners can also block other servers.
-1. Migration between servers is difficult and can only be accomplished if servers cooperate.
-1. There are no clear incentives to run servers, therefore they tend to be run by enthusiasts and people who want to have their name attached to a cool domain. Because of this, users are subject to the despotism of a single person, which is often worse than that of a big company like Twitter, and they can't migrate out.
-1. Since servers tend to be run by amateurs, they are often abandoned. This effectively bans everybody that signed up via that server.
-1. There are huge issues with data duplication across servers.
+1. 用户身份与域名相关，域名由第三方控制。
+2. 这些第三方可以像中心化社交媒体平台一样封禁您。服务器所有者也可以封禁其他服务器。
+3. 服务器之间的迁移很困难，只有在服务器合作的情况下才能完成。
+4. 没有明确的激励来运行服务器，因此它们往往是由爱好者和想要将自己的名字附加到一个酷域名的人来运行的。因此，用户受到单个人的专制统治，这往往比 Twitter 这样的大公司更糟糕，而且他们无法迁移出去。
+5. 由于服务器往往是由业余爱好者运行的，它们经常被抛弃。这实际上封禁了通过该服务器注册的所有人。
+6. 服务器之间的数据重复存在巨大的问题。

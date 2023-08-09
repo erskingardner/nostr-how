@@ -1,22 +1,22 @@
 ---
-title: Decentralized publishing for the web
-description: Nostr is a simple, open protocol that enables truly censorship-resistant and global value-for-value publishing on the web.
+title: 去中心化发布网络
+description: Nostr 是一个简单开放的协议，它使得在网络上进行真正的抗审查和全球价值交换（value-for-value）的内容发布成为可能。
 ---
 
-## What is Nostr?
+## 什么是 Nostr？
 
-Nostr stands for "Notes and Other Stuff Transmitted by Relays". Like HTTP or TCP-IP, Nostr is a protocol; an open standard upon which anyone can build. Nostr itself is not an app or service that you sign up for.
+Nostr 是 "Notes and Other Stuff Transmitted by Relays" 的缩写。就像 HTTP 或 TCP-IP 一样，Nostr 是一个协议；任何人都可以在其上构建的开放标准。Nostr 本身不是您注册的应用程序或服务。
 
-Nostr is designed for simplicity and enables censorship-resistant and globally decentralized publishing on the web. Let's unpack that a little:
+Nostr 旨在简单，可以在互联网上实现抗审查和全球去中心化的发布。让我们来看看：
 
-### Simple
+### 简单
 
-The protocol is based on very simple & flexible `Event` objects (which are passed around as plain JSON) and uses standard public-key cryptography for keys & signing. This makes it easy to run relays and build clients and ensures that the protocol can be extended over time.
+协议基于非常简单和灵活的 `Event` 对象（作为纯 JSON 传递），并使用标准的公钥加密密钥和签名。这使得运行中继和构建客户端变得很容易，并确保协议可以随时间扩展。
 
-### Resilient
+### 抗审查
 
-Because Nostr doesn't rely on a small number of trusted servers for moving or storing data, it's very resilient. The protocol assumes that relays will disappear and allows users to connect & publish to an arbitrary number of relays that they can change over time.
+因为 Nostr 不依赖于少数可信的服务器来运作或存储数据，所以它具有很好的抗审查特性。该协议假设中继将消失，并允许用户随时连接和发布到任意数量的中继。
 
-### Verifiable
+### 可验证性
 
-Because Nostr accounts are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) it's easy to verify messages were really sent by the user in question.
+因为 Nostr 帐户基于[公钥加密](https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86)，所以很容易验证消息是否由该用户发送。
