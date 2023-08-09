@@ -7,6 +7,7 @@ register('de', () => import('$lib/locales/de.json'));
 register('fr', () => import('$lib/locales/fr.json'));
 register('it', () => import('$lib/locales/it.json'));
 register('fa', () => import('$lib/locales/fa.json'));
+register('zh', () => import('$lib/locales/zh.json'));
 
 interface i18nOpts {
     locale: string;
