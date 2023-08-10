@@ -1,50 +1,50 @@
 ---
-title: What are Nostr Clients?
-description: An overview of what Clients are in Nostr and a comparison of a few of our favorites.
+title: 什么是 Nostr 客户端？
+description: 简单介绍什么是 Nostr 客户端，并比较我们最喜欢的几个客户端。
 ---
 
-## What's a client?
+## 什么是客户端？
 
-A client in Nostr is just the app that you use to access and interact with the protocol. It's like the Twitter iOS app or web app that you use to interact with Twitter's feed of tweets.
+Nostr 中的客户端只是您用来访问和与协议交互的应用程序。就像您用来与 Twitter 的推文流进行交互的 Twitter iOS 应用程序或 Web 应用程序一样。
 
-Because the Nostr protocol is very simple and flexible, different clients have focused on implementing different aspects of the protocol in slightly different ways. For example, some clients focus on beautiful and usable UI, others focus more on enabling lighting payments, still others focus on Nostr for creative use cases like playing chess (Yes, you can [play chess](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) via the Nostr protocol).
+因为 Nostr 协议非常简单且灵活，所以不同的客户端专注于以稍微不同的方式实现协议的不同方面。例如，有些客户端专注于美观和易用的 UI，有些客户端专注于闪电支付，还有一些客户端专注于用 Nostr 做些有创意的尝试，例如下棋（是的，您可以通过 Nostr 协议[下棋](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)）。
 
-Most of the clients that have been built so far are centered around the social media use-case. But we're starting to see more interesting use cases.
+大部份客户端都是围绕着社交媒体这个场景开发的。但我们也开始看到更多有趣的使用场景。
 
-A few examples:
+一些例子：
 
--   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Play chess on Nostr
--   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Long-form content – like Medium
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Media focused social client
--   [zap.stream](https://zap.stream/): Twitch-like streaming site with zaps
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): 在 Nostr 上下棋
+-   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): 长文社区 —— 类似 Medium
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): 以媒体为中心的社交客户端
+-   [zap.stream](https://zap.stream/): 类似 Twitch 的可打闪的直播平台
 
-## Can I switch clients?
+## 我可以切换客户端吗？
 
-Yes. Because a client is just a way to access the underlying data held by relays, you can switch clients or sign into as many clients as you'd like. As long as each client is looking at the same set of relays for their data, you'll see the same messages in each client.
+当然可以。因为客户端只是访问由中继持有的底层数据的一种方式，所以您可以切换客户端或登录任意多个客户端。只要每个客户端都从相同的中继集合中获取数据，您就可以在每个客户端中看到相同的消息。
 
-## Should I enter my private key in the client?
+## 我应该在客户端中输入我的私钥吗？
 
-Generally, it's better not to enter your private key into any client. Most clients that ask for private keys do their absolute best to keep your key secure but given the nature of software, there are always breaches, exploits, and bugs that could potentially expose your private key.
+一般来说，最好不要在任何客户端中输入您的私钥。大多数索要私钥的客户端都会尽其所能保护您的私钥安全，但考虑到软件的性质，总会有潜在的漏洞、攻击和错误可能会暴露您的私钥。
 
-Remember, your private key is your identity in Nostr, so if it is compromised, you'll have to start from scratch rebuilding your identity, and you'll lose your list of followers and all your private messages.
+请记住，您的私钥是您在 Nostr 中的身份，因此如果它被泄露，您将不得不从头开始重建您的身份，并且您将失去您的关注者列表和所有私人消息。
 
-## A few of our favorite clients
+## 一些我们喜欢的客户端
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端 [Check out our guide here](/en/guides/iris).
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
-### Desktop
+### 桌面客户端
 
--   [Gossip](https://www.github.com/mikedilger/gossip) – Gossip is a very opinionated desktop client that requires a bit more technical knowledge to use. The payoff is that it gives users more control over how they interact with Nostr.
+-   [Gossip](https://www.github.com/mikedilger/gossip) - Gossip 是一款非常固执己见的桌面客户端，需要一些技术知识才能使用。回报是它可以让用户更多地控制他们与 Nostr 的交互方式。
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – This is the first & best iOS client for Nostr. [Check out our guide here](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – 这是第一款也是最好的 iOS Nostr 客户端。 [Check out our guide here](/en/guides/damus).
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – A beautiful client for Android. [Check out our guide here](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – 一款漂亮的安卓客户端 [Check out our guide here](/en/guides/amethyst).
