@@ -22,6 +22,7 @@ Il [repository del protocollo Nostr](https://github.com/nostr-protocol/nostr) è
 -   [Nostr.band](https://nostr.band) è un motore di ricerca per Nostr che può aiutarti a trovare nuovi utenti da seguire o a trovare quel post che hai visto tempo fa.
 -   [Network stats](https://stats.nostr.band) sono gestite anche da Nostr.band. Questi sono dati di alto livello sulla crescita della rete Nostr.
 -   [Zaplife](https://zaplife.lol) è una raccolta di tutti(?) i Zaps su Nostr negli ultimi diversi ore. Puoi pensarlo come la classifica dei Zap. ⚡
+-   [Swarmstr](https://swarmstr.com) è un client Q&A Nostr che può aiutarti a trovare le risposte alle tue domande. Consente di cercare domande in base al contenuto dall'attività del tag #asknostr.
 
 ## [§](#contenuti-lunghi) Contenuti più lunghi
 
