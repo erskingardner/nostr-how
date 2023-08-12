@@ -1,38 +1,38 @@
 ---
-title: Nostr Resources & Links
-description: This is a collection of other Nostr resources and projects that we've come across.
+title: Nostr 项目和链接
+description: 这是我们遇到的其他 Nostr 资源和项目的集合。
 ---
 
-If you are working on project and would like it included here, [send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) or [add an issue](https://github.com/erskingardner/nostr-how/issues) or [submit a PR](https://github.com/erskingardner/nostr-how/pulls) to our Github repo.
+如果您正在开发项目并想被包含在这里，请[联系我](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)或向我们的 GitHub 仓库[新建 issue](https://github.com/erskingardner/nostr-how/issues) 或[提交 PR](https://github.com/erskingardner/nostr-how/pulls)。
 
-## [§](#nostr-repo) The Nostr repository
+## [§](#nostr-repo) Nostr 仓库
 
-The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the canonical home of Nostr. It's a very sparse repository but houses [@fiatjaf's](https://github.com/fiatjaf) original reasoning on why Nostr needs to exist.
+[Nostr 协议仓库](https://github.com/nostr-protocol/nostr) Nostr 规范的主页。这是一个非常零散的仓库，但包含了 [@fiatjaf's](https://github.com/fiatjaf) 关于 Nostr 为什么需要存在的解释。
 
-## [§](#nostr-relays) Nostr Relays
+## [§](#nostr-relays) Nostr 中继
 
--   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
--   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
--   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
--   See our page on [relay implementations](/en/relay-implementations) for more.
+-   [Purplepag.es](https://purplepag.es/what) 是一个特殊的中继。
+-   [Nostr.watch](https://nostr.watch/relays/find) 有已知所有中继的信息。
+-   [Relay Exchange](https://relay.exchange/) 有当前运行的付费中继列表
+-   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) 是一个有趣的项目，它聚合了多个其他主要中继的读写操作。它的目标是帮助弥补公共和私人中继之间的差距。
+-   有关更多信息请阅读[中继实现](/en/relay-implementations)页面。
 
-## [§](#search-data) Search & data
+## [§](#search-data) 搜索和数据
 
--   [Nostr.band](https://nostr.band) is a search engine for Nostr that can help you find new users to follow or find that note you saw a while back.
--   [Network stats](https://stats.nostr.band) is also run by Nostr.band. This is a high level set of data about the growth of the Nostr network.
--   [Zaplife](https://zaplife.lol) is an aggregation of all(?) Zaps across Nostr in the last several hours. Think of it as the Zap leaderboard. ⚡
+-   [Nostr.band](https://nostr.band) 是 Nostr 的搜索引擎，可以帮助您找到要关注的新用户或找到您不久前看到的笔记。
+-   [Network stats](https://stats.nostr.band) 也由 Nostr.band 运营。这是有关 Nostr 网络发展的高级数据集。
+-   [Zaplife](https://zaplife.lol) 是过去几个小时内 Nostr 上所有（？）打闪的聚合。将其视为打闪排行榜。 ⚡
 
-## [§](#long-form-content) Long-form content
+## [§](#long-form-content) 长文
 
 -   [Habla](https://habla.news)
 -   [Blogstack](https://blogstack.io/)
 
-## [§](#badges) Badges
+## [§](#badges) 徽章
 
 -   [Badges.page](https://badges.page/)
 
-## [§](#others) Others
+## [§](#others) 其他
 
--   [Awesome Nostr](https://www.nostr.net) is a repository of links for Nostr clients, relay implementations, and more.
--   [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
+-   [Awesome Nostr](https://www.nostr.net) 是 Nostr 客户端、中继实现等链接的仓库。
+-   [Nostr Resources](https://nostr-resources.com) 涵盖 Nostr 基础知识以及许多其他资源的链接。
