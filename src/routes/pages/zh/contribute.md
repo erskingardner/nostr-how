@@ -1,34 +1,34 @@
 ---
-title: How you can contribute
-description: It takes a village. We started Nostr.how because we are excited about the Nostr protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+title: 您可以如何做贡献
+description: 这需要大家的帮助。我们建立 Nostr.how，因为我们对 Nostr 协议以及它将社交媒体从大型技术公司的控制中解放出来感到兴奋。我们需要您的帮助来保持其运行。
 ---
 
-## [§](#in-general) In general
+## [§](#in-general) 总的来说
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/nostr-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+这是一个由志愿者运行的开源项目。[代码](https://github.com/erskingardner/nostr-how)公开托管在 GitHub 上，我们鼓励任何人克隆仓库，进行更改并提交 PR。
 
-If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
+如果您不是技术人员，请不要担心。还有其他方法可以出一份力，例如翻译、撰写内容、报告拼写错误或向我们发送一些聪来支付我们的托管成本。
 
-## [§](#send-feedback) Send us feedback
+## [§](#send-feedback) 给我们反馈
 
-If you find typos or information that is incorrect on Nostr.how, please let us know by creating an [issue on our GitHub repo](https://github.com/nostr-how/nostr-how/issues).
+如果您发现拼写错误或 Nostr.how 上的信息不正确，请通过在我们的 GitHub 仓库上创建 [issue](https://github.com/nostr-how/nostr-how/issues) 来告诉我们。
 
-Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
+此外，如果您有想要写的内容，请创建 issue 并附上您的建议。🙌🏼
 
-## [§](#write-content) Write content
+## [§](#write-content) 撰写内容
 
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
+如果您是一位作家，并且想要做出贡献，请不要犹豫，联系我们（同样，[通过 GitHub 仓库中的 issue](https://github.com/nostr-how/nostr-how/issues)）。我们可以根据您的技术水平帮助您以适合您的方式开始。
 
-## [§](#translate-content) Translate content into other languages
+## [§](#translate-content) 将内容翻译成其他语言
 
-We're looking for translators to help us translate this site. [Please reach out via DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) if you're interested.
+我们正在寻找翻译人员来帮助我们翻译这个网站。如果您有兴趣，[请通过 DM 联系我们](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)。
 
-## [§](#hack-with-us) Hack with us
+## [§](#hack-with-us) 与我们一起编写代码
 
-This site is built using Svelte, Tailwind CSS, and Markdown. If you'd like to contribute to the codebase, feel free to submit Pull Requests.
+这个网站使用 Svelte、Tailwind CSS 和 Markdown 构建。如果您想为代码库做出贡献，请随时提交 PR。
 
-## [§](#donate) Donate
+## [§](#donate) 捐赠
 
-This is a volunteer project. Any sats we receive through donations will be used to spend time creating new content or paying for our hosting.
+这是个志愿项目。我们通过捐款收到的任何聪都将用于花费时间创建新内容或支付我们的托管费用。
 
-We accept sats through the Lightning network only. Please donate via the button in the header, footer, or nav bar.
+我们只接受闪电网络的聪。请通过页眉、页脚或导航栏中的按钮捐赠。
