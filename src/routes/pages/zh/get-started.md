@@ -53,8 +53,6 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 ## [§](#next-steps) 下一步
 
-Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
-
 太好了，现在您已经设置好了闪电钱包、身份（您的密钥对），并尝试了客户端。以下是一些链接，当您进一步了解 Nostr 时可能会有用：
 
 -   [验证您的身份](/zh/guides/get-verified)
