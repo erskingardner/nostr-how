@@ -1,69 +1,71 @@
 ---
-title: Sweep sats to a self custody wallet
-description: In this guide, we'll cover a simple solution to reduce your counter-party risk by sweeping funds to a self-custody wallet.
+title: 将聪转移到自我托管钱包
+description: 在本指南中，我们将介绍一种简单的解决方案，通过将资金转移到自我托管钱包来减少您的交易对手风险。
 ---
 
-## [§](#who-is-this-guide-for) Who is this guide for?
+## [§](#who-is-this-guide-for) 本指南适用于谁？
 
-Most users right now are using Nostr with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+目前，大多数用户都使用 Nostr 和托管的闪电钱包（例如 Wallet of Satoshi 或 Alby）。
 
-If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
+如果您是这样的用户，请考虑一下您钱包中的聪。现在，想象一下失去所有这些聪。如果这个想法让您感到不舒服或不安，那么本指南适用于您。
 
-We'll cover setting up a self-custodial wallet which will allow you to periodically sweep funds from your custodial wallet for safekeeping.
+我们将介绍设置自我托管钱包的方法，这将允许您定期从托管钱包中转移资金以进行安全保管。
 
-## [§](#why-is-self-custody-important) Why is self-custody important?
+## [§](#why-is-self-custody-important) 为什么自我托管很重要？
 
-Simply put; not your keys, not your coins. When you leave your sats in a custodial wallet you're accepting some degree of counter-party risk. Imagine if Wallet of Satoshi was somehow hacked. Because they hold all customer funds, a situation like this would mean that your funds would be lost.
+简而言之：不是您的密钥，不是您的硬币。当您将聪留在托管钱包中时，您正在接受某种程度的交易对手风险。想象一下如果 Wallet of Satoshi 被黑客攻击了。因为他们持有所有客户资金，这种情况意味着您的资金将丢失。
 
-Because of this, it's strongly advised that you only keep a small amount of funds in _any_ custodial wallet and self-custody the rest of your bitcoin.
+因此，强烈建议您仅在*任何*托管钱包中保留少量资金，并自我托管其余的比特币。
 
-## [§](#ready-lets-go) Ready? Let's go!
+## [§](#ready-lets-go) 准备好了吗？我们开始吧！
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+这是一份初学者指南，不需要设置自己的闪电节点或进行任何技术操作。我们的技巧是使用 Nostr 比特币社区来帮助您将闪电网络上的聪转换为比特币主链上的自我托管的聪。保护您的资产并结交点对点交易的朋友。双赢！
 
-If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
+如果您对这里的术语感到不知所措，请查看[页面底部的部分](#lightning-bitcoin-on-chain-what)以获取更多详细信息。
 
-1. First follow this guide to set up a new Bitcoin wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). You can also use any other self-custodial wallet.
-1. Once you have very carefully saved your seed words (which is what you'll use to restore your wallet if needed), you are ready to find someone to do a swap with.
-1. The easiest way to do this is to post a note mentioning the tags #plebchain and #bitcoin mentioning that you'd like to swap some lightning sats for on-chain sats. Don't be shy about directly messaging folks that talk about bitcoin regularly. You can also [ping me directly](https://primal.net/jeffg) if needed.
-1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
-    1. Agree on an amount to swap.
-    1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Nostr client.
-    1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
-    1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
-1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.
+1. 首先，请按照此指南在 [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/) 中设置新的比特币钱包。您也可以使用任何其他自托管钱包。
+2. 一旦您非常小心地保存了种子单词（这是您恢复钱包时需要的内容），您就可以找某人进行交换了。
+3. 这样做的最简单方法是发布一条带有标签 #plebchain 和 #bitcoin 的帖子，说明您想要用一些闪电聪交换链上的聪。不要害羞直接与经常谈论比特币的人发送消息。如果需要，您还可以[直接联系我](https://primal.net/jeffg)。
+4. 从那里，您将直接与要交换的人制定计划。在进行任何交换之前，请花时间了解一下这个人，因为比特币中没有托管，您需要确信您正在与可以信任完成交易的人打交道。通常，该过程看起来像这样：
 
-## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-chain? What?
+    1. 商定要交换的金额。
+    2. 通过 DM 向对方提供您（在 Blue Wallet 中）新创建的钱包地址。
+    3. 您通过 Nostr 客户端向对方打闪。
+    4. 他将发起一笔链上交易，以支付您相同数量的聪（可能减去一些交易费）。
+    5. 请记住，这笔链上交易需要一些时间。您的交易伙伴可以（也应该）在他们拥有交易 ID 时立即发送给您，以便您可以在 [mempool.space](https://mempool.space) 上跟踪。
 
-If this all sounds like greek to you don't worry. Before we get into the guide, let's quickly cover some terminology.
+5. 就这样！您完成了。一旦资金到达，您将成功地自我托管了第一笔比特币。尊重它并好好保管它。
 
-### Bitcoin
+## [§](#lightning-bitcoin-on-chain-what) 闪电？比特币？链上？都是什么？
 
-This rabbit hole has no known bottom. That said, if you're new to Bitcoin the only thing that you really need to know is that Bitcoin is a completely decentralized form of electronic money. It isn't controlled by any one person or entity and runs based on rules coded into the software, instead of being dependent on politics and governements. Bitcoin is the only truly decentralized and rules-based electronic money.
+如果这一切听起来像外星语，不用担心。在进入指南之前，让我们快速介绍一些术语。
 
-Bitcoin prioritizes certainty over speed. This means that transactions cost a little in fees and take some time to confirm but once they're confirmed, they are completely irreversible and no one can take your coins or censor your transaction.
+### 比特币
 
-If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
+关于比特币的知识多的讲不完。如果您刚开始了解比特币，那么您真正需要知道的唯一一件事就是比特币是一种完全分布式的电子货币形式。它不受任何一个人或实体的控制，并基于编码到软件中的规则运行，而不是依赖于政策和政府。比特币是唯一真正分布式和基于规则的电子货币。
 
-1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
-1. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
+比特币优先考虑确定性而不是速度。这意味着交易费用略高且需要一些时间才能确认，但一旦确认，它们就是完全不可逆转的，没有人可以拿走您的硬币或审查您的交易。
 
-### Lightning
+如果您想了解更多信息，以下是一些深入了解比特币的绝佳启蒙资源。
 
-Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
+1. [Bitcoin.org 指南](https://bitcoin.org/en/how-it-works)
+1. [Bitcoiner 初学者指南](https://bitcoiner.guide/beginner/)
 
-1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
-1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
+### 闪电
 
-### On-chain vs Off-chain
+闪电是在比特币上运行的支付层。从根本上说，您仍然使用比特币作为货币进行支付，但闪电允许进行几乎即时和极低费用的交易。因此，闪电网络开辟了许多涉及小额支付的新用例。有关闪电如何工作的详细信息超出了此介绍指南的范围，但如果您想深入了解，这里有一些资源：
 
-You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
+1. [Bitcoiner 闪电指南](https://bitcoiner.guide/lightning/)
+1. [闪电实验室概述](https://docs.lightning.engineering/the-lightning-network/overview)
 
-### Custodial vs Self-custodial
+### 链上与链下
 
-For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
+您经常会听到人们提到链上与链下比特币。当人们谈论链上交易时，他们指的是使用基础的比特币区块链进行交易（请记住：这更慢，但 100％ 终极和确定）。当人们提到链下交易时，他们通常是指闪电。
 
-When you take custody of your Bitcoin you only have to put trust in yourself to store you bitcoin safely. You have total control.
+### 托管与自我托管
 
-But with great power comes great responsiblity. While self-custody is the gold-standard for storing larger amounts of money securely, it can limit how you can use your money day-to-day. Most people use a combination of custodial and self-custody solutions; keeping large amounts in a self-custody way and keeping a small amount of funds in a custodial wallet for daily use.
+对于那些刚接触比特币的人来说，这个概念可能似乎很陌生。毕竟，我们大多数人（至少在发达国家）只使用托管服务（例如银行）来存储我们的资金。但是，正如我们最近看到的（并且经常在世界上不发达的金融市场中看到的那样），将您的资金交给别人保管是存在风险的。银行破产（硅谷银行等），或者托管方可能做出错误决策导致失去您的资金（FTX，Voyager等）。
+
+当您自我托管比特币时，您只需要信任自己能安全地存储比特币。您拥有完全的控制权。
+
+但是，伴随着巨大的权力而来的是巨大的责任。虽然自我托管是安全存储较大金额的黄金标准，但它可能会限制您在日常使用资金的方式。大多数人使用托管和自我托管解决方案的组合：以自我托管的方式保留大量资金，并在托管钱包中保留少量资金以供日常使用。
