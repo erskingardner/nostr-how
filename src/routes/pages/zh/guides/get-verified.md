@@ -1,34 +1,34 @@
 ---
-title: Get NIP-05 verified
-description: How to verify your identity on Nostr to get a verification checkmark and an easier way to share your account.
+title: 获取 NIP-05 验证
+description: 如何在 Nostr 上验证您的身份，以获得验证标记和更轻松地分享您的帐户。
 ---
 
-## [§](#what-youll-learn) What you'll learn in this guide
+## [§](#what-youll-learn) 您将在本指南中学到什么
 
-You might have noticed on many different clients that some users have checks, just like on Twitter.
+您可能已经注意到，在许多不同的客户端上，一些用户都有认证标记，就像在 Twitter 上一样。
 
-NIP-05 specifies how Nostr users can verify their identities. Different clients show verification in slightly different ways but it's an important way of showing the Nostr community that you're a real user.
+NIP-05 指定了 Nostr 用户如何证明其身份。不同的客户端以稍微不同的方式显示认证，这是向 Nostr 社区展示您是真实用户的重要方式。
 
 ![Snort Verified](/images/snort-verified.webp)
 
-The verification process on Nostr is documented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
+Nostr 上的验证过程在 Nostr Implementation Possibilities (NIP) 中有记录，称为 [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md)。
 
-NIP-05 enables a Nostr user to map their public key to a DNS-based internet identifier. The verification mechanism is similar to how Google requires you to verify your ownership of a domain using a DNS record.
+NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识符。验证机制类似于 Google 要求您使用 DNS 记录验证您对域名的所有权。
 
-The major benefit of verification is that it allows a Nostr user to be identified by a human-readable name, instead of a long, hard-to-remember public key. This enables verified Nostr users to easily share their identity with others.
+验证的主要好处是，它允许 Nostr 用户通过人类可读的名称而不是长而难以记忆的公钥来进行身份验证。这使得经过验证的 Nostr 用户可以轻松地与其他人分享其身份。
 
-To utilize NIP-05, Nostr users add a nip05 url to their profile (most clients have support for this). NIP-05 urls look like emails – bob@example.com. Let's break down the parts:
+要使用 NIP-05，Nostr 用户将 nip05 url 添加到其个人资料中（大多数客户端都支持此功能）。NIP-05 url 看起来像电子邮件-bob@example.com。让我们分解一下：
 
-1. Everything before the `@` symbol ("bob", in our example). This must match the value of the name field in your Nostr profile.
-1. Everything after the `@` symbol ("example.com", in our example). This is the domain where the client can look to find a `/.well-known/nostr.json` file that contains the user's name & public key.
+1. `@` 符号之前的所有内容（在我们的示例中为“bob”）。这必须与您的 Nostr 个人资料中的名称字段的值匹配。
+2. `@` 符号之后的所有内容（在我们的示例中为“example.com”）。这是客户端可以查找以查找包含用户名称和公钥的 `/.well-known/nostr.json` 文件的域。
 
-When clients see a nip05 url, they will look for a `/.well-known/nostr.json` file at the specified domain. This file must contain the nostr public key for the specified user. Read more specifics in the NIP-05 spec.
+当客户端看到 nip05 url 时，它们将在指定的域中查找 `/.well-known/nostr.json` 文件。此文件必须包含指定用户的 Nostr 公钥。在 NIP-05 规范中阅读更多具体信息。
 
-While it sounds technical, it's suprisingly easy to get verified. Let's see how to do it.
+虽然听起来很技术，但实际上很容易获得验证。让我们看看如何做到这一点。
 
-## [§](#free-verification) Get verified through a free service
+## [§](#free-verification) 通过免费服务获得验证
 
-At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
+目前，有几个提供免费帮助大家获得验证的提供商。如果您的闪电钱包中还没有聪，这是一个很好的选择。如果可能，请通过捐赠支持这些项目。⚡🤙
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
@@ -37,9 +37,9 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 
-## [§](#paid-verification) Pay a provider for verification
+## [§](#paid-verification) 向提供商支付验证费用
 
-If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
+如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个[聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）的 NIP-05 服务。以下是一些付费提供商：
 
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
@@ -50,9 +50,9 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 
-## [§](#self-hosted) Self hosted verification
+## [§](#self-hosted) 自托管验证
 
-If you already own a domain, this is a free option. You just need to add a `.well-known/nostr.json` file to your domain. The contents of the file should be the following:
+如果您已经拥有域名，则这是一种免费选择。您只需要将 `.well-known/nostr.json` 文件添加到您的域名中。文件的内容应为以下内容：
 
 ```json
 {
@@ -62,7 +62,7 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 }
 ```
 
-Optionally you can also add a section to let clients know which relays they are likely to find you on:
+您还可以选择添加一个部分，以让客户端知道他们可能会在哪些中继上找到您：
 
 ```json
 {
@@ -79,10 +79,10 @@ Optionally you can also add a section to let clients know which relays they are 
 }
 ```
 
-Make sure you use the hex version of your public key in your `nostr.json` file. This is the version of the key that **doesn't** start with `npub`.
+请确保在 `nostr.json` 文件中使用公钥的十六进制版本。这是**不以** `npub` 开头的密钥版本。
 
-You can convert your key on [Nostr.band](https://nostr.band)
+您可以在 [Nostr.band](https://nostr.band) 上转换您的密钥
 
 ![Get your hex key](/images/get-hex-key.webp)
 
-Finally, make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.
+最后，请确保此文件使用 `Access-Control-Allow-Origin` 标头设置为 `*`，因为客户端需要访问它。
