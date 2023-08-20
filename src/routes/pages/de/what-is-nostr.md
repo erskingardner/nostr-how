@@ -1,6 +1,6 @@
 ---
 title: Dezentrale Kommunikation für das Web
-description: Nostr ist ein simples, offenes Protokoll, das eine wirklich zensurresistente und globale Wert-für-Wert-Veröffentlichung (engl. "[value-for-value](https://value4value.info/)") im Web ermöglicht.
+description: Nostr ist ein simples, offenes Protokoll, das eine wirklich zensurresistente und globale Wert-für-Wert-Veröffentlichung (engl. "value-for-value") im Web ermöglicht.
 ---
 
 ## Was ist Nostr?
