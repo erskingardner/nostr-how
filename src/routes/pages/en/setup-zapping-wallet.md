@@ -4,7 +4,7 @@ description: A guide to setting up a lightning wallet for zaps in Nostr.
 ---
 
 ## [§](#magic-internet-money) Magic internet money, at the speed of light
-## [§](#understanding-keys) Understanding keys
+
 Using Bitcoin's Lightning Network, you can send tiny fractions of a bitcoin, known as satoshis (or sats), around the world, at the speed of light, with near-zero fees. On Nostr, these transactions are called zaps.
 
 Even if you're new to Nostr, you've probably already seen at least one mention of zaps. You can zap someone if they make you laugh, or they give you good advice, or if they post something that adds value to your experience. You can even zap someone for no reason at all! And the reverse is also true: if you contribute interesting content to the nostr community, it won't be long before strangers on the internet (read: new friends) are sending you bitcoin.
@@ -15,35 +15,37 @@ The first thing you'll need is a bitcoin lightning wallet. This is the wallet wh
 
 As you get more comfortable (or once the funds in your custodial wallet reach a level that you want to take full control of) you can set up a self-custodial wallet.
 
-### [§](#custodial) Custodial Wallets
+## [§](#custodial) Custodial Wallets
 A custodial wallet is one where the wallet developer holds the keys to the bitcoin, and your account is essentially authorized to send and receive that bitcoin – whether to another user or to a different wallet that you fully control (i.e. a self-custodial wallet). 
 
 Two popular examples are [Wallet of Satoshi](https://www.walletofsatoshi.com/) and [Alby](https://getalby.com). Both wallets provide fast, convenient, and user-friendly zapping wallets. You can download Wallet of Satoshi from your mobile app store, and you can access Alby via the Chrome browser extension store.
 
-[§](#wallet-of-satoshi)**Wallet of Satoshi**
+**Wallet of Satoshi**
 
 After you download Wallet of Satoshi, open the app and tap "Receive". This will bring up a reusable QR Code, as well as your human-readable lightning receiving address. It will look like an email address (NB: it's not actually an email address so don't try and send email there). For example, this article's author can be zapped at `bostonwine@walletofsatoshi.com`. Copy your address and return to Nostr.
 
-| Main Screen  | Receive Screen |Example client|
-| ------------- | ------------- |------------- |
-| <img src="https://cdn.nostr.build/i/955e1fd028d64941b80ed0b423a07541a2af8f14919c73e0add93511e3620477.jpg" alt="Main Screen" width="200"/>  | <img src="https://cdn.nostr.build/i/2d4f6ffa7a237cf93fca9aff37eca0011ba473b8f3da013f5fda786c93693b87.jpg" alt="Receive Screen" width="200"/>  |<img src="https://cdn.nostr.build/i/34241da3022d061a8159268f05e0cb3c8aa53934a55c5cc8c76effbfc7b625cc.jpg" alt="Example client" width="200"/>
+![Main Screen](https://cdn.nostr.build/i/955e1fd028d64941b80ed0b423a07541a2af8f14919c73e0add93511e3620477.jpg)
+
+![Receive Screen](https://cdn.nostr.build/i/2d4f6ffa7a237cf93fca9aff37eca0011ba473b8f3da013f5fda786c93693b87.jpg)
 
 
-[§](#alby)**Alby**
+**Alby**
 
 For Alby, you can use any Chrome-based browser and navigate to https://getalby.com to download the extension. Create an account and within the extension, you will again find the "email-address-style" Lightning address. Copy it to your clipboard.
 
-<img src="https://cdn.nostr.build/i/fee9ab21c94221a9f9573c41e8e85a97b1ecafd18e22f52cf276d31a67a58664.png" alt="Alby account" width="200"/>
+![Alby account](https://cdn.nostr.build/i/fee9ab21c94221a9f9573c41e8e85a97b1ecafd18e22f52cf276d31a67a58664.png)
 
 **Go back to your Nostr client**
 
-Every client is a little different, but usually your Edit Profile Settings page will have a field for a "lightning address" or LNURL. In the above example (Damus), the field is called Bitcoin Lightning Tips. Paste your address into this field, and save your profile.
+Every client is a little different, but usually your Edit Profile Settings page will have a field for a "lightning address" or LNURL. In the example below, (from Damus), the field is called Bitcoin Lightning Tips. Paste your address into this field, and save your profile.
+
+![Example client](https://cdn.nostr.build/i/34241da3022d061a8159268f05e0cb3c8aa53934a55c5cc8c76effbfc7b625cc.jpg)
 
 Now you should be zap-able! To test it out, post a note and with something like "Can someone send a small zap to test my wallet?" and add the hashtag #plebchain – you'll be amazed at how quickly you get your first zap!
 
 To send zaps, all you need to do is click or tap your client's version of the Lightning icon on the other user's note or profile. This will automatically create a Lightning invoice, and your client will prompt you to open a Lightning wallet so that you can pay that invoice.
 
-### [§](#self-custody)Self-Custodial Wallets
+## [§](#self-custody) Self-Custodial Wallets
 
 Once you've familiarized yourself with sending and receiving zaps, and started stacking a few sats in your wallet, it's worth learning more about non-custodial wallets.
 
@@ -59,7 +61,7 @@ These apps will prompt you during setup to write down your "seed phrase". This i
 
 Note: whenever you are recording your seed phrase, DO NOT save it online (via screenshot, iCloud notes, etc). Write it down on paper, laminate it, and keep it safe. There will come a time to learn about steel backups in the future. For now, just keep it secret and offline.
 
-### [§](#private-key-management)Private Key Management and Cold Storage
+## [§](#private-key-management) Private Key Management and Cold Storage
 
 To reiterate: when you have accumulated enough bitcoin in your first wallet that you want to take the next step on your self-soveriegn bitcoin journey, it's time to study the different types of bitcoin storage, and the best practices around keeping your seed phrase safe. It's an adventure, and a continuous learning experience, so let's get started.
 
