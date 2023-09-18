@@ -26,13 +26,8 @@ Wenn du dich von den Fachbegriffen überwältigt fühlst, kannst du dir [den Abs
 1. Folge zunächst diesem Guide, um eine neue Bitcoin-Wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/) einzurichten. Du kannst natürlich auch jede andere Self-Custody-Wallet verwenden.
 2. Sobald du deine Seed-Wörter sehr sorgfältig gesichert hast (diese können dafür verwendet werden, um dein Wallet wiederherzustellen), bist du bereit, jemanden für einen Tausch zu finden.
 3. Der einfachste Weg ist, du postest in Nostr eine Note mit den Hashtags #plebchain und #bitcoin und dass du einige Lightning-Sats gegen On-Chain-Sats tauschen möchtest. Du kannst auch Leuten, die regelmäßig über Bitcoin sprechen, direkt eine Nachricht senden oder [mich bei Bedarf auch direkt anpingen](https://primal.net/jeffg).
-4. Sei dir aber bewusst, dass du hier mit einer Person einen direkten Tausch machst und Vertrauen notwendig ist, also nehm dir etwas Zeit, um die andere Person ein wenig kennenzulernen. Bei Bitcoin gibt es kein Treuhandkonto und du musst dir sicher sein, dass du es mit jemandem zu tun hast, dem du vertrauen kannst. Im Allgemeinen sieht der Prozess in etwa so aus:
-    5. Einigt euch auf den Betrag, den ihr tauschen wollt.
-    6. Gib deine neu erstellte Wallet-Adresse (z. B. Blue Wallet) per DM an die andere Person weiter.
-    7. Du zappst den Betrag in Sats über deinen Nostr-Client an die andere Person.
-    8. Diese wird dann eine On-Chain-Transaktion mit dem gleichen Betrag an Sats initiieren (abzüglich der On-Chain-Transaktionsgebühren).
-    9. Eine On-Chain-Transaktion kann einige Zeit in Anspruch nehmen. Dein Tauschpartner kann (und sollte) dir die Transaktions-ID zusenden, damit du der Transaktion zum Beispiel auf [mempool.space](https://mempool.space) folgen kannst.
-10. Das wars! Sobald die Transaktion auf die Bitcoin-Blockchain geschrieben und bestätigt wurde, hast du deine ersten Bitcoin erfolgreich selbst verwahrt.
+4. Sei dir aber bewusst, dass du hier mit einer Person einen direkten Tausch machst und Vertrauen notwendig ist, also nehm dir etwas Zeit, um die andere Person ein wenig kennenzulernen. Bei Bitcoin gibt es kein Treuhandkonto und du musst dir sicher sein, dass du es mit jemandem zu tun hast, dem du vertrauen kannst. Im Allgemeinen sieht der Prozess in etwa so aus: 5. Einigt euch auf den Betrag, den ihr tauschen wollt. 6. Gib deine neu erstellte Wallet-Adresse (z. B. Blue Wallet) per DM an die andere Person weiter. 7. Du zappst den Betrag in Sats über deinen Nostr-Client an die andere Person. 8. Diese wird dann eine On-Chain-Transaktion mit dem gleichen Betrag an Sats initiieren (abzüglich der On-Chain-Transaktionsgebühren). 9. Eine On-Chain-Transaktion kann einige Zeit in Anspruch nehmen. Dein Tauschpartner kann (und sollte) dir die Transaktions-ID zusenden, damit du der Transaktion zum Beispiel auf [mempool.space](https://mempool.space) folgen kannst.
+5. Das wars! Sobald die Transaktion auf die Bitcoin-Blockchain geschrieben und bestätigt wurde, hast du deine ersten Bitcoin erfolgreich selbst verwahrt.
 
 ## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-Chain? What?
 

@@ -1,21 +1,21 @@
 ---
 title: Pubblicazione decentralizzata per il web
-description: Nostr è un protocollo semplice e aperto che consente value-for-value pubblicazione sul Web veramente resistente alla censura.
+description: Nostr è un protocollo semplice e aperto che consente di pubblicare sul web in maniera globale (value-for-value) e resistente alla censura.
 ---
 
 ## [§](#cose-nostr) Cos'è Nostr?
 
-Nostr sta per "Notes and Other Stuff Transmitted by Relays" (Note e Altre Cose Trasmesse da Relè). Come HTTP o TCP-IP, Nostr è un protocollo, uno standard aperto su cui chiunque può costruire. Nostr non è in sé un'applicazione o un servizio a cui iscriversi.
+Nostr sta per "Notes and Other Stuff Transmitted by Relays" (Note e Altre Cose Trasmesse da Relè). Come HTTP o TCP-IP, Nostr è un protocollo. Nostr in sé non un'applicazione o un servizio a cui iscriversi, é uno standard aperto su cui chiunque può costruire.
 
-Nostr è progettato per la semplicità e consente la pubblicazione globalmente decentralizzata e resistente alla censura sul web. Approfondiamo un po' questo concetto:
+Nostr è progettato per la semplicità e consente la pubblicazione globale, decentralizzata e resistente alla censura sul web. Approfondiamo un po' questi concetti:
 
 ### Semplice
 
-Il protocollo si basa su oggetti `Event` molto semplici e flessibili (che vengono passati come JSON puro) e utilizza la crittografia a chiave pubblica standard per le chiavi e la firma. Questo rende facile l'esecuzione dei relè e la creazione di client e garantisce che il protocollo possa essere esteso nel tempo.
+Il protocollo si basa su oggetti `Event` molto semplici e flessibili (che vengono passati come JSON puri) e utilizza la crittografia standard a chiave pubblica standard per le chiavi e la firma. Questo rende facile l'esecuzione dei relays e la creazione di client, garantendo che il protocollo possa essere esteso nel tempo.
 
 ### Resistente
 
-Poiché Nostr non si basa su un numero limitato di server affidabili per spostare o archiviare i dati, è molto resistente. Il protocollo assume che i relè possano scomparire e consente agli utenti di connettersi e pubblicare un numero arbitrario di relè che possono cambiare nel tempo.
+La resilienza di Nostr si basa sul fatto che il protocollo non si basa su un numero limitato di server fidati per spostare o archiviare dati. Il protocollo assume che i relays possano scomparire e consente agli utenti di connettersi e pubblicare attraverso un numero arbitrario di relay che possono cambiare nel tempo.
 
 ### Verificabile
 

@@ -13,7 +13,7 @@ NostrChat est une application de chat construite sur Nostr. Avec NostrChat, vous
 
 ## Etape 2 — Login
 
-###  Créer un nouveau compte (le plus simple)
+### Créer un nouveau compte (le plus simple)
 
 1. Cliquez sur "Créer un compte Nostr"
 1. Indiquez votre nom, puis cliquez sur "sauter".
@@ -31,6 +31,6 @@ Alby est une extension de navigateur qui gère vos clés publiques/privées loca
 
 ### Etape 3 — Créez un nouveau canal de discussion et partagez-le avec vos amis Nostr
 
-Une fois que vous avez rejoint NostrChat.io, vous pouvez discuter dans le canal global ou créer un nouveau canal pour votre projet ou vos amis. Il suffit de partager l'URL du canal avec vos amis. **IMPORTANT : Ces canaux sont tous publics et il n'est pas possible pour l'instant de créer des groupes de discussion privés.
+Une fois que vous avez rejoint NostrChat.io, vous pouvez discuter dans le canal global ou créer un nouveau canal pour votre projet ou vos amis. Il suffit de partager l'URL du canal avec vos amis. \*\*IMPORTANT : Ces canaux sont tous publics et il n'est pas possible pour l'instant de créer des groupes de discussion privés.
 
 Le développement actif de NostrChat.io se fait sur [Github](https://github.com/NostrChat/NostrChat)
