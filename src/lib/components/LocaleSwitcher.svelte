@@ -1,15 +1,15 @@
 <script lang="ts">
-    import { createEventDispatcher } from 'svelte';
-    import { locales } from '$lib/config/l10n';
-    import Language from '$lib/elements/icons/Language.svelte';
-    import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
+    import { createEventDispatcher } from "svelte";
+    import { locales } from "$lib/config/l10n";
+    import Language from "$lib/elements/icons/Language.svelte";
+    import { Menu, MenuButton, MenuItems, MenuItem } from "@rgossiaux/svelte-headlessui";
 
     const dispatch = createEventDispatcher();
 
     function changeLocale(event: Event) {
         event.preventDefault();
-        // @ts-ignore
-        dispatch('locale-changed', event?.target?.dataset.localecode);
+        const elem = event.target as HTMLElement;
+        dispatch("locale-changed", elem.dataset.localecode);
     }
 </script>
 
@@ -24,7 +24,7 @@
         {#each locales as localeItem}
             <MenuItem>
                 <a
-                    dir={localeItem.alpha2Code === 'fa' ? 'rtl' : 'ltr'}
+                    dir={localeItem.alpha2Code === "fa" ? "rtl" : "ltr"}
                     href="/"
                     data-localecode={localeItem.alpha2Code}
                     on:click={changeLocale}

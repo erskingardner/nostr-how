@@ -10,7 +10,7 @@ Ce guide se veut être un guide d'introduction très basique, nous ne ferons don
 1. Les sats que vous zappez dans Notsr sont des bitcoins.
 1. Les satoshis (sats) sont les unités de subdivision du bitcoin. Il y a 100 000 000 satsoshis dans un bitcoin entier.
 1. Le bitcoin est un instrument au porteur, ce qui signifie que celui qui le détient en est le propriétaire. Il n'y a pas de recours ni d'assurance si votre bitcoin se retrouve entre les mains de quelqu'un d'autre.
- 
+
 Si vous souhaitez aller plus loin et en savoir plus sur le Bitcoin...
 
 <!-- TODO: ADD LINK TO BITCOIN 101 SITE -->

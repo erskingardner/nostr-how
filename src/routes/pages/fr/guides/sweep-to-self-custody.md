@@ -1,6 +1,6 @@
 ---
 title: Déplacer ses sats sous sa responsabilité
-description:  Ce guide présente une solution simple pour réduire le risque de contrepartie en transférant les fonds vers un portefeuille sous votre responsabilité.
+description: Ce guide présente une solution simple pour réduire le risque de contrepartie en transférant les fonds vers un portefeuille sous votre responsabilité.
 ---
 
 ## [§](#who-is-this-guide-for) À qui s'adresse ce guide ?

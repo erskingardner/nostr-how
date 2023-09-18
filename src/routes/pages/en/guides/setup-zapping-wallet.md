@@ -16,7 +16,8 @@ The first thing you'll need is a bitcoin lightning wallet. This is the wallet wh
 As you get more comfortable (or once the funds in your custodial wallet reach a level that you want to take full control of) you can set up a self-custodial wallet.
 
 ## [§](#custodial) Custodial Wallets
-A custodial wallet is one where the wallet developer holds the keys to the bitcoin, and your account is essentially authorized to send and receive that bitcoin – whether to another user or to a different wallet that you fully control (i.e. a self-custodial wallet). 
+
+A custodial wallet is one where the wallet developer holds the keys to the bitcoin, and your account is essentially authorized to send and receive that bitcoin – whether to another user or to a different wallet that you fully control (i.e. a self-custodial wallet).
 
 Two popular examples are [Wallet of Satoshi](https://www.walletofsatoshi.com/) and [Alby](https://getalby.com). Both wallets provide fast, convenient, and user-friendly zapping wallets. You can download Wallet of Satoshi from your mobile app store, and you can access Alby via the Chrome browser extension store.
 
@@ -27,7 +28,6 @@ After you download Wallet of Satoshi, open the app and tap "Receive". This will 
 ![Main Screen](https://cdn.nostr.build/i/955e1fd028d64941b80ed0b423a07541a2af8f14919c73e0add93511e3620477.jpg)
 
 ![Receive Screen](https://cdn.nostr.build/i/2d4f6ffa7a237cf93fca9aff37eca0011ba473b8f3da013f5fda786c93693b87.jpg)
-
 
 **Alby**
 
@@ -55,7 +55,7 @@ So, as soon as you're holding enough bitcoin in your wallet that you'd be upset 
 
 Lightning wallet apps are plentiful, but popular options include Phoenix and Breez (mobile wallets) and Mutiny (a web-based app).
 
-At the moment, self-custodial lightning wallets don't offer a "static" lightning address or LNURL, the email-address-style receiving address. (Hopefully this will change soon). What this means is that you can use self-custodial wallets to send zaps, but not receive them (yet). 
+At the moment, self-custodial lightning wallets don't offer a "static" lightning address or LNURL, the email-address-style receiving address. (Hopefully this will change soon). What this means is that you can use self-custodial wallets to send zaps, but not receive them (yet).
 
 These apps will prompt you during setup to write down your "seed phrase". This is a set of 12 or 24 words, and it is the private key to your self-custodied bitcoin. The wallet developers don't know your seed phrase, and they don't control your bitcoin.
 

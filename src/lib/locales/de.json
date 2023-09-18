@@ -1,32 +1,33 @@
 {
-  "title": "Nostr",
-  "nav": {
-    "resources": "Informationen",
-    "whatIs": "Was ist Nostr?",
-    "whyWeNeed": "Warum brauchen wir Nostr?",
-    "getStarted": "Erste Schritte",
-    "whatZaps": "Was sind Zaps?",
-    "nostrProtocol": "Das Nostr-Protokoll",
-    "clients": "Clients",
-    "relays": "Relays",
-    "relayImplementations": "Relay-Implementierungen",
-    "nostrProjects": "Nostr Projekte",
-    "contribute": "Mitwirken",
-    "guides": "Guides",
-    "guideIris": "Iris (Web-Client)",
-    "guideDamus": "Damus (iOS-Client)",
-    "guideAmethyst": "Amethyst (Android-Client)",
-    "getNip05": "Bekomme eine Nostr-Adresse (NIP-05)",
-    "guideNostrchat": "NostrChat (Chat-Client)",
-    "guideSweepSats": "Selbstverwahrung deiner Sats"
-  },
-  "donateButton": "Spende an Nostr.how",
-  "colophon": "Made with 💜 & ⚡ by",
-  "foss": "Free & Open Source Software unter",
-  "mitLicense": "MIT-Lizenz",
-  "contactMe": "Kontaktiere uns",
-  "errors": {
-    "noTranslationTitle": "Übersetzung nicht gefunden",
-    "noTranslationMessage": "Entschuldige, es existiert keine Übersetzung für diese Seite. Wenn du daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wende dich bitte an uns."
-  }
+    "title": "Nostr",
+    "nav": {
+        "resources": "Informationen",
+        "whatIs": "Was ist Nostr?",
+        "whyWeNeed": "Warum brauchen wir Nostr?",
+        "getStarted": "Erste Schritte",
+        "whatZaps": "Was sind Zaps?",
+        "nostrProtocol": "Das Nostr-Protokoll",
+        "clients": "Clients",
+        "relays": "Relays",
+        "relayImplementations": "Relay-Implementierungen",
+        "nostrProjects": "Nostr Projekte",
+        "contribute": "Mitwirken",
+        "guides": "Guides",
+        "guideIris": "Iris (Web-Client)",
+        "guideDamus": "Damus (iOS-Client)",
+        "guideAmethyst": "Amethyst (Android-Client)",
+        "getNip05": "Bekomme eine Nostr-Adresse (NIP-05)",
+        "guideNostrchat": "NostrChat (Chat-Client)",
+        "guideSweepSats": "Selbstverwahrung deiner Sats",
+        "guideSetupWallet": "Richten Sie eine Brieftasche für Zaps ein"
+    },
+    "donateButton": "Spende an Nostr.how",
+    "colophon": "Made with 💜 & ⚡ by",
+    "foss": "Free & Open Source Software unter",
+    "mitLicense": "MIT-Lizenz",
+    "contactMe": "Kontaktiere uns",
+    "errors": {
+        "noTranslationTitle": "Übersetzung nicht gefunden",
+        "noTranslationMessage": "Entschuldige, es existiert keine Übersetzung für diese Seite. Wenn du daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wende dich bitte an uns."
+    }
 }
