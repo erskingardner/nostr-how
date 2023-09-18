@@ -17,7 +17,7 @@ Inoltre, se hai idee per contenuti che dovremmo scrivere, per favore crea un iss
 
 ## [§](#scrivi-contenuti) Scrivi contenuti
 
-Se sei un redattore e vuoi contribuire, non esitare a contattarci (ancora una volta, [tramite un issue nel repo GitHub](https://github.com/nostr-how/nostr-how/issues)). Possiamo aiutarti a configurare tutto nel modo più adatto in base al tuo livello tecnico.
+Se sei uno scrittore e vuoi contribuire, non esitare a contattarci (ancora una volta, [tramite un issue nel repo GitHub](https://github.com/nostr-how/nostr-how/issues)). Possiamo aiutarti a configurare tutto nel modo più adatto in base al tuo livello tecnico.
 
 ## [§](#traduci-contenuti) Traduci contenuti in altre lingue
 

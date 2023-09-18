@@ -18,7 +18,8 @@
     "guideAmethyst": "Amethyst (Android-Client)",
     "getNip05": "Bekomme eine Nostr-Adresse (NIP-05)",
     "guideNostrchat": "NostrChat (Chat-Client)",
-    "guideSweepSats": "Selbstverwahrung deiner Sats"
+	"guideSweepSats": "Selbstverwahrung deiner Sats",
+	"guideSetupWallet": "Richten Sie eine Brieftasche für Zaps ein"
   },
   "donateButton": "Spende an Nostr.how",
   "colophon": "Made with 💜 & ⚡ by",

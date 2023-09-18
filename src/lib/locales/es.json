@@ -18,7 +18,8 @@
         "guideAmethyst": "Amethyst (Client Android)",
         "getNip05": "Obetener un NIP-05 Verificado",
         "guideNostrchat": "NostrChat (Cliente Chat)",
-        "guideSweepSats": "Barrer a la auto-custodia"
+		"guideSweepSats": "Barrer a la auto-custodia",
+		"guideSetupWallet": "Configurar una billetera para zaps"
     },
     "donateButton": "Donar a Nostr.how",
     "colophon": "hecho con 💜 & ⚡ por",

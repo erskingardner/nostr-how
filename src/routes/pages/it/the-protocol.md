@@ -3,16 +3,16 @@ title: Il protocollo Nostr
 description: Questa è una panoramica del protocollo Nostr con i dettagli sui tipi di eventi e su come funzionano le possibilità di implementazione di Nostr (NIP).
 ---
 
-## [§](#nostr-high-level) Nostr a livello più alto
+## [§](#nostr-high-level) Nostr ad alto livello
 
--   Ci sono due componenti principali della rete Nostr: [cliente](/it/clients) e [relè](/it/relays).
-    -   **i Clienti** è l'interfaccia che gli utenti utilizzano per leggere e scrivere dati sui relay. In un contesto di social media, è come pensare all'app Web di Twitter o all'app mobile. È un client che ti consente di leggere i dati e scrivere dati nel database centralizzato di Twitter.
-    -   **i Relè** sono come database (anche se fanno molto di più che solo memorizzare dati). Consentono ai client di inviargli dati e di archiviare quei dati in un database. I client possono quindi leggere i dati dai relay per mostrare agli utenti.
+-   Ci sono due componenti principali della rete Nostr: i [clients](/it/clients) e [relays](/it/relays).
+    -   **i Clients** sono l'interfaccia che gli utenti utilizzano per leggere e scrivere dati sui relays. In un contesto di social media, è come pensare all'app Web di Twitter o all'app mobile. È un client che ti consente di leggere i dati e scrivere dati nel database centralizzato di Twitter.
+    -   **i Relays** sono come database (anche se fanno molto di più che solo memorizzare dati). Consentono ai client di inviargli dati e di archiviare quei dati in un database. I client possono quindi leggere i dati dai relay per mostrare agli utenti.
 -   Ogni utente è identificato da una chiave pubblica. Ogni oggetto evento (ad esempio, il messaggio che stai pubblicando, l'aggiornamento della tua lista di seguaci, ecc.) è firmato. I client convalidano queste firme per assicurarsi che siano corrette.
 -   I client recuperano i dati dai relay e pubblicano i dati sui relay. I relay vengono quasi sempre scelti dall'utente. I relay non devono parlare tra loro, ma potrebbero potenzialmente farlo in futuro.
 -   Ad esempio, per aggiornare il tuo profilo, basta istruire il tuo client a inviare un evento di tipo 0 ai relay che vuoi utilizzare. I relay archivieranno quindi quell'evento.
--   All'avvio, il tuo client interroga i dati dai relay che gli dici di usare. Questo può essere filtrato per mostrare solo gli eventi per gli utenti che segui o puoi chiedere tutto a tutti, quindi il client ti mostra quei dati.
--   Ci sono molti diversi tipi di eventi. Gli eventi possono contenere tutti i tipi di dati strutturati e le strutture più utilizzate stanno trovando il loro modo in [Nostr Implementation Possibilities](#nips) (NIP - standard di protocollo a cui tutti aderiscono) in modo che tutti i client e i relay possano gestirli senza problemi.
+-   All'avvio, il tuo client interroga i dati dai relay che gli dici di usare. Questo può essere filtrato per mostrare solo gli eventi per gli utenti che segui o puoi chiedere tutto a tutti, successivamente il client ti mostra i dati che hai richiesto.
+-   Ci sono molti tipi diversi di eventi. Gli eventi possono contenere tutti i tipi di strutture dati, le strutture più utilizzate saranno standardizzate tramite dei [Nostr Implementation Possibilities](#nips) (NIP - standard di protocollo a cui tutti aderiscono) in modo che tutti i client e i relay possano gestirli senza problemi.
 -   I dati che puoi vedere su Nostr dipendono completamente dai relay a cui decidi di connetterti. Vedi il diagramma di rete qui sotto per maggiori informazioni.
 
 ### Diagramma di rete
@@ -119,7 +119,7 @@ Questa è una lista dei tipi di evento attuali. La lista più aggiornata può es
 
 ## [§](#nips) NIPs
 
-Le Possibilità di Implementazione di Nostr, o NIP per breve, esistono per documentare ciò che DEVE, ciò che DOVREBBE e ciò che POTREBBE essere implementato dal software di relè e client compatibile con Nostr. I NIP sono i documenti che delineano come funziona il protocollo Nostr.
+Le Possibilità di Implementazione di Nostr, o NIP per breve, esistono per documentare ciò che DEVE, ciò che DOVREBBE e ciò che POTREBBE essere implementato dal software dei relays e clients compatibile con Nostr. I NIP sono i documenti che delineano come funziona il protocollo Nostr.
 
 ### Perché dovrei preoccuparmi dei NIP?
 

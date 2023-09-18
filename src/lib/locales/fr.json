@@ -18,7 +18,8 @@
     "guideAmethyst" : "Amethyst (Client Android)",
     "getNip05" : "Obtenir un NIP-05",
     "guideNostrchat" : "NostrChat (Client de messagerie instantanée)",
-    "guideSweepSats" : "Détenir ses sats"
+	"guideSweepSats": "Détenir ses sats",
+	"guideSetupWallet": "Configurer un portefeuille pour les zaps"
   },
   "donateButton" : "Don à Nostr.how",
   "colophon" : "Fait avec 💜 et ⚡ par",
