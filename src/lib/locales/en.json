@@ -18,8 +18,8 @@
         "guideAmethyst": "Amethyst (Android Client)",
         "getNip05": "Get NIP-05 Verified",
         "guideNostrchat": "NostrChat (Chat Client)",
-		"guideSweepSats": "Sweep to self-custody",
-		"guideSetupWallet": "Setup a wallet for zaps"
+        "guideSweepSats": "Sweep to self-custody",
+        "guideSetupWallet": "Setup a wallet for zaps"
     },
     "donateButton": "Donate to Nostr.how",
     "colophon": "Made with 💜 & ⚡ by",

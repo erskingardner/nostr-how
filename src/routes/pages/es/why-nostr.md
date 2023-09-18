@@ -15,10 +15,10 @@ Nostr permite esto.
 
 ## Lo que Nostr permite
 
-- El formato de evento simple y flexible permite la publicación de todo tipo de contenido: publicaciones en redes sociales, contenido de formato largo, medios ricos, comercio electrónico, etc.
-- Verificabilidad de que las notas provienen de un usuario específico. Esto ayuda a combatir el spam y los bots.
-- Los usuarios pueden conectarse a muchos relés y ejecutar sus propios relés. Esto dificulta la censura de ideas y personas.
-- Integrado con Lightning, Nostr permite nuevos modelos de negocio de [valor por valor](https://value4value.info/) que tienen el potencial de ser más justos.
+-   El formato de evento simple y flexible permite la publicación de todo tipo de contenido: publicaciones en redes sociales, contenido de formato largo, medios ricos, comercio electrónico, etc.
+-   Verificabilidad de que las notas provienen de un usuario específico. Esto ayuda a combatir el spam y los bots.
+-   Los usuarios pueden conectarse a muchos relés y ejecutar sus propios relés. Esto dificulta la censura de ideas y personas.
+-   Integrado con Lightning, Nostr permite nuevos modelos de negocio de [valor por valor](https://value4value.info/) que tienen el potencial de ser más justos.
 
 ## El status quo
 

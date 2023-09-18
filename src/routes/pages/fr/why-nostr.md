@@ -15,10 +15,10 @@ Nostr permet cela.
 
 ## Ce que permet Nostr
 
-- Le format `Event`, simple et flexible, permet la publication de tous types de contenus : posts sur les médias sociaux, contenu long format, rich media, ecommerce, etc.
-- Vérification que les notes proviennent d'un utilisateur spécifique. Cela permet de lutter contre le spam et les robots.
-- Les utilisateurs peuvent se connecter à de nombreux relais et gérer leurs propres relais. Il est donc difficile de censurer les idées et les personnes.
-- Intégré à lightning, Nostr permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info/) qui ont le potentiel d'être plus équitables.
+-   Le format `Event`, simple et flexible, permet la publication de tous types de contenus : posts sur les médias sociaux, contenu long format, rich media, ecommerce, etc.
+-   Vérification que les notes proviennent d'un utilisateur spécifique. Cela permet de lutter contre le spam et les robots.
+-   Les utilisateurs peuvent se connecter à de nombreux relais et gérer leurs propres relais. Il est donc difficile de censurer les idées et les personnes.
+-   Intégré à lightning, Nostr permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info/) qui ont le potentiel d'être plus équitables.
 
 ## Le statu quo
 
@@ -37,7 +37,7 @@ Nostr permet cela.
 1. Contrôle totalement qui peut participer et qui est censuré
 1. Est envahi par le spam et les robots
 
-###  Mastodon (et autres plateformes de médias sociaux fédérés)
+### Mastodon (et autres plateformes de médias sociaux fédérés)
 
 1. Les identités des utilisateurs sont attachées à des noms de domaine qui sont contrôlés par des tiers.
 1. Ces tiers peuvent vous bannir, tout comme les plateformes centralisées de médias sociaux. Les propriétaires de serveurs peuvent également bloquer d'autres serveurs.

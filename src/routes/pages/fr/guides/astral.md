@@ -1,10 +1,9 @@
 ---
 title: Démarrer avec Astral
-description:  Un guide étape par étape pour commencer à utiliser Nostr avec le client web Astral.
+description: Un guide étape par étape pour commencer à utiliser Nostr avec le client web Astral.
 ---
 
 ## Etape 1 – Install Alby
-
 
 Téléchargez [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) depuis le Chrome Webstore ou directement depuis le [site web d'Alby](https://getalby.com/).
 
