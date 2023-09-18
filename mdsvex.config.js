@@ -1,8 +1,8 @@
 const config = {
-    extensions: ['.svx', '.md'],
+    extensions: [".svx", ".md"],
     smartypants: {
-        dashes: 'oldschool'
-    }
+        dashes: "oldschool",
+    },
 };
 
 export default config;

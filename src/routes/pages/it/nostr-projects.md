@@ -11,17 +11,17 @@ Il [repository del protocollo Nostr](https://github.com/nostr-protocol/nostr) è
 
 ## [§](#rele) Relay di Nostr
 
--   [Purplepag.es](https://purplepag.es/what) è un relè speciale.
+-   [Purplepag.es](https://purplepag.es/what) è un tipo di relay speciale.
 -   [Nostr.watch](https://nostr.watch/relays/find) contiene informazioni su tutti i relays conosciuti.
 -   [Relay Exchange](https://relay.exchange/) è una lista di relays a pagamento attualmente in funzione.
 -   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) è un progetto interessante che aggrega letture e scritture da e verso diversi altri relays principali. Il suo obiettivo è aiutare a colmare il divario tra i relays pubblici e privati.
--   Vedi la [nostra pagina sulle implementazioni dei relè](/it/relay-implementations) per saperne di più.
+-   Vedi la [nostra pagina sulle implementazioni dei relays](/it/relay-implementations) per saperne di più.
 
 ## [§](#ricerca-dati) Ricerca e dati
 
 -   [Nostr.band](https://nostr.band) è un motore di ricerca per Nostr che può aiutarti a trovare nuovi utenti da seguire o a trovare quel post che hai visto tempo fa.
 -   [Network stats](https://stats.nostr.band) sono gestite anche da Nostr.band. Questi sono dati di alto livello sulla crescita della rete Nostr.
--   [Zaplife](https://zaplife.lol) è una raccolta di tutti(?) i Zaps su Nostr negli ultimi diversi ore. Puoi pensarlo come la classifica dei Zap. ⚡
+-   [Zaplife](https://zaplife.lol) è una raccolta di tutti(?) i Zaps su Nostr negli ultimi diversi ore. Puoi pensarlo come la classifica degli Zap. ⚡
 -   [Swarmstr](https://swarmstr.com) è un client Q&A Nostr che può aiutarti a trovare le risposte alle tue domande. Consente di cercare domande in base al contenuto dall'attività del tag #asknostr.
 
 ## [§](#contenuti-lunghi) Contenuti più lunghi
@@ -35,5 +35,6 @@ Il [repository del protocollo Nostr](https://github.com/nostr-protocol/nostr) è
 
 ## [§](#altri) Altri
 
--   [Awesome Nostr](https://www.nostr.net) è un repository di link per clienti di Nostr, implementazioni di relay e altro.
+-   [Awesome Nostr](https://www.nostr.net) è un repository di link per clients di Nostr, implementazioni di relay e altro.
 -   [Nostr Resources](https://nostr-resources.com) copre le basi di Nostr e fornisce collegamenti a molte altre risorse.
+-   [Why Nostr](https://whynostr.com/) è un repository di link per progetti e clients di Nostr.

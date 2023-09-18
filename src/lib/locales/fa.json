@@ -18,7 +18,8 @@
         "guideAmethyst": "(کلاینت اندروید) آماتیست",
         "getNip05": "بگیرید NIP-05 تایید",
         "guideNostrchat": "(کلاینت چت) ناسترچت",
-        "guideSweepSats": "به سوی خود-متولی شدن بروید"
+        "guideSweepSats": "به سوی خود-متولی شدن بروید",
+        "guideSetupWallet": "یک کیف پول برای zaps راه اندازی کنید"
     },
     "donateButton": "Nostr.how کمک مالی به",
     "colophon": " و ⚡ ساخته شده با 💜",

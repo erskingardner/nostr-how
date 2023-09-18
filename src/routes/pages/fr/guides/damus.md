@@ -23,7 +23,6 @@ Il s'agit d'un guide spécifique pour commencer à utiliser Nostr avec [Damus](h
 1. Vous verrez votre "ID de compte public" (c'est votre clé publique) et votre "Clé de connexion de compte secret" (c'est votre clé privée).
 1. Copiez ces deux valeurs et conservez-les dans un endroit **très** sûr. 1Password ou un autre gestionnaire de mots de passe est une bonne option. N'oubliez pas que si vous ne sauvegardez pas cette valeur, vous ne pourrez jamais récupérer votre compte. Vous pouvez trouver [plus d'informations sur les clés ici] (/fr/get-started#understanding-keys).
 
-
 ## Se connecter avec une clé existante
 
 1. Cliquez sur "Login".

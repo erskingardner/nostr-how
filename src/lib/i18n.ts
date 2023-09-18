@@ -1,12 +1,12 @@
-import { register, init, getLocaleFromNavigator, locale } from 'svelte-i18n';
-import { fallbackLocale, supportedLocales } from '$lib/config/l10n';
+import { fallbackLocale, supportedLocales } from "$lib/config/l10n";
+import { getLocaleFromNavigator, init, locale, register } from "svelte-i18n";
 
-register('en', () => import('$lib/locales/en.json'));
-register('es', () => import('$lib/locales/es.json'));
-register('de', () => import('$lib/locales/de.json'));
-register('fr', () => import('$lib/locales/fr.json'));
-register('it', () => import('$lib/locales/it.json'));
-register('fa', () => import('$lib/locales/fa.json'));
+register("en", () => import("$lib/locales/en.json"));
+register("es", () => import("$lib/locales/es.json"));
+register("de", () => import("$lib/locales/de.json"));
+register("fr", () => import("$lib/locales/fr.json"));
+register("it", () => import("$lib/locales/it.json"));
+register("fa", () => import("$lib/locales/fa.json"));
 
 interface i18nOpts {
     locale: string;
@@ -19,7 +19,7 @@ export function setupI18n(opts?: i18nOpts) {
     // Init locales
     init({
         fallbackLocale: fallbackLocale,
-        initialLocale: parsedLocale
+        initialLocale: parsedLocale,
     });
 
     // Update locale if present
@@ -30,7 +30,7 @@ export function setupI18n(opts?: i18nOpts) {
 
 // Extract the "en" bit from fully qualified locales, like "en-US"
 function language(locale: string | null) {
-    return locale?.replace('_', '-').split('-')[0];
+    return locale?.replace("_", "-").split("-")[0];
 }
 
 // Check to see if the given locale is supported.
