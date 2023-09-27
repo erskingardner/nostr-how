@@ -25,6 +25,7 @@ description: This is a list of all known implementations of the Nostr relay spec
 -   [nostream](https://github.com/Cameri/nostream): A nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): A relay for [Minds](https://www.minds.com), an open-source social network
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): Relevant Minds API code for reading/writing Minds posts using Nostr
+-   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): A Nostr relay with a clear architecture and high test coverage (Postgres, MeiliSearch, NestJS)
 
 ## Clojure
 
