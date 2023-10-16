@@ -18,7 +18,7 @@
         "guideAmethyst": "Amethyst (Androidクライアント)",
         "getNip05": "ドメイン認証 (NIP-05) の取得",
         "guideNostrchat": "NostrChat (チャット・クライアント)",
-        "guideSweepSats": "セルフカストディを学ぶ",
+        "guideSweepSats": "セルフカストディへの送金",
         "guideSetupWallet": "Zaps用のウォレット設定"
     },
     "donateButton": "Nostr.howへの寄付はこちら",
