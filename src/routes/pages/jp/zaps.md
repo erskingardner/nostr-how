@@ -46,4 +46,4 @@ Zapsを受け取るためにプロフィールに設定したウォレット/ア
 
 1. Nostrのプロフィールに[Stacker News](https://stacker.news/)のライトニング・アドレスが設定されている場合、このアドレスにZapされたサトシが届きます。
 2. ウェブブラウザで、Irisをクライアントとして使用し、Chrome拡張機能でAlbyウォレットを使用してZapsの支払いを行います。
-3. スマホでは、Damusをクライアントとして使用し、Wallet of Statoshiアプリを使ってZapsの支払いを行います。
+3. スマホでは、Damusをクライアントとして使用し、Wallet of Satoshiアプリを使ってZapsの支払いを行います。
