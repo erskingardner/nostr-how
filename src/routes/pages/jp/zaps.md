@@ -1,25 +1,25 @@
 ---
-title: What are Zaps?
-description: Learn about what Zaps are, how they work, and what you need to use them on your Nostr client.
+title: Zapsとは?
+description: Zapsとは何か、Zapsの仕組み、NostrクライアントでZapsを使うために必要なものは何かについて説明します。
 ---
 
-## [§](#the-basics) The basics
+## [§](#the-basics) 基礎
 
-The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) at the speed of light with basically no transaction fees.
+Zapsについて考える最も簡単な方法は、Zapsは単なるチップであるということです。チップは[Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp)を介して光速で送金され、基本的にトランザクション手数料は無料です。
 
-From the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+Nostrプロトコルの初期は、ライトニング・インボイスをノートに記載するのが一般的でした。[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)が実装されて以来、ZapsはNostrノートで価値を伝達する主な方法となりました。NIP-57の実装内容とZapの仕組みについて詳しく見ていきましょう。
 
 ## [§](#nip-57) NIP-57
 
-[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) is the document that describes how Zaps should be implemented. It creates two new kinds of notes, kind 9735 (A Zap) and kind 9734 (A Zap request). In concert these two kinds make it possible for Nostr clients to request Zap invoices from LNURL servers and pay them. The NIP-57 spec also describes how Lightning wallets that receive Zap payments should create notes to be sent to relays.
+[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)とは、Zapsがどのように実装されるべきかを示したドキュメントです。kind 9735（Zap）とkind 9734（Zapリクエスト）という2つの新しいノートを作成します。この2つのkindを組み合わせることで、NostrクライアントがLNURLサーバーにZapインボイスを要求し、それに対して支払うことができるようになります。NIP-57の仕様では、Zapの支払いを受金するライトニング・ウォレットが、リレーに送信するノートを作成する方法についても説明しています。
 
-💡 Fun fact, the note kind chosen for Zaps is the same as the networking port (9735) that Lightning uses.
+💡面白いことに、Zapsに使われているkindノートは、ライトニングが使っているネットワークポート（9735）と同じなのです。
 
-## [§](#how-zaps-work) How Zaps work
+## [§](#how-zaps-work) Zapsの仕組み
 
 ![Zap flowchart](/images/zap-flow.webp)
 
-We won't get into the deep technical weeds here but for the curious among you, let's look at the basic mechanics of how Zaps work.
+ここでは技術的な深い話はしませんが、好奇心旺盛な人のために、Zapsの基本的な仕組みについて見てみましょう。
 
 1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
 2. The LNURL server responds and, if Alice's wallet supports Zaps, it will tell the client so and send/confirm Alice's public key.
