@@ -21,29 +21,29 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 
 ここでは技術的な深い話はしませんが、好奇心旺盛な人のために、Zapsの基本的な仕組みについて見てみましょう。
 
-1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
-2. The LNURL server responds and, if Alice's wallet supports Zaps, it will tell the client so and send/confirm Alice's public key.
-3. At this point, the client does a little work to put together a Zap request (a kind 9734 note) with data about the profile or note that it would like to Zap, the amount, the relays it should broadcast the note to, and a few other things. This is effectively a request for an invoice from the LNURL server.
-4. The LNURL server responds with the requested invoice.
-5. At this point the client will hand that invoice off to the user's lightning wallet to be paid. If you are using a wallet like Alby in the browser (and have set a budget) this process can happen very quickly.
-6. Once the user has paid the invoice directly to the wallet of the person they're zapping, the receiver's wallet will create a kind 9735 note and then broadcast that to the relays specified earlier in the Zap request.
-7. Relays receiving this note will then be able to tell connected clients about the zap and clients can show the zap to users in their UI.
+1. クライアント（Damus、Iris、Amethystなど）の小さな⚡アイコンをクリックまたはタップすると、最初にクライアントが、Zapしようとしている人のライトニング・ウォレットの前にある[LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/)にpingを送ります。最初の依頼は、"こんにちは、アリスにsatoshi（サトシ）をあげたいのですが "というようなものです。
+2. LNURLサーバーはそれに応答し、もしアリスのウォレットがZapsをサポートしていれば、そのことをクライアントに伝え、アリスの公開鍵を送信/確認します。
+3. この時点で、クライアントはZapリクエスト（kind 9734ノート）をまとめるために、Zapしたいプロフィールやノートに関するデータ、金額、ノートをブロードキャストするリレー、および他のいくつかの事柄を含む少しの作業を行います。これは事実上、LNURLサーバーからのインボイス・リクエストです。
+4. LNURLサーバーは要求されたインボイスで応答します。
+5. この時点で、クライアントはそのインボイスをユーザーのライトニング・ウォレットに渡し、支払いを受けます。ブラウザでAlbyのようなウォレットを使用している場合（そして予算を設定している場合）、このプロセスは非常に素早く行われます。
+6. ユーザーによって支払われると、受金者のウォレットはkind 9735ノートを作成し、Zapリクエストで先に指定されたリレーにそれをブロードキャストします。
+7. このノートを受け取ったリレーは、接続しているクライアントに対してZapを伝えることができ、クライアントはUI上でユーザーに対してZapを表示することができます。
 
-And this all happens in just a few seconds and costs a tiny fraction of a penny.
+そして、このすべてがほんの数秒で行われ、ほんのわずかなコストしかかかりません。
 
-## [§](#how-to-send-and-receive) How do I send and receive Zaps?
+## [§](#how-to-send-and-receive) Zapsの送受信方法は？
 
-To Zap other people in Nostr, you need just two things:
+Nostr上で他のユーザーをZapするには、たった2つのものさえ準備すればOKです：
 
-1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. A client that has implemented Zaps (like [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), or [Snort](https://snort.social))
+1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com/)や[Wallet of Satoshi](https://www.walletofsatoshi.com/)のような）
+2. Zapsをを実装しているクライアント（[Damus](/en/guides/damus)、[Amethyst](/en/guides/amethyst)、[Iris](/en/guides/iris)または[Snort](https://snort.social)など)
 
-The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
+その他に必要なことは、Nostrのプロフィールにライトニング・アドレスが設定されていることです。これがZapsを受信するアドレスです。
 
-Keep in mind, it's possible to pay for Zaps from a wallet/address other than the address you have set in your profile to receive Zaps.
+Zapsを受け取るためにプロフィールに設定したウォレット/アドレスとは別のものでも、Zapsの支払いは可能です。
 
-For example, imagine the following:
+例えば、次のようなことを想像してみてください：
 
-1. You have a [Stacker News](https://stacker.news/) lightning address set in your Nostr profile, this is where you'll receive any zapped sats.
-2. In your web browser, you use Iris as your client and pay for Zaps using your Alby wallet via their chrome extension
-3. On mobile, you use Damus as your client and pay for Zaps using the Wallet of Statoshi app.
+1. Nostrのプロフィールに[Stacker News](https://stacker.news/)のライトニング・アドレスが設定されている場合、このアドレスにZapされたサトシが届きます。
+2. ウェブブラウザで、Irisをクライアントとして使用し、Chrome拡張機能でAlbyウォレットを使用してZapsの支払いを行います。
+3. スマホでは、Damusをクライアントとして使用し、Wallet of Statoshiアプリを使ってZapsの支払いを行います。
