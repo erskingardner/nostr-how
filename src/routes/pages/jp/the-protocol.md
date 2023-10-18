@@ -1,19 +1,19 @@
 ---
-title: The Nostr Protocol
-description: This is a high-level overview of the Nostr protocol with details on Event types and how Nostr Implementation Possibilities (NIPs) work.
+title: Nostrプロトコル
+description: これはNostrプロトコルの高レベルな概要であり、EventタイプとNostr Implementation Possibilities（NIPs）の仕組みについての詳細です。
 ---
 
-## [§](#nostr-high-level) Nostr at the highest level
+## [§](#nostr-high-level) 最高レベルのNostr
 
--   There are two main components to the Nostr network: [clients](/en/clients) & [relays](/en/relays).
-    -   **Clients** are the interface that users use to read and write data to relays. In a social media context, think of this as the Twitter web app or mobile app. It's a client that is allowing you to read data from and write data to Twitter's centralized database.
-    -   **Relays** are like databases (though they do a lot more than just store data). They allow clients to send them data and store that data in a database. Clients can then read data out of relays to be shown to users.
--   Every user is identified by a public key. Every event object (e.g. message you're posting, update to your following list, etc.) is signed. Clients validate these signatures to ensure they're correct.
--   Clients fetch data from relays and publish data to relays. The relays are almost always chosen by the user. Relays don't have to talk to one another, but might potentially in the future.
--   For example, to update your profile, you just instructs your client to send an event of kind 0 to the relays you want to use. The relays will then store that event.
--   On startup, your client queries data from the relays that you tell it to. This can be filtered to only show events for users you follow or you can ask for everything from everyone, then the client displays that data to you.
--   There are many different kinds of events. Events can contain all sorts of structured data, and the most used structures are finding their way into [Nostr Implementation Possibilities](#nips) (NIPs – protocol standards that everyone adheres to) so all clients and relays can handle them seamlessly.
--   The data that you can see on Nostr is completely dependent on the relays that you decide to connect to. See the network diagram below for more on this.
+- There are two main components to the Nostr network: [clients](/en/clients) & [relays](/en/relays).
+    - **Clients** are the interface that users use to read and write data to relays. In a social media context, think of this as the Twitter web app or mobile app. It's a client that is allowing you to read data from and write data to Twitter's centralized database.
+    - **Relays** are like databases (though they do a lot more than just store data). They allow clients to send them data and store that data in a database. Clients can then read data out of relays to be shown to users.
+- Every user is identified by a public key. Every event object (e.g. message you're posting, update to your following list, etc.) is signed. Clients validate these signatures to ensure they're correct.
+- Clients fetch data from relays and publish data to relays. The relays are almost always chosen by the user. Relays don't have to talk to one another, but might potentially in the future.
+- For example, to update your profile, you just instructs your client to send an event of kind 0 to the relays you want to use. The relays will then store that event.
+- On startup, your client queries data from the relays that you tell it to. This can be filtered to only show events for users you follow or you can ask for everything from everyone, then the client displays that data to you.
+- There are many different kinds of events. Events can contain all sorts of structured data, and the most used structures are finding their way into [Nostr Implementation Possibilities](#nips) (NIPs – protocol standards that everyone adheres to) so all clients and relays can handle them seamlessly.
+- The data that you can see on Nostr is completely dependent on the relays that you decide to connect to. See the network diagram below for more on this.
 
 ### Network diagram
 
@@ -23,9 +23,9 @@ You can see the diagram above that we have 3 relays and 3 users. Each of the use
 
 Given the reads and writes in the diagram:
 
--   Bob can see all of Alice's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Alice can see all of Bob's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Mary can see all of Bob's and Alice's posts. This is because while she only writes to Relay 3, she is reading from Relay 2, where Bob and Alice are writing their posts.
+- Bob can see all of Alice's posts, but can't see anything from Mary (and doesn't even know she exists)
+- Alice can see all of Bob's posts, but can't see anything from Mary (and doesn't even know she exists)
+- Mary can see all of Bob's and Alice's posts. This is because while she only writes to Relay 3, she is reading from Relay 2, where Bob and Alice are writing their posts.
 
 This is a very simplified situation but you can already see that the choice of which relays you want to connect to can have a large impact on who and what you'll see when using Nostr.
 
@@ -50,19 +50,19 @@ Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. s
 }
 ```
 
--   The `id` field tells us the ID of the event
--   The `pubkey` field tells us the public key of the user who sent the event
--   The `created_at` field tells us when the event was published
--   The `kind` field tells us what sort of event it is
--   The `tags` field tells us about tags on the event. These are used for creating links, adding media, and mentioning other users or events.
--   The `content` field gives us the content of the event. In this case, the short text post.
--   The `sig` field is the signature that clients use to verify that the user with this pubkey did in fact send this event on the date specified.
+- The `id` field tells us the ID of the event
+- The `pubkey` field tells us the public key of the user who sent the event
+- The `created_at` field tells us when the event was published
+- The `kind` field tells us what sort of event it is
+- The `tags` field tells us about tags on the event. These are used for creating links, adding media, and mentioning other users or events.
+- The `content` field gives us the content of the event. In this case, the short text post.
+- The `sig` field is the signature that clients use to verify that the user with this pubkey did in fact send this event on the date specified.
 
 ### Event Kinds
 
 This is a list of current `Event` kinds. The most up-to-date list can always be found on the [Nostr NIPs repository](https://github.com/nostr-protocol/nips).
 
-| kind    | description                | NIP                                                            |
+| kind    | 説明                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
 | `0`     | Metadata                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
 | `1`     | Short Text Note            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
@@ -104,7 +104,7 @@ This is a list of current `Event` kinds. The most up-to-date list can always be 
 
 ### Standardized Tags
 
-| name       | value                   | other parameters  | NIP                                                                                                                            |
+| 名称       | 値                   | その他のパラメータ  | NIP                                                                                                                            |
 | ---------- | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | e          | event id (hex)          | relay URL, marker | [1](https://github.com/nostr-protocol/nips/blob/master/01.md), [10](https://github.com/nostr-protocol/nips/blob/master/10.md)  |
 | p          | pubkey (hex)            | relay URL         | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)                                                                  |
