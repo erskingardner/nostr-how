@@ -5,17 +5,17 @@ description: これはNostrプロトコルの高レベルな概要であり、Ev
 
 ## [§](#nostr-high-level) 最高レベルのNostr
 
-- There are two main components to the Nostr network: [clients](/en/clients) & [relays](/en/relays).
-    - **Clients** are the interface that users use to read and write data to relays. In a social media context, think of this as the Twitter web app or mobile app. It's a client that is allowing you to read data from and write data to Twitter's centralized database.
-    - **Relays** are like databases (though they do a lot more than just store data). They allow clients to send them data and store that data in a database. Clients can then read data out of relays to be shown to users.
-- Every user is identified by a public key. Every event object (e.g. message you're posting, update to your following list, etc.) is signed. Clients validate these signatures to ensure they're correct.
-- Clients fetch data from relays and publish data to relays. The relays are almost always chosen by the user. Relays don't have to talk to one another, but might potentially in the future.
-- For example, to update your profile, you just instructs your client to send an event of kind 0 to the relays you want to use. The relays will then store that event.
-- On startup, your client queries data from the relays that you tell it to. This can be filtered to only show events for users you follow or you can ask for everything from everyone, then the client displays that data to you.
-- There are many different kinds of events. Events can contain all sorts of structured data, and the most used structures are finding their way into [Nostr Implementation Possibilities](#nips) (NIPs – protocol standards that everyone adheres to) so all clients and relays can handle them seamlessly.
-- The data that you can see on Nostr is completely dependent on the relays that you decide to connect to. See the network diagram below for more on this.
+- Nostrネットワークは主要な構成が2つあります： [clients](/en/clients) & [relays](/en/relays).
+    - **クライアント（Clients）** は、ユーザーがリレーにデータを読み書きするために使用するインターフェースです。ソーシャルメディアを例に挙げると、これはTwitter（現X）のウェブアプリやモバイルアプリだと考えてください。Twitterの集中型データベースからデータを読み取り、Twitterの集中型データベースにデータを書き込むためのクライアントです。
+    - **リレー（Relays）** はデータベースのようなものです（ただし、単にデータを保存するだけでなく、もっと多くのことができます）。クライアントにデータを送信してもらい、そのデータをデータベースに保存します。クライアントはリレーからデータを読み取り、ユーザーに見せることができます。
+- すべてのユーザーは公開鍵によって識別されます。すべてのイベント・オブジェクト（投稿メッセージ、フォローリストの更新など）は署名されています。クライアントはこれらの署名が正しいかどうかを検証します。
+- クライアントはリレーからデータを取得し、リレーにデータを公開します。リレーはほとんどの場合、ユーザーが選択します。リレーは互いに通信する必要はありませんが、将来的には通信する可能性があります。
+- 例えば、プロフィールを更新するには、クライアントに指示し、使用したいリレーにkind 0のイベントを送信するだけです。リレーはそのイベントを保存します。
+- 起動時に、クライアントはあなたが指定したリレーからデータを照会します。これは、あなたがフォローしているユーザーのイベントのみを表示するようにフィルタリングすることができます。
+- イベントには多くのkindがあります。イベントはあらゆる種類の構造化されたデータを含むことができ、最も使用される構造は、すべてのクライアントとリレーがそれらをシームレスに扱うことができるように、[Nostr Implementation Possibilities](#nips)（NIPs - protocol standards that everyone adheres to / 誰もが遵守すべきプロトコル標準）として、その方法を明記しています。
+- Nostrで閲覧できるデータは、完全に接続するリレーに依存します。詳しくは下のネットワーク図をご覧ください。
 
-### Network diagram
+### ネットワーク図
 
 ![Nostr network diagram](/images/nostr-network.webp)
 
