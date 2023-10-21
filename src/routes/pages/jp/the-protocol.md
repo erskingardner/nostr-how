@@ -64,15 +64,15 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 
 | kind    | 説明                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
-| `0`     | メタ・データ（ユーザー・プロフィール）                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `1`     | Short Text Note            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `2`     | Recommend Relay            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `3`     | Contacts                   | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
-| `4`     | Encrypted Direct Messages  | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
-| `5`     | Event Deletion             | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
-| `6`     | Reposts                    | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
-| `7`     | Reaction                   | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
-| `8`     | Badge Award                | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
+| `0`     | メタデータ（ユーザー・プロフィール）                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
+| `1`     | テキスト（いわゆる「投稿」）            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
+| `2`     | 推奨リレー            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
+| `3`     | フォローリスト（コンタクト）                   | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
+| `4`     | 暗号化ダイレクトメッセージ  | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
+| `5`     | イベント削除             | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
+| `6`     | リポスト                    | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
+| `7`     | リアクション（いわゆる「いいね！」）                   | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
+| `8`     | バッジ授与                | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
 | `40`    | Channel Creation           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
 | `41`    | Channel Metadata           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
 | `42`    | Channel Message            | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
