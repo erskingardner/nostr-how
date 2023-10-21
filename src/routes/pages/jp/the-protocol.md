@@ -7,33 +7,33 @@ description: これはNostrプロトコルの高レベルな概要であり、Ev
 
 - Nostrネットワークは主要な構成が2つあります： [clients](/en/clients) & [relays](/en/relays).
     - **クライアント（Clients）** は、ユーザーがリレーにデータを読み書きするために使用するインターフェースです。ソーシャルメディアを例に挙げると、これはTwitter（現X）のウェブアプリやモバイルアプリだと考えてください。Twitterの集中型データベースからデータを読み取り、Twitterの集中型データベースにデータを書き込むためのクライアントです。
-    - **リレー（Relays）** はデータベースのようなものです（ただし、単にデータを保存するだけでなく、もっと多くのことができます）。クライアントにデータを送信してもらい、そのデータをデータベースに保存します。クライアントはリレーからデータを読み取り、ユーザーに見せることができます。
+    - **リレー（Relays）** は、データベースのようなものです（ただし、単にデータを保存するだけでなく、もっと多くのことができます）。クライアントにデータを送信してもらい、そのデータをデータベースに保存します。クライアントはリレーからデータを読み取り、ユーザーに見せることができます。
 - すべてのユーザーは公開鍵によって識別されます。すべてのイベント・オブジェクト（投稿メッセージ、フォローリストの更新など）は署名されています。クライアントはこれらの署名が正しいかどうかを検証します。
 - クライアントはリレーからデータを取得し、リレーにデータを公開します。リレーはほとんどの場合、ユーザーが選択します。リレーは互いに通信する必要はありませんが、将来的には通信する可能性があります。
 - 例えば、プロフィールを更新するには、クライアントに指示し、使用したいリレーにkind 0のイベントを送信するだけです。リレーはそのイベントを保存します。
 - 起動時に、クライアントはあなたが指定したリレーからデータを照会します。これは、あなたがフォローしているユーザーのイベントのみを表示するようにフィルタリングすることができます。
 - イベントには多くのkindがあります。イベントはあらゆる種類の構造化されたデータを含むことができ、最も使用される構造は、すべてのクライアントとリレーがそれらをシームレスに扱うことができるように、[Nostr Implementation Possibilities](#nips)（NIPs - protocol standards that everyone adheres to / 誰もが遵守すべきプロトコル標準）として、その方法を明記しています。
-- Nostrで閲覧できるデータは、完全に接続するリレーに依存します。詳しくは下のネットワーク図をご覧ください。
+- Nostrで見ことができるデータは、完全に接続するリレーに依存します。詳しくは下のネットワーク・ダイアグラムをご覧ください。
 
-### ネットワーク図
+### ネットワーク・ダイアグラ（図表）
 
 ![Nostr network diagram](/images/nostr-network.webp)
 
-You can see the diagram above that we have 3 relays and 3 users. Each of the users is connecting to Nostr with a different client (and on a different Platform).
+上のダイアグラを見ると、3つのリレーと3人のユーザーがいることがわかります。各ユーザーは異なるクライアントで（異なるプラットフォームで）Nostrに接続しています。
 
-Given the reads and writes in the diagram:
+読み取りと書き込みができることがダイアグラからわかります：
 
-- Bob can see all of Alice's posts, but can't see anything from Mary (and doesn't even know she exists)
-- Alice can see all of Bob's posts, but can't see anything from Mary (and doesn't even know she exists)
-- Mary can see all of Bob's and Alice's posts. This is because while she only writes to Relay 3, she is reading from Relay 2, where Bob and Alice are writing their posts.
+- ボブはアリスの投稿をすべて見ることができますが、メアリーの投稿は何も見ることができません（メアリーの存在すら知りません）。
+- アリスはボブの投稿をすべて見ることができますが、メアリーの投稿は何も見ることができません（メアリーの存在すら知りません）。
+- メアリーはボブとアリスの投稿をすべて見ることができます。これはメアリーがリレー3にのみ投稿を書き込む一方で、ボブとアリスの投稿はリレー2から読み取っているためです。
 
-This is a very simplified situation but you can already see that the choice of which relays you want to connect to can have a large impact on who and what you'll see when using Nostr.
+これは非常に単純化された状況ですが、どのリレーに接続するかによって、Nostr使用時に誰が何を見るかに大きな影響を与えているかが、よく理解できるはずです。
 
-## [§](#events) Events
+## [§](#events) イベント（Events）
 
-Events are the only object type on the Nostr network. Each event object has a `kind`, which denotes what sort of event it is (what sort of action a user might take or messages that might be received).
+イベントとは、Nostrネットワークで唯一のオブジェクト・タイプです。各イベント・オブジェクトは`kind（種類）`を持ち、それがどのような種類のイベントであるか（ユーザーが起こすかもしれないアクションや受信するかもしれないメッセージ）を示します。
 
-Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. something like a Twitter tweet)
+kind 1のイベントは以下のようなものです（kind 1は短いテキストメモ用で、Twitterで言うツイートのようなものです）。
 
 ```json
 {
