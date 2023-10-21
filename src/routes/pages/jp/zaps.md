@@ -7,7 +7,7 @@ description: Zapsとは何か、Zapsの仕組み、NostrクライアントでZap
 
 Zapsについて考える最も簡単な方法は、Zapsは単なるチップであるということです。チップは[Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp)を介して光速で送金され、基本的にトランザクション手数料は無料です。
 
-Nostrプロトコルの初期は、ライトニング・インボイスをノートに記載するのが一般的でした。[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)が実装されて以来、ZapsはNostrノートで価値を伝達する主な方法となりました。NIP-57の実装内容とZapの仕組みについて詳しく見ていきましょう。
+Nostrプロトコルの初期は、ライトニング・インボイスをノートに記載するのが一般的でした。[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)が実装されて以来、ZapsはNostrノート内で価値を伝達する主な方法となりました。NIP-57の実装内容とZapの仕組みについて詳しく見ていきましょう。
 
 ## [§](#nip-57) NIP-57
 
