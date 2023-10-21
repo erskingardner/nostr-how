@@ -12,7 +12,7 @@ description: これはNostrプロトコルの高レベルな概要であり、Ev
 - クライアントはリレーからデータを取得し、リレーにデータを公開します。リレーはほとんどの場合、ユーザーが選択します。リレーは互いに通信する必要はありませんが、将来的には通信する可能性があります。
 - 例えば、プロフィールを更新するには、クライアントに指示し、使用したいリレーにkind 0のイベントを送信するだけです。リレーはそのイベントを保存します。
 - 起動時に、クライアントはあなたが指定したリレーからデータを照会します。これは、あなたがフォローしているユーザーのイベントのみを表示するようにフィルタリングすることができます。
-- イベントには多くのkindがあります。イベントはあらゆる種類の構造化されたデータを含むことができ、最も使用される構造は、すべてのクライアントとリレーがそれらをシームレスに扱うことができるように、[Nostr Implementation Possibilities](#nips)（NIPs - protocol standards that everyone adheres to / 誰もが遵守すべきプロトコル標準）として、その方法を明記しています。
+- イベントには多くのkindがあります。イベントはあらゆる種類の構造化されたデータを含むことができ、最も使用される構造は、すべてのクライアントとリレーがそれらをシームレスに扱うことができるように、[Nostr Implementation Possibilities](#nips)（NIPs - protocol standards that everyone adheres to）として、その方法を明記しています。
 - Nostrで見ことができるデータは、完全に接続するリレーに依存します。詳しくは下のネットワーク・ダイアグラムをご覧ください。
 
 ### ネットワーク・ダイアグラ（図表）
@@ -31,7 +31,7 @@ description: これはNostrプロトコルの高レベルな概要であり、Ev
 
 ## [§](#events) イベント（Events）
 
-イベントとは、Nostrネットワークで唯一のオブジェクト・タイプです。各イベント・オブジェクトは`kind（種類）`を持ち、それがどのような種類のイベントであるか（ユーザーが起こすかもしれないアクションや受信するかもしれないメッセージ）を示します。
+イベントとは、Nostrネットワークで唯一のオブジェクト・タイプです。各イベント・オブジェクトは `kind` を持ち、それがどのような種類のイベント（Event Kind）であるか（ユーザーが起こすかもしれないアクションや受信するかもしれないメッセージ）を示します。
 
 kind 1のイベントは以下のようなものです（kind 1は短いテキストメモ用で、Twitterで言うツイートのようなものです）。
 
@@ -50,17 +50,17 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 }
 ```
 
-- The `id` field tells us the ID of the event
-- The `pubkey` field tells us the public key of the user who sent the event
-- The `created_at` field tells us when the event was published
-- The `kind` field tells us what sort of event it is
-- The `tags` field tells us about tags on the event. These are used for creating links, adding media, and mentioning other users or events.
-- The `content` field gives us the content of the event. In this case, the short text post.
-- The `sig` field is the signature that clients use to verify that the user with this pubkey did in fact send this event on the date specified.
+- `id` フィールドはイベントIDを示します。
+- `pubkey` フィールドはイベントを送信したユーザーの公開鍵を示します。
+- `created_at` フィールドはイベントがいつ公開されたかを示します。
+- `kind` フィールドはそれがどのようなkindイベントであるかを示します。
+- `tags` フィールドはイベント・タグを示します。これらはリンクを作成したり、メディアを追加したり、他のユーザーやイベントに言及するために使用されます。
+- `content` フィールドはイベント内容を示します。この場合、短いテキストの投稿です。
+- `sig` フィールドは、クライアントがこのpubkeyを持つユーザーが指定された日付に、実際にこのイベントを送信したことを検証するために使用するための署名です。
 
-### Event Kinds
+### イベントの種類（Event Kinds）
 
-This is a list of current `Event` kinds. The most up-to-date list can always be found on the [Nostr NIPs repository](https://github.com/nostr-protocol/nips).
+これは現在の `Event（イベント）` のkindリストです。最新のリストは、常に[Nostr NIPs repository](https://github.com/nostr-protocol/nips)にあります。
 
 | kind    | 説明                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
