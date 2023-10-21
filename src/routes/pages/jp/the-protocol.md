@@ -5,7 +5,7 @@ description: これはNostrプロトコルの高レベルな概要であり、Ev
 
 ## [§](#nostr-high-level) 最高レベルのNostr
 
-- Nostrネットワークは主要な構成が2つあります： [clients](/en/clients) & [relays](/en/relays).
+- Nostrネットワークは主に2つで構成されています： [clients](/en/clients) & [relays](/en/relays).
     - **クライアント（Clients）** は、ユーザーがリレーにデータを読み書きするために使用するインターフェースです。ソーシャルメディアを例に挙げると、これはTwitter（現X）のウェブアプリやモバイルアプリだと考えてください。Twitterの集中型データベースからデータを読み取り、Twitterの集中型データベースにデータを書き込むためのクライアントです。
     - **リレー（Relays）** は、データベースのようなものです（ただし、単にデータを保存するだけでなく、もっと多くのことができます）。クライアントにデータを送信してもらい、そのデータをデータベースに保存します。クライアントはリレーからデータを読み取り、ユーザーに見せることができます。
 - すべてのユーザーは公開鍵によって識別されます。すべてのイベント・オブジェクト（投稿メッセージ、フォローリストの更新など）は署名されています。クライアントはこれらの署名が正しいかどうかを検証します。
@@ -53,10 +53,10 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 - `id` フィールドはイベントIDを示します。
 - `pubkey` フィールドはイベントを送信したユーザーの公開鍵を示します。
 - `created_at` フィールドはイベントがいつ公開されたかを示します。
-- `kind` フィールドはそれがどのようなkindイベントであるかを示します。
+- `kind` フィールドはそれがどのような種類のイベントであるかを示します。
 - `tags` フィールドはイベント・タグを示します。これらはリンクを作成したり、メディアを追加したり、他のユーザーやイベントに言及するために使用されます。
 - `content` フィールドはイベント内容を示します。この場合、短いテキストの投稿です。
-- `sig` フィールドは、クライアントがこのpubkeyを持つユーザーが指定された日付に、実際にこのイベントを送信したことを検証するために使用するための署名です。
+- `sig` フィールドは、クライアントがこの公開鍵を持つユーザーが指定された日付に、実際にこのイベントを送信したかを検証するために使用する署名です。
 
 ### イベントの種類（Event Kinds）
 
@@ -64,7 +64,7 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 
 | kind    | 説明                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
-| `0`     | Metadata                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
+| `0`     | メタ・データ（ユーザー・プロフィール）                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
 | `1`     | Short Text Note            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
 | `2`     | Recommend Relay            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
 | `3`     | Contacts                   | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
@@ -123,9 +123,10 @@ Nostr Implementation Possibilty、略してNIPは、Nostr互換のリレーと�
 
 ### なぜNIPsは重要なのか?
 
-Nostr is decentralized and not owned by a centralized service (like Twitter). This means that the direction of the protocol is up to all of us! We can suggest and advocate for changes and offer feedback on ideas suggested by others.
+Nostrは非中央集権的で、（Twitter / 現Xのような）中央集権的なサービスに依存しません。つまり、プロトコルの方向性は私たち全員に委ねられているのです！私たちは変更を提案し、主張し、他の人が提案したアイデアに対してフィードバックを提供することができます。
 
-Being an active part of the community gives you a say in the direction of the network. NIPs published in the main repository are already approved. Adding new ideas is done via Pull Request on that repo.
+コミュニティに積極的に参加することで、ネットワークの方向性について発言することができます。メイン・リポジトリで公開されたNIPはすでに承認されています。新しいアイデアの追加は、そのリポジトリのプル・リクエストで行います。
+
 
 ### どこでNIPsを確認できるか?
 
