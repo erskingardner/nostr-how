@@ -60,7 +60,7 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 
 ### イベントの種類（Event Kinds）
 
-これは現在の `Event（イベント）` のkindリストです。最新のリストは、常に[Nostr NIPs repository](https://github.com/nostr-protocol/nips)にあります。
+これは現在の `Event` kindリストです。最新版のリストは、常に[Nostr NIPs repository](https://github.com/nostr-protocol/nips)にあります。
 
 | kind    | 説明                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
@@ -102,7 +102,7 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 | `31989` | Handler recommendation     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
 | `31990` | Handler information        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
 
-### Standardized Tags
+### 標準化されたタグ
 
 | 名称       | 値                   | その他のパラメータ  | NIP                                                                                                                            |
 | ---------- | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -119,14 +119,14 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 
 ## [§](#nips) NIPs
 
-A Nostr Implementation Possibilty, or NIP for short, exist to document what MUST, what SHOULD and what MAY be implemented by Nostr-compatible relay and client software. NIPs are the documents that outline how the Nostr protocol works.
+Nostr Implementation Possibilty、略してNIPは、Nostr互換のリレーとクライアント・ソフトウェアが実装しなければならないもの（MUST）、実装すべきもの（SHOULD）、実装してもよいもの（MAY）を文書化したものです。NIPsは、Nostrプロトコルの仕組みをアウトラインとして文書化したものです。
 
-### Why should I care about NIPs?
+### なぜNIPsは重要なのか?
 
 Nostr is decentralized and not owned by a centralized service (like Twitter). This means that the direction of the protocol is up to all of us! We can suggest and advocate for changes and offer feedback on ideas suggested by others.
 
 Being an active part of the community gives you a say in the direction of the network. NIPs published in the main repository are already approved. Adding new ideas is done via Pull Request on that repo.
 
-### Where can I find NIPs?
+### どこでNIPsを確認できるか?
 
-You can see all current NIPs in the [Nostr NIP repo](https://github.com/nostr-protocol/nips).
+現在のNIPはすべて[Nostr NIP repo](https://github.com/nostr-protocol/nips)で見ることができます。
