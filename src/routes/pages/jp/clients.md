@@ -5,7 +5,7 @@ description: Nostrにおけるクライアントの概要と、いくつかの�
 
 ## クライアントとは？
 
-Nostrにおけるクライアントとは、プロトコルにアクセスしてやり取りするためのアプリのことです。言うなれば、Twitter（現X）のiOSアプリやウェブアプリで、Twitterのツイートフィードにアクセスするようなものです。
+Nostrにおけるクライアントとは、プロトコルにアクセスしてやり取りするためのアプリのことです。言うなれば、Twitter（現X）のiOSアプリやWebアプリで、Twitterのツイートフィードにアクセスするようなものです。
 
 Nostrプロトコルは非常にシンプルで柔軟性があるため、クライアントによってプロトコルのさまざまな側面を少しずつ異なる方法で実装することに重点を置いています。例えば、あるクライアントは美しく使いやすいUIに重点を置き、あるクライアントはライトニング決済を可能にすることに重点を置き、またあるクライアントはチェスをプレイするようなクリエイティブなユースケースのために重点を置いています（そう、あなたはNostrプロトコルを介して[チェスをプレイする](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)ことができます）。
 
@@ -31,7 +31,7 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 ## いくつかのお気に入りのクライアント
 
-### ウェブ
+### Web
 
 -   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。 [Check out our guide here](/en/guides/iris).
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
