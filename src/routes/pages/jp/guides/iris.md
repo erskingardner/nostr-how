@@ -1,36 +1,36 @@
 ---
-title: Get started with Iris
-description: A step-by-step guide to getting started with Nostr with the Iris web client.
+title: Irisの使い方
+description: IrisのWebクライアントを使って、Nostrを始めるためのステップバイステップ・ガイドを説明します。
 ---
 
-## Step 1 – Install Alby
+## Step 1 – Albyをインストールする
 
-Get [Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe) from the Chrome Webstore or directly from the [Alby website](https://getalby.com/).
+[Alby](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wa/iokeahhehimjnekafflcihljlcjccdbe)をChromeストア、または直接[Alby公式サイト](https://getalby.com/)から入手してください。
 
-Once you have the extension installed create a new account. Unless you're a pro already, we recommend just creating an account on Alby and setting up a new Lightning wallet.
+拡張機能をインストールしたら、新しいアカウントを作成します。あなたがすでにプロでない限り、Albyでアカウントを作成し、新しいライトニング・ウォレットを設定することをお勧めします。
 
-## Step 2 – Generate a new Private Key with Iris
+## Step 2 – Irisで新しい秘密鍵を生成する
 
 1. Navigate to [Iris.to](https://iris.to).
-1. Enter a name and hit "Go" ![Iris sign up screen](/images/iris-signup.webp)
-1. Iris will generate a new public/private key pair for you and sign you in. You can start following people and posting notes at this point. ![Iris new user experience](/images/iris-nux.webp)
-1. However, we're going to make sure we're using the app in the safest way possible. Head to "Settings" on the left and then click "Accounts" in the secondary menu. ![Iris settings](/images/iris-accounts-settings.webp)
-1. Copy your public key and your "nsec" private key. These should be stored somewhere VERY safe. Like a password manager (we like 1Password).
-1. Once you're sure you've saved your private key somewhere safe, click "log out" at the top of the accounts page to log out of Iris. We'll log back in safely in a second.
+2. Enter a name and hit "Go" ![Iris sign up screen](/images/iris-signup.webp)
+3. Iris will generate a new public/private key pair for you and sign you in. You can start following people and posting notes at this point. ![Iris new user experience](/images/iris-nux.webp)
+4. However, we're going to make sure we're using the app in the safest way possible. Head to "Settings" on the left and then click "Accounts" in the secondary menu. ![Iris settings](/images/iris-accounts-settings.webp)
+5. Copy your public key and your "nsec" private key. These should be stored somewhere VERY safe. Like a password manager (we like 1Password).
+6. Once you're sure you've saved your private key somewhere safe, click "log out" at the top of the accounts page to log out of Iris. We'll log back in safely in a second.
 
-## Step 3 – Add your new Private Key to Alby
+## Step 3 – 新しい秘密鍵をAlbyに追加する
 
 1. Once you've created an account and have saved your private key somewhere safe we need to add that key to the Alby extension.
-1. Open the Alby extension and then navigate to the Alby accounts page. ![Alby accounts](/images/alby-accounts.webp)
-1. Click on your account and then, in the Nostr section, paste your new private key (this starts with `nsec`) in the field.
-1. You're now ready to use Alby to log in and use Nostr through any web client.
+2. Open the Alby extension and then navigate to the Alby accounts page. ![Alby accounts](/images/alby-accounts.webp)
+3. Click on your account and then, in the Nostr section, paste your new private key (this starts with `nsec`) in the field.
+4. You're now ready to use Alby to log in and use Nostr through any web client.
 
-## Step 4 – Sign back into Iris
+## Step 4 – Irisに再ログインする
 
 1. Back on the Iris login page, click "Nostr extension login". ![Iris sign up screen](/images/iris-signup.webp)
-1. Authorize key usage in the Alby extension popup that will appear.
-1. You are logged in! It may take a few moments for content to start loading. 🤙 You'll need to sign using the Alby extension any time you perform an action in Iris. You can check the box to have Alby remember your choice if this bugs you.
+2. Authorize key usage in the Alby extension popup that will appear.
+3. You are logged in! It may take a few moments for content to start loading. 🤙 You'll need to sign using the Alby extension any time you perform an action in Iris. You can check the box to have Alby remember your choice if this bugs you.
 
-## Video guide
+## 動画ガイド
 
-If you prefer a video guides, there is a pretty good [YouTube beginner tutorial](https://www.youtube.com/watch?v=kifwECtwjJQ) how to create your own Nostr account by [Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz).
+動画にようるガイドが必要なら、[Max DeMarco](https://snort.social/p/npub1lelkh3hhxw9hdwlcpk6q9t0xt9f7yze0y0nxazvzqjmre3p98x3sthkvyz)によるNostrアカウント作成のための[初心者向けチュートリアル（英語）](https://www.youtube.com/watch?v=kifwECtwjJQ)がおすすめです。
