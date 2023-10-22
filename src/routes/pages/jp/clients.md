@@ -33,7 +33,7 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。 [Check out our guide here](/en/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。 [Check out our guide here](/jp/guides/iris).
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
@@ -44,8 +44,8 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – これは、Nostrのための最初の、そして最高のiOSクライアントです。 [Check out our guide here](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – これは、Nostrのための最初の、そして最高のiOSクライアントです。 [Check out our guide here](/jp/guides/damus).
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Androidのための美しいクライアントです。 [Check out our guide here](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Androidのための美しいクライアントです。 [Check out our guide here](/jp/guides/amethyst).
