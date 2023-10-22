@@ -49,6 +49,7 @@ Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovec
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
 
 ## [§](#verificacion-autohospedada) Verificación autohospedada
 

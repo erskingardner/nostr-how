@@ -47,6 +47,7 @@ Si vous n'avez pas votre propre domaine ou si vous ne voulez pas le configurer v
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
 
 ## [§](#self-hosted) Vérification auto-hébergée
 

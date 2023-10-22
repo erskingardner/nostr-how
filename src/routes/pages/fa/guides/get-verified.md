@@ -47,6 +47,7 @@ description: چگونه هویت خود را در ناستر تایید کنید
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
 
 ## [§](#خویش-میزبان) تایید با هاست خود
 

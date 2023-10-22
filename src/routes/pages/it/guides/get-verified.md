@@ -49,6 +49,7 @@ Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un 
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
 
 ## [§](#verifica-auto-ospitata) Verifica auto-ospitata
 
