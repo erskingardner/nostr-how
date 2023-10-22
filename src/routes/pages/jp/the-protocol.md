@@ -73,34 +73,34 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 | `6`     | リポスト                    | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
 | `7`     | リアクション（いわゆる「いいね！」）                   | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
 | `8`     | バッジ授与                | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `40`    | Channel Creation           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `41`    | Channel Metadata           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `42`    | Channel Message            | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `43`    | Channel Hide Message       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `44`    | Channel Mute User          | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `1063`  | File Metadata              | [94](https://github.com/nostr-protocol/nips/blob/master/94.md) |
-| `1984`  | Reporting                  | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
-| `9734`  | Zap Request                | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `9735`  | Zap                        | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `10000` | Mute List                  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10001` | Pin List                   | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10002` | Relay List Metadata        | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
-| `13194` | Wallet Info                | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `22242` | Client Authentication      | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
-| `23194` | Wallet Request             | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `23195` | Wallet Response            | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
+| `40`    | チャンネル作成           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
+| `41`    | チャンネル・メタデータ           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
+| `42`    | チャンネル・メッセージ            | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
+| `43`    | チャンネル・非表示メッセージ       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
+| `44`    | チャンネル・ミュート・ユーザー          | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
+| `1063`  | ファイル・メタデータ              | [94](https://github.com/nostr-protocol/nips/blob/master/94.md) |
+| `1984`  | 通報（スパム報告など）                  | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
+| `9734`  | Zapリクエスト                | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
+| `9735`  | Zapレシート                        | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
+| `10000` | ミュート・リスト                  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
+| `10001` | ピン留めリスト                   | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
+| `10002` | 利用中のリレー・リスト        | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
+| `13194` | ウォレット情報                | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
+| `22242` | クライアント認証      | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
+| `23194` | Wallet Connectリクエスト             | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
+| `23195` | Wallet Connectリクエスト            | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
 | `24133` | Nostr Connect              | [46](https://github.com/nostr-protocol/nips/blob/master/46.md) |
-| `30000` | Categorized People List    | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30001` | Categorized Bookmark List  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30008` | Profile Badges             | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30009` | Badge Definition           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30017` | Create or update a stall   | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30018` | Create or update a product | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30023` | Long-form Content          | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| `30078` | Application-specific Data  | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
-| `30402` | Classifieds                | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
-| `31989` | Handler recommendation     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-| `31990` | Handler information        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
+| `30000` | カテゴライズされたユーザー・リスト    | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
+| `30001` | カテゴライズされたブックマーク・リスト  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
+| `30008` | プロフィール・バッジ             | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
+| `30009` | バッジの定義           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
+| `30017` | 商品の作成・更新   | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
+| `30018` | 商品の作成・更新 | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
+| `30023` | 長文投稿          | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
+| `30078` | アプリの固有データ  | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
+| `30402` | クラシファイド                | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
+| `31989` | ハンドラーの推薦     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
+| `31990` | ハンドラーの情報        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
 
 ### 標準化されたタグ
 
