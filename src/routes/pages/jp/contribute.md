@@ -1,34 +1,34 @@
 ---
-title: How you can contribute
-description: It takes a village. We started Nostr.how because we are excited about the Nostr protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+title: 貢献する方法
+description: それには村が必要です。私たちがNostr.howを始めたのは、Nostrプロトコルと、ビッグテックによる支配からソーシャルメディアを解放するために、何ができるのかに興奮しているからです。Nostr.howを運営し続けるためには、皆さんの協力が必要です。
 ---
 
-## [§](#in-general) In general
+## [§](#in-general) 全般
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/nostr-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+これはボランティアによって運営されているオープンソース・プロジェクトです。[コード](https://github.com/erskingardner/nostr-how)はGitHubに公開されています。誰もが、みんながこのレポジトリをコピーし、変更を加え、プルリクエストを提出することができます。
 
-If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
+コードに自信のない方も安心してください。翻訳、コンテンツの執筆、誤字脱字の報告、ホスティング費用をまかなうためのZapなど、他にも協力いただける方法があります。
 
-## [§](#send-feedback) Send us feedback
+## [§](#send-feedback) フィードバックを送る
 
-If you find typos or information that is incorrect on Nostr.how, please let us know by creating an [issue on our GitHub repo](https://github.com/nostr-how/nostr-how/issues).
+もしNostr.how内での誤字や間違った情報を見つけた場合は、[issue](https://github.com/nostr-how/nostr-how/issues)よりお知らせください。
 
-Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
+さらに、私たちが書くべきコンテンツのアイデアがあれば、提案とともにissueを追加してください。🙌🏼
 
-## [§](#write-content) Write content
+## [§](#write-content) コンテンツを書く
 
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
+もしあなたがライターで、貢献したいのであれば、遠慮なく声をかけてください（繰り返しになりますが、[issue](https://github.com/nostr-how/nostr-how/issues)よりご連絡ください）。あなたの技術レベルに応じて、どのような方法でも貢献していただけます。
 
-## [§](#translate-content) Translate content into other languages
+## [§](#translate-content) コンテンツを他言語に翻訳する
 
-We're looking for translators to help us translate this site. [Please reach out via DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) if you're interested.
+このサイトの翻訳を手伝ってくれる翻訳者を募集しています。興味のある方は[DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)よりご連絡ください。
 
-## [§](#hack-with-us) Hack with us
+## [§](#hack-with-us) ハックする
 
-This site is built using Svelte, Tailwind CSS, and Markdown. If you'd like to contribute to the codebase, feel free to submit Pull Requests.
+このサイトはSvelte、Tailwind CSS、Markdownで作成しています。コードベースに貢献したい方は、ぜひプルリクエストを提出してください。
 
-## [§](#donate) Donate
+## [§](#donate) 寄付する
 
-This is a volunteer project. Any sats we receive through donations will be used to spend time creating new content or paying for our hosting.
+これはボランティア・プロジェクトです。寄付していただいたsatoshi（サトシ）は、新しいコンテンツの制作やホスティング費用に使わせていただきます。
 
-We accept sats through the Lightning network only. Please donate via the button in the header, footer, or nav bar.
+現在、ライトニング・ネットワークを通じたサトシのみ受金可能です。ヘッダー、フッター、サイドメニューにある寄付ボタンより、サトシでの寄付をお願いします。
