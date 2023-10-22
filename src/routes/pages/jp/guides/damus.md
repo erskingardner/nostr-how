@@ -14,14 +14,14 @@ description: DamusのiOSクライアントを使って、Nostrを始めるため
 
 ## Step 2 - 新規アカウントの作成
 
-1. Click "Create Account".
-2. Read through and accept the EULA.
-3. You'll then pick a username (this can be changed later) and, optionally, add some other profile details. Damus auto generates keys for you at this step. Your public key is shown as the "Account ID" value. ![Damus login/signup page](/images/damus-signup.webp)
-4. Once you've finished, click "Create" and you're ready to use Nostr! 🤙
-5. Just one last **extremely important** step. You need save your private key somewhere safe.
-6. Navigate to Settings by clicking your profile image at the top left of the screen, then click "Settings" in the menu. ![Damus Settings](/images/damus-settings.webp)
-7. You'll see your "Public Account ID" (this is your public key) and your "Secret Account Login Key" (this is your private key).
-8. Copy both of these values and store them somewhere **VERY** safe. 1Password or another password manager is a good option. Remember, if you don't save this value, you'll never be able to recover your account. You can find [more info on keys here](/en/get-started#understanding-keys).
+1. "アカウント作成"をタップします。
+2. EULA（エンドユーザーライセンス契約）に目を通し、同意します。
+3. ユーザー名を選び（あとで変更可能）、オプションでその他のプロフィール詳細を追加します。Damusはこのステップで鍵を自動生成します。公開鍵は”アカウントID”の値として表示されます。 ![Damus login/signup page](/images/damus-signup.webp)
+4. 入力が終わったら、"作成"をタップすれば、Nostrを使う準備は完了です！ 🤙
+5. 最後にもうひとつだけ**極めて重要**なステップです。秘密鍵を安全な場所に保存してください。
+6. 画面左上のプロフィール画像をクリックし、メニューの”設定”をタップして設定に移動します。 ![Damus Settings](/images/damus-settings.webp)
+7. ここには”公開アカウントID”（あなたの公開鍵です）と、”秘密アカウント・ログイン鍵”（あなたの秘密鍵です）が表示されます。
+8. この2つの値をコピーし、**非常に**安全な場所に保管してください。1Passwordや他のパスワード・マネージャーは良い選択肢の1つです。この値を保存しておかなければ、アカウントを復元することはできません。[鍵の詳細はこちら](/jp/get-started#understanding-keys)を参照してください.
 
 ## 既存鍵でログインする
 
