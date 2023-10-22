@@ -1,45 +1,45 @@
 ---
-title: Get started with Nostr
-description: This guide will help you understand the basics of Nostr and get you all set up and ready to use Nostr with a new account. We’ll cover how to create a new lightning wallet, create an account, and sign into a client safely.
+title: Nostrの始め方
+description: このガイドでは、Nostrの基本を理解し、新しいアカウントでNostrを使用するためのすべてのセットアップと準備をサポートします。新しいライトニング・ウォレットの作成方法、アカウントの作成方法、クライアントに安全にサインインする方法を説明します。
 ---
 
-## [§](#understanding-keys) Understanding keys
+## [§](#understanding-keys) 鍵について理解する
 
-Each Nostr account is based on a public/private key pair. A simple way to think about this is that your public key is your username and your private key is your password, with one major caveat. Unlike a password, your private key cannot be reset if lost.
+各Nostrアカウントは公開鍵と秘密鍵のペアに基づいています。単純に考えると、公開鍵がユーザー名、秘密鍵がパスワードということになります。ただし、パスワードとは異なり、秘密鍵は紛失してもリセットできません。
 
-Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
+もう一度はっきり言います： **秘密鍵を紛失すると、あなたのNostrアカウントは失われます。もし他の誰かがあなたの秘密鍵にアクセスしたら、彼らはあなたのアカウントをコントロールすることができてしまいます。**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)) or a browser extension like [Alby](https://getalby.com/#alby-extension).
+秘密鍵は、パスワード・マネージャー（私たちは[1Password](https://1password.com/)を好みます）や、[Alby](https://getalby.com/#alby-extension)のようなブラウザ拡張機能を使うなど、安全な場所に保管してください。
 
-## [§](#protocol-vs-client) Protocol vs Client
+## [§](#protocol-vs-client) プロトコル vs クライアント
 
-Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
+Nostr自体は単なるプロトコルであり、インターネット上でメッセージをやり取りするための合意された手順です。
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a signing extension in your browser, which is a piece of software specifically designed to safely manage private keys and cryptographically sign events.
+Nostr（プロトコル）にはクライアントを介してアクセスします。クライアントはウェブ、デスクトップ、モバイルアプリがあります。Nostrクライアントの中には、秘密鍵を貼り付けてサインインできるものもあります。ウェブ上では、これは一般的に推奨されません。代わりに、ブラウザの署名拡張機能を使用することをお勧めします。これは、秘密鍵を安全に管理し、イベントに暗号署名するために特別に設計されたソフトウェアです。
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)は、Nostrをビルトインでサポートする人気の署名拡張機能と、ビットコイン・ライトニング・ウォレットです。新規ユーザーにとって、最適な選択肢と言えます。Albyのインストールについては、以下のクライアント別のガイドで説明します。
 
-## [§](#create-your-account) Create your account
+## [§](#create-your-account) アカウントを作成する
 
-Here are step-by-step guides to a few different clients we recommend:
+ここでは、私たちがお勧めするいくつかのクライアントについて、ステップバイステップ・ガイドを紹介します：
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+- [Iris](/en/guides/iris)（Web）
+- [Damus](/en/guides/damus)（iOS）
+- [Amethyst](/en/guides/amethyst)（Android）
 
-A few other clients that we love but don't have guides for:
+他にも、ガイドはありませんがファンの多いクライアントを紹介します：
 
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
+- [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)（Web）非常にクリーンで高速なWebクライアント。
+- [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)（Web）リレー・ナビゲーションに重点を置くクライアント。
+- [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)（Web）Instagramにインスパイアされた、画像、動画、音声に特化したクライアント。ミームを楽しもう！
 
-## [§](#find-friends) Find friends to follow
+## [§](#find-friends) フォローする友だちを見つける
 
--   If you know someone is on Nostr, find their profile by searching for their public key.
--   Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
--   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is a database mapping twitter users to their Nostr pubkeys.
+- If you know someone is on Nostr, find their profile by searching for their public key.
+- Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
+- [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is a database mapping twitter users to their Nostr pubkeys.
 
-## [§](#whats-signing) What does "Signing" mean?
+## [§](#whats-signing) ”署名する”とはどういう意味なのか？
 
 In order to interact with the Nostr protocol you must create a cryptographic signature each time you perform an action. Think of this signature as an authentication step where you confirm that you are, indeed, who you say you are.
 
@@ -47,14 +47,14 @@ Most Nostr clients try to make this easy and quick (or allow you to save your pr
 
 By only providing our public key above, we'll be prompted to sign anytime we want to interact with any posts or perform any updates to our profile. When that happens, Alby will automatically pop up (like it did during the sign up step) and you can confirm that you actually want to sign.
 
-## [§](#can-i-use-other-clients) Can I use other clients?
+## [§](#can-i-use-other-clients) 他のクライアントも使えるのか？
 
 Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
 
-## [§](#next-steps) Next steps
+## [§](#next-steps) 次のステップ
 
 Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
 
--   [Verify your identity](/en/guides/get-verified)
--   [What are Relays and how do they work?](/en/relays)
--   [Learn more about NIPs and the development of the protocol](/en/the-protocol)
+- [Verify your identity](/en/guides/get-verified)
+- [What are Relays and how do they work?](/en/relays)
+- [Learn more about NIPs and the development of the protocol](/en/the-protocol)
