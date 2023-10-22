@@ -3,7 +3,7 @@ title: Nostrリソースとリンク集
 description: これは、私たちがおすすめするその他のNostrリソースとプロジェクトのリンク集です。
 ---
 
-もしあなたがプロジェクトに取り組んでいて、それをここに掲載したい場合は、[send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)か[add an issue](https://github.com/erskingardner/nostr-how/issues)か[submit a PR](https://github.com/erskingardner/nostr-how/pulls)のどれかで、私たちのGithubリポジトリに送ってください。
+もしあなたがプロジェクトに取り組んでいて、それをここに掲載したい場合は、[noteを送る](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)か[issueを追加する](https://github.com/erskingardner/nostr-how/issues)か[PRを提出する](https://github.com/erskingardner/nostr-how/pulls)かのいずれかで、私たちのGithubリポジトリに送ってください。
 
 ## [§](#nostr-repo) Nostrリポジトリ
 
