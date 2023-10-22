@@ -1,39 +1,39 @@
 ---
-title: Nostr Resources & Links
-description: This is a collection of other Nostr resources and projects that we've come across.
+title: Nostrリソースとリンク集
+description: これは、私たちがおすすめするその他のNostrリソースとプロジェクトのリンク集です。
 ---
 
-If you are working on project and would like it included here, [send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) or [add an issue](https://github.com/erskingardner/nostr-how/issues) or [submit a PR](https://github.com/erskingardner/nostr-how/pulls) to our Github repo.
+もしあなたがプロジェクトに取り組んでいて、それをここに掲載したい場合は、[send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)か[add an issue](https://github.com/erskingardner/nostr-how/issues)か[submit a PR](https://github.com/erskingardner/nostr-how/pulls)のどれかで、私たちのGithubリポジトリに送ってください。
 
-## [§](#nostr-repo) The Nostr repository
+## [§](#nostr-repo) Nostrリポジトリ
 
-The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the canonical home of Nostr. It's a very sparse repository but houses [@fiatjaf's](https://github.com/fiatjaf) original reasoning on why Nostr needs to exist.
+[Nostr protocol repository](https://github.com/nostr-protocol/nostr)は、Nostrの標準的なホームです。非常にまばらなリポジトリですが、[@fiatjaf](https://github.com/fiatjaf)によるNostrが存在する必要がある理由についての独自の推論が格納されています。
 
-## [§](#nostr-relays) Nostr Relays
+## [§](#nostr-relays) Nostrリレー
 
--   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
--   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
--   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
--   See our page on [relay implementations](/en/relay-implementations) for more.
+- [Purplepag.es](https://purplepag.es/what)は特殊リレーです。
+- [Nostr.watch](https://nostr.watch/relays/find)はよく知られたリレーの情報がすべて掲載されています。
+- [Relay Exchange](https://relay.exchange/)は現在稼働中の有料リレー・リストです。
+- [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/)は、他の主要なリレーからの読み書きを集約する興味深いプロジェクトです。このプロジェクトの目的は、パブリック・リレーとプライベート・リレーのギャップを埋めることです。
+- 詳しくは[リレー実装](/ja/relay-implementations)ページをご覧ください。
 
-## [§](#search-data) Search & data
+## [§](#search-data) 検索とデータ
 
--   [Nostr.band](https://nostr.band) is a search engine for Nostr that can help you find new users to follow or find that note you saw a while back.
--   [Network stats](https://stats.nostr.band) is also run by Nostr.band. This is a high level set of data about the growth of the Nostr network.
--   [Zaplife](https://zaplife.lol) is an aggregation of all(?) Zaps across Nostr in the last several hours. Think of it as the Zap leaderboard. ⚡
--   [Swarmstr](https://swarmstr.com) is a Q&A Nostr client that can help you find answers to your questions. Allows you to look up questions by content from #asknostr tag activity.
+- [Nostr.band](https://nostr.band)はNostrの検索エンジンで、フォローする新しいユーザーを探したり、ちょっと前に見たノートを見つけるのに役立ちます。
+- [Network stats](https://stats.nostr.band)は同じくNostr.bandによって運営されています。これはNostrネットワークの成長に関するハイレベルなデータセットです。
+- [Zaplife](https://zaplife.lol)は過去数時間にNostr上で行われたすべての（？）Zapsの集計です。Zapリーダーボードだと思ってください。⚡
+- [Swarmstr](https://swarmstr.com)は質問に対する答えを見つけるのに役立つQ&A Nostrクライアントです。#asknostrタグのアクティビティ内容から質問を検索することができます。
 
-## [§](#long-form-content) Long-form content
+## [§](#long-form-content) 長文投稿
 
--   [Habla](https://habla.news)
--   [Blogstack](https://blogstack.io/)
+- [Habla](https://habla.news)
+- [Blogstack](https://blogstack.io/)
 
-## [§](#badges) Badges
+## [§](#badges) バッジ
 
--   [Badges.page](https://badges.page/)
+- [Badges.page](https://badges.page/)
 
-## [§](#others) Others
+## [§](#others) その他
 
--   [Awesome Nostr](https://www.nostr.net) is a repository of links for Nostr clients, relay implementations, and more.
--   [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
+- [Awesome Nostr](https://www.nostr.net)はNostrクライアントやリレー実装などに関するリンク集です。
+- [Nostr Resources](https://nostr-resources.com)はNostrの基本をカバーし、他の多くのリソースにリンクしています。
