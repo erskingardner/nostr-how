@@ -1,42 +1,42 @@
 ---
-title: Relay Implementations
-description: This is a list of all known implementations of the Nostr relay spec. You only need this if you're planning on running a relay yourself. Relays are (so far) application agnostic. You can run your own or use any or all of the public instances.
+title: リレーの実装
+description: Nostrリレー仕様の知られている実装の一覧です。自分でリレーを運営しようと考えている場合にのみ必要です。リレーは（今のところ）アプリケーションに依存しません。自分で実行することも、公開されているインスタンスを利用することもできます。
 ---
 
 ## Go
 
--   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): A simple reference relay backed by Postgres, written as a demo on top of the [Relayer](https://github.com/fiatjaf/relayer) framework for building custom relays
+- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic)：カスタムリレーを構築するための[Relayer](https://github.com/fiatjaf/relayer)フレームワーク上にデモとして書かれた、Postgresによってバックアップされたシンプルなリファレンス・リレー
 
 ## C++
 
--   [Stirfry](https://github.com/hoytech/strfry): A database-less relay implementation in C++.
+- [Stirfry](https://github.com/hoytech/strfry)：C++によるデータベースレス・リレーの実装
 
 ## C#
 
--   [NNostr](https://github.com/Kukks/NNostr): A C# relay
+- [NNostr](https://github.com/Kukks/NNostr)：C#リレー
 
 ## Rust
 
--   [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/): A minimalistic relay written in Rust that saves data on SQLite
--   [søstr](https://github.com/metasikander/s0str): A private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
+- [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/)：SQLiteにデータを保存するRustで書かれた最小限のリレー
+- [søstr](https://github.com/metasikander/s0str)：Rustで書かれたプライベートなNostrリレーは、1つの公開鍵からすべてのメモを保存し、それを要求した人へ公開
 
 ## Node.js / Typescript
 
--   [nostream](https://github.com/Cameri/nostream): A nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
--   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): A relay for [Minds](https://www.minds.com), an open-source social network
-    -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): Relevant Minds API code for reading/writing Minds posts using Nostr
--   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): A Nostr relay with a clear architecture and high test coverage (Postgres, MeiliSearch, NestJS)
+- [nostream](https://github.com/Cameri/nostream)：PostgreSQLによってバックされた、Typescriptで書かれたNostrリレー (nostr-ts-relay から改名)
+- [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay)：オープンソースのソーシャルネットワークである[Minds](https://www.minds.com)向けのリレー
+    - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr)：Nostrを使用してMindsの投稿を読み書きするための関連するMinds APIコード
+- [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)：明確なアーキテクチャと高いテスト・カバレッジを持つNostrリレー（Postgres、MeiliSearch、NestJS）
 
 ## Clojure
 
--   [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay): A relay written in Clojure
+- [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay)：Clojureで書かれたリレー
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Relay, client, and other tooling in python
--   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): A Nostr relay written in python, backed by SQLite
+- [nostrypy](https://github.com/monty888/nostrpy)：Pythonによるリレー、クライアント、およびその他のツール
+- [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/)：Pythonで書かれ、SQLiteによってバックアップされたNostrリレー
 
 ## Kotlin
 
--   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): A Kotlin Relay supporting both SQLite and Postgresql
--   [knostr](https://github.com/lpicanco/knostr): A nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer)
+- [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay)：SQLiteとPostgresqlの両方をサポートするKotlinリレー
+- [knostr](https://github.com/lpicanco/knostr)：Kotlinで実装され、Postgresとメトリクス（micrometer）をサポートするNostrリレー
