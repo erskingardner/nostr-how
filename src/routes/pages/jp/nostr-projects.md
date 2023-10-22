@@ -15,7 +15,7 @@ description: これは、私たちがおすすめするその他のNostrリソ�
 - [Nostr.watch](https://nostr.watch/relays/find)はよく知られたリレーの情報がすべて掲載されています。
 - [Relay Exchange](https://relay.exchange/)は現在稼働中の有料リレー・リストです。
 - [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/)は、他の主要なリレーからの読み書きを集約する興味深いプロジェクトです。このプロジェクトの目的は、パブリック・リレーとプライベート・リレーのギャップを埋めることです。
-- 詳しくは[リレー実装](/ja/relay-implementations)ページをご覧ください。
+- 詳しくは[リレー実装](/jp/relay-implementations)ページをご覧ください。
 
 ## [§](#search-data) 検索とデータ
 
