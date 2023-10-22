@@ -1,32 +1,32 @@
 ---
-title: What are Nostr Relays?
-description: A quick overview of what Nostr relays are, why are they important, and how they work.
+title: Nostrリレーとは?
+description: リレーとは何か、なぜ重要なのか、そしてその仕組みついて簡単に説明します。
 ---
 
-## What are relays?
+## リレーとは?
 
-Relays are like the backend servers for Nostr. They allow Nostr clients to send them messages, and they may (or may not) store those messages and broadcast those messages to all other connected clients.
+リレーは、Nostrのバックエンド・サーバーのようなものです。Nostrクライアントがメッセージを送ることを許可し、そのメッセージを保存したり、他の接続されたクライアントにメッセージをブロードキャストしたりします。
 
-The world of relays is changing fast so expect many changes here in the future. One thing to note, because Nostr is decentralized and depends on relays to store and retreive data, if you notice that your Nostr client feels slow, it's most likely due to the relays that you're using. It might be worth adding a few more relays (or removing a few) to your client.
+リレーの世界は急速に変化しているため、将来的に多くの変化が起こることが予想されます。Nostrは分散型であり、データの保存と取得をリレーに依存しているため、Nostrクライアントが遅いと感じる場合は、使用しているリレーが原因である可能性が高いです。クライアントに、もう少しリレーを追加したり（または削除したり）する必要があるかもしれません。
 
-## Paid vs Free relays
+## 有料リレー vs 無料リレー
 
-Many relays are currently free to use. Given the costs of running a relay (paying for compute, storage, and bandwidth), most people expect that paid relays will be the norm in the future.
+現在、多くのリレーは無料で利用できます。リレーの運用コスト（コンピューター、ストレージ、帯域幅への支払い）を考えると、将来的には有料のリレーが主流になると予想する人が多いです。
 
-One major benefit of using paid relays now is the higher signal of users and notes on paid relays. The "proof of work" of paying for relay access is something that helps keep spam accounts from infesting the network.
+現在、有料リレーを使用する大きな利点のひとつは、有料リレー上のユーザーとノートの価値が高いことです。リレーへのアクセスにお金を払うという「プルーフオブウォーク」は、スパム・アカウントがネットワークにはびこらないようにするのに役立ちます。
 
-### Popular paid relays
+### 人気の有料リレー
 
-An up-to-date list of paid relays with details on how much they cost and who operates them can be found on [Relay Exchange](https://relay.exchange/)
+有料リレーの最新リストと、その料金や運営者の詳細は、[Relay Exchange](https://relay.exchange/)で確認できます。
 
-### Where can I find a list of all relays?
+### 全リレーのリストはどこで入手できるのか？
 
-The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://nostr.watch/relays/find).
+リレーの速度を閲覧・評価するのに最適なリソースは、[Nostr.watch site](https://nostr.watch/relays/find)です。
 
-## What happens if all the relays I use stop working?
+## 使用しているリレーがすべて作動しなくなったらどうなるのか？
 
-If _all_ the relays that you have used in the past go offline, all your posts will be unretrievable. This is one reason that Nostr allows users to connect to many relays – this ensures some degree of backup. That said, if you're really interested in being uncensorable, you can and should run your own personal relay.
+使用している”すべて”のリレーがオフラインになると、すべての投稿が復元できなくなります。これが、Nostrが多くのリレーに接続できるようにしている理由の1つです。とはいえ、本当に検閲されないことに興味があるなら、自分専用のリレーを運営することもできるし、そうすべきです。
 
-## Should I run my own relay?
+## 自分でリレーを運営するべきなのか？
 
-For most people, no, it's not worth the hassle. That said, if you're technical and want to ensure that your speech is absolutely uncensorable or want to run a private relay for a small group, then you can and should run your own relay. This ensures that you always have a copy of all your Nostr posts and interactions for all time. We're working on a guide to this but in the meantime, [here is a guide](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) from Andre Neves on how to set up a Nostr relay.
+ほとんどの人にとって、その手間をかける価値はありません。とはいえ、もしあなたが技術者で、自分の投稿を絶対に検閲されないようにしたい、あるいは少人数でプライベート・リレーを使いたいのであれば、あなた自身のリレーを運営することができますし、そうすべきです。そうすることで、あなたのNostrへの投稿ややりとりを常にコピーしておくことができます。私たちはこのガイドを作成中ですが、それまでの間、Andre NevesによるNostrリレーの設定方法に関する[こちらのガイド](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)をご覧ください。
