@@ -1,50 +1,51 @@
 ---
-title: What are Nostr Clients?
-description: An overview of what Clients are in Nostr and a comparison of a few of our favorites.
+title: Nostrクライアントとは?
+description: Nostrにおけるクライアントの概要と、いくつかのお気に入りのクライアントについて比較します。
 ---
 
-## What's a client?
+## クライアントとは？
 
-A client in Nostr is just the app that you use to access and interact with the protocol. It's like the Twitter iOS app or web app that you use to interact with Twitter's feed of tweets.
+Nostrにおけるクライアントとは、プロトコルにアクセスしてやり取りするためのアプリのことです。言うなれば、Twitter（現X）のiOSアプリやウェブアプリで、Twitterのツイートフィードにアクセスするようなものです。
 
-Because the Nostr protocol is very simple and flexible, different clients have focused on implementing different aspects of the protocol in slightly different ways. For example, some clients focus on beautiful and usable UI, others focus more on enabling lighting payments, still others focus on Nostr for creative use cases like playing chess (Yes, you can [play chess](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) via the Nostr protocol).
+Nostrプロトコルは非常にシンプルで柔軟性があるため、クライアントによってプロトコルのさまざまな側面を少しずつ異なる方法で実装することに重点を置いています。例えば、あるクライアントは美しく使いやすいUIに重点を置き、あるクライアントはライトニング決済を可能にすることに重点を置き、またあるクライアントはチェスをプレイするようなクリエイティブなユースケースのために重点を置いています（そう、あなたはNostrプロトコルを介して[チェスをプレイする](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)ことができます）。
 
-Most of the clients that have been built so far are centered around the social media use-case. But we're starting to see more interesting use cases.
+これまでに作られたクライアントのほとんどは、ソーシャルメディアのユースケースが中心です。しかし、私たちはもっと興味深い使用例を見始めています。
 
-A few examples:
+いくつかの例：
 
--   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): Play chess on Nostr
--   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): Long-form content – like Medium
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): Media focused social client
--   [zap.stream](https://zap.stream/): Twitch-like streaming site with zaps
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)：Nostr上でチェスをプレイする
+-   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how)：長文投稿 – Mediumのような
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)：画像に特化したソーシャル・クライアント
+-   [zap.stream](https://zap.stream/)：Zapsを使ったTwitchのようなストリーミング・サイト
 
-## Can I switch clients?
 
-Yes. Because a client is just a way to access the underlying data held by relays, you can switch clients or sign into as many clients as you'd like. As long as each client is looking at the same set of relays for their data, you'll see the same messages in each client.
+## クライアントの使い分けは可能なのか？
 
-## Should I enter my private key in the client?
+はい。クライアントはリレーが保持する基礎データにアクセスするための手段に過ぎないので、クライアントを切り替えたり、好きなだけクライアントにサインインすることができます。各クライアントが同じリレーのデータを見ている限り、各クライアントで同じメッセージが表示されます。
 
-Generally, it's better not to enter your private key into any client. Most clients that ask for private keys do their absolute best to keep your key secure but given the nature of software, there are always breaches, exploits, and bugs that could potentially expose your private key.
+## クライアントへの秘密鍵の入力は必須なのか？
 
-Remember, your private key is your identity in Nostr, so if it is compromised, you'll have to start from scratch rebuilding your identity, and you'll lose your list of followers and all your private messages.
+一般的に、秘密鍵はどのクライアントにも入力しない方がよいでしょう。秘密鍵の入力を求めるクライアントのほとんどは、あなたの秘密鍵を安全に保つために最善を尽くしていますが、ソフトウェアの性質上、あなたの秘密鍵が漏れる可能性のある違反、悪用、バグが常に存在します。
 
-## A few of our favorite clients
+秘密鍵はNostrにおけるあなたのアイデンティティであることを忘れないでください。もし秘密鍵が漏洩した場合、ゼロからあなたのアイデンティティを再構築する必要があり、フォロワー・リストやプライベート・メッセージをすべて失うことになります。
 
-### Web
+## いくつかのお気に入りのクライアント
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – This is our recommended client for new users. [Check out our guide here](/en/guides/iris).
+### ウェブ
+
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。 [Check out our guide here](/en/guides/iris).
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
 
-### Desktop
+### デスクトップ
 
--   [Gossip](https://www.github.com/mikedilger/gossip) – Gossip is a very opinionated desktop client that requires a bit more technical knowledge to use. The payoff is that it gives users more control over how they interact with Nostr.
+-   [Gossip](https://www.github.com/mikedilger/gossip) – Gossipは非常に意見の多いデスクトップ・クライアントで、使用するにはもう少し専門的な知識が必要です。その代わり、ユーザーはNostrとのやり取りをよりコントロールできるようになります。
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – This is the first & best iOS client for Nostr. [Check out our guide here](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – これは、Nostrのための最初の、そして最高のiOSクライアントです。 [Check out our guide here](/en/guides/damus).
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – A beautiful client for Android. [Check out our guide here](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Androidのための美しいクライアントです。 [Check out our guide here](/en/guides/amethyst).
