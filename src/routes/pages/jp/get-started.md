@@ -35,26 +35,26 @@ Nostr（プロトコル）にはクライアントを介してアクセスしま
 
 ## [§](#find-friends) フォローする友だちを見つける
 
-- If you know someone is on Nostr, find their profile by searching for their public key.
-- Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
-- [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is a database mapping twitter users to their Nostr pubkeys.
+- 誰かがNostrを利用していることを知っているなら、その人の公開鍵を検索してプロフィールを見つけましょう。
+- 多くのTwitter（現X）ユーザーが#nostrというハッシュタグを付けてNostr公開鍵をツイートいているので、このハッシュタグで検索してみるとよいきっかけになるはずです。
+- [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)は、TwitterユーザーとNostr公開鍵をマッピングしたデータベースです。
 
 ## [§](#whats-signing) ”署名する”とはどういう意味なのか？
 
-In order to interact with the Nostr protocol you must create a cryptographic signature each time you perform an action. Think of this signature as an authentication step where you confirm that you are, indeed, who you say you are.
+Nostrプロトコルとやりとりするためには、何かアクションを実行するたびに暗号署名を作成する必要があります。この署名は、あなたが本当にあなたであることを確認する認証ステップと考えてください。
 
-Most Nostr clients try to make this easy and quick (or allow you to save your private key in the client so that they can sign on your behalf anytime you do anything).
+ほとんどのNostrクライアントは、これを簡単かつ迅速に行えるようにしています（あるいは、秘密鍵をクライアントに保存しておけば、いつでもあなたの代わりに署名してくれます）。
 
-By only providing our public key above, we'll be prompted to sign anytime we want to interact with any posts or perform any updates to our profile. When that happens, Alby will automatically pop up (like it did during the sign up step) and you can confirm that you actually want to sign.
+上でも書いたように、公開鍵を提供するのみであれば、投稿にアクセスしたり、プロフィールを更新したりするときは、必ず署名を求められます。その際、Albyが自動的にポップアップ表示され（サインアップのステップで表示されたように）、サインアップするかどうかを確認することができます。
 
 ## [§](#can-i-use-other-clients) 他のクライアントも使えるのか？
 
-Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
+はい！あなたは公開鍵と秘密鍵のペアを作成したので、どのNostrクライアントでもこのペアを使用してアカウントにアクセスすることができます。クライアントは、Nostrプロトコルでブロードキャストされたメッセージを見るためのインターフェースに過ぎないことを忘れないでください。
 
 ## [§](#next-steps) 次のステップ
 
-Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
+これで、ライトニング・ウォレット、ID（キーペア）がセットアップされ、クライアントを試すことができました。Nostrをさらに使いこなすのに便利なリンクをいくつか紹介します：
 
-- [Verify your identity](/en/guides/get-verified)
-- [What are Relays and how do they work?](/en/relays)
-- [Learn more about NIPs and the development of the protocol](/en/the-protocol)
+- [ドメイン認証 (NIP-05) の取得](/jp/guides/get-verified)
+- [リレーとは？](/jp/relays)
+- [Nostrプロトコル](/jp/the-protocol)
