@@ -32,6 +32,6 @@ Albyは、あなたの公開鍵と秘密鍵をローカルで管理するビッ�
 
 ### ステップ3 — 新しいチャットChannelを作成し、Nostrの友だちと共有する
 
-NostrChat.ioに参加すると、global channelでチャットしたり、あなたのプロジェクトやお友だちのために新しいchannelを作成することができます。Channel URLをお友だちと共有するだけです。**重要：これらのchannelは全て公開されています** 現時点では、グループ・チャットをプライベートとして設定する方法はありません。
+NostrChat.ioに参加すると、global channelでチャットしたり、あなたのプロジェクトやお友だちのために新しいchannelを作成することができます。Channel URLをお友だちと共有するだけです。**重要：これらのchannelは全て公開されています**。現時点では、プライベートなグループ・チャットはサポートされてません。
 
 NostrChat.ioのアクティブ開発は[Github](https://github.com/NostrChat/NostrChat)で行われています。
