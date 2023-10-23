@@ -3,37 +3,37 @@ title: セルフカストディ・ウォレットへの送金
 description: このガイドでは、セルフカストディ・ウォレットで資産を管理することで、カウンターパーティ・リスクを軽減するためのシンプルなソリューションについて紹介します。
 ---
 
-## [§](#who-is-this-guide-for) このガイドは誰のためのものなのか？
+## [§](#who-is-this-guide-for) このガイドは誰のためなのか？
 
 
-Most users right now are using Nostr with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+現在ほとんどのユーザーは、Wallet of SatoshiやAlbyのようなカストディアル・ライトニング・ウォレットでNostrを使っています。
 
-If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
+もしあなたもそうであるなら、今すぐウォレットの中のsatoshi（サトシ）について考えてみてください。今、そのサトシをすべて失うことを考えてみてください。もしその考えが不快に感じたり、心配になったりするなら、このガイドはあなたのためにあります。
 
-We'll cover setting up a self-custodial wallet which will allow you to periodically sweep funds from your custodial wallet for safekeeping.
+ここでは、カストディアル・ウォレットから定期的に資金を送金して保管することができる、セルフカストディアル・ウォレットの設定について説明します。
 
 ## [§](#why-is-self-custody-important) なぜセルフカストディが重要なのか？
 
-Simply put; not your keys, not your coins. When you leave your sats in a custodial wallet you're accepting some degree of counter-party risk. Imagine if Wallet of Satoshi was somehow hacked. Because they hold all customer funds, a situation like this would mean that your funds would be lost.
+こんな格言があります。「Not your keys, not your coins（秘密鍵を持っていないなら、ビットコインの所有権はない）」自分のコインをカストディアル・ウォレットに預けることは、ある程度の相手方リスクを受け入れることになります。もしWallet of Satoshiがハッキングされたとしましょう。彼らはすべての顧客の資金を保管しているため、このような状況はあなたの資金が失われることを意味します。
 
-Because of this, it's strongly advised that you only keep a small amount of funds in _any_ custodial wallet and self-custody the rest of your bitcoin.
+このため、カストディアル・ウォレットには少額の資金のみを保管し、残りのビットコインは自分で管理することを強くお勧めします。
 
 ## [§](#ready-lets-go) 準備はOK？レッツゴー！
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+これは、独自のライトニング・ノードをセットアップしたり、技術的なことをする必要のない初心者向けのガイドです。私たちのハックは、ビットコイナーたちのNostrコミュニティを利用して、ライトニング・ネットワーク上のサトシからメインのビットコイン・ベースチェーン上のカストディ・サトシへ交換（スワップ）することです。あなたの積み上げたサトシを保護し、ピアツーピア・トランザクションを行う友人を作りましょう。WIN-WINです！
 
-If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
+ここでの専門用語に圧倒されそうなら、[ページ下部のセクション](#lightning-bitcoin-on-chain-what)で詳細を確認してください。
 
-1. First follow this guide to set up a new Bitcoin wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). You can also use any other self-custodial wallet.
-1. Once you have very carefully saved your seed words (which is what you'll use to restore your wallet if needed), you are ready to find someone to do a swap with.
-1. The easiest way to do this is to post a note mentioning the tags #plebchain and #bitcoin mentioning that you'd like to swap some lightning sats for on-chain sats. Don't be shy about directly messaging folks that talk about bitcoin regularly. You can also [ping me directly](https://primal.net/jeffg) if needed.
-1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
-    1. Agree on an amount to swap.
-    1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Nostr client.
-    1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
-    1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
-1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.
+1. まず、このガイドに従って[Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/)に新しいビットコイン・ウォレットをセットアップしてください。他のセルフカストディアル・ウォレットを使用することもできます。
+2. シードフレーズ（必要に応じてウォレットを復元するために使用するもの）を慎重に保存したら、スワップする相手を探す準備ができました。
+3. 最も簡単な方法は、#plebchainと#bitcoinというタグを付けて、ライトニング・サトシとオンチェーン・サトシをスワップしたい旨を投稿することです。恥ずかしがらずに、定期的にビットコインについて話している人たちに直接メッセージを送ってください。必要であれば[私に直接知らせる](https://primal.net/jeffg)こともできます。
+4. そこから、スワップする相手と直接計画を立てます。ビットコインにはエスクロー（第三者機関）が存在しないため、トランザクションを完了するために信頼できる人と取引をしているという安心感を得る必要があります。一般的に、プロセスは次のようになります：
+    1. スワップする金額について合意します。
+    2. 新しく作成したウォレット・アドレス（Blue Wallet）をDMで相手に伝えます。
+    3. Nostrクライアントを介して、その人にサトシを送金します。
+    4. 彼らはオンチェーン・トランザクションを開始し、同額のサッツをあなたに支払います（このとき、トランザクション手数料を差し引く場合もあります）。
+    5. このオンチェーン・トランザクションには時間がかかることを忘れないでください。取引相手がトランザクションIDを入手したらすぐにあなたに送信し、[mempool.space](https://mempool.space)で追跡できるようになります（そうあるべきです）。
+5. 以上で完了です！資金が着金したら、あなたは最初のビットコインのセルフカストディに成功したことになります。ぜひ、ビットコインを大切に扱ってください。
 
 ## [§](#lightning-bitcoin-on-chain-what) ライトニング？ビットコイン？オンチェーン？何のこと？
 
@@ -48,14 +48,14 @@ Bitcoin prioritizes certainty over speed. This means that transactions cost a li
 If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
 
 1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
-1. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
+2. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
 
 ### ライトニング
 
 Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
 
 1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
-1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
+2. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
 
 ### オンチェーン vs オフチェーン
 
