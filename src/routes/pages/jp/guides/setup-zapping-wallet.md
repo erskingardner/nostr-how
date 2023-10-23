@@ -1,6 +1,6 @@
 ---
 title: 最初のZaps用ウォレットの設定
-description: NostrでZaps用のライトニング・ウォレットを設定するためのガイドです。
+description: NostrでZapするためのライトニング・ウォレット設定についてのガイドです。
 ---
 
 ## [§](#magic-internet-money) 魔法のインターネットマネー、まるで光速のような
