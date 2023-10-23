@@ -11,15 +11,15 @@ description: AmethystのAndroidクライアントを使って、Nostrを始め�
 
 ## Step 2 - アカウントを作成する
 
-1. Read through the "terms of use" and check the box.
-2. Click on "Generate a new key".
-3. Congratulations, you've just created a new Nostr identity! 🤙
-4. You get redirected to the home screen and show "Feed is empty. Refresh", because you are not yet following any other accounts. We'll take care of that later.
-5. Just one last **extremely important** step. You should keep your private key in a safe place. To do this, click on the icon with the weird-looking robot at the top left corner, which is currently your profile picture. A sidebar will appear.
-6. Navigate to "Backup Keys" and click "Copy my secret key" at the bottom.
-7. Your private key is now on your smartphone's clipboard, it's best to keep it in a **VERY** safe place. '1Password' or any other password manager is a good option. Remember, you won't be able to recover your account if you forget the private key. You can find [more info on keys here](/en/get-started#understanding-keys).
-8. Now you can continue setting up your account. Go back to your profile picture at the top left corner of the home screen and navigate to "Profiles". From there, click on the icon with the three lines and pen next to "Follow". You can adjust your profile settings there. If you are done click "Post" in the top right corner to confirm your changes.
-9. Ok, your account is set up now, let's fill your feed and follow other people. Click on the search icon in the top right corner and search for accounts you know, or just click on "All Follows" on the home screen (house icon at the bottom left) and select "Global". You'll see now all notes that are sent to your connected relays. If you feel overwhelmed, no worries, over time you'll find new interesting accounts here. Just give it a try.
+1. ”利用規約”に目を通し、チェックボックスにチェックを入れます。
+2. "新しい鍵の生成"をタップします。
+3. おめでとうございます。あなたは今、新しいNostrアカウントを作成しました！ 🤙
+4. ホーム画面にリダイレクトされ、”フィードが空です。更新する"と表示されますが、これはまだ他のアカウントをフォローしていないためです。後で対応しましょう。
+5. 最後にもうひとつだけ**極めて重要**なステップです。秘密鍵は安全な場所に保管してください。そのためには、左上にある変なロボットのアイコンをタップしてください。サイドバーが表示されます。
+6. ”鍵のバックアップ"に移動し、一番下にある ”秘密鍵のコピー"をタップします。
+7. あなたの秘密鍵はスマートフォンのクリップボードにあります。”1Password”または他のパスワード・マネージャーが良い選択肢です。秘密鍵を忘れると、アカウントを復元できなくなることをお忘れなく。[鍵の詳細はこちら](/jp/get-started#understanding-keys)を参照してください。
+8. これでアカウントの設定を続けることができます。ホーム画面の左上にあるプロフィール画像に戻り、”プロフィール”に移動します。そこから、"フォロー"の隣にある三本線とペンのアイコンをタップします。そこでプロフィールを設定できます。設定が完了したら、右上の”投稿”をタップして変更を確定します。
+9. さて、アカウントは設定できたので、フィードを埋めて他の人をフォローしてみましょう。右上の検索アイコンをタップして知っているアカウントを検索するか、ホーム画面の"すべてフォロー"（左下のホーム・アイコン）をタップして "グローバル"を選択してください。接続されているリレーに送信されたすべてのノートが表示されます。もし圧倒されそうになっても、心配はいりません。時間が経てば、ここに新しい興味深いアカウントが見つかることでしょう。ぜひ、試してみてください。
 
 ## 既存鍵でログインする
 
