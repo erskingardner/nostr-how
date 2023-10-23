@@ -37,34 +37,35 @@ description: このガイドでは、セルフカストディ・ウォレット�
 
 ## [§](#lightning-bitcoin-on-chain-what) ライトニング？ビットコイン？オンチェーン？何のこと？
 
-If this all sounds like greek to you don't worry. Before we get into the guide, let's quickly cover some terminology.
+これらすべてがギリシャ語のように聞こえるかもしれませんが、心配無用です。ガイドに入る前に、技術的な用語について簡単に振り返ってみましょう。
+
 
 ### ビットコイン
 
-This rabbit hole has no known bottom. That said, if you're new to Bitcoin the only thing that you really need to know is that Bitcoin is a completely decentralized form of electronic money. It isn't controlled by any one person or entity and runs based on rules coded into the software, instead of being dependent on politics and governements. Bitcoin is the only truly decentralized and rules-based electronic money.
+このラビット・ホール（Rabbit hole）には底がありません。とはいえ、ビットコインに初めて触れる人が本当に知っておくべき唯一のことは、ビットコインは完全に非中央集権的な電子マネーであるということです。政治や行政に依存するのではなく、ソフトウェアにコード化されたルールに基づいて運営されています。ビットコインは、真に非中央集権的でルールに基づく唯一の電子マネーなのです。
 
-Bitcoin prioritizes certainty over speed. This means that transactions cost a little in fees and take some time to confirm but once they're confirmed, they are completely irreversible and no one can take your coins or censor your transaction.
+ビットコインは、スピードよりも確実性を優先します。つまり、トランザクションには若干の手数料がかかり、確認に時間がかりますが、一度確認されれば完全に不可逆であり、誰もあなたのコインを奪ったり、トランザクションを検閲したりすることはできません。
 
-If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
+もっと学びたい方は、ビットコインについてより深く知るための素晴らしいスターター・リソースをいくつか紹介します。
 
 1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
 2. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
 
 ### ライトニング
 
-Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
+ライトニングは、ビットコインの上で動作する決済レイヤーです。基本的にはビットコインを資金として支払いを行うことに変わりありませんが、ライトニングを利用することで、瞬時に近い、極めて低手数料のトランザクションが可能になります。このため、ライトニング・ネットワークは、マイクロペイメントを含む多くの新しいユースケースを切り開きました。ライトニングの仕組みについての詳細は、このイントロ・ガイドの範囲を超えていますが、もっと詳しく知りたいという方のためにいくつかのリソースを紹介します：
 
 1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
 2. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
 
 ### オンチェーン vs オフチェーン
 
-You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
+オンチェーンとオフチェーンのビットコインについて言及するのをよく耳にします。オンチェーンのトランザクションについて語られるとき、それは単にベースとなるビットコインのブロックチェーンを使用してトランザクションを行うことを指します（覚えておいてください：これはより遅いですが、100％完全かつ確実です）。人々がオフチェーン取引に言及するとき、彼らはほとんどの場合、ライトニングを指しています。
 
 ### カストディ vs セルフカストディ
 
-For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
+ビットコインが初めての人にとっては、この概念は異質なものに思えるかもしれません。結局のところ、私たちのほとんどは（少なくとも先進国では）、お金を保管するために銀行のようなカストディアン・サービスしか利用したことがありません。しかし、最近（そして世界中のあまり発展していない金融市場でも定期的に）見られるように、カストディアンにお金を預けることにはリスクが伴います。銀行は破綻し（シリコンバレー銀行など）、カストディアンは判断を誤り、資金を失うことがあります（FTX、Voyagerなど）。
 
-When you take custody of your Bitcoin you only have to put trust in yourself to store you bitcoin safely. You have total control.
+ビットコインを保管する場合、ビットコインを安全に保管するためにあなた自身を信頼する必要があります。あなたは完全にコントロールできます。
 
-But with great power comes great responsiblity. While self-custody is the gold-standard for storing larger amounts of money securely, it can limit how you can use your money day-to-day. Most people use a combination of custodial and self-custody solutions; keeping large amounts in a self-custody way and keeping a small amount of funds in a custodial wallet for daily use.
+しかし、大きな力には大きな責任が伴います。セルフカストディは大金を安全に保管するための金字塔ですが、日々のお金の使い方が制限される可能性があります。ほとんどの人は、カストディアル・ソリューションとセルフカストディアル・ソリューションを組み合わせて使っています。多額の資金をセルフカストディで保管し、少額の資金をカストディアル・ウォレットに保管して日常的に使っています。
