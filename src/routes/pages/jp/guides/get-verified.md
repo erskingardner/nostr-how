@@ -5,30 +5,31 @@ description: Nostrで本人確認を行い、認証チェックマークを取�
 
 ## [§](#what-youll-learn) このガイドで学べること
 
-You might have noticed on many different clients that some users have checks, just like on Twitter.
+様々なクライアントで、Twitter（現X）のようにチェックマークを入れているユーザーがいることに、あなたは気づいたかもしれません。
 
-NIP-05 specifies how Nostr users can verify their identities. Different clients show verification in slightly different ways but it's an important way of showing the Nostr community that you're a real user.
+NIP-05は、Nostrユーザーが自分の身元を認証する方法を定義しています。クライアントによって認証方法は少し異なりますが、あなたが本物のユーザーであることをNostrコミュニティに示す重要な方法です。
 
 ![Snort Verified](/images/snort-verified.webp)
 
-The verification process on Nostr is documented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
+Nostrでの認証プロセスは、[NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md)と呼ばれるNostr Implementation Possibilities（NIP）の1つとして、文書化されています。
 
-NIP-05 enables a Nostr user to map their public key to a DNS-based internet identifier. The verification mechanism is similar to how Google requires you to verify your ownership of a domain using a DNS record.
+NIP-05は、Nostrユーザーが自分の公開鍵をDNSベースのインターネット識別子にマッピングすることを可能にします。この認証メカニズムは、GoogleがDNSレコードを使用してドメインの所有権を検証することを要求する方法と似ています。
 
-The major benefit of verification is that it allows a Nostr user to be identified by a human-readable name, instead of a long, hard-to-remember public key. This enables verified Nostr users to easily share their identity with others.
 
-To utilize NIP-05, Nostr users add a nip05 url to their profile (most clients have support for this). NIP-05 urls look like emails – bob@example.com. Let's break down the parts:
+認証の主な利点は、長くて覚えにくい公開鍵の代わりに、人間が読める名前でNostrユーザーを識別できることです。これにより、認証されたNostrユーザーは、そのアイデンティティを他のユーザーと簡単に共有することができます。
 
-1. Everything before the `@` symbol ("bob", in our example). This must match the value of the name field in your Nostr profile.
-1. Everything after the `@` symbol ("example.com", in our example). This is the domain where the client can look to find a `/.well-known/nostr.json` file that contains the user's name & public key.
+NIP-05を利用するために、Nostrユーザーは自分のプロフィールにnip05のURLを追加します（ほとんどのクライアントがこれをサポートしています）。NIP-05のURLは、例えばbob@example.comとなり、メールのように見えます。内容について、詳しく分解してみましょう：
 
-When clients see a nip05 url, they will look for a `/.well-known/nostr.json` file at the specified domain. This file must contain the nostr public key for the specified user. Read more specifics in the NIP-05 spec.
+1. ＠マーク以前のもの（この例では "bob"）すべてが、Nostrプロファイルのnameフィールドの値と一致しなければなりません。
+2. ＠マーク以降のもの（この例では "example.com"）すべてが、クライアントがユーザー名と公開鍵を含む `/.well-known/nostr.json` ファイルを探すためのドメインです。
 
-While it sounds technical, it's suprisingly easy to get verified. Let's see how to do it.
+クライアントがnip05のURLを確認すると、指定されたドメインの `/.well-known/nostr.json` ファイルを探します。このファイルには指定されたユーザーのNostr公開鍵が含まれていなければなりません。詳しくは、NIP-05の仕様についてを参照してください。
+
+技術的に聞こえるかもしれませんが、認証を受けるのは驚くほど簡単です。その方法を見てみましょう。
 
 ## [§](#free-verification) 無料サービスで認証する
 
-At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
+現在、無料で認証を受けることができるプロバイダーがいくつかあります。ライトニング・ウォレットにまだsatoshi（サトシ）が入っていない場合は、これは素晴らしい選択肢になるはずです。可能であれば、これらのプロジェクトを寄付でサポートしてあげてください。⚡🤙
 
 - [Bitcoin Nostr](https://bitcoinnostr.com/)
 - [Nostrcheck.me](https://nostrcheck.me)
@@ -39,7 +40,7 @@ At the moment, there are several providers who are helping folks get verified fo
 
 ## [§](#paid-verification) 有料サービスで認証する
 
-If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
+独自ドメインを持っていなかったり、自分で設定したくない場合は、無料または有料（通常は数[サトシ](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）のNIP-05サービスを利用することができます。いくつか紹介してみます：
 
 - [Nostrplebs](https://nostrplebs.com)
 - [Nostr Verified](https://nostrverified.com)
@@ -53,7 +54,7 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 
 ## [§](#self-hosted) 独自ドメインで認証する
 
-If you already own a domain, this is a free option. You just need to add a `.well-known/nostr.json` file to your domain. The contents of the file should be the following:
+すでにドメインを持っている場合、これは無料のオプションです。あなたのドメインに `.well-known/nostr.json` ファイルを追加するだけです。ファイルの内容は以下のようしてください：
 
 ```json
 {
@@ -63,7 +64,7 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 }
 ```
 
-Optionally you can also add a section to let clients know which relays they are likely to find you on:
+オプションで、どのリレーであなたを見つけることができるかをクライアントに知らせるセクションを追加することもできます：
 
 ```json
 {
@@ -80,10 +81,11 @@ Optionally you can also add a section to let clients know which relays they are 
 }
 ```
 
-Make sure you use the hex version of your public key in your `nostr.json` file. This is the version of the key that **doesn't** start with `npub`.
+`nostr.json` ファイルでは、公開鍵の16進バージョン（hex）を使用してください。これは、`npub` で**始まらない**方のバージョンです。
 
-You can convert your key on [Nostr.band](https://nostr.band)
+[Nostr.band](https://nostr.band)で鍵を変換できます。
 
 ![Get your hex key](/images/get-hex-key.webp)
 
-Finally, make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.
+最後に、このファイルがクライアントからアクセスできる必要があるため、`Access-Control-Allow-Origin` ヘッダーに `*` が設定されていることを確認してください。
+
