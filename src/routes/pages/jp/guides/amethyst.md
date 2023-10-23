@@ -3,11 +3,11 @@ title: Amethystの使い方
 description: AmethystのAndroidクライアントを使って、Nostrを始めるためのステップバイステップ・ガイドを説明します。
 ---
 
-## Step 1 - アプリをインストールする
+## Step 1 - アプリをダウンロードする
 
-1. Install [the Amethyst app on the Android App Store](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst).
-2. When you open the app you'll have the option to create a new account or to log in with a private key you've already generated.
-3. If you have already created a private key via the Alby extension or another client, you can read and accept the terms of use, enter your (npub/nsec) and click "Login". Otherwise, click "Generate a new key". You can find [more info on keys here](/en/get-started#understanding-keys).
+1. [AmethystをAndroidストア](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)でダウンロードします。
+2. アプリを開くと、新しいアカウントを作成するか、すでに生成した秘密鍵でログインするかのどちらかを選択します。
+3. Alby拡張機能または他のクライアントで秘密鍵を作成済みの場合は、利用規約を読んで同意し、（npub/nsec）を入力して”ログイン”をタップします。そうでない場合は、"新しい鍵の生成"をタップしてください。[鍵の詳細はこちら](/jp/get-started#understanding-keys)を参照してください。
 
 ## Step 2 - アカウントを作成する
 
@@ -23,6 +23,6 @@ description: AmethystのAndroidクライアントを使って、Nostrを始め�
 
 ## 既存鍵でログインする
 
-1. Read through the "terms of use" and check the box.
-2. Enter your npub (read only) or nsec (full access) and click "Login".
-3. **Important**: Your private key is stored locally and isn't collected or stored by Amethyst servers in any way.
+1. ”利用規約”に目を通し、チェックボックスにチェックを入れます。
+2. npub（読み取り専用）またはnsec（フル・アクセス）を入力し、”ログイン”をタップします。
+3. **重要**：秘密鍵はローカルに保存され、Amethystサーバーによって収集または保存されることは一切ありません。
