@@ -3,7 +3,8 @@ title: NostrChat.ioの使い方
 description: NostrChat.ioを始めるためのステップバイステップ・ガイドを説明します。
 ---
 
-NostrChat is a chat app built on Nostr. With NostrChat, you can start a channel with one or more friends, and be confident that your communications will stay online even in the face of a dramatic effort to censor you.
+NostrChatは、Nostrで作られたチャット・アプリです。NostrChatを使えば、1人または複数のお友だちとchannelを立ち上げることができ、あなたを検閲しようとする悪意のある攻撃に直面しても、あなたのコミュニケーションがオンライン上で他に一切漏れないことを確信できます。
+
 
 ![NostrChat.io screenshot](/images/nostrchat-signup.webp)
 
@@ -15,22 +16,22 @@ NostrChat is a chat app built on Nostr. With NostrChat, you can start a channel 
 
 ### 新規アカウントの作成（いちばん簡単）
 
-1. Click "Create Nostr Account"
-2. Put in your name, and then click skip
-3. Instantly you'll enter a global chat
-4. Important: Save your private keys somewhere safe — you'll need these if you want to come back to the app in the future.
+1. "Create Nostr Account"をクリックします。
+2. 名前を入力し、skipをクリックします。
+3. すぐにglobal chatに入場します。
+4. 重要：秘密鍵は安全な場所に保存してください。将来アプリに戻るときに必要になります。
 
 ### NIP-07拡張機能を使ってログインする（おすすめ）
 
-Alby is a Bitcoin browser extension that manages your public/private keys locally. With a wallet extension like Alby, your private key never leaves your computer, but you can grant access to apps using Alby.
+Albyは、あなたの公開鍵と秘密鍵をローカルで管理するビットコインのブラウザ拡張機能です。Albyのようなウォレット拡張機能を使えば、秘密鍵があなたのコンピュータから漏洩することはありませんし、Albyを使ってアプリにアクセス許可を出すことができます。
 
-1. Download the [Alby web wallet](https://getalby.com/)
-2. Once you're inside Alby, set an unlock password
-3. Inside Alby, go to Accounts and generate or add your Nostr public & private keys. Make sure to save these in your password manager.
-4. Once you have Alby setup, return to NostrChat.io and login with "NIP-07"
+1. [Alby拡張機能](https://getalby.com/)をインストールします。
+2. Albyをインストールしたら、ロック解除用のパスワードを設定します。
+3. Albyのアカウント・ページから、Nostrの公開鍵と秘密鍵を生成または追加します。それをパスワード・マネージャーに保存してください。
+4. Albyでの設定が完了したら、NostrChat.ioに戻り、"NIP-07 "でログインします。
 
-### ステップ3 — 新しいチャット・チャンネルを作成し、Nostrの友だちと共有する
+### ステップ3 — 新しいチャットChannelを作成し、Nostrの友だちと共有する
 
-Once you join NostrChat.io you can chat in the global channel or create a new channel for your project or friends. Just share the URL of the channel with your friends. **IMPORTANT: These channels are all public.** At this time, there isn't a way to make private group chats.
+NostrChat.ioに参加すると、global channelでチャットしたり、あなたのプロジェクトやお友だちのために新しいchannelを作成することができます。Channel URLをお友だちと共有するだけです。**重要：これらのchannelは全て公開されています** 現時点では、グループ・チャットをプライベートとして設定する方法はありません。
 
-Active development of NostrChat.io is happening on [Github](https://github.com/NostrChat/NostrChat)
+NostrChat.ioのアクティブ開発は[Github](https://github.com/NostrChat/NostrChat)で行われています。
