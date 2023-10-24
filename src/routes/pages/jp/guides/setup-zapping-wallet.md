@@ -57,12 +57,14 @@ Wallet of Satoshiのようなカストディ・ソリューションは信じら
 
 現時点では、カストディ・ライトニング・ウォレットは、”静的な”ライトニング・アドレスや、電子メールアドレスのようなスタイルの受金アドレスであるLNURLは提供していません（近いうちに変更されることを期待したいと思います）。これが意味するのは、セルフカストディ・ウォレットを使ってZapsを送金することはできますが、受信することは（まだ）できないということです。
 
-These apps will prompt you during setup to write down your "seed phrase". This is a set of 12 or 24 words, and it is the private key to your self-custodied bitcoin. The wallet developers don't know your seed phrase, and they don't control your bitcoin.
+これらのアプリは、セットアップ中に"シードフレーズ"を書き留めるよう促します。これは12または24の単語のセットで、あなたのセルフカストディ・ビットコインの秘密鍵です。ウォレット開発者はあなたのシードフレーズを知らないし、あなたのビットコインを管理することもありません。
 
-Note: whenever you are recording your seed phrase, DO NOT save it online (via screenshot, iCloud notes, etc). Write it down on paper, laminate it, and keep it safe. There will come a time to learn about steel backups in the future. For now, just keep it secret and offline.
+注：シードフレーズを記録するときは、（スクリーンショットやiCloudメモなどで）オンラインに保存しないでください。紙に書いて、ラミネートして、大切に保管しましょう。将来、鉄板によるバックアップについて学ぶ時が来るかもしれません。今はとにかく、オフラインで秘密にしておくこと。
+
 
 ## [§](#private-key-management) 秘密鍵の管理とコールド・ストレージ
 
-To reiterate: when you have accumulated enough bitcoin in your first wallet that you want to take the next step on your self-soveriegn bitcoin journey, it's time to study the different types of bitcoin storage, and the best practices around keeping your seed phrase safe. It's an adventure, and a continuous learning experience, so let's get started.
+繰り返しになりますが、最初のウォレットに十分なビットコインが増えて、次のステップに時間がかかってしまったら、様々なタイプのビットコイン保管方法とシードフレーズを安全に保管するためのベスト・プラクティスについて勉強しましょう。これは冒険であり、継続的な学習経験です。
 
-Learn more at https://nostr.how/en/guides/sweep-to-self-custody
+
+詳しくはこちらから：https://nostr.how/jp/guides/sweep-to-self-custody
