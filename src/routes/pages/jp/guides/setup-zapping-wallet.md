@@ -35,27 +35,27 @@ Albyでは、Chromeベースのブラウザを使用し、https://getalby.com �
 
 ![Alby account](https://cdn.nostr.build/i/fee9ab21c94221a9f9573c41e8e85a97b1ecafd18e22f52cf276d31a67a58664.png)
 
-**Go back to your Nostr client**
+**Nostrクライアントに戻ります**
 
-Every client is a little different, but usually your Edit Profile Settings page will have a field for a "lightning address" or LNURL. In the example below, (from Damus), the field is called Bitcoin Lightning Tips. Paste your address into this field, and save your profile.
+クライアントごとに多少異なりますが、通常、 設定編集ページには”ライトニング・アドレス”またはLNURLを入力するフィールドがあります。以下の例（Damusより）では、フィールドはBitcoin Lightningチップと呼ばれています。このフィールドにアドレスを貼り付け、プロフィールを保存します。
 
 ![Example client](https://cdn.nostr.build/i/34241da3022d061a8159268f05e0cb3c8aa53934a55c5cc8c76effbfc7b625cc.jpg)
 
-Now you should be zap-able! To test it out, post a note and with something like "Can someone send a small zap to test my wallet?" and add the hashtag #plebchain – you'll be amazed at how quickly you get your first zap!
+これでZapを受け取ることができるようになりました！試しに、"誰か私のウォレットをテストするために、少額のZapをしてみてくれませんか？"と、ハッシュタグ#plebchainをつけて投稿してみてください！
 
-To send zaps, all you need to do is click or tap your client's version of the Lightning icon on the other user's note or profile. This will automatically create a Lightning invoice, and your client will prompt you to open a Lightning wallet so that you can pay that invoice.
+Zapsを送金するには、相手のノートやプロフィールにあるクライアント版のライトニング・アイコンをクリックまたはタップするだけです。これで自動的にライトニング・インボイスが発行され、クライアントがライトニング・ウォレットをオープンにするように促し、そのインボイスを支払うことができます。
 
 ## [§](#self-custody) セルフカストディ・ウォレット
 
-Once you've familiarized yourself with sending and receiving zaps, and started stacking a few sats in your wallet, it's worth learning more about non-custodial wallets.
+Zapsの送受金に慣れ、自分のウォレットにいくつかのサトシを集め始めたら、ノンカストディ・ウォレットについて、もっと学ぶ価値があります。
 
-While a custodial solution like Wallet of Satoshi is incredibly convenient, it's important to remember that the wallet developer holds the keys to this bitcoin. After all, bitcoin's original raison d'être was to remove the need for a trusted third party!
+Wallet of Satoshiのようなカストディ・ソリューションは信じられないほど便利ですが、このビットコインの鍵はウォレット開発者が握っていることを忘れてはなりません。結局のところ、ビットコインの本来の存在意義は、信頼できる第三者の必要性をなくすことなのです！
 
-So, as soon as you're holding enough bitcoin in your wallet that you'd be upset to lose the funds, it's time to set up a self-custodial wallet as well. (You can continue using the custodial option for zapping, if you'd like, but it's a good idea to move any significant amount of bitcoin to self-custody, when it starts adding up).
+そのため、資金を失うと慌ててしまうほどのビットコインをウォレットに保有するようになったと感じたら、すぐにセルフカストディ・ウォレットもセットアップする時期です（Zapsのためにカストディ・オプションを使い続けることもできますが、かなりの量のビットコインが増え始めたら、セルフカストディに移すことをお勧めします）。
 
-Lightning wallet apps are plentiful, but popular options include Phoenix and Breez (mobile wallets) and Mutiny (a web-based app).
+ライトニング・ウォレットのアプリはたくさんありますが、人気のあるオプションはPhoenixとBreez（モバイル・ウォレット）とMutiny（ウェブベースのウォレット）です。
 
-At the moment, self-custodial lightning wallets don't offer a "static" lightning address or LNURL, the email-address-style receiving address. (Hopefully this will change soon). What this means is that you can use self-custodial wallets to send zaps, but not receive them (yet).
+現時点では、カストディ・ライトニング・ウォレットは、”静的な”ライトニング・アドレスや、電子メールアドレスのようなスタイルの受金アドレスであるLNURLは提供していません（近いうちに変更されることを期待したいと思います）。これが意味するのは、セルフカストディ・ウォレットを使ってZapsを送金することはできますが、受信することは（まだ）できないということです。
 
 These apps will prompt you during setup to write down your "seed phrase". This is a set of 12 or 24 words, and it is the private key to your self-custodied bitcoin. The wallet developers don't know your seed phrase, and they don't control your bitcoin.
 
