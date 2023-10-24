@@ -5,25 +5,25 @@ description: NostrでZapするためのライトニング・ウォレット設�
 
 ## [§](#magic-internet-money) 魔法のインターネットマネー、まるで光速のような
 
-Using Bitcoin's Lightning Network, you can send tiny fractions of a bitcoin, known as satoshis (or sats), around the world, at the speed of light, with near-zero fees. On Nostr, these transactions are called zaps.
+ビットコインのライトニング・ネットワークを使えば、satoshi（サトシまたは sats）と呼ばれるビットコインの小さな端数を光速で世界中に送金することができ、手数料はほぼゼロです。Nostrでは、このような取引をZapsと呼びます。
 
-Even if you're new to Nostr, you've probably already seen at least one mention of zaps. You can zap someone if they make you laugh, or they give you good advice, or if they post something that adds value to your experience. You can even zap someone for no reason at all! And the reverse is also true: if you contribute interesting content to the nostr community, it won't be long before strangers on the internet (read: new friends) are sending you bitcoin.
+Nostrを始めたばかりの人でも、Zapsについて少なくとも一度は目にしたことがあるかもしれません。あるユーザーがあなたを笑わせたり、良いアドバイスをくれたり、あなたの経験に付加価値を与えるような投稿をした場合、その人をZapすることができます。何の理由もなく誰かをZapすることもできます！もしあなたがNostrのコミュニティに興味深いコンテンツを投稿すると、インターネット上の見知らぬ人 (つまり、新しいお友だち) が、あなたにビットコインを送ってくれるまで、それほど時間はかかりません。
 
 ## [§](#custodial-vs-self) カストディ vs セルフカストディ・ウォレット
 
-The first thing you'll need is a bitcoin lightning wallet. This is the wallet where your zap transactions come from. There are many options, but one of the most important distinctions to understand is whether the wallet is custodial or self-custodial. Each comes with trade-offs, but we typically recommend that brand-new users first set up a custodial wallet to get comfortable with using zaps and managing their funds.
+まず必要なのは、ビットコイン・ライトニング・ウォレットです。これはZapされたトランザクションを受け取るウォレットです。多くのオプションがありますが、理解すべき最も重要な区別の1つは、ウォレットがカストディかセルフカストディかということです。それぞれにトレードオフがありますが、通常、新規ユーザーはまずカストディ・ウォレットをセットアップし、Zapsの使用と資金管理に慣れることをお勧めします。
 
-As you get more comfortable (or once the funds in your custodial wallet reach a level that you want to take full control of) you can set up a self-custodial wallet.
+さらに慣れてきたら（あるいは、カストディ・ウォレットの資金が完全に管理したいレベルに達したら）、セルフカストディ・ウォレットを設定することもできます。
 
 ## [§](#custodial) カストディ・ウォレット
 
-A custodial wallet is one where the wallet developer holds the keys to the bitcoin, and your account is essentially authorized to send and receive that bitcoin – whether to another user or to a different wallet that you fully control (i.e. a self-custodial wallet).
+カストディ・ウォレットとは、ウォレット開発者がビットコインの鍵を保持しているウォレットであり、あなたのアカウントは基本的に、別のユーザーまたはあなたが完全に管理する別のウォレット（つまり、セルフカストディ・ウォレット）に対して、ビットコインを送受信する権限を持っています。
 
-Two popular examples are [Wallet of Satoshi](https://www.walletofsatoshi.com/) and [Alby](https://getalby.com). Both wallets provide fast, convenient, and user-friendly zapping wallets. You can download Wallet of Satoshi from your mobile app store, and you can access Alby via the Chrome browser extension store.
+人気のある2つの例は、[Wallet of Satoshi](https://www.walletofsatoshi.com/)と[Alby](https://getalby.com)です。どちらのウォレットも、高速で、便利で、ユーザーフレンドリーなZapsウォレットを提供しています。Wallet of Satoshiはモバイル・アプリストアからダウンロードでき、Albyはchromeブラウザの拡張機能ストアからアクセスできます。
 
 **Wallet of Satoshi**
 
-After you download Wallet of Satoshi, open the app and tap "Receive". This will bring up a reusable QR Code, as well as your human-readable lightning receiving address. It will look like an email address (NB: it's not actually an email address so don't try and send email there). For example, this article's author can be zapped at `bostonwine@walletofsatoshi.com`. Copy your address and return to Nostr.
+Wallet of Satoshiをダウンロードしたら、アプリを開き、”受信”をタップします。すると、再利用可能なQRコードと、人間が読めるライトニング用の受信アドレスが表示されます。メールアドレスのように見えます（注：実際にはメールアドレスではないので、メールを送ろうとしないでください）。たとえば、この記事の著者に対しては、`bostonwine@walletofsatoshi.com` でZapできます。アドレスをコピーして Nostr に戻ります。
 
 ![Main Screen](https://cdn.nostr.build/i/955e1fd028d64941b80ed0b423a07541a2af8f14919c73e0add93511e3620477.jpg)
 
@@ -31,7 +31,7 @@ After you download Wallet of Satoshi, open the app and tap "Receive". This will 
 
 **Alby**
 
-For Alby, you can use any Chrome-based browser and navigate to https://getalby.com to download the extension. Create an account and within the extension, you will again find the "email-address-style" Lightning address. Copy it to your clipboard.
+Albyでは、Chromeベースのブラウザを使用し、https://getalby.com にアクセスして拡張機能をインストールすることができます。アカウントを作成し、この拡張機能に”Eメールアドレスのような”ライトニング・アドレスがありますので、そちらをクリップボードにコピーしてください。
 
 ![Alby account](https://cdn.nostr.build/i/fee9ab21c94221a9f9573c41e8e85a97b1ecafd18e22f52cf276d31a67a58664.png)
 
