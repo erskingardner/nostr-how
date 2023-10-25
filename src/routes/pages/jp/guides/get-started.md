@@ -23,9 +23,9 @@ Nostr（プロトコル）にはクライアントを介してアクセスしま
 
 ここでは、私たちがお勧めするいくつかのクライアントについて、ステップバイステップ・ガイドを紹介します：
 
-- [Iris](/en/guides/iris)（Web）
-- [Damus](/en/guides/damus)（iOS）
-- [Amethyst](/en/guides/amethyst)（Android）
+- [Iris](/jp/guides/iris)（Web）
+- [Damus](/jp/guides/damus)（iOS）
+- [Amethyst](/jp/guides/amethyst)（Android）
 
 他にも、ガイドはありませんがファンの多いクライアントを紹介します：
 
