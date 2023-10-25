@@ -36,7 +36,7 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 Nostr上で他のユーザーをZapするには、たった2つのものさえ準備すればOKです：
 
 1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com/)や[Wallet of Satoshi](https://www.walletofsatoshi.com/)のような）
-2. Zapsをを実装しているクライアント（[Damus](/en/guides/damus)、[Amethyst](/en/guides/amethyst)、[Iris](/en/guides/iris)または[Snort](https://snort.social)など)
+2. Zapsをを実装しているクライアント（[Damus](/jp/guides/damus)、[Amethyst](/en/guides/amethyst)、[Iris](/jp/guides/iris)または[Snort](https://snort.social)など)
 
 その他に必要なことは、Nostrのプロフィールにライトニング・アドレスが設定されていることです。これがZapsを受信するアドレスです。
 
