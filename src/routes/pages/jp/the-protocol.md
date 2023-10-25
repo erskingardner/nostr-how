@@ -1,6 +1,6 @@
 ---
 title: Nostrプロトコル
-description: これはNostrプロトコルの高レベルな概要であり、EventタイプとNostr Implementation Possibilities（NIPs）の仕組みについての詳細です。
+description: これはNostrプロトコルの高レベルな概要であり、イベント・タイプとNostr Implementation Possibilities（NIPs）の仕組みについての詳細です。
 ---
 
 ## [§](#nostr-high-level) 最高レベルのNostr
