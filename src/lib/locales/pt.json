@@ -1,0 +1,33 @@
+{
+    "title": "Nostr",
+    "nav": {
+        "resources": "Recursos",
+        "whatIs": "O que é o Nostr?",
+        "whyWeNeed": "Porque precisamos do Nostr?",
+        "getStarted": "Começar",
+        "whatZaps": "O que são Zaps?",
+        "nostrProtocol": "O protocolo Nostr",
+        "clients": "Clientes",
+        "relays": "Relays",
+        "relayImplementations": "Implementações de Relays",
+        "nostrProjects": "Projectos Nostr",
+        "contribute": "Contribuir",
+        "guides": "Guias",
+        "guideIris": "Iris (Cliente Web)",
+        "guideDamus": "Damus (Cliente iOS)",
+        "guideAmethyst": "Amethyst (Cliente Android)",
+        "getNip05": "Obter um NIP-05 Verificado",
+        "guideNostrchat": "NostrChat (Cliente Chat)",
+        "guideSweepSats": "Varrer fundos para auto-custódia",
+        "guideSetupWallet": "Configurar uma carteira para zaps"
+    },
+    "donateButton": "Doar ao Nostr.how",
+    "colophon": "feito com 💜 & ⚡ por",
+    "foss": "Orgulhosamente gratuito e Open source sob a ",
+    "mitLicense": "Licença MIT",
+    "contactMe": "Entra em contacto",
+    "errors": {
+        "noTranslationTitle": "Tradução não encontrada",
+        "noTranslationMessage": "Lamentamos, não existe tradução para esta página. Se estiveres interessado em ajudar a criar esta página, entra em contacto connosco."
+    }
+}
