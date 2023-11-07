@@ -1,22 +1,24 @@
 ---
-title: Decentralized publishing for the web
-description: Nostr is a simple, open protocol that enables truly censorship-resistant and global value-for-value publishing on the web.
+title: Gedecentraliseerd publiceren voor het web
+description: Nostr is een eenvoudig, open protocol waarmee je censuurbestendig en wereldwijd data kunt uitwisselen op het web.
+
 ---
 
 ## Wat is Nostr?
 
-Nostr stands for "Notes and Other Stuff Transmitted by Relays". Like HTTP or TCP-IP, Nostr is a protocol; an open standard upon which anyone can build. Nostr itself is not an app or service that you sign up for.
+Nostr is een afkorting wat staat voor "Notes and Other Stuff Transmitted by Relays". Net als HTTP of TCP-IP is Nostr een protocol; een open standaard waarmee iedereen kan bouwen. Nostr is dus geen app, platform of dienst waar je je moet registreren.
 
-Nostr is designed for simplicity and enables censorship-resistant and globally decentralized publishing on the web. Let's unpack that a little:
+Nostr is ontworpen met het oog op eenvoud en maakt censuurbestendig en wereldwijd gedecentraliseerd publiceren op het web mogelijk. Laten we dat even nader toelichten:
 
 ### Simpel
 
-The protocol is based on very simple & flexible `Event` objects (which are passed around as plain JSON) and uses standard public-key cryptography for keys & signing. This makes it easy to run relays and build clients and ensures that the protocol can be extended over time.
+Het protocol is gebaseerd op zeer eenvoudige en flexibele `Event` objecten (die verstuurd worden in plat JSON tekstformaat). Er wordt gebruik gemaakt van standaard public-key cryptografie voor het versleutelen en signeren van deze berichten. Dit maakt het eenvoudig om relays te draaien en clients te ontwikkelen. Dit zorgt er tevens voor dat het protocol makkelijk uitgebreid kan worden.
 
 ### Onafhankelijk
 
-Because Nostr doesn't rely on a small number of trusted servers for moving or storing data, it's very resilient. The protocol assumes that relays will disappear and allows users to connect & publish to an arbitrary number of relays that they can change over time.
+Omdat Nostr niet afhankelijk is van een klein aantal servers voor het verplaatsen of opslaan van gegevens, is het erg veerkrachtig. Het protocol gaat ervan uit dat relays verdwijnen. Gebruikers kunnen altijd zelf verbinding maken met en publiceren naar een andere relays.
 
-### Verifiable
+### Verifieerbaar
 
-Because Nostr accounts are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) it's easy to verify messages were really sent by the user in question.
+Omdat Nostr accounts gebaseerd zijn op [public-key cryptografie](https://nl.wikipedia.org/wiki/Asymmetrische_cryptografie), is het eenvoudig om te controleren of berichten echt zijn verzonden door de gebruiker / account in kwestie.
+
