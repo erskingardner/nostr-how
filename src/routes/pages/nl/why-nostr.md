@@ -1,47 +1,53 @@
 ---
-title: Why we need Nostr
-description: Why Nostr and the broader idea of decentralizing the internet is an important concept.
+title: Waarom hebben Nostr nodig?
+description: Waarom Nostr en het breder concept van een gedecentraliseerd internet belangrijk is. 
 ---
 
-## Do we really need another publishing protocol?
+## Hebben we nóg een nieuw protocol nodig?
 
-Publishing on the web is fundamentally broken. What started as an open web of pages created by individuals has collapsed into a centralized oligopoly controlled by a handful of the world's most powerful companies.
+Informatie delen op het web is fundamenteel kapot. Het internet begon als een open web van pagina's gemaakt door individuen. Dit is getransformeerd naar een gecentraliseerde oligopolie gecontroleerd door een handvol van 's werelds machtigste tech-bedrijven.
 
-These companies control, often in ways they themselves don't even understand, what we read, who we talk to, and what ideas gain traction in our culture. Their pursuit of "engagement" has had tremendous negative consequences for society.
+Deze bedrijven bepalen, vaak op manieren die ze zelf niet eens begrijpen, wat we lezen, met wie we praten en welke ideeën er in onze maatschappij het narratief bepalen. Hun streven naar maximale "engagement" heeft enorme negatieve gevolgen gehad voor de samenleving.
 
-It's time for the web to return to it's open and decentralized roots. It's time for us to take back control of what information we consume, and how we consume it. It's time for us to build more open-minded and constructive communities on internet.
+Het is tijd dat het web terugkeert naar zijn open en gedecentraliseerde roots. Het is onze tijd om de controle terug te nemen over welke informatie we consumeren en hoe we die consumeren. Het is tijd voor ons om meer open-minded en constructieve gemeenschappen terug op te bouwen.
 
-Nostr enables this.
+Nostr maakt dit mogelijk.
 
-## What Nostr enables
+## Wat Nostr mogelijk maakt
 
--   Simple, flexible `Event` format enables publishing of all types: Social media posts, long-form content, rich media, ecommerce, etc.
--   Verifiability that notes come from a specific user. This helps to combat spam and bots.
--   Users can connect to many relays, and run their own relays. This makes it hard to censor ideas and people.
--   Integrated with lightning, Nostr enables new [value-for-value](https://value4value.info/) business models that have the potential to be more fair.
+-   Het simpele, flexibele `Event` format maakt verschillende type publicaties mogelijk: social media berichten, long-form artikelen, rich media, ecommerce, etc.
+-   Verifieerbaarheid dat notities afkomstig zijn van een specifieke gebruiker.  Dit helpt om spam en bots te bestrijden.
+-   Gebruikers kunnen verbinding maken met meerdere relays naar keuze, of hun eigen relay draaien. Dit maakt het vrijwel onmogelijk om ideeën en mensen te censureren.
+-   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info/) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
 
-## The status quo
+
+
+## De status quo
 
 ### Mainstream media
 
-1. Uses your attention to sell ads
-1. Uses outragous headlines to create click-bait
-1. Focuses on negativity and outrage (refer to point 1)
-1. Struggling old-school business model creates desperation trying to keep up with big tech social media
+1. Uses your attention to sell ads.
+2. Gebruikt jouw aandacht om advertenties te verkopen.
+3. Gebruikt buitensporige nieuwskoppen voor zoveel mogelijk click-baits.
+4. Richt zich op negativiteit en verontwaardiging (zie ook punt 1).
+5. Worstelen met verouderde bedrijfsmodellen die wanhoop creëren in een poging bij te blijven met big tech sociale media.
 
 ### Big tech social media
 
-1. Uses your attention to sell ads
-1. Uses bizarre techniques to keep you addicted (refer to point 1)
-1. Decides what content to show you based on secret algorithms that you can't inspect or change
-1. Has complete control over who can participate and who is censored
-1. Is overrun with spam and bots
+1. Gebruikt jouw aandacht om advertenties te verkopen.
+2. Past verslavende design methodieken toe om jouw aandacht vast te houden (zie ook punt 1).
+3. Beslist welke inhoud je te zien krijgt op basis van geheime algoritmes die je niet kunt inspecteren of veranderen.
+4. Heeft volledige controle over wie kan deelnemen en wie wordt gecensureerd.
+5. Wordt overspoeld met nepprofielen van spammers en bots.
 
-### Mastodon (and other federated social media platforms)
+### Mastodon (en andere gefedereerde social media platformen)
 
-1. User identities are attached to domain names which are controlled by third-parties.
-1. These third-parties can ban you, just like centralized social media platforms. Server owners can also block other servers.
-1. Migration between servers is difficult and can only be accomplished if servers cooperate.
-1. There are no clear incentives to run servers, therefore they tend to be run by enthusiasts and people who want to have their name attached to a cool domain. Because of this, users are subject to the despotism of a single person, which is often worse than that of a big company like Twitter, and they can't migrate out.
-1. Since servers tend to be run by amateurs, they are often abandoned. This effectively bans everybody that signed up via that server.
-1. There are huge issues with data duplication across servers.
+1. Accounts / identiteiten zijn gekoppeld aan domeinnamen die door derden worden beheerd.
+2. Deze derde partijen kunnen je verbannen, net als gecentraliseerde sociale mediaplatforms. Eigenaars van servers kunnen ook andere servers blokkeren.
+3. Migratie tussen servers is moeilijk en kan alleen worden uitgevoerd als servers samenwerken.
+4. Er zijn geen duidelijke prikkels om servers te beheren, daarom worden ze meestal beheerd door hobbyisten en mensen die hun naam aan een cool domein willen verbinden. Hierdoor zijn gebruikers onderworpen aan het despotisme van één persoon, dat vaak erger is dan dat van een groot bedrijf zoals een Twitter.
+5. Omdat servers vaak door hobbyisten worden gerund, worden ze vaak slecht onderhouden of verdwijnen zelf. Hiermee kan iedereen zijn account verliezen die zich via die server heeft aangemeld.
+6. Er zijn enorme problemen met het dupliceren van gegevens op servers.
+7. Het ActivityPub protocol is complex en lastig om volledig te begrijpen.
+
+
