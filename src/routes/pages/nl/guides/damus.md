@@ -1,30 +1,31 @@
 ---
-title: Get started with Damus
-description: A step-by-step guide to getting started with Nostr with the Damus iOS client.
+title: Aan de slag met Damus
+description: Een stapsgewijze handleiding om aan de slag te gaan met Nostr met behulp van de Damus iOS-client.
 ---
 
-## Step 1 - Get Damus
+## Stap 1 - Installeer Damus
 
-This is a specific guide to get started using Nostr with [Damus](https://damus.io/), a beautiful, easy-to-use iOS client built by [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
+Dit is een handleiding om aan de slag te gaan met Nostr met de client [Damus](https://damus.io/), een prachtige en gebruiksvriendelijke iOS-client gebouwd door [@jb55](https://snort.social/p/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s).
 
-1. Install [the Damus app on the iOS App Store](https://apps.apple.com/app/damus/id1628663131).
-1. When you open the app you'll have the option to create a new account or to log in with a private key you've already generated.
-1. If you have already created a private key via the Alby extension or another client, you can click "Login". Otherwise, click "Create Account".
+1. Installeer hier [de Damus-app uit de iOS App Store](https://apps.apple.com/app/damus/id1628663131).
+2. Wanneer je de app opent, heb je de optie om een nieuw account aan te maken of in te loggen met een private key (nsec) die je al hebt gegenereerd.
+3. Als je al een private key (nsec) hebt aangemaakt via de Alby-extensie of een andere client, kun je op "Login" klikken. Anders klik je op "Create account".
    ![Damus login/signup page](/images/damus-login.webp)
 
-## Step 2 - Creating a new account
+## Stap 2 - Een nieuw account aanmaken
 
-1. Click "Create Account".
-1. Read through and accept the EULA.
-1. You'll then pick a username (this can be changed later) and, optionally, add some other profile details. Damus auto generates keys for you at this step. Your public key is shown as the "Account ID" value. ![Damus login/signup page](/images/damus-signup.webp)
-1. Once you've finished, click "Create" and you're ready to use Nostr! 🤙
-1. Just one last **extremely important** step. You need save your private key somewhere safe.
-1. Navigate to Settings by clicking your profile image at the top left of the screen, then click "Settings" in the menu. ![Damus Settings](/images/damus-settings.webp)
-1. You'll see your "Public Account ID" (this is your public key) and your "Secret Account Login Key" (this is your private key).
-1. Copy both of these values and store them somewhere **VERY** safe. 1Password or another password manager is a good option. Remember, if you don't save this value, you'll never be able to recover your account. You can find [more info on keys here](/en/get-started#understanding-keys).
+1. Klik op "Create Account". 
+2. Lees de EULA (algemene voorwaarden). 
+3. Vervolgens kies je een gebruikersnaam (deze kan later worden gewijzigd) en kun je optioneel wat andere profielgegevens toevoegen. Damus genereert automatisch keys voor je in deze stap. Je public key (npub) wordt weergegeven als de "Account ID" waarde. ![Damus login/signup page](/images/damus-signup.webp)
+4. Zodra je daarmee klaar bent, klik je op "Create" en je kunt Nostr gebruiken! 🤙 
+5. Slechts één laatste **uiterst belangrijke** stap. Je moet je private key (nsec) op een veilige plaats bewaren. 
+6. Ga naar Instellingen door op je profielfoto linksboven op het scherm te klikken en klik vervolgens in het menu op "Settings" in het menu. ![Damus Settings](/images/damus-settings.webp)
+7. Daar zie je jouw "Public Account ID" (dit is jouw public key, of npub) en jouw "Secret Account Login Key" (dit is jouw private key, of `nsec`). 
+8. Kopiëer deze beiden en sla ze op een **ZEER** veilige plek op. 1Password of een andere password manager is een goede optie. 
+9. Onthoud, als je dit niet goed opslaat, zul je nooit meer in staat zijn om je account te herstellen mocht je de app deleten of je telefoon kwijtraken. [Meer info over keys kun je hier vinden](/nl/get-started#understanding-keys).
 
-## Logging in with an existing key
+## Inloggen met een bestaande key
 
-1. Click "Login".
-1. Read through and accept the EULA.
-1. You'll then be asked for your private key. Enter your key and you're done. 🤙 **Important**: Your private key is stored locally and isn't collected or stored by Damus servers in any way.
+1. Klik op "Login".
+2. Lees de EULA (algemene voorwaarden).
+3. Het menu zal om je private key (nsec) vragen. Vul deze in en je bent klaar. 🤙 **Belangrijk**: Je private key (die begint met de letters `nsec`) wordt lokaal opgeslagen en wordt op geen enkele manier verzameld door of opgeslagen op de servers van Damus.

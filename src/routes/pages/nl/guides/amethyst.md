@@ -1,28 +1,29 @@
 ---
-title: Get started with Amethyst
-description: A step-by-step guide to getting started with Nostr with the Amethyst Android client.
+title: Begin met Amethyst
+description: Een stap voor stap guide om met de android client Amethyst op Nostr te beginnen.
 ---
 
-## Step 1 - Install the app
+## Stap 1 - Installeer de app
 
-1. Install [the Amethyst app on the Android App Store](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst).
-1. When you open the app you'll have the option to create a new account or to log in with a private key you've already generated.
-1. If you have already created a private key via the Alby extension or another client, you can read and accept the terms of use, enter your (npub/nsec) and click "Login". Otherwise, click "Generate a new key". You can find [more info on keys here](/en/get-started#understanding-keys).
+1. Installeer [de Amethyst app in de Android App Store](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst).
+1. Als je de app opent heb je de optie om een nieuw account aan te maken of om in te loggen met een bestaande private key.
+1. Als je al een private key hebt aangemaakt via de Alby extentie of een andere client, kun je de term of use agreement lezen en accepteren, je (npub/nsec) invoeren en verder gaan met "Login". Of, klik op "Generate a new key".  
+   [Meer info over keys kun je hier vinden](/nl/get-started#understanding-keys).
 
-## Step 2 - Creating a new account
+## Step 2 - Account aanmaken
 
-1. Read through the "terms of use" and check the box.
-1. Click on "Generate a new key".
-1. Congratulations, you've just created a new Nostr identity! 🤙
-1. You get redirected to the home screen and show "Feed is empty. Refresh", because you are not yet following any other accounts. We'll take care of that later.
-1. Just one last **extremely important** step. You should keep your private key in a safe place. To do this, click on the icon with the weird-looking robot at the top left corner, which is currently your profile picture. A sidebar will appear.
-1. Navigate to "Backup Keys" and click "Copy my secret key" at the bottom.
-1. Your private key is now on your smartphone's clipboard, it's best to keep it in a **VERY** safe place. '1Password' or any other password manager is a good option. Remember, you won't be able to recover your account if you forget the private key. You can find [more info on keys here](/en/get-started#understanding-keys).
-1. Now you can continue setting up your account. Go back to your profile picture at the top left corner of the home screen and navigate to "Profiles". From there, click on the icon with the three lines and pen next to "Follow". You can adjust your profile settings there. If you are done click "Post" in the top right corner to confirm your changes.
-1. Ok, your account is set up now, let's fill your feed and follow other people. Click on the search icon in the top right corner and search for accounts you know, or just click on "All Follows" on the home screen (house icon at the bottom left) and select "Global". You'll see now all notes that are sent to your connected relays. If you feel overwhelmed, no worries, over time you'll find new interesting accounts here. Just give it a try.
+1. Lees de "terms of use" en vink het hokje aan.
+1. Klik op "Generate a new key".
+1. Gefeliciteerd, je hebt nu een nieuwe Nostr identiteit gecreëerd! 🤙
+1. Hierna word je naar het beginscherm gebracht, daar zal het bericht "Feed is empty. Refresh" staan omdat je nog geen accounts volgt. Daar komen we later op terug.
+1. **Nu volgt een hele belangrijke laatste stap.** Je moet je privésleutel op een veilige plek bewaren. Klik hiervoor op het pictogram met de vreemd uitziende robot linksboven, dat momenteel je profielfoto is. Er verschijnt een zijbalk.
+1. Navigeer naar "Backup Keys" en klik "Copy my secret key" onderaan.
+1. Je privésleutel staat nu in het klembord van je smartphone, het is het beste om deze op een ZEER veilige plaats te bewaren. '1Password' of een andere wachtwoordmanager is een goede optie. Onthoud, je kunt je account niet herstellen als je de privésleutel vergeet. [Meer info over keys kun je hier vinden](/nl/get-started#understanding-keys).
+1. Nu kun je doorgaan met het instellen van je account. Ga terug naar je profielfoto linksboven op het startscherm en navigeer naar "Profiles". Klik daar op het icoon met de drie lijnen en de pen naast "Follow". Je kunt daar je profielinstellingen aanpassen. Als je klaar bent, klik je rechtsboven op "Post" om je wijzigingen te bevestigen.
+1. Oké, je account is nu ingesteld, laten we je feed vullen en andere mensen volgen. Klik op het zoekicoon rechtsboven en zoek naar accounts die je kent, of klik gewoon op "All follows" op het startscherm (huisicoon linksonder) en selecteer "Global". Je ziet nu alle notes die naar je verbonden relays worden gestuurd. Als je je overweldigd voelt, geen zorgen, na verloop van tijd zul je hier nieuwe interessante accounts vinden. Probeer het maar.
 
-## Logging in with an existing key
+## Inloggen met een bestaande key
 
-1. Read through the "terms of use" and check the box.
-1. Enter your npub (read only) or nsec (full access) and click "Login".
-1. **Important**: Your private key is stored locally and isn't collected or stored by Amethyst servers in any way.
+1. Lees de "terms of use" en vink het hokje aan.
+1. Vul je npub in (alleen lezen) of je nsec (volledige toegang) en klik op "Login".
+1. **Belangrijk**: Jouw key (die begint met de letters `nsec`) is lokaal opgeslagen op je telefoon. Deze wordt niet verzameld door of opgeslagen op Amethyst servers.
