@@ -1,34 +1,34 @@
 ---
-title: How you can contribute
-description: It takes a village. We started Nostr.how because we are excited about the Nostr protocol and what it could do to free social media from the grasp of big tech. We need your help to keep it running.
+title: Hoe kun jij bijdragen?
+description: We zijn Nostr.how begonnen omdat we enthousiast zijn over het Nostr-protocol en om wat het kan betekenen om sociale media te bevrijden uit de greep van grote technologiebedrijven. We hebben jouw hulp nodig om het draaiende te houden.
 ---
 
-## [§](#in-general) In general
+## [§](#in-general) Algemeen
 
-This is an open source project run by volunteers. [The code](https://github.com/erskingardner/nostr-how) is publicly hosted on GitHub, we encourage anyone and everyone to clone the repo, make changes, and submit pull requests.
+Dit is een open source projekt dat draait op vrijwilligers. [De code](https://github.com/erskingardner/nostr-how) is openbaar gehost op GitHub en we moedigen iedereen aan om het repository te klonen, wijzigingen aan te brengen en pull-aanvragen in te dienen.
 
-If you're not technical, don't worry. There are other ways that you can contirbute, like translating, writing content, reporting typos, or Zapping us some sats to cover our hosting costs.
+Als je niet technisch bent, geen zorgen. Er zijn andere manieren waarop je kunt bijdragen, zoals vertalen, content maken, typfouten melden, of ons wat sats sturen om onze hostingkosten te dekken.
 
-## [§](#send-feedback) Send us feedback
+## [§](#send-feedback) Geef ons feedback
 
-If you find typos or information that is incorrect on Nostr.how, please let us know by creating an [issue on our GitHub repo](https://github.com/nostr-how/nostr-how/issues).
+Als je typefouten of onjuiste informatie op Nostr.how vindt, laat het ons dan weten door het te melden [op onze GitHub repo](https://github.com/nostr-how/nostr-how/issues).
 
-Additionally, if you have ideas for content that we should write, please create issues with your suggestions. 🙌🏼
+Bovendien, als je ideeën hebt voor inhoud die we moeten schrijven, meld deze dan graag ook met je suggesties.🙌🏼
 
-## [§](#write-content) Write content
+## [§](#write-content) Content maken
 
-If you're a writer and want to contribute, please don't hesitate to reach out (again, [via an issue in the GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We can help you get set up in whatever way makes sense based on your technical level.
+Als je een schrijver bent en wilt bijdragen, aarzel dan niet om contact met ons op te nemen. (wederom, [via een issue in de GitHub repo](https://github.com/nostr-how/nostr-how/issues)). We kunnen je op gang helpen op een manier die logisch is op basis van jouw eigen technische vaardigheden.
 
-## [§](#translate-content) Translate content into other languages
+## [§](#translate-content) Content vertalen naar andere talen
 
-We're looking for translators to help us translate this site. [Please reach out via DM](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) if you're interested.
+We zijn op zoek naar vertalers die ons kunnen helpen bij het vertalen van deze site. [Stuur alsjeblieft een privé bericht](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) als je geïnteresseerd bent.
 
-## [§](#hack-with-us) Hack with us
+## [§](#hack-with-us) Hack met ons
 
-This site is built using Svelte, Tailwind CSS, and Markdown. If you'd like to contribute to the codebase, feel free to submit Pull Requests.
+Deze site is gebouwd met behulp van Svelte, Tailwind CSS en Markdown. Als je wilt bijdragen aan de codebase, voel je vrij om Pull Requests in te dienen.
 
-## [§](#donate) Donate
+## [§](#donate) Doneer
 
-This is a volunteer project. Any sats we receive through donations will be used to spend time creating new content or paying for our hosting.
+Dit is een vrijwilligersproject. Eventuele sats die we ontvangen via donaties worden gebruikt om tijd te besteden aan het maken van nieuwe inhoud of om onze hostingkosten te betalen.
 
-We accept sats through the Lightning network only. Please donate via the button in the header, footer, or nav bar.
+We accepteren sats alleen via het Lightning-netwerk. Doneer alsjeblieft via de knop in de header, footer of navigatiebalk.
