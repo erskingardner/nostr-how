@@ -1,39 +1,39 @@
 ---
-title: The Nostr Protocol
-description: This is a high-level overview of the Nostr protocol with details on Event types and how Nostr Implementation Possibilities (NIPs) work.
+title: Het Nostr protocol
+description: Dit is een compleet overzicht over het Nostr protocol met details over verschillende Event types, Kinds en Tags. We leggen ook uit hoe Nostr Implementation Possibilities (NIPs) werken.
 ---
 
-## [§](#nostr-high-level) Nostr at the highest level
+## [§](#nostr-high-level) Nostr op het hoogte niveau
 
--   There are two main components to the Nostr network: [clients](/en/clients) & [relays](/en/relays).
-    -   **Clients** are the interface that users use to read and write data to relays. In a social media context, think of this as the Twitter web app or mobile app. It's a client that is allowing you to read data from and write data to Twitter's centralized database.
-    -   **Relays** are like databases (though they do a lot more than just store data). They allow clients to send them data and store that data in a database. Clients can then read data out of relays to be shown to users.
--   Every user is identified by a public key. Every event object (e.g. message you're posting, update to your following list, etc.) is signed. Clients validate these signatures to ensure they're correct.
--   Clients fetch data from relays and publish data to relays. The relays are almost always chosen by the user. Relays don't have to talk to one another, but might potentially in the future.
--   For example, to update your profile, you just instructs your client to send an event of kind 0 to the relays you want to use. The relays will then store that event.
--   On startup, your client queries data from the relays that you tell it to. This can be filtered to only show events for users you follow or you can ask for everything from everyone, then the client displays that data to you.
--   There are many different kinds of events. Events can contain all sorts of structured data, and the most used structures are finding their way into [Nostr Implementation Possibilities](#nips) (NIPs – protocol standards that everyone adheres to) so all clients and relays can handle them seamlessly.
--   The data that you can see on Nostr is completely dependent on the relays that you decide to connect to. See the network diagram below for more on this.
+-   Er zijn twee hoofd componenten op het Nostr netwerk: [clients](/nl/clients) & [relays](/nl/relays).
+    - **Clients** bieden een interface die gebruikt wordt om gegevens te lezen en te schrijven naar relays. In de context van sociale media kun je dit zien als de Twitter webapp of mobiele app. Dat is een client waarmee je gegevens kunt lezen van en schrijven naar de gecentraliseerde database van Twitter.
+    - **Relays** zijn net databases (hoewel ze veel meer doen dan alleen gegevens opslaan). Ze ontvangen gegevens van clients, slaan die op in een database en sturen deze vervolgens weer door naar andere clients die erom vragen om te tonen aan hun gebruikers. 
+-   Elke gebruiker wordt geïdentificeerd door een publieke sleutel. Elke event (bv. een bericht dat je post, een update van je volglijst, etc.) Clients valideren deze handtekeningen met jouw publieke sleutel om er zeker van te zijn dat ze correct zijn.
+-   Client halen gegevens op van relays en publiceren gegevens naar reayls. De srelays worden bijna altijd gekozen door de gebruiker. Relays hoeven niet met elkaar te praten, maar dat zou in de toekomst wel kunnen.
+-   Als je bijvoorbeeld je profiel bijwerkt in een client, verstuur je een event van het type (kind) 0 naar de relays die je hebt ingesteld. De relays slaan die event dan op.
+-   Bij het opstarten vraagt je client gegevens op van de relays. Dit kan worden gefilterd om alleen events weer te geven van gebruikers die je volgt of je kunt alles van iedereen opvragen, waarna de client je die gegevens toont.
+-   Er zijn veel verschillende soorten events. Events kunnen allerlei soorten gestructureerde gegevens bevatten en de meest gebruikte structuren vind je terug in zogenaamde [Nostr Implementation Possibilities](#nips) (NIP's - een protocol standaard waar iedereen zich aan houdt) zodat alle clients en relays ze naadloos kunnen verwerken. Hierdoor worden alle gegevens interoperabel.
+-   De gegevens die je op Nostr kunt zien, zijn volledig afhankelijk van de relays waarmee je verbinding wilt maken. Zie het netwerkdiagram hieronder voor meer informatie.
 
-### Network diagram
+### Netwerk diagram
 
 ![Nostr network diagram](/images/nostr-network.webp)
 
-You can see the diagram above that we have 3 relays and 3 users. Each of the users is connecting to Nostr with a different client (and on a different Platform).
+Je kunt in het bovenstaande diagram zien dat we 3 relays en 3 gebruikers (clients) hebben. Elk van de gebruikers maakt verbinding met Nostr met een andere client (en op een ander platform).
 
-Given the reads and writes in the diagram:
+Gegeven de reads en writes in het diagram:
 
--   Bob can see all of Alice's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Alice can see all of Bob's posts, but can't see anything from Mary (and doesn't even know she exists)
--   Mary can see all of Bob's and Alice's posts. This is because while she only writes to Relay 3, she is reading from Relay 2, where Bob and Alice are writing their posts.
+-   Bob kan alle berichten van Alice zien, maar ziet niets van Mary (en weet niet eens dat ze bestaat)
+-   Alice kan alle berichten van Bob zien, maar ziet niets van Mary (en weet niet eens dat ze bestaat)
+-   Mary kan alle berichten van Bob en Alice zien. Dit komt omdat ze, terwijl ze alleen naar relay 3 schrijft, leest vanaf relay 2, waar Bob en Alice hun berichten schrijven.
 
-This is a very simplified situation but you can already see that the choice of which relays you want to connect to can have a large impact on who and what you'll see when using Nostr.
+Dit is een erg vereenvoudigde weergave, maar je kunt al zien dat de keuze met welke relays je verbinding wilt maken een grote invloed kan hebben op wie en wat je te zien krijgt als je Nostr gebruikt.
 
 ## [§](#events) Events
 
-Events are the only object type on the Nostr network. Each event object has a `kind`, which denotes what sort of event it is (what sort of action a user might take or messages that might be received).
+Events zijn het enige objecttype op het Nostr netwerk. Elke event heeft een `kind`, waarmee wordt aangegeven om wat voor soort event het gaat (wat voor soort actie een gebruiker zou kunnen ondernemen of berichten die zouden kunnen worden ontvangen).
 
-Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. something like a Twitter tweet)
+Zo ziet een kind 1 event eruit (kind 1 is een korte tekstnotities - vergelijkbaar met een Twitter bericht)
 
 ```json
 {
@@ -50,17 +50,17 @@ Here's what a kind 1 event looks like (kind 1 is for Short text notes – i.e. s
 }
 ```
 
--   The `id` field tells us the ID of the event
--   The `pubkey` field tells us the public key of the user who sent the event
--   The `created_at` field tells us when the event was published
--   The `kind` field tells us what sort of event it is
--   The `tags` field tells us about tags on the event. These are used for creating links, adding media, and mentioning other users or events.
--   The `content` field gives us the content of the event. In this case, the short text post.
--   The `sig` field is the signature that clients use to verify that the user with this pubkey did in fact send this event on the date specified.
+-   Het `id` veld toont de unieke ID van de event
+-   Het `pubkey` veld toont de public key van de afzender
+-   Het `created_at` veld toont wanneer het event is gepubliceerd
+-   Het `kind` veld toont om wat voor soort event het gaat
+-   Het `tags` veld bevat tags bij het evenement. Deze worden gebruikt voor het maken van links, het toevoegen van media en het vermelden van andere gebruikers of evenementen.
+-   Het `content` veld bevat de content. In dit geval een korte tekst notitie.
+-   Het `sig` veld is de handtekening die clients gebruiken om te verifiëren dat de gebruiker met deze pubkey dit evenement daadwerkelijk op de gespecificeerde datum heeft verzonden.
 
 ### Event Kinds
 
-This is a list of current `Event` kinds. The most up-to-date list can always be found on the [Nostr NIPs repository](https://github.com/nostr-protocol/nips).
+Dit is een lijst van huidige soorten events. De meest actuele lijst is altijd te vinden op de [Nostr NIPs repository](https://github.com/nostr-protocol/nips) en wordt wekelijks bijgewerkt.
 
 | kind    | description                | NIP                                                            |
 | ------- | -------------------------- | -------------------------------------------------------------- |
@@ -119,14 +119,16 @@ This is a list of current `Event` kinds. The most up-to-date list can always be 
 
 ## [§](#nips) NIPs
 
-A Nostr Implementation Possibilty, or NIP for short, exist to document what MUST, what SHOULD and what MAY be implemented by Nostr-compatible relay and client software. NIPs are the documents that outline how the Nostr protocol works.
+Een Nostr Implementation Possibilty, kortweg NIP, bestaat om te documenteren wat geïmplementeerd MOET worden, wat ZOU MOETEN worden en wat geïmplementeerd KUNNEN worden door relay- en clientsoftware die compatibel is met Nostr. NIP's bevatten de documentatie die beschrijft hoe het Nostr-protocol werkt.
 
-### Why should I care about NIPs?
+### Waarom zou ik aandacht moeten geven aan NIPs?
 
-Nostr is decentralized and not owned by a centralized service (like Twitter). This means that the direction of the protocol is up to all of us! We can suggest and advocate for changes and offer feedback on ideas suggested by others.
+Nostr is gedecentraliseerd en geen eigendom van een gecentraliseerde dienst (zoals Twitter). Dit betekent dat de richting van het protocol aan ons allemaal is! We kunnen veranderingen voorstellen en bepleiten en feedback geven op ideeën van anderen.
 
-Being an active part of the community gives you a say in the direction of the network. NIPs published in the main repository are already approved. Adding new ideas is done via Pull Request on that repo.
+Door actief deel te nemen in de community heb je inspraak over de richting waar het netwerk naartoe beweegt. NIP's gepubliceerd in de main repository zijn al goedgekeurd. Nieuwe ideeën toevoegen gaan via Pull Requests op die repo.
 
-### Where can I find NIPs?
+### Waar kan NIPs vinden?
 
-You can see all current NIPs in the [Nostr NIP repo](https://github.com/nostr-protocol/nips).
+Je kunt alle huidige NIP's bekijken in de
+
+ [Nostr NIP repo](https://github.com/nostr-protocol/nips).
