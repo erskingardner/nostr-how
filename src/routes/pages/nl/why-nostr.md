@@ -20,17 +20,14 @@ Nostr maakt dit mogelijk.
 -   Gebruikers kunnen verbinding maken met meerdere relays naar keuze, of hun eigen relay draaien. Dit maakt het vrijwel onmogelijk om ideeën en mensen te censureren.
 -   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info/) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
 
-
-
 ## De status quo
 
 ### Mainstream media
 
-1. Uses your attention to sell ads.
-2. Gebruikt jouw aandacht om advertenties te verkopen.
-3. Gebruikt buitensporige nieuwskoppen voor zoveel mogelijk click-baits.
-4. Richt zich op negativiteit en verontwaardiging (zie ook punt 1).
-5. Worstelen met verouderde bedrijfsmodellen die wanhoop creëren in een poging bij te blijven met big tech sociale media.
+1. Gebruikt jouw aandacht om advertenties te verkopen.
+2. Gebruikt buitensporige nieuwskoppen voor zoveel mogelijk click-baits.
+3. Richt zich op negativiteit en verontwaardiging (zie ook punt 1).
+4. Worstelen met verouderde bedrijfsmodellen die wanhoop creëren in een poging bij te blijven met big tech sociale media.
 
 ### Big tech social media
 

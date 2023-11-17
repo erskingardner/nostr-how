@@ -1,60 +1,63 @@
 ---
 title: Aan de slag met Nostr
-description: This guide will help you understand the basics of Nostr and get you all set up and ready to use Nostr with a new account. We’ll cover how to create a new lightning wallet, create an account, and sign into a client safely.
+description: Deze gids helpt je de basisbeginselen van Nostr te begrijpen. We behandelen hoe je een nieuwe lightning wallet aanmaakt, een account aanmaakt en je veilig aanmeldt bij een client.
 ---
 
-## [§](#understanding-keys) Understanding keys
+## [§](#understanding-keys) Uitleg public/private keys
 
-Each Nostr account is based on a public/private key pair. A simple way to think about this is that your public key is your username and your private key is your password, with one major caveat. Unlike a password, your private key cannot be reset if lost.
+Elk Nostr account is gebaseerd op een public/private key. Om het eenvoudig uit te leggen kun je een public key vergelijken met een gebruikersnaam en is een private key een wachtwoord, met één belangrijk verschil. In tegenstelling tot een wachtwoord, kan een private key niet gewijzigd worden. Een private key wordt ook wel een secret key genoemd.
 
-Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
+Laten we het nogmaals duidelijk zeggen: **Als je jouw private key verliest, ben je de volledige control over jouw Nostr account kwijt. Als iemand anders toegang krijgt tot je private key, heeft hij/zij de volledige controle over je account.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)) or a browser extension like [Alby](https://getalby.com/#alby-extension).
+Zorg ervoor dat je jouw private key  veilig opslaat, bijvoorbeeld in een wachtwoordmanager (Bitwarden, Keepass of 1Password) of maak gebruik van een browserextensie zoals [Alby](https://getalby.com/#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
-Nostr itself is just a protocol; an agreed upon procedure for passing messages around on the internet.
+Nostr zelf is gewoon een protocol; een open, gestandariseerde procedure om berichten uit te wisselen via het internet.
 
-You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a signing extension in your browser, which is a piece of software specifically designed to safely manage private keys and cryptographically sign events.
+Je krijgt toegang tot Nostr (het protocol) via een client. Clients kunnen web-, desktop- of mobiele applicaties zijn. Bij sommige clients meld je je aan door je private key in te vullen. We raden dit af om te doen - het is vervelend en onveilig. In plaats daarvan raden we aan om een extensie in je browser te gebruiken. Dit is software die speciaal ontworpen is om private keys veilig te beheren waarmee je jouw berichten cryptografisch te ondertekent.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+Alby is een populaire ondertekeningsextensie en bitcoin lightning portemonnee die ingebouwde ondersteuning heeft voor Nostr. Het is een geweldige optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in de client-specifieke gidsen waar het nodig is hieronder.
 
-## [§](#create-your-account) Create your account
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is een populaire extensie en bitcoin lightning wallet ingebouwde Nostr ondersteuning  Het is een mooie optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in een client specifieke gids.
 
-Here are step-by-step guides to a few different clients we recommend:
+## [§](#create-your-account) Jouw account aanmaken
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+Hier zijn enkele gidsen voor een paar verschillende clients die we aanbevelen:
 
-A few other clients that we love but don't have guides for:
+-   [Iris](/nl/guides/iris) (Web)
+-   [Damus](/nl/guides/damus) (iOS)
+-   [Amethyst](/nl/guides/amethyst) (Android)
 
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
+Dit zijn een aantal andere clients die we fijn vinden, maar (nog) geen gidsen voor hebben:
 
-## [§](#find-friends) Find friends to follow
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Mooie en snelle webclient.
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Een client gericht op relay discovery.
+-   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Een Instagram geinspireerde client gericht op afbeeldingen, video's en audio.
 
--   If you know someone is on Nostr, find their profile by searching for their public key.
--   Many Twitter users are tweeting their Nostr pubkeys with the hashtag #nostr so searching this hashtag can give you a good start.
--   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is a database mapping twitter users to their Nostr pubkeys.
+## [§](#find-friends) Vrienden vinden om te volgen
 
-## [§](#whats-signing) What does "Signing" mean?
+-   Als je weet dat iemand op Nostr zit, zoek dan naar hun profiel door te zoeken naar hun public key (beginnend met `npub`).
+-   Veel Twitter gebruikers posten hun Nostr publeys met de hashtag #nostr, dus zoeken op deze hashtag op Twitter / X kan je een goede start geven.
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how) is een database die Twitter gebruikers koppelt aan hun Nostr pubkeys.
 
-In order to interact with the Nostr protocol you must create a cryptographic signature each time you perform an action. Think of this signature as an authentication step where you confirm that you are, indeed, who you say you are.
+## [§](#whats-signing) Wat betekent "signeren"?
 
-Most Nostr clients try to make this easy and quick (or allow you to save your private key in the client so that they can sign on your behalf anytime you do anything).
+Om te kunnen communiceren met het Nostr protocol moet je een cryptografische handtekening aanmaken voor elke actie die je uitvoert. Zie deze handtekening als een authenticatie stap waarbij je bevestigt dat je inderdaad bent wie je zegt dat je bent.
 
-By only providing our public key above, we'll be prompted to sign anytime we want to interact with any posts or perform any updates to our profile. When that happens, Alby will automatically pop up (like it did during the sign up step) and you can confirm that you actually want to sign.
+De meeste Nostr clients proberen dit gemakkelijk en snel te maken (of staan je toe om je private key op te slaan in de client zodat ze uit jouw naam kunnen tekenen).
 
-## [§](#can-i-use-other-clients) Can I use other clients?
+**Alby**  
+Door alleen onze publieke sleutel op te geven, worden we gevraagd om ons aan te melden wanneer we willen reageren op berichten of updates van ons profiel willen uitvoeren. Wanneer dat gebeurt, zal Alby automatisch verschijnen (zoals tijdens de aanmeldingsstap) en kun je bevestigen dat je jouw actie echt wilt ondertekenen.
 
-Yes! Now that you have created your public/private key pair, you can use this pair on any Nostr client to access your account. Remember, the client is just an interface to see messages broadcast on the Nostr protocol.
+## [§](#can-i-use-other-clients) Kan ik van andere clients gebruikmaken?
 
-## [§](#next-steps) Next steps
+Jazeker! Nadat je een public/private key combinatie hebt gekregen, kun je deze combinatie in elke Nostr client gebruiken om toegang te krijgen tot jouw account. Onthoud dat de client slechts een interface is om berichten te zien die via het Nostr protocol worden uitgewisseld.
 
-Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
+## [§](#next-steps) Volgende stappen
 
--   [Verify your identity](/en/guides/get-verified)
--   [What are Relays and how do they work?](/en/relays)
--   [Learn more about NIPs and the development of the protocol](/en/the-protocol)
+Geweldig, nu heb je een bitcoin lightning wallet, een identiteit (je public/private keys) en heb je een client uitgeprobeerd. Hier zijn een paar links die handig kunnen zijn als je je verder in Nostr wilt verdiepen:
+
+-   [Verifieer jouw identeit](/nl/guides/get-verified)
+-   [Wat zijn relays en hoe werken ze?](/nl/relays)
+-   [Leer meer over NIPs en de ontwikkeling van het protocol](/nl/the-protocol)

@@ -58,7 +58,7 @@ Zo ziet een kind 1 event eruit (kind 1 is een korte tekstnotities - vergelijkbaa
 -   Het `content` veld bevat de content. In dit geval een korte tekst notitie.
 -   Het `sig` veld is de handtekening die clients gebruiken om te verifiëren dat de gebruiker met deze pubkey dit evenement daadwerkelijk op de gespecificeerde datum heeft verzonden.
 
-### Event Kinds
+### [§](#kinds) Event Kinds
 
 Dit is een lijst van huidige soorten events. De meest actuele lijst is altijd te vinden op de [Nostr NIPs repository](https://github.com/nostr-protocol/nips) en wordt wekelijks bijgewerkt.
 
@@ -102,7 +102,7 @@ Dit is een lijst van huidige soorten events. De meest actuele lijst is altijd te
 | `31989` | Handler recommendation     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
 | `31990` | Handler information        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
 
-### Standardized Tags
+### [§](#tags) Standardized Tags
 
 | name       | value                   | other parameters  | NIP                                                                                                                            |
 | ---------- | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
