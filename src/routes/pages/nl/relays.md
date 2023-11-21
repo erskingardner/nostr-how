@@ -1,32 +1,32 @@
 ---
-title: What are Nostr Relays?
-description: A quick overview of what Nostr relays are, why are they important, and how they work.
+title: Wat zijn Nostr Relays?
+description: Een korte uitleg over wat Nostr relays zijn, waarom ze belangrijk zijn en hoe ze werken.
 ---
 
-## What are relays?
+## Wat zijn relays?
 
-Relays are like the backend servers for Nostr. They allow Nostr clients to send them messages, and they may (or may not) store those messages and broadcast those messages to all other connected clients.
+Relais zijn als het ware de backend servers voor Nostr. Ze ontvangen berichten van Nostr clients, ze kunnen die berichten opslaan (of niet) en ze doorsturen naar alle andere verbonden clients.
 
-The world of relays is changing fast so expect many changes here in the future. One thing to note, because Nostr is decentralized and depends on relays to store and retreive data, if you notice that your Nostr client feels slow, it's most likely due to the relays that you're using. It might be worth adding a few more relays (or removing a few) to your client.
+Het landschap van relays verandert snel, dus hoe rekening met vele veranderingen in de toekomst. Let op, omdat Nostr gedecentraliseerd is en afhankelijk is van relays om gegevens op te slaan en terug te halen kan het voorkomen dat je Nostr client traag reageert. Dit is waarschijnlijk te wijten aan de relays waarmee je bent verbonden. Het kan de moeite waard zijn om wat meer relays toe te voegen (of er juist een paar te verwijderen) aan de app die je gebruikt. Idealiter ben je ongeveer met 10 verschillende relays verbonden.
 
-## Paid vs Free relays
+## Betaalde vs gratis relays
 
-Many relays are currently free to use. Given the costs of running a relay (paying for compute, storage, and bandwidth), most people expect that paid relays will be the norm in the future.
+Veel relays zijn momenteel gratis te gebruiken. Gezien de kosten van een relay (ze betalen voor computing, opslag en bandbreedte) is de verwachting dat betaalde relays in de toekomst de norm zullen worden.
 
-One major benefit of using paid relays now is the higher signal of users and notes on paid relays. The "proof of work" of paying for relay access is something that helps keep spam accounts from infesting the network.
+Een groot voordeel van het gebruik van betaalde relays is de hogere kwaliteit van gebruikers en events op betaalde relays. Het "proof of work" van het betalen voor relay toegang is iets dat helpt om spam te voorkomen op het netwerk.
 
-### Popular paid relays
+### Populaire betaalde relays
 
-An up-to-date list of paid relays with details on how much they cost and who operates them can be found on [Relay Exchange](https://relay.exchange/)
+Een lijst van betaalde relays met details over hoeveel ze kosten en wie ze beheerd, is te vinden op [Relay Exchange](https://relay.exchange/).
 
-### Where can I find a list of all relays?
+### Waar kan ik een lijst met alle relays vinden?
 
-The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://nostr.watch/relays/find).
+De beste bron die we hebben gevonden voor het doorzoeken en beoordelen van de prestaties van bekende relays is de website [Nostr.watch](https://nostr.watch/relays/find).
 
-## What happens if all the relays I use stop working?
+## Wat gebeurt er als alle relays stoppen die ik gebruik?
 
-If _all_ the relays that you have used in the past go offline, all your posts will be unretrievable. This is one reason that Nostr allows users to connect to many relays – this ensures some degree of backup. That said, if you're really interested in being uncensorable, you can and should run your own personal relay.
+Als alle _relays) die je in het verleden hebt gebruikt offline gaan, zijn al je berichten niet meer op te halen. Dit is een van de redenen waarom Nostr gebruikers toestaat om verbinding te maken met veel relays - dit zorgt voor een zekere mate van backups. Dat gezegd hebbende, als je echt geïnteresseerd bent in niet gecensureerd worden, zou je jouw eigen persoonlijke relays moeten gebruiken.
 
-## Should I run my own relay?
+## Moet ik een eigen relay opzetten?
 
-For most people, no, it's not worth the hassle. That said, if you're technical and want to ensure that your speech is absolutely uncensorable or want to run a private relay for a small group, then you can and should run your own relay. This ensures that you always have a copy of all your Nostr posts and interactions for all time. We're working on a guide to this but in the meantime, [here is a guide](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) from Andre Neves on how to set up a Nostr relay.
+Voor de meeste mensen is dat teveel gedoe. Maar als je technisch bent en er zeker van wilt zijn dat jouw stem absoluut niet gecensureerd wordt of als je een privé relays voor een kleine groep mensen wilt beheren, dan moet je jouw eigen relais opzetten. Dit zorgt ervoor dat je altijd een kopie hebt van al je Nostr berichten en interacties. We werken aan een gids hiervoor, maar in de tussentijd is [hier een gids](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) van Andre Neves over het opzetten van een Nostr relay.
