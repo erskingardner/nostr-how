@@ -5,7 +5,7 @@ description: We zijn Nostr.how begonnen omdat we enthousiast zijn over het Nostr
 
 ## [§](#in-general) Algemeen
 
-Dit is een open source projekt dat draait op vrijwilligers. [De code](https://github.com/erskingardner/nostr-how) is openbaar gehost op GitHub en we moedigen iedereen aan om het repository te klonen, wijzigingen aan te brengen en pull-aanvragen in te dienen.
+Dit is een open source project dat draait op vrijwilligers. [De code](https://github.com/erskingardner/nostr-how) is openbaar gehost op GitHub en we moedigen iedereen aan om het repository te klonen, wijzigingen aan te brengen en pull-aanvragen in te dienen.
 
 Als je niet technisch bent, geen zorgen. Er zijn andere manieren waarop je kunt bijdragen, zoals vertalen, content maken, typfouten melden, of ons wat sats sturen om onze hostingkosten te dekken.
 
@@ -13,7 +13,7 @@ Als je niet technisch bent, geen zorgen. Er zijn andere manieren waarop je kunt 
 
 Als je typefouten of onjuiste informatie op Nostr.how vindt, laat het ons dan weten door het te melden [op onze GitHub repo](https://github.com/nostr-how/nostr-how/issues).
 
-Bovendien, als je ideeën hebt voor inhoud die we moeten schrijven, meld deze dan graag ook met je suggesties.🙌🏼
+Bovendien, als je ideeën hebt voor inhoud die we moeten schrijven, meld deze dan graag ook met je suggesties. 🙌🏼
 
 ## [§](#write-content) Content maken
 
@@ -31,4 +31,4 @@ Deze site is gebouwd met behulp van Svelte, Tailwind CSS en Markdown. Als je wil
 
 Dit is een vrijwilligersproject. Eventuele sats die we ontvangen via donaties worden gebruikt om tijd te besteden aan het maken van nieuwe inhoud of om onze hostingkosten te betalen.
 
-We accepteren sats alleen via het Lightning-netwerk. Doneer alsjeblieft via de knop in de header, footer of navigatiebalk.
+We accepteren sats alleen via het Lightning netwerk. Doneer alsjeblieft via de knop in de header, footer of navigatiebalk.
