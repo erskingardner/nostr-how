@@ -46,4 +46,4 @@ Imaginez, par exemple, la situation suivante :
 
 1. Vous avez une adresse [Stacker News](https://stacker.news/) lightning dans votre profil Nostr, c'est là que vous recevrez les sats zappés.
 1. Dans votre navigateur web, vous utilisez Iris comme client et payez les Zaps en utilisant votre portefeuille Alby via leur extension chrome.
-1. Sur mobile, vous utilisez Damus comme client et payez les Zaps en utilisant l'application Wallet of Statoshi.
+1. Sur mobile, vous utilisez Damus comme client et payez les Zaps en utilisant l'application Wallet of Satoshi.
