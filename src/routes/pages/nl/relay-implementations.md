@@ -1,42 +1,46 @@
 ---
-title: Relay Implementations
-description: This is a list of all known implementations of the Nostr relay spec. You only need this if you're planning on running a relay yourself. Relays are (so far) application agnostic. You can run your own or use any or all of the public instances.
+title: Relay implementaties
+description: Dit is een lijst van alle bekende implementaties voor het draaien van een Nostr relay. Dit heb je alleen nodig als je van plan bent om zelf een relay te implementeren. Relays zijn (tot nu toe) applicatie agnostisch. Hieronder vind je een lijst gecategoriseerd per programmeertaal. 
+
 ---
 
 ## Go
 
--   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): A simple reference relay backed by Postgres, written as a demo on top of the [Relayer](https://github.com/fiatjaf/relayer) framework for building custom relays
+- [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): een eenvoudig implementatie ondersteund door Postgres, geschreven als demo bovenop het [Relayer](https://github.com/fiatjaf/relayer) framework voor het bouwen van custom relay.
+- [gnost-relay](https://github.com/barkyq/gnost-relay): een relay geschreven in Go met Postgres ondersteuning
 
 ## C++
 
--   [Stirfry](https://github.com/hoytech/strfry): A database-less relay implementation in C++.
+-   [Stirfry](https://github.com/hoytech/strfry): Een C++ implemtatie zonder database.
 
 ## C#
 
--   [NNostr](https://github.com/Kukks/NNostr): A C# relay
+-   [NNostr](https://github.com/Kukks/NNostr): Een C# relay
 
 ## Rust
 
--   [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/): A minimalistic relay written in Rust that saves data on SQLite
--   [søstr](https://github.com/metasikander/s0str): A private nostr relay written in rust, saves all notes from one pubkey and publish them to anyone that requests them
+-   [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/): een minimalistische relay geschreven in Rust met een SQLite database.
+-   [søstr](https://github.com/metasikander/s0str): Een private Nostr relay geschreven in Rust, bewaart alle events van één pubkey en stuurt deze door naar clients die deze opvragen.
 
 ## Node.js / Typescript
 
--   [nostream](https://github.com/Cameri/nostream): A nostr relay written in Typescript backed by PostgreSQL (renamed from nostr-ts-relay)
--   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): A relay for [Minds](https://www.minds.com), an open-source social network
-    -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): Relevant Minds API code for reading/writing Minds posts using Nostr
--   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): A Nostr relay with a clear architecture and high test coverage (Postgres, MeiliSearch, NestJS)
+-   [nostream](https://github.com/Cameri/nostream): een relay geschreven in TypeScript met een PostgreSQL database. (voorheen bekend als nostr-ts-relay)
+-   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): een relay voor [Minds](https://www.minds.com), een opensource sociaal netwerk.
+    -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): relevante Minds API code voor het lezen/schrijven van Minds berichten voor Nostr.
+-   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): een relay met een overzichtelijke architectuur met veel testmogelijkheden (Postgres, MeiliSearch, NestJS)
 
 ## Clojure
 
--   [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay): A relay written in Clojure
+-   [me.untethr.nostr-relay](https://github.com/atdixon/me.untethr.nostr-relay): een relay geschreven in Clojure
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Relay, client, and other tooling in python
--   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): A Nostr relay written in python, backed by SQLite
+-   [nostrypy](https://github.com/monty888/nostrpy): Relay, client, en andere hulpmiddelen in Python
+-   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): een Nostr relay geschreven in Python, met SQLite als database
 
 ## Kotlin
 
--   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): A Kotlin Relay supporting both SQLite and Postgresql
--   [knostr](https://github.com/lpicanco/knostr): A nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer)
+-   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): een Kotlin relay die zowel een SQLite en Postgresql database ondersteunt
+-   [knostr](https://github.com/lpicanco/knostr): een relay geschreven in Kotlin met Postgres support en statistieken(micrometer)
+
+Nog meer implementaties kun je vinden in de [awesome-nostr lijst](https://github.com/aljazceru/awesome-nostr#implementations).
