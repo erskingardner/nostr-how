@@ -1,39 +1,41 @@
 ---
-title: Nostr Resources & Links
-description: This is a collection of other Nostr resources and projects that we've come across.
+title: Nostr projecten
+description: Dit is een lijst met verschillende Nostr projecten en tools die we zijn tegengekomen.
 ---
 
-If you are working on project and would like it included here, [send me a note](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) or [add an issue](https://github.com/erskingardner/nostr-how/issues) or [submit a PR](https://github.com/erskingardner/nostr-how/pulls) to our Github repo.
+Als je aan een project werkt en je wilt het hier opnemen, stuur ons dan een [bericht](https://snort.social/p/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc) of [maak een issue aan](https://github.com/erskingardner/nostr-how/issues) of [dien een PR in](https://github.com/erskingardner/nostr-how/pulls) op onze Github repo.
 
-## [§](#nostr-repo) The Nostr repository
+## [§](#nostr-repo) De Nostr repository
 
-The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the canonical home of Nostr. It's a very sparse repository but houses [@fiatjaf's](https://github.com/fiatjaf) original reasoning on why Nostr needs to exist.
+De [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is de thuisbasis van Nostr. 
+Het is een summiere repository, maar bevat [@fiatjaf's](https://github.com/fiatjaf) oorspronkelijke redenering over waarom Nostr moet bestaan.
 
 ## [§](#nostr-relays) Nostr Relays
 
--   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
--   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
--   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
--   See our page on [relay implementations](/en/relay-implementations) for more.
+-   [Purplepag.es](https://purplepag.es/what) is een speciale relay die als proxy werkt.
+-   [Nostr.watch](https://nostr.watch/relays/find) is een lijst met alle bekende relays.
+-   [Relay Exchange](https://relay.exchange/) is een lijst met alle betaalde relays.
+-   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is een relay project die data van andere relays samenvoegt. Het doel is om de kloof tussen open en private relays te overbruggen.
+-   Bekijk onze [relay implementaties](/en/relay-implementations) voor meer.
 
 ## [§](#search-data) Search & data
 
--   [Nostr.band](https://nostr.band) is a search engine for Nostr that can help you find new users to follow or find that note you saw a while back.
--   [Network stats](https://stats.nostr.band) is also run by Nostr.band. This is a high level set of data about the growth of the Nostr network.
--   [Zaplife](https://zaplife.lol) is an aggregation of all(?) Zaps across Nostr in the last several hours. Think of it as the Zap leaderboard. ⚡
--   [Swarmstr](https://swarmstr.com) is a Q&A Nostr client that can help you find answers to your questions. Allows you to look up questions by content from #asknostr tag activity.
+-   [Nostr.band](https://nostr.band) is een zoekmachine voor Nostr die je kan helpen om nieuwe gebruikers te vinden om te volgen of om berichten terug te vinden.
+-   [Network stats](https://stats.nostr.band) is een overzicht met statistieken over de groei van het Nostr netwerk. 
+-   [Zaplife](https://zaplife.lol) is een aggregratie van alle meest recente (?) Zaps op het Nostr netwerk. Het is een soort scorebord met zaps. ⚡
+-   [Swarmstr](https://swarmstr.com) is een vraag & antwoord Nostr client dat je kan helpen om antwoorden te vinden op vragen. Je kunt alle vragen die getagged zijn met #asknostr opzoeken.
 
 ## [§](#long-form-content) Long-form content
 
 -   [Habla](https://habla.news)
 -   [Blogstack](https://blogstack.io/)
+-   [Yakihonne](https://yakihonne.com/)
 
 ## [§](#badges) Badges
 
 -   [Badges.page](https://badges.page/)
 
-## [§](#others) Others
+## [§](#others) Overige
 
--   [Awesome Nostr](https://www.nostr.net) is a repository of links for Nostr clients, relay implementations, and more.
--   [Nostr Resources](https://nostr-resources.com) covers Nostr basics and links to many other resources.
+-   [Awesome Nostr](https://www.nostr.net) is een repository met links van Nostr clients, relay implementaties en meer.
+-   [Nostr Resources](https://nostr-resources.com) een leerzame website met de basics over Nostr en links naar andere resources.
