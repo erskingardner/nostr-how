@@ -46,4 +46,4 @@ Stelle dir folgende Beispiele vor:
 
 1. Du hast eine [Stacker News](https://stacker.news/) Lightning-Adresse in deinem Nostr-Profil eingetragen, hier erhältst du alle gezappten Sats.
 1. In deinem Webbrowser verwendest du Iris als Client und sendest Zaps mit deiner Alby-Wallet über die Browser-Erweiterung.
-1. Auf dem Smartphone verwendest du Damus als Client und sendest Zaps mit der Wallet of Statoshi-App.
+1. Auf dem Smartphone verwendest du Damus als Client und sendest Zaps mit der Wallet of Satoshi-App.
