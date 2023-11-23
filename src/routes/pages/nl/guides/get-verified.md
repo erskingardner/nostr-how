@@ -1,34 +1,34 @@
 ---
-title: Get NIP-05 verified
-description: How to verify your identity on Nostr to get a verification checkmark and an easier way to share your account.
+title: NIP-05 verificatie
+description: Hoe verifieer je je identiteit op Nostr om een vinkje te krijgen en om het eenvoudiger te maken om je account te delen of vindbaar te maken.
 ---
 
-## [§](#what-youll-learn) What you'll learn in this guide
+## [§](#what-youll-learn) Wat je leert in deze gids
 
-You might have noticed on many different clients that some users have checks, just like on Twitter.
+Misschien heb je op veel verschillende clients gemerkt dat sommige gebruikers een vinkje hebben, net als op Twitter.
 
-NIP-05 specifies how Nostr users can verify their identities. Different clients show verification in slightly different ways but it's an important way of showing the Nostr community that you're a real user.
+NIP-05 specificeert hoe Nostr gebruikers hun identiteit kunnen verifiëren. Verschillende clients tonen deze verificatie op iets verschillende manieren, maar het is een belangrijke manier om de Nostr community te laten zien dat je een echte gebruiker bent.
 
 ![Snort Verified](/images/snort-verified.webp)
 
-The verification process on Nostr is documented in a Nostr Implementation Possibilities (NIP) called [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
+Het verificatieproces op Nostr is gedocumenteerd in een Nostr Implementation Possibilities (NIP) genaamd [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md).
 
-NIP-05 enables a Nostr user to map their public key to a DNS-based internet identifier. The verification mechanism is similar to how Google requires you to verify your ownership of a domain using a DNS record.
+Met NIP-05 kan een Nostr gebruiker zijn publieke sleutel koppelen aan een DNS gebaseerde internetidentifier. Het verificatiemechanisme is vergelijkbaar met hoe Google vereist dat je jouw eigendom van een domeinnaam verifieert met behulp van een DNS record.
 
-The major benefit of verification is that it allows a Nostr user to be identified by a human-readable name, instead of a long, hard-to-remember public key. This enables verified Nostr users to easily share their identity with others.
+Het grote voordeel van deze verificatie is dat een Nostr gebruiker geïdentificeerd kan worden aan de hand van een menselijk leesbare naam, in plaats van een lange, moeilijk te onthouden public key (beginned met `npub`). Hierdoor kunnen geverifieerde Nostr gebruikers hun identiteit gemakkelijk met anderen delen.
 
-To utilize NIP-05, Nostr users add a nip05 url to their profile (most clients have support for this). NIP-05 urls look like emails – bob@example.com. Let's break down the parts:
+Om NIP-05 te gebruiken, voegen Nostr gebruikers een nip05 url toe aan hun profiel (de meeste clients ondersteunen dit). Deze NIP-05 urls zien eruit als e-mails, bijvoorbeeld bob@example.com. Laten we de onderdelen opsplitsen:
 
-1. Everything before the `@` symbol ("bob", in our example). This must match the value of the name field in your Nostr profile.
-1. Everything after the `@` symbol ("example.com", in our example). This is the domain where the client can look to find a `/.well-known/nostr.json` file that contains the user's name & public key.
+1. Alles voor het @-symbool ("bob", in ons voorbeeld). Dit moet overeenkomen met de waarde van het naamveld van je Nostr profiel.
+2. Alles na het @-symbool ("example.com", in ons voorbeeld). Dit is het domein waar de client kan kijken om een `/.well-known/nostr.json` bestand op te vragen om te controleren of de naam en public key van de gebruiker hierin staan.
 
-When clients see a nip05 url, they will look for a `/.well-known/nostr.json` file at the specified domain. This file must contain the nostr public key for the specified user. Read more specifics in the NIP-05 spec.
+Wanneer clients een nip05 url zien, zullen ze zoeken naar een `/.well-known/nostr.json` bestand op het opgegeven domein. Dit bestand moet de nostr public key voor de opgegeven gebruiker bevatten. Dit bestand kan meerdere pubkeys bevatten. Lees meer details in de [NIP-05 spec](https://github.com/nostr-protocol/nips/blob/master/05.md).
 
-While it sounds technical, it's suprisingly easy to get verified. Let's see how to do it.
+Hoewel het technisch klinkt, is het verrassend eenvoudig om geverifieerd te worden. Laten we eens kijken hoe je dat doet.
 
-## [§](#free-verification) Get verified through a free service
+## [§](#free-verification) Gratis verificatie
 
-At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
+Op dit moment zijn er verschillende providers die mensen helpen om gratis geverifieerd te worden. Dit is een geweldige optie als je nog geen sats in je lightning wallet hebt staan. Steun deze projecten indien mogelijk via donaties. ⚡🤙
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
@@ -37,9 +37,9 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 
-## [§](#paid-verification) Pay a provider for verification
+## [§](#paid-verification) Een provider betalen voor verificatie
 
-If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
+Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde  NIP-05-service. Hier zijn er een paar:
 
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
@@ -51,9 +51,9 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 
-## [§](#self-hosted) Self hosted verification
+## [§](#self-hosted) Self hosted verificatie
 
-If you already own a domain, this is a free option. You just need to add a `.well-known/nostr.json` file to your domain. The contents of the file should be the following:
+Als je al een domein hebt, is dit een gratis optie. Je hoeft alleen maar een `.well-known/nostr.json` bestand toe te voegen aan je domeinnaam. De inhoud van dit bestand ziet er als volgt uit:
 
 ```json
 {
@@ -63,7 +63,7 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 }
 ```
 
-Optionally you can also add a section to let clients know which relays they are likely to find you on:
+Optioneel kun je ook een relays sectie toevoegen om clients te laten weten op welke relays je actief bent:
 
 ```json
 {
@@ -80,10 +80,10 @@ Optionally you can also add a section to let clients know which relays they are 
 }
 ```
 
-Make sure you use the hex version of your public key in your `nostr.json` file. This is the version of the key that **doesn't** start with `npub`.
+Zorg ervoor dat je de hex waarde van je public gebruikt in je `nostr.json` bestand. Dit is de versie van de key die **niet** begint met `npub`.
 
-You can convert your key on [Nostr.band](https://nostr.band)
+Hier kan je jouw key omzetten op [Nostr.band](https://nostr.band)
 
 ![Get your hex key](/images/get-hex-key.webp)
 
-Finally, make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.
+Zorg er ook voor dat dit bestand wordt opgevraagd met de `Access-Control-Allow-Origin` header ingesteld op `*` omdat deze toegankelijk moet zijn voor alle clients.
