@@ -1,69 +1,76 @@
 ---
-title: Sweep sats to a self custody wallet
-description: In this guide, we'll cover a simple solution to reduce your counter-party risk by sweeping funds to a self-custody wallet.
+title: Overstappen naar een self-custodial wallet
+description: In deze gids behandelen we een eenvoudige oplossing om je tegenpartij risico te verminderen door je bitcoin naar een self-custodial wallet te verplaatsen.
 ---
 
-## [§](#who-is-this-guide-for) Who is this guide for?
+## [§](#who-is-this-guide-for) Voor wie is deze gids?
 
-Most users right now are using Nostr with a custodial lightning wallet, like Wallet of Satoshi or Alby.
+De meeste gebruikers gebruiken Nostr op dit moment met een custodial lightning wallet, zoals Wallet of Satoshi of Alby.
 
-If that's you, I want you to think about the sats in your wallet right now. Now, think about losing all those sats. If that idea makes you feel uncomfortable or worried, this guide is for you.
+Als jij een van hen bent, willen we dat je nu event denkt aan de sats in je wallet. Stel je voor dat je al die sats verliest. Als dat idee je een ongemakkelijk of bezorgd gevoel geeft, dan is deze gids voor jou.
+Zo niet, dan raden we je aan om deze website gebruiken om te bepalen welke vorm voor het beheer van jouw sats het beste bij je past: [storingbitcoin.info](https://storingbitcoin.info/).
 
-We'll cover setting up a self-custodial wallet which will allow you to periodically sweep funds from your custodial wallet for safekeeping.
+We gaan het hebben over het opzetten van een self-custodial wallet waarmee je periodiek geld van je custodial wallet kunt verplaatsen om het veilig te bewaren.
 
-## [§](#why-is-self-custody-important) Why is self-custody important?
+## [§](#why-is-self-custody-important) Waarom is self-custody belangrijk?
 
-Simply put; not your keys, not your coins. When you leave your sats in a custodial wallet you're accepting some degree of counter-party risk. Imagine if Wallet of Satoshi was somehow hacked. Because they hold all customer funds, a situation like this would mean that your funds would be lost.
+Simpel gezegd: not your keys, not your coins. Als je je sats in een custodial wallet bewaart, accepteer je een bepaalde mate van tegenpartij risico. Stel je voor dat Wallet of Satoshi op de een of andere manier gehackt zou worden. Omdat ze alle tegoeden van klanten bewaren, zou een situatie als deze betekenen dat je tegoeden verloren zouden gaan.
+Als de hackers toegang hebben tot de private keys, kunnen ze deze tegoeden namelijk verplaatsen naar hun eigen of andere wallets.
 
-Because of this, it's strongly advised that you only keep a small amount of funds in _any_ custodial wallet and self-custody the rest of your bitcoin.
+Daarom wordt het sterk aangeraden dat je slechts een klein bedrag in een custodial wallet bewaart en de rest van je bitcoin zelf bewaart met een self-custodial wallet.
 
-## [§](#ready-lets-go) Ready? Let's go!
+## [§](#ready-lets-go) Klaar? Laten we beginnen!
 
-This is a beginners guide that doesn't require setting up your own lightning node or doing anything techcnial. Our hack here is to use the Nostr community of Bitcoiners to help you make the swap from sats on the Lightning network to self-custodied sats on the main Bitcoin base chain. Secure your stack and make friends doing peer-to-peer transactions. Double win!
+Dit is een gids voor beginners waarvoor je geen eigen lightning node hoeft op te zetten of iets technisch hoeft te doen.
+Onze truc hier is om gebruik te maken van de Nostr community van bitcoiners om jou te helpen de overstap te maken van sats op het lightning netwerk naar sats in eigen beheer op het bitcoin netwerk. Je leert hoe je jouw tegoeden beveiligd en je maakt kennis met peer-to-peer transacties. Dat is dubbele winst!
 
-If you're feeling overwhelmed by the terminology here, check out [the section at the bottom of the page](#lightning-bitcoin-on-chain-what) for more details.
+Als je je overweldigd voelt door de terminologie hier, bekijk dan het [gedeelte onderaan de pagina](#lightning-bitcoin-on-chain-what) voor meer details.
 
-1. First follow this guide to set up a new Bitcoin wallet in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). You can also use any other self-custodial wallet.
-1. Once you have very carefully saved your seed words (which is what you'll use to restore your wallet if needed), you are ready to find someone to do a swap with.
-1. The easiest way to do this is to post a note mentioning the tags #plebchain and #bitcoin mentioning that you'd like to swap some lightning sats for on-chain sats. Don't be shy about directly messaging folks that talk about bitcoin regularly. You can also [ping me directly](https://primal.net/jeffg) if needed.
-1. From there, you'll make a plan directly with the person you're going to swap with. Before you go through any swap, take time to get to know the person a bit, because there is no escrow in Bitcoin, you need to be comfortable that you're dealing with someone you can trust to complete the transaction. Generally the process looks something like this:
-    1. Agree on an amount to swap.
-    1. Give your newly created wallet address (in Blue Wallet) to the person via DM.
-    1. You zap sats to the person via your Nostr client.
-    1. They will initiate an onchain transaction to pay you that same amount of sats (potentially minus any transaction fee).
-    1. Remember, this on-chain transaction will take some time. Your trade partner can (and should) send you the transaction ID as soon as they have it so that you can follow along on [mempool.space](https://mempool.space).
-1. That's it! You're done. Once the funds arrive you'll have successfully taken self-custody of your first Bitcoin. Treat it with respect and take good care of it.
+1. Download eerst [Blue Wallet](https://bluewallet.io/). Volg dan deze gids om een nieuwe bitcoin wallet aan te maken in [Blue Wallet](https://bluewallet.io/docs/create-bitcoin-wallet/). Je kunt elke andere self-custodial wallet gebruiken.
+2. Zodra je heel zorgvuldig je seed phrase (jouw private key bestaande uit 12 of 24 woorden) hebt opgeslagen (dat is wat nodig hebt om je wallet te herstellen als dat nodig is), ben je klaar om iemand te zoeken om mee te ruilen. 3Wat gaan we ruilen?
+3. Wat gaan we ruilen? Lightning sats voor on-chain bitcoin sats. De makkelijkste manier om dit te doen is om een Nostr bericht te posten met de tags #plebchain en #bitcoin waarin je vermeldt dat je graag wat lightning sats zou willen ruilen voor on-chain sats. Wees niet verlegen om mensen die regelmatig over bitcoin praten direct te berichten. Je kunt Jeff ook [een DM sturen](https://primal.net/jeffg) als dat nodig is.
+4. Als je iemand hebt gevonden, bespreek je een plan met die persoon. Neem voordat je gaat ruilen de tijd om de persoon een beetje te leren kennen, want er bestaat geen borg in Bitcoin. Je moet er zeker van zijn dat je te maken hebt met iemand die je kunt vertrouwen om de transactie te voltooien. Over het algemeen ziet het plan er als volgt uit:
+    - Kom overeen met het bedrag dat je wilt verplaatsen.
+    - Stuur het bitcoin wallet adres (die je hebt aangemaakt in Blue Wallet) naar die persoon.
+    - Jij stuurt dat bedrag als zap naar die persoon via je Nostr client.
+    - De persoon zal een on-chain transactie starten met datzelfde bedrag aan sats (mogelijk minus de transactiekosten).
+    - Onthoud dat deze on-chain transactie enige tijd in beslag kan nemen. Je handelspartner kan (en moet) jou de transactie ID sturen zodra hij deze heeft verstuurd, zodat je deze kunt volgen op in een block explorer zoals [mempool.space](https://mempool.space).
+5. Dat is het! Je bent klaar. Zodra de sats arriveren, heb je met succes zelf het beheer genomen over je eerste bitcoin sats. Bewaar deze met respect en zorg er goed voor.
 
-## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-chain? What?
+## [§](#lightning-bitcoin-on-chain-what) Lightning? Bitcoin? On-chain? Wat zeg je allemaal?
 
-If this all sounds like greek to you don't worry. Before we get into the guide, let's quickly cover some terminology.
+Als dit allemaal Latijns klinkt, maak je dan geen zorgen. Voordat we verder gaan met de gids, zullen we eerst wat terminologie bespreken.
 
 ### Bitcoin
 
-This rabbit hole has no known bottom. That said, if you're new to Bitcoin the only thing that you really need to know is that Bitcoin is a completely decentralized form of electronic money. It isn't controlled by any one person or entity and runs based on rules coded into the software, instead of being dependent on politics and governements. Bitcoin is the only truly decentralized and rules-based electronic money.
+Dit _rabbit hole_ kent geen bodem. Als je nieuw bent met Bitcoin is het enige dat je echt moet weten dat Bitcoin een volledig gedecentraliseerde vorm van elektronisch geld is. Het wordt niet gecontroleerd door één persoon of entiteit en werkt op basis van regels die in de software zijn vastgelegd, in plaats van afhankelijk te zijn van politiek en overheden. Bitcoin is het enige echte gedecentraliseerde en op regels gebaseerde elektronische geld.
 
-Bitcoin prioritizes certainty over speed. This means that transactions cost a little in fees and take some time to confirm but once they're confirmed, they are completely irreversible and no one can take your coins or censor your transaction.
+Bitcoin geeft zekerheid meer prioriteit dan snelheid. Dit betekent dat transacties een beetje kosten (transactiekosten) en enige tijd nodig hebben om te bevestigen (gemiddeld 10 minuten), maar als ze eenmaal bevestigd zijn, zijn ze volledig onomkeerbaar en kan niemand jouw tegoeden afpakken of je transactie censureren.
 
 If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
+Als je meer wilt leren, dan zijn dit goede bronnen voor beginners met Bitcoin:
 
 1. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
-1. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
+2. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
+3. [Beginnen met Bitcoin](https://beginnenmetbitcoin.com/)
 
 ### Lightning
 
-Lightning is a payments layer that runs on top of Bitcoin. Fundamentally, you're still making payments using Bitcoin as the money but Lightning allows for near-instant and extremely low-fee transactions. Because of this, the Lightning network has opened up many new use-cases involving micropayments. The details of how Lightning works is beyond the scope of this intro guide but here are a few resources if you're keen to learn more:
+Lightning is een laag / netwerk die bovenop het Bitcoin netwerk draait voor betalingen. In principe worden betalingen nog steeds gedaan met Bitcoin als geld, maar Lightning maakt instant en bijna gratis transacties mogelijk. Hierdoor heeft het Lightning netwerk veel nieuwe toepassingen met (micro)betalingen mogelijk gemaakt. Hoe Lightning precies werkt, valt buiten de scope van deze gids, maar hier zijn enkele bronnen als je er meer over wilt weten:
 
 1. [Bitcoiner Lightning Guide](https://bitcoiner.guide/lightning/)
 1. [Lightning Labs Overview](https://docs.lightning.engineering/the-lightning-network/overview)
 
 ### On-chain vs Off-chain
 
-You'll often hear people refer to on-chain vs off-chain Bitcoin. When people talk about on-chain transations, they are simply referring to making transactions using the base Bitcoin blockchain (remember; this is slower, but 100% final & certain). When people refer to off-chain transactions, they are most often referring to Lightning.
+Je zult mensen vaak horen over on-chain en off-chain Bitcoin. Als mensen het hebben over on-chain transacties, bedoelen ze simpelweg het maken van transacties op de basis Bitcoin blockchain (onthoud: dit is langzamer, maar 100% definitief en zeker). Als mensen het hebben over off-chain transacties, bedoelen ze meestal dat dit transacties zijn via het Lightning netwerk.
 
 ### Custodial vs Self-custodial
 
-For those new to Bitcoin, this concept might seem foreign. After all, most of us (at least in the developed world) have only ever used custodial services, like banks, to store our money. But as we've seen recently (and regularly in less developed financial markets around the world), keeping your money with a custodian has risks. Banks fail (Silicon Valley Bank, etc.) and custodians can make poor decisions and lose your money (FTX, Voyager, etc.).
+Voor wie nieuw is met Bitcoin lijkt dit concept misschien vreemd. De meesten van ons (in ieder geval in de ontwikkelde wereld) hebben immers alleen maar custodials gebruikt, zoals banken, om ons geld op te bewaren. Maar zoals we onlangs hebben gezien (en regelmatig in minder ontwikkelde financiële markten over de hele wereld), kent het bewaren van jouw geld bij zo'n partij risico's. Banken gaan failliet (Silicon Valley Bank, etc.) en zulke instanties kunnen slechte beslissingen nemen en je geld verliezen (FTX, Voyager, etc.).
 
-When you take custody of your Bitcoin you only have to put trust in yourself to store you bitcoin safely. You have total control.
+Wanneer je jouw Bitcoin zelf in bewaring neemt, hoef je alleen op jezelf te vertrouwen om jouw Bitcoin veilig op te slaan. Je hebt volledige controle.
 
-But with great power comes great responsiblity. While self-custody is the gold-standard for storing larger amounts of money securely, it can limit how you can use your money day-to-day. Most people use a combination of custodial and self-custody solutions; keeping large amounts in a self-custody way and keeping a small amount of funds in a custodial wallet for daily use.
+Maar met eigen controle komt verantwoordelijkheid. Hoewel self-custody de gouden standaard is voor het veilig opslaan van grotere tegoeden, kan het de manier waarop je je geld dagelijks wilt gebruiken beperken. De meeste mensen gebruiken een combinatie van custodial en self-custodial wallets; ze bewaren grote bedragen in self-custodial wallets en bewaren een klein bedrag in een custodial wallet voor dagelijks gebruik.
+
+Je kunt met behulp van de site [storingbitcoin.info](https://storingbitcoin.info/) bepalen hoe jij het liefste jouw tegoeden veilig beheert.
