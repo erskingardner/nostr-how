@@ -5,7 +5,7 @@ description: Hoe verifieer je je identiteit op Nostr om een vinkje te krijgen en
 
 ## [§](#what-youll-learn) Wat je leert in deze gids
 
-Misschien heb je op veel verschillende clients gemerkt dat sommige gebruikers een vinkje hebben, net als op Twitter.
+Misschien heb je in veel verschillende clients gemerkt dat sommige gebruikers een vinkje hebben, net als op Twitter.
 
 NIP-05 specificeert hoe Nostr gebruikers hun identiteit kunnen verifiëren. Verschillende clients tonen deze verificatie op iets verschillende manieren, maar het is een belangrijke manier om de Nostr community te laten zien dat je een echte gebruiker bent.
 
@@ -82,8 +82,8 @@ Optioneel kun je ook een relays sectie toevoegen om clients te laten weten op we
 
 Zorg ervoor dat je de hex waarde van je public gebruikt in je `nostr.json` bestand. Dit is de versie van de key die **niet** begint met `npub`.
 
-Hier kan je jouw key omzetten op [Nostr.band](https://nostr.band)
+Hier kan je jouw public key omzetten: [Nostr.band](https://nostr.band)
 
-![Get your hex key](/images/get-hex-key.webp)
+![Haal je hex key op](/images/get-hex-key.webp)
 
 Zorg er ook voor dat dit bestand wordt opgevraagd met de `Access-Control-Allow-Origin` header ingesteld op `*` omdat deze toegankelijk moet zijn voor alle clients.

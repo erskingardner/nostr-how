@@ -1,29 +1,31 @@
 ---
-title: Set up your first zapping wallet
-description: A guide to setting up a lightning wallet for zaps in Nostr.
+title: Maak je eerste zap wallet aan
+description: Een guide voor het aanmaken van een bitcoin lightning wallet voor zaps op Nostr.
 ---
 
-## [§](#magic-internet-money) Magic internet money, at the speed of light
+## [§](#magic-internet-money) Magic internet money, instant payments
 
-Using Bitcoin's Lightning Network, you can send tiny fractions of a bitcoin, known as satoshis (or sats), around the world, at the speed of light, with near-zero fees. On Nostr, these transactions are called zaps.
+Met behulp van het bitcoin lightning netwerk, kun je kleine hoeveelheden bitcoin, die satoshis of kortweg sats heten, versturen met de snelheid van het licht en met verwaarloosbare fees. Op Nostr noemen deze transacties zaps.
 
-Even if you're new to Nostr, you've probably already seen at least one mention of zaps. You can zap someone if they make you laugh, or they give you good advice, or if they post something that adds value to your experience. You can even zap someone for no reason at all! And the reverse is also true: if you contribute interesting content to the nostr community, it won't be long before strangers on the internet (read: new friends) are sending you bitcoin.
+Zelfs als je net nieuw bent op Nostr, heb je waarschijnlijk al eens gehoord van zaps. Je kunt iemand zappen als die jou aan het lachen maakt, of als die jouw een goed advies geeft, of als diegene op de een of andere manier een vorm van waarde geeft. Zelfs als er geen enkele reden is, kun je iemand zappen of zelf gezapt worden. Als jij iets op Nostr zet wat iemand leuk vindt kun je er zomaar wat bitcoin voor krijgen, of het nou van een vreemde is of van één van je Nostr vrienden.
+
 
 ## [§](#custodial-vs-self) Custodial vs Self-Custodial Wallets
 
-The first thing you'll need is a bitcoin lightning wallet. This is the wallet where your zap transactions come from. There are many options, but one of the most important distinctions to understand is whether the wallet is custodial or self-custodial. Each comes with trade-offs, but we typically recommend that brand-new users first set up a custodial wallet to get comfortable with using zaps and managing their funds.
+Het eerste wat je nodig hebt is een bitcoin lightining wallet. Dit is een digitale portomonnee waar de sats van zaps naartoe gaan of vandaan komen. Er zijn verschillende opties, maar het belangrijkste onderscheid om te begrijpen is of een wallet custodial of self-custodial is.
+Elke wallet kent z'n eigen compromis, dus we raden normaliter aan voor iemand die net nieuw is om eerst met een custodial wallet te beginnen. Zo leer je begrijpen hoe het werkt. Zodra je meer betalingen in bitcoin gaat doen is het handig om te zorgen dat jouw bitcoin tegoeden veilig in jouw eigen beheer zijn met een self-custodial wallet. Dit is een wallet waarvan jij de enige bent die de private key (seed phrase) bezit.
 
-As you get more comfortable (or once the funds in your custodial wallet reach a level that you want to take full control of) you can set up a self-custodial wallet.
+Zodra jij je op je gemak voelt met lightning, of zodra de tegoeden in je custodial wallet een bedrag vertegenwoordigen dat je graag in eigen beheer wilt hebben, kun je een non-custodial wallet gaan gebruiken.
 
 ## [§](#custodial) Custodial Wallets
 
-A custodial wallet is one where the wallet developer holds the keys to the bitcoin, and your account is essentially authorized to send and receive that bitcoin – whether to another user or to a different wallet that you fully control (i.e. a self-custodial wallet).
+Een custodial wallet is een digitale portomonnee waarvan de developer de keys bewaard. Vaak is het grootboek (voor het bijhouden van tegoeden) van de wallet dan in beheer van de wallet developer en zijn jouw bitcoin tegoeden alleen maar een virtuele representatie van de bitcoin waar jij recht op hebt (vergelijkbaar met jouw huidige bank app). Hierbij beheer jij niet zelf de keys, dus kun je die ook niet kwijtraken. Maar het beheer van de bitcoin is in handen van de wallet developer / provider.
 
-Two popular examples are [Wallet of Satoshi](https://www.walletofsatoshi.com/) and [Alby](https://getalby.com). Both wallets provide fast, convenient, and user-friendly zapping wallets. You can download Wallet of Satoshi from your mobile app store, and you can access Alby via the Chrome browser extension store.
+Twee populaire voorbeelden zijn [Wallet of Satoshi](https://www.walletofsatoshi.com/) en [Alby](https://getalby.com). Beide wallets zijn snel en eenvoudig in gebruik. Je kunt Wallet of Satoshi in de app store op je smartphone vinden. Alby kan je via als browser extensie installeren.
 
 **Wallet of Satoshi**
 
-After you download Wallet of Satoshi, open the app and tap "Receive". This will bring up a reusable QR Code, as well as your human-readable lightning receiving address. It will look like an email address (NB: it's not actually an email address so don't try and send email there). For example, this article's author can be zapped at `bostonwine@walletofsatoshi.com`. Copy your address and return to Nostr.
+Nadat je Wallet of Satoshi hebt gedownload, open dan de app and klik op "Receive". Er verschijnt dan een herbruikbare QR code, zowel als een lightning adres in de vorm van een email adres. Dit is je lightning url en kan gebruikt worden om tegoeden (dus geen emails) naar toe te sturen. Dat ziet er bijvoorbeeld zo uit: `bostonwine@walletofsatoshi.com`. Dit is de lightning url van de schrijver van dit artikel. Kopieer het adres en ga terug naar je Nostr client.
 
 ![Main Screen](https://cdn.nostr.build/i/955e1fd028d64941b80ed0b423a07541a2af8f14919c73e0add93511e3620477.jpg)
 
@@ -31,38 +33,39 @@ After you download Wallet of Satoshi, open the app and tap "Receive". This will 
 
 **Alby**
 
-For Alby, you can use any Chrome-based browser and navigate to https://getalby.com to download the extension. Create an account and within the extension, you will again find the "email-address-style" Lightning address. Copy it to your clipboard.
+Voor Alby kun je elke Chrome gebaseerde browser gebruiken om naar https://getalby.com te gaan om de extensie te downloaden. Creëer een account en in de extensie vind je wederom iets wat op een emailadres lijkt, dit is je lightning url. Kopiëer dit naar je klembord.
 
 ![Alby account](https://cdn.nostr.build/i/fee9ab21c94221a9f9573c41e8e85a97b1ecafd18e22f52cf276d31a67a58664.png)
 
-**Go back to your Nostr client**
+**Terug naar je Nostr client**
 
-Every client is a little different, but usually your Edit Profile Settings page will have a field for a "lightning address" or LNURL. In the example below, (from Damus), the field is called Bitcoin Lightning Tips. Paste your address into this field, and save your profile.
+Iedere client is anders, maar bij Edit Profile Settings of iets dergelijks vind je een veld waar je jouw lightning url of LNURL in kunt vullen. In het voorbeeld hieronder (van Damus), heet het veld bitcoin lightning tips. Plak daar jouw LNURL in en sla vervolgens deze wijziging op.
 
 ![Example client](https://cdn.nostr.build/i/34241da3022d061a8159268f05e0cb3c8aa53934a55c5cc8c76effbfc7b625cc.jpg)
 
-Now you should be zap-able! To test it out, post a note and with something like "Can someone send a small zap to test my wallet?" and add the hashtag #plebchain – you'll be amazed at how quickly you get your first zap!
+**Je zou nu zaps moeten kunnen ontvangen!**   
+Om dit uit te proberen, plaats een bericht met bijvoorbeeld: "Can someone please send a small zap to test my wallet to try it out?" met de hashtag #plebchain - en je zult je verbazen hoe snel jij jouw eerste zap zult ontvangen.
 
-To send zaps, all you need to do is click or tap your client's version of the Lightning icon on the other user's note or profile. This will automatically create a Lightning invoice, and your client will prompt you to open a Lightning wallet so that you can pay that invoice.
+Om zaps te versturen, is het enige wat je moet doen is op het zap icoontje klikken van een Nostr gebruiker's profiel of bericht. In de meeste clients is dat iccontje een kleine bliksem. Je client krijg de opdracht om je lightning wallet te openen zodat je de zap kunt versturen.
 
 ## [§](#self-custody) Self-Custodial Wallets
 
-Once you've familiarized yourself with sending and receiving zaps, and started stacking a few sats in your wallet, it's worth learning more about non-custodial wallets.
+Zodra je het versturen en ontvangen van zaps begrijpt en je wallet een bepaalde hoeveelheid bitcoin bezit, is het de moeite waard om meer te leren over self-custodial wallets.
 
-While a custodial solution like Wallet of Satoshi is incredibly convenient, it's important to remember that the wallet developer holds the keys to this bitcoin. After all, bitcoin's original raison d'être was to remove the need for a trusted third party!
+Terwijl een custodial wallet zoals Wallet of Satoshi een gemakkelijke oplossing is, is het belangrijk om te onthouden dat je met deze oplossing niet de bitcoin in eigen beheer hebt. Dat terwijl het eigen beheer en niemand te hoeven vertrouwen met jouw geld nou juist een van de belangrijkste waarde proposities is van bitcoin. Het vergroot jouw digitale soevereiniteit.
 
-So, as soon as you're holding enough bitcoin in your wallet that you'd be upset to lose the funds, it's time to set up a self-custodial wallet as well. (You can continue using the custodial option for zapping, if you'd like, but it's a good idea to move any significant amount of bitcoin to self-custody, when it starts adding up).
+Zodra je genoeg bitcoin in je wallet hebt, bijvoorbeeld met een hoeveelheid contant geld waar je liever niet de deur uitgaat, is het tijd om een self-custodial wallet te gaan gebruiken. Je kunt gewoon je custodial wallet blijven gebruiken. Het is vergelijkbaar met cash in je portemonnee, maar het is raadzaam om niet te veel in je custiodial wallet te bewaren. Room dus af, of vul terug aan met kleine beragen.
 
-Lightning wallet apps are plentiful, but popular options include Phoenix and Breez (mobile wallets) and Mutiny (a web-based app).
+Er zijn veel self-custodial lightning wallet apps, maar de meest populaire zijn Zeus, Phoenix, Mutiny en Breez.
 
-At the moment, self-custodial lightning wallets don't offer a "static" lightning address or LNURL, the email-address-style receiving address. (Hopefully this will change soon). What this means is that you can use self-custodial wallets to send zaps, but not receive them (yet).
+[![Non-custodial wallets](https://image.nostr.build/4baca0eeb4589cae8afeeafea91ebc1661da9d0727323f26cc99de5bfbff2afe.jpg)](https://image.nostr.build/4baca0eeb4589cae8afeeafea91ebc1661da9d0727323f26cc99de5bfbff2afe.jpg)
 
-These apps will prompt you during setup to write down your "seed phrase". This is a set of 12 or 24 words, and it is the private key to your self-custodied bitcoin. The wallet developers don't know your seed phrase, and they don't control your bitcoin.
+Deze apps zullen je vragen om je seed phrase op te schrijven. Dit is een set van 12 of 24 woorden en dit is jouw private key voor je bitcoin wallet. Zorg ervoor dat je deze seed phrase nooit kwijtraakt! Sla deze seed phrase dus goed op zodat je jouw bitcoin niet kwijt kunt raken. Alleen diegene die deze seed phrase heeft, heeft toegang tot het tegoed in de betreffende wallet.
 
-Note: whenever you are recording your seed phrase, DO NOT save it online (via screenshot, iCloud notes, etc). Write it down on paper, laminate it, and keep it safe. There will come a time to learn about steel backups in the future. For now, just keep it secret and offline.
+Let op: wanneer je jouw seed phrase opslaat, **doe dit nooit** online en maak er zeker geen screenshot van, stuur deze niet door via email of chat, gebruik ook absoluut niet je notities app in je telefoon of ergens in cloud. Gebruik pen en papier, lamineer het met folie, verstop het en raak het niet kwijt. Er zal een moment komen dat je jouw seed phrase in stuk roestvast staal wilt vastleggen, maar voor nu: **hou het geheim en vooral offline**.
 
-## [§](#private-key-management) Private Key Management and Cold Storage
+## [§](#private-key-management) Private Key Management en Cold Storage
 
-To reiterate: when you have accumulated enough bitcoin in your first wallet that you want to take the next step on your self-soveriegn bitcoin journey, it's time to study the different types of bitcoin storage, and the best practices around keeping your seed phrase safe. It's an adventure, and a continuous learning experience, so let's get started.
+Samenvattend: als je eenmaal genoeg bitcoin in je eerste wallet hebt verzameld dat je over wilt gaan op een soevereine oplossing voor jouw bitcoin bezit, is het tijd om de verschillende opslag methodes te bestuderen. Daarbij hoort een hardware wallet, maar ook hoe je de seed phrase veilig wilt bewaren. Het is een avontuur met een boeiende leerweg. We nodigen je graag uit om er aan te beginnen.
 
-Learn more at https://nostr.how/en/guides/sweep-to-self-custody
+Begin hier: [stap over naar self-custody](nl/guides/sweep-to-self-custody)
