@@ -1,0 +1,33 @@
+{
+  "title": "Nostr",
+  "nav": {
+    "resources": "Resources",
+    "whatIs": "Wat is Nostr?",
+    "whyWeNeed": "Waarom hebben we Nostr nodig?",
+    "getStarted": "Aan de slag",
+    "whatZaps": "Wat zijn zaps?",
+    "nostrProtocol": "Het Nostr Protocol",
+    "clients": "Clients",
+    "relays": "Relays",
+    "relayImplementations": "Relay Implementaties",
+    "nostrProjects": "Nostr Projecten",
+    "contribute": "Meehelpen",
+    "guides": "Guides",
+    "guideIris": "Iris (web client)",
+    "guideDamus": "Damus (iOS app)",
+    "guideAmethyst": "Amethyst (Android app)",
+    "getNip05": "NIP-05 verificatie",
+    "guideNostrchat": "NostrChat (web client)",
+    "guideSweepSats": "Stap over naar self-custody",
+    "guideSetupWallet": "Een wallet gebruiken voor zaps"
+  },
+  "donateButton": "Doneer aan Nostr.how",
+  "colophon": "Gemaakt door 💜 & ⚡ by",
+  "foss": "Free & Open Source Software under ",
+  "mitLicense": "MIT License",
+  "contactMe": "Contacteer",
+  "errors": {
+    "noTranslationTitle": "Vertaling niet gevonden",
+    "noTranslationMessage": "Sorry, er bestaat geen vertaling voor deze pagina. Als je deze pagina wilt vertalen, neem dan contact op."
+  }
+}

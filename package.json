@@ -40,6 +40,6 @@
     "type": "module",
     "dependencies": {
         "@sveltejs/adapter-vercel": "^3.0.3",
-        "svelte-i18n": "^3.7.4"
+        "svelte-i18n": "^4.0.0"
     }
 }

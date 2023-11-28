@@ -14,7 +14,7 @@ The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the 
 -   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
 -   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
 -   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
+-   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridge the gap between public and private relays.
 -   See our page on [relay implementations](/en/relay-implementations) for more.
 
 ## [§](#search-data) Search & data

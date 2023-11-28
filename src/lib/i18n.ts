@@ -7,6 +7,7 @@ register("es", () => import("$lib/locales/es.json"));
 register("fa", () => import("$lib/locales/fa.json"));
 register("fr", () => import("$lib/locales/fr.json"));
 register("it", () => import("$lib/locales/it.json"));
+register("nl", () => import("$lib/locales/nl.json"));
 register("jp", () => import("$lib/locales/jp.json"));
 register("pt", () => import("$lib/locales/pt.json"));
 register("zh", () => import("$lib/locales/zh.json"));
