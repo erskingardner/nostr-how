@@ -24,7 +24,13 @@ Here is the way to link a URL using markdown
 
 ## [§](#utilizing-hashtags) Utilizing hashtags
 
-#plebchain
+Hashtags can be searched and followed in many nostr clients, which makes them a great way to find content that interests you, as well as putting your notes in front of other like-minded users. 
+
+At the time of this writing, the hashtag #grownostr is a general hashtag, used for a wide range of topics. (Since nostr was built by bitcoiners, there is a lot of bitcoin-related discussion, so #grownostr helps users find other subjects to discuss – remember, it's still early). 
+
+Other popular hashtags include #nature, #artstr, and #introductions and #plebchain for finding new users to connect with.
+
+Use whichever words help you find interesting content. You can also try adding "-str" to the end, so if you're looking for cute cat images, search for #catstr :cat2:
 
 
 ## [§](#tagging-other-users) Tagging Other Users
