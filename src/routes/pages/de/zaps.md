@@ -11,7 +11,7 @@ Seit Beginn des Nostr-Protokolls war es üblich, Lightning-Rechnungen in Notes z
 
 ## [§](#nip-57) NIP-57
 
-[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)  ist das Dokument, das beschreibt, wie Zaps implementiert werden sollen. Es werden zwei neue Arten von Notes erstellt, die Art 9735 (ein Zap) und die Art 9734 (eine Zap-Anforderung). Zusammen ermöglichen diese beiden Arten es Nostr-Clients, Zap-Invoices von LNURL-Servern anzufordern und zu bezahlen. Die NIP-57-Spezifikation beschreibt auch, wie Lightning-Wallets, die Zaps empfangen, Notes erstellen und an Relays senden sollten.
+[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) ist das Dokument, das beschreibt, wie Zaps implementiert werden sollen. Es werden zwei neue Arten von Notes erstellt, die Art 9735 (ein Zap) und die Art 9734 (eine Zap-Anforderung). Zusammen ermöglichen diese beiden Arten es Nostr-Clients, Zap-Invoices von LNURL-Servern anzufordern und zu bezahlen. Die NIP-57-Spezifikation beschreibt auch, wie Lightning-Wallets, die Zaps empfangen, Notes erstellen und an Relays senden sollten.
 
 💡 Fun Fact: Die für Zaps gewählte Art des Events (kind 9735) ist die gleiche wie der Netzwerkport (9735), den das Lightning-Protokoll verwendet.
 
@@ -46,4 +46,4 @@ Stelle dir folgende Beispiele vor:
 
 1. Du hast eine [Stacker News](https://stacker.news/) Lightning-Adresse in deinem Nostr-Profil eingetragen, hier erhältst du alle gezappten Sats.
 1. In deinem Webbrowser verwendest du Iris als Client und sendest Zaps mit deiner Alby-Wallet über die Browser-Erweiterung.
-1. Auf dem Smartphone verwendest du Damus als Client und sendest Zaps mit der Wallet of Statoshi-App.
+1. Auf dem Smartphone verwendest du Damus als Client und sendest Zaps mit der Wallet of Satoshi-App.

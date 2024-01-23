@@ -49,6 +49,7 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
 
 ## [§](#self-hosted) Self hosted verification
 

@@ -14,7 +14,7 @@ The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the 
 -   [Purplepag.es](https://purplepag.es/what) is a special kind of relay.
 -   [Nostr.watch](https://nostr.watch/relays/find) is all the info on all the known relays out there.
 -   [Relay Exchange](https://relay.exchange/) is a list of currently operating paid relays.
--   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridget the gap between public and private relays.
+-   [Nostr.wine's filter relay](https://nostr-wine.github.io/filter-relay/) is an interesting project that aggregates reading and writing from and to serveral other major relays. It's goal is to help bridge the gap between public and private relays.
 -   See our page on [relay implementations](/en/relay-implementations) for more.
 
 ## [§](#search-data) Search & data
@@ -22,6 +22,7 @@ The [Nostr protocol repository](https://github.com/nostr-protocol/nostr) is the 
 -   [Nostr.band](https://nostr.band) is a search engine for Nostr that can help you find new users to follow or find that note you saw a while back.
 -   [Network stats](https://stats.nostr.band) is also run by Nostr.band. This is a high level set of data about the growth of the Nostr network.
 -   [Zaplife](https://zaplife.lol) is an aggregation of all(?) Zaps across Nostr in the last several hours. Think of it as the Zap leaderboard. ⚡
+-   [Swarmstr](https://swarmstr.com) is a Q&A Nostr client that can help you find answers to your questions. Allows you to look up questions by content from #asknostr tag activity.
 
 ## [§](#long-form-content) Long-form content
 

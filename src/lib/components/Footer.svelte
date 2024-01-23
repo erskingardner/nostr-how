@@ -1,7 +1,7 @@
 <script lang="ts">
-    import DonateButton from '$lib/components/DonateButton.svelte';
-    import { _, isLoading } from 'svelte-i18n';
-    import GithubIcon from '$lib/elements/icons/Github.svelte';
+    import DonateButton from "$lib/components/DonateButton.svelte";
+    import { _, isLoading } from "svelte-i18n";
+    import GithubIcon from "$lib/elements/icons/Github.svelte";
 </script>
 
 {#if !$isLoading}
@@ -15,15 +15,15 @@
                 />
             </a>
             <span class="text-center md:text-left"
-                >{$_('foss')}
+                >{$_("foss")}
                 <a
                     href="https://en.wikipedia.org/wiki/MIT_License"
                     class="underline"
-                    target="_blank">{$_('mitLicense')}</a
+                    target="_blank">{$_("mitLicense")}</a
                 ></span
             >
         </div>
-        <DonateButton classes="text-sm" />
+        <DonateButton class="text-sm" />
     </div>
     <!-- content here -->
 {/if}

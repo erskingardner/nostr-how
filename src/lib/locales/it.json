@@ -1,32 +1,33 @@
 {
-  "title": "Nostr",
-  "nav": {
-    "resources": "Risorse",
-    "whatIs": "Cos'è Nostr?",
-    "whyWeNeed": "Perché Nostr?",
-    "getStarted": "Iniziare",
-    "whatZaps": "Cosa sono Zaps?",
-    "nostrProtocol": "Il Protocollo Nostr",
-    "clients": "Clienti",
-    "relays": "Relè",
-    "relayImplementations": "Implementazioni di Relè",
-    "nostrProjects": "Altri Progetti su Nostr",
-    "contribute": "Contribuire",
-    "guides": "Guide",
-    "guideIris": "Iris (Cliente Web)",
-    "guideDamus": "Damus (Cliente iOS)",
-    "guideAmethyst": "Amethyst (Cliente Android)",
-    "getNip05": "Ottenere la verifica NIP-05",
-    "guideNostrchat": "NostrChat (Cliente Chat)",
-    "guideSweepSats": "Spazzare per auto-custodia"
-  },
-  "donateButton": "Dona a Nostr.how",
-  "colophon": "Fatto con 💜 & ⚡ da",
-  "foss": "Software orgogliosamente gratuito e open source sotto ",
-  "mitLicense": "licenza MIT",
-  "contactMe": "Contattaci",
-  "errors": {
-    "noTranslationTitle": "Traduzione mancante",
-    "noTranslationMessage": "Mi dispiace, non c'e una traduzione per questa pagina. Se sei interessato ad aiutare a creare questa pagina, contattaci per favore."
-  }
+    "title": "Nostr",
+    "nav": {
+        "resources": "Risorse",
+        "whatIs": "Cos'è Nostr?",
+        "whyWeNeed": "Perché Nostr?",
+        "getStarted": "Iniziare",
+        "whatZaps": "Cosa sono Zaps?",
+        "nostrProtocol": "Il Protocollo Nostr",
+        "clients": "Clienti",
+        "relays": "Relè",
+        "relayImplementations": "Implementazioni di Relè",
+        "nostrProjects": "Altri Progetti su Nostr",
+        "contribute": "Contribuire",
+        "guides": "Guide",
+        "guideIris": "Iris (Cliente Web)",
+        "guideDamus": "Damus (Cliente iOS)",
+        "guideAmethyst": "Amethyst (Cliente Android)",
+        "getNip05": "Ottenere la verifica NIP-05",
+        "guideNostrchat": "NostrChat (Cliente Chat)",
+        "guideSweepSats": "Spazzare per auto-custodia",
+        "guideSetupWallet": "Configura un portafoglio per gli zaps"
+    },
+    "donateButton": "Dona a Nostr.how",
+    "colophon": "Fatto con 💜 & ⚡ da",
+    "foss": "Software orgogliosamente gratuito e open source sotto ",
+    "mitLicense": "licenza MIT",
+    "contactMe": "Contattaci",
+    "errors": {
+        "noTranslationTitle": "Traduzione mancante",
+        "noTranslationMessage": "Mi dispiace, non c'e una traduzione per questa pagina. Se sei interessato ad aiutare a creare questa pagina, contattaci per favore."
+    }
 }

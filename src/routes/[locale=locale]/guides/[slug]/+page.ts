@@ -1,7 +1,7 @@
-import { error } from '@sveltejs/kit';
-import { _ } from 'svelte-i18n';
-import { get } from 'svelte/store';
-import { setupI18n } from '$lib/i18n';
+import { setupI18n } from "$lib/i18n";
+import { error } from "@sveltejs/kit";
+import { _ } from "svelte-i18n";
+import { get } from "svelte/store";
 
 export async function load({ params }) {
     // Initialize i18n
@@ -12,15 +12,15 @@ export async function load({ params }) {
         page = await import(`../../../pages/${params.locale}/guides/${params.slug}.md`);
     } catch {
         const t = get(_);
-        if (params.locale === 'en') {
+        if (params.locale === "en") {
             throw error(404, {
-                title: 'Page not found',
-                message: "Sorry, that page doesn't exist."
+                title: "Page not found",
+                message: "Sorry, that page doesn't exist.",
             });
         } else {
             throw error(404, {
-                title: t('errors.noTranslationTitle'),
-                message: t('errors.noTranslationMessage')
+                title: t("errors.noTranslationTitle"),
+                message: t("errors.noTranslationMessage"),
             });
         }
     }
@@ -33,6 +33,6 @@ export async function load({ params }) {
         content,
         title,
         description,
-        slug
+        slug,
     };
 }

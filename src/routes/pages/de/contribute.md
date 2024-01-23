@@ -29,6 +29,6 @@ Diese Seite wurde mit Svelte, Tailwind CSS und Markdown erstellt. Wenn du zur Co
 
 ## [§](#donate) Spenden
 
-Dies ist ein ehrenamtliches Projekt. Alle Sats, die wir durch Spenden erhalten, werden für die Erstellung neuer Inhalte oder die Bezahlung unseres Hostings verwendet. 
+Dies ist ein ehrenamtliches Projekt. Alle Sats, die wir durch Spenden erhalten, werden für die Erstellung neuer Inhalte oder die Bezahlung unseres Hostings verwendet.
 
 Wir akzeptieren nur Sats über das Lightning-Netzwerk. Bitte spende über den Button in der Kopf- und Fußzeile oder der Navigationsleiste. Vielen Dank!

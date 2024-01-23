@@ -19,7 +19,8 @@ NostrChat ist eine auf dem Nostr-Protokoll basierende Chat-App. Mit NostrChat ka
 2. Trage einen Namen ein und klicke danach auf "Finish"
 3. Du wirst sofort einem globalen Chat beitreten
 4. Wichtig: Bewahre deinen privaten Schlüssel an einem sicheren Ort auf – Du benötigst diesen, wenn du in Zukunft zur App zurückkehren möchtest oder dich damit bei anderen Clients anmelden willst.
-5. 
+5.
+
 ### Nutze eine NIP-07 Browser-Erweiterung für den Login (empfohlen)
 
 Alby ist eine Browser-Erweiterung, die deine öffentlichen/privaten Schlüssel lokal verwaltet. Mit einer Wallet-Erweiterung wie Alby verlässt dein privater Schlüssel niemals deinen Computer, aber du kannst mit Alby Nostr-Clients sicheren Zugriff auf deine Schlüssel gewähren.
