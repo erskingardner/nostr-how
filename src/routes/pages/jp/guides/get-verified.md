@@ -33,7 +33,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 
 - [Bitcoin Nostr](https://bitcoinnostr.com/)
 - [Nostrcheck.me](https://nostrcheck.me)
-- [Nostr.industries](https://nostr.industries/)
+- [zaps.lol](https://zaps.lol/)
 - [NIP05.social](https://nip05.social)
 - [Nostr-Check.com](https://nostr-check.com/)
 - [Verified Nostr](https://verified-nostr.com/)
@@ -88,4 +88,3 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 ![Get your hex key](/images/get-hex-key.webp)
 
 最後に、このファイルがクライアントからアクセスできる必要があるため、`Access-Control-Allow-Origin` ヘッダーに `*` が設定されていることを確認してください。
-
