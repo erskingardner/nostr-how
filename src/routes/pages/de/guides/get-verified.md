@@ -32,7 +32,7 @@ Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren las
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
--   [Nostr.industries](https://nostr.industries/)
+-   [zaps.lol](https://zaps.lol/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
