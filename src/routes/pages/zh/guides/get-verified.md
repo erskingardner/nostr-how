@@ -32,7 +32,7 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
--   [Nostr.industries](https://nostr.industries/)
+-   [zaps.lol](https://zaps.lol/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)

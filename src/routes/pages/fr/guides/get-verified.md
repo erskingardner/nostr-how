@@ -30,7 +30,7 @@ Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratu
 
 -   [Bitcoin Nostr](https://bitcoinnostr.com/)
 -   [Nostrcheck.me](https://nostrcheck.me)
--   [Nostr.industries](https://nostr.industries/)
+-   [zaps.lol](https://zaps.lol/)
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
