@@ -26,6 +26,7 @@ description: 这是 Nostr 中继规范的所有已知实现的列表。仅当您
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): [Minds](https://www.minds.com) 的中继，一个开源社交网络
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): 使用 Nostr 读取/写入 Minds 帖子的相关 Minds API 代码
 -   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): 具有清晰架构和高测试覆盖率的 Nostr 中继（Postgres, MeiliSearch, NestJS）
+-   [Nosflare](https://github.com/Spl0itable/nosflare): 为 Cloudflare 工人和 Cloudflare KV 商店建造的无服务器鼻孔中继器
 
 ## Clojure
 
