@@ -28,6 +28,7 @@ description: Dit is een lijst van alle bekende implementaties voor het draaien v
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): een relay voor [Minds](https://www.minds.com), een opensource sociaal netwerk.
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): relevante Minds API code voor het lezen/schrijven van Minds berichten voor Nostr.
 -   [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs): een relay met een overzichtelijke architectuur met veel testmogelijkheden (Postgres, MeiliSearch, NestJS)
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Een serverless Nostr relais speciaal gebouwd voor Cloudflare Workers en de Cloudflare KV store
 
 ## Clojure
 
