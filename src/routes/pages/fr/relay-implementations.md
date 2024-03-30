@@ -25,6 +25,7 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 -   [nostream](https://github.com/Cameri/nostream) : Un relais nostr écrit en Typescript qui utilise Postgres comme base de données (anciennement nostr-ts-relay)
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay) : Un relais pour [Minds](https://www.minds.com), un réseau social open-source
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr) : Code API Minds pertinent pour lire/écrire des posts Minds en utilisant Nostr
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Un relais Nost sans serveur conçu spécialement pour les travailleurs Cloudflare et le magasin KV Cloudflare
 
 ## Clojure
 
