@@ -25,6 +25,7 @@ description: Questo è un elenco di tutte le implementazioni note della specific
 -   [nostream](https://github.com/Cameri/nostream): A nostr relay in Typescript con un database di PostgreSQL
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): Un relay per [Minds](https://www.minds.com).
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr)
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Un server senza server per la rete Nostr appositamente costruita per i lavoratori Cloudflare e il negozio KV Cloudflare
 
 ## Clojure
 
