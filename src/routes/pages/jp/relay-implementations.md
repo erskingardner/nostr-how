@@ -26,6 +26,7 @@ description: ここではよく知られたNostrリレーの仕様について�
 - [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay)：オープンソースのソーシャルネットワークである[Minds](https://www.minds.com)向けのリレー
     - [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr)：Nostrを使用してMindsの投稿を読み書きするための関連するMinds APIコード
 - [nostr-relay-nestjs](https://github.com/CodyTseng/nostr-relay-nestjs)：明確なアーキテクチャと高いテスト・カバレッジを持つNostrリレー（Postgres、MeiliSearch、NestJS）
+- [Nosflare](https://github.com/Spl0itable/nosflare): Cloudflare Workers と Cloudflare KV ストア用に設計された、サーバーレスの Nostr リレー
 
 ## Clojure
 
