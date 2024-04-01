@@ -25,6 +25,7 @@ description: این لیستی از مشخصات تمام رله های شناخ
 -   [nostream](https://github.com/Cameri/nostream): رله ای که به Typescript نوشته شده و با PostgreSQL پشتیبانی می شود (سابق nostr-ts-relay)
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): رله ای برای [Minds](https://www.minds.com)، شبکه اجتماعی منبع باز
 -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): کد Minds API برای خواندن نوشتن پست های Minds با استفاده از ناستر
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Nostr رله بدون سرور برای کارگران Cloudflare و فروشگاه Cloudflare KV
 
 ## Clojure
 
