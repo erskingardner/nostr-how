@@ -25,6 +25,7 @@ description: Esta es una lista de todas las implementaciones conocidas de la esp
 -   [nostream](https://github.com/Cameri/nostream): Un relé de Nostr escrito en Typescript respaldado por PostgreSQL (renombrado de nostr-ts-relay)
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): Un relé para [Minds](https://www.minds.com), una red social de código abierto.
     -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): Código relevante de la API de Minds para leer/escribir publicaciones de Minds utilizando Nostr.
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Un relé sin servidor diseñado para los trabajadores de Cloudflare y la tienda Cloudflare KV
 
 ## Clojure
 

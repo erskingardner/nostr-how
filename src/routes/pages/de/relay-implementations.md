@@ -25,6 +25,7 @@ description: Dies ist eine Liste aller bekannten Implementierungen für Nostr-Re
 -   [nostream](https://github.com/Cameri/nostream): Ein Nostr-Relay geschrieben in Typescript mit PostgreSQL Datenbank (umbenannt von nostr-ts-relay).
 -   [Minds Nostr Relay](https://gitlab.com/minds/infrastructure/nostr-relay): Ein Relay für [Minds](https://www.minds.com), ein Open-Source Social Network.
 -   [Minds Engine - Nostr](https://gitlab.com/minds/engine/-/tree/master/Core/Nostr): Relevanter Minds API Code zum Lesen/Schreiben von Minds Posts über Nostr.
+-   [Nosflare](https://github.com/Spl0itable/nosflare): Ein serverloses Nostr-Relais für Cloudflare Workers und den Cloudflare KV-Store
 
 ## Clojure
 
