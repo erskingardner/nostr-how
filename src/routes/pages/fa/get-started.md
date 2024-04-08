@@ -29,9 +29,9 @@ description: این راهنما کمک می کند مفاهیم پایه ناس
 
 چند کلاینت دیگر که دوست داریم ولی فعلا برایشان راهنما نداریم:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) مشتری کاربر پسند با کیف پول لایتنینگ داخلی روی موبایل.
 -   [اسنورت](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) کلاینت وب بسیار تمیز و سریع.
 -   [کوارکل](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) کلاینتی متمرکز بر ناوبری رله.
--   [ناسترگرام](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) کلاینت جالب الهام گرفته از اینستاگرام برای عکس، فیلم، و صوت. میم ها را رو کنید!
 
 ## [§](#دوست-پیدا-کنید) دوستان را پیدا کرده و دنبال کنید
 

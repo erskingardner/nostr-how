@@ -29,9 +29,9 @@ Schritt-für-Schritt-Anleitungen für verschiedene bekannte Clients:
 
 Weitere Clients, für die wir aber aktuell noch keine Anleitungen haben:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) Benutzerfreundlicher Client mit integrierter Lightning-Wallet auf Mobilgeräten.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Schneller Web-Client mit schickem Design.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Ein Client mit dem Fokus auf Relay-Navigation.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Instagram-ähnlicher Client mit dem Fokus auf Bilder, Videos und Audio. Her mit den Memes!
 
 ## [§](#find-friends) Finde Freunde
 
