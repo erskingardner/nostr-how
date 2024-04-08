@@ -29,9 +29,9 @@ Voici des guides étape par étape pour différents clients que nous recommandon
 
 Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
 
+-   [Primal](https://primal.net) (Web, iOS, Android) Client convivial avec portefeuille Lightning intégré sur mobile.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Client Web super propre et rapide.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un client axé sur la navigation relais.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Client amusant inspiré d'Instagram et axé sur les images, la vidéo et l'audio. Ramenez vos mèmes !
 
 ## [§](#find-friends) Trouvez vos ami-e-s pour les suivre
 

@@ -17,7 +17,6 @@ O Nostr em si é um protocolo, é um conjunto de regras acordado para transmitir
 
 Acessa-se ao Nostr (o protocolo) através de um cliente. Os clientes podem ser aplicações da web, desktop ou smartphone. Alguns clientes do Nostr permitem que o utilizador faça login colando a sua chave privada. Na web isso não é recomendado, pois é tedioso e inseguro. Em vez disso, recomendamos usar uma extensão de assinatura no teu navegador, que é um software projetado especificamente para gerir chaves privadas de forma segura e assinar eventos criptograficamente.
 
-
 [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) é uma extensão de assinatura e carteira de bitcoin lightning que tem suporte incorporado para o Nostr. É uma ótima opção para utilizadores novos. A instalação do Alby será abordada nos guias específicos desse cliente quando necessário.
 
 ## [§](#criar-a-tu-conta) Criar a tua conta
@@ -30,9 +29,9 @@ Segue um guia passo a passo dos clientes recomendados:
 
 Alguns outros clientes que gostamos, mas para os quais não temos guias disponíveis:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) Cliente fácil de usar com carteira relâmpago integrada no celular.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente muito rápido.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Um cliente focado na navegação por relays.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Cliente divertido inspirado no Instagram, focado em imagens, vídeos e áudio. Que comecem os memes!
 
 ## [§](#encontrar-amigos) Encontrar amigos no Nostr
 

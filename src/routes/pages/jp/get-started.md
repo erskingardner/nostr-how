@@ -23,21 +23,21 @@ Nostr（プロトコル）にはクライアントを介してアクセスしま
 
 ここでは、私たちがお勧めするいくつかのクライアントについて、ステップバイステップ・ガイドを紹介します：
 
-- [Iris](/jp/guides/iris)（Web）
-- [Damus](/jp/guides/damus)（iOS）
-- [Amethyst](/jp/guides/amethyst)（Android）
+-   [Iris](/jp/guides/iris)（Web）
+-   [Damus](/jp/guides/damus)（iOS）
+-   [Amethyst](/jp/guides/amethyst)（Android）
 
 他にも、ガイドはありませんがファンの多いクライアントを紹介します：
 
-- [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)（Web）非常にクリーンで高速なWebクライアント。
-- [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)（Web）リレー・ナビゲーションに重点を置くクライアント。
-- [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)（Web）Instagramにインスパイアされた、画像、動画、音声に特化したクライアント。ミームを楽しもう！
+-   [Primal](https://primal.net) (Web, iOS, Android) モバイルにライトニングウォレットが組み込まれたユーザーフレンドリーなクライアント。
+-   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)（Web）非常にクリーンで高速なWebクライアント。
+-   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)（Web）リレー・ナビゲーションに重点を置くクライアント。
 
 ## [§](#find-friends) フォローする友だちを見つける
 
-- 誰かがNostrを利用していることを知っているなら、その人の公開鍵を検索してプロフィールを見つけましょう。
-- 多くのTwitter（現X）ユーザーが#nostrというハッシュタグを付けてNostr公開鍵をツイートいているので、このハッシュタグで検索してみるとよいきっかけになるはずです。
-- [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)は、TwitterユーザーとNostr公開鍵をマッピングしたデータベースです。
+-   誰かがNostrを利用していることを知っているなら、その人の公開鍵を検索してプロフィールを見つけましょう。
+-   多くのTwitter（現X）ユーザーが#nostrというハッシュタグを付けてNostr公開鍵をツイートいているので、このハッシュタグで検索してみるとよいきっかけになるはずです。
+-   [nostr.directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)は、TwitterユーザーとNostr公開鍵をマッピングしたデータベースです。
 
 ## [§](#whats-signing) ”署名する”とはどういう意味なのか？
 
@@ -55,6 +55,6 @@ Nostrプロトコルとやりとりするためには、何かアクションを
 
 これで、ライトニング・ウォレット、ID（キーペア）がセットアップされ、クライアントを試すことができました。Nostrをさらに使いこなすのに便利なリンクをいくつか紹介します：
 
-- [ドメイン認証 (NIP-05) の取得](/jp/guides/get-verified)
-- [リレーとは？](/jp/relays)
-- [Nostrプロトコル](/jp/the-protocol)
+-   [ドメイン認証 (NIP-05) の取得](/jp/guides/get-verified)
+-   [リレーとは？](/jp/relays)
+-   [Nostrプロトコル](/jp/the-protocol)
