@@ -9,7 +9,7 @@ Elk Nostr account is gebaseerd op een public/private key. Om het eenvoudig uit t
 
 Laten we het nogmaals duidelijk zeggen: **Als je jouw private key verliest, ben je de volledige control over jouw Nostr account kwijt. Als iemand anders toegang krijgt tot je private key, heeft hij/zij de volledige controle over je account.**
 
-Zorg ervoor dat je jouw private key  veilig opslaat, bijvoorbeeld in een wachtwoordmanager (Bitwarden, Keepass of 1Password) of maak gebruik van een browserextensie zoals [Alby](https://getalby.com/#alby-extension).
+Zorg ervoor dat je jouw private key veilig opslaat, bijvoorbeeld in een wachtwoordmanager (Bitwarden, Keepass of 1Password) of maak gebruik van een browserextensie zoals [Alby](https://getalby.com/#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
@@ -19,7 +19,7 @@ Je krijgt toegang tot Nostr (het protocol) via een client. Clients kunnen web-, 
 
 Alby is een populaire ondertekeningsextensie en bitcoin lightning portemonnee die ingebouwde ondersteuning heeft voor Nostr. Het is een geweldige optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in de client-specifieke gidsen waar het nodig is hieronder.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is een populaire extensie en bitcoin lightning wallet ingebouwde Nostr ondersteuning  Het is een mooie optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in een client specifieke gids.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is een populaire extensie en bitcoin lightning wallet ingebouwde Nostr ondersteuning Het is een mooie optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in een client specifieke gids.
 
 ## [§](#create-your-account) Jouw account aanmaken
 
@@ -31,9 +31,9 @@ Hier zijn enkele gidsen voor een paar verschillende clients die we aanbevelen:
 
 Dit zijn een aantal andere clients die we fijn vinden, maar (nog) geen gidsen voor hebben:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) Gebruiksvriendelijke client met ingebouwde Lightning-portemonnee op mobiel.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Mooie en snelle webclient.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Een client gericht op relay discovery.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Een Instagram geinspireerde client gericht op afbeeldingen, video's en audio.
 
 ## [§](#find-friends) Vrienden vinden om te volgen
 

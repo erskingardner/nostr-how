@@ -29,9 +29,9 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 我们喜欢但没有指南的其他一些客户端：
 
+-   [Primal](https://primal.net) (Web, iOS, Android) 用户友好的客户端，在移动设备上内置闪电钱包。
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) 超级简洁快速的网页客户端。
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) 一个专注于中继器导航的客户端。
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) 受 Instagram 启发的有趣客户端，专注于图像、视频和音频。带来很多梗图！
 
 ## [§](#find-friends) 寻找要关注的朋友
 

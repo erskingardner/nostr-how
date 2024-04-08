@@ -29,9 +29,9 @@ Acá está una guía paso a paso de los clientes que recomendamos:
 
 Algunos otros clientes que amamos pero no tenemos guías:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) Cliente fácil de usar con billetera Lightning incorporada en dispositivos móviles.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente súper rapido y veloz.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un cliente centrado en la navegación por relevos.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Divertido cliente inspirado en Instagram centrado en imágenes, vídeo y audio. ¡Que empiecen los memes!
 
 ## [§](#encontrar-amigos) Encontrar amigos en Nostr
 

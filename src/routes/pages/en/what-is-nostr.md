@@ -20,3 +20,7 @@ Because Nostr doesn't rely on a small number of trusted servers for moving or st
 ### Verifiable
 
 Because Nostr accounts are based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) it's easy to verify messages were really sent by the user in question.
+
+## How can I participate?
+
+Check out our [guide](/en/get-started) to get started!

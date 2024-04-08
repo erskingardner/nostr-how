@@ -29,9 +29,9 @@ Here are step-by-step guides to a few different clients we recommend:
 
 A few other clients that we love but don't have guides for:
 
+-   [Primal](https://primal.net) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) (Web) Fun instagram inspired client focused on images, video, and audio. Bring on the memes!
 
 ## [§](#find-friends) Find friends to follow
 
