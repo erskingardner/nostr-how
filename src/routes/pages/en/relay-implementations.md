@@ -41,3 +41,7 @@ description: This is a list of all known implementations of the Nostr relay spec
 
 -   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): A Kotlin Relay supporting both SQLite and Postgresql
 -   [knostr](https://github.com/lpicanco/knostr): A nostr relay implemented in Kotlin with support for Postgres and metrics(micrometer)
+
+## Java
+
+-   [Java Nostr-Relay Framework & Web Application](https://github.com/avlo/nostr-relay/): Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java).  Simple. Clean. OO.
