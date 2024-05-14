@@ -44,4 +44,4 @@ description: This is a list of all known implementations of the Nostr relay spec
 
 ## Java
 
--   [Java Nostr-Relay Framework & Web Application](https://github.com/avlo/nostr-relay/): Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java).  Simple. Clean. OO.
+-   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay Framework & Web Application: Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java).  Simple. Clean. OO.
