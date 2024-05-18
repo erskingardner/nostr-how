@@ -6,7 +6,7 @@ description: Now that you're on nostr, start posting notes (and other stuff!)
 
 ## [§](#keys-events-relays) Keys, Events, and Relays – Oh My!
 
-You've downloaded a nostr client, connected to a few relays, and set up a zapping wallet. Now, you’re ready to start posting notes.
+You've downloaded a nostr client, created your cryptographic keypair (ie your login credentials), and connected to a few relays. Now, you’re ready to start posting notes.
 
 In this guide, you'll learn the basics of posting on nostr: content, media, hashtags, community engagement, and value-for-value :zap:
 
