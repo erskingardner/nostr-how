@@ -7,6 +7,7 @@ export const redirects = [
     { old: "/it", new: "/it/get-started" },
     { old: "/jp", new: "/jp/get-started" },
     { old: "/pt", new: "/pt/get-started" },
+    { old: "/uk", new: "/uk/get-started" },
     { old: "/zh", new: "/zh/get-started" },
     { old: "/relays/implementations", new: "/en/relay-implementations" },
     { old: "/clients/iris", new: "/en/guides/iris" },
