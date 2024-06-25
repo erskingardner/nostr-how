@@ -11,6 +11,7 @@ register("nl", () => import("$lib/locales/nl.json"));
 register("jp", () => import("$lib/locales/jp.json"));
 register("pt", () => import("$lib/locales/pt.json"));
 register("zh", () => import("$lib/locales/zh.json"));
+register("uk", () => import("$lib/locales/uk.json"));
 
 interface i18nOpts {
     locale: string;

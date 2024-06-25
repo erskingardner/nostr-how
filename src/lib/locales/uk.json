@@ -1,0 +1,33 @@
+{
+  "title": "Nostr",
+  "nav": {
+      "resources": "Resources",
+      "whatIs": "Що таке Nostr?",
+      "whyWeNeed": "Why do we need Nostr?",
+      "getStarted": "Початок",
+      "whatZaps": "Що таке Zaps?",
+      "nostrProtocol": "The Nostr Protocol",
+      "clients": "Клієнти",
+      "relays": "Реле",
+      "relayImplementations": "Relay Implementations",
+      "nostrProjects": "Nostr Projects",
+      "contribute": "Внести свій внесок",
+      "guides": "Посібник",
+      "guideIris": "Iris (Web client)",
+      "guideDamus": "Damus (iOS клієнт)",
+      "guideAmethyst": "Amethyst (Android клієнт)",
+      "getNip05": "Отримати NIP-05 верифікацію",
+      "guideNostrchat": "NostrChat (Чат-клієнт)",
+      "guideSweepSats": "Перевести на самозберігання",
+      "guideSetupWallet": "Налаштування гаманця для zaps"
+  },
+  "donateButton": "Пожертвувати на Nostr.how",
+  "colophon": "Made with 💜 & ⚡ by",
+  "foss": "Безкоштовне & відкрите програмне забезпечення під ",
+  "mitLicense": "MIT License",
+  "contactMe": "Зв'язатися",
+  "errors": {
+    "noTranslationTitle": "Переклад не знайдено",
+    "noTranslationMessage": "Вибачте, переклад для цієї сторінки не існує. Якщо ви зацікавлені в допомозі створити цю сторінку, будь ласка, зв'яжіться з нами."
+  }
+}
