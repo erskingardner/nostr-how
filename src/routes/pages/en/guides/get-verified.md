@@ -36,6 +36,7 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
+-   [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) Pay a provider for verification
 

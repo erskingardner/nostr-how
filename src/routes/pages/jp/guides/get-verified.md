@@ -37,6 +37,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 - [NIP05.social](https://nip05.social)
 - [Nostr-Check.com](https://nostr-check.com/)
 - [Verified Nostr](https://verified-nostr.com/)
+- [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) 有料サービスで認証する
 
