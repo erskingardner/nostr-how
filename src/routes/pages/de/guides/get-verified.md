@@ -36,6 +36,7 @@ Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren las
 -   [NIP05.social](https://nip05.social)
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
+-   [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) Verifiziere dich bei einem Bezahl-Service
 
