@@ -15,7 +15,7 @@ description: این شروع مقدماتی چگونگی مدیریت امن س�
 
 [بیتکوین 101](https://arzdigital.com/category/beginners/bitcoin-101/)
 
-[منابع فارسی بیت‌کوین](https://bitcoind.me/)
+[منابع پارسی بیت‌کوین](https://bitcoind.me/)
 
 ## مفاهیم پایه کیف پول
 

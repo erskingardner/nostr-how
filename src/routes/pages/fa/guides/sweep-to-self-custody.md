@@ -48,7 +48,7 @@ description: در این راهنما، یک راه حل ساده آموزش م�
 If you'd like to learn more, here are some great starter resources for going deeper on Bitcoin.
 
 1. [بیتکوین 101](https://arzdigital.com/category/beginners/bitcoin-101/)
-2. [منابع فارسی بیت‌کوین](https://bitcoind.me/)
+2. [منابع پارسی بیت‌کوین](https://bitcoind.me/)
 3. [Bitcoin.org guide](https://bitcoin.org/en/how-it-works)
 4. [Bitcoiner beginner guide](https://bitcoiner.guide/beginner/)
 
