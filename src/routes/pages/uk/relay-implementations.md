@@ -14,6 +14,7 @@ description: Це список всіх відомих реалізацій сп
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Реле на C#
+-   [netstr](https://github.com/bezysoftware/netstr): Сучасне реле з високим випробувальним покриттям
 
 ## Rust
 

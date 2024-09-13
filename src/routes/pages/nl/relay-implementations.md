@@ -16,6 +16,7 @@ description: Dit is een lijst van alle bekende implementaties voor het draaien v
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Een C# relay
+-   [netstr](https://github.com/bezysoftware/netstr): Een modern relais met hoge testdekking
 
 ## Rust
 
