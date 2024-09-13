@@ -14,6 +14,7 @@ description: Esta é uma lista de todas as implementações conhecidas da especi
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Um relay em C#.
+-   [netstr](https://github.com/bezysoftware/netstr): Um relé moderno com elevada cobertura de testes
 
 ## Rust
 

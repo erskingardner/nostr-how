@@ -14,6 +14,7 @@ description: This is a list of all known implementations of the Nostr relay spec
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): A C# relay
+-   [netstr](https://github.com/bezysoftware/netstr): A modern relay with high test coverage
 
 ## Rust
 
