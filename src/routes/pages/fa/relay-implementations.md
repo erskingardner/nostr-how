@@ -14,6 +14,7 @@ description: این لیستی از مشخصات تمام رله های شناخ
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): C# یک رله
+-   [netstr](https://github.com/bezysoftware/netstr): یک رله مدرن با پوشش تست بالا
 
 ## Rust
 

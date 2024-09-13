@@ -14,6 +14,7 @@ description: Questo è un elenco di tutte le implementazioni note della specific
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr)
+-   [netstr](https://github.com/bezysoftware/netstr): Un moderno relè con elevata copertura di test
 
 ## Rust
 

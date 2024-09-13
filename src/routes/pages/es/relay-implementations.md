@@ -14,6 +14,7 @@ description: Esta es una lista de todas las implementaciones conocidas de la esp
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Un relé en C#
+-   [netstr](https://github.com/bezysoftware/netstr): Un relé moderno con alta cobertura de pruebas
 
 ## Rust
 

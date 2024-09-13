@@ -14,7 +14,7 @@ description: ここではよく知られたNostrリレーの仕様について�
 ## C#
 
 - [NNostr](https://github.com/Kukks/NNostr)：C#リレー
-
+- [netstr](https://github.com/bezysoftware/netstr): 高いテストカバレッジを備えた最新のリレー
 ## Rust
 
 - [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay/)：SQLiteにデータを保存するRustで書かれた最小限のリレー

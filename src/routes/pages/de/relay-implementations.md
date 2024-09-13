@@ -14,6 +14,7 @@ description: Dies ist eine Liste aller bekannten Implementierungen für Nostr-Re
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Ein C# Relay.
+-   [netstr](https://github.com/bezysoftware/netstr): Relay moden enggau bungkur penguji ti tinggi .
 
 ## Rust
 

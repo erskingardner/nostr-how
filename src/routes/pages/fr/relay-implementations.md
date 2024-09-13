@@ -14,6 +14,7 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): Relai en C#
+-   [netstr](https://github.com/bezysoftware/netstr): Un relais moderne avec une couverture de test élevée
 
 ## Rust
 

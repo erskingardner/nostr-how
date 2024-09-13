@@ -14,6 +14,7 @@ description: 这是 Nostr 中继规范的所有已知实现的列表。仅当您
 ## C#
 
 -   [NNostr](https://github.com/Kukks/NNostr): 一个 C# 中继
+-   [netstr](https://github.com/bezysoftware/netstr): 具有高测试覆盖率的现代继电器
 
 ## Rust
 
