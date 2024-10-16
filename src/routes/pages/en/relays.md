@@ -21,7 +21,7 @@ An up-to-date list of paid relays with details on how much they cost and who ope
 
 ### Where can I find a list of all relays?
 
-The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://nostr.watch/relays/find).
+The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://legacy.nostr.watch/relays/find).
 
 ## What happens if all the relays I use stop working?
 

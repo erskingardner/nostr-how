@@ -21,7 +21,7 @@ description: リレーとは何か、なぜ重要なのか、そしてその仕�
 
 ### 全リレーのリストはどこで入手できるのか？
 
-リレーの速度を閲覧・評価するのに最適なリソースは、[Nostr.watch site](https://nostr.watch/relays/find)です。
+リレーの速度を閲覧・評価するのに最適なリソースは、[Nostr.watch site](https://legacy.nostr.watch/relays/find)です。
 
 ## 使用しているリレーがすべて作動しなくなったらどうなるのか？
 
