@@ -21,7 +21,7 @@ Een lijst van betaalde relays met details over hoeveel ze kosten en wie ze behee
 
 ### Waar kan ik een lijst met alle relays vinden?
 
-De beste bron die we hebben gevonden voor het doorzoeken en beoordelen van de prestaties van bekende relays is de website [Nostr.watch](https://nostr.watch/relays/find).
+De beste bron die we hebben gevonden voor het doorzoeken en beoordelen van de prestaties van bekende relays is de website [Nostr.watch](https://legacy.nostr.watch/relays/find).
 
 ## Wat gebeurt er als alle relays stoppen die ik gebruik?
 

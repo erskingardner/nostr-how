@@ -21,7 +21,7 @@ Eine aktuelle Liste der kostenpflichtigen Relays mit Angaben zu ihren Kosten und
 
 ### Wo finde ich eine Liste mit allen Relays?
 
-Die aktuell beste Quelle, um nach Relays zu suchen und ihre Geschwindigkeiten zu bewerten, ist [Nostr.watch](https://nostr.watch/relays/find).
+Die aktuell beste Quelle, um nach Relays zu suchen und ihre Geschwindigkeiten zu bewerten, ist [Nostr.watch](https://legacy.nostr.watch/relays/find).
 
 ## Was passiert, wenn alle Relays aufhören zu funktionieren, die ich nutze?
 

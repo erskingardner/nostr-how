@@ -21,7 +21,7 @@ description: 快速介绍一下什么是 Nostr 中继、为什么它们很重要
 
 ### 在哪里可以找到所有中继的列表？
 
-我们发现用于浏览和评估已知中继速度的最佳资源是 [Nostr.watch 网站](https://nostr.watch/relays/find)。
+我们发现用于浏览和评估已知中继速度的最佳资源是 [Nostr.watch 网站](https://legacy.nostr.watch/relays/find)。
 
 ## 如果我用的中继都停止工作了会发生什么？
 
