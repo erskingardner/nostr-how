@@ -21,7 +21,7 @@ Una lista actualizada de relés pagados con detalles sobre cuánto cuestan y qui
 
 ### ¿Dónde puedo encontrar una lista de todos los relés?
 
-El mejor recurso que hemos encontrado para explorar y evaluar la velocidad de los relés conocidos es el sitio [Nostr.watch](https://nostr.watch/relays/find).
+El mejor recurso que hemos encontrado para explorar y evaluar la velocidad de los relés conocidos es el sitio [Nostr.watch](https://legacy.nostr.watch/relays/find).
 
 ## ¿Qué sucede si todos los relés que utilizo dejan de funcionar?
 

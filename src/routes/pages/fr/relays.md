@@ -21,7 +21,7 @@ Une liste actualisée des relais payants, avec des détails sur leur coût et le
 
 ### Où puis-je trouver une liste de tous les relais ?
 
-La meilleure ressource que nous ayons trouvée pour parcourir et évaluer la vitesse des relais connus est le [site Nostr.watch](https://nostr.watch/relays/find).
+La meilleure ressource que nous ayons trouvée pour parcourir et évaluer la vitesse des relais connus est le [site Nostr.watch](https://legacy.nostr.watch/relays/find).
 
 ## Que se passe-t-il si tous les relais que j'utilise cessent de fonctionner ?
 
