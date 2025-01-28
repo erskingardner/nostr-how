@@ -36,3 +36,4 @@ description: 这是我们遇到的其他 Nostr 资源和项目的集合。
 
 -   [Awesome Nostr](https://www.nostr.net) 是 Nostr 客户端、中继实现等链接的仓库。
 -   [Nostr Resources](https://nostr-resources.com) 涵盖 Nostr 基础知识以及许多其他资源的链接。
+-   [Hello Nostr](https://hellonostr.dev/) 通过指导和示例代码帮助新手开发人员向 Nostr 中继发布“Hello world”。
