@@ -39,4 +39,4 @@ Het is een summiere repository, maar bevat [@fiatjaf's](https://github.com/fiatj
 
 -   [Awesome Nostr](https://www.nostr.net) is een repository met links van Nostr clients, relay implementaties en meer.
 -   [Nostr Resources](https://nostr-resources.com) een leerzame website met de basics over Nostr en links naar andere resources.
--   [Hello Nostr](https://hellonostr.dev/) helpt beginnende ontwikkelaars met richtlijnen en voorbeeldcode voor het publiceren van een 'Hello world' bericht naar Nostr-relays.
+-   [Hello Nostr](https://hellonostr.dev/nl/) helpt beginnende ontwikkelaars met richtlijnen en voorbeeldcode voor het publiceren van een 'Hello world' bericht naar Nostr-relays.
