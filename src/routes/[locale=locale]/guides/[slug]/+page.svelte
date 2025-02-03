@@ -1,15 +1,15 @@
 <script lang="ts">
-    import PageHeader from "$lib/components/PageHeader.svelte";
-    import { supportedLocales } from "$lib/config/l10n";
-    import { locale } from "svelte-i18n";
-    import { page } from "$app/stores";
+import PageHeader from "$lib/components/PageHeader.svelte";
+import { supportedLocales } from "$lib/config/l10n";
+import { locale } from "svelte-i18n";
+import { page } from "$app/stores";
 
-    export let data;
-    let pageUrl: string = $page.url.pathname;
+export let data;
+let pageUrl: string = $page.url.pathname;
 
-    const otherLocales: string[] = supportedLocales.filter((item) => {
-        return item !== $locale;
-    });
+const otherLocales: string[] = supportedLocales.filter((item) => {
+    return item !== $locale;
+});
 </script>
 
 <svelte:head>

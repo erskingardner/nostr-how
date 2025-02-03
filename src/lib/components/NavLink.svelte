@@ -1,16 +1,16 @@
 <script lang="ts">
-    import { _, isLoading, locale } from 'svelte-i18n';
-    import { page } from '$app/stores';
-    import { createEventDispatcher } from 'svelte';
+import { _, isLoading, locale } from "svelte-i18n";
+import { page } from "$app/stores";
+import { createEventDispatcher } from "svelte";
 
-    const dispatch = createEventDispatcher();
+const dispatch = createEventDispatcher();
 
-    export let href: string;
-    export let localeString: string;
+export let href: string;
+export let localeString: string;
 
-    function navLinkClick() {
-        dispatch('navLinkClicked');
-    }
+function navLinkClick() {
+    dispatch("navLinkClicked");
+}
 </script>
 
 {#if !$isLoading}

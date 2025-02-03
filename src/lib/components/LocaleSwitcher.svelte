@@ -1,16 +1,16 @@
 <script lang="ts">
-    import { createEventDispatcher } from "svelte";
-    import { locales } from "$lib/config/l10n";
-    import Language from "$lib/elements/icons/Language.svelte";
-    import { Menu, MenuButton, MenuItems, MenuItem } from "@rgossiaux/svelte-headlessui";
+import { createEventDispatcher } from "svelte";
+import { locales } from "$lib/config/l10n";
+import Language from "$lib/elements/icons/Language.svelte";
+import { Menu, MenuButton, MenuItems, MenuItem } from "@rgossiaux/svelte-headlessui";
 
-    const dispatch = createEventDispatcher();
+const dispatch = createEventDispatcher();
 
-    function changeLocale(event: Event) {
-        event.preventDefault();
-        const elem = event.target as HTMLElement;
-        dispatch("locale-changed", elem.dataset.localecode);
-    }
+function changeLocale(event: Event) {
+    event.preventDefault();
+    const elem = event.target as HTMLElement;
+    dispatch("locale-changed", elem.dataset.localecode);
+}
 </script>
 
 <Menu class="relative flex flex-row items-center">
