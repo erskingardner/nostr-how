@@ -1,32 +1,32 @@
 {
-  "title": "Nostr",
-  "nav": {
-    "resources": "资源",
-    "whatIs": "什么是 Nostr？",
-    "whyWeNeed": "为什么我们需要 Nostr？",
-    "getStarted": "入门",
-    "whatZaps": "什么是打闪？",
-    "nostrProtocol": "Nostr 协议",
-    "clients": "客户端",
-    "relays": "中继器",
-    "relayImplementations": "中继器实现",
-    "nostrProjects": "Nostr 项目",
-    "contribute": "贡献",
-    "guides": "指南",
-    "guideIris": "Iris（Web 客户端）",
-    "guideDamus": "Damus（iOS 客户端）",
-    "guideAmethyst": "Amethyst（Android 客户端）",
-    "getNip05": "获取 NIP-05 认证",
-    "guideNostrchat": "NostrChat（聊天客户端）",
-    "guideSweepSats": "转至自托管钱包"
-  },
-  "donateButton": "给 Nostr.how 捐赠",
-  "colophon": "Made with 💜 & ⚡ by",
-  "foss": "自豪的免费开源软件 ",
-  "mitLicense": "MIT License",
-  "contactMe": "联系我",
-  "errors": {
-    "noTranslationTitle": "找不到翻译",
-    "noTranslationMessage": "抱歉，该页面没有翻译。如果您有兴趣帮助创建此页面，请联系我们。"
-  }
+    "title": "Nostr",
+    "nav": {
+        "resources": "资源",
+        "whatIs": "什么是 Nostr？",
+        "whyWeNeed": "为什么我们需要 Nostr？",
+        "getStarted": "入门",
+        "whatZaps": "什么是打闪？",
+        "nostrProtocol": "Nostr 协议",
+        "clients": "客户端",
+        "relays": "中继器",
+        "relayImplementations": "中继器实现",
+        "nostrProjects": "Nostr 项目",
+        "contribute": "贡献",
+        "guides": "指南",
+        "guideIris": "Iris（Web 客户端）",
+        "guideDamus": "Damus（iOS 客户端）",
+        "guideAmethyst": "Amethyst（Android 客户端）",
+        "getNip05": "获取 NIP-05 认证",
+        "guideNostrchat": "NostrChat（聊天客户端）",
+        "guideSweepSats": "转至自托管钱包"
+    },
+    "donateButton": "给 Nostr.how 捐赠",
+    "colophon": "Made with 💜 & ⚡ by",
+    "foss": "自豪的免费开源软件 ",
+    "mitLicense": "MIT License",
+    "contactMe": "联系我",
+    "errors": {
+        "noTranslationTitle": "找不到翻译",
+        "noTranslationMessage": "抱歉，该页面没有翻译。如果您有兴趣帮助创建此页面，请联系我们。"
+    }
 }

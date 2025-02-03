@@ -1,7 +1,7 @@
 <script lang="ts">
-    import DonateButton from "$lib/components/DonateButton.svelte";
-    import { _, isLoading } from "svelte-i18n";
-    import GithubIcon from "$lib/elements/icons/Github.svelte";
+import DonateButton from "$lib/components/DonateButton.svelte";
+import { _, isLoading } from "svelte-i18n";
+import GithubIcon from "$lib/elements/icons/Github.svelte";
 </script>
 
 {#if !$isLoading}

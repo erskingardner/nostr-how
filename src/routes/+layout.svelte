@@ -1,25 +1,25 @@
 <script lang="ts">
-    import '../app.css';
-    import { waitLocale, locale } from 'svelte-i18n';
-    import Sidebar from '$lib/components/Sidebar.svelte';
-    import Footer from '$lib/components/Footer.svelte';
-    import Header from '$lib/components/Header.svelte';
-    import { sidebarVisible } from '$lib/store';
-    import CloseIcon from '$lib/elements/icons/Close.svelte';
-    import { slide } from 'svelte/transition';
+import "../app.css";
+import Footer from "$lib/components/Footer.svelte";
+import Header from "$lib/components/Header.svelte";
+import Sidebar from "$lib/components/Sidebar.svelte";
+import CloseIcon from "$lib/elements/icons/Close.svelte";
+import { sidebarVisible } from "$lib/store";
+import { locale, waitLocale } from "svelte-i18n";
+import { slide } from "svelte/transition";
 
-    export async function preload() {
-        return waitLocale($locale as string);
-    }
+export async function preload() {
+    return waitLocale($locale as string);
+}
 </script>
 
 <div class="relative flex" dir={$locale === 'fa' ? 'rtl' : 'ltr'}>
     <div
         class="
-            absolute h-96 z-0 inset-0 bg-gradient-to-r from-[#5e08c1] to-[#e250f9]
+            absolute h-96 z-0 inset-0 bg-linear-to-r from-[#5e08c1] to-[#e250f9]
             opacity-20 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]
             dark:from-[#5e08c1]/50 dark:to-[#e250f9]/50"
-    />
+    ></div>
 
     <aside
         transition:slide={{ axis: 'x', duration: 200 }}
@@ -32,7 +32,7 @@
         >
             <CloseIcon />
         </button>
-        <Sidebar />
+        <Sidebar onNavLinkClicked={() => {}} />
     </aside>
     {#if $sidebarVisible}
         <aside
@@ -46,7 +46,7 @@
             >
                 <CloseIcon />
             </button>
-            <Sidebar on:navLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
+            <Sidebar onNavLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
         </aside>
     {/if}
 

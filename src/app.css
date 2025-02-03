@@ -1,6 +1,33 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
+
+@theme {
+    --font-sans: Inter var, sans-serif;
+    --font-sans--font-feature-settings: "cv11", "ss01";
+    --font-sans--font-variation-settings: "opsz" 32;
+
+    --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+}
 
 a {
     @apply hover:text-zinc-600 dark:hover:text-zinc-400;
@@ -19,7 +46,7 @@ a {
 }
 
 .nav > li > a {
-    @apply block mb-1 hover:bg-zinc-200 dark:hover:bg-zinc-800 px-2 py-1 rounded-md no-underline text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 hover:dark:text-zinc-100 transition-all;
+    @apply block mb-1 hover:bg-zinc-200 dark:hover:bg-zinc-800 px-2 py-1 rounded-md no-underline text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-all;
 }
 
 .nav > li > a.active {
