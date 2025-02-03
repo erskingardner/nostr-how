@@ -1,17 +1,17 @@
 <script lang="ts">
-import DonateButton from "$lib/components/DonateButton.svelte";
-import LocaleSwitcher from "$lib/components/LocaleSwitcher.svelte";
-import { _, isLoading } from "svelte-i18n";
-import { setupI18n } from "$lib/i18n";
 import { goto } from "$app/navigation";
 import { page } from "$app/stores";
+import DonateButton from "$lib/components/DonateButton.svelte";
+import LocaleSwitcher from "$lib/components/LocaleSwitcher.svelte";
 import MenuIcon from "$lib/elements/icons/Menu.svelte";
+import { setupI18n } from "$lib/i18n";
 import { sidebarVisible } from "$lib/store";
+import { _, isLoading } from "svelte-i18n";
 
 function updateLocale(newLocale: string) {
     setupI18n({ locale: newLocale });
     if (!$page.url.pathname.startsWith(`/${newLocale}`)) {
-        const newPathname = `/${newLocale}/` + $page.url.pathname.split("/").slice(2).join("/");
+        const newPathname = `/${newLocale}/${$page.url.pathname.split("/").slice(2).join("/")}`;
         goto(newPathname);
     }
 }
@@ -37,7 +37,7 @@ function updateLocale(newLocale: string) {
         <div class="flex flex-row items-center gap-4">
             <DonateButton variant="primary" class="text-sm hidden md:block" />
             <span class="hidden md:block border-r border-purple-400/20">&nbsp;</span>
-            <LocaleSwitcher on:locale-changed={(e) => updateLocale(e.detail)} />
+            <LocaleSwitcher onLocaleChanged={(locale) => updateLocale(locale)} />
         </div>
     </div>
 {/if}

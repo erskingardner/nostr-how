@@ -1,7 +1,7 @@
 <script lang="ts">
-import { _, isLoading } from "svelte-i18n";
 import DonateButton from "$lib/components/DonateButton.svelte";
 import NavLink from "$lib/components/NavLink.svelte";
+import { _, isLoading } from "svelte-i18n";
 
 const navLinks = {
     guides: [
@@ -26,6 +26,8 @@ const navLinks = {
         { href: "/contribute", localeString: "nav.contribute" },
     ],
 };
+
+let { onNavLinkClicked }: { onNavLinkClicked: () => void } = $props();
 </script>
 
 {#if !$isLoading}
@@ -39,7 +41,7 @@ const navLinks = {
         <ul class="nav text-base">
             {#each navLinks.guides as link}
                 <li>
-                    <NavLink on:navLinkClicked href={link.href} localeString={link.localeString} />
+                    <NavLink onNavLinkClick={onNavLinkClicked} href={link.href} localeString={link.localeString} />
                 </li>
             {/each}
         </ul>
@@ -50,7 +52,7 @@ const navLinks = {
         <ul class="nav text-base">
             {#each navLinks.pages as link}
                 <li>
-                    <NavLink on:navLinkClicked href={link.href} localeString={link.localeString} />
+                    <NavLink onNavLinkClick={onNavLinkClicked} href={link.href} localeString={link.localeString} />
                 </li>
             {/each}
         </ul>

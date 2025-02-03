@@ -1,11 +1,11 @@
 <script lang="ts">
 import "../app.css";
-import { waitLocale, locale } from "svelte-i18n";
-import Sidebar from "$lib/components/Sidebar.svelte";
 import Footer from "$lib/components/Footer.svelte";
 import Header from "$lib/components/Header.svelte";
-import { sidebarVisible } from "$lib/store";
+import Sidebar from "$lib/components/Sidebar.svelte";
 import CloseIcon from "$lib/elements/icons/Close.svelte";
+import { sidebarVisible } from "$lib/store";
+import { locale, waitLocale } from "svelte-i18n";
 import { slide } from "svelte/transition";
 
 export async function preload() {
@@ -19,7 +19,7 @@ export async function preload() {
             absolute h-96 z-0 inset-0 bg-linear-to-r from-[#5e08c1] to-[#e250f9]
             opacity-20 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]
             dark:from-[#5e08c1]/50 dark:to-[#e250f9]/50"
-    />
+    ></div>
 
     <aside
         transition:slide={{ axis: 'x', duration: 200 }}
@@ -32,7 +32,7 @@ export async function preload() {
         >
             <CloseIcon />
         </button>
-        <Sidebar />
+        <Sidebar onNavLinkClicked={() => {}} />
     </aside>
     {#if $sidebarVisible}
         <aside
@@ -46,7 +46,7 @@ export async function preload() {
             >
                 <CloseIcon />
             </button>
-            <Sidebar on:navLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
+            <Sidebar onNavLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
         </aside>
     {/if}
 
