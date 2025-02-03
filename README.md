@@ -21,7 +21,7 @@ Nostr.how is built with [Svelte](https://svelte.dev/), a lightweight javascript 
 
 ## 🚨 IMPORTANT
 
-If you were a previous contributor to Nostr.how I have rewritten the site from Next.js to Svelte (change effective Apr 13 2023). Please double check that your local copy is up to date and accurate.
+**If you've contributed in the past to Nostr.how, you need to throw away your local copy and clone the repo again. I've run a few scripts to remove old (and large) files from the git history. (change effective Feb 3 2025)**
 
 ## 🫂 Contributing
 
