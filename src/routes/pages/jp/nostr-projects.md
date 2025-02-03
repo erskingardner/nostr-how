@@ -37,3 +37,4 @@ description: これは、私たちがおすすめするその他のNostrリソ�
 
 - [Awesome Nostr](https://www.nostr.net)はNostrクライアントやリレー実装などに関するリンク集です。
 - [Nostr Resources](https://nostr-resources.com)はNostrの基本をカバーし、他の多くのリソースにリンクしています。
+- [Hello Nostr](https://hellonostr.dev/)は、初心者の開発者が Nostr リレーに「Hello world」を公開するためのガイドとサンプル コードを提供します。

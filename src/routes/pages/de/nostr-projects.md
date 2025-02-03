@@ -37,3 +37,4 @@ Das [Nostr-Protocol-Repository](https://github.com/nostr-protocol/nostr) ist die
 
 -   [Awesome Nostr](https://www.nostr.net) ist eine Liste von Links für Nostr-Clients, Relay Implementierungen und mehr.
 -   [Nostr Resources](https://nostr-resources.com) behandelt Nostr-Grundlagen und verlinkt auf viele andere Quellen.
+-   [Hello Nostr](https://hellonostr.dev/) hilft beginnenden entwicklern mit richtlinien und beispielcode zum veröffentlichen einer „Hallo Welt“ an Nostr-Relays.

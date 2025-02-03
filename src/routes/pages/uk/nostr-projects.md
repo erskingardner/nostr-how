@@ -37,3 +37,4 @@ description: Це колекція інших ресурсів та проект
 
 -   [Awesome Nostr](https://www.nostr.net) є репозиторієм посилань для клієнтів Nostr, реалізацій реле та іншого.
 -   [Nostr Resources](https://nostr-resources.com) охоплює основи Nostr та посилання на багато інших ресурсів.
+-   [Hello Nostr](https://hellonostr.dev/) допомагає розробникам-початківцям із посібником і прикладом коду для публікації «Hello world» для ретрансляторів Nostr.
