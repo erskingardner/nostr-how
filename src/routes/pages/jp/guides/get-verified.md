@@ -43,6 +43,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 
 独自ドメインを持っていなかったり、自分で設定したくない場合は、無料または有料（通常は数[サトシ](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）のNIP-05サービスを利用することができます。いくつか紹介してみます：
 
+- [Nostrly](https://www.nostrly.com)
 - [Nostrplebs](https://nostrplebs.com)
 - [Nostr Verified](https://nostrverified.com)
 - [Alby](https://getalby.com)

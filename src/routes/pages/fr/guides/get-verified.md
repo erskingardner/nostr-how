@@ -40,6 +40,7 @@ Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratu
 
 Si vous n'avez pas votre propre domaine ou si vous ne voulez pas le configurer vous-même, vous pouvez profiter d'un service NIP-05 gratuit ou payant (généralement quelques [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). En voici quelques-uns :
 
+-   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
