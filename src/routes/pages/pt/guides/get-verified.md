@@ -42,6 +42,7 @@ Neste momento existem vários prestadores que estão a ajudar as pessoas a obter
 
 Se não tens o teu próprio domínio ou não queres configurá-lo sozinho, podes aproveitar um serviço NIP-05 gratuito ou pago (normalmente apenas alguns [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). Aqui estão alguns:
 
+-   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)

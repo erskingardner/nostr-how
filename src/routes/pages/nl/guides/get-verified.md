@@ -42,6 +42,7 @@ Op dit moment zijn er verschillende providers die mensen helpen om gratis geveri
 
 Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde  NIP-05-service. Hier zijn er een paar:
 
+-   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
