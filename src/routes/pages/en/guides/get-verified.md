@@ -52,6 +52,7 @@ If you don't have your own domain or don't want to set it up yourself, you can t
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Self hosted verification
 
