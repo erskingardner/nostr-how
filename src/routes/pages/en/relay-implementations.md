@@ -35,7 +35,7 @@ description: This is a list of all known implementations of the Nostr relay spec
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Relay, client, and other tooling in python
+-   [monstr](https://github.com/monty888/monstr): Relay, client, and other tooling in python
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): A Nostr relay written in python, backed by SQLite
 
 ## Kotlin
@@ -46,3 +46,9 @@ description: This is a list of all known implementations of the Nostr relay spec
 ## Java
 
 -   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay Framework & Web Application: Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, atop [nostr-java library](https://github.com/tcheeric/nostr-java).  Simple. Clean. OO.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): a command line tool for doing all things nostr
+- [monstr cli](https://github.com/monty888/monstr_terminal): a cli for interacting with monstr relay client.
+
