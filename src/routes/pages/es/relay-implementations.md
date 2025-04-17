@@ -34,10 +34,20 @@ description: Esta es una lista de todas las implementaciones conocidas de la esp
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Relé, cliente y otras herramientas en Python.
+-   [monstr](https://github.com/monty888/monstr): Relé, cliente y otras herramientas en Python.
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): Un relé de Nostr escrito en Python, respaldado por SQLite.
 
 ## Kotlin
 
 -   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): Un relé de Kotlin que admite tanto SQLite como PostgreSQL.
 -   [knostr](https://github.com/lpicanco/knostr): Un relé de Nostr implementado en Kotlin con soporte para Postgres y métricas (micrómetro).
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Marco de trabajo y aplicación web Nostr-Relay: Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, basado en la biblioteca nostr-java (https://github.com/tcheeric/nostr-java). Orientación a objetos (OO) sencilla y limpia.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): 
+Una herramienta de CLI para hacer todas las cosas nostr.
+- [monstr cli](https://github.com/monty888/monstr_terminal): CLI para interactuar con el cliente de retransmisión monstr.

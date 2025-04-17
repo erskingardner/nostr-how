@@ -34,10 +34,19 @@ description: این لیستی از مشخصات تمام رله های شناخ
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): رله، کلاینت، و ابزارهای دیگر در پایتون
+-   [monstr](https://github.com/monty888/monstr): رله، کلاینت، و ابزارهای دیگر در پایتون
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): رله ناستر که به پایتون نوشته شده و با SQLite پشتیبانی می شود
 
 ## Kotlin
 
 -   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): رله کاتلین که از هر دوی SQLite و Postgresql پشتیبانی می کند
 -   [knostr](https://github.com/lpicanco/knostr): metrics(micrometer) یک رله ناستر اجرا شده در کاتلین و با پشتیبانی Postgres و
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay Framework & Web Application: Java 20، Spring WebSocketSession 3.2.2، Spring Boot 3.2.4، atop [nostr-java library] (https://github.com/tcheeric/nostr-java).  ساده تمیز. OO.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): ابزار خط فرمان برای انجام همه کارها nostr.
+- [monstr cli](https://github.com/monty888/monstr_terminal): cli برای تعامل با monstr relay client.

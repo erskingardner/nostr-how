@@ -49,6 +49,5 @@ description: This is a list of all known implementations of the Nostr relay spec
 
 ## CLI
 
-- [nak](https://github.com/fiatjaf/nak): a command line tool for doing all things nostr
+- [nak](https://github.com/fiatjaf/nak): a command line tool for doing all things nostr.
 - [monstr cli](https://github.com/monty888/monstr_terminal): a cli for interacting with monstr relay client.
-
