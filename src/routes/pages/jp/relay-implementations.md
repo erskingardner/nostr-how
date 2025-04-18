@@ -34,10 +34,19 @@ description: ここではよく知られたNostrリレーの仕様について�
 
 ## Python
 
-- [nostrypy](https://github.com/monty888/nostrpy)：Pythonによるリレー、クライアント、およびその他のツール
+- [monstr](https://github.com/monty888/monstr)：Pythonによるリレー、クライアント、およびその他のツール
 - [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/)：Pythonで書かれ、SQLiteによってバックアップされたNostrリレー
 
 ## Kotlin
 
 - [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay)：SQLiteとPostgresqlの両方をサポートするKotlinリレー
 - [knostr](https://github.com/lpicanco/knostr)：Kotlinで実装され、Postgresとメトリクス（micrometer）をサポートするNostrリレー
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Nostr-RelayフレームワークとWebアプリケーション：Java 20、Spring WebSocketSession 3.2.2、Spring Boot 3.2.4、[nostr-javaライブラリ](https://github.com/tcheeric/nostr-java)をベースに開発。シンプル。クリーン。オブジェクト指向。
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): nostr に関するあらゆることを実行するためのコマンドライン ツール。
+- [monstr cli](https://github.com/monty888/monstr_terminal): monstr リレー クライアントと対話するための CLI。

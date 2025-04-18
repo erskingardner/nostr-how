@@ -35,10 +35,19 @@ description: 这是 Nostr 中继规范的所有已知实现的列表。仅当您
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): python 中的中继、客户端和其他工具
+-   [monstr](https://github.com/monty888/monstr): python 中的中继、客户端和其他工具
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): 用 Python 编写的 Nostr 中继，由 SQLite 支持
 
 ## Kotlin
 
 -   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay): 支持 SQLite 和 Postgresql 的 Kotlin Relay
 -   [knostr](https://github.com/lpicanco/knostr):在 Kotlin 中实现的 Nostr 中继，支持 Postgres 和 metrics(micrometer)
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay 框架和 Web 应用：Java 20、Spring WebSocketSession 3.2.2、Spring Boot 3.2.4，基于 nostr-java 库。简洁、干净、面向对象。
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): 用于执行所有 nostr 操作的命令行工具
+- [monstr cli](https://github.com/monty888/monstr_terminal): 用于与 monstr 中继客户端交互的 CLI。

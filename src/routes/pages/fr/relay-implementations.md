@@ -34,10 +34,19 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy) : Relais, client, et autres outils en python
+-   [monstr](https://github.com/monty888/monstr): Relais, client, et autres outils en python
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/) : Un relais Nostr écrit en python, SQLite pour le stockage des données
 
 ## Kotlin
 
 -   [NostrPostr Relay](https://github.com/Giszmo/NostrPostr/tree/master/NostrRelay) : Un relais Kotlin supportant à la fois SQLite et Postgresql
 -   knostr](https://github.com/lpicanco/knostr) : Un relais nostr implémenté en Kotlin avec le support de Postgres et de metrics(micrics)
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Framework et application Web Nostr-Relay : Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, sur la bibliothèque Nostr-Java (https://github.com/tcheeric/nostr-java). Simple, épuré et OO.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): un outil de ligne de commande pour faire tout ce qui concerne nost.
+- [monstr cli](https://github.com/monty888/monstr_terminal): un cli pour interagir avec le client relais monstr.

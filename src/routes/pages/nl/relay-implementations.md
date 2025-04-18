@@ -37,7 +37,7 @@ description: Dit is een lijst van alle bekende implementaties voor het draaien v
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Relay, client, en andere hulpmiddelen in Python
+-   [monstr](https://github.com/monty888/monstr): Relay, client, en andere hulpmiddelen in Python
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): een Nostr relay geschreven in Python, met SQLite als database
 
 ## Kotlin
@@ -46,3 +46,12 @@ description: Dit is een lijst van alle bekende implementaties voor het draaien v
 -   [knostr](https://github.com/lpicanco/knostr): een relay geschreven in Kotlin met Postgres support en statistieken(micrometer)
 
 Nog meer implementaties kun je vinden in de [awesome-nostr lijst](https://github.com/aljazceru/awesome-nostr#implementations).
+
+## Java
+
+-   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay Framework & Webapplicatie: Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, bovenop [nostr-java bibliotheek](https://github.com/tcheeric/nostr-java). Eenvoudig. Overzichtelijk. OO.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): een opdrachtregeltool voor alle nostr-taken.
+- [monstr cli](https://github.com/monty888/monstr_terminal): een cli voor interactie met de monstr relay client.

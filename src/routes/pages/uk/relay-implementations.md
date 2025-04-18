@@ -35,7 +35,7 @@ description: Це список всіх відомих реалізацій сп
 
 ## Python
 
--   [nostrypy](https://github.com/monty888/nostrpy): Реле, клієнт та інші інструменти на Python
+-   [monstr](https://github.com/monty888/monstr): Реле, клієнт та інші інструменти на Python
 -   [nostr_relay](https://code.pobblelabs.org/fossil/nostr_relay/): Реле Nostr, написане на Python, що працює на SQLite
 
 ## Kotlin
@@ -46,3 +46,8 @@ description: Це список всіх відомих реалізацій сп
 ## Java
 
 -   [SuperConductor](https://github.com/avlo/superconductor) Nostr-Relay Framework & Web Application: Java 20, Spring WebSocketSession 3.2.2, Spring Boot 3.2.4, на основі [nostr-java library](https://github.com/tcheeric/nostr-java). Проста. Чиста. ООП.
+
+## CLI
+
+- [nak](https://github.com/fiatjaf/nak): інструмент командного рядка для виконання всіх завдань nostr.
+- [monstr cli](https://github.com/monty888/monstr_terminal): cli для взаємодії з клієнтом ретрансляції monstr.
