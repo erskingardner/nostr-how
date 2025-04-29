@@ -37,6 +37,7 @@ At the moment, there are several providers who are helping folks get verified fo
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#paid-verification) Pay a provider for verification
 
