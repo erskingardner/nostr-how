@@ -35,6 +35,7 @@ description: چگونه هویت خود را در ناستر تایید کنید
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#تایید-پولی) برای تایید به یک تامین کننده پول بپردازید
 

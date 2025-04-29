@@ -37,6 +37,7 @@ Al momento, ci sono diversi fornitori che stanno aiutando le persone a ottenere 
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#verifica-a-pagamento) Pagare un fornitore
 

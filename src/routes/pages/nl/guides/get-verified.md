@@ -37,6 +37,7 @@ Op dit moment zijn er verschillende providers die mensen helpen om gratis geveri
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#paid-verification) Een provider betalen voor verificatie
 
