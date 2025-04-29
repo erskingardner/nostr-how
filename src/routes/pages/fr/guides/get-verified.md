@@ -35,6 +35,7 @@ Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratu
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#paid-verification) Payer un fournisseur pour la vérification
 

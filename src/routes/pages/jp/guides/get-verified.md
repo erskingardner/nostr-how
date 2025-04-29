@@ -38,6 +38,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 - [Nostr-Check.com](https://nostr-check.com/)
 - [Verified Nostr](https://verified-nostr.com/)
 - [Cosa Nostr](https://cosanostr.com)
+- [Iris](https://iris.to)
 
 ## [§](#paid-verification) 有料サービスで認証する
 
