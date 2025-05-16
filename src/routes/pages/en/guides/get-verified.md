@@ -42,14 +42,12 @@ At the moment, there are several providers who are helping folks get verified fo
 
 If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 

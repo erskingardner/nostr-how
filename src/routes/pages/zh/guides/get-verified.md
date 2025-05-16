@@ -42,14 +42,12 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个[聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）的 NIP-05 服务。以下是一些付费提供商：
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 

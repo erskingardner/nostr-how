@@ -42,14 +42,12 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 Якщо у вас немає власного домену або ви не хочете налаштовувати його самостійно, ви можете скористатися безкоштовною або платною (зазвичай лише кілька [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) послугою NIP-05. Ось декілька з них:
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 

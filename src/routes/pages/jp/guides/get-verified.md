@@ -43,14 +43,12 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 
 独自ドメインを持っていなかったり、自分で設定したくない場合は、無料または有料（通常は数[サトシ](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）のNIP-05サービスを利用することができます。いくつか紹介してみます：
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 - [Nostrly](https://www.nostrly.com)
 - [Nostrplebs](https://nostrplebs.com)
 - [Nostr Verified](https://nostrverified.com)
 - [Alby](https://getalby.com)
 - [Nostr Directory](https://nostr.directory)
-- [Nostr.band](https://nip05.nostr.band)
-- [Nostr.com.au](https://nostr.com.au)
-- [Vida](https://Vida.page)
 - [Stacker News](https://stacker.news)
 - [Nostrich House](https://nostrich.house)
 

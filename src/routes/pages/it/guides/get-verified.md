@@ -42,14 +42,12 @@ Al momento, ci sono diversi fornitori che stanno aiutando le persone a ottenere 
 
 Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un servizio NIP-05 gratuito o a pagamento (solitamente solo pochi [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). Ecco alcuni:
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 
