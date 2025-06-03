@@ -51,6 +51,7 @@ Se não tens o teu próprio domínio ou não queres configurá-lo sozinho, podes
 -   [Nostr.com.au](https://nostr.com.au)
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#verificação-auto-hospedada) Verificação auto-hospedada
 

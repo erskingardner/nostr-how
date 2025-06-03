@@ -52,6 +52,7 @@ Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovec
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#verificacion-autohospedada) Verificación autohospedada
 

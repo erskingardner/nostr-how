@@ -6,6 +6,7 @@ description: Esta es una lista de todas las implementaciones conocidas de la esp
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): Un sencillo relé de referencia respaldado por Postgres, escrito como una demostración sobre el marco de trabajo [Relayer](https://github.com/fiatjaf/relayer) para construir relés personalizados.
+-   [grain](https://github.com/0ceanSlim/grain): Arquitectura de Relay Go para Implementar Nostr. Grain es un relay altamente configurable que utiliza MongoDB, permitiendo a los usuarios personalizar políticas, gestionar recursos y adaptarlo a sus necesidades específicas.
 
 ## C++
 

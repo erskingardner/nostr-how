@@ -52,6 +52,7 @@ Wenn du keine eigene Domain hast oder selbst nicht einrichten willst, kannst du 
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Verifizierung mit eigener Domain
 

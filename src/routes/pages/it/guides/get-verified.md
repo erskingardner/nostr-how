@@ -52,6 +52,7 @@ Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un 
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#verifica-auto-ospitata) Verifica auto-ospitata
 

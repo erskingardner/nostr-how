@@ -8,6 +8,7 @@ description: Dit is een lijst van alle bekende implementaties voor het draaien v
 
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): een eenvoudig implementatie ondersteund door Postgres, geschreven als demo bovenop het [Relayer](https://github.com/fiatjaf/relayer) framework voor het bouwen van custom relay.
 - [gnost-relay](https://github.com/barkyq/gnost-relay): een relay geschreven in Go met Postgres ondersteuning
+- [grain](https://github.com/0ceanSlim/grain): Go Relay Architectuur voor het Implementeren van Nostr. Grain is een zeer configureerbare relay die MongoDB gebruikt, waardoor gebruikers beleid kunnen aanpassen, bronnen kunnen beheren en het kunnen afstemmen op hun specifieke behoeften.
 
 ## C++
 

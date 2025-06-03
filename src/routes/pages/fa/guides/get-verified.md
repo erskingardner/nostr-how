@@ -50,6 +50,7 @@ description: چگونه هویت خود را در ناستر تایید کنید
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#خویش-میزبان) تایید با هاست خود
 

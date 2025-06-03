@@ -6,6 +6,7 @@ description: Dies ist eine Liste aller bekannten Implementierungen für Nostr-Re
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/basic): Ein einfaches Relay mit PostgreSQL Datenbank, welches auf dem [Relayer](https://github.com/fiatjaf/relayer)-Framework basiert und zum Erstellen benutzerdefinierter Relays geschrieben wurde.
+-   [grain](https://github.com/0ceanSlim/grain): Go Relay Architektur für die Implementierung von Nostr. Grain ist ein hochkonfigurierbares Relay mit MongoDB, das es Benutzern ermöglicht, Richtlinien anzupassen, Ressourcen zu verwalten und es an ihre spezifischen Bedürfnisse anzupassen.
 
 ## C++
 

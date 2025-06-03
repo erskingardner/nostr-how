@@ -50,6 +50,7 @@ Si vous n'avez pas votre propre domaine ou si vous ne voulez pas le configurer v
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Vérification auto-hébergée
 

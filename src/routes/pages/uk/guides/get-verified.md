@@ -52,6 +52,7 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Самостійна верифікація
 

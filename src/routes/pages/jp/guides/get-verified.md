@@ -53,6 +53,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 - [Vida](https://Vida.page)
 - [Stacker News](https://stacker.news)
 - [Nostrich House](https://nostrich.house)
+- [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) 独自ドメインで認証する
 

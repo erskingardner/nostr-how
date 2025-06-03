@@ -6,6 +6,7 @@ description: Ceci est une liste de toutes les implémentations connues de la sp�
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic) : Un relais de référence simple qui utilise Postgres comme base de données, écrit comme une démo au dessus du framework [Relayer](https://github.com/fiatjaf/relayer) pour construire des relais personnalisés.
+-   [grain](https://github.com/0ceanSlim/grain): Architecture de Relay Go pour Implémenter Nostr. Grain est un relay hautement configurable utilisant MongoDB, permettant aux utilisateurs de personnaliser les politiques, gérer les ressources et l'adapter à leurs besoins spécifiques.
 
 ## C++
 

@@ -6,6 +6,7 @@ description: این لیستی از مشخصات تمام رله های شناخ
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): یک رله مرجع ساده است که با Postgres پشتیبانی می شود؛ به عنوان نمونه نمایشی روی چارچوب[Relayer](https://github.com/fiatjaf/relayer) برای ساخت رله های سفارشی نوشته شده شده
+-   [grain](https://github.com/0ceanSlim/grain): معماری ریله Go برای پیاده‌سازی Nostr. Grain یک ریله بسیار قابل تنظیم با استفاده از MongoDB است که به کاربران امکان سفارشی‌سازی سیاست‌ها، مدیریت منابع و تطبیق آن با نیازهای خاص خود را می‌دهد.
 
 ## C++
 

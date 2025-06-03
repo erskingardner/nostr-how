@@ -52,6 +52,7 @@ Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmak
 -   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Self hosted verificatie
 
