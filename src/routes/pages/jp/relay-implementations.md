@@ -6,6 +6,7 @@ description: ここではよく知られたNostrリレーの仕様について�
 ## Go
 
 - [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic)：カスタムリレーを構築するための[Relayer](https://github.com/fiatjaf/relayer)フレームワーク上にデモとして書かれた、Postgresによってバックアップされたシンプルなリファレンス・リレー
+- [grain](https://github.com/0ceanSlim/grain): NostrをImplementするためのGo Relayアーキテクチャ。GrainはMongoDBを使用した高度に設定可能なリレーで、ユーザーがポリシーをカスタマイズし、リソースを管理し、特定のニーズに合わせて調整することができます。
 
 ## C++
 

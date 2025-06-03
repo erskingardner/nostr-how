@@ -30,28 +30,29 @@ Hoewel het technisch klinkt, is het verrassend eenvoudig om geverifieerd te word
 
 Op dit moment zijn er verschillende providers die mensen helpen om gratis geverifieerd te worden. Dit is een geweldige optie als je nog geen sats in je lightning wallet hebt staan. Steun deze projecten indien mogelijk via donaties. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+- [Bitcoin Nostr](https://bitcoinnostr.com/)
+- [Nostrcheck.me](https://nostrcheck.me)
+- [zaps.lol](https://zaps.lol/)
+- [NIP05.social](https://nip05.social)
+- [Nostr-Check.com](https://nostr-check.com/)
+- [Verified Nostr](https://verified-nostr.com/)
+- [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) Een provider betalen voor verificatie
 
-Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde  NIP-05-service. Hier zijn er een paar:
+Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde NIP-05-service. Hier zijn er een paar:
 
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
+- [Nostrly](https://www.nostrly.com)
+- [Nostrplebs](https://nostrplebs.com)
+- [Nostr Verified](https://nostrverified.com)
+- [Alby](https://getalby.com)
+- [Nostr Directory](https://nostr.directory)
+- [Nostr.band](https://nip05.nostr.band)
+- [Nostr.com.au](https://nostr.com.au)
+- [Vida](https://Vida.page)
+- [Stacker News](https://stacker.news)
+- [Nostrich House](https://nostrich.house)
+- [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Self hosted verificatie
 
@@ -59,9 +60,9 @@ Als je al een domein hebt, is dit een gratis optie. Je hoeft alleen maar een `.w
 
 ```json
 {
-    "names": {
-        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-    }
+  "names": {
+    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+  }
 }
 ```
 

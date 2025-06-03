@@ -30,28 +30,29 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 目前，有几个提供免费帮助大家获得验证的提供商。如果您的闪电钱包中还没有聪，这是一个很好的选择。如果可能，请通过捐赠支持这些项目。⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+- [Bitcoin Nostr](https://bitcoinnostr.com/)
+- [Nostrcheck.me](https://nostrcheck.me)
+- [zaps.lol](https://zaps.lol/)
+- [NIP05.social](https://nip05.social)
+- [Nostr-Check.com](https://nostr-check.com/)
+- [Verified Nostr](https://verified-nostr.com/)
+- [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) 向提供商支付验证费用
 
 如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个[聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）的 NIP-05 服务。以下是一些付费提供商：
 
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
+- [Nostrly](https://www.nostrly.com)
+- [Nostrplebs](https://nostrplebs.com)
+- [Nostr Verified](https://nostrverified.com)
+- [Alby](https://getalby.com)
+- [Nostr Directory](https://nostr.directory)
+- [Nostr.band](https://nip05.nostr.band)
+- [Nostr.com.au](https://nostr.com.au)
+- [Vida](https://Vida.page)
+- [Stacker News](https://stacker.news)
+- [Nostrich House](https://nostrich.house)
+- [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) 自托管验证
 
@@ -59,9 +60,9 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 ```json
 {
-    "names": {
-        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-    }
+  "names": {
+    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+  }
 }
 ```
 

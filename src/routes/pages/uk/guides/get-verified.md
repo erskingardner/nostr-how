@@ -30,28 +30,29 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 На даний момент є кілька постачальників, які допомагають користувачам отримати верифікацію безкоштовно. Це чудовий варіант, якщо у вас ще немає sats у вашому lightning гаманці. Якщо можливо, підтримайте ці проекти через донати. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+- [Bitcoin Nostr](https://bitcoinnostr.com/)
+- [Nostrcheck.me](https://nostrcheck.me)
+- [zaps.lol](https://zaps.lol/)
+- [NIP05.social](https://nip05.social)
+- [Nostr-Check.com](https://nostr-check.com/)
+- [Verified Nostr](https://verified-nostr.com/)
+- [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) Оплатіть верифікацію у постачальника
 
 Якщо у вас немає власного домену або ви не хочете налаштовувати його самостійно, ви можете скористатися безкоштовною або платною (зазвичай лише кілька [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) послугою NIP-05. Ось декілька з них:
 
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
+- [Nostrly](https://www.nostrly.com)
+- [Nostrplebs](https://nostrplebs.com)
+- [Nostr Verified](https://nostrverified.com)
+- [Alby](https://getalby.com)
+- [Nostr Directory](https://nostr.directory)
+- [Nostr.band](https://nip05.nostr.band)
+- [Nostr.com.au](https://nostr.com.au)
+- [Vida](https://Vida.page)
+- [Stacker News](https://stacker.news)
+- [Nostrich House](https://nostrich.house)
+- [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Самостійна верифікація
 
@@ -59,9 +60,9 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 ```json
 {
-    "names": {
-        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-    }
+  "names": {
+    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+  }
 }
 ```
 

@@ -6,6 +6,7 @@ description: 这是 Nostr 中继规范的所有已知实现的列表。仅当您
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): 由 Postgres 支持的一个中继实现的简单参考，在 [Relayer](https://github.com/fiatjaf/relayer) 框架之上编写用于构建自定义中继的 demo。
+-   [grain](https://github.com/0ceanSlim/grain): 用于实现 Nostr 的 Go 中继架构。Grain 是一个使用 MongoDB 的高度可配置中继，允许用户自定义策略、管理资源并根据其特定需求进行定制。
 
 ## C++
 

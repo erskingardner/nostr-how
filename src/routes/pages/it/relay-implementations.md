@@ -6,6 +6,7 @@ description: Questo è un elenco di tutte le implementazioni note della specific
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): Un semplice relay di riferimento supportato da Postgres, scritto come demo sul framework [Relayer](https://github.com/fiatjaf/relayer) per la costruzione di relay personalizzati.
+-   [grain](https://github.com/0ceanSlim/grain): Architettura Relay Go per Implementare Nostr. Grain è un relay altamente configurabile che utilizza MongoDB, consentendo agli utenti di personalizzare le politiche, gestire le risorse e adattarlo alle loro esigenze specifiche.
 
 ## C++
 

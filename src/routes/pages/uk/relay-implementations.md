@@ -6,6 +6,7 @@ description: Це список всіх відомих реалізацій сп
 ## Go
 
 -   [Relayer Basic](https://github.com/fiatjaf/relayer/tree/master/examples/basic): Проста референсна реле, що працює на Postgres, написана як демонстрація на основі фреймворку [Relayer](https://github.com/fiatjaf/relayer) для створення користувацьких реле
+-   [grain](https://github.com/0ceanSlim/grain): Go Relay Архітектура для Впровадження Nostr. Grain є високонастроюваним релеєм, що використовує MongoDB, дозволяючи користувачам налаштовувати політики, керувати ресурсами та адаптувати його до їхніх специфічних потреб.
 
 ## C++
 

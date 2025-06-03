@@ -30,28 +30,29 @@ Aunque suena técnico, es sorprendentemente fácil de verificar. Veamos cómo ha
 
 En este momento, hay varios proveedores que están ayudando a la gente a obtener verificación de forma gratuita. Esta es una gran opción si aún no tienes sats en tu billetera lightning. Si es posible, apoya estos proyectos a través de donaciones. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+- [Bitcoin Nostr](https://bitcoinnostr.com/)
+- [Nostrcheck.me](https://nostrcheck.me)
+- [zaps.lol](https://zaps.lol/)
+- [NIP05.social](https://nip05.social)
+- [Nostr-Check.com](https://nostr-check.com/)
+- [Verified Nostr](https://verified-nostr.com/)
+- [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#verificación-pagada) Paga a un proveedor por la verificación
 
 Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovechar una versión gratuita o paga (generalmente solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) Servicio NIP-05. Aquí hay algunos:
 
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
+- [Nostrly](https://www.nostrly.com)
+- [Nostrplebs](https://nostrplebs.com)
+- [Nostr Verified](https://nostrverified.com)
+- [Alby](https://getalby.com)
+- [Nostr Directory](https://nostr.directory)
+- [Nostr.band](https://nip05.nostr.band)
+- [Nostr.com.au](https://nostr.com.au)
+- [Vida](https://Vida.page)
+- [Stacker News](https://stacker.news)
+- [Nostrich House](https://nostrich.house)
+- [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#verificacion-autohospedada) Verificación autohospedada
 
@@ -59,9 +60,9 @@ Si ya posee un dominio, esta es una opción gratuita. Solo necesita agregar un a
 
 ```json
 {
-    "nombres": {
-        "YOUR_NOSTR_NAME": "TU_NOSTR_PUBLIC_KEY"
-    }
+  "nombres": {
+    "YOUR_NOSTR_NAME": "TU_NOSTR_PUBLIC_KEY"
+  }
 }
 ```
 
