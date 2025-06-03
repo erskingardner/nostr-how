@@ -42,14 +42,12 @@ Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren las
 
 Wenn du keine eigene Domain hast oder selbst nicht einrichten willst, kannst du auch einen kostenpflichtigen NIP-05-Service in Anspruch nehmen. In der Regel jostet das nur ein paar [Sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats). Hier sind ein paar Beispiele:
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 -   [Happy Tavern](https://happytavern.co/nostr-verified)

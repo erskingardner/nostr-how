@@ -40,14 +40,12 @@ description: چگونه هویت خود را در ناستر تایید کنید
 
 اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیاندازید، می توانید از یک تامین کننده خدمات NIP-05 پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) یا رایگان استفاده کنید. در اینجا چند خدمات پولی را ببینید:
 
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
 -   [Nostrly](https://www.nostrly.com)
 -   [Nostrplebs](https://nostrplebs.com)
 -   [Nostr Verified](https://nostrverified.com)
 -   [Alby](https://getalby.com)
 -   [Nostr Directory](https://nostr.directory)
--   [Nostr.band](https://nip05.nostr.band)
--   [Nostr.com.au](https://nostr.com.au)
--   [Vida](https://Vida.page)
 -   [Stacker News](https://stacker.news)
 -   [Nostrich House](https://nostrich.house)
 -   [Happy Tavern](https://happytavern.co/nostr-verified)
