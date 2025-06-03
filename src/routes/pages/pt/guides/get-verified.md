@@ -30,28 +30,28 @@ Embora possa parecer técnico, é surpreendentemente fácil de verificar. Vamos 
 
 Neste momento existem vários prestadores que estão a ajudar as pessoas a obter verificação gratuitamente. Esta é uma excelente opção se ainda não tens sats na tua carteira lightning. Se possível, apoia estes projetos através de doações. ⚡🤙
 
-- [Bitcoin Nostr](https://bitcoinnostr.com/)
-- [Nostrcheck.me](https://nostrcheck.me)
-- [zaps.lol](https://zaps.lol/)
-- [NIP05.social](https://nip05.social)
-- [Nostr-Check.com](https://nostr-check.com/)
-- [Verified Nostr](https://verified-nostr.com/)
-- [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com/)
+-   [Nostrcheck.me](https://nostrcheck.me)
+-   [zaps.lol](https://zaps.lol/)
+-   [NIP05.social](https://nip05.social)
+-   [Nostr-Check.com](https://nostr-check.com/)
+-   [Verified Nostr](https://verified-nostr.com/)
+-   [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#verificação-paga) Pagar a um fornecedor pela verificação
 
 Se não tens o teu próprio domínio ou não queres configurá-lo sozinho, podes aproveitar um serviço NIP-05 gratuito ou pago (normalmente apenas alguns [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). Aqui estão alguns:
 
-- [Nostrly](https://www.nostrly.com)
-- [Nostrplebs](https://nostrplebs.com)
-- [Nostr Verified](https://nostrverified.com)
-- [Alby](https://getalby.com)
-- [Nostr Directory](https://nostr.directory)
-- [Nostr.band](https://nip05.nostr.band)
-- [Nostr.com.au](https://nostr.com.au)
-- [Vida](https://Vida.page)
-- [Stacker News](https://stacker.news)
-- [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Nostrly](https://www.nostrly.com)
+-   [Nostrplebs](https://nostrplebs.com)
+-   [Nostr Verified](https://nostrverified.com)
+-   [Alby](https://getalby.com)
+-   [Nostr Directory](https://nostr.directory)
+-   [Nostr.band](https://nip05.nostr.band)
+-   [Nostr.com.au](https://nostr.com.au)
+-   [Vida](https://Vida.page)
+-   [Stacker News](https://stacker.news)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#verificação-auto-hospedada) Verificação auto-hospedada
 
@@ -59,9 +59,9 @@ e já tens um domínio, esta é uma opção gratuita. Só precisas de adicionar 
 
 ```json
 {
-  "names": {
-    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-  }
+    "names": {
+        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+    }
 }
 ```
 

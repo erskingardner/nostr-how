@@ -30,29 +30,29 @@ While it sounds technical, it's suprisingly easy to get verified. Let's see how 
 
 At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
 
-- [Bitcoin Nostr](https://bitcoinnostr.com/)
-- [Nostrcheck.me](https://nostrcheck.me)
-- [zaps.lol](https://zaps.lol/)
-- [NIP05.social](https://nip05.social)
-- [Nostr-Check.com](https://nostr-check.com/)
-- [Verified Nostr](https://verified-nostr.com/)
-- [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com/)
+-   [Nostrcheck.me](https://nostrcheck.me)
+-   [zaps.lol](https://zaps.lol/)
+-   [NIP05.social](https://nip05.social)
+-   [Nostr-Check.com](https://nostr-check.com/)
+-   [Verified Nostr](https://verified-nostr.com/)
+-   [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#paid-verification) Pay a provider for verification
 
 If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
 
-- [Nostrly](https://www.nostrly.com)
-- [Nostrplebs](https://nostrplebs.com)
-- [Nostr Verified](https://nostrverified.com)
-- [Alby](https://getalby.com)
-- [Nostr Directory](https://nostr.directory)
-- [Nostr.band](https://nip05.nostr.band)
-- [Nostr.com.au](https://nostr.com.au)
-- [Vida](https://Vida.page)
-- [Stacker News](https://stacker.news)
-- [Nostrich House](https://nostrich.house)
-- [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Nostrly](https://www.nostrly.com)
+-   [Nostrplebs](https://nostrplebs.com)
+-   [Nostr Verified](https://nostrverified.com)
+-   [Alby](https://getalby.com)
+-   [Nostr Directory](https://nostr.directory)
+-   [Nostr.band](https://nip05.nostr.band)
+-   [Nostr.com.au](https://nostr.com.au)
+-   [Vida](https://Vida.page)
+-   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#self-hosted) Self hosted verification
 
@@ -60,9 +60,9 @@ If you already own a domain, this is a free option. You just need to add a `.wel
 
 ```json
 {
-  "names": {
-    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-  }
+    "names": {
+        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+    }
 }
 ```
 

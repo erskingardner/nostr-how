@@ -28,29 +28,29 @@ description: چگونه هویت خود را در ناستر تایید کنید
 
 در حال حاضر، چندین تامین کننده به افراد کمک می کنند تا به طور رایگان تایید شوند. اگر هنوز در کیف پول لایتنینگی خود ساتوشی ندارید این گزینه عالی است. اگر برایتان مقدور است با اهدای ساتوشی از این پروژه ها حمایت کنید. ⚡🤙
 
-- [Bitcoin Nostr](https://bitcoinnostr.com/)
-- [Nostrcheck.me](https://nostrcheck.me)
-- [zaps.lol](https://zaps.lol/)
-- [NIP05.social](https://nip05.social)
-- [Nostr-Check.com](https://nostr-check.com/)
-- [Verified Nostr](https://verified-nostr.com/)
-- [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com/)
+-   [Nostrcheck.me](https://nostrcheck.me)
+-   [zaps.lol](https://zaps.lol/)
+-   [NIP05.social](https://nip05.social)
+-   [Nostr-Check.com](https://nostr-check.com/)
+-   [Verified Nostr](https://verified-nostr.com/)
+-   [Cosa Nostr](https://cosanostr.com)
 
 ## [§](#تایید-پولی) برای تایید به یک تامین کننده پول بپردازید
 
 اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیاندازید، می توانید از یک تامین کننده خدمات NIP-05 پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) یا رایگان استفاده کنید. در اینجا چند خدمات پولی را ببینید:
 
-- [Nostrly](https://www.nostrly.com)
-- [Nostrplebs](https://nostrplebs.com)
-- [Nostr Verified](https://nostrverified.com)
-- [Alby](https://getalby.com)
-- [Nostr Directory](https://nostr.directory)
-- [Nostr.band](https://nip05.nostr.band)
-- [Nostr.com.au](https://nostr.com.au)
-- [Vida](https://Vida.page)
-- [Stacker News](https://stacker.news)
-- [Nostrich House](https://nostrich.house)
-- [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Nostrly](https://www.nostrly.com)
+-   [Nostrplebs](https://nostrplebs.com)
+-   [Nostr Verified](https://nostrverified.com)
+-   [Alby](https://getalby.com)
+-   [Nostr Directory](https://nostr.directory)
+-   [Nostr.band](https://nip05.nostr.band)
+-   [Nostr.com.au](https://nostr.com.au)
+-   [Vida](https://Vida.page)
+-   [Stacker News](https://stacker.news)
+-   [Nostrich House](https://nostrich.house)
+-   [Happy Tavern](https://happytavern.co/nostr-verified)
 
 ## [§](#خویش-میزبان) تایید با هاست خود
 
@@ -58,9 +58,9 @@ description: چگونه هویت خود را در ناستر تایید کنید
 
 ```json
 {
-  "names": {
-    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
-  }
+    "names": {
+        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
+    }
 }
 ```
 
