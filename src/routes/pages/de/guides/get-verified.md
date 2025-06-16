@@ -37,6 +37,7 @@ Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren las
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#paid-verification) Verifiziere dich bei einem Bezahl-Service
 

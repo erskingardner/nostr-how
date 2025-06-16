@@ -37,6 +37,7 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 -   [Nostr-Check.com](https://nostr-check.com/)
 -   [Verified Nostr](https://verified-nostr.com/)
 -   [Cosa Nostr](https://cosanostr.com)
+-   [Iris](https://iris.to)
 
 ## [§](#paid-verification) Оплатіть верифікацію у постачальника
 
