@@ -22,7 +22,7 @@ description: これは、私たちがおすすめするその他のNostrリソ�
 - [Nostr.band](https://nostr.band)はNostrの検索エンジンで、フォローする新しいユーザーを探したり、ちょっと前に見たノートを見つけるのに役立ちます。
 - [Network stats](https://stats.nostr.band)は同じくNostr.bandによって運営されています。これはNostrネットワークの成長に関するハイレベルなデータセットです。
 - [Zaplife](https://zaplife.lol)は過去数時間にNostr上で行われたすべての（？）Zapsの集計です。Zapリーダーボードだと思ってください。⚡
-- [Swarmstr](https://swarmstr.com)は質問に対する答えを見つけるのに役立つQ&A Nostrクライアントです。#asknostrタグのアクティビティ内容から質問を検索することができます。
+- [Asknostr.site](https://asknostr.site)は質問に対する答えを見つけるのに役立つQ&A Nostrクライアントです。#asknostrタグのアクティビティ内容から質問を検索することができます。
 
 ## [§](#long-form-content) 長文投稿
 

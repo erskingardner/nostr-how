@@ -22,7 +22,7 @@ O [repositório do protocolo Nostr](https://github.com/nostr-protocol/nostr) é 
 -   [Nostr.band](https://nostr.band) é um motor de busca para o Nostr que te pode ajudar a encontrar novos utilizadores para seguires ou a encontrar aquela nota que viste há algum tempo.
 -   [Estatisticas da rede](https://stats.nostr.band) também é administrado pelo Nostr.band. Este é um conjunto de dados de alto nível sobre o crescimento da rede Nostr.
 -   [Zaplife](https://zaplife.lol) é uma agregação de todos(?) os Zaps em todo o Nostr nas últimas várias horas. Pensa nele como o leaderboard dos Zaps. ⚡
--   [Swarmstr](https://swarmstr.com) é um cliente Nostr de perguntas e respostas que te pode ajudar a encontrar respostas para as tuas perguntas. Permite-te procurar perguntas por conteúdo da atividade da tag #asknostr
+-   [Asknostr.site](https://asknostr.site) é um cliente Nostr de perguntas e respostas que te pode ajudar a encontrar respostas para as tuas perguntas. Permite-te procurar perguntas por conteúdo da atividade da tag #asknostr
 
 ## [§](#conteudo-grande) Conteúdo de Grandes Dimensões
 

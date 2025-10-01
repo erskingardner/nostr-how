@@ -23,7 +23,7 @@ Het is een summiere repository, maar bevat [@fiatjaf's](https://github.com/fiatj
 -   [Nostr.band](https://nostr.band) is een zoekmachine voor Nostr die je kan helpen om nieuwe gebruikers te vinden om te volgen of om berichten terug te vinden.
 -   [Network stats](https://stats.nostr.band) is een overzicht met statistieken over de groei van het Nostr netwerk. 
 -   [Zaplife](https://zaplife.lol) is een aggregratie van alle meest recente (?) Zaps op het Nostr netwerk. Het is een soort scorebord met zaps. ⚡
--   [Swarmstr](https://swarmstr.com) is een vraag & antwoord Nostr client dat je kan helpen om antwoorden te vinden op vragen. Je kunt alle vragen die getagged zijn met #asknostr opzoeken.
+-   [Asknostr.site](https://asknostr.site) is een vraag & antwoord Nostr client die je kan helpen om antwoorden te vinden op vragen. Je kunt alle vragen die getagged zijn met #asknostr opzoeken.
 
 ## [§](#long-form-content) Long-form content
 

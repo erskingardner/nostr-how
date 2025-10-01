@@ -22,7 +22,7 @@ Le [dépôt du protocole Nostr](https://github.com/nostr-protocol/nostr) est le 
 -   [Nostr.band](https://nostr.band) est un moteur de recherche pour Nostr qui peut vous aider à trouver de nouveaux utilisateurs à suivre ou à retrouver cette note que vous avez vue il y a quelque temps.
 -   [Network stats](https://stats.nostr.band) est également géré par Nostr.band. Il s'agit d'un ensemble de données de haut niveau sur la croissance du réseau Nostr.
 -   [Zaplife](https://zaplife.lol) est une agrégation de "tous" les Zaps sur Nostr au cours des dernières heures. C'est un peu le classement des Zaps. ⚡
--   [Swarmstr](https://swarmstr.com) est un client Q&A Nostr qui peut vous aider à trouver des réponses à vos questions. Vous permet de rechercher des questions par contenu à partir de l'activité de la balise #asknostr.
+-   [Asknostr.site](https://asknostr.site) est un client Q&A Nostr qui peut vous aider à trouver des réponses à vos questions. Vous permet de rechercher des questions par contenu à partir de l'activité de la balise #asknostr.
 
 ## [§](#long-form-content) Contenus longs
 
