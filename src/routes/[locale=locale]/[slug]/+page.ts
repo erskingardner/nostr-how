@@ -1,5 +1,6 @@
 import { setupI18n } from "$lib/i18n";
 import { error } from "@sveltejs/kit";
+import type { Component } from "svelte";
 import { _ } from "svelte-i18n";
 import { get } from "svelte/store";
 
@@ -7,7 +8,7 @@ export async function load({ params }) {
     // Initialize i18n
     setupI18n({ locale: params.locale });
 
-    let page;
+    let page: { metadata: { title: string; description: string }; default: Component };
     try {
         page = await import(`../../pages/${params.locale}/${params.slug}.md`);
     } catch {

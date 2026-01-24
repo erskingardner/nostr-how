@@ -28,7 +28,7 @@ export function setupI18n(opts?: i18nOpts) {
     });
 
     // Update locale if present
-    if (opts && opts.locale) {
+    if (opts?.locale) {
         locale.set(supported(opts.locale));
     }
 }

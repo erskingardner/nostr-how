@@ -12,7 +12,7 @@ Nostr.how is a comprehensive educational resource and guide for the Nostr protoc
 - **Content**: Markdown (via `mdsvex`)
 - **Internationalization**: `svelte-i18n` (UI) + Localized Markdown files (Content)
 - **Linting/Formatting**: Biome
-- **Package Manager**: pnpm
+- **Package Manager**: bun
 - **Hosting**: Vercel
 
 ## Project Structure
@@ -31,9 +31,10 @@ Nostr.how is a comprehensive educational resource and guide for the Nostr protoc
 ## Development Guidelines
 
 ### Commands
-- **Dev Server**: `pnpm dev`
-- **Lint**: `pnpm biome lint`
-- **Format**: `pnpm biome format --write`
+- **Dev Server**: `bun dev`
+- **Build**: `bun run build`
+- **Lint**: `bun run lint-check`
+- **Format**: `bun run format-write`
 
 ### Coding Conventions
 - **Svelte 5**: Use Svelte 5 syntax (runes) where applicable, though legacy syntax may still exist in older files.
