@@ -1,4 +1,6 @@
 {
+    "installCommand": "bun install",
+    "buildCommand": "bun run build",
     "redirects": [
         {
             "source": "/",
