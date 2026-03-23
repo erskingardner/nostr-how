@@ -1,3 +1,4 @@
 # These are supported funding model platforms
-
-custom: ["erskingardner@getalby.com"]
+github: erskingardner
+thanks_dev: u/gh/erskingardner
+custom: ["lightning:erskingardner@getalby.com"]
