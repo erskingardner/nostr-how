@@ -9,7 +9,7 @@ description: このガイドでは、Nostrの基本を理解し、新しいア�
 
 もう一度はっきり言います： **秘密鍵を紛失すると、あなたのNostrアカウントは失われます。もし他の誰かがあなたの秘密鍵にアクセスしたら、彼らはあなたのアカウントをコントロールすることができてしまいます。**
 
-秘密鍵は、パスワード・マネージャー（私たちは[1Password](https://1password.com/)を好みます）や、[Alby](https://getalby.com/#alby-extension)のようなブラウザ拡張機能を使うなど、安全な場所に保管してください。
+秘密鍵は、パスワード・マネージャー（私たちは[1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)を好みます）や、[Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how)のようなブラウザ拡張機能を使うなど、安全な場所に保管してください。
 
 ## [§](#protocol-vs-client) プロトコル vs クライアント
 
@@ -23,13 +23,11 @@ Nostr（プロトコル）にはクライアントを介してアクセスしま
 
 ここでは、私たちがお勧めするいくつかのクライアントについて、ステップバイステップ・ガイドを紹介します：
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how)（Web）
--   [Damus](https://apps.apple.com/app/damus/id1628663131)（iOS）
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)（Android）
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) モバイルにライトニングウォレットが組み込まれたユーザーフレンドリーなクライアント。
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)（iOS）
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)（Android）
 
 他にも、ガイドはありませんがファンの多いクライアントを紹介します：
-
--   [Primal](https://primal.net) (Web, iOS, Android) モバイルにライトニングウォレットが組み込まれたユーザーフレンドリーなクライアント。
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)（Web）非常にクリーンで高速なWebクライアント。
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)（Web）リレー・ナビゲーションに重点を置くクライアント。
 

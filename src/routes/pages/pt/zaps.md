@@ -35,8 +35,8 @@ E tudo isto acontece em apenas alguns segundos e custa uma pequena fração de u
 
 Para enviar Zaps a outras pessoas no Nostr, só precisas de duas coisas:
 
-1. Uma carteira Lightning compatível com Zap (como [Alby](https://getalby.com/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Um cliente que tenha implementado Zaps (como [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) ou [Snort](https://snort.social))
+1. Uma carteira Lightning compatível com Zap (como [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) ou [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Um cliente que tenha implementado Zaps (como [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) ou [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 A única coisa que precisas fazer é garantir que tenhas configurado o teu endereço Lightning no teu perfil Nostr. Este é o endereço onde receberás Zaps.
 
@@ -44,6 +44,6 @@ Lembra-te de que é possível pagar Zaps de uma carteira/endereço que não seja
 
 Por exemplo, imagina o seguinte:
 
-1. Tens um endereço Lightning [Stacker News](https://stacker.news/) configurado no teu perfil Nostr, é aqui que receberás qualquer sats Zapados.
+1. Tens um endereço Lightning [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) configurado no teu perfil Nostr, é aqui que receberás qualquer sats Zapados.
 1. No teu navegador web, usas o Iris como o teu cliente e pagas Zaps usando a tua carteira Alby através da extensão do Chrome.
 1. No telemóvel, usas o Damus como o teu cliente e pagas Zaps usando a aplicação Wallet of Satoshi.

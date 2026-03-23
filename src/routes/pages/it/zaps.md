@@ -35,8 +35,8 @@ Tutto questo avviene in pochi secondi e costa solo una frazione di centesimo.
 
 Per inviare Zaps ad altre persone in Nostr, ti servono solo due cose:
 
-1. Un portafoglio Lightning compatibile con gli Zap (come [Alby](https://getalby.com/) o [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Un client che abbia implementato gli Zaps (come [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) o [Snort](https://snort.social))
+1. Un portafoglio Lightning compatibile con gli Zap (come [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) o [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Un client che abbia implementato gli Zaps (come [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) o [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 L'unica altra cosa che devi fare è assicurarti di avere impostato il tuo indirizzo Lightning nel tuo profilo Nostr. Questo è l'indirizzo dove riceverai i tuoi Zaps.
 
@@ -44,6 +44,6 @@ Tieni presente che è possibile pagare gli Zaps da un portafoglio o indirizzo di
 
 Ad esempio, immagina quanto segue:
 
-1. Hai impostato un indirizzo Lightning di [Stacker News](https://stacker.news/) nel tuo profilo Nostr, questo è dove riceverai i tuoi sats inviati tramite Zap.
+1. Hai impostato un indirizzo Lightning di [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) nel tuo profilo Nostr, questo è dove riceverai i tuoi sats inviati tramite Zap.
 1. Sul tuo browser web, usi Iris come client e paghi i tuoi Zaps utilizzando il tuo portafoglio Alby tramite la loro estensione per Chrome.
 1. Sul tuo dispositivo mobile, usi Damus come client e paghi i tuoi Zaps utilizzando l'app Wallet of Satoshi.

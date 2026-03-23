@@ -23,13 +23,13 @@ Du wirst Nostr (das Protokoll) mit einem Client nutzen. Clients können Web-, De
 
 Schritt-für-Schritt-Anleitungen für verschiedene bekannte Clients:
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
--   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 Weitere Clients, für die wir aber aktuell noch keine Anleitungen haben:
 
--   [Primal](https://primal.net) (Web, iOS, Android) Benutzerfreundlicher Client mit integrierter Lightning-Wallet auf Mobilgeräten.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Benutzerfreundlicher Client mit integrierter Lightning-Wallet auf Mobilgeräten.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Schneller Web-Client mit schickem Design.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Ein Client mit dem Fokus auf Relay-Navigation.
 

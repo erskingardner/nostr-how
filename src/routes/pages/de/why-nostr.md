@@ -18,7 +18,7 @@ Nostr macht das möglich.
 -   Das einfache, flexible `Event`-Format ermöglicht das Veröffentlichen aller Art: Social-Media-Posts, Blogs, interaktive Medien, E-Commerce usw.
 -   Die Überprüfbarkeit, dass Notes von einem bestimmten Benutzer stammen. Dies hilft, Spam und Bots zu bekämpfen.
 -   Benutzer können eine Verbindung zu vielen Relays herstellen und ihre eigenen Relays betreiben. Das macht es schwierig, Ideen und Benutzer zu zensieren.
--   Durch die Integration mit Lightning ermöglicht Nostr neue [Value-for-Value](https://value4value.info/) Geschäftsmodelle, die das Potenzial haben, fairer zu sein.
+-   Durch die Integration mit Lightning ermöglicht Nostr neue [Value-for-Value](https://value4value.info?utm_source=nostr.how&ref=nostr.how) Geschäftsmodelle, die das Potenzial haben, fairer zu sein.
 
 ## Der Status Quo
 

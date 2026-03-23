@@ -35,8 +35,8 @@ description: 了解打闪是什么，它们是如何工作的，以及您在 Nos
 
 要在 Nostr 中给其他人打闪，您只需要两件事：
 
-1. 一个支持打闪的闪电钱包（如 [Alby](https://getalby.com/) 或 [Wallet of Satoshi](https://www.walletofsatoshi.com/)）
-2. 一个实现了打闪的客户端（如 [Damus](https://apps.apple.com/app/damus/id1628663131)、[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)、[Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) 或 [Snort](https://snort.social)）
+1. 一个支持打闪的闪电钱包（如 [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) 或 [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)）
+2. 一个实现了打闪的客户端（如 [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) 或 [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)）
 
 您唯一需要做的另外一件事情就是确保在您的 Nostr 个人资料中设置了闪电地址。这是您将接收到的打闪的地址。
 
@@ -44,6 +44,6 @@ description: 了解打闪是什么，它们是如何工作的，以及您在 Nos
 
 例如，想象一下以下情况：
 
-1. 您在个人资料中设置了 [Stacker News](https://stacker.news/) 闪电地址，这是您将收到任何打闪的地方。
+1. 您在个人资料中设置了 [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) 闪电地址，这是您将收到任何打闪的地方。
 2. 在您的网络浏览器中，您使用 Iris 作为客户端，并使用 Alby 钱包通过其 Chrome 扩展程序支付打闪。
 3. 在移动端，您使用 Damus 作为客户端，并使用 Wallet of Satoshi 应用支付打闪。

@@ -30,27 +30,27 @@ Obwohl das alles sehr technisch klingt, ist es überraschend einfach, sich verif
 
 Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren lassen kannst. Das ist eine großartige Option, wenn du noch keine Sats in deiner Lightning-Wallet hast. Aber du kannst diese Projekte gerne durch Spenden unterstützen. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+-   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+-   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+-   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Verifiziere dich bei einem Bezahl-Service
 
 Wenn du keine eigene Domain hast oder selbst nicht einrichten willst, kannst du auch einen kostenpflichtigen NIP-05-Service in Anspruch nehmen. In der Regel jostet das nur ein paar [Sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats). Hier sind ein paar Beispiele:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
--   [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+-   [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+-   [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+-   [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#self-hosted) Verifizierung mit eigener Domain
 
@@ -83,7 +83,7 @@ Optional kannst du auch einen Abschnitt hinzufügen, um Clients mitzuteilen, auf
 
 Stelle sicher, dass du die Hexadezimalversion deines öffentlichen Schlüssels in der `nostr.json`-Datei verwendest. Das ist die Version des öffentlichen Schlüssels, die **nicht** mit `npub` beginnt.
 
-Du kannst deinen Schlüssel auf [Nostr.band](https://nostr.band) konvertieren.
+Du kannst deinen Schlüssel auf [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) konvertieren.
 
 ![Get your hex key](/images/get-hex-key.webp)
 

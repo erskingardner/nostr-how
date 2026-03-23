@@ -31,27 +31,27 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 
 現在、無料で認証を受けることができるプロバイダーがいくつかあります。ライトニング・ウォレットにまだsatoshi（サトシ）が入っていない場合は、これは素晴らしい選択肢になるはずです。可能であれば、これらのプロジェクトを寄付でサポートしてあげてください。⚡🤙
 
-- [Bitcoin Nostr](https://bitcoinnostr.com/)
-- [Nostrcheck.me](https://nostrcheck.me)
-- [zaps.lol](https://zaps.lol/)
-- [NIP05.social](https://nip05.social)
-- [Nostr-Check.com](https://nostr-check.com/)
-- [Verified Nostr](https://verified-nostr.com/)
-- [Cosa Nostr](https://cosanostr.com)
+- [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
+- [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+- [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+- [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
+- [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+- [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+- [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) 有料サービスで認証する
 
 独自ドメインを持っていなかったり、自分で設定したくない場合は、無料または有料（通常は数[サトシ](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）のNIP-05サービスを利用することができます。いくつか紹介してみます：
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
-- [Nostrly](https://www.nostrly.com)
-- [Nostrplebs](https://nostrplebs.com)
-- [Nostr Verified](https://nostrverified.com)
-- [Alby](https://getalby.com)
-- [Nostr Directory](https://nostr.directory)
-- [Stacker News](https://stacker.news)
-- [Nostrich House](https://nostrich.house)
-- [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
+- [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+- [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+- [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+- [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+- [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+- [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+- [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+- [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#self-hosted) 独自ドメインで認証する
 
@@ -84,7 +84,7 @@ NIP-05を利用するために、Nostrユーザーは自分のプロフィール
 
 `nostr.json` ファイルでは、公開鍵の16進バージョン（hex）を使用してください。これは、`npub` で**始まらない**方のバージョンです。
 
-[Nostr.band](https://nostr.band)で鍵を変換できます。
+[Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)で鍵を変換できます。
 
 ![Get your hex key](/images/get-hex-key.webp)
 

@@ -17,11 +17,11 @@ Um benefício importante de usar relays pagos atualmente é a maior qualidade de
 
 ### Relays pagos populares
 
-Uma lista atualizada de relays pagos, com detalhes sobre quanto custam e quem os opera, pode ser encontrada em [Relay Exchange](https://relay.exchange/).
+Uma lista atualizada de relays pagos, com detalhes sobre quanto custam e quem os opera, pode ser encontrada em [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how).
 
 ### Onde posso encontrar uma lista de todos os relays?
 
-O melhor recurso que encontrámos para explorar e avaliar a velocidade dos relays conhecidos é o site [Nostr.watch](https://legacy.nostr.watch/relays/find).
+O melhor recurso que encontrámos para explorar e avaliar a velocidade dos relays conhecidos é o site [Nostr.watch](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how).
 
 ## O que aconteceria se todos os relays que uso deixarem de funcionar?
 
@@ -29,4 +29,4 @@ Se _todos_ os relays que usaste no passado se desconectarem, todas as tuas publi
 
 ## Devo executar o meu próprio relay?
 
-Para a maioria das pessoas não vale o incómodo. No entanto, se tens conhecimentos técnicos e queres garantir que o teu discurso seja absolutamente incensurável, ou se quiseres executar um relay privado para um pequeno grupo, então podes e deves executar o teu próprio relay. Isso garante que sempre terás uma cópia de todas as tuas publicações e interações no Nostr para sempre. Estamos a trabalhar num guia para isso mas, entretanto, [aquí tens um tutorial](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) do André Neves sobre como configurar um relay do Nostr.
+Para a maioria das pessoas não vale o incómodo. No entanto, se tens conhecimentos técnicos e queres garantir que o teu discurso seja absolutamente incensurável, ou se quiseres executar um relay privado para um pequeno grupo, então podes e deves executar o teu próprio relay. Isso garante que sempre terás uma cópia de todas as tuas publicações e interações no Nostr para sempre. Estamos a trabalhar num guia para isso mas, entretanto, [aquí tens um tutorial](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how) do André Neves sobre como configurar um relay do Nostr.

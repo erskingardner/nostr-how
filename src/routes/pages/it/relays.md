@@ -17,11 +17,11 @@ Un grande vantaggio nell'utilizzare i relays a pagamento ora è il numero più a
 
 ## [§](#a-pagamento) Relays a pagamento popolari
 
-Un elenco aggiornato dei relays a pagamento con dettagli su quanto costano e chi li gestisce può essere trovato su [Relay Exchange](https://relay.exchange/).
+Un elenco aggiornato dei relays a pagamento con dettagli su quanto costano e chi li gestisce può essere trovato su [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how).
 
 ## [§](#trovare-elenco) Dove posso trovare un elenco di tutti i relays?
 
-La migliore risorsa che abbiamo trovato per navigare e valutare la velocità dei relays noti è il [sito Nostr.watch](https://legacy.nostr.watch/relays/find).
+La migliore risorsa che abbiamo trovato per navigare e valutare la velocità dei relays noti è il [sito Nostr.watch](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how).
 
 ## [§](#cosa-succede-se-smettono-i-rele) Cosa succede se tutti i relays che uso smettono di funzionare?
 
@@ -29,4 +29,4 @@ Se tutti i relays che hai usato in passato vanno offline, tutti i tuoi post sara
 
 ## [§](#dovrei-eseguire-il-mio-rele) Dovrei eseguire il mio relays?
 
-Per la maggior parte delle persone, no, non ne vale la pena. Detto questo, se sei tecnico e vuoi assicurarti che il tuo discorso sia assolutamente inattaccabile o vuoi eseguire un relays privato per un piccolo gruppo, allora puoi e dovresti eseguire il tuo relays. Ciò garantisce che tu abbia sempre una copia di tutti i tuoi post e interazioni Nostr per sempre. Stiamo lavorando ad una guida su questo, ma nel frattempo, [qui c'è una guida](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) di Andre Neves su come configurare un relays Nostr.
+Per la maggior parte delle persone, no, non ne vale la pena. Detto questo, se sei tecnico e vuoi assicurarti che il tuo discorso sia assolutamente inattaccabile o vuoi eseguire un relays privato per un piccolo gruppo, allora puoi e dovresti eseguire il tuo relays. Ciò garantisce che tu abbia sempre una copia di tutti i tuoi post e interazioni Nostr per sempre. Stiamo lavorando ad una guida su questo, ma nel frattempo, [qui c'è una guida](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how) di Andre Neves su come configurare un relays Nostr.

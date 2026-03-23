@@ -28,27 +28,27 @@ description: چگونه هویت خود را در ناستر تایید کنید
 
 در حال حاضر، چندین تامین کننده به افراد کمک می کنند تا به طور رایگان تایید شوند. اگر هنوز در کیف پول لایتنینگی خود ساتوشی ندارید این گزینه عالی است. اگر برایتان مقدور است با اهدای ساتوشی از این پروژه ها حمایت کنید. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+-   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+-   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+-   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#تایید-پولی) برای تایید به یک تامین کننده پول بپردازید
 
 اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیاندازید، می توانید از یک تامین کننده خدمات NIP-05 پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) یا رایگان استفاده کنید. در اینجا چند خدمات پولی را ببینید:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
--   [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+-   [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+-   [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+-   [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#خویش-میزبان) تایید با هاست خود
 
@@ -80,7 +80,7 @@ description: چگونه هویت خود را در ناستر تایید کنید
 ```
 
 حتما از ورژن هگزای hex کلید عمومی تان در فایل `nostr.json` استفاده کنید. این ورژنی از کلید است که با `npub` شروع **نمی شود**.
-می توانید کلید خود را در [Nostr.band](https://nostr.band) تبدیل کنید.
+می توانید کلید خود را در [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) تبدیل کنید.
 
 ![Get your hex key](/images/get-hex-key.webp)
 

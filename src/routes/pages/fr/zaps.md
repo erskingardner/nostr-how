@@ -35,8 +35,8 @@ Tout cela se passe en quelques secondes et ne coûte qu'une infime partie d'un c
 
 Pour zapper d'autres personnes dans Nostr, il suffit de deux choses :
 
-1. Un portefeuille Lightning compatible avec Zap (comme [Alby](https://getalby.com/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/)).
-1. Un client qui a implémenté les Zaps (comme [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how), ou [Snort](https://snort.social)).
+1. Un portefeuille Lightning compatible avec Zap (comme [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) ou [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)).
+1. Un client qui a implémenté les Zaps (comme [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) ou [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)).
 
 La seule autre chose que vous devez faire est de vous assurer que votre adresse lightning est définie dans votre profil Nostr. C'est à cette adresse que vous recevrez les Zaps.
 
@@ -44,6 +44,6 @@ N'oubliez pas qu'il est possible de payer des Zaps à partir d'un portefeuille o
 
 Imaginez, par exemple, la situation suivante :
 
-1. Vous avez une adresse [Stacker News](https://stacker.news/) lightning dans votre profil Nostr, c'est là que vous recevrez les sats zappés.
+1. Vous avez une adresse [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) lightning dans votre profil Nostr, c'est là que vous recevrez les sats zappés.
 1. Dans votre navigateur web, vous utilisez Iris comme client et payez les Zaps en utilisant votre portefeuille Alby via leur extension chrome.
 1. Sur mobile, vous utilisez Damus comme client et payez les Zaps en utilisant l'application Wallet of Satoshi.

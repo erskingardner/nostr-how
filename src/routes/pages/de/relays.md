@@ -17,11 +17,11 @@ Ein großer Vorteil kostenpflichtiger Relays ist aktuell die höhere Qualität d
 
 ### Beliebte Bezahl-Relays
 
-Eine aktuelle Liste der kostenpflichtigen Relays mit Angaben zu ihren Kosten und deren Betreiber findest du unter [Relay Exchange](https://relay.exchange/)
+Eine aktuelle Liste der kostenpflichtigen Relays mit Angaben zu ihren Kosten und deren Betreiber findest du unter [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how)
 
 ### Wo finde ich eine Liste mit allen Relays?
 
-Die aktuell beste Quelle, um nach Relays zu suchen und ihre Geschwindigkeiten zu bewerten, ist [Nostr.watch](https://legacy.nostr.watch/relays/find).
+Die aktuell beste Quelle, um nach Relays zu suchen und ihre Geschwindigkeiten zu bewerten, ist [Nostr.watch](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how).
 
 ## Was passiert, wenn alle Relays aufhören zu funktionieren, die ich nutze?
 
@@ -29,4 +29,4 @@ Wenn _alle_ RelaYs, die du in der Vergangenheit verwendet hast, offline gehen, s
 
 ## Sollte ich mein eigenes Relay betreiben?
 
-Für die meisten Leute ist es nicht nötig und die Mühe nicht wert, ein eigenes Relay zu betreiben. Aber wie schon erwähnt, falls du technisch versiert bist und sicherstellen möchtest, dass du absolut unzensierbar bist, oder wenn du ein privates Relay haben willst, dann kannst und solltest du auch ein eigenes Relay betreiben. Dadurch wird sichergestellt, dass du immer eine Kopie aller deiner Nostr-Notes und -Interaktionen für alle Zeiten hast. Wir arbeiten an einer Anleitung dazu, aber in der Zwischenzeit ist [hier eine Anleitung in Englisch](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) von André Neves, wie man ein Nostr-Relay einrichtet.
+Für die meisten Leute ist es nicht nötig und die Mühe nicht wert, ein eigenes Relay zu betreiben. Aber wie schon erwähnt, falls du technisch versiert bist und sicherstellen möchtest, dass du absolut unzensierbar bist, oder wenn du ein privates Relay haben willst, dann kannst und solltest du auch ein eigenes Relay betreiben. Dadurch wird sichergestellt, dass du immer eine Kopie aller deiner Nostr-Notes und -Interaktionen für alle Zeiten hast. Wir arbeiten an einer Anleitung dazu, aber in der Zwischenzeit ist [hier eine Anleitung in Englisch](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how) von André Neves, wie man ein Nostr-Relay einrichtet.

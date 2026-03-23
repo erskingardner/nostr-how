@@ -35,8 +35,8 @@ Dit alles gebeurt in slechts een paar seconden en kost een fractie van een cent.
 
 Om andere mensen in Nostr te Zappen, heb je slechts twee dingen nodig:
 
-1. Een Zap-compatibele Lightning wallet (zoals [Alby](https://getalby.com/) of [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Een client die Zaps heeft geïmplementeerd (zoals [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how), of [Snort](https://snort.social))
+1. Een Zap-compatibele Lightning wallet (zoals [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) of [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. Een client die Zaps heeft geïmplementeerd (zoals [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) of [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Het enige andere wat je nog moet doen, is ervoor zorgen dat je je Lightning adres hebt ingesteld in je Nostr profiel. Dit is het adres waar je Zaps zult ontvangen.
 
@@ -44,6 +44,6 @@ Houd er rekening mee dat het mogelijk is om voor Zaps te betalen vanaf een ander
 
 Stel bijvoorbeeld het volgende voor:
 
-1. Je hebt een [Stacker News](https://stacker.news/) Lightning adres dat is ingesteld in je Nostr profiel, dit is waar je alle sats van ontvangen zaps ontvangt.
+1. Je hebt een [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) Lightning adres dat is ingesteld in je Nostr profiel, dit is waar je alle sats van ontvangen zaps ontvangt.
 2. In je webbrowser gebruik je Iris als client en betaal je voor Zaps met je Alby wallet via hun chrome extensie.
 3. Op je smartphone gebruik je Damus als client en betaal je voor Zaps met de Wallet of Satoshi app.

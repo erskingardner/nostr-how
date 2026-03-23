@@ -30,27 +30,24 @@ While it sounds technical, it's suprisingly easy to get verified. Let's see how 
 
 At the moment, there are several providers who are helping folks get verified for free. This is great option if you don't have sats in your lightning wallet yet. If possible, support these projects via donations. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+-   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+-   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+-   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Pay a provider for verification
 
 If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
--   [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+-   [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+-   [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+-   [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#self-hosted) Self hosted verification
 
@@ -83,8 +80,6 @@ Optionally you can also add a section to let clients know which relays they are 
 
 Make sure you use the hex version of your public key in your `nostr.json` file. This is the version of the key that **doesn't** start with `npub`.
 
-You can convert your key on [Nostr.band](https://nostr.band)
-
-![Get your hex key](/images/get-hex-key.webp)
+You can ask your favorite LLM to convert your npub value into a "hex pubkey" and it'll happily oblige.
 
 Finally, make sure this file is served with the `Access-Control-Allow-Origin` header set to `*` as it needs to be accessible by clients.

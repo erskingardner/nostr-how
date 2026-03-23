@@ -35,8 +35,8 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 
 Nostr上で他のユーザーをZapするには、たった2つのものさえ準備すればOKです：
 
-1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com/)や[Wallet of Satoshi](https://www.walletofsatoshi.com/)のような）
-2. Zapsをを実装しているクライアント（[Damus](https://apps.apple.com/app/damus/id1628663131)、[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)、[Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how)または[Snort](https://snort.social)など)
+1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)や[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)のような）
+2. Zapsをを実装しているクライアント（[Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)または[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)など)
 
 その他に必要なことは、Nostrのプロフィールにライトニング・アドレスが設定されていることです。これがZapsを受信するアドレスです。
 
@@ -44,6 +44,6 @@ Zapsを受け取るためにプロフィールに設定したウォレット/ア
 
 例えば、次のようなことを想像してみてください：
 
-1. Nostrのプロフィールに[Stacker News](https://stacker.news/)のライトニング・アドレスが設定されている場合、このアドレスにZapされたサトシが届きます。
+1. Nostrのプロフィールに[Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)のライトニング・アドレスが設定されている場合、このアドレスにZapされたサトシが届きます。
 2. ウェブブラウザで、Irisをクライアントとして使用し、Chrome拡張機能でAlbyウォレットを使用してZapsの支払いを行います。
 3. スマホでは、Damusをクライアントとして使用し、Wallet of Satoshiアプリを使ってZapsの支払いを行います。

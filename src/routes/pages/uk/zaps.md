@@ -35,8 +35,8 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 Щоб Zap інших людей у Nostr, вам потрібно лише дві речі:
 
-1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com/) або [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Клієнт, який впровадив Zaps (наприклад, [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) або [Snort](https://snort.social))
+1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) або [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. Клієнт, який впровадив Zaps (наприклад, [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) або [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Єдине, що вам потрібно зробити, це переконатися, що у вашому профілі Nostr встановлена ваша lightning адреса. Це адреса, на яку ви будете отримувати Zaps.
 
@@ -44,6 +44,6 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 Наприклад, уявіть наступне:
 
-1. У вашому профілі Nostr встановлена lightning адреса [Stacker News](https://stacker.news/), це місце, де ви будете отримувати будь-які запитані сатоші.
+1. У вашому профілі Nostr встановлена lightning адреса [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how), це місце, де ви будете отримувати будь-які запитані сатоші.
 2. У вашому веб-браузері ви використовуєте Iris як клієнт і оплачуєте Zaps за допомогою гаманця Alby через їх розширення для Chrome.
 3. На мобільному пристрої ви використовуєте Damus як клієнт і оплачуєте Zaps за допомогою додатку Wallet of Satoshi.

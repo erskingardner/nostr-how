@@ -9,7 +9,7 @@ description: Цей посібник допоможе вам зрозуміти 
 
 Скажу це ще раз, щоб було зрозуміло: **Якщо ви втратите свій приватний ключ, ваш обліковий запис Nostr буде втрачено. Якщо хтось інший отримає доступ до вашого приватного ключа, він зможе взяти під контроль ваш обліковий запис.**
 
-Переконайтеся, що ви зберігаєте свій приватний ключ у безпечному місці, наприклад, у менеджері паролів (нам подобається [1Password](https://1password.com/)) або у розширенні для браузера, такому як [Alby](https://getalby.com/#alby-extension).
+Переконайтеся, що ви зберігаєте свій приватний ключ у безпечному місці, наприклад, у менеджері паролів (нам подобається [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)) або у розширенні для браузера, такому як [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how).
 
 ## [§](#protocol-vs-client) Протокол vs Клієнт
 
@@ -23,13 +23,11 @@ Nostr сам по собі є лише протоколом; погоджено�
 
 Ось покрокові посібники для кількох клієнтів, які ми рекомендуємо:
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Веб)
--   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Веб, iOS, Android) Зручний клієнт із вбудованим lightning гаманцем на мобільних пристроях.
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 Кілька інших клієнтів, які нам подобаються, але для яких немає посібників:
-
--   [Primal](https://primal.net) (Веб, iOS, Android) Зручний клієнт із вбудованим lightning гаманцем на мобільних пристроях.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Веб) Дуже чистий та швидкий веб-клієнт.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Веб) Клієнт, орієнтований на навігацію по реле.
 

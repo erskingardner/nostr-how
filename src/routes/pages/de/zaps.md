@@ -35,8 +35,8 @@ Und das alles passiert in nur wenigen Sekunden und kostet einen Bruchteil eines 
 
 Um andere Leute in Nostr zu zappen, brauchst du nur zwei Dinge:
 
-1. Eine Zap-kompatible Lightning-Wallet (wie [Alby](https://getalby.com/) oder [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Ein Client, der Zaps implementiert hat (wie [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how), oder [Snort](https://snort.social))
+1. Eine Zap-kompatible Lightning-Wallet (wie [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) oder [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Ein Client, der Zaps implementiert hat (wie [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) oder [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Jetzt musst du nur noch deine Lightning-Adresse in deinem Nostr-Profil eintragen. An diese Adresse wirst du dann Zaps erhalten.
 
@@ -44,6 +44,6 @@ Es ist aber auch möglich, Zaps von einer anderen Wallet/Adresse zu senden, als 
 
 Stelle dir folgende Beispiele vor:
 
-1. Du hast eine [Stacker News](https://stacker.news/) Lightning-Adresse in deinem Nostr-Profil eingetragen, hier erhältst du alle gezappten Sats.
+1. Du hast eine [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) Lightning-Adresse in deinem Nostr-Profil eingetragen, hier erhältst du alle gezappten Sats.
 1. In deinem Webbrowser verwendest du Iris als Client und sendest Zaps mit deiner Alby-Wallet über die Browser-Erweiterung.
 1. Auf dem Smartphone verwendest du Damus als Client und sendest Zaps mit der Wallet of Satoshi-App.

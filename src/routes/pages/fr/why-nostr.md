@@ -18,7 +18,7 @@ Nostr permet cela.
 -   Le format `Event`, simple et flexible, permet la publication de tous types de contenus : posts sur les médias sociaux, contenu long format, rich media, ecommerce, etc.
 -   Vérification que les notes proviennent d'un utilisateur spécifique. Cela permet de lutter contre le spam et les robots.
 -   Les utilisateurs peuvent se connecter à de nombreux relais et gérer leurs propres relais. Il est donc difficile de censurer les idées et les personnes.
--   Intégré à lightning, Nostr permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info/) qui ont le potentiel d'être plus équitables.
+-   Intégré à lightning, Nostr permet de nouveaux modèles d'entreprise [valeur pour la valeur](https://value4value.info?utm_source=nostr.how&ref=nostr.how) qui ont le potentiel d'être plus équitables.
 
 ## Le statu quo
 

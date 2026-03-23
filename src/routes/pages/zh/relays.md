@@ -17,11 +17,11 @@ description: 快速介绍一下什么是 Nostr 中继、为什么它们很重要
 
 ### 热门的付费中继
 
-您可以在 [Relay Exchange](https://relay.exchange/) 上找到最新的付费中继列表，其中包含其费用以及运营者的详细信息。
+您可以在 [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how) 上找到最新的付费中继列表，其中包含其费用以及运营者的详细信息。
 
 ### 在哪里可以找到所有中继的列表？
 
-我们发现用于浏览和评估已知中继速度的最佳资源是 [Nostr.watch 网站](https://legacy.nostr.watch/relays/find)。
+我们发现用于浏览和评估已知中继速度的最佳资源是 [Nostr.watch 网站](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how)。
 
 ## 如果我用的中继都停止工作了会发生什么？
 
@@ -29,4 +29,4 @@ description: 快速介绍一下什么是 Nostr 中继、为什么它们很重要
 
 ## 我应该运行自己的中继吗？
 
-对大多数人来说，不是的，不值得那么麻烦。但如果说您是技术人员并且想要确保您的发言绝对不受审查，或者想要为一小群人运行私人中继，那么您可以而且应该运行自己的中继。这可确保您始终拥有所有您的 Nostr 帖子和互动的副本。我们正在为此制定一份指南，但与此同时，这是 Andre Neves 提供的有关如何设置 Nostr 中继的[指南](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)。
+对大多数人来说，不是的，不值得那么麻烦。但如果说您是技术人员并且想要确保您的发言绝对不受审查，或者想要为一小群人运行私人中继，那么您可以而且应该运行自己的中继。这可确保您始终拥有所有您的 Nostr 帖子和互动的副本。我们正在为此制定一份指南，但与此同时，这是 Andre Neves 提供的有关如何设置 Nostr 中继的[指南](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how)。

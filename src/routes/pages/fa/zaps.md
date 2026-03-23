@@ -35,14 +35,14 @@ description: بیاموزید زَپ چیست، چطور کار می کند، و
 
 برای زپ کردن دیگران در ناستر فقط به دو چیز لازم دارید:
 
-1. یک کیف پول لایتنینگی سازگار با زپ (مثل [البی](https://getalby.com/) یا [کیف ساتوشی](https://www.walletofsatoshi.com/))
-2. کلاینتی که زپ را به اجرا درآورده است (مثل [داموس](https://apps.apple.com/app/damus/id1628663131)، [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)، [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) یا [اسنورت](https://snort.social))
+1. یک کیف پول لایتنینگی سازگار با زپ (مثل [البی](https://getalby.com?utm_source=nostr.how&ref=nostr.how) یا [کیف ساتوشی](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. کلاینتی که زپ را به اجرا درآورده است (مثل [پرایمال](https://primal.net?utm_source=nostr.how&ref=nostr.how)، [داموس](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) یا [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 تنها چیز دیگری که نیاز دارید این است که آدرس لایتنینگی خود را در نمایه تان تنظیم کرده باشید. این آدرسی است که با آن دریافت می کنید.
 در نظر داشته باشید ارسال زپ از آدرس و کیف پولی غیر از آنکه برای دریافت زپ در نمایه خود تعیین کرده اید ممکن است.
 
 برای مثال این شرایط را در نظر بگیرید:
 
-1. شما آدرس لایتنینگی [استکرنیوز](https://stacker.news/) در نمایه ناستر خود دارید، اینجا جایی است که ساتوشی هایی که برای شما زپ شده دریافت می کنید.
+1. شما آدرس لایتنینگی [استکرنیوز](https://stacker.news?utm_source=nostr.how&ref=nostr.how) در نمایه ناستر خود دارید، اینجا جایی است که ساتوشی هایی که برای شما زپ شده دریافت می کنید.
 2. در مرورگر خود، از آیریس به عنوان کلاینتتان استفاده می کنید و با استفاده از کیف پول البی از طریق افزونه کروم آن، زپ ها را پرداخت می کنید.
 3. در موبایل، از داموس به عنوان کلاینت خود استفاده می کنید و زپ ها را با استفاده از اپلیکیشن کیف پول ساتوشی پرداخت می کنید.

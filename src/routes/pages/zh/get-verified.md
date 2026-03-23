@@ -30,27 +30,27 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 目前，有几个提供免费帮助大家获得验证的提供商。如果您的闪电钱包中还没有聪，这是一个很好的选择。如果可能，请通过捐赠支持这些项目。⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+-   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+-   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+-   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) 向提供商支付验证费用
 
 如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个[聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）的 NIP-05 服务。以下是一些付费提供商：
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
--   [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+-   [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+-   [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+-   [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#self-hosted) 自托管验证
 
@@ -83,7 +83,7 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 请确保在 `nostr.json` 文件中使用公钥的十六进制版本。这是**不以** `npub` 开头的密钥版本。
 
-您可以在 [Nostr.band](https://nostr.band) 上转换您的密钥
+您可以在 [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) 上转换您的密钥
 
 ![Get your hex key](/images/get-hex-key.webp)
 

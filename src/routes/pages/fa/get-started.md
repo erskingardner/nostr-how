@@ -23,13 +23,13 @@ description: این راهنما کمک می کند مفاهیم پایه ناس
 
 راهنمای قدم به قدم برای چند کلاینت که توصیه می کنیم:
 
--   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
--   [داموس](https://apps.apple.com/app/damus/id1628663131) (iOS)
--   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
+-   [پرایمال](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android)
+-   [داموس](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 چند کلاینت دیگر که دوست داریم ولی فعلا برایشان راهنما نداریم:
 
--   [Primal](https://primal.net) (Web, iOS, Android) مشتری کاربر پسند با کیف پول لایتنینگ داخلی روی موبایل.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) مشتری کاربر پسند با کیف پول لایتنینگ داخلی روی موبایل.
 -   [اسنورت](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) کلاینت وب بسیار تمیز و سریع.
 -   [کوارکل](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) کلاینتی متمرکز بر ناوبری رله.
 

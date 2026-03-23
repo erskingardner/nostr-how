@@ -18,7 +18,7 @@ Nostr maakt dit mogelijk.
 -   Het simpele, flexibele `Event` format maakt verschillende type publicaties mogelijk: social media berichten, long-form artikelen, rich media, ecommerce, etc.
 -   Verifieerbaarheid dat notities afkomstig zijn van een specifieke gebruiker.  Dit helpt om spam en bots te bestrijden.
 -   Gebruikers kunnen verbinding maken met meerdere relays naar keuze, of hun eigen relay draaien. Dit maakt het vrijwel onmogelijk om ideeën en mensen te censureren.
--   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info/) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
+-   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info?utm_source=nostr.how&ref=nostr.how) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
 
 ## De status quo
 

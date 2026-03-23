@@ -13,11 +13,11 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 いくつかの例：
 
--   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)：Nostr上でチェスをプレイする
+-   [White Noise](https://whitenoise.chat?utm_source=nostr.how&ref=nostr.how)：エンドツーエンド暗号化メッセンジャー
+-   [Shakespeare](https://shakespeare.diy?utm_source=nostr.how&ref=nostr.how)：AIアプリビルダー
+-   [zap.stream](https://zap.stream?utm_source=nostr.how&ref=nostr.how)：Zapsを使ったTwitchのようなストリーミング・サイト
 -   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how)：長文投稿 – Mediumのような
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)：画像に特化したソーシャル・クライアント
--   [zap.stream](https://zap.stream/)：Zapsを使ったTwitchのようなストリーミング・サイト
-
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)：Nostr上でチェスをプレイする
 
 ## クライアントの使い分けは可能なのか？
 
@@ -33,19 +33,26 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how)
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrudel](https://nostrudel.ninja?utm_source=nostr.how&ref=nostr.how)
 
 ### デスクトップ
 
--   [Gossip](https://www.github.com/mikedilger/gossip) – Gossipは非常に意見の多いデスクトップ・クライアントで、使用するにはもう少し専門的な知識が必要です。その代わり、ユーザーはNostrとのやり取りをよりコントロールできるようになります。
+-   [Gossip](https://www.github.com/mikedilger/gossip?utm_source=nostr.how&ref=nostr.how) – Gossipは非常に意見の多いデスクトップ・クライアントで、使用するにはもう少し専門的な知識が必要です。その代わり、ユーザーはNostrとのやり取りをよりコントロールできるようになります。
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) – 豊富な機能を持つMacクライアント
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – これは、Nostrのための最初の、そして最高のiOSクライアントです。
+-   [Primal](https://apps.apple.com/it/app/primal/id1673134518?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) – これは、Nostrのための最初の、そして最高のiOSクライアントです。
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) – 新機能や実験的機能を含む大規模な機能リストを持つiOS/iPad/Macクライアント
+-   [Nootti](https://www.nootti.com?utm_source=nostr.how&ref=nostr.how) – Nostr、Bluesky、Mastodon向けのネイティブiOS/iPadクロスポストクライアント
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Androidのための美しいクライアントです。
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – Androidのための美しいクライアントです。

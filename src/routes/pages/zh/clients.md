@@ -13,10 +13,11 @@ Nostr 中的客户端只是您用来访问和与协议交互的应用程序。�
 
 一些例子：
 
--   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): 在 Nostr 上下棋
+-   [White Noise](https://whitenoise.chat?utm_source=nostr.how&ref=nostr.how): 端对端加密通讯
+-   [Shakespeare](https://shakespeare.diy?utm_source=nostr.how&ref=nostr.how): AI 应用构建器
+-   [zap.stream](https://zap.stream?utm_source=nostr.how&ref=nostr.how): 类似 Twitch 的可打闪的直播平台
 -   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how): 长文社区 —— 类似 Medium
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how): 以媒体为中心的社交客户端
--   [zap.stream](https://zap.stream/): 类似 Twitch 的可打闪的直播平台
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how): 在 Nostr 上下棋
 
 ## 我可以切换客户端吗？
 
@@ -32,19 +33,26 @@ Nostr 中的客户端只是您用来访问和与协议交互的应用程序。�
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how)
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrudel](https://nostrudel.ninja?utm_source=nostr.how&ref=nostr.how)
 
 ### 桌面客户端
 
--   [Gossip](https://www.github.com/mikedilger/gossip) - Gossip 是一款非常固执己见的桌面客户端，需要一些技术知识才能使用。回报是它可以让用户更多地控制他们与 Nostr 的交互方式。
+-   [Gossip](https://www.github.com/mikedilger/gossip?utm_source=nostr.how&ref=nostr.how) - Gossip 是一款非常固执己见的桌面客户端，需要一些技术知识才能使用。回报是它可以让用户更多地控制他们与 Nostr 的交互方式。
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) - 功能丰富的 Mac 客户端
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – 这是第一款也是最好的 iOS Nostr 客户端。
+-   [Primal](https://apps.apple.com/it/app/primal/id1673134518?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) – 这是第一款也是最好的 iOS Nostr 客户端。
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) – 功能丰富的 iOS/iPad/Mac 客户端
+-   [Nootti](https://www.nootti.com?utm_source=nostr.how&ref=nostr.how) – 支持 Nostr、Bluesky 和 Mastodon 跨平台发布的原生 iOS/iPad 客户端
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – 一款漂亮的安卓客户端
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – 一款漂亮的安卓客户端

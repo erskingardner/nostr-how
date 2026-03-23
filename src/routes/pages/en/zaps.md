@@ -7,7 +7,7 @@ description: Learn about what Zaps are, how they work, and what you need to use 
 
 The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) at the speed of light with basically no transaction fees.
 
-From the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+In the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
 
 ## [§](#nip-57) NIP-57
 
@@ -35,15 +35,7 @@ And this all happens in just a few seconds and costs a tiny fraction of a penny.
 
 To Zap other people in Nostr, you need just two things:
 
-1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. A client that has implemented Zaps (like [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how), or [Snort](https://snort.social))
+1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) or [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. A client that has implemented Zaps (like [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how), or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
-
-Keep in mind, it's possible to pay for Zaps from a wallet/address other than the address you have set in your profile to receive Zaps.
-
-For example, imagine the following:
-
-1. You have a [Stacker News](https://stacker.news/) lightning address set in your Nostr profile, this is where you'll receive any zapped sats.
-2. In your web browser, you use Iris as your client and pay for Zaps using your Alby wallet via their chrome extension
-3. On mobile, you use Damus as your client and pay for Zaps using the Wallet of Satoshi app.

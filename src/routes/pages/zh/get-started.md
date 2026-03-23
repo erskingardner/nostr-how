@@ -9,7 +9,7 @@ description: 本指南将帮助您了解 Nostr 的基础知识，并为您创建
 
 让我们再说一遍，这样就清楚了：**如果您丢失了私钥，您的 Nostr 账户就丢失了。如果其他人获得了您的私钥，他们就可以控制您的账户。**
 
-确保您将私钥存储在安全的地方，例如密码管理器（我们喜欢 [1Password](https://1password.com/)）或浏览器扩展程序，例如 [Alby](https://getalby.com/#alby-extension)。
+确保您将私钥存储在安全的地方，例如密码管理器（我们喜欢 [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)）或浏览器扩展程序，例如 [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how)。
 
 ## [§](#protocol-vs-client) 协议与客户端
 
@@ -23,13 +23,11 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 以下是我们推荐的几个客户端的操作指南：
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
--   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) 用户友好的客户端，在移动设备上内置闪电钱包。
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 我们喜欢但没有指南的其他一些客户端：
-
--   [Primal](https://primal.net) (Web, iOS, Android) 用户友好的客户端，在移动设备上内置闪电钱包。
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) 超级简洁快速的网页客户端。
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) 一个专注于中继器导航的客户端。
 

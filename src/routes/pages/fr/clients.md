@@ -13,9 +13,11 @@ La plupart des clients qui ont été créés jusqu'à présent sont centrés sur
 
 Plusieurs exemples:
 
--   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) : Jouer aux échecs sur Nostr
+-   [White Noise](https://whitenoise.chat?utm_source=nostr.how&ref=nostr.how) : Messagerie chiffrée de bout en bout
+-   [Shakespeare](https://shakespeare.diy?utm_source=nostr.how&ref=nostr.how) : Constructeur d'applications IA
+-   [zap.stream](https://zap.stream?utm_source=nostr.how&ref=nostr.how) : Site de streaming façon Twitch avec des zaps
 -   [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how) : Contenu long format - comme Medium
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how) : Client social axé sur les médias
+-   [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how) : Jouer aux échecs sur Nostr
 
 ## Puis-je changer de clients?
 
@@ -31,19 +33,26 @@ N'oubliez pas que votre clé privée est votre identité dans Nostr, donc si ell
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - C'est le client que nous recommandons aux nouveaux utilisateurs.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) - C'est le client que nous recommandons aux nouveaux utilisateurs.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how)
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
--   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrudel](https://nostrudel.ninja?utm_source=nostr.how&ref=nostr.how)
 
 ### Application PC
 
--   [Gossip](https://www.github.com/mikedilger/gossip) - Gossip est un client de bureau très critique qui nécessite un peu plus de connaissances techniques pour être utilisé. L'avantage est qu'il donne aux utilisateurs plus de contrôle sur la façon dont ils interagissent avec Nostr.
+-   [Gossip](https://www.github.com/mikedilger/gossip?utm_source=nostr.how&ref=nostr.how) - Gossip est un client de bureau très critique qui nécessite un peu plus de connaissances techniques pour être utilisé. L'avantage est qu'il donne aux utilisateurs plus de contrôle sur la façon dont ils interagissent avec Nostr.
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) - Client Mac avec de nombreuses fonctionnalités
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) - C'est le premier et le meilleur client iOS pour Nostr.
+-   [Primal](https://apps.apple.com/it/app/primal/id1673134518?utm_source=nostr.how&ref=nostr.how) - C'est le client que nous recommandons aux nouveaux utilisateurs.
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) - C'est le premier et le meilleur client iOS pour Nostr.
+-   [Nostur](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) – Client iOS/iPad/Mac avec une grande liste de fonctionnalités
+-   [Nootti](https://www.nootti.com?utm_source=nostr.how&ref=nostr.how) – Client natif iOS/iPad pour la publication croisée sur Nostr, Bluesky et Mastodon
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) - Un magnifique client pour Android.
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) - C'est le client que nous recommandons aux nouveaux utilisateurs.
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) - Un magnifique client pour Android.

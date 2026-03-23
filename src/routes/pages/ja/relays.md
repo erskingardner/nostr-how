@@ -17,11 +17,11 @@ description: リレーとは何か、なぜ重要なのか、そしてその仕�
 
 ### 人気の有料リレー
 
-有料リレーの最新リストと、その料金や運営者の詳細は、[Relay Exchange](https://relay.exchange/)で確認できます。
+有料リレーの最新リストと、その料金や運営者の詳細は、[Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how)で確認できます。
 
 ### 全リレーのリストはどこで入手できるのか？
 
-リレーの速度を閲覧・評価するのに最適なリソースは、[Nostr.watch site](https://legacy.nostr.watch/relays/find)です。
+リレーの速度を閲覧・評価するのに最適なリソースは、[Nostr.watch site](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how)です。
 
 ## 使用しているリレーがすべて作動しなくなったらどうなるのか？
 
@@ -29,4 +29,4 @@ description: リレーとは何か、なぜ重要なのか、そしてその仕�
 
 ## 自分でリレーを運営するべきなのか？
 
-ほとんどの人にとって、その手間をかける価値はありません。とはいえ、もしあなたが技術者で、自分の投稿を絶対に検閲されないようにしたい、あるいは少人数でプライベート・リレーを使いたいのであれば、あなた自身のリレーを運営することができますし、そうすべきです。そうすることで、あなたのNostrへの投稿ややりとりを常にコピーしておくことができます。私たちはこのガイドを作成中ですが、それまでの間、Andre NevesによるNostrリレーの設定方法に関する[こちらのガイド](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under)をご覧ください。
+ほとんどの人にとって、その手間をかける価値はありません。とはいえ、もしあなたが技術者で、自分の投稿を絶対に検閲されないようにしたい、あるいは少人数でプライベート・リレーを使いたいのであれば、あなた自身のリレーを運営することができますし、そうすべきです。そうすることで、あなたのNostrへの投稿ややりとりを常にコピーしておくことができます。私たちはこのガイドを作成中ですが、それまでの間、Andre NevesによるNostrリレーの設定方法に関する[こちらのガイド](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how)をご覧ください。

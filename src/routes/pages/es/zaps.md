@@ -35,8 +35,8 @@ Y todo esto sucede en solo unos segundos y cuesta una pequeña fracción de un c
 
 Para Zapear a otras personas en Nostr, solo necesitas dos cosas:
 
-1. Una billetera lightning compatible con Zap (como [Alby](https://getalby.com/) o [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Un cliente que haya implementado Zaps (como [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) o [Snort](https://snort.social))
+1. Una billetera lightning compatible con Zap (como [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) o [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Un cliente que haya implementado Zaps (como [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) o [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Lo único que debe hacer es asegurarse de tener su dirección Lightning configurada en su perfil de Nostr. Esta es la dirección donde recibirá Zaps.
 
@@ -44,6 +44,6 @@ Tenga en cuenta que es posible pagar Zaps desde una billetera/dirección que no 
 
 Por ejemplo, imagina lo siguiente:
 
-1. Tienes una dirección lightning [Stacker News](https://stacker.news/) configurada en tu perfil de Nostr, aquí es donde recibirás cualquier sats zapeado.
+1. Tienes una dirección lightning [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) configurada en tu perfil de Nostr, aquí es donde recibirás cualquier sats zapeado.
 1. En su navegador web, usa a Iris como su cliente y paga Zaps usando su billetera Alby a través de su extensión de Chrome
 1. En el móvil, usas a Damus como tu cliente y pagas Zaps usando la aplicación Wallet of Satoshi.

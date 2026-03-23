@@ -17,11 +17,11 @@ Un beneficio importante de utilizar relés pagados en la actualidad es la mayor 
 
 ### Relés pagados populares
 
-Una lista actualizada de relés pagados con detalles sobre cuánto cuestan y quién los opera se puede encontrar en [Relay Exchange](https://relay.exchange/).
+Una lista actualizada de relés pagados con detalles sobre cuánto cuestan y quién los opera se puede encontrar en [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how).
 
 ### ¿Dónde puedo encontrar una lista de todos los relés?
 
-El mejor recurso que hemos encontrado para explorar y evaluar la velocidad de los relés conocidos es el sitio [Nostr.watch](https://legacy.nostr.watch/relays/find).
+El mejor recurso que hemos encontrado para explorar y evaluar la velocidad de los relés conocidos es el sitio [Nostr.watch](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how).
 
 ## ¿Qué sucede si todos los relés que utilizo dejan de funcionar?
 
@@ -29,4 +29,4 @@ Si _todos_ los relés que has utilizado en el pasado se desconectan, todas tus p
 
 ## ¿Debería ejecutar mi propio relé?
 
-Para la mayoría de las personas, no vale la pena el inconveniente. Dicho esto, si tienes conocimientos técnicos y deseas asegurarte de que tu discurso sea absolutamente inmutable a la censura, o si deseas ejecutar un relé privado para un pequeño grupo, entonces puedes y debes ejecutar tu propio relé. Esto garantiza que siempre tengas una copia de todas tus publicaciones e interacciones en Nostr para siempre. Estamos trabajando en una guía para esto, pero mientras tanto, [aquí tienes una guía](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) de Andre Neves sobre cómo configurar un relé de Nostr.
+Para la mayoría de las personas, no vale la pena el inconveniente. Dicho esto, si tienes conocimientos técnicos y deseas asegurarte de que tu discurso sea absolutamente inmutable a la censura, o si deseas ejecutar un relé privado para un pequeño grupo, entonces puedes y debes ejecutar tu propio relé. Esto garantiza que siempre tengas una copia de todas tus publicaciones e interacciones en Nostr para siempre. Estamos trabajando en una guía para esto, pero mientras tanto, [aquí tienes una guía](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how) de Andre Neves sobre cómo configurar un relé de Nostr.

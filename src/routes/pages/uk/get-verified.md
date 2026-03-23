@@ -30,27 +30,27 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 На даний момент є кілька постачальників, які допомагають користувачам отримати верифікацію безкоштовно. Це чудовий варіант, якщо у вас ще немає sats у вашому lightning гаманці. Якщо можливо, підтримайте ці проекти через донати. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com/)
--   [Nostrcheck.me](https://nostrcheck.me)
--   [zaps.lol](https://zaps.lol/)
--   [NIP05.social](https://nip05.social)
--   [Nostr-Check.com](https://nostr-check.com/)
--   [Verified Nostr](https://verified-nostr.com/)
--   [Cosa Nostr](https://cosanostr.com)
+-   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
+-   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
+-   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
+-   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
+-   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Оплатіть верифікацію у постачальника
 
 Якщо у вас немає власного домену або ви не хочете налаштовувати його самостійно, ви можете скористатися безкоштовною або платною (зазвичай лише кілька [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) послугою NIP-05. Ось декілька з них:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05)
--   [Nostrly](https://www.nostrly.com)
--   [Nostrplebs](https://nostrplebs.com)
--   [Nostr Verified](https://nostrverified.com)
--   [Alby](https://getalby.com)
--   [Nostr Directory](https://nostr.directory)
--   [Stacker News](https://stacker.news)
--   [Nostrich House](https://nostrich.house)
--   [Happy Tavern](https://happytavern.co/nostr-verified)
+-   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
+-   [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)
+-   [Nostr Directory](https://nostr.directory?utm_source=nostr.how&ref=nostr.how)
+-   [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)
+-   [Nostrich House](https://nostrich.house?utm_source=nostr.how&ref=nostr.how)
+-   [Happy Tavern](https://happytavern.co/nostr-verified?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#self-hosted) Самостійна верифікація
 
@@ -83,7 +83,7 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 Переконайтеся, що ви використовуєте hex версію вашого публічного ключа у вашому файлі `nostr.json`. Це версія ключа, яка **не** починається з `npub`.
 
-Ви можете конвертувати свій ключ на [Nostr.band](https://nostr.band)
+Ви можете конвертувати свій ключ на [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)
 
 ![Отримайте свій hex ключ](/images/get-hex-key.webp)
 

@@ -23,13 +23,11 @@ Acessa-se ao Nostr (o protocolo) através de um cliente. Os clientes podem ser a
 
 Segue um guia passo a passo dos clientes recomendados:
 
--   [Iris](/pt/guias/iris) (Web)
--   [Damus](/pt/guias/damus) (iOS)
--   [Amethyst](/pt/guias/amethyst) (Android)
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Cliente fácil de usar com carteira relâmpago integrada no celular.
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 Alguns outros clientes que gostamos, mas para os quais não temos guias disponíveis:
-
--   [Primal](https://primal.net) (Web, iOS, Android) Cliente fácil de usar com carteira relâmpago integrada no celular.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente muito rápido.
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Um cliente focado na navegação por relays.
 

@@ -9,7 +9,7 @@ Each Nostr account is based on a public/private key pair. A simple way to think 
 
 Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)) or a browser extension like [Alby](https://getalby.com/#alby-extension).
+Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)) or a browser extension like [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
@@ -21,17 +21,11 @@ You will access Nostr (the protocol) via a client. Clients can be web, desktop, 
 
 ## [§](#create-your-account) Create your account
 
-Here are step-by-step guides to a few different clients we recommend:
+Try out some of our favorite Nostr apps:
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
--   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
-
-A few other clients that we love but don't have guides for:
-
--   [Primal](https://primal.net) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 ## [§](#find-friends) Find friends to follow
 
