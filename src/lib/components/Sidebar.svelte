@@ -12,6 +12,7 @@ const navLinks = {
         { href: "/relays", localeString: "nav.relays" },
         { href: "/zaps", localeString: "nav.whatZaps" },
         { href: "/get-verified", localeString: "nav.getNip05" },
+        { href: "/donate", localeString: "nav.donate" },
     ],
 };
 
@@ -24,10 +25,14 @@ let {
 
 {#if !$isLoading}
     <nav>
-        <ul class="space-y-0.5">
+        <ul class="space-y-1">
             {#each navLinks.pages as link}
                 <li>
-                    <NavLink onNavLinkClick={onNavLinkClicked} href={link.href} localeString={link.localeString} />
+                    <NavLink
+                        onNavLinkClick={onNavLinkClicked}
+                        href={link.href}
+                        localeString={link.localeString}
+                    />
                 </li>
             {/each}
         </ul>

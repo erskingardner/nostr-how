@@ -19,13 +19,30 @@
         "getNip05": "获取 NIP-05 认证",
         "guideNostrchat": "NostrChat（聊天客户端）",
         "guideSweepSats": "转至自托管钱包",
-        "guideSetupWallet": "为打闪设置钱包"
+        "guideSetupWallet": "为打闪设置钱包",
+        "donate": "捐赠"
     },
-    "donateButton": "给 Nostr.how 捐赠",
+    "donateButton": "捐赠",
     "colophon": "Made with 💜 & ⚡ by",
     "foss": "自豪的免费开源软件 ",
     "mitLicense": "MIT License",
     "contactMe": "联系我",
+    "donatePage": {
+        "metaTitle": "捐赠 | Nostr.how",
+        "metaDescription": "你可以通过 zap、直接 Lightning 捐赠，或联系 JeffG 支持更大规模的改进来支持 Nostr.how。",
+        "title": "捐赠",
+        "intro": "如果 Nostr.how 对你有帮助，下面是支持网站继续改进的几种最简单方式。",
+        "zapTitle": "在 Nostr 上打闪",
+        "zapBody": "如果你已经在使用 Nostr，支持 Nostr.how 最简单的方式，就是直接在你喜欢的客户端里给 JeffG 打闪。",
+        "zapCta": "在 Primal 打开 JeffG",
+        "lightningTitle": "直接发送 sats",
+        "lightningBody": "如果你更喜欢直接通过 Lightning 支付，可以直接把 sats 发送到下面这个 Nostr.how 的 Lightning 地址。",
+        "lightningCta": "打开你的 Lightning 钱包",
+        "addressLabel": "Lightning 地址",
+        "supportTitle": "支持更大的改进",
+        "supportBody": "如果你想帮助资助更大的内容、翻译或设计改进，请在 Nostr 上联系 JeffG，我们可以一起协调。",
+        "supportCta": "在 Nostr 上联系"
+    },
     "errors": {
         "noTranslationTitle": "找不到翻译",
         "noTranslationMessage": "抱歉，该页面没有翻译。如果您有兴趣帮助创建此页面，请联系我们。"

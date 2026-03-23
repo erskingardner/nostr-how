@@ -19,13 +19,30 @@
         "getNip05": "Отримати NIP-05 верифікацію",
         "guideNostrchat": "NostrChat (Чат-клієнт)",
         "guideSweepSats": "Перевести на самозберігання",
-        "guideSetupWallet": "Налаштування гаманця для zaps"
+        "guideSetupWallet": "Налаштування гаманця для zaps",
+        "donate": "Пожертвувати"
     },
-    "donateButton": "Пожертвувати на Nostr.how",
+    "donateButton": "Пожертвувати",
     "colophon": "Made with 💜 & ⚡ by",
     "foss": "Безкоштовне & відкрите програмне забезпечення під ",
     "mitLicense": "MIT License",
     "contactMe": "Зв'язатися",
+    "donatePage": {
+        "metaTitle": "Пожертвувати | Nostr.how",
+        "metaDescription": "Підтримайте Nostr.how запом, прямим донатом через Lightning або зв'яжіться з нами щодо більшої підтримки.",
+        "title": "Пожертвувати",
+        "intro": "Якщо Nostr.how був для вас корисним, ось найпростіші способи допомогти сайту ставати кращим.",
+        "zapTitle": "Надіслати zap у Nostr",
+        "zapBody": "Якщо ви вже користуєтеся Nostr, найпростіший спосіб підтримати Nostr.how — надіслати zap JeffG прямо з вашого улюбленого клієнта.",
+        "zapCta": "Відкрити JeffG у Primal",
+        "lightningTitle": "Надіслати sats напряму",
+        "lightningBody": "Якщо ви віддаєте перевагу прямому платежу через Lightning, ви можете надіслати sats безпосередньо на Lightning-адресу Nostr.how нижче.",
+        "lightningCta": "Відкрити ваш Lightning-гаманець",
+        "addressLabel": "Lightning-адреса",
+        "supportTitle": "Підтримати більші покращення",
+        "supportBody": "Якщо ви хочете допомогти профінансувати більшу роботу над контентом, перекладами чи дизайном, напишіть JeffG у Nostr, і ми все узгодимо.",
+        "supportCta": "Зв'язатися в Nostr"
+    },
     "errors": {
         "noTranslationTitle": "Переклад не знайдено",
         "noTranslationMessage": "Вибачте, переклад для цієї сторінки не існує. Якщо ви зацікавлені в допомозі створити цю сторінку, будь ласка, зв'яжіться з нами."

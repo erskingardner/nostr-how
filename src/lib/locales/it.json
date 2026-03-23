@@ -19,13 +19,30 @@
         "getNip05": "Ottenere la verifica NIP-05",
         "guideNostrchat": "NostrChat (Cliente Chat)",
         "guideSweepSats": "Spazzare per auto-custodia",
-        "guideSetupWallet": "Configura un portafoglio per gli zaps"
+        "guideSetupWallet": "Configura un portafoglio per gli zaps",
+        "donate": "Dona"
     },
-    "donateButton": "Dona a Nostr.how",
+    "donateButton": "Dona",
     "colophon": "Fatto con 💜 & ⚡ da",
     "foss": "Software orgogliosamente gratuito e open source sotto ",
     "mitLicense": "licenza MIT",
     "contactMe": "Contattaci",
+    "donatePage": {
+        "metaTitle": "Dona | Nostr.how",
+        "metaDescription": "Sostieni Nostr.how con uno zap, una donazione Lightning diretta o contattandoci per un supporto più importante.",
+        "title": "Dona",
+        "intro": "Se Nostr.how ti è stato utile, questi sono i modi più semplici per aiutare il sito a continuare a migliorare.",
+        "zapTitle": "Invia uno zap su Nostr",
+        "zapBody": "Se usi già Nostr, il modo più semplice per sostenere Nostr.how è inviare uno zap a JeffG direttamente dal tuo client preferito.",
+        "zapCta": "Apri JeffG su Primal",
+        "lightningTitle": "Invia sats direttamente",
+        "lightningBody": "Se preferisci un pagamento Lightning diretto, puoi inviare sats direttamente all'indirizzo Lightning di Nostr.how qui sotto.",
+        "lightningCta": "Apri il tuo wallet Lightning",
+        "addressLabel": "Indirizzo Lightning",
+        "supportTitle": "Sostieni miglioramenti più grandi",
+        "supportBody": "Se vuoi contribuire a finanziare un lavoro più ampio su contenuti, traduzioni o design, contatta JeffG su Nostr e possiamo coordinarci.",
+        "supportCta": "Contatta su Nostr"
+    },
     "errors": {
         "noTranslationTitle": "Traduzione mancante",
         "noTranslationMessage": "Mi dispiace, non c'e una traduzione per questa pagina. Se sei interessato ad aiutare a creare questa pagina, contattaci per favore."

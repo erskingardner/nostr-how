@@ -1,7 +1,7 @@
 <script>
 import { page } from "$app/state";
 import { fallbackLocale } from "$lib/config/l10n";
-import { isLoading } from "svelte-i18n";
+import { _, isLoading } from "svelte-i18n";
 
 /** @typedef {"primary" | "secondary" | "filled" | "outline" | "text"} DonateButtonVariant */
 
@@ -32,5 +32,5 @@ let currentLocale = $derived(page.params.locale || fallbackLocale);
 </script>
 
 {#if !$isLoading}
-    <a href={`/${currentLocale}/donate`} class={classNames}>Donate</a>
+    <a href={`/${currentLocale}/donate`} class={classNames}>{$_("donateButton")}</a>
 {/if}

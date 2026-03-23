@@ -19,13 +19,30 @@
         "getNip05": "NIP-05 verificatie",
         "guideNostrchat": "NostrChat (web client)",
         "guideSweepSats": "Stap over naar self-custody",
-        "guideSetupWallet": "Een wallet gebruiken voor zaps"
+        "guideSetupWallet": "Een wallet gebruiken voor zaps",
+        "donate": "Doneren"
     },
-    "donateButton": "Doneer aan Nostr.how",
+    "donateButton": "Doneren",
     "colophon": "Gemaakt door 💜 & ⚡ by",
     "foss": "Free & Open Source Software under ",
     "mitLicense": "MIT License",
     "contactMe": "Contacteer",
+    "donatePage": {
+        "metaTitle": "Doneren | Nostr.how",
+        "metaDescription": "Steun Nostr.how met een zap, een directe Lightning-donatie of door contact op te nemen voor grotere ondersteuning.",
+        "title": "Doneren",
+        "intro": "Als Nostr.how nuttig voor je is geweest, zijn dit de eenvoudigste manieren om de site verder te helpen verbeteren.",
+        "zapTitle": "Zap op Nostr",
+        "zapBody": "Als je Nostr al gebruikt, is de eenvoudigste manier om Nostr.how te steunen JeffG rechtstreeks te zappen vanuit je favoriete client.",
+        "zapCta": "Open JeffG op Primal",
+        "lightningTitle": "Stuur sats direct",
+        "lightningBody": "Als je liever direct via Lightning betaalt, kun je sats rechtstreeks naar het Lightning-adres van Nostr.how hieronder sturen.",
+        "lightningCta": "Open je Lightning-wallet",
+        "addressLabel": "Lightning-adres",
+        "supportTitle": "Steun grotere verbeteringen",
+        "supportBody": "Als je wilt helpen bij het financieren van een grotere content-, vertaal- of designverbetering, neem dan contact op met JeffG op Nostr zodat we het kunnen afstemmen.",
+        "supportCta": "Neem contact op via Nostr"
+    },
     "errors": {
         "noTranslationTitle": "Vertaling niet gevonden",
         "noTranslationMessage": "Sorry, er bestaat geen vertaling voor deze pagina. Als je deze pagina wilt vertalen, neem dan contact op."

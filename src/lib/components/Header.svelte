@@ -42,7 +42,7 @@ function updateLocale(newLocale) {
                         class="h-8 w-8 rounded-full ring-1 ring-zinc-900/10 dark:ring-white/10"
                         alt="nostrich"
                     />
-                    <span class="text-lg font-semibold tracking-tight">Nostr.how</span>
+                    <span class="font-serif text-2xl leading-none font-bold tracking-tight">Nostr.how</span>
                 </a>
             </div>
 

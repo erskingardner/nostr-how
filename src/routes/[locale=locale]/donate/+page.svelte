@@ -1,25 +1,26 @@
 <script>
 import PageHeader from "$lib/components/PageHeader.svelte";
+import { _ } from "svelte-i18n";
 
 const donationWays = [
     {
-        title: "Zap on Nostr",
-        body: "If you already use Nostr, the easiest way to support Nostr.how is to zap JeffG directly from your favorite client.",
-        cta: "Open JeffG on Primal",
+        titleKey: "donatePage.zapTitle",
+        bodyKey: "donatePage.zapBody",
+        ctaKey: "donatePage.zapCta",
         href: "https://primal.net/jeffg",
         newTab: true,
     },
     {
-        title: "Send sats directly",
-        body: "If you prefer a straight Lightning payment, you can send sats directly to the Nostr.how Lightning address below.",
-        cta: "Open your Lightning wallet",
+        titleKey: "donatePage.lightningTitle",
+        bodyKey: "donatePage.lightningBody",
+        ctaKey: "donatePage.lightningCta",
         href: "lightning:erskingardner@getalby.com",
         address: "erskingardner@getalby.com",
     },
     {
-        title: "Support bigger improvements",
-        body: "If you want to help fund a larger content, translation, or design push, reach out to JeffG on Nostr and we can coordinate.",
-        cta: "Get in touch on Nostr",
+        titleKey: "donatePage.supportTitle",
+        bodyKey: "donatePage.supportBody",
+        ctaKey: "donatePage.supportCta",
         href: "https://primal.net/jeffg",
         newTab: true,
     },
@@ -27,19 +28,16 @@ const donationWays = [
 </script>
 
 <svelte:head>
-    <title>Donate | Nostr.how</title>
-    <meta
-        name="description"
-        content="Support Nostr.how with a zap, a direct Lightning donation, or by reaching out about larger sponsorship."
-    />
+    <title>{$_("donatePage.metaTitle")}</title>
+    <meta name="description" content={$_("donatePage.metaDescription")} />
 </svelte:head>
 
 <section class="space-y-8 md:space-y-10">
-    <PageHeader text="Donate" />
+    <PageHeader text={$_("donatePage.title")} />
     <p
         class="max-w-2xl break-words text-lg leading-8 text-zinc-600 dark:text-zinc-300 md:text-[1.35rem] md:leading-9"
     >
-        If Nostr.how has been useful, these are the simplest ways to help keep the site improving.
+        {$_("donatePage.intro")}
     </p>
 
     <div class="grid gap-4 md:gap-5">
@@ -50,10 +48,10 @@ const donationWays = [
                 <div class="space-y-4">
                     <div class="space-y-2">
                         <h2 class="text-2xl leading-tight text-zinc-950 dark:text-zinc-50 md:text-[2rem]">
-                            {way.title}
+                            {$_(way.titleKey)}
                         </h2>
                         <p class="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-300">
-                            {way.body}
+                            {$_(way.bodyKey)}
                         </p>
                     </div>
 
@@ -61,7 +59,7 @@ const donationWays = [
                         <div
                             class="inline-flex max-w-full flex-wrap items-center gap-2 rounded-full bg-zinc-950/4 px-3 py-2 text-sm text-zinc-700 dark:bg-white/6 dark:text-zinc-200"
                         >
-                            <span class="text-zinc-500 dark:text-zinc-400">Lightning address</span>
+                            <span class="text-zinc-500 dark:text-zinc-400">{$_("donatePage.addressLabel")}</span>
                             <code class="break-all font-medium text-zinc-950 dark:text-zinc-50">{way.address}</code>
                         </div>
                     {/if}
@@ -73,7 +71,7 @@ const donationWays = [
                             target={way.newTab ? "_blank" : undefined}
                             rel={way.newTab ? "noreferrer" : undefined}
                         >
-                            {way.cta}
+                            {$_(way.ctaKey)}
                         </a>
                     </div>
                 </div>
