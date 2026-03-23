@@ -32,7 +32,7 @@ Lembra-te, a tua chave privada é a tua identidade no Nostr, por isso, se for co
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) –  Recomendamos este para novos utilizadores. [Dá uma vista de olhos ao nosso guia aqui](/pt/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) –  Recomendamos este para novos utilizadores.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
@@ -43,8 +43,8 @@ Lembra-te, a tua chave privada é a tua identidade no Nostr, por isso, se for co
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – Este é o primeiro e mais bem-sucedido cliente Nostr para iOS até agora. [Dá uma vista de olhos ao nosso guia aqui](/pt/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – Este é o primeiro e mais bem-sucedido cliente Nostr para iOS até agora.
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Um excelente cliente para Android. [Dá uma vista de olhos ao nosso guia aqui](/pt/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Um excelente cliente para Android.

@@ -31,7 +31,7 @@ description: مروری بر چیستی کلاینت ها در ناستر و م�
 
 ### وب
 
--   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود. [به راهنما مراجعه کنید](/fa/guides/iris).
+-   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
 -   [اسنورت](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [کوراکل](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [ناسترگرام](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
@@ -42,8 +42,8 @@ description: مروری بر چیستی کلاینت ها در ناستر و م�
 
 ### اپل iOS
 
--   [داموس](https://apps.apple.com/app/damus/id1628663131) – این اولین و بهترین کلاینت iOS برای ناستر است. [به راهنما مراجعه کنید](/fa/guides/damus).
+-   [داموس](https://apps.apple.com/app/damus/id1628663131) – این اولین و بهترین کلاینت iOS برای ناستر است.
 
 ### اندروید
 
--   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – کلاینتی زیبا برای اندروید. [به راهنما مراجعه کنید](/fa/guides/amethyst).
+-   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – کلاینتی زیبا برای اندروید.

@@ -1,15 +1,17 @@
-<script lang="ts">
+<script>
+import { page } from "$app/state";
 import { supportedLocales } from "$lib/config/l10n";
-import { locale } from "svelte-i18n";
 import PageHeader from "$lib/components/PageHeader.svelte";
-import { page } from "$app/stores";
 
-export let data;
-let pageUrl: string = $page.url.pathname;
+let { data } = $props();
 
-const otherLocales: string[] = supportedLocales.filter((item) => {
-    return item !== $locale;
-});
+let currentLocale = $derived(page.params.locale);
+let pageUrl = $derived(page.url.pathname);
+let otherLocales = $derived(
+    supportedLocales.filter((item) => {
+        return item !== currentLocale;
+    })
+);
 </script>
 
 <svelte:head>
@@ -47,5 +49,5 @@ const otherLocales: string[] = supportedLocales.filter((item) => {
 </p>
 
 <div class="markdownContent prose-md dark:prose-invert">
-    <svelte:component this={data.content} />
+    <data.content />
 </div>

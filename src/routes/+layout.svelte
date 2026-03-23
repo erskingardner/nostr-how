@@ -1,19 +1,19 @@
-<script lang="ts">
+<script>
+import { page } from "$app/state";
+import { isRtlLocale } from "$lib/config/l10n";
 import "../app.css";
 import Footer from "$lib/components/Footer.svelte";
 import Header from "$lib/components/Header.svelte";
 import Sidebar from "$lib/components/Sidebar.svelte";
 import CloseIcon from "$lib/elements/icons/Close.svelte";
 import { sidebarVisible } from "$lib/store";
-import { locale, waitLocale } from "svelte-i18n";
 import { slide } from "svelte/transition";
 
-export async function preload() {
-    return waitLocale($locale as string);
-}
+let { children } = $props();
+let layoutDir = $derived(isRtlLocale(page.params.locale || ""));
 </script>
 
-<div class="relative flex" dir={$locale === 'fa' ? 'rtl' : 'ltr'}>
+<div class="relative flex" dir={layoutDir ? "rtl" : "ltr"}>
     <div
         class="
             absolute h-96 z-0 inset-0 bg-linear-to-r from-[#5e08c1] to-[#e250f9]
@@ -27,8 +27,10 @@ export async function preload() {
         top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
     >
         <button
+            type="button"
+            aria-label="Close navigation menu"
             class="ml-auto block md:hidden"
-            on:click={() => sidebarVisible.set(!$sidebarVisible)}
+            onclick={() => sidebarVisible.set(!$sidebarVisible)}
         >
             <CloseIcon />
         </button>
@@ -41,8 +43,10 @@ export async function preload() {
         top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
         >
             <button
+                type="button"
+                aria-label="Close navigation menu"
                 class="ml-auto block md:hidden"
-                on:click={() => sidebarVisible.set(!$sidebarVisible)}
+                onclick={() => sidebarVisible.set(!$sidebarVisible)}
             >
                 <CloseIcon />
             </button>
@@ -54,7 +58,7 @@ export async function preload() {
         <Header />
         <div class="mainContent p-8 grow mb-20">
             <div class="prose dark:prose-invert mx-auto">
-                <slot />
+                {@render children()}
             </div>
         </div>
         <Footer />

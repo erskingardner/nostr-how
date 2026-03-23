@@ -32,7 +32,7 @@ Nostr 中的客户端只是您用来访问和与协议交互的应用程序。�
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端 [Check out our guide here](/en/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
@@ -43,8 +43,8 @@ Nostr 中的客户端只是您用来访问和与协议交互的应用程序。�
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – 这是第一款也是最好的 iOS Nostr 客户端。 [Check out our guide here](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – 这是第一款也是最好的 iOS Nostr 客户端。
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – 一款漂亮的安卓客户端 [Check out our guide here](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – 一款漂亮的安卓客户端

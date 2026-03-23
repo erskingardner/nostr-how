@@ -1,17 +1,20 @@
-<script lang="ts">
+<script>
+import { fallbackLocale } from "$lib/config/l10n";
 import { page } from "$app/state";
-import { _, isLoading, locale } from "svelte-i18n";
+import { _, isLoading } from "svelte-i18n";
 
 let {
     href,
     localeString,
     onNavLinkClick,
-}: { href: string; localeString: string; onNavLinkClick: () => void } = $props();
+} = $props();
+
+let currentLocale = $derived(page.params.locale || fallbackLocale);
 </script>
 
 {#if !$isLoading}
     <a
-        href={`/${$locale}${href}`}
+        href={`/${currentLocale}${href}`}
         data-sveltekit-preload-data="tap"
         class:active={page.url.pathname.includes(href)}
         onclick={onNavLinkClick}

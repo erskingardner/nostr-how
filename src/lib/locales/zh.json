@@ -18,7 +18,8 @@
         "guideAmethyst": "Amethyst（Android 客户端）",
         "getNip05": "获取 NIP-05 认证",
         "guideNostrchat": "NostrChat（聊天客户端）",
-        "guideSweepSats": "转至自托管钱包"
+        "guideSweepSats": "转至自托管钱包",
+        "guideSetupWallet": "为打闪设置钱包"
     },
     "donateButton": "给 Nostr.how 捐赠",
     "colophon": "Made with 💜 & ⚡ by",

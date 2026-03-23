@@ -36,7 +36,7 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 Щоб Zap інших людей у Nostr, вам потрібно лише дві речі:
 
 1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com/) або [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Клієнт, який впровадив Zaps (наприклад, [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris) або [Snort](https://snort.social))
+2. Клієнт, який впровадив Zaps (наприклад, [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) або [Snort](https://snort.social))
 
 Єдине, що вам потрібно зробити, це переконатися, що у вашому профілі Nostr встановлена ваша lightning адреса. Це адреса, на яку ви будете отримувати Zaps.
 

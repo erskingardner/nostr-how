@@ -31,7 +31,7 @@ description: Огляд того, що таке клієнти в Nostr, і по
 
 ### Веб
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Це наш рекомендований клієнт для нових користувачів. [Перегляньте наш посібник тут](/uk/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Це наш рекомендований клієнт для нових користувачів.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrudel](https://nostrudel.ninja?utm_source=nostr.how&ref=nostr.how)
@@ -44,10 +44,10 @@ description: Огляд того, що таке клієнти в Nostr, і по
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – Це перший і найкращий клієнт для iOS для Nostr. [Перегляньте наш посібник тут](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – Це перший і найкращий клієнт для iOS для Nostr.
 -   [Nostur](https://www.nostur.com) – клієнт для iOS/iPad/Mac з великим списком функцій, включаючи нові та експериментальні
 -   [Nootti](https://www.nootti.com) – рідний клієнт для iOS/iPad для крос-постингу в Nostr, Bluesky та Mastodon
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Красивий клієнт для Android. [Перегляньте наш посібник тут](/en/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Красивий клієнт для Android.

@@ -1,9 +1,16 @@
-<script lang="ts">
+<script>
 import { _, isLoading } from "svelte-i18n";
 
-export let variant = "primary";
+/** @typedef {"primary" | "secondary" | "filled" | "outline" | "text"} DonateButtonVariant */
 
-const variantStyles: { [key: string]: string } = {
+/** @type {{ variant?: DonateButtonVariant; class?: string }} */
+let {
+    variant = "primary",
+    class: className = "",
+} = $props();
+
+/** @type {Record<DonateButtonVariant, string>} */
+const variantStyles = {
     primary:
         "h-fit transition-all rounded-full bg-purple-600/80 py-1 px-3 text-white hover:bg-purple-700 dark:bg-purple-400/10 dark:text-purple-400 ring-1 ring-inset ring-purple-400/20 dark:hover:bg-purple-400/20 dark:hover:text-purple-300 hover:ring-purple-300",
     secondary:
@@ -14,7 +21,7 @@ const variantStyles: { [key: string]: string } = {
     text: "h-fit transition-all text-purple-500 hover:text-purple-600 dark:text-purple-400 dark:hover:text-purple-500",
 };
 
-let classNames = `${$$props.class} ${variantStyles[variant]}`;
+let classNames = $derived(`${className} ${variantStyles[variant]}`);
 </script>
 
 {#if !$isLoading}

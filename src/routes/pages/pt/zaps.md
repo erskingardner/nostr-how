@@ -36,7 +36,7 @@ E tudo isto acontece em apenas alguns segundos e custa uma pequena fração de u
 Para enviar Zaps a outras pessoas no Nostr, só precisas de duas coisas:
 
 1. Uma carteira Lightning compatível com Zap (como [Alby](https://getalby.com/) ou [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Um cliente que tenha implementado Zaps (como [Damus](/pt/guides/damus), [Amethyst](/pt/guides/amethyst), [Iris](/pt/guides/iris) ou [Snort](https://snort.social))
+1. Um cliente que tenha implementado Zaps (como [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) ou [Snort](https://snort.social))
 
 A única coisa que precisas fazer é garantir que tenhas configurado o teu endereço Lightning no teu perfil Nostr. Este é o endereço onde receberás Zaps.
 

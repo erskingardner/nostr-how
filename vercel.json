@@ -37,32 +37,32 @@
         },
         {
             "source": "/relays/implementations",
-            "destination": "/en/replay-implementations",
+            "destination": "/en/relays",
             "permanent": true
         },
         {
             "source": "/contribute",
-            "destination": "/en/contribute",
+            "destination": "https://github.com/nostr-how/nostr-how",
             "permanent": true
         },
         {
             "source": "/guides/iris",
-            "destination": "/en/guides/iris",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/guides/damus",
-            "destination": "/en/guides/damus",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/guides/amethyst",
-            "destination": "/en/guides/amethyst",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/verify-your-identity",
-            "destination": "/en/guides/get-verified",
+            "destination": "/en/get-verified",
             "permanent": true
         },
         {
@@ -97,32 +97,32 @@
         },
         {
             "source": "/relays/implementations",
-            "destination": "/en/relay-implementations",
+            "destination": "/en/relays",
             "permanent": true
         },
         {
             "source": "/clients/iris",
-            "destination": "/en/guides/iris",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/es/guias/iris",
-            "destination": "/es/guides/iris",
+            "destination": "/es/clients",
             "permanent": true
         },
         {
             "source": "/clients/damus",
-            "destination": "/en/guides/damus",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/clients/amethyst",
-            "destination": "/en/guides/amethyst",
+            "destination": "/en/clients",
             "permanent": true
         },
         {
             "source": "/es/guias/amethyst",
-            "destination": "/es/guides/amethyst",
+            "destination": "/es/clients",
             "permanent": true
         },
         {
@@ -152,27 +152,27 @@
         },
         {
             "source": "/guides/nip05",
-            "destination": "/en/guides/get-verified",
+            "destination": "/en/get-verified",
             "permanent": true
         },
         {
             "source": "/get-verified",
-            "destination": "/en/guides/get-verified",
+            "destination": "/en/get-verified",
             "permanent": true
         },
         {
             "source": "/fr/verify-your-identity",
-            "destination": "/fr/guides/get-verified",
+            "destination": "/fr/get-verified",
             "permanent": true
         },
         {
             "source": "/contribute.md",
-            "destination": "/en/contribute",
+            "destination": "https://github.com/nostr-how/nostr-how",
             "permanent": true
         },
         {
             "source": "/relays/implementations.md",
-            "destination": "/en/relay-implementations",
+            "destination": "/en/relays",
             "permanent": true
         },
         {
@@ -188,6 +188,71 @@
         {
             "source": "/relays.md",
             "destination": "/en/relays",
+            "permanent": true
+        },
+        {
+            "source": "/en/guides/get-verified",
+            "destination": "/en/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/de/guides/get-verified",
+            "destination": "/de/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/es/guides/get-verified",
+            "destination": "/es/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/fa/guides/get-verified",
+            "destination": "/fa/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/fr/guides/get-verified",
+            "destination": "/fr/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/it/guides/get-verified",
+            "destination": "/it/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/jp",
+            "destination": "/ja/get-started",
+            "permanent": true
+        },
+        {
+            "source": "/jp/guides/get-verified",
+            "destination": "/ja/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/jp/:path*",
+            "destination": "/ja/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/nl/guides/get-verified",
+            "destination": "/nl/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/pt/guides/get-verified",
+            "destination": "/pt/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/uk/guides/get-verified",
+            "destination": "/uk/get-verified",
+            "permanent": true
+        },
+        {
+            "source": "/zh/guides/get-verified",
+            "destination": "/zh/get-verified",
             "permanent": true
         }
     ]

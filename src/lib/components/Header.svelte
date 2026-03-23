@@ -1,18 +1,20 @@
-<script lang="ts">
+<script>
 import { goto } from "$app/navigation";
-import { page } from "$app/stores";
+import { page } from "$app/state";
 import DonateButton from "$lib/components/DonateButton.svelte";
 import LocaleSwitcher from "$lib/components/LocaleSwitcher.svelte";
 import MenuIcon from "$lib/elements/icons/Menu.svelte";
-import { setupI18n } from "$lib/i18n";
 import { sidebarVisible } from "$lib/store";
 import { _, isLoading } from "svelte-i18n";
 
-function updateLocale(newLocale: string) {
-    setupI18n({ locale: newLocale });
-    if (!$page.url.pathname.startsWith(`/${newLocale}`)) {
-        const newPathname = `/${newLocale}/${$page.url.pathname.split("/").slice(2).join("/")}`;
-        goto(newPathname);
+/** @param {string} newLocale */
+function updateLocale(newLocale) {
+    const segments = page.url.pathname.split("/").filter(Boolean);
+    const slugPath = segments.slice(1).join("/");
+    const nextPath = `/${newLocale}/${slugPath || "get-started"}`;
+
+    if (page.url.pathname !== nextPath) {
+        goto(nextPath);
     }
 }
 </script>
@@ -27,7 +29,12 @@ function updateLocale(newLocale: string) {
             "
     >
         <div class="flex flex-row items-center gap-4">
-            <button on:click={() => sidebarVisible.set(!$sidebarVisible)} class="block md:hidden">
+            <button
+                type="button"
+                aria-label="Open navigation menu"
+                onclick={() => sidebarVisible.set(!$sidebarVisible)}
+                class="block md:hidden"
+            >
                 <MenuIcon />
             </button>
             <a href="/" class="md:hidden flex flex-row gap-2 items-center text-2xl no-underline">
@@ -37,7 +44,7 @@ function updateLocale(newLocale: string) {
         <div class="flex flex-row items-center gap-4">
             <DonateButton variant="primary" class="text-sm hidden md:block" />
             <span class="hidden md:block border-r border-purple-400/20">&nbsp;</span>
-            <LocaleSwitcher onLocaleChanged={(locale) => updateLocale(locale)} />
+            <LocaleSwitcher onLocaleChanged={updateLocale} />
         </div>
     </div>
 {/if}

@@ -36,7 +36,7 @@ Y todo esto sucede en solo unos segundos y cuesta una pequeña fracción de un c
 Para Zapear a otras personas en Nostr, solo necesitas dos cosas:
 
 1. Una billetera lightning compatible con Zap (como [Alby](https://getalby.com/) o [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-1. Un cliente que haya implementado Zaps (como [Damus](/es/guides/damus), [Amethyst](/es/guides/amethyst), [Iris](/es/guides/iris) o [Snort](https://snort.social))
+1. Un cliente que haya implementado Zaps (como [Damus](https://apps.apple.com/app/damus/id1628663131), [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst), [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) o [Snort](https://snort.social))
 
 Lo único que debe hacer es asegurarse de tener su dirección Lightning configurada en su perfil de Nostr. Esta es la dirección donde recibirá Zaps.
 

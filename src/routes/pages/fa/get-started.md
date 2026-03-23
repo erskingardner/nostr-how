@@ -23,9 +23,9 @@ description: این راهنما کمک می کند مفاهیم پایه ناس
 
 راهنمای قدم به قدم برای چند کلاینت که توصیه می کنیم:
 
--   [آیریس](/fa/guides/iris) (Web)
--   [داموس](/fa/guides/damus) (iOS)
--   [اماتیست](/fa/guides/amethyst) (Android)
+-   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [داموس](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 چند کلاینت دیگر که دوست داریم ولی فعلا برایشان راهنما نداریم:
 
@@ -54,6 +54,6 @@ description: این راهنما کمک می کند مفاهیم پایه ناس
 
 عالی، حالا یک کیف پول لایتنینگی دارید، و یک هویت (جفت کلیدتان)، و یک کلاینت را امتحان کرده اید. اینجا چند لینک هست که ممکن برای کاوش بیشتر در ناستر به کارتان بیاید:
 
--   [هویت خود را تایید کنید](/fa/guides/get-verified)
+-   [هویت خود را تایید کنید](/fa/get-verified)
 -   [رله چیست و چگونه کار می کند؟](/fa/relays)
 -   [درباره NIPها و توسعه پروتکل بیشتر بدانید](/fa/the-protocol)

@@ -23,9 +23,9 @@ Vous accéderez à Nostr (le protocole) via un client. Les clients peuvent être
 
 Voici des guides étape par étape pour différents clients que nous recommandons :
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
 
@@ -55,6 +55,6 @@ Oui ! Maintenant que vous avez créé votre paire de clés publiques/privées, v
 
 Vous avez maintenant un portefeuille lightning, une identité (votre paire de clés) et vous avez essayé un client. Voici quelques liens qui pourraient vous être utiles lorsque vous vous aventurerez plus loin dans Nostr :
 
--   [Vérifier son identité](/fr/guides/get-verified)
+-   [Vérifier son identité](/fr/get-verified)
 -   [Que sont les relais et comment ils fonctionnent?](/fr/relays)
 -   [En savoir plus sur les NIPs et l'élaboration du protocole](/fr/the-protocol)

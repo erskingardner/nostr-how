@@ -23,9 +23,9 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 以下是我们推荐的几个客户端的操作指南：
 
--   [Iris](/zh/guides/iris) (Web)
--   [Damus](/zh/guides/damus) (iOS)
--   [Amethyst](/zh/guides/amethyst) (Android)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 我们喜欢但没有指南的其他一些客户端：
 
@@ -55,6 +55,6 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 太好了，现在您已经设置好了闪电钱包、身份（您的密钥对），并尝试了客户端。以下是一些链接，当您进一步了解 Nostr 时可能会有用：
 
--   [验证您的身份](/zh/guides/get-verified)
+-   [验证您的身份](/zh/get-verified)
 -   [什么是中继？它们怎么运作的？](/zh/relays)
 -   [了解有关 NIPs 和协议开发的更多信息](/zh/the-protocol)

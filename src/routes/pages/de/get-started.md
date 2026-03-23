@@ -23,9 +23,9 @@ Du wirst Nostr (das Protokoll) mit einem Client nutzen. Clients können Web-, De
 
 Schritt-für-Schritt-Anleitungen für verschiedene bekannte Clients:
 
--   [Iris](/de/guides/iris) (Web)
--   [Damus](/de/guides/damus) (iOS)
--   [Amethyst](/de/guides/amethyst) (Android)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 Weitere Clients, für die wir aber aktuell noch keine Anleitungen haben:
 
@@ -55,6 +55,6 @@ Ja! Da du jetzt dein public/private key pair erstellt hast, kannst du dieses bei
 
 Großartig, jetzt hast du ein Lightning-Wallet, eine Identität (dein Nostr-Schlüsselpaar) und hast einen Client getestet! Hier sind ein paar Links, die dir bei deiner weiteren Reise in den Nostr-Kaninchenbau helfen können:
 
--   [Verifiziere deine Nostr-Identität](/de/guides/get-verified)
+-   [Verifiziere deine Nostr-Identität](/de/get-verified)
 -   [Was sind Relays und wie funktionieren sie?](/de/relays)
 -   [Lerne mehr über NIPs und die Entwicklung des Nostr-Protokolls](/de/the-protocol)

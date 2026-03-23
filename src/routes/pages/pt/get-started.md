@@ -55,6 +55,6 @@ Sim. Agora que criaste o teu par de chaves pública/privada, podes utilizar este
 
 Ótimo, agora tens uma carteira lightning, uma identidade (o teu par de chaves) e testaste um cliente. Eis aqui alguns links que te podem ser úteis para aprofundares o teu conhecimento sobre o Nostr:
 
--   [Verificar a tua identidade](/pt/guides/get-verified)
+-   [Verificar a tua identidade](/pt/get-verified)
 -   [O que são Relays e como funcionam?](/pt/relays)
 -   [Mais informações sobre os NIPs e o desenvolvimento do protocolo](/pt/the-protocol)

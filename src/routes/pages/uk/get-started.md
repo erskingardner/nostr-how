@@ -23,9 +23,9 @@ Nostr сам по собі є лише протоколом; погоджено�
 
 Ось покрокові посібники для кількох клієнтів, які ми рекомендуємо:
 
--   [Iris](/en/guides/iris) (Веб)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Веб)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 Кілька інших клієнтів, які нам подобаються, але для яких немає посібників:
 
@@ -55,6 +55,6 @@ Nostr сам по собі є лише протоколом; погоджено�
 
 Чудово, тепер ви налаштували lightning гаманець, ідентифікацію (вашу пару ключів) і спробували клієнта. Ось кілька посилань, які можуть бути корисними, коли ви заглиблюватиметеся в Nostr:
 
--   [Підтвердьте свою особу](/uk/guides/get-verified)
+-   [Підтвердьте свою особу](/uk/get-verified)
 -   [Що таке Реле та як вони працюють?](/uk/relays)
 -   [Дізнайтеся більше про NIPs та розвиток протоколу](/uk/the-protocol)

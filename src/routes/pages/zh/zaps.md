@@ -36,7 +36,7 @@ description: 了解打闪是什么，它们是如何工作的，以及您在 Nos
 要在 Nostr 中给其他人打闪，您只需要两件事：
 
 1. 一个支持打闪的闪电钱包（如 [Alby](https://getalby.com/) 或 [Wallet of Satoshi](https://www.walletofsatoshi.com/)）
-2. 一个实现了打闪的客户端（如 [Damus](/en/guides/damus)、[Amethyst](/en/guides/amethyst)、[Iris](/en/guides/iris) 或 [Snort](https://snort.social)）
+2. 一个实现了打闪的客户端（如 [Damus](https://apps.apple.com/app/damus/id1628663131)、[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst)、[Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) 或 [Snort](https://snort.social)）
 
 您唯一需要做的另外一件事情就是确保在您的 Nostr 个人资料中设置了闪电地址。这是您将接收到的打闪的地址。
 

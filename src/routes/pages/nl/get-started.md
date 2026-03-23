@@ -25,9 +25,9 @@ Alby is een populaire ondertekeningsextensie en bitcoin lightning portemonnee di
 
 Hier zijn enkele gidsen voor een paar verschillende clients die we aanbevelen:
 
--   [Iris](/nl/guides/iris) (Web)
--   [Damus](/nl/guides/damus) (iOS)
--   [Amethyst](/nl/guides/amethyst) (Android)
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) (Android)
 
 Dit zijn een aantal andere clients die we fijn vinden, maar (nog) geen gidsen voor hebben:
 
@@ -58,6 +58,6 @@ Jazeker! Nadat je een public/private key combinatie hebt gekregen, kun je deze c
 
 Geweldig, nu heb je een bitcoin lightning wallet, een identiteit (je public/private keys) en heb je een client uitgeprobeerd. Hier zijn een paar links die handig kunnen zijn als je je verder in Nostr wilt verdiepen:
 
--   [Verifieer jouw identeit](/nl/guides/get-verified)
+-   [Verifieer jouw identeit](/nl/get-verified)
 -   [Wat zijn relays en hoe werken ze?](/nl/relays)
 -   [Leer meer over NIPs en de ontwikkeling van het protocol](/nl/the-protocol)

@@ -33,7 +33,7 @@ Onthoud goed, jouw private key is jouw identiteit op Nostr, dus als deze vergeve
 
 ### Web
 
--   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Dit is onze best aangeraden client voor nieuwe gebruikers. [Klik hier voor de guide](/nl/guides/iris).
+-   [Iris](https://iris.to?utm_source=nostr.how&ref=nostr.how) – Dit is onze best aangeraden client voor nieuwe gebruikers.
 -   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
@@ -44,8 +44,8 @@ Onthoud goed, jouw private key is jouw identiteit op Nostr, dus als deze vergeve
 
 ### iOS
 
--   [Damus](https://apps.apple.com/app/damus/id1628663131) – Dit is de eerste, de meest functionele, en de meest gebruikte iOS client voor Nostr. [Klik hier voor de guide](/en/guides/damus).
+-   [Damus](https://apps.apple.com/app/damus/id1628663131) – Dit is de eerste, de meest functionele, en de meest gebruikte iOS client voor Nostr.
 
 ### Android
 
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Een prachtige client voor Android. [Klik hier voor de guide](/nl/guides/amethyst).
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – Een prachtige client voor Android.
