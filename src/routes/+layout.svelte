@@ -11,56 +11,70 @@ import { slide } from "svelte/transition";
 
 let { children } = $props();
 let layoutDir = $derived(isRtlLocale(page.params.locale || ""));
+
+function closeSidebar() {
+    sidebarVisible.set(false);
+}
 </script>
 
-<div class="relative flex" dir={layoutDir ? "rtl" : "ltr"}>
+<div class="relative min-h-screen overflow-x-clip" dir={layoutDir ? "rtl" : "ltr"}>
     <div
         class="
-            absolute h-96 z-0 inset-0 bg-linear-to-r from-[#5e08c1] to-[#e250f9]
-            opacity-20 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]
-            dark:from-[#5e08c1]/50 dark:to-[#e250f9]/50"
+            pointer-events-none absolute inset-x-0 top-0 z-0 h-[28rem]
+            bg-linear-to-r from-[#dcd2ff] via-[#f5efe8] to-[#f4d7ef]
+            opacity-60 blur-3xl [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]
+            dark:from-[#3b2754]/70 dark:via-[#1a1824]/80 dark:to-[#3b2234]/60 dark:opacity-90"
     ></div>
 
-    <aside
-        transition:slide={{ axis: 'x', duration: 200 }}
-        class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-900 md:bg-transparent hidden md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
-    >
-        <button
-            type="button"
-            aria-label="Close navigation menu"
-            class="ml-auto block md:hidden"
-            onclick={() => sidebarVisible.set(!$sidebarVisible)}
-        >
-            <CloseIcon />
-        </button>
-        <Sidebar onNavLinkClicked={() => {}} />
-    </aside>
+    <div class="relative z-10 flex min-h-screen flex-col">
+        <Header />
+
+        <main class="flex-1 pb-28 pt-8 lg:pb-32 lg:pt-10">
+            <div
+                class="mx-auto grid max-w-[76rem] grid-cols-1 gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,46rem)_minmax(0,1fr)] lg:gap-16 lg:px-8"
+            >
+                <div class="min-w-0">
+                    {@render children()}
+                </div>
+
+                <aside class="hidden lg:block">
+                    <div
+                        class="sticky top-24 ml-auto w-56 opacity-75 transition-opacity duration-150 ease-out hover:opacity-100"
+                    >
+                        <Sidebar onNavLinkClicked={() => {}} />
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <Footer />
+    </div>
+
     {#if $sidebarVisible}
-        <aside
-            transition:slide={{ axis: 'x', duration: 200 }}
-            class="w-full md:w-72 z-20 h-full md:h-screen fixed bg-zinc-50 dark:bg-zinc-900 md:bg-transparent md:block md:sticky overflow-y-scroll
-        top-0 px-6 pt-4 rtl:border-l ltr:border-r border-zinc-400/20"
-        >
+        <div class="fixed inset-0 z-50 lg:hidden">
             <button
                 type="button"
                 aria-label="Close navigation menu"
-                class="ml-auto block md:hidden"
-                onclick={() => sidebarVisible.set(!$sidebarVisible)}
+                class="absolute inset-0 bg-zinc-950/20 backdrop-blur-[2px]"
+                onclick={closeSidebar}
+            ></button>
+            <aside
+                transition:slide={{ axis: 'y', duration: 220 }}
+                class="absolute inset-x-4 top-20 rounded-[1.75rem] bg-zinc-50/96 p-5 shadow-2xl ring-1 ring-zinc-900/10 dark:bg-zinc-900/96 dark:ring-white/10"
             >
-                <CloseIcon />
-            </button>
-            <Sidebar onNavLinkClicked={() => sidebarVisible.set(!$sidebarVisible)} />
-        </aside>
-    {/if}
+                <div class="mb-2 flex items-center justify-end">
+                    <button
+                        type="button"
+                        aria-label="Close navigation menu"
+                        class="grid h-9 w-9 place-items-center rounded-full text-zinc-500 transition-colors hover:bg-zinc-900/5 hover:text-zinc-950 dark:text-zinc-400 dark:hover:bg-white/5 dark:hover:text-zinc-50"
+                        onclick={closeSidebar}
+                    >
+                        <CloseIcon />
+                    </button>
+                </div>
 
-    <div class="z-10 grow">
-        <Header />
-        <div class="mainContent p-8 grow mb-20">
-            <div class="prose dark:prose-invert mx-auto">
-                {@render children()}
-            </div>
+                <Sidebar mobile={true} onNavLinkClicked={closeSidebar} />
+            </aside>
         </div>
-        <Footer />
-    </div>
+    {/if}
 </div>

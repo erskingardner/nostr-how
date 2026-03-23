@@ -1,5 +1,7 @@
 <script>
-import { _, isLoading } from "svelte-i18n";
+import { page } from "$app/state";
+import { fallbackLocale } from "$lib/config/l10n";
+import { isLoading } from "svelte-i18n";
 
 /** @typedef {"primary" | "secondary" | "filled" | "outline" | "text"} DonateButtonVariant */
 
@@ -12,18 +14,23 @@ let {
 /** @type {Record<DonateButtonVariant, string>} */
 const variantStyles = {
     primary:
-        "h-fit transition-all rounded-full bg-purple-600/80 py-1 px-3 text-white hover:bg-purple-700 dark:bg-purple-400/10 dark:text-purple-400 ring-1 ring-inset ring-purple-400/20 dark:hover:bg-purple-400/20 dark:hover:text-purple-300 hover:ring-purple-300",
+        "rounded-full bg-zinc-950 px-3 py-1.5 text-sm text-zinc-50 hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-white",
     secondary:
-        "h-fit transition-all rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800/40 dark:text-zinc-400 dark:ring-1 dark:ring-inset dark:ring-zinc-800 dark:hover:bg-zinc-800 dark:hover:text-zinc-300",
-    filled: "h-fit transition-all rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-purple-500 dark:text-white dark:hover:bg-purple-400",
+        "rounded-full bg-zinc-100 px-3 py-1.5 text-sm text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700",
+    filled:
+        "rounded-full bg-zinc-900 px-3 py-1.5 text-sm text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-white",
     outline:
-        "h-fit transition-all rounded-full py-1 px-3 text-zinc-700 ring-1 ring-inset ring-zinc-900/10 hover:bg-zinc-900/2.5 hover:text-zinc-900 dark:text-zinc-400 dark:ring-white/10 dark:hover:bg-white/5 dark:hover:text-white",
-    text: "h-fit transition-all text-purple-500 hover:text-purple-600 dark:text-purple-400 dark:hover:text-purple-500",
+        "rounded-full px-3 py-1.5 text-sm text-zinc-700 ring-1 ring-inset ring-zinc-900/12 hover:bg-zinc-900/5 hover:text-zinc-950 dark:text-zinc-300 dark:ring-white/10 dark:hover:bg-white/5 dark:hover:text-white",
+    text: "px-0 py-1 text-sm text-zinc-500 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-zinc-100",
 };
 
-let classNames = $derived(`${className} ${variantStyles[variant]}`);
+let classNames = $derived(
+    `inline-flex items-center justify-center gap-1.5 whitespace-nowrap no-underline transition-colors duration-200 ${variantStyles[variant]} ${className}`.trim()
+);
+
+let currentLocale = $derived(page.params.locale || fallbackLocale);
 </script>
 
 {#if !$isLoading}
-    <a href="lightning:erskingardner@getalby.com" class={classNames}> ⚡ {$_("donateButton")} </a>
+    <a href={`/${currentLocale}/donate`} class={classNames}>Donate</a>
 {/if}

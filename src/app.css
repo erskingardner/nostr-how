@@ -4,9 +4,9 @@
 @plugin '@tailwindcss/forms';
 
 @theme {
-    --font-sans: Inter var, sans-serif;
-    --font-sans--font-feature-settings: "cv11", "ss01";
-    --font-sans--font-variation-settings: "opsz" 32;
+    --font-sans: "Noto Serif", serif;
+    --font-serif: "Fraunces", serif;
+    --font-ui: "Noto Sans", sans-serif;
 
     --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
 }
@@ -20,6 +20,26 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+    html {
+        @apply bg-zinc-50 text-zinc-950 dark:bg-zinc-950 dark:text-zinc-100;
+    }
+
+    body {
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+    }
+
     *,
     ::after,
     ::before,
@@ -27,14 +47,14 @@
     ::file-selector-button {
         border-color: var(--color-gray-200, currentColor);
     }
+
+    ::selection {
+        @apply bg-zinc-900 text-zinc-50 dark:bg-zinc-100 dark:text-zinc-950;
+    }
 }
 
 a {
     @apply hover:text-zinc-600 dark:hover:text-zinc-400;
-}
-
-.markdownContent > h2 > a {
-    @apply no-underline;
 }
 
 .markdownContent img {
@@ -45,10 +65,48 @@ a {
     @apply max-w-[324px] md:max-w-fit;
 }
 
-.nav > li > a {
-    @apply block mb-1 hover:bg-zinc-200 dark:hover:bg-zinc-800 px-2 py-1 rounded-md no-underline text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-all;
+.markdownContent img {
+    @apply rounded-2xl;
 }
 
-.nav > li > a.active {
-    @apply bg-zinc-200 dark:bg-zinc-800;
+.markdownContent :is(h2, h3, h4) {
+    @apply font-bold tracking-tight text-zinc-950 dark:text-zinc-50;
+}
+
+.markdownContent :is(h2, h3, h4, h5, h6) {
+    scroll-margin-top: 6.5rem;
+}
+
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link {
+    @apply relative inline-block pr-6 no-underline text-inherit transition-colors duration-150;
+}
+
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 0.82em;
+    width: 0.82em;
+    background-color: currentColor;
+    opacity: 0;
+    transform: translateY(-50%) scale(0.92);
+    transition:
+        opacity 150ms ease-out,
+        transform 150ms ease-out;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07L11.8 5.6'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 1 0 7.07 7.07L12.2 18.4'/%3E%3C/svg%3E");
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:hover,
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:focus-visible {
+    @apply text-zinc-700 dark:text-zinc-300;
+}
+
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:hover::after,
+.markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:focus-visible::after {
+    opacity: 0.72;
+    transform: translateY(-50%) scale(1);
 }
