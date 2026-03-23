@@ -1,36 +1,15 @@
 <script>
 import PageHeader from "$lib/components/PageHeader.svelte";
+import Seo from "$lib/components/Seo.svelte";
+import { donationWays } from "$lib/data/donate";
 import { _ } from "svelte-i18n";
-
-const donationWays = [
-    {
-        titleKey: "donatePage.zapTitle",
-        bodyKey: "donatePage.zapBody",
-        ctaKey: "donatePage.zapCta",
-        href: "https://primal.net/jeffg",
-        newTab: true,
-    },
-    {
-        titleKey: "donatePage.lightningTitle",
-        bodyKey: "donatePage.lightningBody",
-        ctaKey: "donatePage.lightningCta",
-        href: "lightning:erskingardner@getalby.com",
-        address: "erskingardner@getalby.com",
-    },
-    {
-        titleKey: "donatePage.supportTitle",
-        bodyKey: "donatePage.supportBody",
-        ctaKey: "donatePage.supportCta",
-        href: "https://primal.net/jeffg",
-        newTab: true,
-    },
-];
 </script>
 
-<svelte:head>
-    <title>{$_("donatePage.metaTitle")}</title>
-    <meta name="description" content={$_("donatePage.metaDescription")} />
-</svelte:head>
+<Seo
+    title={$_("donatePage.metaTitle")}
+    description={$_("donatePage.metaDescription")}
+    slug="donate"
+/>
 
 <section class="space-y-8 md:space-y-10">
     <PageHeader text={$_("donatePage.title")} />
