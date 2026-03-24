@@ -29,9 +29,9 @@ function closeSidebar() {
     <div class="relative z-10 flex min-h-screen flex-col">
         <Header />
 
-        <main class="flex-1 pb-28 pt-8 lg:pb-32 lg:pt-10">
+        <main class="flex-1 pb-24 pt-6 lg:pb-28 lg:pt-8">
             <div
-                class="mx-auto grid max-w-[76rem] grid-cols-1 gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,46rem)_minmax(0,1fr)] lg:gap-16 lg:px-8"
+                class="mx-auto grid max-w-[76rem] grid-cols-1 gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,46rem)_minmax(0,1fr)] lg:gap-20 lg:px-8"
             >
                 <div class="min-w-0">
                     {@render children()}
@@ -39,7 +39,7 @@ function closeSidebar() {
 
                 <aside class="hidden lg:block">
                     <div
-                        class="sticky top-24 ml-auto w-56 opacity-75 transition-opacity duration-150 ease-out hover:opacity-100"
+                        class="sticky top-24 ml-auto w-52 opacity-60 transition-opacity duration-100 ease-out hover:opacity-100"
                     >
                         <Sidebar onNavLinkClicked={() => {}} />
                     </div>
@@ -60,7 +60,7 @@ function closeSidebar() {
             ></button>
             <aside
                 transition:slide={{ axis: 'y', duration: 220 }}
-                class="absolute inset-x-4 top-20 rounded-[1.75rem] bg-zinc-50/96 p-5 shadow-2xl ring-1 ring-zinc-900/10 dark:bg-zinc-900/96 dark:ring-white/10"
+                class="absolute inset-x-4 top-[4.5rem] rounded-[1.6rem] border border-zinc-200/70 bg-zinc-50/96 p-5 shadow-[0_24px_80px_-44px_rgba(24,24,27,0.65)] ring-1 ring-zinc-900/6 dark:border-zinc-800/70 dark:bg-zinc-900/96 dark:ring-white/8"
             >
                 <div class="mb-2 flex items-center justify-end">
                     <button

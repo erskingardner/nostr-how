@@ -7,6 +7,13 @@
     --font-sans: "Noto Serif", serif;
     --font-serif: "Fraunces", serif;
     --font-ui: "Noto Sans", sans-serif;
+    --color-accent-50: #faf3ec;
+    --color-accent-100: #f2e1d3;
+    --color-accent-300: #d6a481;
+    --color-accent-400: #c7865b;
+    --color-accent-500: #ab673d;
+    --color-accent-600: #8f502c;
+    --color-accent-700: #753f23;
 
     --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
 }
@@ -27,6 +34,7 @@
     body {
         font-family: "Noto Serif", serif;
         font-optical-sizing: auto;
+        text-rendering: optimizeLegibility;
     }
 
     h1,
@@ -49,12 +57,12 @@
     }
 
     ::selection {
-        @apply bg-zinc-900 text-zinc-50 dark:bg-zinc-100 dark:text-zinc-950;
+        @apply bg-accent-500 text-white dark:bg-accent-400 dark:text-zinc-950;
     }
 }
 
 a {
-    @apply hover:text-zinc-600 dark:hover:text-zinc-400;
+    @apply transition-colors duration-150;
 }
 
 .markdownContent img {
@@ -69,12 +77,48 @@ a {
     @apply rounded-2xl;
 }
 
+.markdownContent {
+    @apply text-zinc-700 dark:text-zinc-300;
+}
+
+.markdownContent :is(p, ul, ol, pre, blockquote, figure) {
+    margin-block: 1.7rem;
+}
+
+.markdownContent :is(p, li) {
+    line-height: 1.9;
+}
+
 .markdownContent :is(h2, h3, h4) {
     @apply font-bold tracking-tight text-zinc-950 dark:text-zinc-50;
 }
 
+.markdownContent h2 {
+    @apply mt-16 mb-6 text-[1.95rem] leading-tight tracking-[-0.03em] md:text-[2.2rem];
+}
+
+.markdownContent h3 {
+    @apply mt-12 mb-5 text-[1.45rem] leading-tight tracking-[-0.025em] md:text-[1.6rem];
+}
+
+.markdownContent h4 {
+    @apply mt-10 mb-4 text-[1.18rem] leading-tight tracking-[-0.02em] md:text-[1.26rem];
+}
+
 .markdownContent :is(h2, h3, h4, h5, h6) {
     scroll-margin-top: 6.5rem;
+}
+
+.markdownContent a:not(.heading-link) {
+    @apply font-medium text-accent-600 underline decoration-accent-400/55 decoration-1 underline-offset-4 dark:text-accent-300 dark:decoration-accent-300/40;
+}
+
+.markdownContent a:not(.heading-link):hover {
+    @apply text-accent-700 decoration-accent-500 dark:text-accent-100 dark:decoration-accent-100/60;
+}
+
+.markdownContent blockquote {
+    @apply border-l border-accent-300/70 pl-5 text-zinc-600 dark:border-accent-400/35 dark:text-zinc-400;
 }
 
 .markdownContent :is(h2, h3, h4, h5, h6) > .heading-link {
@@ -102,7 +146,7 @@ a {
 
 .markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:hover,
 .markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:focus-visible {
-    @apply text-zinc-700 dark:text-zinc-300;
+    @apply text-accent-700 dark:text-accent-300;
 }
 
 .markdownContent :is(h2, h3, h4, h5, h6) > .heading-link:hover::after,

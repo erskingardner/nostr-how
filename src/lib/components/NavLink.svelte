@@ -18,14 +18,16 @@ let isActive = $derived(page.url.pathname === `/${currentLocale}${href}`);
     <a
         href={`/${currentLocale}${href}`}
         data-sveltekit-preload-data="tap"
-        class="inline-block w-fit border-b border-transparent py-0.5 pr-2 text-[0.97rem] leading-5 no-underline transition-colors duration-200 text-zinc-500 hover:text-zinc-950 dark:text-zinc-500 dark:hover:text-zinc-50"
-        class:text-zinc-950={isActive}
-        class:dark:text-zinc-50={isActive}
-        class:font-semibold={isActive}
-        class:border-zinc-950={isActive}
-        class:dark:border-zinc-50={isActive}
+        class={`group inline-flex w-fit items-center gap-2.5 font-ui text-[0.92rem] leading-5 tracking-[0.01em] no-underline transition-colors duration-150 text-zinc-500 hover:text-zinc-900 dark:text-zinc-500 dark:hover:text-zinc-100 ${isActive ? "text-accent-700 dark:text-accent-300" : ""}`}
         onclick={onNavLinkClick}
     >
-        {label || $_(localeString)}
+        <span
+            class={`mt-px h-1.5 w-1.5 rounded-full bg-accent-500 opacity-0 transition-all duration-150 group-hover:opacity-35 dark:bg-accent-300 ${isActive ? "opacity-100" : ""}`}
+        ></span>
+        <span
+            class={`border-b border-transparent pb-px transition-colors duration-150 ${isActive ? "border-accent-500 font-medium dark:border-accent-300" : ""}`}
+        >
+            {label || $_(localeString)}
+        </span>
     </a>
 {/if}

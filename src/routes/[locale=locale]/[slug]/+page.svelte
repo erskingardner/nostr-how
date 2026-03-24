@@ -7,16 +7,16 @@ let { data } = $props();
 
 <Seo title={data.title} description={data.description} slug={data.slug} />
 
-<section class="space-y-8 md:space-y-10">
+<section class="space-y-10 md:space-y-14">
     <PageHeader text={data.title} />
     <p
-        class="max-w-2xl break-words text-lg leading-8 text-zinc-600 dark:text-zinc-300 md:text-[1.35rem] md:leading-9"
+        class="max-w-[40rem] break-words text-[1.12rem] leading-[1.85] text-zinc-700 dark:text-zinc-300 md:text-[1.45rem] md:leading-[1.7]"
     >
         {data.description}
     </p>
 
     <div
-        class="markdownContent prose prose-zinc max-w-none text-[1.02rem] leading-8 dark:prose-invert prose-headings:font-semibold prose-headings:text-zinc-950 prose-strong:text-zinc-950 prose-a:text-zinc-900 dark:prose-headings:text-zinc-50 dark:prose-strong:text-zinc-50 dark:prose-a:text-zinc-100 lg:prose-lg"
+        class="markdownContent prose prose-zinc max-w-none text-[1.04rem] dark:prose-invert prose-p:text-zinc-700 prose-li:text-zinc-700 prose-headings:font-bold prose-headings:text-zinc-950 prose-strong:text-zinc-950 prose-pre:rounded-[1.4rem] prose-blockquote:not-italic dark:prose-p:text-zinc-300 dark:prose-li:text-zinc-300 dark:prose-headings:text-zinc-50 dark:prose-strong:text-zinc-50 lg:prose-lg"
     >
         <data.content />
     </div>

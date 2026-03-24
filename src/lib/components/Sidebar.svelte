@@ -25,7 +25,7 @@ let {
 
 {#if !$isLoading}
     <nav>
-        <ul class="space-y-1">
+        <ul class:space-y-2={mobile} class:space-y-3={!mobile}>
             {#each navLinks.pages as link}
                 <li>
                     <NavLink
