@@ -30,19 +30,16 @@ Sebbene possa sembrare tecnico, è sorprendentemente facile ottenere la verifica
 
 Al momento, ci sono diversi fornitori che stanno aiutando le persone a ottenere la verifica gratuitamente. Questa è un'ottima opzione se non hai ancora dei satoshi nel tuo portafoglio lightning. Se possibile, sostieni questi progetti tramite donazioni. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#verifica-a-pagamento) Pagare un fornitore
 
-Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un servizio NIP-05 gratuito o a pagamento (solitamente solo pochi [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). Ecco alcuni:
+Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un servizio NIP-05 gratuito o a pagamento (solitamente solo pochi [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)). Ecco alcuni:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -54,25 +51,25 @@ Se non hai un tuo dominio o non vuoi configurarlo da solo, puoi usufruire di un 
 
 ## [§](#verifica-auto-ospitata) Verifica auto-ospitata
 
-Se già possiedi un dominio, questa è un'opzione gratuita. Devi solo aggiungere un file .well-known/nostr.json al tuo dominio. Il contenuto del file dovrebbe essere il seguente:
+Se già possiedi un dominio, questa è un'opzione gratuita. Devi solo aggiungere un file `.well-known/nostr.json` al tuo dominio. Il contenuto del file dovrebbe essere il seguente:
 
 ```json
 {
     "names": {
-        "IL_TUO_NOME_NOSTR": "LA_TUA_CHIAVE_PUBBLICA_NOSTR_IN_FORMATO_ESADECIMALE"
+        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
     }
 }
 ```
 
-Opzionalmente, puoi anche aggiungere una sezione per far sapere ai clienti su quali relay è probabile che ti trovino:
+Opzionalmente, puoi anche aggiungere una sezione per far sapere ai client su quali relay è probabile che ti trovino:
 
 ```json
 {
   "names": {
-    "IL_TUO_NOME_NOSTR": "LA_TUA_CHIAVE_PUBBLICA_NOSTR_IN_FORMATO_ESADECIMALE"
+    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT"
   },
   "relays": {
-    "LA_TUA_CHIAVE_PUBBLICA_NOSTR_IN_FORMATO_ESADECIMALE": [
+    "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT": [
       "wss://relay.one",
       "wss://relay.two",
       ...
@@ -81,10 +78,8 @@ Opzionalmente, puoi anche aggiungere una sezione per far sapere ai clienti su qu
 }
 ```
 
-Assicurati di utilizzare la versione esadecimale della tua chiave pubblica nel tuo file nostr.json. Questa è la versione della chiave che **non inizia** con npub.
+Assicurati di utilizzare la versione esadecimale della tua chiave pubblica nel tuo file `nostr.json`. Questa è la versione della chiave che **non** inizia con `npub`.
 
-Puoi convertire la tua chiave su [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how).
+Puoi chiedere al tuo LLM preferito di convertire il tuo valore `npub` in una "hex pubkey" e lo farà volentieri.
 
-![Get your hex key](/images/get-hex-key.webp)
-
-Infine, assicurati che questo file venga servito con l'intestazione `Access-Control-Allow-Origin` impostata su `*` in quanto deve essere accessibile dai clienti.
+Infine, assicurati che questo file venga servito con l'intestazione `Access-Control-Allow-Origin` impostata su `*`, in quanto deve essere accessibile dai client.

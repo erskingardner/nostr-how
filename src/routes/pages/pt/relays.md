@@ -15,18 +15,14 @@ Atualmente, muitos relays são gratuitos de usar. Devido aos custos de operaçã
 
 Um benefício importante de usar relays pagos atualmente é a maior qualidade de utilizadores e mensagens nos relays pagos. A "prova de trabalho" de pagar pelo acesso ao relay é algo que ajuda a evitar que contas de spam infestem a rede.
 
-### Relays pagos populares
-
-Uma lista atualizada de relays pagos, com detalhes sobre quanto custam e quem os opera, pode ser encontrada em [Relay Exchange](https://relay.exchange?utm_source=nostr.how&ref=nostr.how).
-
 ### Onde posso encontrar uma lista de todos os relays?
 
-O melhor recurso que encontrámos para explorar e avaliar a velocidade dos relays conhecidos é o site [Nostr.watch](https://legacy.nostr.watch/relays/find?utm_source=nostr.how&ref=nostr.how).
+O melhor recurso que encontrámos para explorar e avaliar a velocidade dos relays conhecidos é o [site Nostr.watch](https://nostr.watch?utm_source=nostr.how&ref=nostr.how).
 
 ## O que aconteceria se todos os relays que uso deixarem de funcionar?
 
-Se _todos_ os relays que usaste no passado se desconectarem, todas as tuas publicações serão irrecuperáveis. Esta é uma das razões pelas quais o Nostr permite que os utilizadores se liguem a muitos relays, garantindo assim grau de redundância. Dito isto, se estás realmente interessado a ser imune à censura, podes e deves executar o teu próprio relay pessoal.
+Se _todos_ os relays que usaste no passado se desconectarem, todas as tuas publicações serão irrecuperáveis. Esta é uma das razões pelas quais o Nostr permite que os utilizadores se liguem a muitos relays, garantindo assim algum grau de redundância. Dito isto, se estás realmente interessado em ser imune à censura, podes e deves executar o teu próprio relay pessoal.
 
 ## Devo executar o meu próprio relay?
 
-Para a maioria das pessoas não vale o incómodo. No entanto, se tens conhecimentos técnicos e queres garantir que o teu discurso seja absolutamente incensurável, ou se quiseres executar um relay privado para um pequeno grupo, então podes e deves executar o teu próprio relay. Isso garante que sempre terás uma cópia de todas as tuas publicações e interações no Nostr para sempre. Estamos a trabalhar num guia para isso mas, entretanto, [aquí tens um tutorial](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under?utm_source=nostr.how&ref=nostr.how) do André Neves sobre como configurar um relay do Nostr.
+Para a maioria das pessoas não vale o incómodo. No entanto, se tens conhecimentos técnicos e queres garantir que o teu discurso seja absolutamente incensurável, ou se quiseres executar um relay privado para um pequeno grupo, então podes e deves executar o teu próprio relay. Isso garante que sempre terás uma cópia de todas as tuas publicações e interações no Nostr. Existem muitas implementações de relay escritas em diferentes linguagens de programação ou adicionadas a serviços populares como StartOS ou Alby Hub.

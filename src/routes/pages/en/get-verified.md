@@ -38,7 +38,7 @@ At the moment, there are several providers who are helping folks get verified fo
 
 ## [§](#paid-verification) Pay a provider for verification
 
-If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) NIP-05 service. Here are a few:
+If you don't have your own domain or don't want to set it up yourself, you can take advantage of a free or paid (usually just a few [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)) NIP-05 service. Here are a few:
 
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)

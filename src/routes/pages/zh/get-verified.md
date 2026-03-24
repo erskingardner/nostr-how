@@ -30,19 +30,16 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 目前，有几个提供免费帮助大家获得验证的提供商。如果您的闪电钱包中还没有聪，这是一个很好的选择。如果可能，请通过捐赠支持这些项目。⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) 向提供商支付验证费用
 
-如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个[聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)）的 NIP-05 服务。以下是一些付费提供商：
+如果您没有自己的域名或不想自己设置它，则可以利用免费或付费（通常只需几个 [聪](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)）的 NIP-05 服务。以下是一些提供商：
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -83,8 +80,6 @@ NIP-05 使 Nostr 用户能够将其公钥映射到基于 DNS 的互联网标识�
 
 请确保在 `nostr.json` 文件中使用公钥的十六进制版本。这是**不以** `npub` 开头的密钥版本。
 
-您可以在 [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) 上转换您的密钥
+您可以让自己喜欢的 LLM 把您的 `npub` 值转换成一个 “hex pubkey”，它会很乐意帮您完成。
 
-![Get your hex key](/images/get-hex-key.webp)
-
-最后，请确保此文件使用 `Access-Control-Allow-Origin` 标头设置为 `*`，因为客户端需要访问它。
+最后，请确保此文件在响应时将 `Access-Control-Allow-Origin` 标头设置为 `*`，因为客户端需要访问它。

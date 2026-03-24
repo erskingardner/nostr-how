@@ -54,5 +54,5 @@ description: Огляд того, що таке клієнти в Nostr, і по
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) – Це наш рекомендований клієнт для нових користувачів.
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) – Це наш рекомендований клієнт для нових користувачів.
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – Красивий клієнт для Android.

@@ -9,7 +9,7 @@ Each Nostr account is based on a public/private key pair. A simple way to think 
 
 Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)) or a browser extension like [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how).
+Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)) or a browser extension like [Alby](https://getalby.com/?utm_source=nostr.how&ref=nostr.how#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
@@ -17,7 +17,7 @@ Nostr itself is just a protocol; an agreed upon procedure for passing messages a
 
 You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a signing extension in your browser, which is a piece of software specifically designed to safely manage private keys and cryptographically sign events.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users.
 
 ## [§](#create-your-account) Create your account
 

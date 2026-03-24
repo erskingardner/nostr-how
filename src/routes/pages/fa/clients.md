@@ -54,5 +54,5 @@ description: مروری بر چیستی کلاینت ها در ناستر و م�
 
 ### اندروید
 
--   [پرایمال](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
+-   [پرایمال](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
 -   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – کلاینتی زیبا برای اندروید.

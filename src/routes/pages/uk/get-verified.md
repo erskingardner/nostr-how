@@ -30,19 +30,16 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 
 На даний момент є кілька постачальників, які допомагають користувачам отримати верифікацію безкоштовно. Це чудовий варіант, якщо у вас ще немає sats у вашому lightning гаманці. Якщо можливо, підтримайте ці проекти через донати. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Оплатіть верифікацію у постачальника
 
-Якщо у вас немає власного домену або ви не хочете налаштовувати його самостійно, ви можете скористатися безкоштовною або платною (зазвичай лише кілька [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) послугою NIP-05. Ось декілька з них:
+Якщо у вас немає власного домену або ви не хочете налаштовувати його самостійно, ви можете скористатися безкоштовною або платною (зазвичай лише кілька [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)) послугою NIP-05. Ось декілька з них:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -81,10 +78,8 @@ NIP-05 дозволяє користувачеві Nostr зіставити св
 }
 ```
 
-Переконайтеся, що ви використовуєте hex версію вашого публічного ключа у вашому файлі `nostr.json`. Це версія ключа, яка **не** починається з `npub`.
+Переконайтеся, що ви використовуєте hex-версію вашого публічного ключа у вашому файлі `nostr.json`. Це версія ключа, яка **не** починається з `npub`.
 
-Ви можете конвертувати свій ключ на [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)
-
-![Отримайте свій hex ключ](/images/get-hex-key.webp)
+Ви можете попросити свій улюблений LLM конвертувати ваше значення `npub` у "hex pubkey", і він охоче це зробить.
 
 Нарешті, переконайтеся, що цей файл обслуговується з заголовком `Access-Control-Allow-Origin`, встановленим на `*`, оскільки він повинен бути доступним для клієнтів.

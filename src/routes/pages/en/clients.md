@@ -54,5 +54,5 @@ Remember, your private key is your identity in Nostr, so if it is compromised, y
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) - This is our recommended client for new users.
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) - This is our recommended client for new users.
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – A beautiful client for Android.

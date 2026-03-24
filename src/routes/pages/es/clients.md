@@ -54,5 +54,5 @@ Recuerda, tu clave privada es tu identidad en Nostr, así que si se ve compromet
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) – Recomendamos este para nuevos usuarios.
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) – Recomendamos este para nuevos usuarios.
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – Un excelente cliente para Android.

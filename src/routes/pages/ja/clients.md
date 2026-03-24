@@ -54,5 +54,5 @@ Nostrプロトコルは非常にシンプルで柔軟性があるため、クラ
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) – 新規ユーザーには、このクライアントをお勧めします。
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – Androidのための美しいクライアントです。

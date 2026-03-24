@@ -15,19 +15,15 @@ Nostr in sé è solo un protocollo, una procedura concordata per scambiarsi mess
 
 Accederai a Nostr (il protocollo) tramite un cliente. I clienti possono essere applicazioni web, desktop o mobile. Alcuni clienti Nostr ti consentono di accedere incollando la tua chiave privata. Sul web, in generale, ciò non è raccomandato, è noioso e insicuro. Invece, ti consigliamo di utilizzare un'estensione di firma nel tuo browser, che è un software appositamente progettato per gestire in modo sicuro le chiavi private e firmare crittograficamente gli eventi.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) è un estensione di firma e un portafoglio Lightning di Bitcoin che ha un supporto integrato per Nostr. È una grande opzione per i nuovi utenti. Vedremo come installare Alby nelle guide specifiche del cliente dove è necessario.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) è un'estensione di firma e un portafoglio Lightning di Bitcoin che ha un supporto integrato per Nostr. È un'ottima opzione per i nuovi utenti.
 
 ## [§](#creare-conto) Creare il tuo conto
 
-Ecco alcune guide passo-passo per alcuni clienti che raccomandiamo:
+Prova alcune delle nostre app Nostr preferite:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Client intuitivo con portafoglio Lightning integrato sul cellulare.
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
-
-Alcuni altri clienti che amiamo ma per i quali non abbiamo guide:
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente web pulito e veloce.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un cliente focalizzato sulla navigazione inoltro.
 
 ## [§](#trovare-amici) Trovare amici da seguire
 

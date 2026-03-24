@@ -17,21 +17,15 @@ Nostr selbst ist lediglich ein Protokoll; ein vereinbartes Verfahren für die We
 
 Du wirst Nostr (das Protokoll) mit einem Client nutzen. Clients können Web-, Desktop- oder Mobile-Apps sein. Manche Clients erlauben es dir, dich mit deinem privaten Schlüssel einzuloggen. Im Web wird das allgemein nicht empfohlen - es ist lästig und vor allem sehr unsicher. Stattdessen empfehlen wir die Verwendung einer Browser-Erweiterung zum Signieren. Hierbei handelt es sich um eine Software, die speziell für die sichere Verwaltung privater Schlüssel und das kryptografische Signieren von Ereignissen entwickelt wurde.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) ist genau so eine Browser-Erweiterung, die neben einer Bitcoin-Lightning-Wallet auch dir auch die sichere Verwaltung deiner Nostr-Schlüssel ermöglicht. Gerade für Einsteiger ist dies sinnvoll. Wir behandeln die Installation von Alby in den Schritt-für-Schritt-Anleitungen für Clients.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) ist genau so eine Browser-Erweiterung, die neben einer Bitcoin-Lightning-Wallet auch die sichere Verwaltung deiner Nostr-Schlüssel ermöglicht. Gerade für Einsteiger ist dies sinnvoll.
 
 ## [§](#create-your-account) Erstelle deinen Account
 
-Schritt-für-Schritt-Anleitungen für verschiedene bekannte Clients:
-
--   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android)
--   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
--   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
-
-Weitere Clients, für die wir aber aktuell noch keine Anleitungen haben:
+Probiere einige unserer Lieblings-Apps für Nostr aus:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Benutzerfreundlicher Client mit integrierter Lightning-Wallet auf Mobilgeräten.
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Schneller Web-Client mit schickem Design.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Ein Client mit dem Fokus auf Relay-Navigation.
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 ## [§](#find-friends) Finde Freunde
 

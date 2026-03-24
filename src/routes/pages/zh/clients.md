@@ -54,5 +54,5 @@ Nostr 中的客户端只是您用来访问和与协议交互的应用程序。�
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) - 这是我们为新用户推荐的客户端
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – 一款漂亮的安卓客户端

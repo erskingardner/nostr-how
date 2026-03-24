@@ -9,29 +9,23 @@ Elk Nostr account is gebaseerd op een public/private key. Om het eenvoudig uit t
 
 Laten we het nogmaals duidelijk zeggen: **Als je jouw private key verliest, ben je de volledige control over jouw Nostr account kwijt. Als iemand anders toegang krijgt tot je private key, heeft hij/zij de volledige controle over je account.**
 
-Zorg ervoor dat je jouw private key veilig opslaat, bijvoorbeeld in een wachtwoordmanager (Bitwarden, Keepass of 1Password) of maak gebruik van een browserextensie zoals [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how).
+Zorg ervoor dat je jouw private key veilig opslaat, bijvoorbeeld in een wachtwoordmanager (Bitwarden, Keepass of 1Password) of maak gebruik van een browserextensie zoals [Alby](https://getalby.com/?utm_source=nostr.how&ref=nostr.how#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
 Nostr zelf is gewoon een protocol; een open, gestandariseerde procedure om berichten uit te wisselen via het internet.
 
-Je krijgt toegang tot Nostr (het protocol) via een client. Clients kunnen web-, desktop- of mobiele applicaties zijn. Bij sommige clients meld je je aan door je private key in te vullen. We raden dit af om te doen - het is vervelend en onveilig. In plaats daarvan raden we aan om een extensie in je browser te gebruiken. Dit is software die speciaal ontworpen is om private keys veilig te beheren waarmee je jouw berichten cryptografisch te ondertekent.
+Je krijgt toegang tot Nostr (het protocol) via een client. Clients kunnen web-, desktop- of mobiele applicaties zijn. Bij sommige clients meld je je aan door je private key in te vullen. We raden dit af om te doen - het is vervelend en onveilig. In plaats daarvan raden we aan om een extensie in je browser te gebruiken. Dit is software die speciaal ontworpen is om private keys veilig te beheren en je berichten cryptografisch te ondertekenen.
 
-Alby is een populaire ondertekeningsextensie en bitcoin lightning portemonnee die ingebouwde ondersteuning heeft voor Nostr. Het is een geweldige optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in de client-specifieke gidsen waar het nodig is hieronder.
-
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is een populaire extensie en bitcoin lightning wallet ingebouwde Nostr ondersteuning Het is een mooie optie voor nieuwe gebruikers. We zullen de installatie van Alby behandelen in een client specifieke gids.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is een populaire ondertekeningsextensie en bitcoin lightning wallet met ingebouwde ondersteuning voor Nostr. Het is een geweldige optie voor nieuwe gebruikers.
 
 ## [§](#create-your-account) Jouw account aanmaken
 
-Hier zijn enkele gidsen voor een paar verschillende clients die we aanbevelen:
+Probeer een paar van onze favoriete Nostr-apps:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Gebruiksvriendelijke client met ingebouwde Lightning-portemonnee op mobiel.
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
-
-Dit zijn een aantal andere clients die we fijn vinden, maar (nog) geen gidsen voor hebben:
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Mooie en snelle webclient.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Een client gericht op relay discovery.
 
 ## [§](#find-friends) Vrienden vinden om te volgen
 

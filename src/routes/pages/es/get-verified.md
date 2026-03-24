@@ -30,19 +30,16 @@ Aunque suena técnico, es sorprendentemente fácil de verificar. Veamos cómo ha
 
 En este momento, hay varios proveedores que están ayudando a la gente a obtener verificación de forma gratuita. Esta es una gran opción si aún no tienes sats en tu billetera lightning. Si es posible, apoya estos proyectos a través de donaciones. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#verificación-pagada) Paga a un proveedor por la verificación
 
-Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovechar una versión gratuita o paga (generalmente solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) Servicio NIP-05. Aquí hay algunos:
+Si no tienes tu propio dominio o no deseas configurarlo tú mismo, puedes aprovechar un servicio NIP-05 gratuito o de pago (generalmente solo unos pocos [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)). Aquí hay algunos:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -54,37 +51,35 @@ Si no tiene su propio dominio o no desea configurarlo usted mismo, puede aprovec
 
 ## [§](#verificacion-autohospedada) Verificación autohospedada
 
-Si ya posee un dominio, esta es una opción gratuita. Solo necesita agregar un archivo `.well-known/nostr.json` a su dominio. El contenido del archivo debe ser el siguiente:
+Si ya posees un dominio, esta es una opción gratuita. Solo necesitas agregar un archivo `.well-known/nostr.json` a tu dominio. El contenido del archivo debe ser el siguiente:
 
 ```json
 {
-    "nombres": {
-        "YOUR_NOSTR_NAME": "TU_NOSTR_PUBLIC_KEY"
+    "names": {
+        "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY"
     }
 }
 ```
 
-Opcionalmente, también puede agregar una sección para que los clientes sepan en qué relés es probable que lo encuentren:
+Opcionalmente, también puedes agregar una sección para que los clientes sepan en qué relés es probable que te encuentren:
 
 ```json
 {
-   "nombres": {
-     "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT"
-   },
-   "relés": {
-     "TU_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT": [
-       "wss://relé.uno",
-       "wss://relé.dos",
-       ...
-     ]
-   }
+  "names": {
+    "YOUR_NOSTR_NAME": "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT"
+  },
+  "relays": {
+    "YOUR_NOSTR_PUBLIC_KEY_IN_HEX_FORMAT": [
+      "wss://relay.one",
+      "wss://relay.two",
+      ...
+    ]
+  }
 }
 ```
 
-Asegúrese de usar la versión hexadecimal de su clave pública en su archivo `nostr.json`. Esta es la versión de la clave que **no** comienza con `npub`.
+Asegúrate de usar la versión hexadecimal de tu clave pública en tu archivo `nostr.json`. Esta es la versión de la clave que **no** comienza con `npub`.
 
-Puede convertir su clave en [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)
+Puedes pedirle a tu LLM favorito que convierta tu valor `npub` en una "hex pubkey" y lo hará encantado.
 
-![Obtenga su clave hexadecimal](/images/get-hex-key.webp)
-
-Finalmente, asegúrese de que este archivo se sirva con el encabezado `Access-Control-Allow-Origin` establecido en `*`, ya que los clientes deben poder acceder a él.
+Por último, asegúrate de que este archivo se sirva con el encabezado `Access-Control-Allow-Origin` establecido en `*`, ya que los clientes deben poder acceder a él.

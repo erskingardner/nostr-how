@@ -19,4 +19,4 @@ Nostr 旨在简单，可以在互联网上实现抗审查和全球去中心化�
 
 ### 可验证性
 
-因为 Nostr 帐户基于[公钥加密](https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86)，所以很容易验证消息是否由该用户发送。
+因为 Nostr 帐户基于[公钥加密](https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86?utm_source=nostr.how&ref=nostr.how)，所以很容易验证消息是否由该用户发送。

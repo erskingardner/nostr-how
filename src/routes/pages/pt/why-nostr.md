@@ -15,10 +15,11 @@ O Nostr permite isso.
 
 ## O que o Nostr permite
 
--    O formato de evento simples e flexível permite a publicação de todos os tipos de conteúdo: postagens em redes sociais, conteúdo de formato longo, video, comércio eletrônico, etc.
--    Verificabilidade de que as notas provêm de um utilizador específico. Isso ajuda a combater o spam e os bots.
--    Os utilizadores podem ligar-se a muitos relays e executar os seus próprios relays. Isso dificulta a censura de ideias e pessoas.
--    Integrado com Lightning, o Nostr permite novos modelos de negócios de [valor-por-valor](https://value4value.info?utm_source=nostr.how&ref=nostr.how) que têm o potencial de ser mais justos.
+-   O formato de evento simples e flexível permite a publicação de todos os tipos de conteúdo: postagens em redes sociais, conteúdo de formato longo, vídeo, comércio eletrónico, etc.
+-   Verificabilidade de que as notas provêm de um utilizador específico. Isso ajuda a combater o spam e os bots.
+-   Os utilizadores podem ligar-se a muitos relays e executar os seus próprios relays. Isso dificulta a censura de ideias e pessoas.
+-   Integrado com Lightning, o Nostr permite novos modelos de negócios de [valor-por-valor](https://value4value.info?utm_source=nostr.how&ref=nostr.how) que têm o potencial de ser mais justos.
+-   O Nostr é a rede para agentes. Sem captchas, sem verificações por número de telefone, sem cartões de crédito, sem limites. O Nostr é perfeito para comunicar com o teu OpenClaw ou outro agente. E como o Bitcoin está integrado ao nível do protocolo, podes até dar uma carteira ao teu agente em menos de um minuto. Se quiseres começar a construir, existe um [servidor MCP](https://nostrbook.dev/mcp?utm_source=nostr.how&ref=nostr.how) para a documentação do Nostr.
 
 ## O status quo
 

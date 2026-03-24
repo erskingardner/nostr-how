@@ -30,19 +30,16 @@ Obwohl das alles sehr technisch klingt, ist es überraschend einfach, sich verif
 
 Im Moment gibt es mehrere Anbieter, bei denen du dich kostenlos verifizieren lassen kannst. Das ist eine großartige Option, wenn du noch keine Sats in deiner Lightning-Wallet hast. Aber du kannst diese Projekte gerne durch Spenden unterstützen. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Verifiziere dich bei einem Bezahl-Service
 
-Wenn du keine eigene Domain hast oder selbst nicht einrichten willst, kannst du auch einen kostenpflichtigen NIP-05-Service in Anspruch nehmen. In der Regel jostet das nur ein paar [Sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats). Hier sind ein paar Beispiele:
+Wenn du keine eigene Domain hast oder sie nicht selbst einrichten willst, kannst du auch einen kostenlosen oder kostenpflichtigen NIP-05-Service in Anspruch nehmen. In der Regel kostet das nur ein paar [Sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how). Hier sind ein paar Beispiele:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -83,8 +80,6 @@ Optional kannst du auch einen Abschnitt hinzufügen, um Clients mitzuteilen, auf
 
 Stelle sicher, dass du die Hexadezimalversion deines öffentlichen Schlüssels in der `nostr.json`-Datei verwendest. Das ist die Version des öffentlichen Schlüssels, die **nicht** mit `npub` beginnt.
 
-Du kannst deinen Schlüssel auf [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) konvertieren.
+Du kannst dein Lieblings-LLM bitten, deinen npub-Wert in einen "hex pubkey" umzuwandeln, und es wird das gern tun.
 
-![Get your hex key](/images/get-hex-key.webp)
-
-Stelle zum Schluss noch sicher, dass die `nostr.json`-Datei im `Access-Control-Allow-Origin` Header auf `*` gesetzt ist, damit Clients darauf zugreifen können.
+Stelle zum Schluss noch sicher, dass die `nostr.json`-Datei mit dem Header `Access-Control-Allow-Origin` auf `*` ausgeliefert wird, damit Clients darauf zugreifen können.

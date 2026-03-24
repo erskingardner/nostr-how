@@ -9,7 +9,7 @@ description: 本指南将帮助您了解 Nostr 的基础知识，并为您创建
 
 让我们再说一遍，这样就清楚了：**如果您丢失了私钥，您的 Nostr 账户就丢失了。如果其他人获得了您的私钥，他们就可以控制您的账户。**
 
-确保您将私钥存储在安全的地方，例如密码管理器（我们喜欢 [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)）或浏览器扩展程序，例如 [Alby](https://getalby.com/#alby-extension?utm_source=nostr.how&ref=nostr.how)。
+确保您将私钥存储在安全的地方，例如密码管理器（我们喜欢 [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)）或浏览器扩展程序，例如 [Alby](https://getalby.com/?utm_source=nostr.how&ref=nostr.how#alby-extension)。
 
 ## [§](#protocol-vs-client) 协议与客户端
 
@@ -17,19 +17,15 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 
 您将通过客户端访问 Nostr（协议）。客户端可以是 Web、桌面或移动应用程序。一些 Nostr 客户端允许您通过粘贴私钥来登录。在 Web 上，这通常是不推荐的——它很麻烦，也不安全。相反，我们建议在浏览器中使用签名扩展插件，这是一种专门设计用于安全管理私钥和为事件加密签名的软件。
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) 是一款流行的签名扩展插件和比特币闪电钱包，内置支持 Nostr。这是新用户的一个很好的选择。我们将在下面的客户端特定指南中介绍如何安装 Alby。
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) 是一款流行的签名扩展插件和比特币闪电钱包，内置支持 Nostr。这是新用户的一个很好的选择。
 
 ## [§](#create-your-account) 创建您的账户
 
-以下是我们推荐的几个客户端的操作指南：
+试试我们最喜欢的几款 Nostr 应用：
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) 用户友好的客户端，在移动设备上内置闪电钱包。
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
-
-我们喜欢但没有指南的其他一些客户端：
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) 超级简洁快速的网页客户端。
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) 一个专注于中继器导航的客户端。
 
 ## [§](#find-friends) 寻找要关注的朋友
 

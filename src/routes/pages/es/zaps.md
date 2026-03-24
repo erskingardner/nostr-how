@@ -5,7 +5,7 @@ description: Qué son los Zaps, cómo funcionan, y qué necesita para usarlos en
 
 ## [§](#los-conceptos-básicos) Los conceptos básicos
 
-La forma más sencilla de pensar en los Zaps es que son simplemente propinas. Propinas que se transmiten a través de la [red Lightning](https://www.investopedia.com/terms/l/lightning-network.asp) a la velocidad de la luz, con prácticamente ninguna tarifa de transacción.
+La forma más sencilla de pensar en los Zaps es que son simplemente propinas. Propinas que se transmiten a través de la [red Lightning](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) a la velocidad de la luz, con prácticamente ninguna tarifa de transacción.
 
 Desde el inicio del protocolo Nostr, era común ver facturas de Lightning en las notas. Desde que se implementó [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md), los Zaps se han convertido en la principal forma de transmitir valor en las notas de Nostr. Veamos más de cerca lo que implementó NIP-57 y cómo funcionan los Zaps.
 
@@ -21,7 +21,7 @@ Desde el inicio del protocolo Nostr, era común ver facturas de Lightning en las
 
 Aquí no profundizaremos demasiado en los aspectos técnicos, pero para aquellos curiosos, veamos los conceptos básicos de cómo funcionan los Zaps.
 
-1. Cuando haces clic o tocas el pequeño icono de ⚡ en tu cliente (Damus, Iris, Amethyst, etc.), lo primero que ocurre es que el cliente se conecta al [servidor LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) que está frente a la billetera Lightning de la persona a la que intentas Zappear. La primera solicitud es algo así como: "Hola, me encantaría enviarle algunos sats a Alice".
+1. Cuando haces clic o tocas el pequeño icono de ⚡ en tu cliente (Damus, Iris, Amethyst, etc.), lo primero que ocurre es que el cliente se conecta al [servidor LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how) que está frente a la billetera Lightning de la persona a la que intentas Zappear. La primera solicitud es algo así como: "Hola, me encantaría enviarle algunos sats a Alice".
 1. El servidor LNURL responde y, si la billetera de Alice admite Zaps, lo indicará al cliente y enviará/confirmará la clave pública de Alice.
 1. En este punto, el cliente realiza un pequeño trabajo para armar una solicitud de Zap (una nota tipo 9734) con datos sobre el perfil o la nota que desea Zappear, la cantidad, los relés a los que debe transmitir la nota y algunas otras cosas. Esto es efectivamente una solicitud de factura al servidor LNURL.
 1. El servidor LNURL responde con la factura solicitada.
@@ -39,11 +39,3 @@ Para Zapear a otras personas en Nostr, solo necesitas dos cosas:
 1. Un cliente que haya implementado Zaps (como [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) o [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Lo único que debe hacer es asegurarse de tener su dirección Lightning configurada en su perfil de Nostr. Esta es la dirección donde recibirá Zaps.
-
-Tenga en cuenta que es posible pagar Zaps desde una billetera/dirección que no sea la dirección que configuró en su perfil para recibir Zaps.
-
-Por ejemplo, imagina lo siguiente:
-
-1. Tienes una dirección lightning [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) configurada en tu perfil de Nostr, aquí es donde recibirás cualquier sats zapeado.
-1. En su navegador web, usa a Iris como su cliente y paga Zaps usando su billetera Alby a través de su extensión de Chrome
-1. En el móvil, usas a Damus como tu cliente y pagas Zaps usando la aplicación Wallet of Satoshi.

@@ -11,7 +11,7 @@ Nostr ist auf Einfachheit ausgelegt und ermöglicht zensurresistentes und global
 
 ### Einfach
 
-Das Protokoll basiert auf sehr einfachen und flexiblen `Event`-Objekten (die als einfaches JSON weitergegeben werden) und verwendet Standard-[Public-Key-Kryptographie](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem) für Schlüssel und Signierung. Dies erleichtert das Betreiben von Relays und das Erstellen von Clients und stellt zudem sicher, dass das Protokoll im Laufe der Zeit erweitert werden kann.
+Das Protokoll basiert auf sehr einfachen und flexiblen `Event`-Objekten (die als einfaches JSON weitergegeben werden) und verwendet Standard-[Public-Key-Kryptographie](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem?utm_source=nostr.how&ref=nostr.how) für Schlüssel und Signierung. Dies erleichtert das Betreiben von Relays und das Erstellen von Clients und stellt zudem sicher, dass das Protokoll im Laufe der Zeit erweitert werden kann.
 
 ### Resilient
 
@@ -19,4 +19,4 @@ Nostr ist zum Versenden oder Speichern von Daten nicht auf eine kleine Anzahl ve
 
 ### Verifizierbar
 
-Da Nostr-"Konten" auf [Public-Key-Kryptographie](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem) basieren, ist es einfach zu überprüfen, ob die Nachrichten wirklich vom betreffenden Benutzer gesendet wurden.
+Da Nostr-"Konten" auf [Public-Key-Kryptographie](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem?utm_source=nostr.how&ref=nostr.how) basieren, ist es einfach zu überprüfen, ob die Nachrichten wirklich vom betreffenden Benutzer gesendet wurden.

@@ -30,19 +30,16 @@ Hoewel het technisch klinkt, is het verrassend eenvoudig om geverifieerd te word
 
 Op dit moment zijn er verschillende providers die mensen helpen om gratis geverifieerd te worden. Dit is een geweldige optie als je nog geen sats in je lightning wallet hebt staan. Steun deze projecten indien mogelijk via donaties. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Een provider betalen voor verificatie
 
-Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde  NIP-05-service. Hier zijn er een paar:
+Als je geen eigen domein hebt of het niet zelf wilt instellen, kun je gebruikmaken van een gratis of betaalde NIP-05-service. Hier zijn er een paar:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -64,7 +61,7 @@ Als je al een domein hebt, is dit een gratis optie. Je hoeft alleen maar een `.w
 }
 ```
 
-Optioneel kun je ook een relays sectie toevoegen om clients te laten weten op welke relays je actief bent:
+Optioneel kun je ook een relays-sectie toevoegen om clients te laten weten op welke relays je actief bent:
 
 ```json
 {
@@ -81,10 +78,8 @@ Optioneel kun je ook een relays sectie toevoegen om clients te laten weten op we
 }
 ```
 
-Zorg ervoor dat je de hex waarde van je public gebruikt in je `nostr.json` bestand. Dit is de versie van de key die **niet** begint met `npub`.
+Zorg ervoor dat je de hex-waarde van je publieke sleutel gebruikt in je `nostr.json` bestand. Dit is de versie van de sleutel die **niet** begint met `npub`.
 
-Hier kan je jouw public key omzetten: [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)
+Je kunt je favoriete LLM vragen om je `npub` om te zetten naar een "hex pubkey" en die doet dat met plezier.
 
-![Haal je hex key op](/images/get-hex-key.webp)
-
-Zorg er ook voor dat dit bestand wordt opgevraagd met de `Access-Control-Allow-Origin` header ingesteld op `*` omdat deze toegankelijk moet zijn voor alle clients.
+Zorg er ook voor dat dit bestand wordt geserveerd met de `Access-Control-Allow-Origin` header ingesteld op `*`, omdat het toegankelijk moet zijn voor clients.

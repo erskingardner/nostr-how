@@ -15,21 +15,17 @@ Asegúrate de guardar tu llave privada en un lugar seguro, como un gestor de con
 
 Nostr por sí mismo es ya un protocolo, es un procedimiento acordado para transmitir mensajes en Internet.
 
-Accederás a Nostr (el protocolo) a través de un cliente. Los clientes pueden ser aplicaciones web, de escritorio o móviles. Algunos clientes de Nostr te permiten iniciar sesión pegando tu llave privada. En la web, esto no se recomienda, ya que es tedioso e inseguro. En su lugar, recomendamos usar una extensión de firma en su navegador, que es un software diseñado específicamente para administrar claves privadas de manera segura y firmar eventos criptográficamente.
+Accederás a Nostr (el protocolo) a través de un cliente. Los clientes pueden ser aplicaciones web, de escritorio o móviles. Algunos clientes de Nostr te permiten iniciar sesión pegando tu llave privada. En la web, esto no se recomienda, ya que es tedioso e inseguro. En su lugar, recomendamos usar una extensión de firma en tu navegador, que es un software diseñado específicamente para administrar claves privadas de manera segura y firmar eventos criptográficamente.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) es una estensión de firma y monedero bitcoin lightning que tiene soporte incorporado para Nostr. Es una gran opción para los nuevos usuarios. Cubriremos la instalación de Alby en las guías específicas del cliente donde se necesita a continuación.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) es una extensión de firma y monedero bitcoin lightning que tiene soporte incorporado para Nostr. Es una gran opción para los nuevos usuarios.
 
 ## [§](#crear-tu-cuenta) Crear tu cuenta
 
-Acá está una guía paso a paso de los clientes que recomendamos:
+Prueba algunas de nuestras aplicaciones Nostr favoritas:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Cliente fácil de usar con billetera Lightning incorporada en dispositivos móviles.
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
-
-Algunos otros clientes que amamos pero no tenemos guías:
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente súper rapido y veloz.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un cliente centrado en la navegación por relevos.
 
 ## [§](#encontrar-amigos) Encontrar amigos en Nostr
 

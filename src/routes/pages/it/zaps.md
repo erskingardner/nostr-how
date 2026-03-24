@@ -5,7 +5,7 @@ description: Scopri cosa sono gli Zaps, come funzionano e di cosa hai bisogno pe
 
 ## [§](#le-basi) Le basi
 
-Il modo più semplice per pensare agli Zaps è che sono semplicemente suggerimenti. Suggerimenti trasmessi sulla [rete Lightning](https://www.investopedia.com/terms/l/lightning-network.asp) alla velocità della luce senza praticamente alcuna commissione di transazione.
+Il modo più semplice per pensare agli Zaps è che sono semplicemente suggerimenti. Suggerimenti trasmessi sulla [rete Lightning](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) alla velocità della luce senza praticamente alcuna commissione di transazione.
 
 Fin dall'inizio del protocollo Nostr, era comune vedere fatture Lightning nelle note. Dopo l'implementazione di [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md), gli Zaps sono diventati il modo principale per trasmettere valore nelle note di Nostr. Esaminiamo più da vicino cosa ha implementato NIP-57 e come funzionano gli Zaps.
 
@@ -21,7 +21,7 @@ Fin dall'inizio del protocollo Nostr, era comune vedere fatture Lightning nelle 
 
 Non entreremo nei dettagli tecnici qui, ma per i più curiosi vediamo le meccaniche di base di come funzionano gli Zaps.
 
-1. Quando fai clic o tocchi sull'icona del fulmine ⚡ nel tuo client (Damus, Iris, Amethyst, ecc.), la prima cosa che accade è che il client contatta il [server LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) che si trova di fronte al portafoglio Lightning della persona a cui stai cercando di inviare uno Zap. La prima richiesta va più o meno così: "Ciao, vorrei dare ad Alice alcuni sats."
+1. Quando fai clic o tocchi sull'icona del fulmine ⚡ nel tuo client (Damus, Iris, Amethyst, ecc.), la prima cosa che accade è che il client contatta il [server LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how) che si trova di fronte al portafoglio Lightning della persona a cui stai cercando di inviare uno Zap. La prima richiesta va più o meno così: "Ciao, vorrei dare ad Alice alcuni sats."
 1. Il server LNURL risponde e, se il portafoglio di Alice supporta gli Zaps, lo comunica al client e invia/conferma la chiave pubblica di Alice.
 1. A questo punto, il client elabora una richiesta di Zap (una nota di tipo 9734) con dati sul profilo o sulla nota che vorrebbe lo Zap, l'importo, i relays a cui deve essere trasmessa la nota e alcune altre informazioni. Questa è effettivamente una richiesta di fattura dal server LNURL.
 1. Il server LNURL risponde con la fattura richiesta.
@@ -39,11 +39,3 @@ Per inviare Zaps ad altre persone in Nostr, ti servono solo due cose:
 1. Un client che abbia implementato gli Zaps (come [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) o [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 L'unica altra cosa che devi fare è assicurarti di avere impostato il tuo indirizzo Lightning nel tuo profilo Nostr. Questo è l'indirizzo dove riceverai i tuoi Zaps.
-
-Tieni presente che è possibile pagare gli Zaps da un portafoglio o indirizzo diverso da quello impostato nel tuo profilo per ricevere gli Zaps.
-
-Ad esempio, immagina quanto segue:
-
-1. Hai impostato un indirizzo Lightning di [Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how) nel tuo profilo Nostr, questo è dove riceverai i tuoi sats inviati tramite Zap.
-1. Sul tuo browser web, usi Iris come client e paghi i tuoi Zaps utilizzando il tuo portafoglio Alby tramite la loro estensione per Chrome.
-1. Sul tuo dispositivo mobile, usi Damus come client e paghi i tuoi Zaps utilizzando l'app Wallet of Satoshi.

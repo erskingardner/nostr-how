@@ -26,21 +26,18 @@ Bien que cela semble technique, il est étonnamment facile de se faire vérifier
 
 ## [§](#free-verification) Obtenir une vérification grâce à un service gratuit
 
-Actuellement, plusieurs fournisseurs aident les gens à se faire vérifier gratuitement. C'est une excellente option si vous n'avez pas encore de sats dans votre portefeuille lightning. Si possible, soutenez ces projets par des dons. ⚡🤙
+Il existe actuellement plusieurs fournisseurs qui aident les gens à se faire vérifier gratuitement. C'est une excellente option si vous n'avez pas encore de sats dans votre portefeuille lightning. Si possible, soutenez ces projets par des dons. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#paid-verification) Payer un fournisseur pour la vérification
 
-Si vous n'avez pas votre propre domaine ou si vous ne voulez pas le configurer vous-même, vous pouvez profiter d'un service NIP-05 gratuit ou payant (généralement quelques [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)). En voici quelques-uns :
+Si vous n'avez pas votre propre domaine ou si vous ne voulez pas le configurer vous-même, vous pouvez profiter d'un service NIP-05 gratuit ou payant (généralement quelques [sats](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)). En voici quelques-uns :
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -79,10 +76,8 @@ En option, vous pouvez également ajouter une section permettant aux clients de 
 }
 ```
 
-Assurez-vous d'utiliser la version hexagonale de votre clé publique dans votre fichier `nostr.json`. C'est la version de la clé qui **ne** commence pas par `npub`.
+Assurez-vous d'utiliser la version hexadécimale de votre clé publique dans votre fichier `nostr.json`. C'est la version de la clé qui **ne** commence pas par `npub`.
 
-Vous pouvez convertir votre clé sur [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how)
-
-![Get your hex key](/images/get-hex-key.webp)
+Vous pouvez demander à votre LLM préféré de convertir votre valeur `npub` en "hex pubkey", et il le fera volontiers.
 
 Enfin, assurez-vous que ce fichier est servi avec l'en-tête `Access-Control-Allow-Origin` fixé à `*` car il doit être accessible par les clients.

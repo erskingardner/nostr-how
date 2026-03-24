@@ -5,7 +5,7 @@ description: Zapsとは何か、Zapsの仕組み、NostrクライアントでZap
 
 ## [§](#the-basics) 基礎
 
-Zapsについて考える最も簡単な方法は、Zapsは単なるチップであるということです。チップは[Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp)を介して光速で送金され、基本的にトランザクション手数料は無料です。
+Zapsについて考える最も簡単な方法は、Zapsは単なるチップであるということです。チップは[Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how)を介して光速で送金され、基本的にトランザクション手数料は無料です。
 
 Nostrプロトコルの初期は、ライトニング・インボイスをノートに記載するのが一般的でした。[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md)が実装されて以来、ZapsはNostrノート内で価値を伝達する主な方法となりました。NIP-57の実装内容とZapの仕組みについて詳しく見ていきましょう。
 
@@ -21,7 +21,7 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 
 ここでは技術的な深い話はしませんが、好奇心旺盛な人のために、Zapsの基本的な仕組みについて見てみましょう。
 
-1. クライアント（Damus、Iris、Amethystなど）の小さな⚡アイコンをクリックまたはタップすると、最初にクライアントが、Zapしようとしている人のライトニング・ウォレットの前にある[LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/)にpingを送ります。最初の依頼は、"こんにちは、アリスにsatoshi（サトシ）をあげたいのですが "というようなものです。
+1. クライアント（Damus、Iris、Amethystなど）の小さな⚡アイコンをクリックまたはタップすると、最初にクライアントが、Zapしようとしている人のライトニング・ウォレットの前にある[LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how)にpingを送ります。最初の依頼は、"こんにちは、アリスにsatoshi（サトシ）をあげたいのですが "というようなものです。
 2. LNURLサーバーはそれに応答し、もしアリスのウォレットがZapsをサポートしていれば、そのことをクライアントに伝え、アリスの公開鍵を送信/確認します。
 3. この時点で、クライアントはZapリクエスト（kind 9734ノート）をまとめるために、Zapしたいプロフィールやノートに関するデータ、金額、ノートをブロードキャストするリレー、および他のいくつかの事柄を含む少しの作業を行います。これは事実上、LNURLサーバーからのインボイス・リクエストです。
 4. LNURLサーバーは要求されたインボイスで応答します。
@@ -33,17 +33,9 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 
 ## [§](#how-to-send-and-receive) Zapsの送受信方法は？
 
-Nostr上で他のユーザーをZapするには、たった2つのものさえ準備すればOKです：
+Nostrで他の人にZapを送るには、必要なものは2つだけです。
 
-1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)や[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)のような）
-2. Zapsをを実装しているクライアント（[Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)または[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)など)
+1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)や[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)のようなもの）
+1. Zapsを実装しているクライアント（[Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)、[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)など）
 
-その他に必要なことは、Nostrのプロフィールにライトニング・アドレスが設定されていることです。これがZapsを受信するアドレスです。
-
-Zapsを受け取るためにプロフィールに設定したウォレット/アドレスとは別のものでも、Zapsの支払いは可能です。
-
-例えば、次のようなことを想像してみてください：
-
-1. Nostrのプロフィールに[Stacker News](https://stacker.news?utm_source=nostr.how&ref=nostr.how)のライトニング・アドレスが設定されている場合、このアドレスにZapされたサトシが届きます。
-2. ウェブブラウザで、Irisをクライアントとして使用し、Chrome拡張機能でAlbyウォレットを使用してZapsの支払いを行います。
-3. スマホでは、Damusをクライアントとして使用し、Wallet of Satoshiアプリを使ってZapsの支払いを行います。
+あとは、Nostrのプロフィールにライトニング・アドレスが設定されていることを確認するだけです。これがZapsを受け取るアドレスです。

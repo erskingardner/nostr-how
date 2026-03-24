@@ -26,21 +26,18 @@ description: چگونه هویت خود را در ناستر تایید کنید
 
 ## [§](#تایید-رایگان) با استفاده از خدمات رایگان تایید شوید
 
-در حال حاضر، چندین تامین کننده به افراد کمک می کنند تا به طور رایگان تایید شوند. اگر هنوز در کیف پول لایتنینگی خود ساتوشی ندارید این گزینه عالی است. اگر برایتان مقدور است با اهدای ساتوشی از این پروژه ها حمایت کنید. ⚡🤙
+در حال حاضر، چند ارائه دهنده وجود دارند که به افراد کمک می کنند رایگان تایید شوند. این یک انتخاب عالی است اگر هنوز در کیف پول لایتنینگ خود سات ندارید. اگر می توانید، از این پروژه ها با اهدا حمایت کنید. ⚡🤙
 
--   [Bitcoin Nostr](https://bitcoinnostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrcheck.me](https://nostrcheck.me?utm_source=nostr.how&ref=nostr.how)
 -   [zaps.lol](https://zaps.lol?utm_source=nostr.how&ref=nostr.how)
--   [NIP05.social](https://nip05.social?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr-Check.com](https://nostr-check.com?utm_source=nostr.how&ref=nostr.how)
 -   [Verified Nostr](https://verified-nostr.com?utm_source=nostr.how&ref=nostr.how)
 -   [Cosa Nostr](https://cosanostr.com?utm_source=nostr.how&ref=nostr.how)
 
 ## [§](#تایید-پولی) برای تایید به یک تامین کننده پول بپردازید
 
-اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیاندازید، می توانید از یک تامین کننده خدمات NIP-05 پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats)) یا رایگان استفاده کنید. در اینجا چند خدمات پولی را ببینید:
+اگر دامنه خود را ندارید یا نمی خواهید خودتان راه بیندازید، می توانید از یک خدمات NIP-05 رایگان یا پولی (معمولا فقط با اندکی [ساتوشی](https://coinmarketcap.com/alexandria/glossary/satoshi-sats?utm_source=nostr.how&ref=nostr.how)) استفاده کنید. در اینجا چند مورد آمده است:
 
--   [Jellyfish (nostr.eco)](https://jellyfish.land/nip05?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrly](https://www.nostrly.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostrplebs](https://nostrplebs.com?utm_source=nostr.how&ref=nostr.how)
 -   [Nostr Verified](https://nostrverified.com?utm_source=nostr.how&ref=nostr.how)
@@ -79,9 +76,8 @@ description: چگونه هویت خود را در ناستر تایید کنید
 }
 ```
 
-حتما از ورژن هگزای hex کلید عمومی تان در فایل `nostr.json` استفاده کنید. این ورژنی از کلید است که با `npub` شروع **نمی شود**.
-می توانید کلید خود را در [Nostr.band](https://nostr.band?utm_source=nostr.how&ref=nostr.how) تبدیل کنید.
+حتما از نسخه هگز کلید عمومی تان در فایل `nostr.json` استفاده کنید. این همان نسخه ای از کلید است که **با** `npub` شروع **نمی شود**.
 
-![Get your hex key](/images/get-hex-key.webp)
+می توانید از مدل زبانی مورد علاقه تان بخواهید مقدار `npub` شما را به یک "hex pubkey" تبدیل کند و با خوشحالی این کار را انجام می دهد.
 
-در آخر، حتما مطمئن شوید که در این فایل هدر `Access-Control-Allow-Origin` به `*` تنظیم شده است زیرا لازم است که قابل دسترسی توسط کلاینت ها باشد.
+در آخر، حتما مطمئن شوید که این فایل با هدر `Access-Control-Allow-Origin` روی `*` ارائه می شود، زیرا لازم است که برای کلاینت ها قابل دسترسی باشد.

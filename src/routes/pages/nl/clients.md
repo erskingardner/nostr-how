@@ -54,5 +54,5 @@ Onthoud goed, jouw private key is jouw identiteit op Nostr, dus als deze vergeve
 
 ### Android
 
--   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en?utm_source=nostr.how&ref=nostr.how) – Dit is onze best aangeraden client voor nieuwe gebruikers.
+-   [Primal](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) – Dit is onze best aangeraden client voor nieuwe gebruikers.
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – Een prachtige client voor Android.
