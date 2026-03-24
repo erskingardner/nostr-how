@@ -9,7 +9,7 @@ Each Nostr account is based on a public/private key pair. A simple way to think 
 
 Let me say that again so it's clear: **If you lose your private key your Nostr account is lost. If somene else gains access to your private key, they can take control of your account.**
 
-Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com/)) or a browser extension like [Alby](https://getalby.com/#alby-extension).
+Make sure you store you private key somewhere safe, like a password manager (we like [1Password](https://1password.com?utm_source=nostr.how&ref=nostr.how)) or a browser extension like [Alby](https://getalby.com/?utm_source=nostr.how&ref=nostr.how#alby-extension).
 
 ## [§](#protocol-vs-client) Protocol vs Client
 
@@ -17,21 +17,16 @@ Nostr itself is just a protocol; an agreed upon procedure for passing messages a
 
 You will access Nostr (the protocol) via a client. Clients can be web, desktop, or mobile apps. Some Nostr clients allow you to sign in by pasting in your private key. On the web, this is generally not recommended - it's tedious and insecure. Instead, we recommend using a signing extension in your browser, which is a piece of software specifically designed to safely manage private keys and cryptographically sign events.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users. We'll cover installing Alby in the client-specific guides where it's needed below.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) is a popular signing extension and bitcoin lightning wallet that has built-in support for Nostr. It's a great option for new users.
 
 ## [§](#create-your-account) Create your account
 
-Here are step-by-step guides to a few different clients we recommend:
+Try out some of our favorite Nostr apps:
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
-
-A few other clients that we love but don't have guides for:
-
--   [Primal](https://primal.net) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Super clean and fast web client.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) A client focused on relay navigation.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 ## [§](#find-friends) Find friends to follow
 
@@ -55,6 +50,6 @@ Yes! Now that you have created your public/private key pair, you can use this pa
 
 Great, now you're set up with a lightning wallet, an identity (your keypair), and have tried out a client. Here are a few links that might be handy as you venture further into Nostr:
 
--   [Verify your identity](/en/guides/get-verified)
+-   [Verify your identity](/en/get-verified)
 -   [What are Relays and how do they work?](/en/relays)
 -   [Learn more about NIPs and the development of the protocol](/en/the-protocol)

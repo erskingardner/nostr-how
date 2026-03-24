@@ -16,9 +16,10 @@ Nostr maakt dit mogelijk.
 ## Wat Nostr mogelijk maakt
 
 -   Het simpele, flexibele `Event` format maakt verschillende type publicaties mogelijk: social media berichten, long-form artikelen, rich media, ecommerce, etc.
--   Verifieerbaarheid dat notities afkomstig zijn van een specifieke gebruiker.  Dit helpt om spam en bots te bestrijden.
+-   Verifieerbaarheid dat notities afkomstig zijn van een specifieke gebruiker. Dit helpt om spam en bots te bestrijden.
 -   Gebruikers kunnen verbinding maken met meerdere relays naar keuze, of hun eigen relay draaien. Dit maakt het vrijwel onmogelijk om ideeën en mensen te censureren.
--   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info/) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
+-   Geïntegreerd met lightning, maakt Nostr nieuwe [value-for-value](https://value4value.info?utm_source=nostr.how&ref=nostr.how) bedrijfsmodellen mogelijk die het potentieel hebben om eerlijker te zijn.
+-   Nostr is het netwerk voor agents. Geen captcha's, geen telefoonnummerverificaties, geen creditcards, geen limieten. Nostr is perfect om te communiceren met je OpenClaw of een andere agent. En omdat Bitcoin op protocolniveau is ingebouwd, kun je je agent zelfs in minder dan een minuut een wallet geven. Als je wilt beginnen met bouwen, is er een [MCP-server](https://nostrbook.dev/mcp?utm_source=nostr.how&ref=nostr.how) voor de Nostr-documentatie.
 
 ## De status quo
 

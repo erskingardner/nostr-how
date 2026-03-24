@@ -17,21 +17,16 @@ Nostr lui-même n'est qu'un protocole, une procédure convenue pour faire circul
 
 Vous accéderez à Nostr (le protocole) via un client. Les clients peuvent être des applications web, de bureau ou mobiles. Certains clients Nostr vous permettent de vous connecter en collant votre clé privée. Sur le web, cette méthode n'est généralement pas recommandée, car elle est fastidieuse et peu sûre. Au lieu de cela, nous vous recommandons d'utiliser une extension de signature dans votre navigateur, qui est un logiciel spécialement conçu pour gérer en toute sécurité les clés privées et signer les événements de manière cryptographique.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) est une extension de signature et portefeuille bitcoin lightning qui intègre le support de Nostr. C'est une excellente option pour les nouveaux utilisateur-trice-s. Nous couvrirons l'installation d'Alby dans les guides spécifiques aux clients qui en ont besoin ci-dessous.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) est une extension de signature et portefeuille bitcoin lightning qui intègre le support de Nostr. C'est une excellente option pour les nouveaux utilisateurs.
 
 ## [§](#create-your-account) Créer votre compte
 
-Voici des guides étape par étape pour différents clients que nous recommandons :
+Essayez quelques-unes de nos applications Nostr préférées :
 
--   [Iris](/en/guides/iris) (Web)
--   [Damus](/en/guides/damus) (iOS)
--   [Amethyst](/en/guides/amethyst) (Android)
-
-Quelques autres clients que nous apprécions mais pour lesquels nous n'avons pas de guides :
-
--   [Primal](https://primal.net) (Web, iOS, Android) Client convivial avec portefeuille Lightning intégré sur mobile.
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Client Web super propre et rapide.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Un client axé sur la navigation relais.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Client convivial avec portefeuille Lightning intégré sur mobile.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 ## [§](#find-friends) Trouvez vos ami-e-s pour les suivre
 
@@ -55,6 +50,6 @@ Oui ! Maintenant que vous avez créé votre paire de clés publiques/privées, v
 
 Vous avez maintenant un portefeuille lightning, une identité (votre paire de clés) et vous avez essayé un client. Voici quelques liens qui pourraient vous être utiles lorsque vous vous aventurerez plus loin dans Nostr :
 
--   [Vérifier son identité](/fr/guides/get-verified)
+-   [Vérifier son identité](/fr/get-verified)
 -   [Que sont les relais et comment ils fonctionnent?](/fr/relays)
 -   [En savoir plus sur les NIPs et l'élaboration du protocole](/fr/the-protocol)

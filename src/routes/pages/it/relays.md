@@ -11,22 +11,18 @@ Il mondo dei relays sta cambiando rapidamente, quindi ci si può aspettare molti
 
 ## [§](#pagamento-o-gratuiti) Relay a pagamento vs gratuiti
 
-Attualmente molti relay sono gratuiti. Dati i costi di gestione di un relays (pagamento per il calcolo, la memorizzazione e la larghezza di banda), la maggior parte delle persone si aspetta che in futuro i relays a pagamento saranno la norma.
+Attualmente molti relay sono gratuiti. Dati i costi di gestione di un relay (pagamento per il calcolo, la memorizzazione e la larghezza di banda), la maggior parte delle persone si aspetta che in futuro i relay a pagamento saranno la norma.
 
-Un grande vantaggio nell'utilizzare i relays a pagamento ora è il numero più alto di utenti e note sui relays a pagamento. La "Proof of Work" di pagare per l'accesso al relays è qualcosa che aiuta a mantenere gli account spam lontani dalla rete.
+Un grande vantaggio nell'utilizzare i relay a pagamento ora è il numero più alto di utenti e note sui relay a pagamento. La "Proof of Work" di pagare per l'accesso al relay è qualcosa che aiuta a mantenere gli account spam lontani dalla rete.
 
-## [§](#a-pagamento) Relays a pagamento popolari
+## [§](#trovare-elenco) Dove posso trovare un elenco di tutti i relay?
 
-Un elenco aggiornato dei relays a pagamento con dettagli su quanto costano e chi li gestisce può essere trovato su [Relay Exchange](https://relay.exchange/).
+La migliore risorsa che abbiamo trovato per navigare e valutare la velocità dei relay noti è il [sito Nostr.watch](https://nostr.watch?utm_source=nostr.how&ref=nostr.how).
 
-## [§](#trovare-elenco) Dove posso trovare un elenco di tutti i relays?
+## [§](#cosa-succede-se-smettono-i-rele) Cosa succede se tutti i relay che uso smettono di funzionare?
 
-La migliore risorsa che abbiamo trovato per navigare e valutare la velocità dei relays noti è il [sito Nostr.watch](https://legacy.nostr.watch/relays/find).
+Se tutti i relay che hai usato in passato vanno offline, tutti i tuoi post saranno irrecuperabili. Questo è uno dei motivi per cui Nostr consente agli utenti di connettersi a molti relay, in modo da garantire un certo grado di backup. Detto questo, se sei davvero interessato a essere incensurabile, puoi e dovresti eseguire il tuo relay personale.
 
-## [§](#cosa-succede-se-smettono-i-rele) Cosa succede se tutti i relays che uso smettono di funzionare?
+## [§](#dovrei-eseguire-il-mio-rele) Dovrei eseguire il mio relay?
 
-Se tutti i relays che hai usato in passato vanno offline, tutti i tuoi post saranno irrecuperabili. Questo è uno dei motivi per cui Nostr consente agli utenti di connettersi a molti relays, in modo da garantire un certo grado di backup. Detto questo, se sei davvero interessato a essere inattaccabile, puoi e dovresti eseguire il tuo relays personale.
-
-## [§](#dovrei-eseguire-il-mio-rele) Dovrei eseguire il mio relays?
-
-Per la maggior parte delle persone, no, non ne vale la pena. Detto questo, se sei tecnico e vuoi assicurarti che il tuo discorso sia assolutamente inattaccabile o vuoi eseguire un relays privato per un piccolo gruppo, allora puoi e dovresti eseguire il tuo relays. Ciò garantisce che tu abbia sempre una copia di tutti i tuoi post e interazioni Nostr per sempre. Stiamo lavorando ad una guida su questo, ma nel frattempo, [qui c'è una guida](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) di Andre Neves su come configurare un relays Nostr.
+Per la maggior parte delle persone, no, non ne vale la pena. Detto questo, se sei tecnico e vuoi assicurarti che il tuo discorso sia assolutamente incensurabile o vuoi eseguire un relay privato per un piccolo gruppo, allora puoi e dovresti eseguire il tuo relay. Ciò garantisce che tu abbia sempre una copia di tutti i tuoi post e interazioni Nostr. Esistono molte implementazioni di relay scritte in diversi linguaggi di programmazione o aggiunte a servizi popolari come StartOS o Alby Hub.

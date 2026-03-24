@@ -17,21 +17,16 @@ O Nostr em si é um protocolo, é um conjunto de regras acordado para transmitir
 
 Acessa-se ao Nostr (o protocolo) através de um cliente. Os clientes podem ser aplicações da web, desktop ou smartphone. Alguns clientes do Nostr permitem que o utilizador faça login colando a sua chave privada. Na web isso não é recomendado, pois é tedioso e inseguro. Em vez disso, recomendamos usar uma extensão de assinatura no teu navegador, que é um software projetado especificamente para gerir chaves privadas de forma segura e assinar eventos criptograficamente.
 
-[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) é uma extensão de assinatura e carteira de bitcoin lightning que tem suporte incorporado para o Nostr. É uma ótima opção para utilizadores novos. A instalação do Alby será abordada nos guias específicos desse cliente quando necessário.
+[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) é uma extensão de assinatura e carteira de bitcoin lightning que tem suporte incorporado para o Nostr. É uma ótima opção para utilizadores novos.
 
 ## [§](#criar-a-tu-conta) Criar a tua conta
 
-Segue um guia passo a passo dos clientes recomendados:
+Experimenta algumas das nossas aplicações Nostr favoritas:
 
--   [Iris](/pt/guias/iris) (Web)
--   [Damus](/pt/guias/damus) (iOS)
--   [Amethyst](/pt/guias/amethyst) (Android)
-
-Alguns outros clientes que gostamos, mas para os quais não temos guias disponíveis:
-
--   [Primal](https://primal.net) (Web, iOS, Android) Cliente fácil de usar com carteira relâmpago integrada no celular.
--   [Snort](https://snort.social?utm_source=nostr.how&ref=nostr.how) (Web) Cliente muito rápido.
--   [Coracle](https://coracle.social?utm_source=nostr.how&ref=nostr.how) (Web) Um cliente focado na navegação por relays.
+-   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Cliente fácil de usar com carteira relâmpago integrada no celular.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
+-   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
+-   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
 ## [§](#encontrar-amigos) Encontrar amigos no Nostr
 
@@ -55,6 +50,6 @@ Sim. Agora que criaste o teu par de chaves pública/privada, podes utilizar este
 
 Ótimo, agora tens uma carteira lightning, uma identidade (o teu par de chaves) e testaste um cliente. Eis aqui alguns links que te podem ser úteis para aprofundares o teu conhecimento sobre o Nostr:
 
--   [Verificar a tua identidade](/pt/guides/get-verified)
+-   [Verificar a tua identidade](/pt/get-verified)
 -   [O que são Relays e como funcionam?](/pt/relays)
 -   [Mais informações sobre os NIPs e o desenvolvimento do protocolo](/pt/the-protocol)

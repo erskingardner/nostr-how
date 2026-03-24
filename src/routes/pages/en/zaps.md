@@ -5,9 +5,9 @@ description: Learn about what Zaps are, how they work, and what you need to use 
 
 ## [§](#the-basics) The basics
 
-The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) at the speed of light with basically no transaction fees.
+The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) at the speed of light with basically no transaction fees.
 
-From the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+In the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
 
 ## [§](#nip-57) NIP-57
 
@@ -21,7 +21,7 @@ From the beginning of the Nostr protocol, it was common to see Lightning invoice
 
 We won't get into the deep technical weeds here but for the curious among you, let's look at the basic mechanics of how Zaps work.
 
-1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
+1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
 2. The LNURL server responds and, if Alice's wallet supports Zaps, it will tell the client so and send/confirm Alice's public key.
 3. At this point, the client does a little work to put together a Zap request (a kind 9734 note) with data about the profile or note that it would like to Zap, the amount, the relays it should broadcast the note to, and a few other things. This is effectively a request for an invoice from the LNURL server.
 4. The LNURL server responds with the requested invoice.
@@ -35,15 +35,7 @@ And this all happens in just a few seconds and costs a tiny fraction of a penny.
 
 To Zap other people in Nostr, you need just two things:
 
-1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com/) or [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. A client that has implemented Zaps (like [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), or [Snort](https://snort.social))
+1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) or [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. A client that has implemented Zaps (like [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how), or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
-
-Keep in mind, it's possible to pay for Zaps from a wallet/address other than the address you have set in your profile to receive Zaps.
-
-For example, imagine the following:
-
-1. You have a [Stacker News](https://stacker.news/) lightning address set in your Nostr profile, this is where you'll receive any zapped sats.
-2. In your web browser, you use Iris as your client and pay for Zaps using your Alby wallet via their chrome extension
-3. On mobile, you use Damus as your client and pay for Zaps using the Wallet of Satoshi app.

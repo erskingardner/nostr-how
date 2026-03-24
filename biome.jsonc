@@ -1,5 +1,5 @@
 {
-    "$schema": "https://biomejs.dev/schemas/2.4.4/schema.json",
+    "$schema": "https://biomejs.dev/schemas/2.4.8/schema.json",
     "vcs": {
         "enabled": false,
         "clientKind": "git",
@@ -15,6 +15,7 @@
             "!.svelte-kit",
             "!.vercel",
             "!package",
+            "!static/styles/prism-duotone-dark.css",
             "!**/.env",
             "!**/.env.*",
             "!**/*.d.ts"
@@ -30,6 +31,14 @@
         "lineWidth": 100,
         "attributePosition": "auto",
         "bracketSpacing": true
+    },
+    "css": {
+        "parser": {
+            "tailwindDirectives": true
+        }
+    },
+    "html": {
+        "experimentalFullSupportEnabled": true
     },
     "assist": { "actions": { "source": { "organizeImports": "on" } } },
     "linter": {
@@ -51,14 +60,6 @@
             "bracketSpacing": true
         }
     },
-    "css": {
-        "parser": {
-            "cssModules": true
-        },
-        "linter": {
-            "enabled": false
-        }
-    },
     "overrides": [
         {
             "includes": ["**/*.svelte"],
@@ -67,13 +68,6 @@
                     "style": {
                         "useConst": "off",
                         "useImportType": "off"
-                    },
-                    "correctness": {
-                        "noUnusedImports": "off",
-                        "noUnusedVariables": "off"
-                    },
-                    "suspicious": {
-                        "noImplicitAnyLet": "off"
                     }
                 }
             }

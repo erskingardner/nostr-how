@@ -1,0 +1,50 @@
+{
+    "title": "Nostr",
+    "nav": {
+        "resources": "リソース",
+        "whatIs": "Nostrとは？",
+        "whyWeNeed": "なぜNostrが必要なのか？",
+        "getStarted": "Nostrの始め方",
+        "whatZaps": "Zapsとは?",
+        "nostrProtocol": "Nostrプロトコル",
+        "clients": "クライアント",
+        "relays": "リレー",
+        "relayImplementations": "リレーの実装",
+        "nostrProjects": "Nostrプロジェクト",
+        "contribute": "貢献する方法",
+        "guides": "ガイド",
+        "guideIris": "Iris (Webクライアント)",
+        "guideDamus": "Damus (iOSクライアント)",
+        "guideAmethyst": "Amethyst (Androidクライアント)",
+        "getNip05": "ドメイン認証 (NIP-05) の取得",
+        "guideNostrchat": "NostrChat (チャット・クライアント)",
+        "guideSweepSats": "セルフカストディへの送金",
+        "guideSetupWallet": "Zaps用のウォレット設定",
+        "donate": "寄付"
+    },
+    "donateButton": "寄付",
+    "colophon": "Made with 💜 & ⚡ by",
+    "foss": "誇り高きフリー＆オープンソース・ソフトウェア： ",
+    "mitLicense": "MITライセンス",
+    "contactMe": "お問い合わせ",
+    "donatePage": {
+        "metaTitle": "寄付 | Nostr.how",
+        "metaDescription": "Zap、直接のLightning寄付、またはより大きな支援についての連絡を通じて、Nostr.howをサポートできます。",
+        "title": "寄付",
+        "intro": "Nostr.howが役に立ったなら、サイトの改善を支える最もシンプルな方法はこちらです。",
+        "zapTitle": "NostrでZapする",
+        "zapBody": "すでにNostrを使っているなら、Nostr.howを支援する最も簡単な方法は、お気に入りのクライアントからJeffGに直接Zapを送ることです。",
+        "zapCta": "PrimalでJeffGを開く",
+        "lightningTitle": "satsを直接送る",
+        "lightningBody": "Lightningで直接支援したい場合は、以下のNostr.howのLightningアドレスにsatsを直接送れます。",
+        "lightningCta": "Lightningウォレットを開く",
+        "addressLabel": "Lightningアドレス",
+        "supportTitle": "より大きな改善を支援する",
+        "supportBody": "より大きなコンテンツ改善、翻訳、デザイン作業を支援したい場合は、NostrでJeffGに連絡してください。調整できます。",
+        "supportCta": "Nostrで連絡する"
+    },
+    "errors": {
+        "noTranslationTitle": "日本語版が見つかりませんでした",
+        "noTranslationMessage": "申し訳ありませんが、このページの日本語訳はまだありません。日本語訳のサポートに興味のある方は、ご連絡ください。"
+    }
+}

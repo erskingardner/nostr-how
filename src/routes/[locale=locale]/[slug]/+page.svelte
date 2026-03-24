@@ -1,51 +1,23 @@
-<script lang="ts">
-import { supportedLocales } from "$lib/config/l10n";
-import { locale } from "svelte-i18n";
+<script>
 import PageHeader from "$lib/components/PageHeader.svelte";
-import { page } from "$app/stores";
+import Seo from "$lib/components/Seo.svelte";
 
-export let data;
-let pageUrl: string = $page.url.pathname;
-
-const otherLocales: string[] = supportedLocales.filter((item) => {
-    return item !== $locale;
-});
+let { data } = $props();
 </script>
 
-<svelte:head>
-    <!-- HTML Meta Tags -->
-    <title>{data.title}</title>
-    <meta name="description" content={data.description} />
+<Seo title={data.title} description={data.description} slug={data.slug} />
 
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://nostr.how{pageUrl}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content={data.title} />
-    <meta property="og:description" content={data.description} />
-    <meta property="og:image" content="https://nostr.how/images/nostrich1200x630.webp" />
+<section class="space-y-10 md:space-y-14">
+    <PageHeader text={data.title} />
+    <p
+        class="max-w-[40rem] break-words text-[1.12rem] leading-[1.85] text-zinc-700 dark:text-zinc-300 md:text-[1.45rem] md:leading-[1.7]"
+    >
+        {data.description}
+    </p>
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="nostr.how" />
-    <meta property="twitter:url" content="https://nostr.how{pageUrl}" />
-    <meta name="twitter:title" content={data.title} />
-    <meta name="twitter:description" content={data.description} />
-    <meta name="twitter:image" content="https://nostr.how/images/nostrich1200x630.webp" />
-
-    {#each otherLocales as supportedLocale}
-        <link
-            rel="alternate"
-            hreflang={supportedLocale}
-            href="https://nostr.how/{supportedLocale}/{data.slug}"
-        />
-    {/each}
-</svelte:head>
-
-<PageHeader text={data.title} />
-<p class="text-lg md:text-xl break-words max-w-xl prose-md dark:prose-invert font-light">
-    {data.description}
-</p>
-
-<div class="markdownContent prose-md dark:prose-invert">
-    <svelte:component this={data.content} />
-</div>
+    <div
+        class="markdownContent prose prose-zinc max-w-none text-[1.04rem] dark:prose-invert prose-p:text-zinc-700 prose-li:text-zinc-700 prose-headings:font-bold prose-headings:text-zinc-950 prose-strong:text-zinc-950 prose-pre:rounded-[1.4rem] prose-blockquote:not-italic dark:prose-p:text-zinc-300 dark:prose-li:text-zinc-300 dark:prose-headings:text-zinc-50 dark:prose-strong:text-zinc-50 lg:prose-lg"
+    >
+        <data.content />
+    </div>
+</section>

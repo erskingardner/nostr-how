@@ -15,13 +15,9 @@ Many relays are currently free to use. Given the costs of running a relay (payin
 
 One major benefit of using paid relays now is the higher signal of users and notes on paid relays. The "proof of work" of paying for relay access is something that helps keep spam accounts from infesting the network.
 
-### Popular paid relays
-
-An up-to-date list of paid relays with details on how much they cost and who operates them can be found on [Relay Exchange](https://relay.exchange/)
-
 ### Where can I find a list of all relays?
 
-The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://legacy.nostr.watch/relays/find).
+The best resource we've found for browsing and assessing the speed of known relays is the [Nostr.watch site](https://nostr.watch?utm_source=nostr.how&ref=nostr.how).
 
 ## What happens if all the relays I use stop working?
 
@@ -29,4 +25,4 @@ If _all_ the relays that you have used in the past go offline, all your posts wi
 
 ## Should I run my own relay?
 
-For most people, no, it's not worth the hassle. That said, if you're technical and want to ensure that your speech is absolutely uncensorable or want to run a private relay for a small group, then you can and should run your own relay. This ensures that you always have a copy of all your Nostr posts and interactions for all time. We're working on a guide to this but in the meantime, [here is a guide](https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under) from Andre Neves on how to set up a Nostr relay.
+For most people, no, it's not worth the hassle. That said, if you're technical and want to ensure that your speech is absolutely uncensorable or want to run a private relay for a small group, then you can and should run your own relay. This ensures that you always have a copy of all your Nostr posts and interactions for all time. There are many different relay implementations written in many different programming languages or added to popular services like StartOS or Alby Hub.

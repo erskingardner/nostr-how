@@ -19,4 +19,4 @@ La resilienza di Nostr si basa sul fatto che il protocollo non si basa su un num
 
 ### Verificabile
 
-Poiché gli account Nostr si basano sulla [crittografia asimmetrica](https://it.wikipedia.org/wiki/Crittografia_asimmetrica), è facile verificare che i messaggi siano stati effettivamente inviati dall'utente in questione.
+Poiché gli account Nostr si basano sulla [crittografia asimmetrica](https://it.wikipedia.org/wiki/Crittografia_asimmetrica?utm_source=nostr.how&ref=nostr.how), è facile verificare che i messaggi siano stati effettivamente inviati dall'utente in questione.

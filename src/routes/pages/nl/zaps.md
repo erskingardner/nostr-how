@@ -21,7 +21,7 @@ In de eerste dagen van Nostr protocol was het gebruikelijk om lightning-facturen
 
 We zullen hier niet te diep ingaan op technische details, maar voor de nieuwsgierigen onder jullie, laten we eens kijken naar het systeem van hoe Zaps werken.
 
-1. Wanneer je klikt of tikt op het kleine ⚡ icoontje in je client (Damus, Iris, Amethyst, etc), checkt de client de [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/) of er een Lightning-wallet beschikbaar is van de persoon die je probeert te Zappen. Het eerste verzoek gaat ongeveer zo: "Hallo, ik zou Alice graag wat sats geven."
+1. Wanneer je klikt of tikt op het kleine ⚡ icoontje in je client (Damus, Iris, Amethyst, etc), checkt de client de [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how) of er een Lightning-wallet beschikbaar is van de persoon die je probeert te Zappen. Het eerste verzoek gaat ongeveer zo: "Hallo, ik zou Alice graag wat sats geven."
 2. De LNURL server antwoordt en, als Alice's portemonnee Zaps ondersteunt, zal het de client dit vertellen en Alice's publieke sleutel sturen/bevestigen.
 3. Op dit punt verricht de client wat werk om een Zap verzoek samen te stellen (dit is een kind 9734 bericht) met; gegevens over het profiel of het bericht die hij wil Zappen, het bedrag, de relay waar hij de notitie naartoe moet zenden en een paar andere dingen. In feite is dit een verzoek voor een factuur van de LNURL server.
 4. De LNURL server reageert met de aangevraagde factuur.
@@ -33,17 +33,9 @@ Dit alles gebeurt in slechts een paar seconden en kost een fractie van een cent.
 
 ## [§](#how-to-send-and-receive) Hoe verstuur en ontvang ik Zaps?
 
-Om andere mensen in Nostr te Zappen, heb je slechts twee dingen nodig:
+Om andere mensen op Nostr te Zappen, heb je maar twee dingen nodig:
 
-1. Een Zap-compatibele Lightning wallet (zoals [Alby](https://getalby.com/) of [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Een client die Zaps heeft geïmplementeerd (zoals [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris), of [Snort](https://snort.social))
+1. Een Zap-compatibele Lightning wallet (zoals [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) of [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Een client die Zaps heeft geïmplementeerd (zoals [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) of [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
-Het enige andere wat je nog moet doen, is ervoor zorgen dat je je Lightning adres hebt ingesteld in je Nostr profiel. Dit is het adres waar je Zaps zult ontvangen.
-
-Houd er rekening mee dat het mogelijk is om voor Zaps te betalen vanaf een andere wallet of adres dan het adres dat je in je profiel hebt ingesteld om Zaps te ontvangen.
-
-Stel bijvoorbeeld het volgende voor:
-
-1. Je hebt een [Stacker News](https://stacker.news/) Lightning adres dat is ingesteld in je Nostr profiel, dit is waar je alle sats van ontvangen zaps ontvangt.
-2. In je webbrowser gebruik je Iris als client en betaal je voor Zaps met je Alby wallet via hun chrome extensie.
-3. Op je smartphone gebruik je Damus als client en betaal je voor Zaps met de Wallet of Satoshi app.
+Het enige andere wat je nog moet doen, is ervoor zorgen dat je je Lightning-adres hebt ingesteld in je Nostr-profiel. Dit is het adres waar je Zaps zult ontvangen.

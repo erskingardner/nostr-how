@@ -20,5 +20,5 @@ Omdat Nostr niet afhankelijk is van een klein aantal servers voor het verplaatse
 
 ### Verifieerbaar
 
-Omdat Nostr accounts gebaseerd zijn op [public-key cryptografie](https://nl.wikipedia.org/wiki/Asymmetrische_cryptografie), is het eenvoudig om te controleren of berichten echt zijn verzonden door de gebruiker / account in kwestie.
+Omdat Nostr accounts gebaseerd zijn op [public-key cryptografie](https://nl.wikipedia.org/wiki/Asymmetrische_cryptografie?utm_source=nostr.how&ref=nostr.how), is het eenvoudig om te controleren of berichten echt zijn verzonden door de gebruiker / account in kwestie.
 

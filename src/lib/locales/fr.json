@@ -8,7 +8,7 @@
         "whatZaps": "Que sont les Zaps ?",
         "nostrProtocol": "Le protocole Nostr",
         "clients": "Clients",
-        "relais": "Relais",
+        "relays": "Relais",
         "relayImplementations": "Implementation de relai",
         "nostrProjects": "Autres projets Nostr",
         "contribute": "Contribuer",
@@ -19,13 +19,30 @@
         "getNip05": "Obtenir un NIP-05",
         "guideNostrchat": "NostrChat (Client de messagerie instantanée)",
         "guideSweepSats": "Détenir ses sats",
-        "guideSetupWallet": "Configurer un portefeuille pour les zaps"
+        "guideSetupWallet": "Configurer un portefeuille pour les zaps",
+        "donate": "Faire un don"
     },
-    "donateButton": "Don à Nostr.how",
+    "donateButton": "Faire un don",
     "colophon": "Fait avec 💜 et ⚡ par",
     "foss": "Logiciel fièrement libre et open source sous ",
     "mitLicense": "Licence MIT",
     "contactMe": "Rester en contact",
+    "donatePage": {
+        "metaTitle": "Faire un don | Nostr.how",
+        "metaDescription": "Soutenez Nostr.how avec un zap, un don Lightning direct ou en nous contactant pour un soutien plus important.",
+        "title": "Faire un don",
+        "intro": "Si Nostr.how vous a été utile, voici les moyens les plus simples d'aider le site à continuer de s'améliorer.",
+        "zapTitle": "Envoyer un zap sur Nostr",
+        "zapBody": "Si vous utilisez déjà Nostr, la façon la plus simple de soutenir Nostr.how est d'envoyer un zap à JeffG directement depuis votre client préféré.",
+        "zapCta": "Ouvrir JeffG sur Primal",
+        "lightningTitle": "Envoyer des sats directement",
+        "lightningBody": "Si vous préférez un paiement Lightning direct, vous pouvez envoyer des sats directement à l'adresse Lightning de Nostr.how ci-dessous.",
+        "lightningCta": "Ouvrir votre portefeuille Lightning",
+        "addressLabel": "Adresse Lightning",
+        "supportTitle": "Soutenir des améliorations plus importantes",
+        "supportBody": "Si vous souhaitez aider à financer une évolution plus ambitieuse du contenu, des traductions ou du design, contactez JeffG sur Nostr et nous pourrons en discuter.",
+        "supportCta": "Prendre contact sur Nostr"
+    },
     "errors": {
         "noTranslationTitle": "Traduction introuvable",
         "noTranslationMessage": "Désolé, il n'existe pas de traduction pour cette page. Si vous souhaitez participer à la création de cette page, n'hésitez pas à nous contacter."

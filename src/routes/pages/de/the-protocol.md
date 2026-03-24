@@ -60,62 +60,7 @@ So sieht ein Event der Art 1 aus (Art 1 ist für kurze Textnotizen – d. h. so 
 
 ### Event-Arten
 
-Dies ist eine Liste der aktuellen `Event`-Arten. Die aktuellste Liste findest du immer im [Nostr NIPs Repository](https://github.com/nostr-protocol/nips).
-
-| kind    | description                | NIP                                                            |
-| ------- | -------------------------- | -------------------------------------------------------------- |
-| `0`     | Metadata                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `1`     | Short Text Note            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `2`     | Recommend Relay            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `3`     | Contacts                   | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
-| `4`     | Encrypted Direct Messages  | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
-| `5`     | Event Deletion             | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
-| `6`     | Reposts                    | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
-| `7`     | Reaction                   | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
-| `8`     | Badge Award                | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `40`    | Channel Creation           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `41`    | Channel Metadata           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `42`    | Channel Message            | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `43`    | Channel Hide Message       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `44`    | Channel Mute User          | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `1063`  | File Metadata              | [94](https://github.com/nostr-protocol/nips/blob/master/94.md) |
-| `1984`  | Reporting                  | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
-| `9734`  | Zap Request                | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `9735`  | Zap                        | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `10000` | Mute List                  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10001` | Pin List                   | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10002` | Relay List Metadata        | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
-| `13194` | Wallet Info                | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `22242` | Client Authentication      | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
-| `23194` | Wallet Request             | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `23195` | Wallet Response            | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `24133` | Nostr Connect              | [46](https://github.com/nostr-protocol/nips/blob/master/46.md) |
-| `30000` | Categorized People List    | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30001` | Categorized Bookmark List  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30008` | Profile Badges             | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30009` | Badge Definition           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30017` | Create or update a stall   | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30018` | Create or update a product | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30023` | Long-form Content          | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| `30078` | Application-specific Data  | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
-| `30402` | Classifieds                | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
-| `31989` | Handler recommendation     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-| `31990` | Handler information        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-
-### Standardisierte Tags
-
-| name       | value                   | other parameters  | NIP                                                                                                                            |
-| ---------- | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| e          | event id (hex)          | relay URL, marker | [1](https://github.com/nostr-protocol/nips/blob/master/01.md), [10](https://github.com/nostr-protocol/nips/blob/master/10.md)  |
-| p          | pubkey (hex)            | relay URL         | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)                                                                  |
-| a          | coordinates to an event | relay URL         | [33](https://github.com/nostr-protocol/nips/blob/master/33.md), [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| r          | a reference (URL, etc)  |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| t          | hashtag                 |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| g          | geohash                 |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| nonce      | random                  |                   | [13](https://github.com/nostr-protocol/nips/blob/master/13.md)                                                                 |
-| subject    | subject                 |                   | [14](https://github.com/nostr-protocol/nips/blob/master/14.md)                                                                 |
-| d          | identifier              |                   | [33](https://github.com/nostr-protocol/nips/blob/master/33.md)                                                                 |
-| expiration | unix timestamp (string) |                   | [40](https://github.com/nostr-protocol/nips/blob/master/40.md)                                                                 |
+Es gibt viele verschiedene Arten von Nostr-Events. Die aktuellste Liste gängiger Event-Arten findest du immer im [Nostr-NIPs-Repository](https://github.com/nostr-protocol/nips).
 
 ## [§](#nips) NIPs
 

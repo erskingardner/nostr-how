@@ -13,9 +13,11 @@ description: مروری بر چیستی کلاینت ها در ناستر و م�
 
 چند نمونه
 
--   در ناستر شطرنج بازی کنید: [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)
+-   [White Noise](https://whitenoise.chat?utm_source=nostr.how&ref=nostr.how): پیام رسان با رمزنگاری سرتاسری
+-   [Shakespeare](https://shakespeare.diy?utm_source=nostr.how&ref=nostr.how): سازنده اپ هوش مصنوعی
+-   [zap.stream](https://zap.stream?utm_source=nostr.how&ref=nostr.how): سایت پخش زنده شبیه توییچ با زَپ
 -   محتوای بلند - شبیه مدیوم: [Habla](https://habla.news?utm_source=nostr.how&ref=nostr.how)
--   کلاینت اجتماعی متمرکز بر فیلم و عکس: [Nostrgram](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
+-   در ناستر شطرنج بازی کنید: [Jester](https://jesterui.github.io?utm_source=nostr.how&ref=nostr.how)
 
 ## می توانم کلاینتم را عوض کنم؟
 
@@ -31,19 +33,26 @@ description: مروری بر چیستی کلاینت ها در ناستر و م�
 
 ### وب
 
--   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود. [به راهنما مراجعه کنید](/fa/guides/iris).
+-   [پرایمال](https://primal.net?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
+-   [دیتو](https://ditto.pub?utm_source=nostr.how&ref=nostr.how)
+-   [آیریس](https://iris.to?utm_source=nostr.how&ref=nostr.how)
 -   [اسنورت](https://snort.social?utm_source=nostr.how&ref=nostr.how)
 -   [کوراکل](https://coracle.social?utm_source=nostr.how&ref=nostr.how)
--   [ناسترگرام](https://nostrgram.co?utm_source=nostr.how&ref=nostr.how)
+-   [ناسترودل](https://nostrudel.ninja?utm_source=nostr.how&ref=nostr.how)
 
 ### دسکتاپ
 
--   [گاسیپ](https://www.github.com/mikedilger/gossip) – گاسیپ یک کلاینت دستکاب بسیار خودرای است که به کمی دانش فنی بیشتر برای استفاده نیاز دارد. در عوض به کاربر کنترل بیشتری برای نحوه تعامل با ناستر می دهد.
+-   [گاسیپ](https://www.github.com/mikedilger/gossip?utm_source=nostr.how&ref=nostr.how) – گاسیپ یک کلاینت دستکاب بسیار خودرای است که به کمی دانش فنی بیشتر برای استفاده نیاز دارد. در عوض به کاربر کنترل بیشتری برای نحوه تعامل با ناستر می دهد.
+-   [ناسترور](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) - کلاینت مک با امکانات گسترده
 
 ### اپل iOS
 
--   [داموس](https://apps.apple.com/app/damus/id1628663131) – این اولین و بهترین کلاینت iOS برای ناستر است. [به راهنما مراجعه کنید](/fa/guides/damus).
+-   [پرایمال](https://apps.apple.com/it/app/primal/id1673134518?utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
+-   [داموس](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) – این اولین و بهترین کلاینت iOS برای ناستر است.
+-   [ناسترور](https://www.nostur.com?utm_source=nostr.how&ref=nostr.how) – کلاینت iOS/iPad/Mac با امکانات گسترده
+-   [نوتی](https://www.nootti.com?utm_source=nostr.how&ref=nostr.how) – کلاینت بومی iOS/iPad برای ارسال متقابل در ناستر، بلواسکای و مستودون
 
 ### اندروید
 
--   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst) – کلاینتی زیبا برای اندروید. [به راهنما مراجعه کنید](/fa/guides/amethyst).
+-   [پرایمال](https://play.google.com/store/apps/details?id=net.primal.android&hl=en&utm_source=nostr.how&ref=nostr.how) این کلاینت برای کاربران جدید توصیه می شود.
+-   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) – کلاینتی زیبا برای اندروید.

@@ -19,13 +19,30 @@
         "getNip05": "Bekomme eine Nostr-Adresse (NIP-05)",
         "guideNostrchat": "NostrChat (Chat-Client)",
         "guideSweepSats": "Selbstverwahrung deiner Sats",
-        "guideSetupWallet": "Richten Sie eine Brieftasche für Zaps ein"
+        "guideSetupWallet": "Richten Sie eine Brieftasche für Zaps ein",
+        "donate": "Spenden"
     },
-    "donateButton": "Spende an Nostr.how",
+    "donateButton": "Spenden",
     "colophon": "Made with 💜 & ⚡ by",
     "foss": "Free & Open Source Software unter",
     "mitLicense": "MIT-Lizenz",
     "contactMe": "Kontaktiere uns",
+    "donatePage": {
+        "metaTitle": "Spenden | Nostr.how",
+        "metaDescription": "Unterstütze Nostr.how mit einem Zap, einer direkten Lightning-Spende oder indem du dich wegen größerer Unterstützung meldest.",
+        "title": "Spenden",
+        "intro": "Wenn Nostr.how hilfreich für dich war, sind dies die einfachsten Wege, die weitere Entwicklung der Seite zu unterstützen.",
+        "zapTitle": "Auf Nostr zappen",
+        "zapBody": "Wenn du Nostr bereits nutzt, ist der einfachste Weg, Nostr.how zu unterstützen, JeffG direkt in deinem bevorzugten Client zu zappen.",
+        "zapCta": "JeffG auf Primal öffnen",
+        "lightningTitle": "Sats direkt senden",
+        "lightningBody": "Wenn du lieber direkt per Lightning zahlen möchtest, kannst du Sats direkt an die untenstehende Lightning-Adresse von Nostr.how senden.",
+        "lightningCta": "Lightning-Wallet öffnen",
+        "addressLabel": "Lightning-Adresse",
+        "supportTitle": "Größere Verbesserungen unterstützen",
+        "supportBody": "Wenn du eine größere inhaltliche, Übersetzungs- oder Design-Weiterentwicklung unterstützen möchtest, melde dich bei JeffG auf Nostr und wir können das koordinieren.",
+        "supportCta": "Auf Nostr Kontakt aufnehmen"
+    },
     "errors": {
         "noTranslationTitle": "Übersetzung nicht gefunden",
         "noTranslationMessage": "Entschuldige, es existiert keine Übersetzung für diese Seite. Wenn du daran interessiert sind, beim Erstellen dieser Seite mitzuhelfen, wende dich bitte an uns."

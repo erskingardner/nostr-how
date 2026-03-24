@@ -5,7 +5,7 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 ## [§](#the-basics) Основи
 
-Найпростіший спосіб думати про Zaps - це те, що вони просто чайові. Чайові, які передаються через [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp) зі швидкістю світла з практично нульовими комісіями за транзакції.
+Найпростіший спосіб думати про Zaps - це те, що вони просто чайові. Чайові, які передаються через [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) зі швидкістю світла з практично нульовими комісіями за транзакції.
 
 З початку протоколу Nostr було звично бачити Lightning рахунки у нотатках. З моменту впровадження [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md), Zaps стали основним способом передачі вартості у нотатках Nostr. Давайте детальніше розглянемо, що впровадив NIP-57 і як працюють Zaps.
 
@@ -21,7 +21,7 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 Ми не будемо заглиблюватися в технічні деталі, але для тих, хто цікавиться, давайте розглянемо основні механізми роботи Zaps.
 
-1. Коли ви натискаєте або торкаєтеся маленької іконки ⚡ у вашому клієнті (Damus, Iris, Amethyst тощо), перше, що відбувається, це те, що клієнт пінгує [сервер LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/), який знаходиться перед lightning гаманцем людини, яку ви хочете Zap. Перший запит виглядає приблизно так: "Привіт, я хотів би дати Алісі трохи сатоші."
+1. Коли ви натискаєте або торкаєтеся маленької іконки ⚡ у вашому клієнті (Damus, Iris, Amethyst тощо), перше, що відбувається, це те, що клієнт пінгує [сервер LNURL](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how), який знаходиться перед lightning гаманцем людини, яку ви хочете Zap. Перший запит виглядає приблизно так: "Привіт, я хотів би дати Алісі трохи сатоші."
 2. Сервер LNURL відповідає і, якщо гаманець Аліси підтримує Zaps, він повідомить про це клієнту і надішле/підтвердить публічний ключ Аліси.
 3. На цьому етапі клієнт виконує невелику роботу, щоб скласти запит на Zap (нотатка виду 9734) з даними про профіль або нотатку, яку він хоче Zap, суму, ретранслятори, на які слід передати нотатку, та кілька інших речей. Це фактично запит на рахунок від сервера LNURL.
 4. Сервер LNURL відповідає запитуваним рахунком.
@@ -33,17 +33,9 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 ## [§](#how-to-send-and-receive) Як відправляти та отримувати Zaps?
 
-Щоб Zap інших людей у Nostr, вам потрібно лише дві речі:
+Щоб відправляти Zaps іншим людям у Nostr, вам потрібні лише дві речі:
 
-1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com/) або [Wallet of Satoshi](https://www.walletofsatoshi.com/))
-2. Клієнт, який впровадив Zaps (наприклад, [Damus](/en/guides/damus), [Amethyst](/en/guides/amethyst), [Iris](/en/guides/iris) або [Snort](https://snort.social))
+1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) або [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Клієнт, який впровадив Zaps (наприклад, [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) або [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Єдине, що вам потрібно зробити, це переконатися, що у вашому профілі Nostr встановлена ваша lightning адреса. Це адреса, на яку ви будете отримувати Zaps.
-
-Майте на увазі, що можна оплачувати Zaps з гаманця/адреси, відмінної від тієї, яку ви встановили у своєму профілі для отримання Zaps.
-
-Наприклад, уявіть наступне:
-
-1. У вашому профілі Nostr встановлена lightning адреса [Stacker News](https://stacker.news/), це місце, де ви будете отримувати будь-які запитані сатоші.
-2. У вашому веб-браузері ви використовуєте Iris як клієнт і оплачуєте Zaps за допомогою гаманця Alby через їх розширення для Chrome.
-3. На мобільному пристрої ви використовуєте Damus як клієнт і оплачуєте Zaps за допомогою додатку Wallet of Satoshi.

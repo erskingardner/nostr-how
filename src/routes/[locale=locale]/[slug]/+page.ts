@@ -1,16 +1,21 @@
-import { setupI18n } from "$lib/i18n";
 import { error } from "@sveltejs/kit";
 import type { Component } from "svelte";
 import { _ } from "svelte-i18n";
 import { get } from "svelte/store";
 
 export async function load({ params }) {
-    // Initialize i18n
-    setupI18n({ locale: params.locale });
-
-    let page: { metadata: { title: string; description: string }; default: Component };
     try {
-        page = await import(`../../pages/${params.locale}/${params.slug}.md`);
+        const page = await import(`../../pages/${params.locale}/${params.slug}.md`);
+        const { title, description } = page.metadata;
+        const content = page.default;
+        const slug = params.slug;
+
+        return {
+            content,
+            title,
+            description,
+            slug,
+        };
     } catch {
         const t = get(_);
         if (params.locale === "en") {
@@ -25,15 +30,4 @@ export async function load({ params }) {
             });
         }
     }
-
-    const { title, description } = page.metadata;
-    const content = page.default;
-    const slug = params.slug;
-
-    return {
-        content,
-        title,
-        description,
-        slug,
-    };
 }

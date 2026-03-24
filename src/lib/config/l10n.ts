@@ -13,7 +13,7 @@ export const locales: localesType[] = [
     { alpha2Code: "pt", name: "Português" },
     { alpha2Code: "nl", name: "Dutch" },
     { alpha2Code: "uk", name: "Українська" },
-    { alpha2Code: "jp", name: "日本語" },
+    { alpha2Code: "ja", name: "日本語" },
     { alpha2Code: "zh", name: "中文" },
     { alpha2Code: "fa", name: "پارسی" },
 ];
@@ -23,3 +23,9 @@ export const supportedLocales: string[] = locales.map((item) => item.alpha2Code)
 
 // Locale to show when we don't support the requested locale
 export const fallbackLocale = "en";
+
+const rtlLocales = new Set(["fa"]);
+
+export function isRtlLocale(locale: string) {
+    return rtlLocales.has(locale);
+}

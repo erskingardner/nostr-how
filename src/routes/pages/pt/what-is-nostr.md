@@ -19,4 +19,4 @@ Como o Nostr não depende de um pequeno número de servidores de confiança para
 
 ### Verificável
 
-Uma vez que as contas do Nostr são baseadas em [criptografia de chave pública](https://pt.wikipedia.org/wiki/Criptografia_de_chave_p%C3%BAblica), é fácil verificar que as mensagens foram realmente enviadas pelo utilizador em questão.
+Uma vez que as contas do Nostr são baseadas em [criptografia de chave pública](https://pt.wikipedia.org/wiki/Criptografia_de_chave_p%C3%BAblica?utm_source=nostr.how&ref=nostr.how), é fácil verificar que as mensagens foram realmente enviadas pelo utilizador em questão.
