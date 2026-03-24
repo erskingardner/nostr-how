@@ -24,6 +24,7 @@ Nostr 协议本身只是一个协议；一种在互联网上传递消息的约�
 试试我们最喜欢的几款 Nostr 应用：
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) 用户友好的客户端，在移动设备上内置闪电钱包。
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 

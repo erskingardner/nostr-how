@@ -24,6 +24,7 @@ Nostr сам по собі є лише протоколом; погоджено�
 Спробуйте кілька наших улюблених застосунків Nostr:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Веб, iOS, Android) Зручний клієнт із вбудованим lightning гаманцем на мобільних пристроях.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Веб)
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 

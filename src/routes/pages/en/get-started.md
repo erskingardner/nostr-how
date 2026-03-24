@@ -24,6 +24,7 @@ You will access Nostr (the protocol) via a client. Clients can be web, desktop, 
 Try out some of our favorite Nostr apps:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) User-friendly client with built-in lightning wallet on mobile.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 

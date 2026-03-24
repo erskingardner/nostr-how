@@ -24,6 +24,7 @@ Nostr（プロトコル）にはクライアントを介してアクセスしま
 私たちのお気に入りのNostrアプリをいくつか試してみてください：
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) モバイルにライトニングウォレットが組み込まれたユーザーフレンドリーなクライアント。
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)（iOS）
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)（Android）
 

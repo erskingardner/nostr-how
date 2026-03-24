@@ -24,6 +24,7 @@ description: این راهنما کمک می کند مفاهیم پایه ناس
 چند تا از اپ های محبوب ناستر ما را امتحان کنید:
 
 -   [پرایمال](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) کلاینتی کاربرپسند با کیف پول لایتنینگ داخلی روی موبایل.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
 -   [داموس](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 

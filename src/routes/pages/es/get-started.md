@@ -24,6 +24,7 @@ Accederás a Nostr (el protocolo) a través de un cliente. Los clientes pueden s
 Prueba algunas de nuestras aplicaciones Nostr favoritas:
 
 -   [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) (Web, iOS, Android) Cliente fácil de usar con billetera Lightning incorporada en dispositivos móviles.
+-   [Ditto](https://ditto.pub?utm_source=nostr.how&ref=nostr.how) (Web)
 -   [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) (iOS)
 -   [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how) (Android)
 
