@@ -1,4 +1,5 @@
 import { error } from "@sveltejs/kit";
+import type { Component } from "svelte";
 import { _ } from "svelte-i18n";
 import { get } from "svelte/store";
 
