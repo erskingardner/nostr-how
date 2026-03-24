@@ -61,58 +61,7 @@ description: این مروری سطح بالا بر پروتکل ناستر شا
 
 ### انواع رویداد
 
-این لیستی از انواع فعلی `رویداد` است. بروز ترین لیست همیشه در [ریپازیتوری NIPهای ناستر](https://github.com/nostr-protocol/nips) یافت می شود.
-
-| نوع         | توصیف                            | NIP                                                            |
-| ----------- | -------------------------------- | -------------------------------------------------------------- |
-| 0           | فراداده                          | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| 1           | یادداشت متنی کوتاه               | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| 2           | توصیه رله                        | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| 3           | مخاطبان                          | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
-| 4           | پیام های مستقیم رمزنگاری شده     | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
-| 5           | حذف رویداد                       | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
-| 6           | بازنشر                           | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
-| 7           | واکنش                            | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
-| 8           | مدال پاداش                       | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| 40          | ایجاد کانال                      | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| 41          | فراداده کانال                    | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| 42          | پیام کانال                       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| 43          | پیام مخفی کانال                  | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| 44          | کاربر بیصدای کانال               | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| 1984        | گذارش کردن                       | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
-| 9734        | درخواست زپ                       | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| 9735        | زپ                               | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| 10000       | لیست بی صدا                      | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| 10001       | لیست سنجاق                       | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| 10002       | فراداده لیست رله                 | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
-| 22242       | احراز هویت کلاینت                | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
-| 24133       | اتصال ناستر                      | [46](https://github.com/nostr-protocol/nips/blob/master/46.md) |
-| 30000       | لیست دسته بندی افراد             | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| 30001       | لیست دسته بندی نشانک             | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| 30008       | مدال نمایه                       | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| 30009       | تعریف مدال                       | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| 30023       | محتوای طولانی                    | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| 30078       | داده مخصوص اپلیکیشن              | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
-| 30402       | طبقه بندی ها                     | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
-| 1000-9999   | رویدادهای عادی                   | [16](https://github.com/nostr-protocol/nips/blob/master/16.md) |
-| 10000-19999 | رویدادهای قابل جایگزینی          | [16](https://github.com/nostr-protocol/nips/blob/master/16.md) |
-| 20000-29999 | رویدادهای زودگذر                 | [16](https://github.com/nostr-protocol/nips/blob/master/16.md) |
-| 30000-39999 | رویدادهای قابل جایگزینی پارامتری | [33](https://github.com/nostr-protocol/nips/blob/master/33.md) |
-
-### تگ های استاندارد
-
-| نام        | مقدار                      | سایر پارامترها | NIP                                                                                                                            |
-| ---------- | -------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| e          | شناسه رویداد (hex)         | رله URL, علامت | [1](https://github.com/nostr-protocol/nips/blob/master/01.md), [10](https://github.com/nostr-protocol/nips/blob/master/10.md)  |
-| p          | کلید عمومی (hex)           | relay URL      | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)                                                                  |
-| a          | با یک رویداد هماهنگ می کند | relay URL      | [33](https://github.com/nostr-protocol/nips/blob/master/33.md), [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| r          | ارجاع (URL, etc)           |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| t          | هشتگ                       |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| g          | جئوهش                      |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| nonce      | تصادفی                     |                | [13](https://github.com/nostr-protocol/nips/blob/master/13.md)                                                                 |
-| subject    | موضوع                      |                | [14](https://github.com/nostr-protocol/nips/blob/master/14.md)                                                                 |
-| d          | شناسه                      |                | [33](https://github.com/nostr-protocol/nips/blob/master/33.md)                                                                 |
-| expiration | unix مهرزمانی (رشته)       |                | [40](https://github.com/nostr-protocol/nips/blob/master/40.md)                                                                 |
+رویدادهای Nostr انواع بسیار زیادی دارند. به‌روزترین فهرست رویدادهای رایج را همیشه می‌توان در [مخزن NIPهای Nostr](https://github.com/nostr-protocol/nips) پیدا کرد.
 
 ## [§](#nips) NIPs
 

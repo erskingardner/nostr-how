@@ -60,62 +60,7 @@ kind 1のイベントは以下のようなものです（kind 1は短いテキ�
 
 ### イベントの種類（Event Kinds）
 
-これは現在の `Event` kindリストです。最新版のリストは、常に[Nostr NIPs repository](https://github.com/nostr-protocol/nips)にあります。
-
-| kind    | 説明                | NIP                                                            |
-| ------- | -------------------------- | -------------------------------------------------------------- |
-| `0`     | メタデータ（ユーザー・プロフィール）                   | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `1`     | テキスト（いわゆる「投稿」）            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `2`     | 推奨リレー            | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `3`     | フォローリスト（コンタクト）                   | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
-| `4`     | 暗号化ダイレクトメッセージ  | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
-| `5`     | イベント削除             | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
-| `6`     | リポスト                    | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
-| `7`     | リアクション（いわゆる「いいね！」）                   | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
-| `8`     | バッジ授与                | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `40`    | チャンネル作成           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `41`    | チャンネル・メタデータ           | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `42`    | チャンネル・メッセージ            | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `43`    | チャンネル・非表示メッセージ       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `44`    | チャンネル・ミュート・ユーザー          | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `1063`  | ファイル・メタデータ              | [94](https://github.com/nostr-protocol/nips/blob/master/94.md) |
-| `1984`  | 通報（スパム報告など）                  | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
-| `9734`  | Zapリクエスト                | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `9735`  | Zapレシート                        | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `10000` | ミュート・リスト                  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10001` | ピン留めリスト                   | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10002` | 利用中のリレー・リスト        | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
-| `13194` | ウォレット情報                | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `22242` | クライアント認証      | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
-| `23194` | Wallet Connectリクエスト             | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `23195` | Wallet Connectリクエスト            | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `24133` | Nostr Connect              | [46](https://github.com/nostr-protocol/nips/blob/master/46.md) |
-| `30000` | カテゴライズされたユーザー・リスト    | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30001` | カテゴライズされたブックマーク・リスト  | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30008` | プロフィール・バッジ             | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30009` | バッジの定義           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30017` | 商品の作成・更新   | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30018` | 商品の作成・更新 | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30023` | 長文投稿          | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| `30078` | アプリの固有データ  | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
-| `30402` | クラシファイド                | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
-| `31989` | ハンドラーの推薦     | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-| `31990` | ハンドラーの情報        | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-
-### 標準化されたタグ
-
-| 名称       | 値                   | その他のパラメータ  | NIP                                                                                                                            |
-| ---------- | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| e          | event id (hex)          | relay URL, marker | [1](https://github.com/nostr-protocol/nips/blob/master/01.md), [10](https://github.com/nostr-protocol/nips/blob/master/10.md)  |
-| p          | pubkey (hex)            | relay URL         | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)                                                                  |
-| a          | coordinates to an event | relay URL         | [33](https://github.com/nostr-protocol/nips/blob/master/33.md), [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| r          | a reference (URL, etc)  |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| t          | hashtag                 |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| g          | geohash                 |                   | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| nonce      | random                  |                   | [13](https://github.com/nostr-protocol/nips/blob/master/13.md)                                                                 |
-| subject    | subject                 |                   | [14](https://github.com/nostr-protocol/nips/blob/master/14.md)                                                                 |
-| d          | identifier              |                   | [33](https://github.com/nostr-protocol/nips/blob/master/33.md)                                                                 |
-| expiration | unix timestamp (string) |                   | [40](https://github.com/nostr-protocol/nips/blob/master/40.md)                                                                 |
+Nostr にはさまざまな種類のイベントがあります。よく使われるイベント種別の最新リストは、いつでも [Nostr NIPs repository](https://github.com/nostr-protocol/nips) で確認できます。
 
 ## [§](#nips) NIPs
 

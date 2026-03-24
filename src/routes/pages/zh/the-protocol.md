@@ -60,62 +60,7 @@ description: 这是 Nostr 协议的概述，其中包含 Event 的细节介绍�
 
 ### 事件类型
 
-这里是当前 `Event` 类型的列表。最新的列表可以在 [Nostr NIPs 仓库](https://github.com/nostr-protocol/nips) 中找到。
-
-| 类型    | 描述               | 提及的 NIP                                                     |
-| ------- | ------------------ | -------------------------------------------------------------- |
-| `0`     | 元数据             | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `1`     | 短文本             | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `2`     | 推荐中继列表       | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)  |
-| `3`     | 关注人列表         | [2](https://github.com/nostr-protocol/nips/blob/master/02.md)  |
-| `4`     | 加密私信           | [4](https://github.com/nostr-protocol/nips/blob/master/04.md)  |
-| `5`     | 删除事件           | [9](https://github.com/nostr-protocol/nips/blob/master/09.md)  |
-| `6`     | 转发               | [18](https://github.com/nostr-protocol/nips/blob/master/18.md) |
-| `7`     | 回应               | [25](https://github.com/nostr-protocol/nips/blob/master/25.md) |
-| `8`     | 徽章奖励           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `40`    | 创建聊天室         | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `41`    | 聊天室元数据       | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `42`    | 聊天室消息         | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `43`    | 聊天室隐藏某条消息 | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `44`    | 聊天室屏蔽某用户   | [28](https://github.com/nostr-protocol/nips/blob/master/28.md) |
-| `1063`  | 文件元数据         | [94](https://github.com/nostr-protocol/nips/blob/master/94.md) |
-| `1984`  | 举报               | [56](https://github.com/nostr-protocol/nips/blob/master/56.md) |
-| `9734`  | 打闪请求           | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `9735`  | 打闪               | [57](https://github.com/nostr-protocol/nips/blob/master/57.md) |
-| `10000` | 静音列表           | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10001` | 置顶列表           | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `10002` | 中继列表元数据     | [65](https://github.com/nostr-protocol/nips/blob/master/65.md) |
-| `13194` | 钱包信息           | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `22242` | 客户端认证         | [42](https://github.com/nostr-protocol/nips/blob/master/42.md) |
-| `23194` | 钱包请求           | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `23195` | 钱包回应           | [47](https://github.com/nostr-protocol/nips/blob/master/47.md) |
-| `24133` | Nostr 连接         | [46](https://github.com/nostr-protocol/nips/blob/master/46.md) |
-| `30000` | 用户分组列表       | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30001` | 书签分组列表       | [51](https://github.com/nostr-protocol/nips/blob/master/51.md) |
-| `30008` | 个人资料徽章       | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30009` | 徽章定义           | [58](https://github.com/nostr-protocol/nips/blob/master/58.md) |
-| `30017` | 创建或更新商品列表 | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30018` | 创建或更新一个商品 | [15](https://github.com/nostr-protocol/nips/blob/master/15.md) |
-| `30023` | 长文               | [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| `30078` | 应用自定义数据     | [78](https://github.com/nostr-protocol/nips/blob/master/78.md) |
-| `30402` | 分类               | [99](https://github.com/nostr-protocol/nips/blob/master/99.md) |
-| `31989` | 推荐处理者         | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-| `31990` | 处理者的信息       | [89](https://github.com/nostr-protocol/nips/blob/master/89.md) |
-
-### 标准化标签
-
-| 名称       | 值                 | 其他参数       | 提及的 NIP                                                                                                                     |
-| ---------- | ------------------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| e          | 事件 ID（16 进制） | 中继 URL, 标记 | [1](https://github.com/nostr-protocol/nips/blob/master/01.md), [10](https://github.com/nostr-protocol/nips/blob/master/10.md)  |
-| p          | 公钥（16 进制）    | 中继 URL       | [1](https://github.com/nostr-protocol/nips/blob/master/01.md)                                                                  |
-| a          | 事件坐标           | 中继 URL       | [33](https://github.com/nostr-protocol/nips/blob/master/33.md), [23](https://github.com/nostr-protocol/nips/blob/master/23.md) |
-| r          | 引用（URL 等）     |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| t          | 话题               |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| g          | 地理位置           |                | [12](https://github.com/nostr-protocol/nips/blob/master/12.md)                                                                 |
-| nonce      | 噪声               |                | [13](https://github.com/nostr-protocol/nips/blob/master/13.md)                                                                 |
-| subject    | 主题               |                | [14](https://github.com/nostr-protocol/nips/blob/master/14.md)                                                                 |
-| d          | 标识               |                | [33](https://github.com/nostr-protocol/nips/blob/master/33.md)                                                                 |
-| expiration | 时间戳（字符串）   |                | [40](https://github.com/nostr-protocol/nips/blob/master/40.md)                                                                 |
+Nostr 事件有很多很多不同的类型。最新的常见事件类型列表总能在 [Nostr NIPs 仓库](https://github.com/nostr-protocol/nips) 中找到。
 
 ## [§](#nips) NIPs
 
