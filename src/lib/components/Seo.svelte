@@ -48,7 +48,7 @@ let structuredData = $derived(
             name: "Nostr",
             description: "A simple, open protocol for decentralized publishing and communication.",
         },
-    })
+    }).replace(/</g, "\\u003C")
 );
 </script>
 
@@ -80,7 +80,5 @@ let structuredData = $derived(
         <link rel="alternate" hreflang={alternate.locale} href={alternate.href} />
     {/each}
 
-    <script type="application/ld+json">
-        {@html structuredData}
-    </script>
+    <svelte:element this={"script"} type="application/ld+json">{structuredData}</svelte:element>
 </svelte:head>
