@@ -1,0 +1,50 @@
+{
+  "title": "Nostr",
+  "nav": {
+    "resources": "Ресурсы",
+    "whatIs": "Что такое Nostr?",
+    "whyWeNeed": "Зачем нужен Nostr?",
+    "getStarted": "Начало работы",
+    "whatZaps": "Что такое запы?",
+    "nostrProtocol": "Протокол Nostr",
+    "clients": "Клиенты",
+    "relays": "Узлы",
+    "relayImplementations": "Варианты реализации узлов",
+    "nostrProjects": "Проекты на Nostr",
+    "contribute": "Участвовать",
+    "guides": "Руководства",
+    "guideIris": "Iris (веб-клиент)",
+    "guideDamus": "Damus (клиент для iOS)",
+    "guideAmethyst": "Amethyst (клиент для Android)",
+    "getNip05": "Получить верификацию NIP-05",
+    "guideNostrchat": "NostrChat (чат-клиент)",
+    "guideSweepSats": "Самостоятельное хранение сатоши",
+    "guideSetupWallet": "Настроить кошелёк для запов",
+    "donate": "Поддержать проект"
+  },
+  "donateButton": "Поддержать",
+  "colophon": "Создано с 💜 и ⚡",
+  "foss": "Свободное программное обеспечение с открытым исходным кодом по лицензии ",
+  "mitLicense": "MIT",
+  "contactMe": "Связаться",
+  "donatePage": {
+    "metaTitle": "Поддержать | Nostr.how",
+    "metaDescription": "Поддержите Nostr.how запом, прямым переводом через Lightning или свяжитесь для более крупного спонсорства.",
+    "title": "Поддержать",
+    "intro": "Если Nostr.how оказался полезным, вот самые простые способы помочь развитию сайта.",
+    "zapTitle": "Запнуть",
+    "zapBody": "Если вы уже пользуетесь Nostr, самый простой способ поддержать Nostr.how — запнуть JeffG напрямую через ваш любимый клиент.",
+    "zapCta": "Открыть профиль JeffG в Primal",
+    "lightningTitle": "Отправить сатоши напрямую",
+    "lightningBody": "Если вы предпочитаете обычный Lightning-перевод, отправьте сатоши на Lightning-адрес Nostr.how, указанный ниже.",
+    "lightningCta": "Открыть Lightning-кошелёк",
+    "addressLabel": "Lightning-адрес",
+    "supportTitle": "Поддержать крупные улучшения",
+    "supportBody": "Если вы хотите помочь профинансировать создание нового контента, переводы или улучшение дизайна, свяжитесь с JeffG в Nostr, и мы всё согласуем.",
+    "supportCta": "Связаться в Nostr"
+  },
+  "errors": {
+    "noTranslationTitle": "Перевод не найден",
+    "noTranslationMessage": "К сожалению, перевод этой страницы пока отсутствует. Если вы хотите помочь с её переводом, пожалуйста, свяжитесь с нами."
+  }
+}
