@@ -1,0 +1,45 @@
+---
+title: Что такое запы?
+description: Узнайте, что такое запы, как они работают и что нужно для их использования в вашем клиенте.
+---
+
+## [§](#the-basics) The basics
+
+Проще всего представить запы как чаевые. Это небольшие денежные переводы, которые отправляются через сеть Lightning практически мгновенно и почти без комиссий.
+
+На ранних этапах развития Nostr пользователи часто размещали в публикациях Lightning-инвойсы. После появления NIP-57 запы стали основным способом передачи ценности через публикации в Nostr. Давайте подробнее рассмотрим, что именно добавил NIP-57 и как работают запы.
+
+The simplest way to think about Zaps is that they are simply tips. Tips which are transmitted over the [Lightning network](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) at the speed of light with basically no transaction fees.
+
+In the beginning of the Nostr protocol, it was common to see Lightning invoices in notes. Since [NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) was implemented, Zaps have become the main way that value is transmitted in Nostr notes. Let's take a closer look at what NIP-57 implemented and how Zaps work.
+
+## [§](#nip-57) NIP-57
+
+[NIP-57](https://github.com/nostr-protocol/nips/blob/master/57.md) is the document that describes how Zaps should be implemented. It creates two new kinds of notes, kind 9735 (A Zap) and kind 9734 (A Zap request). In concert these two kinds make it possible for Nostr clients to request Zap invoices from LNURL servers and pay them. The NIP-57 spec also describes how Lightning wallets that receive Zap payments should create notes to be sent to relays.
+
+💡 Fun fact, the note kind chosen for Zaps is the same as the networking port (9735) that Lightning uses.
+
+## [§](#how-zaps-work) How Zaps work
+
+![Zap flowchart](/images/zap-flow.webp)
+
+We won't get into the deep technical weeds here but for the curious among you, let's look at the basic mechanics of how Zaps work.
+
+1. When you click or tap on the little ⚡ icon in your client (Damus, Iris, Amethyst, etc), the first thing that happens is that the client pings the [LNURL server](https://thebitcoinmanual.com/articles/what-is-ln-url-and-how-does-it-work/?utm_source=nostr.how&ref=nostr.how) that sits in front of lightning wallet of the person that you're trying to Zap. The first request goes something like, "Hi there, I would love to give Alice some sats."
+2. The LNURL server responds and, if Alice's wallet supports Zaps, it will tell the client so and send/confirm Alice's public key.
+3. At this point, the client does a little work to put together a Zap request (a kind 9734 note) with data about the profile or note that it would like to Zap, the amount, the relays it should broadcast the note to, and a few other things. This is effectively a request for an invoice from the LNURL server.
+4. The LNURL server responds with the requested invoice.
+5. At this point the client will hand that invoice off to the user's lightning wallet to be paid. If you are using a wallet like Alby in the browser (and have set a budget) this process can happen very quickly.
+6. Once the user has paid the invoice directly to the wallet of the person they're zapping, the receiver's wallet will create a kind 9735 note and then broadcast that to the relays specified earlier in the Zap request.
+7. Relays receiving this note will then be able to tell connected clients about the zap and clients can show the zap to users in their UI.
+
+And this all happens in just a few seconds and costs a tiny fraction of a penny.
+
+## [§](#how-to-send-and-receive) How do I send and receive Zaps?
+
+To Zap other people in Nostr, you need just two things:
+
+1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) or [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+2. A client that has implemented Zaps (like [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how), or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
+
+The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.
