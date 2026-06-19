@@ -1,9 +1,9 @@
 ---
-title: Что такое запы (zaps)?
+title: Что такое запы (zaps)
 description: Узнайте, что такое запы, как они работают и что нужно для их использования в вашем клиенте.
 ---
 
-## [§](#the-basics) Основы
+## [§](#основы) Основы
 
 Проще всего представить запы как чаевые. Это небольшие денежные переводы, которые отправляются через сеть [Lightning](https://www.investopedia.com/terms/l/lightning-network.asp?utm_source=nostr.how&ref=nostr.how) практически мгновенно и почти без комиссий.
 
@@ -15,7 +15,7 @@ description: Узнайте, что такое запы, как они рабо�
 
 💡 Интересный факт: для запов был выбран номер события 9735 — это тот же номер порта, который по умолчанию использует сеть Lightning.
 
-## [§](#how-zaps-work) Как работают запы
+## [§](#как-работают-запы) Как работают запы
 
 ![Схема работы запов](/images/zap-flow.webp)
 
@@ -31,11 +31,11 @@ description: Узнайте, что такое запы, как они рабо�
 
 Весь этот процесс занимает всего несколько секунд и стоит доли цента.
 
-## [§](#how-to-send-and-receive) Как отправлять и получать запы?
+## [§](#как-отправлять-и-получать-запы) Как отправлять и получать запы
 
 Чтобы запать другим пользователям Nostr, вам понадобятся всего две вещи:
 
-1. Lightning-кошелёк с поддержкой запов (например [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) или [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)).
-1. Клиент Nostr с поддержкой запов (например [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) или [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)).
+1. Lightning-кошелёк с поддержкой запов (например [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) или [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)),
+1. клиент Nostr с поддержкой запов (например [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) или [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)).
 
 Наконец, убедитесь, что в вашем профиле Nostr указан Lightning-адрес. Именно на него вы будете получать запы.
