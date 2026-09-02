@@ -1,6 +1,6 @@
 <script>
 import DonateButton from "$lib/components/DonateButton.svelte";
-import { isLoading } from "svelte-i18n";
+import { _, isLoading } from "svelte-i18n";
 import GithubIcon from "$lib/elements/icons/Github.svelte";
 </script>
 
@@ -15,7 +15,7 @@ import GithubIcon from "$lib/elements/icons/Github.svelte";
                 class="flex flex-wrap items-center gap-x-1.5 gap-y-1 font-ui text-[0.7rem] leading-5 text-zinc-500 dark:text-zinc-400"
             >
                 <span class="hidden sm:inline"
-                    >Proudly made with 💜 & ⚡ by
+                    >{$_("colophon")}
                     <a
                         href="https://primal.net/jeffg"
                         class="underline decoration-accent-400/60 underline-offset-4 hover:text-accent-700 dark:hover:text-accent-300"
