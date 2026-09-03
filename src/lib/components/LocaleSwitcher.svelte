@@ -36,7 +36,6 @@ function changeLocale(event) {
                 type="button"
                 aria-label={`Switch to ${localeItem.name}`}
                 class="block w-full rounded-[0.85rem] px-3 py-2 text-left font-ui text-sm leading-5 text-zinc-600 transition-colors duration-150 hover:bg-accent-50 hover:text-accent-700 dark:text-zinc-300 dark:hover:bg-accent-500/10 dark:hover:text-accent-300"
-                dir={localeItem.alpha2Code === "fa" ? "rtl" : "ltr"}
                 data-localecode={localeItem.alpha2Code}
                 onclick={changeLocale}
             >
