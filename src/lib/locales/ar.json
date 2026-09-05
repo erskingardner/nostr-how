@@ -1,0 +1,50 @@
+{
+    "title": "نوستر",
+    "nav": {
+        "resources": "المصادر",
+        "whatIs": "ما هو نوستر؟",
+        "whyWeNeed": "لماذا نحتاج إلى نوستر؟",
+        "getStarted": "ابدأ الآن",
+        "whatZaps": "ما هي ميزة الزابس (Zaps)؟",
+        "nostrProtocol": "بروتوكول نوستر",
+        "clients": "التطبيقات (العملاء)",
+        "relays": "المرحّلات (Relays)",
+        "relayImplementations": "تطبيقات المرحّلات",
+        "nostrProjects": "مشاريع نوستر",
+        "contribute": "المساهمة",
+        "guides": "الأدلة والشروحات",
+        "guideIris": "Iris (تطبيق ويب)",
+        "guideDamus": "Damus (تطبيق iOS)",
+        "guideAmethyst": "Amethyst (تطبيق أندرويد)",
+        "getNip05": "توثيق الحساب عبر NIP-05",
+        "guideNostrchat": "NostrChat (تطبيق محادثة)",
+        "guideSweepSats": "التحويل إلى الحفظ الذاتي",
+        "guideSetupWallet": "إعداد محفظة للزابس (Zaps)",
+        "donate": "تبرع"
+    },
+    "donateButton": "تبرع",
+    "colophon": "صُنع بـ 💜 و ⚡ بواسطة",
+    "foss": "برنامج حر ومفتوح المصدر بكل فخر بموجب ",
+    "mitLicense": "رخصة MIT",
+    "contactMe": "تواصل معنا",
+    "donatePage": {
+        "metaTitle": "تبرع | Nostr.how",
+        "metaDescription": "ادعم Nostr.how عبر إرسال Zap، أو التبرع المباشر عبر شبكة البرق (Lightning)، أو بالتواصل معنا لتقديم رعاية أكبر.",
+        "title": "تبرع",
+        "intro": "إذا كان موقع Nostr.how مفيداً لك، فهذه أسهل الطرق للمساعدة في استمرار تطويره وتحسينه.",
+        "zapTitle": "إرسال Zap على نوستر",
+        "zapBody": "إذا كنت تستخدم نوستر بالفعل، فإن أسهل طريقة لدعم Nostr.how هي إرسال Zap مباشرة إلى JeffG من تطبيقك المفضل.",
+        "zapCta": "فتح حساب JeffG على Primal",
+        "lightningTitle": "إرسال ساتوشي مباشرة",
+        "lightningBody": "إذا كنت تفضل الدفع المباشر عبر شبكة البرق (Lightning)، يمكنك إرسال الساتوشي مباشرة إلى عنوان البرق الخاص بـ Nostr.how أدناه.",
+        "lightningCta": "افتح محفظة البرق (Lightning) الخاصة بك",
+        "addressLabel": "عنوان شبكة البرق (Lightning address)",
+        "supportTitle": "دعم تحسينات أكبر",
+        "supportBody": "إذا كنت ترغب في المساعدة في تمويل محتوى أوسع، أو الترجمة، أو تطوير التصميم، تواصل مع JeffG على نوستر للتنسيق.",
+        "supportCta": "تواصل عبر نوستر"
+    },
+    "errors": {
+        "noTranslationTitle": "الترجمة غير متوفرة",
+        "noTranslationMessage": "عذراً، لا توجد ترجمة متوفرة لهذه الصفحة. إذا كنت مهتماً بالمساعدة في ترجمة أو إنشاء هذه الصفحة، يسعدنا تواصلك معنا."
+    }
+}
