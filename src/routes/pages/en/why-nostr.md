@@ -9,7 +9,7 @@ Publishing on the web is fundamentally broken. What started as an open web of pa
 
 These companies control, often in ways they themselves don't even understand, what we read, who we talk to, and what ideas gain traction in our culture. Their pursuit of "engagement" has had tremendous negative consequences for society.
 
-It's time for the web to return to it's open and decentralized roots. It's time for us to take back control of what information we consume, and how we consume it. It's time for us to build more open-minded and constructive communities on internet.
+It's time for the web to return to its open and decentralized roots. It's time for us to take back control of what information we consume, and how we consume it. It's time for us to build more open-minded and constructive communities on internet.
 
 Nostr enables this.
 
@@ -18,7 +18,7 @@ Nostr enables this.
 -   Simple, flexible `Event` format enables publishing of all types: Social media posts, long-form content, rich media, ecommerce, etc.
 -   Verifiability that notes come from a specific user. This helps to combat spam and bots.
 -   Users can connect to many relays, and run their own relays. This makes it hard to censor ideas and people.
--   Integrated with lightning, Nostr enables new [value-for-value](https://value4value.info?utm_source=nostr.how&ref=nostr.how) business models that have the potential to be more fair.
+-   Integrated with lightning, Nostr enables new [value-for-value](https://archive.is/https://value4value.info) business models that have the potential to be more fair.
 -   Nostr is the network for agents. No captcha's, no phone number verifications, no credit cards, no limits. Nostr is perfect for communicating with your OpenClaw or other agent. And since Bitcoin is built in at the protocol level, you can even give your agent a wallet in under 1 minute. There's an [MCP server](https://nostrbook.dev/mcp?utm_source=nostr.how&ref=nostr.how) for Nostr documentation if you're keen to start building.
 
 ## The status quo
