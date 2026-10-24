@@ -12,6 +12,11 @@ import { slide } from "svelte/transition";
 let { children } = $props();
 let layoutDir = $derived(isRtlLocale(page.params.locale || ""));
 
+$effect(() => {
+    // Keep the document direction in sync after client-side locale navigation.
+    document.documentElement.dir = layoutDir ? "rtl" : "ltr";
+});
+
 function closeSidebar() {
     sidebarVisible.set(false);
 }
