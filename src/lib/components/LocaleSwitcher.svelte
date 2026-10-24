@@ -1,6 +1,6 @@
 <script>
-import { locales } from "$lib/config/l10n";
-import Language from "$lib/elements/icons/Language.svelte";
+import { locales } from "#lib/config/l10n.ts";
+import Language from "#lib/elements/icons/Language.svelte";
 
 let menuOpen = $state(false);
 

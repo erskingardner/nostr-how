@@ -1,5 +1,5 @@
 <script>
-import { fallbackLocale } from "$lib/config/l10n";
+import { fallbackLocale } from "#lib/config/l10n.ts";
 import { page } from "$app/state";
 import { _, isLoading } from "svelte-i18n";
 

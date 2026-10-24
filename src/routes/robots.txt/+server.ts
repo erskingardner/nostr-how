@@ -1,13 +1,11 @@
-import { toAbsoluteUrl } from "$lib/config/site";
+import { toAbsoluteUrl } from "#lib/config/site.ts";
 
 export const prerender = true;
 
 export function GET() {
-    const body = [
-        "User-agent: *",
-        "Allow: /",
-        `Sitemap: ${toAbsoluteUrl("/sitemap.xml")}`,
-    ].join("\n");
+    const body = ["User-agent: *", "Allow: /", `Sitemap: ${toAbsoluteUrl("/sitemap.xml")}`].join(
+        "\n"
+    );
 
     return new Response(body, {
         headers: {

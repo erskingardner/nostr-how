@@ -1,5 +1,5 @@
 <script>
-import NavLink from "$lib/components/NavLink.svelte";
+import NavLink from "#lib/components/NavLink.svelte";
 import { isLoading } from "svelte-i18n";
 
 const navLinks = {

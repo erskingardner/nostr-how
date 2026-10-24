@@ -1,7 +1,7 @@
 <script>
-import PageHeader from "$lib/components/PageHeader.svelte";
-import Seo from "$lib/components/Seo.svelte";
-import { donationWays } from "$lib/data/donate";
+import PageHeader from "#lib/components/PageHeader.svelte";
+import Seo from "#lib/components/Seo.svelte";
+import { donationWays } from "#lib/data/donate.ts";
 import { _ } from "svelte-i18n";
 </script>
 
@@ -50,7 +50,7 @@ import { _ } from "svelte-i18n";
                             href={way.href}
                             class="inline-flex items-center rounded-full bg-accent-600 px-4 py-2 font-ui text-[0.92rem] font-medium tracking-[0.01em] text-white no-underline transition-colors duration-150 hover:bg-accent-700 dark:bg-accent-400 dark:text-zinc-950 dark:hover:bg-accent-300"
                             target={way.newTab ? "_blank" : undefined}
-                            rel={way.newTab ? "noreferrer" : undefined}
+                            rel={way.newTab ? "noopener noreferrer" : undefined}
                         >
                             {$_(way.ctaKey)}
                         </a>

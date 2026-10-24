@@ -1,24 +1,24 @@
 <script lang="ts">
 import { page } from "$app/state";
-import { fallbackLocale, supportedLocales } from "$lib/config/l10n";
+import { fallbackLocale, supportedLocales } from "#lib/config/l10n.ts";
 import {
     defaultSocialImagePath,
     defaultTwitterCard,
     siteName,
     toAbsoluteUrl,
-} from "$lib/config/site";
+} from "#lib/config/site.ts";
 
 let {
     title,
     description,
     slug,
     imagePath = defaultSocialImagePath,
-} = $props<{
+}: {
     title: string;
     description: string;
     slug: string;
     imagePath?: string;
-}>();
+} = $props();
 
 let currentLocale = $derived(page.params.locale || fallbackLocale);
 let canonicalUrl = $derived(toAbsoluteUrl(page.url.pathname));

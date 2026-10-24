@@ -1,12 +1,12 @@
 <script>
 import { page } from "$app/state";
-import { isRtlLocale } from "$lib/config/l10n";
+import { isRtlLocale } from "#lib/config/l10n.ts";
 import "../app.css";
-import Footer from "$lib/components/Footer.svelte";
-import Header from "$lib/components/Header.svelte";
-import Sidebar from "$lib/components/Sidebar.svelte";
-import CloseIcon from "$lib/elements/icons/Close.svelte";
-import { sidebarVisible } from "$lib/store";
+import Footer from "#lib/components/Footer.svelte";
+import Header from "#lib/components/Header.svelte";
+import Sidebar from "#lib/components/Sidebar.svelte";
+import CloseIcon from "#lib/elements/icons/Close.svelte";
+import { sidebarVisible } from "#lib/store.ts";
 import { slide } from "svelte/transition";
 
 let { children } = $props();

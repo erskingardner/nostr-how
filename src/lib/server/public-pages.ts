@@ -1,5 +1,5 @@
-import { supportedLocales } from "$lib/config/l10n";
-import { donationWays } from "$lib/data/donate";
+import { supportedLocales } from "#lib/config/l10n.ts";
+import { donationWays } from "#lib/data/donate.ts";
 
 interface MarkdownModule {
     metadata?: {
@@ -55,15 +55,13 @@ function buildMarkdownDocument(title: string, description: string, body: string)
 }
 
 function getNestedMessage(localeMessages: LocaleMessages, path: string) {
-    return path
-        .split(".")
-        .reduce<unknown>((value, segment) => {
-            if (!value || typeof value !== "object") {
-                return undefined;
-            }
+    return path.split(".").reduce<unknown>((value, segment) => {
+        if (!value || typeof value !== "object") {
+            return undefined;
+        }
 
-            return (value as Record<string, unknown>)[segment];
-        }, localeMessages);
+        return (value as Record<string, unknown>)[segment];
+    }, localeMessages);
 }
 
 function renderDonateMarkdown(locale: string) {
@@ -73,25 +71,27 @@ function renderDonateMarkdown(locale: string) {
         return null;
     }
 
-    const sections = donationWays.map((way) => {
-        const title = getNestedMessage(localeMessages, way.titleKey);
-        const body = getNestedMessage(localeMessages, way.bodyKey);
-        const cta = getNestedMessage(localeMessages, way.ctaKey);
+    const sections = donationWays
+        .map((way) => {
+            const title = getNestedMessage(localeMessages, way.titleKey);
+            const body = getNestedMessage(localeMessages, way.bodyKey);
+            const cta = getNestedMessage(localeMessages, way.ctaKey);
 
-        if (typeof title !== "string" || typeof body !== "string" || typeof cta !== "string") {
-            return null;
-        }
+            if (typeof title !== "string" || typeof body !== "string" || typeof cta !== "string") {
+                return null;
+            }
 
-        const lines = [`## ${title}`, "", body];
+            const lines = [`## ${title}`, "", body];
 
-        if (way.address) {
-            lines.push("", `- ${localeMessages.donatePage.addressLabel}: \`${way.address}\``);
-        }
+            if (way.address) {
+                lines.push("", `- ${localeMessages.donatePage.addressLabel}: \`${way.address}\``);
+            }
 
-        lines.push("", `- ${cta}: ${way.href}`);
+            lines.push("", `- ${cta}: ${way.href}`);
 
-        return lines.join("\n");
-    }).filter((section): section is string => Boolean(section));
+            return lines.join("\n");
+        })
+        .filter((section): section is string => Boolean(section));
 
     return buildMarkdownDocument(
         localeMessages.donatePage.title,

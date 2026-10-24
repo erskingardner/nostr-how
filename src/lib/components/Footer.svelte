@@ -1,7 +1,7 @@
 <script>
-import DonateButton from "$lib/components/DonateButton.svelte";
+import DonateButton from "#lib/components/DonateButton.svelte";
 import { isLoading } from "svelte-i18n";
-import GithubIcon from "$lib/elements/icons/Github.svelte";
+import GithubIcon from "#lib/elements/icons/Github.svelte";
 </script>
 
 {#if !$isLoading}
@@ -20,6 +20,7 @@ import GithubIcon from "$lib/elements/icons/Github.svelte";
                         href="https://primal.net/jeffg"
                         class="underline decoration-accent-400/60 underline-offset-4 hover:text-accent-700 dark:hover:text-accent-300"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         JeffG
                     </a></span
@@ -30,6 +31,7 @@ import GithubIcon from "$lib/elements/icons/Github.svelte";
                 <a
                     href="https://github.com/erskingardner/nostr-how"
                     target="_blank"
+                    rel="noopener noreferrer"
                     aria-label="View the source code on GitHub"
                     class="inline-flex h-5 w-5 items-center justify-center text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
                 >

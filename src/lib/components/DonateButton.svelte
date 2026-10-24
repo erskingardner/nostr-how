@@ -1,6 +1,6 @@
 <script>
 import { page } from "$app/state";
-import { fallbackLocale } from "$lib/config/l10n";
+import { fallbackLocale } from "#lib/config/l10n.ts";
 import { _, isLoading } from "svelte-i18n";
 
 /** @typedef {"primary" | "secondary" | "filled" | "outline" | "text"} DonateButtonVariant */

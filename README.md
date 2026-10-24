@@ -15,21 +15,41 @@ A comprehensive guide to all things Nostr. Including step-by-step setup guides a
 ## Getting Started
 
 1. Clone this repo
-2. Install dependencies: `bun install`
-3. Run the dev server: `bun dev`
-4. Open [http://localhost:5173](http://localhost:5173)
+2. Use Node 24 and Bun 1.4.4 (see `packageManager` in `package.json`)
+3. Install dependencies: `bun install --frozen-lockfile`
+4. Run the dev server: `bun dev`
+5. Open [http://localhost:5173](http://localhost:5173)
 
 ### Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `bun dev` | Start development server |
-| `bun run build` | Build for production |
-| `bun run preview` | Preview production build |
-| `bun run check` | Run TypeScript/Svelte type checking |
-| `bun run lint-check` | Check code with Biome |
-| `bun run lint-write` | Fix lint issues with Biome |
-| `bun run format-write` | Format code with Biome |
+| Command                    | Description                                             |
+| -------------------------- | ------------------------------------------------------- |
+| `bun dev`                  | Start development server                                |
+| `bun run build`            | Build for production                                    |
+| `bun run preview`          | Preview production build                                |
+| `bun run check`            | Run TypeScript/Svelte type checking                     |
+| `bun run check:production` | Smoke test routes and CSP after a production build      |
+| `bun run lint-check`       | Check code with Biome                                   |
+| `bun run lint-write`       | Fix lint issues with Biome                              |
+| `bun run format-write`     | Format code with Biome                                  |
+| `bun run audit`            | Audit all locked dependencies for known vulnerabilities |
+
+### Dependency maintenance
+
+CI runs a frozen install, dependency audit, type checks, lint, production build, and HTTP smoke tests.
+Dependabot checks Bun dependencies and GitHub Actions weekly; updates still need review.
+Run `bun update` and the same checks when refreshing the lockfile locally.
+
+TypeScript stays on the latest 6.x release because SvelteKit 3 and `svelte-check`
+currently require that major. Two security overrides in `package.json` replace
+vulnerable transitive dependencies still pinned by upstream packages:
+- `esbuild` 0.28.2 for `svelte-i18n` (its translation extraction CLI).
+- `postcss-selector-parser` 7.1.7 for `@tailwindcss/typography`.
+
+Recheck these overrides when the upstream packages release fixes. Validate both
+the production build and translation extraction before changing them.
+For translation extraction with SvelteKit 3, pass `--config vite.config.ts` to the
+`svelte-i18n extract` command.
 
 ## Contributing
 
@@ -44,7 +64,6 @@ If you're less of a writer but have a sharp eye for typos and grammar, feel free
 ### Translations
 
 Translations have two parts:
-
 1. **UI strings**: JSON files in `/src/lib/locales/` (e.g., `en.json`, `es.json`)
 2. **Content pages**: Markdown files in `/src/routes/pages/{lang}/`
 

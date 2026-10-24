@@ -1,6 +1,6 @@
 <script>
-import PageHeader from "$lib/components/PageHeader.svelte";
-import Seo from "$lib/components/Seo.svelte";
+import PageHeader from "#lib/components/PageHeader.svelte";
+import Seo from "#lib/components/Seo.svelte";
 
 let { data } = $props();
 </script>
