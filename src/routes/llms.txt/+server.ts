@@ -1,6 +1,6 @@
-import { supportedLocales } from "$lib/config/l10n";
-import { toAbsoluteUrl, toMarkdownPath } from "$lib/config/site";
-import { getPublicPages } from "$lib/server/public-pages";
+import { supportedLocales } from "#lib/config/l10n.ts";
+import { toAbsoluteUrl, toMarkdownPath } from "#lib/config/site.ts";
+import { getPublicPages } from "#lib/server/public-pages.ts";
 
 export const prerender = true;
 

@@ -1,4 +1,4 @@
-import { supportedLocales } from "$lib/config/l10n";
+import { supportedLocales } from "#lib/config/l10n.ts";
 
 const contributionUrl = "https://github.com/nostr-how/nostr-how";
 

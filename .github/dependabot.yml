@@ -1,0 +1,20 @@
+version: 2
+updates:
+    - package-ecosystem: bun
+      directory: /
+      schedule:
+          interval: weekly
+      groups:
+          svelte:
+              patterns:
+                  - "@sveltejs/*"
+                  - svelte
+                  - svelte-check
+          tailwind:
+              patterns:
+                  - "@tailwindcss/*"
+                  - tailwindcss
+    - package-ecosystem: github-actions
+      directory: /
+      schedule:
+          interval: weekly

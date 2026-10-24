@@ -1,5 +1,4 @@
 import { error } from "@sveltejs/kit";
-import type { Component } from "svelte";
 import { _ } from "svelte-i18n";
 import { get } from "svelte/store";
 
@@ -19,14 +18,10 @@ export async function load({ params }) {
     } catch {
         const t = get(_);
         if (params.locale === "en") {
-            throw error(404, {
-                title: "Page not found",
-                message: "Sorry, that page doesn't exist.",
-            });
+            error(404, "Sorry, that page doesn't exist.", { title: "Page not found" });
         } else {
-            throw error(404, {
+            error(404, t("errors.noTranslationMessage"), {
                 title: t("errors.noTranslationTitle"),
-                message: t("errors.noTranslationMessage"),
             });
         }
     }

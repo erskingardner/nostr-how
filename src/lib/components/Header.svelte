@@ -1,10 +1,10 @@
 <script>
 import { goto } from "$app/navigation";
 import { page } from "$app/state";
-import DonateButton from "$lib/components/DonateButton.svelte";
-import LocaleSwitcher from "$lib/components/LocaleSwitcher.svelte";
-import MenuIcon from "$lib/elements/icons/Menu.svelte";
-import { sidebarVisible } from "$lib/store";
+import DonateButton from "#lib/components/DonateButton.svelte";
+import LocaleSwitcher from "#lib/components/LocaleSwitcher.svelte";
+import MenuIcon from "#lib/elements/icons/Menu.svelte";
+import { sidebarVisible } from "#lib/store.ts";
 import { isLoading } from "svelte-i18n";
 
 /** @param {string} newLocale */

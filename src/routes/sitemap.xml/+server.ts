@@ -1,5 +1,5 @@
-import { toAbsoluteUrl } from "$lib/config/site";
-import { getPublicPagePaths } from "$lib/server/public-pages";
+import { toAbsoluteUrl } from "#lib/config/site.ts";
+import { getPublicPagePaths } from "#lib/server/public-pages.ts";
 
 export const prerender = true;
 

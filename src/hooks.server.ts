@@ -1,6 +1,6 @@
-import { fallbackLocale, isRtlLocale, supportedLocales } from "$lib/config/l10n";
-import { redirects } from "$lib/data/redirects";
-import type { Handle } from "@sveltejs/kit";
+import { fallbackLocale, isRtlLocale, supportedLocales } from "#lib/config/l10n.ts";
+import { redirects } from "#lib/data/redirects.ts";
+import type { Handle } from "@sveltejs/kit/hooks";
 import { redirect } from "@sveltejs/kit";
 
 function getLocaleFromPathname(pathname: string) {
