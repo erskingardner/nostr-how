@@ -4,7 +4,7 @@ const contributionUrl = "https://github.com/nostr-how/nostr-how";
 
 const localeRedirects = supportedLocales.map((locale) => ({
     old: `/${locale}`,
-    new: `/${locale}/get-started`,
+    new: `/${locale}/what-is-nostr`,
 }));
 
 const localizedGetVerifiedRedirects = supportedLocales.map((locale) => ({
