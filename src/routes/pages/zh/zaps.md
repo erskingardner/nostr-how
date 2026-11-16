@@ -35,7 +35,7 @@ description: 了解打闪是什么，它们是如何工作的，以及您在 Nos
 
 要在 Nostr 上给别人打闪，您只需要两样东西：
 
-1. 一个支持打闪的闪电钱包（如 [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) 或 [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)）
+1. 一个支持打闪的闪电钱包（如 [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)、[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how) 或 [Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how)）
 1. 一个实现了打闪的客户端（如 [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) 或 [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)）
 
 您唯一还需要做的事情，就是确保已经在您的 Nostr 个人资料中设置了闪电地址。这就是您接收打闪的地址。

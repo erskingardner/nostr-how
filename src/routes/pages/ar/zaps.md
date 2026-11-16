@@ -35,7 +35,7 @@ description: تعرف على ماهية الزابس (Zaps)، وكيفية عم�
 
 لإرسال الزابس إلى الآخرين في نوستر، تحتاج إلى أمرين اثنين فقط:
 
-1. محفظة شبكة برق متوافقة مع الزابس (مثل [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) أو [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)).
+1. محفظة شبكة برق متوافقة مع الزابس (مثل [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)، [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how) أو [Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how)).
 2. تطبيق يدعم ميزة الزابس (مثل [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how) أو [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) أو [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)).
 
 الشيء الآخر الوحيد الذي يتعين عليك القيام به هو التأكد من ضبط عنوان شبكة البرق (Lightning Address) الخاص بك داخل ملفك الشخصي على نوستر، فهذا هو العنوان الذي ستتلقى عليه أموال الزابس.

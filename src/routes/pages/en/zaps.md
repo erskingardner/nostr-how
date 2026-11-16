@@ -35,7 +35,7 @@ And this all happens in just a few seconds and costs a tiny fraction of a penny.
 
 To Zap other people in Nostr, you need just two things:
 
-1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) or [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. A Zap-compatible lightning wallet (like [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how), [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how) or [Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how))
 2. A client that has implemented Zaps (like [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how), or [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 The only other thing that you need to do is make sure you have your lightning address set in your Nostr profile. This is the address where you'll receive Zaps.

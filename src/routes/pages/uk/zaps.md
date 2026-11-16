@@ -35,7 +35,7 @@ description: Дізнайтеся, що таке Zaps, як вони працю�
 
 Щоб відправляти Zaps іншим людям у Nostr, вам потрібні лише дві речі:
 
-1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how) або [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. Зап-сумісний lightning гаманець (наприклад, [Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how), [Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how) або [Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how))
 1. Клієнт, який впровадив Zaps (наприклад, [Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how), [Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) або [Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 Єдине, що вам потрібно зробити, це переконатися, що у вашому профілі Nostr встановлена ваша lightning адреса. Це адреса, на яку ви будете отримувати Zaps.

@@ -35,7 +35,7 @@ description: بیاموزید زَپ چیست، چطور کار می کند، و
 
 برای زپ کردن دیگران در ناستر فقط به دو چیز لازم دارید:
 
-1. یک کیف پول لایتنینگی سازگار با زپ (مثل [البی](https://getalby.com?utm_source=nostr.how&ref=nostr.how) یا [کیف ساتوشی](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how))
+1. یک کیف پول لایتنینگی سازگار با زپ (مثل [البی](https://getalby.com?utm_source=nostr.how&ref=nostr.how)، [کیف ساتوشی](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how) یا [Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how))
 1. کلاینتی که زپ را به اجرا درآورده است (مثل [پرایمال](https://primal.net?utm_source=nostr.how&ref=nostr.how)، [داموس](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how) یا [اماتیست](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how))
 
 تنها چیز دیگری که نیاز دارید این است که آدرس لایتنینگی خود را در نمایه تان تنظیم کرده باشید. این آدرسی است که زپ ها را در آن دریافت می کنید.
