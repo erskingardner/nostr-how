@@ -35,7 +35,7 @@ Nostrプロトコルの初期は、ライトニング・インボイスをノー
 
 Nostrで他の人にZapを送るには、必要なものは2つだけです。
 
-1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)や[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)のようなもの）
+1. Zapと互換性のあるライトニング・ウォレット（[Alby](https://getalby.com?utm_source=nostr.how&ref=nostr.how)、[Wallet of Satoshi](https://www.walletofsatoshi.com?utm_source=nostr.how&ref=nostr.how)や[Rizful](https://rizful.com?utm_source=nostr.how&ref=nostr.how)のようなもの）
 1. Zapsを実装しているクライアント（[Primal](https://primal.net?utm_source=nostr.how&ref=nostr.how)、[Damus](https://apps.apple.com/app/damus/id1628663131?utm_source=nostr.how&ref=nostr.how)、[Amethyst](https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst?utm_source=nostr.how&ref=nostr.how)など）
 
 あとは、Nostrのプロフィールにライトニング・アドレスが設定されていることを確認するだけです。これがZapsを受け取るアドレスです。
